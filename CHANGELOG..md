@@ -1,4 +1,4 @@
-# 0.1.2
+# 0.2.0
 - Possible to travel to the Moon in HV
 - Micro and Integrated circuits now require Botania and Botania-derived materials
 - Added Gregicality Rocketry, Just Zoom, Enchantment Descriptions, ME Requester, Sodium/Embeddium Extras, Time In A Bottle, Mana Liquidizer, No Farmland Trample, Right Click Harvest, Inventory Sorter

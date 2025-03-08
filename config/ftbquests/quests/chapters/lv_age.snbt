@@ -26,8 +26,20 @@
 		}
 		{
 			dependencies: ["0E1F6E844041CC9F"]
-			description: ["Crucial machine for creating LV power."]
+			description: [
+				"Crucial machine for creating LV power."
+				""
+				"Route steam into it and it will generate electricity. Though not really a great source of power, it works for the early stages of LV."
+				""
+				"&eConsult the power tab for more info.&r"
+			]
 			id: "03D3442F857F0592"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "719C84CE6713238F"
+				table_id: 3489525684019709649L
+				type: "loot"
+			}]
 			shape: "gear"
 			size: 1.5d
 			tasks: [{
@@ -43,8 +55,20 @@
 				"09ECD67B4648D2EA"
 				"03D3442F857F0592"
 			]
-			description: ["Tired yet?"]
+			description: [
+				"Tired yet?"
+				""
+				"These things are required to craft certain machines and other components."
+				""
+				"It's going to be hard making these components by hand until you get appropriate machines that will do the job for you."
+			]
 			id: "298F63E0659E0FD6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "191BC70C3252C3A9"
+				table_id: 3489525684019709649L
+				type: "loot"
+			}]
 			size: 1.5d
 			tasks: [{
 				id: "24805EF455C7050A"
@@ -67,6 +91,12 @@
 				"Make as much as you are able to, you'll need them, trust me."
 			]
 			id: "0E1F6E844041CC9F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "730144A4454FF52F"
+				table_id: 3489525684019709649L
+				type: "loot"
+			}]
 			shape: "gear"
 			size: 1.5d
 			tasks: [{
@@ -80,6 +110,11 @@
 		}
 		{
 			dependencies: ["1AD99F9620569AA4"]
+			description: [
+				"This machine is one of the essential machines to make your life less miserable."
+				""
+				"It turns ingots into plates and sheets, along with other functionalities."
+			]
 			id: "196B6372301A235E"
 			size: 1.0d
 			tasks: [{
@@ -92,6 +127,11 @@
 		}
 		{
 			dependencies: ["1AD99F9620569AA4"]
+			description: [
+				"One of the essential machines you should make."
+				""
+				"Turns ingots into rods more efficiently than by hand."
+			]
 			id: "7C29E80B0DDAE836"
 			size: 1.0d
 			tasks: [{
@@ -104,6 +144,11 @@
 		}
 		{
 			dependencies: ["298F63E0659E0FD6"]
+			description: [
+				"One of the essential machines to get early."
+				""
+				"Makes crafting wires A LOT less of a pain."
+			]
 			id: "12401DF56940C9F9"
 			size: 1.0d
 			tasks: [{
@@ -119,7 +164,18 @@
 				"53B8480F64FDA089"
 				"1B1B005DA1E7D5DA"
 			]
+			description: [
+				"One of the more important machines."
+				""
+				"Anything you can't do, it does. Everything you do, it can do better."
+			]
 			id: "74C94B5C7B866A34"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7B2B1F12ACEEB5F5"
+				table_id: 3489525684019709649L
+				type: "loot"
+			}]
 			shape: "gear"
 			size: 1.5d
 			tasks: [{
@@ -133,6 +189,12 @@
 		{
 			dependencies: ["298F63E0659E0FD6"]
 			id: "1AD99F9620569AA4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "05964C8E19570C9D"
+				table_id: 3489525684019709649L
+				type: "loot"
+			}]
 			size: 1.5d
 			tasks: [{
 				id: "13A71EEFE85F45F8"
@@ -144,6 +206,7 @@
 		}
 		{
 			dependencies: ["03D3442F857F0592"]
+			description: ["Not a requirement for progression (especially if you have higher level Iron Furnaces), but uses power instead of solid fuel."]
 			id: "4CC0BC35DF5A8F18"
 			tasks: [{
 				id: "56C90758761F1404"
@@ -155,6 +218,7 @@
 		}
 		{
 			dependencies: ["03D3442F857F0592"]
+			description: ["A machine that creates alloys. Usually more efficient than blending dusts by hand."]
 			id: "416D2D2897567BA7"
 			tasks: [{
 				id: "020EA65E86B87D88"
@@ -166,6 +230,11 @@
 		}
 		{
 			dependencies: ["03D3442F857F0592"]
+			description: [
+				"Not required for progression at this stage."
+				""
+				"You can use it to get glass efficiently, and many more things."
+			]
 			id: "01E6A51033DA1518"
 			tasks: [{
 				id: "6CA7F14BA3CAA4F3"
@@ -188,6 +257,7 @@
 		}
 		{
 			dependencies: ["298F63E0659E0FD6"]
+			description: ["Separates things into their components (no this is not the electrolyzer)"]
 			id: "5951A83C0CC6B27D"
 			tasks: [{
 				id: "7AA5294339CD58CC"
@@ -199,6 +269,11 @@
 		}
 		{
 			dependencies: ["298F63E0659E0FD6"]
+			description: [
+				"A chemical reactor creates substances using chemistry."
+				""
+				"It is incredibly useful throughout the pack."
+			]
 			id: "2425F4CE4FE78AC1"
 			tasks: [{
 				id: "5B34E0D422A1B61B"
@@ -210,6 +285,7 @@
 		}
 		{
 			dependencies: ["1AD99F9620569AA4"]
+			description: ["Compresses stuff (you didn't see this one coming did ya?)"]
 			id: "2C3AF8EA8EF8A321"
 			tasks: [{
 				id: "00D83C31629AFEB3"
@@ -221,6 +297,7 @@
 		}
 		{
 			dependencies: ["03D3442F857F0592"]
+			description: ["Separates things into their components (no this is not the centrifuge)"]
 			id: "4D377D42028B96A1"
 			tasks: [{
 				id: "4FCF72B0E5AC601F"
@@ -232,6 +309,7 @@
 		}
 		{
 			dependencies: ["44495C979D17EFD5"]
+			description: ["Extracts stuff from liquids."]
 			id: "20A8D7A27A745592"
 			tasks: [{
 				id: "74100EBEAB9A3FD0"
@@ -243,6 +321,7 @@
 		}
 		{
 			dependencies: ["1AD99F9620569AA4"]
+			description: ["Not really useful in LV, as 90% of the recipes it has require MV voltage."]
 			id: "11ACC7CD8EFFBB66"
 			tasks: [{
 				id: "0E31D8A896B81D9D"
@@ -254,6 +333,7 @@
 		}
 		{
 			dependencies: ["298F63E0659E0FD6"]
+			description: ["Mixes things to create mixed things :BatChest:"]
 			hide_dependent_lines: true
 			id: "4816A85DF7D24F0B"
 			size: 1.0d
@@ -267,6 +347,11 @@
 		}
 		{
 			dependencies: ["298F63E0659E0FD6"]
+			description: [
+				"Not required for progression."
+				""
+				"This little guy washes your dusts/ores."
+			]
 			id: "7EAA57EC0799D40D"
 			tasks: [{
 				id: "3992F3ADBF90A6C6"
@@ -299,7 +384,18 @@
 				"298F63E0659E0FD6"
 				"03D3442F857F0592"
 			]
+			description: [
+				"A component for machines that manipulate liquids."
+				""
+				"Can be used as a cover on a machine."
+			]
 			id: "44495C979D17EFD5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2F9456B88C036EE1"
+				table_id: 3489525684019709649L
+				type: "loot"
+			}]
 			size: 1.5d
 			tasks: [{
 				id: "299B171F8C158356"
@@ -311,7 +407,18 @@
 		}
 		{
 			dependencies: ["1AD99F9620569AA4"]
+			description: [
+				"Can be used as a cover."
+				""
+				"It's very similar to a conveyor, but is smarter and can be configured."
+			]
 			id: "1B1B005DA1E7D5DA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6474BE29E59F685D"
+				table_id: 3489525684019709649L
+				type: "loot"
+			}]
 			size: 1.5d
 			tasks: [{
 				id: "40F518F0A11F8BA7"
@@ -323,7 +430,18 @@
 		}
 		{
 			dependencies: ["298F63E0659E0FD6"]
+			description: [
+				"Can be used as a cover."
+				""
+				"It transfers items."
+			]
 			id: "53B8480F64FDA089"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6625849A4D5EAAAB"
+				table_id: 3489525684019709649L
+				type: "loot"
+			}]
 			size: 1.5d
 			tasks: [{
 				id: "415DDFF88B9399DC"
@@ -348,6 +466,7 @@
 		}
 		{
 			dependencies: ["44495C979D17EFD5"]
+			description: ["Puts stuff into cans (and batteries)."]
 			id: "1996FB28610A07F4"
 			tasks: [{
 				id: "0AF54BBA168B9520"
@@ -359,6 +478,7 @@
 		}
 		{
 			dependencies: ["1996FB28610A07F4"]
+			description: ["You can make a battery using different materials, with Lithium being the best."]
 			id: "7F7FA47652C0FA90"
 			tasks: [
 				{
@@ -395,6 +515,12 @@
 				"With these 2 circuits, you should immediately craft the LV Circuit Assembler, as it is very efficient in making circuits."
 			]
 			id: "07377D4D02DC350A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4F88B2D4010E26D1"
+				table_id: 3489525684019709649L
+				type: "loot"
+			}]
 			shape: "gear"
 			size: 1.5d
 			tasks: [{
@@ -463,6 +589,7 @@
 		}
 		{
 			dependencies: ["1AD99F9620569AA4"]
+			description: ["If the igneous extruder is not good enough for you."]
 			id: "597B768AC0E3FBEC"
 			tasks: [{
 				id: "79E17099F22F5C5E"
@@ -487,6 +614,20 @@
 			]
 			icon: "gtceu:electric_blast_furnace"
 			id: "318CA73CE4C3DC3D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5E333F1B38E79107"
+					table_id: 3489525684019709649L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6B31235CAE55D981"
+					table_id: 3489525684019709649L
+					type: "loot"
+				}
+			]
 			shape: "gear"
 			size: 1.5d
 			tasks: [
@@ -542,6 +683,12 @@
 				"Make sure to make a lot of it!"
 			]
 			id: "18BC6F844CF368EF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4EA074C96D338039"
+				table_id: 3489525684019709649L
+				type: "loot"
+			}]
 			shape: "gear"
 			size: 1.5d
 			tasks: [{
@@ -656,6 +803,12 @@
 			dependencies: ["07377D4D02DC350A"]
 			description: ["Makes circuits a lot more efficient to make."]
 			id: "6B22D87DF0CDC580"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6812EDB6DBE05FAB"
+				table_id: 3489525684019709649L
+				type: "loot"
+			}]
 			shape: "gear"
 			size: 1.0d
 			tasks: [{
@@ -734,6 +887,11 @@
 		}
 		{
 			dependencies: ["298F63E0659E0FD6"]
+			description: [
+				"A cutter cuts things. "
+				""
+				"For now you can use it to make bolts, but it only gets more useful later on."
+			]
 			id: "0ADAD20D4196337D"
 			tasks: [{
 				id: "5E22F7BF0CECAAC5"
@@ -840,7 +998,11 @@
 		}
 		{
 			dependencies: ["4521814F0D4989E9"]
-			description: ["Paper is made using Chad, which is made from Sugarcane."]
+			description: [
+				"Paper is made using Chad, which is made from Sugarcane."
+				""
+				"You can make sugarcane using Botania's Apothecary with Carrots. You can get Carrots from the market."
+			]
 			hide_dependency_lines: true
 			id: "527C703959FD9B65"
 			tasks: [{
@@ -869,6 +1031,7 @@
 		}
 		{
 			dependencies: ["44495C979D17EFD5"]
+			description: ["Distills liquids."]
 			id: "59B4E0F4EA02306B"
 			tasks: [{
 				id: "73E33CD17C8C95FD"
@@ -926,6 +1089,11 @@
 		}
 		{
 			dependencies: ["74C94B5C7B866A34"]
+			description: [
+				"Welcome to tier 2 of Botania."
+				""
+				"This will open up crafting with mana, check out the recipes it has, something might be of use to you."
+			]
 			disable_toast: true
 			id: "01A0E9661BB0FDAB"
 			tasks: [{
@@ -937,19 +1105,24 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["59B4E0F4EA02306B"]
-			description: ["You can make Lubricant in a Brewery, using Talc, Soapstone or Redstone with Oil, Seed Oil or Creosote."]
+			dependencies: [
+				"59B4E0F4EA02306B"
+				"1767841E26CE2BE4"
+			]
+			dependency_requirement: "one_completed"
+			description: ["You can make Lubricant in a Brewery or Distillery using a wide range of stuff"]
 			id: "3F93873DE169ED25"
 			tasks: [{
 				id: "68A3B4AF78395BF5"
 				item: "gtceu:lubricant_bucket"
 				type: "item"
 			}]
-			x: 16.5d
+			x: 18.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["01A0E9661BB0FDAB"]
+			description: ["Manasteel is the first metal you'll get in Botania."]
 			id: "55D76A052A9EE6A0"
 			tasks: [{
 				id: "40E8B07C3856E4DB"
@@ -985,7 +1158,7 @@
 				type: "item"
 			}]
 			title: "Powah"
-			x: 16.5d
+			x: 18.0d
 			y: 1.5d
 		}
 		{
@@ -1045,7 +1218,7 @@
 			y: -4.5d
 		}
 		{
-			dependencies: ["0E1F6E844041CC9F"]
+			dependencies: ["44495C979D17EFD5"]
 			id: "14DC5DD0B504E902"
 			tasks: [{
 				id: "535612784E5DC6B0"
@@ -1056,8 +1229,8 @@
 				}
 				type: "item"
 			}]
-			x: -1.5d
-			y: -1.5d
+			x: 16.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["74C94B5C7B866A34"]
@@ -1077,6 +1250,11 @@
 		}
 		{
 			dependencies: ["45961AD543495B1D"]
+			description: [
+				"Place a lava source and a water source on opposites sides of this block, and it will passively generate stone."
+				""
+				"It does not export items by default, so you're going to have to pull from it."
+			]
 			id: "1845F5B69046AA95"
 			tasks: [{
 				id: "002EA2B577FE7C7F"
@@ -1088,6 +1266,7 @@
 		}
 		{
 			dependencies: ["416D2D2897567BA7"]
+			description: ["An alloy of iron and nickel. Needed to make casings for the EBF"]
 			id: "45961AD543495B1D"
 			tasks: [{
 				id: "397C07F13B6E277F"
@@ -1096,18 +1275,6 @@
 			}]
 			x: 3.0d
 			y: 2.0d
-		}
-		{
-			dependencies: ["35CB055A24346DE1"]
-			id: "0AA5DDE425B141B5"
-			optional: true
-			tasks: [{
-				id: "2A01D0215E3605E0"
-				item: "mob_grinding_utils:xpsolidifier"
-				type: "item"
-			}]
-			x: -3.0d
-			y: -4.5d
 		}
 		{
 			dependencies: ["35CB055A24346DE1"]
@@ -1133,7 +1300,7 @@
 				type: "item"
 			}]
 			x: -3.0d
-			y: -1.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["6C3A8FBF865AF3E0"]
@@ -1149,6 +1316,17 @@
 			}]
 			x: -6.0d
 			y: -3.0d
+		}
+		{
+			dependencies: ["44495C979D17EFD5"]
+			id: "1767841E26CE2BE4"
+			tasks: [{
+				id: "3E42A389DABB4ADC"
+				item: "gtceu:lv_brewery"
+				type: "item"
+			}]
+			x: 18.0d
+			y: -1.5d
 		}
 	]
 	title: "LV Age"

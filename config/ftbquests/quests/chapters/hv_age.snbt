@@ -136,8 +136,8 @@
 				item: "gtceu:hv_assembler"
 				type: "item"
 			}]
-			x: -5.0d
-			y: 0.0d
+			x: -10.5d
+			y: -3.0d
 		}
 		{
 			dependencies: [
@@ -401,19 +401,7 @@
 			y: 7.5d
 		}
 		{
-			dependencies: ["59775F7F175FF086"]
-			id: "36E2F6D2A1388D1C"
-			size: 1.0d
-			tasks: [{
-				id: "6728D80E9B031515"
-				item: "gtceu:hv_mixer"
-				type: "item"
-			}]
-			x: -16.0d
-			y: -3.0d
-		}
-		{
-			dependencies: ["36E2F6D2A1388D1C"]
+			dependencies: ["0CECA3E8DF49EA33"]
 			id: "4AEC76A5E18BF772"
 			size: 1.0d
 			tasks: [{
@@ -421,8 +409,8 @@
 				item: "gtceu:energy_crystal"
 				type: "item"
 			}]
-			x: -17.5d
-			y: -3.0d
+			x: -2.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["59775F7F175FF086"]
@@ -446,8 +434,7 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["59775F7F175FF086"]
-			hide_dependency_lines: true
+			dependencies: ["273E6401132B67CF"]
 			id: "684E563297A20A13"
 			size: 1.0d
 			tasks: [{
@@ -455,20 +442,7 @@
 				item: "gtceu:hv_super_chest"
 				type: "item"
 			}]
-			x: -18.0d
-			y: 4.0d
-		}
-		{
-			dependencies: ["59775F7F175FF086"]
-			hide_dependency_lines: true
-			id: "3BDA4407BF2CC45D"
-			size: 1.0d
-			tasks: [{
-				id: "7DBFCA657F516F5B"
-				item: "gtceu:hv_super_tank"
-				type: "item"
-			}]
-			x: -18.0d
+			x: -16.0d
 			y: 3.0d
 		}
 		{
@@ -523,7 +497,10 @@
 			y: 10.0d
 		}
 		{
-			dependencies: ["70CA8E65AA945363"]
+			dependencies: [
+				"70CA8E65AA945363"
+				"40E5E5D9E58528D2"
+			]
 			id: "44890B3796B295E2"
 			size: 1.0d
 			tasks: [{
@@ -570,8 +547,8 @@
 				}
 			]
 			title: "NanoMuscle Armor"
-			x: -19.0d
-			y: -3.0d
+			x: -1.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["59775F7F175FF086"]
@@ -640,8 +617,7 @@
 			y: -12.5d
 		}
 		{
-			dependencies: ["59775F7F175FF086"]
-			hide_dependency_lines: true
+			dependencies: ["0C4E72AB5A1B13E6"]
 			id: "6BD0E91035055F7D"
 			size: 1.0d
 			tasks: [{
@@ -649,8 +625,8 @@
 				item: "gtceu:hv_item_magnet"
 				type: "item"
 			}]
-			x: -19.0d
-			y: 3.0d
+			x: -13.0d
+			y: 4.5d
 		}
 		{
 			dependencies: [
@@ -822,7 +798,7 @@
 				type: "item"
 			}]
 			x: -13.0d
-			y: 1.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["1DA37C72B3F83FD4"]
@@ -871,8 +847,8 @@
 				item: "gtceu:stainless_steel_fluid_cell"
 				type: "item"
 			}]
-			x: -19.0d
-			y: 4.0d
+			x: -14.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["1DA37C72B3F83FD4"]
@@ -888,7 +864,11 @@
 		}
 		{
 			dependencies: ["59775F7F175FF086"]
-			description: ["Now your macerators have unlocked chanced byproducts!"]
+			description: [
+				"Now your macerators have unlocked chanced byproducts!"
+				""
+				"I recommend building an advanced processing line somewhat soon, to extract as much as you can from the ores you are getting."
+			]
 			id: "2B5F523C728A64C3"
 			size: 1.0d
 			tasks: [{
@@ -909,10 +889,13 @@
 				type: "item"
 			}]
 			x: -13.0d
-			y: 3.0d
+			y: 1.5d
 		}
 		{
-			dependencies: ["42993980A7D65EBB"]
+			dependencies: [
+				"42993980A7D65EBB"
+				"512B03E7BB59B936"
+			]
 			id: "2894F38706D609AD"
 			size: 1.0d
 			tasks: [{
@@ -1203,6 +1186,7 @@
 				"36981BBAECB87212"
 				"5DE437C1810F3513"
 				"736AA526360DFDFC"
+				"0CECA3E8DF49EA33"
 			]
 			description: ["Blitz, Blizz and Basalz powders make Mythic Compound."]
 			id: "7DFAB08F359689DD"
@@ -1271,6 +1255,65 @@
 			}]
 			x: 13.0d
 			y: -5.5d
+		}
+		{
+			dependencies: ["59775F7F175FF086"]
+			id: "0CECA3E8DF49EA33"
+			tasks: [{
+				id: "2FF99897C494265F"
+				item: "gtceu:hv_mixer"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"59775F7F175FF086"
+				"66606096794A8A3B"
+			]
+			id: "512B03E7BB59B936"
+			tasks: [{
+				id: "4229035B36AA189E"
+				item: "botania:glimmering_livingwood_log"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["59775F7F175FF086"]
+			id: "66606096794A8A3B"
+			tasks: [{
+				id: "70192B2B50BB420D"
+				item: "gtceu:hv_chemical_bath"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["59775F7F175FF086"]
+			hide_dependency_lines: true
+			id: "40E5E5D9E58528D2"
+			tasks: [{
+				id: "55AD73D3B65FFEB7"
+				item: "gtceu:nitration_mixture_bucket"
+				type: "item"
+			}]
+			x: 15.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["508C959C59F50CAF"]
+			id: "4A0E391E525A5A38"
+			tasks: [{
+				id: "2471A1AD8C86C0F0"
+				item: "gtceu:hv_super_tank"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -11.0d
 		}
 	]
 	title: "HV Age"
