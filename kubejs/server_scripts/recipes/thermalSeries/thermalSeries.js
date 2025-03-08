@@ -149,6 +149,7 @@ yeet('thermal:copper_dust')
 yeet('thermal:netherite_dust')
 yeet('thermal:gold_dust')
 yeet('thermal:rose_gold_dust')
+yeet('thermal:lumium_dust')
 // gears
 yeet('thermal:tin_gear')
 yeet('thermal:lead_gear')

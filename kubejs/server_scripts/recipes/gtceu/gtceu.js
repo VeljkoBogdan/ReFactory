@@ -337,4 +337,26 @@ ServerEvents.recipes(event => {
         .itemOutputs('gtceu:mythic_compound_dust')
         .duration(20*8)
         .EUt(GTValues.VA[GTValues.HV])
+
+    // Lumium recipe
+    event.recipes.gtceu.mixer('lumium')
+        .itemInputs(
+            '3x gtceu:tin_dust',
+            'gtceu:silver_dust',
+            '4x glowstone_dust'
+        )
+        .inputFluids(
+            Fluid.of('gtceu:mistrium', 1000)
+        )
+        .itemOutputs('4x gtceu:lumium_dust')
+        .duration(20*16)
+        .EUt(GTValues.VA[GTValues.HV])
+
+    // Remove default lumium recipes
+    event.remove({id: 'thermal:fire_charge/lumium_ingot_4'})
+    event.remove({id: 'thermal:lumium_dust_4'})
+    event.remove({output: 'gtceu:lumium_dust', mod:'thermal'})
+    event.remove({output: 'gtceu:lumium_dust', mod:'enderio'})
+    event.remove({output: 'gtceu:lumium_ingot', mod:'thermal'})
+    event.remove({output: 'gtceu:lumium_ingot', mod:'enderio'})
 })
