@@ -54,4 +54,24 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
     )
     .iconSet(GTMaterialIconSet.SHINY)
     .blastTemp(1200, null, GTValues.VA[GTValues.MV], 20*10)
+
+    // EV
+    event.create('gaia')
+        .ingot()
+        .color(0xa89f78)
+        .secondaryColor(0x51315f)
+        .cableProperties(GTValues.V[GTValues.EV], 4, 0, true)
+        .flags(
+            GTMaterialFlags.GENERATE_PLATE, 
+            GTMaterialFlags.GENERATE_LONG_ROD,
+            GTMaterialFlags.GENERATE_BOLT_SCREW,
+            GTMaterialFlags.GENERATE_DENSE,
+            GTMaterialFlags.GENERATE_RING,
+            GTMaterialFlags.GENERATE_FINE_WIRE,
+            GTMaterialFlags.GENERATE_FOIL,
+            GTMaterialFlags.GENERATE_GEAR,
+            GTMaterialFlags.GENERATE_ROD,
+            GTMaterialFlags.GENERATE_ROTOR
+        )
+        .iconSet(GTMaterialIconSet.METALLIC)
 })
