@@ -359,4 +359,17 @@ ServerEvents.recipes(event => {
     event.remove({output: 'gtceu:lumium_dust', mod:'enderio'})
     event.remove({output: 'gtceu:lumium_ingot', mod:'thermal'})
     event.remove({output: 'gtceu:lumium_ingot', mod:'enderio'})
+
+    // Artificial Cloud recipe
+    event.recipes.gtceu.mixer('artificial_cloud')
+        .itemInputs(
+            'gtceu:mythic_compound_dust',
+            '2x gtceu:gold_dust'
+        )
+        .inputFluids(
+            Fluid.of('gtceu:steam', 16000)
+        )
+        .itemOutputs('kubejs:artificial_cloud_block')
+        .duration(20*10)
+        .EUt(GTValues.VA[GTValues.HV])
 })
