@@ -518,9 +518,6 @@ ServerEvents.recipes(event => {
         )
         .duration(20*10)
         .EUt(GTValues.VA[GTValues.LV] / 2)
-
-    
-
 })
 
 // yeet('botania:manasteel_ingot')

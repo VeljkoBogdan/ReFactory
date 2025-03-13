@@ -167,11 +167,7 @@
 				"2CD891A182DBFE28"
 				"1DF08C90B56E3423"
 			]
-			description: [
-				"Very useful item that is cut into wafers, used to craft various parts of electronic circuits."
-				""
-				"&8For the nerds like me: Boules are made by dipping a silicon crystal into molten silicon, and slowly pulling it up, making a big chunk of silicon, called the silicon boule, or ingot.&r"
-			]
+			description: ["Very useful item that is cut into wafers, used to craft various parts of electronic circuits."]
 			id: "1984444D466E8EEF"
 			shape: "gear"
 			size: 1.5d
@@ -1288,6 +1284,22 @@
 			}]
 			x: 4.5d
 			y: 2.0d
+		}
+		{
+			description: [
+				"You might have noticed you are getting low on resources."
+				""
+				"It is strongly recommended to build multiple EBFs (no rush though). It will boost your production and make you ready for later progression."
+			]
+			id: "0410AC09EFAAB629"
+			tasks: [{
+				count: 4L
+				id: "329CFB7B2E81AC83"
+				item: { Count: 4, id: "gtceu:electric_blast_furnace" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: -3.0d
 		}
 	]
 	title: "MV Age"

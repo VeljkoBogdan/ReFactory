@@ -246,6 +246,7 @@
 		}
 		{
 			dependencies: ["44495C979D17EFD5"]
+			description: ["Turns certain dusts into gems, among other things."]
 			id: "662A64496CA2E824"
 			tasks: [{
 				id: "1706653C1D728D37"
@@ -550,6 +551,7 @@
 		}
 		{
 			dependencies: ["1AD99F9620569AA4"]
+			description: ["You will need this machine to create the Phenolic Circuit boards for now."]
 			id: "14A2B15A4B228C88"
 			size: 1.0d
 			tasks: [{
@@ -565,6 +567,7 @@
 				"5B86B4616F141E18"
 				"14A2B15A4B228C88"
 			]
+			description: ["Press some silver wires into the boards in a Forming Press and Woila!"]
 			id: "2770BFB05F1E26EC"
 			tasks: [{
 				count: 2L
@@ -577,6 +580,7 @@
 		}
 		{
 			dependencies: ["74C94B5C7B866A34"]
+			description: ["You will need 2 to create 2 MV circuit boards."]
 			id: "5B86B4616F141E18"
 			tasks: [{
 				count: 2L
@@ -1219,6 +1223,7 @@
 		}
 		{
 			dependencies: ["44495C979D17EFD5"]
+			description: ["A simple jetpack, but needs liquid fuel, which you might not have at this stage."]
 			id: "14DC5DD0B504E902"
 			tasks: [{
 				id: "535612784E5DC6B0"

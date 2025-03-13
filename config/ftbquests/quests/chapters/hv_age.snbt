@@ -920,7 +920,10 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["4CAEA7913D1BDE3B"]
+			dependencies: [
+				"4CAEA7913D1BDE3B"
+				"41DC9E77D843E0D2"
+			]
 			description: ["The Aether air contains useful materials, like Fluorine, Ozone, Helium and Mistrium"]
 			id: "6CB7D934C87C3EB9"
 			size: 1.0d
@@ -1314,6 +1317,19 @@
 			}]
 			x: -9.5d
 			y: -11.0d
+		}
+		{
+			dependencies: ["59775F7F175FF086"]
+			id: "452239D2CC8CCC7D"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "075C3BDDD20A87CC"
+				item: "gtceu:large_mana_pool"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 3.0d
 		}
 	]
 	title: "HV Age"
