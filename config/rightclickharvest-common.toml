@@ -1,0 +1,8 @@
+#Only allow harvesting certain crops (e.g. wheat, carrots) if the player is holding a hoe in their hand.
+requireHoe = false
+#Make hoes of different tiers harvest multiple blocks in a radius.
+harvestInRadius = true
+#The food usage when harvesting crops.
+#Allowed Values: NONE, LOW, NORMAL, HIGH
+hungerLevel = "NORMAL"
+
