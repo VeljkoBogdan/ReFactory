@@ -1,5 +1,5 @@
 # 0.2.0
-- Multiple new multiblocks: Crystal Puller, Large Mana Pool, Mana Generator
+- Multiple new multiblocks: Crystal Puller, Large Mana Pool, Mana Generator, Greenhouse
 - Possible to travel to the Moon in HV (Required for platinum)
 - Micro and Integrated circuits now require Botania and Botania-derived materials
 - Added Gregicality Rocketry, Just Zoom, Enchantment Descriptions, ME Requester, Sodium/Embeddium Extras, Time In A Bottle, Mana Liquidizer, No Farmland Trample, Right Click Harvest, Inventory Sorter
@@ -7,7 +7,6 @@
 - Removed Gregified Integrations (bye bye!!!)
 - A lot of questbook improvements
 - Removed Bauxite from the overworld Mica vein
-- Added the Greenhouse
 - Many Minor mods Gregified
 - Mana Cores now crafted with LV circuits instead of LV machine casings
 - Unified a lot of recipes
