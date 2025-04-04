@@ -16,5 +16,5 @@
 	vanillaStyleTooltips = false
 	#Show tooltips on certain items (like blueprints) reminding the player of JEI functionality,
 	#or encouraging the player to install JEI (Just Enough Items) if the mod is missing.
-	jeiHints = true
+	jeiHints = false
 
