@@ -1,5 +1,6 @@
 # 0.2.0
-- Possible to travel to the Moon in HV
+- Multiple new multiblocks: Crystal Puller, Large Mana Pool, Mana Generator
+- Possible to travel to the Moon in HV (Required for platinum)
 - Micro and Integrated circuits now require Botania and Botania-derived materials
 - Added Gregicality Rocketry, Just Zoom, Enchantment Descriptions, ME Requester, Sodium/Embeddium Extras, Time In A Bottle, Mana Liquidizer, No Farmland Trample, Right Click Harvest, Inventory Sorter
 - Updated GregTech, EnderIO, and a bunch more mods

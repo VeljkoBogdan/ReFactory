@@ -372,4 +372,43 @@ ServerEvents.recipes(event => {
         .itemOutputs('kubejs:artificial_cloud_block')
         .duration(20*10)
         .EUt(GTValues.VA[GTValues.HV])
+
+    // Platinum processing
+    // Remove the old platinum group sludge in centrifuge recipe
+    event.remove({id: 'gtceu:centrifuge/pgs_separation'})
+
+    // DOESNT WORK FOR SOME REASON Remove all the other recipes that output pgs dust except sheldonite
+    // event.remove({output: 'gtceu:platinum_group_sludge_dust', input: {not: 'gtceu:purified_cooperite_ore'}, type: 'gtceu:chemical_reactor'})
+    // event.remove({output: 'gtceu:platinum_group_sludge_dust', input: {not: 'gtceu:purified_cooperite_ore'}, type: 'gtceu:large_chemical_reactor'})
+
+    // Removing pgs output from all recipes except purified sheldonite
+    event.remove({id: 'gtceu:chemical_reactor/pgs_from_pentlandite'})
+    event.remove({id: 'gtceu:chemical_reactor/pgs_from_bornite'})
+    event.remove({id: 'gtceu:chemical_reactor/pgs_from_chalcocite'})
+    event.remove({id: 'gtceu:chemical_reactor/pgs_from_chalcopyrite'})
+    event.remove({id: 'gtceu:chemical_reactor/pgs_from_tetrahedrite'})
+    // LCR
+    event.remove({id: 'gtceu:large_chemical_reactor/pgs_from_pentlandite'})
+    event.remove({id: 'gtceu:large_chemical_reactor/pgs_from_bornite'})
+    event.remove({id: 'gtceu:large_chemical_reactor/pgs_from_chalcocite'})
+    event.remove({id: 'gtceu:large_chemical_reactor/pgs_from_chalcopyrite'})
+    event.remove({id: 'gtceu:large_chemical_reactor/pgs_from_tetrahedrite'})
+
+    // Add the pgs separation recipe back but now EV
+    event.recipes.gtceu.centrifuge('pgs_separation')
+        .itemInputs(
+            '6x gtceu:platinum_group_sludge_dust'
+        )
+        .inputFluids(
+            Fluid.of('gtceu:aqua_regia', 1200)
+        )
+        .itemOutputs(
+            '3x gtceu:platinum_raw_dust',
+            '3x gtceu:palladium_raw_dust',
+            '2x gtceu:inert_metal_mixture_dust',
+            'gtceu:rarest_metal_mixture_dust',
+            '2x gtceu:platinum_sludge_residue_dust'
+        )
+        .duration(20*25)
+        .EUt(GTValues.VA[GTValues.EV])
 })
