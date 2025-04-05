@@ -2,7 +2,7 @@ GTCEuServerEvents.oreVeins(event => {
     // aether aluminium vein
     event.add('kubejs:aluminium', vein => {
         vein.layer('aether_islands')
-        vein.weight(20)
+        vein.weight(30)
         vein.clusterSize(85)
         vein.density(0.35)
         vein.discardChanceOnAirExposure(0)
@@ -24,7 +24,7 @@ GTCEuServerEvents.oreVeins(event => {
     // aether ambrosium vein
     event.add('kubejs:ambrosium', vein => {
         vein.layer('aether_islands')
-        vein.weight(25)
+        vein.weight(30)
         vein.clusterSize(70)
         vein.density(0.30)
         vein.discardChanceOnAirExposure(0)

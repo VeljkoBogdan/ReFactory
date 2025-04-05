@@ -3,8 +3,8 @@ GTCEuServerEvents.oreVeins(event => {
     event.add('kubejs:sheldonite_vein_moon', vein => {
         vein.layer('moon_rock')
         vein.weight(30)
-        vein.clusterSize(85)
-        vein.density(0.35)
+        vein.clusterSize(30)
+        vein.density(0.2)
         vein.discardChanceOnAirExposure(0)
         vein.heightRangeUniform(32, 96)
         vein.layeredVeinGenerator(generator => generator
@@ -25,8 +25,8 @@ GTCEuServerEvents.oreVeins(event => {
     event.add('kubejs:neodymium_vein_moon', vein => {
         vein.layer('moon_rock')
         vein.weight(30)
-        vein.clusterSize(85)
-        vein.density(0.35)
+        vein.clusterSize(30)
+        vein.density(0.2)
         vein.discardChanceOnAirExposure(0)
         vein.heightRangeUniform(-50, 64)
         vein.layeredVeinGenerator(generator => generator
