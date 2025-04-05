@@ -6,6 +6,7 @@
 - Updated GregTech, EnderIO, and a bunch more mods
 - Removed Gregified Integrations (bye bye!!!)
 - A lot of questbook improvements
+- Gregified Ae2
 - Removed Bauxite from the overworld Mica vein
 - Many Minor mods Gregified
 - Mana Cores now crafted with LV circuits instead of LV machine casings

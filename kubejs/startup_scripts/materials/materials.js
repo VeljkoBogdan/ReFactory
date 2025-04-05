@@ -274,6 +274,24 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
             'blizz'
         )
 
+    // Charged certus quartz
+    event.create('charged_certus_quartz')
+        .gem()
+        .color(0xcce0ff)
+        .secondaryColor(0xffffff)
+        .iconSet(GTMaterialIconSet.CERTUS)
+        .components(
+            'silicon',
+            '2x oxygen'
+        )
+
+    // Fluix Crystal
+    event.create('fluix_crystal')
+        .gem()
+        .dust()
+        .color(0xd929a1)
+        .iconSet(GTMaterialIconSet.CERTUS)
+
     // Ad Astra
     // Desh
     // event.create('desh')

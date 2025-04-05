@@ -482,7 +482,7 @@
 				type: "item"
 			}]
 			x: 15.0d
-			y: 4.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["20831A754A2A5392"]
@@ -1327,6 +1327,22 @@
 			}]
 			x: -5.0d
 			y: 3.0d
+		}
+		{
+			dependencies: ["43D222FD4AF3280E"]
+			description: [
+				"This is your entry to Applied Energistics!"
+				""
+				"Go to the &3Applied Energistics 2&r tab to find out more"
+			]
+			id: "34FF2CB02D1A73FB"
+			tasks: [{
+				id: "031BD5AB8927361C"
+				item: "ae2:energy_acceptor"
+				type: "item"
+			}]
+			x: 21.0d
+			y: 0.0d
 		}
 	]
 	title: "HV Age"

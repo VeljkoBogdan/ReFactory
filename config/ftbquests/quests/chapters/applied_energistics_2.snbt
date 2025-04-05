@@ -86,7 +86,6 @@
 			y: -5.0d
 		}
 		{
-			dependencies: ["410AC3EF063300E8"]
 			icon: "ae2:cell_component_1k"
 			id: "741FE44D9DD27659"
 			tasks: [{

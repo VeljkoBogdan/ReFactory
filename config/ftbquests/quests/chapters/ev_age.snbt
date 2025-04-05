@@ -437,39 +437,6 @@
 			y: -9.0d
 		}
 		{
-			dependencies: ["0787681ADFECEC77"]
-			id: "410AC3EF063300E8"
-			tasks: [{
-				id: "5E8931A5F63F0683"
-				item: "ae2:cell_component_1k"
-				type: "item"
-			}]
-			x: 6.5d
-			y: -7.0d
-		}
-		{
-			dependencies: ["0787681ADFECEC77"]
-			id: "0CC0D11502538C0F"
-			tasks: [{
-				id: "28C9BC79FC629F18"
-				item: "ae2:spatial_cell_component_2"
-				type: "item"
-			}]
-			x: 4.5d
-			y: -7.0d
-		}
-		{
-			dependencies: ["5155F1DFD1D1AD33"]
-			id: "2F32051AD304E1B1"
-			tasks: [{
-				id: "610507B7E3959613"
-				item: "ae2:inscriber"
-				type: "item"
-			}]
-			x: 4.5d
-			y: -9.0d
-		}
-		{
 			dependencies: ["2DC6D2C059E8BE07"]
 			id: "65F511A3B3D9F0A5"
 			tasks: [{
