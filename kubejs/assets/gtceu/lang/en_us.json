@@ -57,10 +57,12 @@
     "tooltip.gtceu.multiblock.large_mana_pool": "Used to simulate Mana Pool recipes using Mana",
     "tooltip.gtceu.multiblock.mana_generator": "Used to simulate botania flowers, outputing Mana",
 
-    "gtceu.jei.ore_vein.zanite": "Zanite Ore Vein",
-    "gtceu.jei.ore_vein.ambrosium": "Ambrosium Ore Vein",
-    "gtceu.jei.ore_vein.aluminium": "Aluminium Ore Vein",
-    "gtceu.jei.ore_vein.desh": "Desh Ore Vein",
-    "gtceu.jei.ore_vein.ostrum": "Ostrum Ore Vein",
-    "gtceu.jei.ore_vein.calorite": "Calorite Ore Vein"
+    "gtceu.jei.ore_vein.zanite": "Zanite Vein",
+    "gtceu.jei.ore_vein.ambrosium": "Ambrosium Vein",
+    "gtceu.jei.ore_vein.aluminium": "Aluminium Vein",
+    "gtceu.jei.ore_vein.desh": "Desh Vein",
+    "gtceu.jei.ore_vein.ostrum": "Ostrum Vein",
+    "gtceu.jei.ore_vein.calorite": "Calorite Vein",
+    "gtceu.jei.ore_vein.sheldonite_vein_moon": "Sheldonite Vein",
+    "gtceu.jei.ore_vein.neodymium_vein_moon": "Neodymium Vein"
 }
