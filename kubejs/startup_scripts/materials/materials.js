@@ -290,6 +290,9 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
         .gem()
         .dust()
         .color(0xd929a1)
+        .flags(
+            GTMaterialFlags.GENERATE_PLATE
+        )
         .iconSet(GTMaterialIconSet.CERTUS)
 
     // Ad Astra
