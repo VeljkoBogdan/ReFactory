@@ -1329,20 +1329,21 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["43D222FD4AF3280E"]
+			dependencies: ["59775F7F175FF086"]
 			description: [
-				"This is your entry to Applied Energistics!"
+				"Now you can try some Applied Energistics!"
 				""
 				"Go to the &3Applied Energistics 2&r tab to find out more"
 			]
 			id: "34FF2CB02D1A73FB"
+			size: 1.5d
 			tasks: [{
 				id: "031BD5AB8927361C"
 				item: "ae2:energy_acceptor"
 				type: "item"
 			}]
-			x: 21.0d
-			y: 0.0d
+			x: -8.0d
+			y: -3.0d
 		}
 	]
 	title: "HV Age"

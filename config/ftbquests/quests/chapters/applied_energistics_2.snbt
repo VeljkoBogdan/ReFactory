@@ -9,83 +9,72 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["0F3D795EAAE3E8DC"]
+			dependencies: ["34FF2CB02D1A73FB"]
+			description: [
+				"Welcome to Applied Energistics 2!"
+				""
+				"Say goodbye to bulky chests and hello to &3digital storage&r! "
+				""
+				"AE2 lets you store thousands of items in a compact, searchable ME Network. Build &3drives&r, &cautomate crafting&r, and control it all from a sleek terminal."
+			]
 			id: "77FC61AFA9608A79"
+			shape: "square"
 			tasks: [{
-				id: "335604F1D9BDD822"
-				item: "ae2:energy_acceptor"
-				type: "item"
+				id: "626E00F4F111D828"
+				title: "AE2"
+				type: "checkmark"
 			}]
 			x: 0.0d
 			y: -1.5d
 		}
 		{
-			dependencies: ["77FC61AFA9608A79"]
+			dependencies: ["12371EF38C4F92BC"]
+			description: ["This is the &cheart&r of your network, you'll need one for every network."]
 			id: "0DC674B323CEA988"
 			tasks: [{
 				id: "6D19A9B4BC608D68"
 				item: "ae2:controller"
 				type: "item"
 			}]
-			x: 1.5d
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["77FC61AFA9608A79"]
+			description: ["These are cell housings, they contain Storage Components and allow them to be inserted into the ME Drive."]
+			id: "518600219B02E42B"
+			tasks: [
+				{
+					id: "7462EC7DC9E114DE"
+					item: "ae2:item_cell_housing"
+					type: "item"
+				}
+				{
+					id: "1716F37C3C8086C8"
+					item: "ae2:fluid_cell_housing"
+					type: "item"
+				}
+				{
+					id: "749FE177C5221049"
+					item: "ae2things:disk_housing"
+					type: "item"
+				}
+				{
+					id: "2F357EF9AC0372A0"
+					item: "appbot:mana_cell_housing"
+					type: "item"
+				}
+			]
+			x: -1.5d
 			y: -1.5d
 		}
 		{
-			dependencies: ["77FC61AFA9608A79"]
-			id: "51C021FAE3AC1EA9"
-			tasks: [{
-				id: "0686FB7CD8906044"
-				item: "ae2:drive"
-				type: "item"
-			}]
-			x: 0.0d
-			y: -3.0d
-		}
-		{
-			dependencies: ["27DEEE5708A89666"]
-			id: "518600219B02E42B"
-			tasks: [{
-				id: "7462EC7DC9E114DE"
-				item: "ae2:item_cell_housing"
-				type: "item"
-			}]
-			x: 0.0d
-			y: -6.0d
-		}
-		{
-			dependencies: ["27DEEE5708A89666"]
-			id: "54F598CB57F0239F"
-			tasks: [{
-				id: "28782E2E16FC0D09"
-				item: "ae2:fluid_cell_housing"
-				type: "item"
-			}]
-			x: 0.0d
-			y: -7.0d
-		}
-		{
-			dependencies: ["77FC61AFA9608A79"]
-			id: "10327E230F786506"
-			tasks: [{
-				id: "5B19C3D399E0F4C9"
-				item: "ae2things:disk_housing"
-				type: "item"
-			}]
-			x: -1.5d
-			y: -3.0d
-		}
-		{
-			dependencies: ["27DEEE5708A89666"]
-			id: "7BD5E699ACD9F419"
-			tasks: [{
-				id: "6F5912271718D6DB"
-				item: "appbot:mana_cell_housing"
-				type: "item"
-			}]
-			x: 0.0d
-			y: -5.0d
-		}
-		{
+			dependencies: ["12371EF38C4F92BC"]
+			description: [
+				"Allows you to store 1k items or fluids."
+				""
+				"Combine with an housing to be able to put them into a drive."
+			]
 			icon: "ae2:cell_component_1k"
 			id: "741FE44D9DD27659"
 			tasks: [{
@@ -94,8 +83,8 @@
 				type: "item"
 			}]
 			title: "Storage Components"
-			x: 1.5d
-			y: -5.0d
+			x: 3.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["741FE44D9DD27659"]
@@ -106,7 +95,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: -5.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["1453F8B3894B5A1C"]
@@ -116,8 +105,8 @@
 				item: "ae2:cell_component_16k"
 				type: "item"
 			}]
-			x: 4.5d
-			y: -5.0d
+			x: 3.0d
+			y: -7.5d
 		}
 		{
 			dependencies: ["29D5E453AE5EF442"]
@@ -127,8 +116,8 @@
 				item: "ae2:cell_component_64k"
 				type: "item"
 			}]
-			x: 6.0d
-			y: -5.0d
+			x: 3.0d
+			y: -9.0d
 		}
 		{
 			dependencies: ["4F7BCDC5F8B2F28F"]
@@ -138,99 +127,65 @@
 				item: "ae2:cell_component_256k"
 				type: "item"
 			}]
-			x: 7.5d
-			y: -5.0d
+			x: 3.0d
+			y: -10.5d
 		}
 		{
-			dependencies: ["77FC61AFA9608A79"]
-			id: "22475691EECF828F"
-			tasks: [{
-				id: "41F8434F53AFBA16"
-				item: "ae2:terminal"
-				type: "item"
-			}]
-			x: 0.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["22475691EECF828F"]
-			id: "4EE9E57F29294924"
-			tasks: [{
-				id: "61FBD2171BFDF308"
-				item: "ae2:pattern_encoding_terminal"
-				type: "item"
-			}]
-			x: 1.0d
-			y: 1.5d
-		}
-		{
-			dependencies: ["22475691EECF828F"]
-			id: "33FF416332322748"
-			tasks: [{
-				id: "0C9F859CD6DB71DA"
-				item: "ae2:crafting_terminal"
-				type: "item"
-			}]
-			x: 0.0d
-			y: 1.5d
-		}
-		{
-			dependencies: ["22475691EECF828F"]
-			id: "183476A04F5813F2"
-			tasks: [{
-				id: "304C80A6F4377CF9"
-				item: "ae2:pattern_access_terminal"
-				type: "item"
-			}]
-			x: -1.0d
-			y: 1.5d
-		}
-		{
-			dependencies: ["1D700C53DB15F3EA"]
+			dependencies: ["198F3F03A42BF420"]
+			description: ["Fluix ME Glass Cable is the simplest cable to make, &3transfers power and up to 8 channels&r. It comes in 17 diffrent colors, the default being Fluix, and can be dyed any color using any of the 16 dyes."]
 			id: "236E5597D4F4B5EB"
 			tasks: [{
 				id: "42D2AD65251E9E23"
 				item: "ae2:fluix_glass_cable"
 				type: "item"
 			}]
-			x: 6.0d
-			y: -3.0d
+			x: 0.0d
+			y: 1.5d
 		}
 		{
-			dependencies: ["0F3D795EAAE3E8DC"]
-			id: "01C75F187C3EC440"
-			tasks: [{
-				id: "4046C2A6E83A474E"
-				item: "ae2:flawed_budding_quartz"
-				type: "item"
-			}]
-			x: 3.0d
-			y: -3.0d
-		}
-		{
-			dependencies: ["0F3D795EAAE3E8DC"]
+			dependencies: ["77FC61AFA9608A79"]
+			description: [
+				"Quartz Fiber is mostly used for making Fluix Cables. "
+				""
+				"It can be also placed like a cable, and it will only share AE power between adjacent networks."
+			]
 			id: "198F3F03A42BF420"
 			tasks: [{
 				id: "3969D8C23BEEC9D5"
 				item: "ae2:quartz_fiber"
 				type: "item"
 			}]
-			x: 4.5d
-			y: -3.0d
+			x: 0.0d
+			y: 0.0d
 		}
 		{
-			id: "0F3D795EAAE3E8DC"
+			dependencies: ["77FC61AFA9608A79"]
+			description: [
+				"These inscriber presses are the opening to the real deal this mod has to offer. They produce different printed circuits that are used to make processors."
+				""
+				"To make these, put a Stainless Steel Block inside a Forming Press at HV. Each inscriber press requires a different configuration on the programming circuit (see the recipes)."
+			]
+			id: "12371EF38C4F92BC"
+			shape: "gear"
 			tasks: [
 				{
-					id: "7B80B16E8B14BC37"
-					item: "ae2:certus_quartz_crystal"
-					optional_task: true
+					id: "13267B72A3931FDA"
+					item: "ae2:calculation_processor_press"
 					type: "item"
 				}
 				{
-					id: "5CC965FA3E5F5E69"
-					item: "gtceu:certus_quartz_gem"
-					optional_task: true
+					id: "6C3800743B459768"
+					item: "ae2:logic_processor_press"
+					type: "item"
+				}
+				{
+					id: "4C31593924CE9B54"
+					item: "ae2:engineering_processor_press"
+					type: "item"
+				}
+				{
+					id: "60C3559D5473936F"
+					item: "ae2:silicon_press"
 					type: "item"
 				}
 			]
@@ -238,23 +193,160 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["0F3D795EAAE3E8DC"]
-			id: "1D700C53DB15F3EA"
+			dependencies: ["12371EF38C4F92BC"]
+			description: [
+				"To see the inventory and the abilities of the ME network, you will have to make &3Terminals&r."
+				""
+				"To make Terminals you will need a &3Panel&r."
+				""
+				"You can choose the color of the Panel by putting it into the crafting table."
+			]
+			id: "087E9F0B9E8A0685"
 			tasks: [{
-				id: "02AE053F23E14741"
-				item: "ae2:fluix_crystal"
+				id: "465749BA60BD0ACF"
+				item: "ae2:semi_dark_monitor"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4A42A2841C97A01F"]
+			description: ["The second most important block, this one allows you to store and manage up to 10 cells."]
+			id: "675883902F2674A6"
+			tasks: [{
+				id: "2619879EACD2E8FB"
+				item: "ae2:drive"
 				type: "item"
 			}]
 			x: 6.0d
 			y: -1.5d
 		}
 		{
-			dependencies: ["0F53EFB5D7D2C329"]
-			icon: "gtceu:stainless_steel_ingot"
-			id: "27DEEE5708A89666"
-			title: "Stainless Steel"
-			x: -1.5d
+			dependencies: ["12371EF38C4F92BC"]
+			description: ["Its main use is to access the content of an ME Storage Cell directly."]
+			id: "4A42A2841C97A01F"
+			tasks: [{
+				id: "23BCD77CCD264105"
+				item: "ae2:chest"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["77FC61AFA9608A79"]
+			description: ["There are no meteors in this modpack, you make your own presses. See next quest!"]
+			id: "423F890260ABEB74"
+			tasks: [{
+				id: "218B02CADD0DD630"
+				title: "Where are the meteors?"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["12371EF38C4F92BC"]
+			description: [
+				"Allows you to store a 2x2x2 space."
+				""
+				"Combine with an housing to be able to put them into a drive."
+			]
+			id: "1BC1C99DD7741434"
+			tasks: [{
+				id: "47544B28CA6BD39A"
+				item: "ae2:spatial_cell_component_2"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["1BC1C99DD7741434"]
+			id: "4CFB42964165FF1D"
+			tasks: [{
+				id: "0626FA0FA392ACAC"
+				item: "ae2:spatial_cell_component_16"
+				type: "item"
+			}]
+			x: 1.5d
 			y: -6.0d
+		}
+		{
+			dependencies: ["4CFB42964165FF1D"]
+			id: "74892CDAF51E486D"
+			tasks: [{
+				id: "7578C88C848B6DA9"
+				item: "ae2:spatial_cell_component_128"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["674E640F7B339661"]
+			description: ["Encodes recipes into Blank Patterns that allow autocrafting."]
+			id: "19538BBA5D46D4E8"
+			tasks: [{
+				id: "7ABC6C860CD98F65"
+				item: "ae2:pattern_encoding_terminal"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["5213802F91F8D150"]
+			description: ["Gives access to a crafting table alongside the inventory."]
+			id: "674E640F7B339661"
+			tasks: [{
+				id: "0DFB58D2EDDA3D92"
+				item: "ae2:crafting_terminal"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["087E9F0B9E8A0685"]
+			description: ["A basic Terminal, shows and gives access to the inventory of the network."]
+			id: "5213802F91F8D150"
+			tasks: [{
+				id: "223F8FF65FF08EEA"
+				item: "ae2:terminal"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["087E9F0B9E8A0685"]
+			description: [
+				"This Terminal will provide you access to all the patterns inside your network."
+				""
+				"This means you won't have to walk over to the provider you want to put the pattern in, you can just put it inside this terminal."
+			]
+			id: "012134872F0DD08D"
+			tasks: [{
+				id: "6DF30BBD033DA48A"
+				item: "ae2:pattern_access_terminal"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5213802F91F8D150"]
+			description: ["Gives access to all the ME Requesters in the network."]
+			id: "1F8E8304F356FB61"
+			tasks: [{
+				id: "042B12D1E4FC2CF0"
+				item: "merequester:requester_terminal"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 2.5d
 		}
 	]
 	title: "Applied Energistics 2"

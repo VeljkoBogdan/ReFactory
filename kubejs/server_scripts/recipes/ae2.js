@@ -458,6 +458,111 @@ ServerEvents.recipes(event => {
         .itemOutputs('ae2:engineering_processor')
         .duration(20*6)
         .EUt(GTValues.VA[GTValues.MV])
+
+    // AE2 basic card
+    event.remove({output: 'ae2:basic_card'})
+    event.recipes.gtceu.circuit_assembler('basic_card')
+        .itemInputs(
+            '4x gtceu:polyethylene_plate',
+            '4x gtceu:gold_foil',
+            '#gtceu:circuits/hv'
+        )
+        .itemOutputs('4x ae2:basic_card')
+        .duration(20*8)
+        .EUt(GTValues.VA[GTValues.MV])
+
+    // Spatial cells
+    // 2
+    event.remove({output: 'ae2:spatial_cell_component_2'})
+    event.recipes.gtceu.circuit_assembler('spatial_cell_2')
+        .itemInputs(
+            'ae2:engineering_processor',
+            '4x ae2:fluix_pearl',
+            '#gtceu:circuits/ev',
+            '8x gtceu:fine_gaia_wire'
+        )
+        .itemOutputs('ae2:spatial_cell_component_2')
+        .duration(20*8)
+        .EUt(GTValues.VA[GTValues.HV])
+    // 16
+    event.remove({output: 'ae2:spatial_cell_component_16'})
+    event.recipes.gtceu.circuit_assembler('spatial_cell_16')
+        .itemInputs(
+            '3x ae2:spatial_cell_component_2',
+            'ae2:engineering_processor',
+            '#gtceu:circuits/iv',
+            '8x gtceu:fine_tungsten_steel_wire'
+        )
+        .itemOutputs('ae2:spatial_cell_component_16')
+        .duration(20*8)
+        .EUt(GTValues.VA[GTValues.EV])
+    // 128
+    event.remove({output: 'ae2:spatial_cell_component_128'})
+    event.recipes.gtceu.circuit_assembler('spatial_cell_128')
+        .itemInputs(
+            '3x ae2:spatial_cell_component_16',
+            'ae2:engineering_processor',
+            '#gtceu:circuits/luv',
+            '8x gtceu:fine_naquadah_wire'
+        )
+        .itemOutputs('ae2:spatial_cell_component_128')
+        .duration(20*8)
+        .EUt(GTValues.VA[GTValues.IV])
+
+    // View Cell
+    event.remove({id: 'ae2:network/cells/view_cell'})
+
+    // Removing the storage cell recipe that allows crafting cells without a housing made first
+    // item cells
+    event.remove({id: 'ae2:network/cells/item_storage_cell_1k'})
+    event.remove({id: 'ae2:network/cells/item_storage_cell_4k'})
+    event.remove({id: 'ae2:network/cells/item_storage_cell_16k'})
+    event.remove({id: 'ae2:network/cells/item_storage_cell_64k'})
+    event.remove({id: 'ae2:network/cells/item_storage_cell_256k'})
+    // fluid cells
+    event.remove({id: 'ae2:network/cells/fluid_storage_cell_1k'})
+    event.remove({id: 'ae2:network/cells/fluid_storage_cell_4k'})
+    event.remove({id: 'ae2:network/cells/fluid_storage_cell_16k'})
+    event.remove({id: 'ae2:network/cells/fluid_storage_cell_64k'})
+    event.remove({id: 'ae2:network/cells/fluid_storage_cell_256k'})
+    // spatial cells
+    event.remove({id: 'ae2:network/cells/spatial_storage_cell_2_cubed'})
+    event.remove({id: 'ae2:network/cells/spatial_storage_cell_16_cubed'})
+    event.remove({id: 'ae2:network/cells/spatial_storage_cell_128_cubed'})
+
+    // Quartz Glass
+    event.remove({output: 'ae2:quartz_glass'})
+    event.recipes.gtceu.alloy_smelter('quartz_glass')
+        .itemInputs(
+            '#c:glass_blocks',
+            '#forge:dusts/certus_quartz'
+        )
+        .itemOutputs('ae2:quartz_glass')
+        .duration(20*1)
+        .EUt(GTValues.VA[GTValues.HV])
+    
+    // Vibrant Glass
+    event.remove({output: 'ae2:quartz_vibrant_glass'})
+    event.recipes.gtceu.alloy_smelter('quartz_vibrant_glass')
+        .itemInputs(
+            'ae2:quartz_glass',
+            '2x glowstone_dust'
+        )
+        .itemOutputs('ae2:quartz_vibrant_glass')
+        .duration(20*1)
+        .EUt(GTValues.VA[GTValues.HV])
+
+    // Fluix Crystal
+    event.recipes.gtceu.chemical_reactor('fluix_crystal')
+        .itemInputs(
+            'gtceu:charged_certus_quartz_gem',
+            'redstone',
+            'quartz'
+        )
+        .inputFluids(Fluid.of('water', 500))
+        .itemOutputs('2x gtceu:fluix_crystal_gem')
+        .duration(20*4)
+        .EUt(GTValues.VA[GTValues.MV])
 })
 
 ServerEvents.tags('item', event => {
