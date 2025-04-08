@@ -13,7 +13,7 @@ tilledEndStone = false
 #Range: > 0
 miteChance = 0
 #Is a hoe enchanted with Unbreaking (I) needed to till endstone?
-endstoneNeedsUnbreaking = true
+endstoneNeedsUnbreaking = false
 #Minimum non-vanilla hoe tool (e.g. TiCo Kama) material level needed to till endstone
 #Range: 0 ~ 20
 hoeToolHarvestLevelEndstone = 1
