@@ -539,7 +539,7 @@ ServerEvents.recipes(event => {
         )
         .itemOutputs('ae2:quartz_glass')
         .duration(20*1)
-        .EUt(GTValues.VA[GTValues.HV])
+        .EUt(GTValues.VA[GTValues.MV])
     
     // Vibrant Glass
     event.remove({output: 'ae2:quartz_vibrant_glass'})

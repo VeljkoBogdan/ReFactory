@@ -26,6 +26,7 @@
 		}
 		{
 			dependencies: ["630A813B0F4DA078"]
+			description: ["Needed for most MV machines."]
 			id: "4F74168E48A8348E"
 			shape: "gear"
 			size: 1.5d
@@ -152,6 +153,7 @@
 		}
 		{
 			dependencies: ["034D2646EC37C967"]
+			description: ["Very useful for a lot of stuff, trust me!"]
 			id: "45EC6B51678C5FDB"
 			size: 1.0d
 			tasks: [{
@@ -169,6 +171,12 @@
 			]
 			description: ["Very useful item that is cut into wafers, used to craft various parts of electronic circuits."]
 			id: "1984444D466E8EEF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "47D07455A1A82863"
+				table_id: 685747861540631198L
+				type: "loot"
+			}]
 			shape: "gear"
 			size: 1.5d
 			tasks: [{
@@ -217,6 +225,12 @@
 			description: ["The Engraver makes wafers into chips. You're going to have to make it eventually."]
 			hide_dependent_lines: true
 			id: "6EA539D38718E106"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "339C907402A033A9"
+				table_id: 685747861540631198L
+				type: "loot"
+			}]
 			shape: "gear"
 			size: 1.5d
 			tasks: [{
@@ -250,6 +264,12 @@
 				"Stainless Steel and Kanthal require HV to smelt."
 			]
 			id: "6DDF9D316DE9DCF7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "59D15756BDE1F777"
+				table_id: 685747861540631198L
+				type: "loot"
+			}]
 			size: 1.0d
 			tasks: [{
 				count: 2L
@@ -267,6 +287,12 @@
 			]
 			description: ["Significantly cheaper LV circuits."]
 			id: "22F6144BF80A1413"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7EF8F3515B3AE805"
+				table_id: 685747861540631198L
+				type: "loot"
+			}]
 			shape: "gear"
 			size: 1.5d
 			tasks: [{
@@ -286,6 +312,12 @@
 			]
 			description: ["Yay! Your first HV circuit! Make sure to brag to your friends (if you even have any)."]
 			id: "08EE54E6C1C766CF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6A830CDF28D3D14A"
+				table_id: 685747861540631198L
+				type: "loot"
+			}]
 			shape: "gear"
 			size: 1.5d
 			tasks: [{
@@ -385,9 +417,15 @@
 			description: [
 				"You can get Chromium by electrolyzing Ruby and processing Ruby ore."
 				""
-				"You can also get Chromium from Chromite ore in a Redstone vein in The Nether."
+				"You can also get Chromium from &3Chromite ore in a Redstone vein in The Nether&r."
 			]
 			id: "0A6A88F07A82E229"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6FAC23CD05B78ADC"
+				table_id: 685747861540631198L
+				type: "loot"
+			}]
 			shape: "gear"
 			size: 1.5d
 			tasks: [{
@@ -409,6 +447,12 @@
 				"Now you can cook Silicon!"
 			]
 			id: "114D15EF6DA771DD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6EA312AB6AEC94E9"
+				table_id: 685747861540631198L
+				type: "loot"
+			}]
 			shape: "gear"
 			size: 1.5d
 			tasks: [{
@@ -437,6 +481,12 @@
 			dependencies: ["53A05923F8895595"]
 			description: ["Make sure to craft a considerable amount."]
 			id: "0F53EFB5D7D2C329"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7A40BFB2C045B37A"
+				table_id: 685747861540631198L
+				type: "loot"
+			}]
 			shape: "gear"
 			size: 1.5d
 			tasks: [{
@@ -448,7 +498,10 @@
 			y: 10.5d
 		}
 		{
-			dependencies: ["0A6A88F07A82E229"]
+			dependencies: [
+				"0A6A88F07A82E229"
+				"165F2F4FC6F0C6F6"
+			]
 			description: ["Stainless steel is an important material in HV."]
 			id: "53A05923F8895595"
 			size: 1.0d
@@ -478,12 +531,19 @@
 				"Now you can electrolyze clay into Aluminium, Lithium, Silicon and Sodium dusts."
 				""
 				"To get infinite clay, there are two ways:"
+				""
 				"Diorite > Diorite Dust > Clay Dust"
 				""
 				"Dirt > Mud > Clay > Clay Dust"
 			]
 			icon: "gtceu:aluminium_dust"
 			id: "2B92683848576A1A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5D98AAEE3CBF99A3"
+				table_id: 685747861540631198L
+				type: "loot"
+			}]
 			shape: "gear"
 			size: 1.0d
 			tasks: [
@@ -539,8 +599,18 @@
 		}
 		{
 			dependencies: ["0A6A88F07A82E229"]
-			description: ["A very good tool material!"]
+			description: [
+				"A very good tool material!"
+				""
+				"Required to make the Cutter."
+			]
 			id: "739B7A5F5E19CEB1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "42F66BC74EEE6DFC"
+				table_id: 685747861540631198L
+				type: "loot"
+			}]
 			shape: "gear"
 			size: 1.0d
 			tasks: [{
@@ -566,6 +636,7 @@
 		}
 		{
 			dependencies: ["630A813B0F4DA078"]
+			description: ["Super Chest was so good they made the Super Chest II"]
 			id: "1C8B355A01AB6CFB"
 			size: 1.0d
 			tasks: [{
@@ -607,6 +678,11 @@
 		}
 		{
 			dependencies: ["630A813B0F4DA078"]
+			description: [
+				"Holds 32 buckets of fluid."
+				""
+				"Great for manually moving fluid from machine to machine."
+			]
 			hide_dependency_lines: true
 			id: "3DFBF4299BAB12B5"
 			size: 1.0d
@@ -623,7 +699,18 @@
 				"45EC6B51678C5FDB"
 				"3EABF54D848B7C03"
 			]
+			description: [
+				"This is one of the breakthroughs in MV!"
+				""
+				"It will alllow you to craft &aTerrasteel&r, and an MV superconductor!"
+			]
 			id: "42565F2AB5AC211C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1979F44D4D2A0024"
+				table_id: 685747861540631198L
+				type: "loot"
+			}]
 			shape: "gear"
 			size: 1.5d
 			tasks: [{
@@ -657,7 +744,7 @@
 		}
 		{
 			dependencies: ["630A813B0F4DA078"]
-			description: ["You're going to hate this 2... wait, this is not GTNH..."]
+			description: ["You're going to hate this 2... wait, wrong modpack"]
 			id: "12D3FF7ABD35CD49"
 			size: 1.0d
 			tasks: [{
@@ -672,6 +759,12 @@
 			dependencies: ["08EE54E6C1C766CF"]
 			description: ["Next tier of circuit assembling!"]
 			id: "374FBE623A0F7200"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7C38C359D09326F8"
+				table_id: 685747861540631198L
+				type: "loot"
+			}]
 			shape: "gear"
 			size: 1.5d
 			tasks: [{
@@ -686,6 +779,12 @@
 			dependencies: [
 				"42565F2AB5AC211C"
 				"7E7F3081B25D024D"
+				"681A9E7EB66C71D2"
+			]
+			description: [
+				"A very important resource for progressing though MV."
+				""
+				"It also serves as an ingredient for the MV superconductor: Terralumina"
 			]
 			id: "4B15C0711FA98FAB"
 			size: 1.0d
@@ -718,6 +817,12 @@
 			dependencies: ["4F74168E48A8348E"]
 			description: ["Crystal Puller is a multiblock that creates silicon boules."]
 			id: "2CD891A182DBFE28"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "752149227A70E1AA"
+				table_id: 685747861540631198L
+				type: "loot"
+			}]
 			shape: "gear"
 			size: 1.5d
 			tasks: [{
@@ -733,6 +838,7 @@
 				"77EFB9F7E591E14A"
 				"5D5572F284DFA0DC"
 			]
+			dependency_requirement: "one_completed"
 			description: ["Plant Balls are best made by compressing bio products, especially saplings!"]
 			id: "4F55C127C7F4DC71"
 			size: 1.0d
@@ -764,6 +870,12 @@
 			dependencies: ["6AAE3CEF45ADDFEB"]
 			description: ["Enough chemistry?"]
 			id: "4DB4F6BF36D30A35"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0188CA10026CE79A"
+				table_id: 685747861540631198L
+				type: "loot"
+			}]
 			shape: "gear"
 			size: 1.5d
 			tasks: [{
@@ -776,10 +888,11 @@
 		}
 		{
 			dependencies: [
-				"425001886506083F"
 				"7A0E8F91B933845A"
 				"48636EDDADC16359"
+				"1684FC383823BFAE"
 			]
+			dependency_requirement: "one_completed"
 			description: [
 				"For making Ethylene, you have two ways:"
 				""
@@ -788,7 +901,6 @@
 				"2. Making it by distilling and cracking Oil."
 			]
 			id: "6AAE3CEF45ADDFEB"
-			min_required_dependencies: 2
 			size: 1.0d
 			tasks: [{
 				id: "4C1AB74E49F75C0B"
@@ -799,22 +911,9 @@
 			y: -6.0d
 		}
 		{
-			dependencies: ["48636EDDADC16359"]
-			id: "425001886506083F"
-			size: 1.0d
-			tasks: [{
-				id: "1E1739E2A07AC5F8"
-				item: "gtceu:sulfuric_acid_bucket"
-				type: "item"
-			}]
-			x: 0.0d
-			y: -6.0d
-		}
-		{
 			dependencies: ["05D3C898EBC0480D"]
 			description: ["This is an alternative way to make Ethylene, but requires Oil, distilling it, cracking and then distilling again."]
 			id: "7A0E8F91B933845A"
-			optional: true
 			size: 1.0d
 			tasks: [{
 				id: "318736A2BF3F43FB"
@@ -826,6 +925,7 @@
 		}
 		{
 			dependencies: ["630A813B0F4DA078"]
+			description: ["This will allow you to electrolyze clay dust, which is incredibly useful for generating infinite Aluminium!"]
 			id: "164045DB94B2D221"
 			size: 1.0d
 			tasks: [{
@@ -981,6 +1081,12 @@
 			]
 			description: ["Better MV circuits"]
 			id: "6DC53EC297BEBD3C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3B83FF295E0AE7AE"
+				table_id: 685747861540631198L
+				type: "loot"
+			}]
 			shape: "gear"
 			size: 1.5d
 			tasks: [{
@@ -1020,6 +1126,7 @@
 			y: -4.5d
 		}
 		{
+			dependencies: ["20739EF287DB0531"]
 			id: "06BE0E0CFF758069"
 			size: 1.0d
 			tasks: [{
@@ -1032,6 +1139,7 @@
 		}
 		{
 			dependencies: ["2D86BD3AE9C7AB6B"]
+			description: ["You can make lenses from plates with MV+ Lathe."]
 			id: "76348171200A547D"
 			tasks: [{
 				id: "508F40A33B283F8A"
@@ -1054,17 +1162,19 @@
 		}
 		{
 			dependencies: ["4F74168E48A8348E"]
+			description: ["Pretty good upgrade, you'll use this machine a lot."]
 			id: "52A0A461231A7B89"
 			tasks: [{
 				id: "73973CFCEB1C97D5"
 				item: "gtceu:mv_wiremill"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -1.5d
+			x: 3.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["2D86BD3AE9C7AB6B"]
+			description: ["Not required, but damn it is fast!"]
 			id: "44B14F5A5371251E"
 			tasks: [{
 				id: "28BFE3E8CB1476F3"
@@ -1076,25 +1186,15 @@
 		}
 		{
 			dependencies: ["630A813B0F4DA078"]
+			description: ["Doesn't unlock new recipes that are useful to you, but makes the ones that you have faster."]
 			id: "467DB55EAF51DD12"
 			tasks: [{
-				id: "567BDC799EE7A758"
-				item: "gtceu:mv_alloy_smelter"
-				type: "item"
-			}]
-			x: -3.0d
-			y: -1.5d
-		}
-		{
-			dependencies: ["630A813B0F4DA078"]
-			id: "53D4B55D233A93CA"
-			tasks: [{
-				id: "7ED20ABB2EA1898E"
+				id: "291C651D04A26874"
 				item: "gtceu:mv_arc_furnace"
 				type: "item"
 			}]
 			x: -3.0d
-			y: -3.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["41D7CFAE222CAE64"]
@@ -1104,11 +1204,16 @@
 				item: "gtceu:mv_autoclave"
 				type: "item"
 			}]
-			x: 3.0d
-			y: -3.0d
+			x: 0.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["739B7A5F5E19CEB1"]
+			description: [
+				"Slice'N Dice"
+				""
+				"Now you can cut the Silicon Boule into Silicon Wafers."
+			]
 			id: "12FEA88FD0D52D02"
 			tasks: [{
 				id: "449047B9655EC577"
@@ -1123,6 +1228,7 @@
 				"12FEA88FD0D52D02"
 				"1984444D466E8EEF"
 			]
+			description: ["A nice, perfect slice of silicon, perfect for integrated circuits."]
 			id: "664234AA516DD4DD"
 			tasks: [{
 				id: "006624C3D9AF76DD"
@@ -1155,25 +1261,23 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["7654326C675F0181"]
-			id: "7E7F3081B25D024D"
-			tasks: [
-				{
-					id: "6E97A045BD9171B8"
-					item: "botania:mana_diamond"
-					type: "item"
-				}
-				{
-					id: "53D9961BB6A1B2DA"
-					item: "botania:mana_pearl"
-					type: "item"
-				}
+			dependencies: [
+				"7654326C675F0181"
+				"4130F00F608F0D3B"
 			]
+			description: ["Throw an Ender Pearl into a Mana Pool and you'll get a Mana Pearl."]
+			id: "7E7F3081B25D024D"
+			tasks: [{
+				id: "53D9961BB6A1B2DA"
+				item: "botania:mana_pearl"
+				type: "item"
+			}]
 			x: 17.0d
 			y: 4.5d
 		}
 		{
 			dependencies: ["11E30097AC7708B5"]
+			description: ["These runes are going to be a bit of a grind... but I trust in you!"]
 			id: "3EABF54D848B7C03"
 			tasks: [
 				{
@@ -1207,25 +1311,27 @@
 		}
 		{
 			dependencies: ["4F74168E48A8348E"]
+			description: ["With this you can centrifuge Lava, Soul sand and stone dust. Not that important."]
 			id: "09D9CCA93670E139"
 			tasks: [{
 				id: "0F03B5B4F47EE6AF"
 				item: "gtceu:mv_centrifuge"
 				type: "item"
 			}]
-			x: 3.0d
-			y: -1.5d
+			x: 0.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["4F74168E48A8348E"]
+			description: ["Will be needed to make Ethylene."]
 			id: "1684FC383823BFAE"
 			tasks: [{
 				id: "3FB66964D243E604"
 				item: "gtceu:mv_chemical_reactor"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 1.5d
+			x: 3.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["41D7CFAE222CAE64"]
@@ -1240,13 +1346,14 @@
 		}
 		{
 			dependencies: ["4F74168E48A8348E"]
+			description: ["Will allow you to make Stainless Steel Dust"]
 			id: "165F2F4FC6F0C6F6"
 			tasks: [{
 				id: "3EDBF26649864AE7"
 				item: "gtceu:mv_mixer"
 				type: "item"
 			}]
-			x: 0.0d
+			x: -1.5d
 			y: 1.5d
 		}
 		{
@@ -1262,6 +1369,7 @@
 		}
 		{
 			dependencies: ["1684FC383823BFAE"]
+			description: ["Along with Iron III Oxide, it's used in board recipes, making them much cheaper and cutting the wire resources by 4x."]
 			id: "0807682913253D8D"
 			size: 1.0d
 			tasks: [{
@@ -1270,10 +1378,11 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: 1.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["1684FC383823BFAE"]
+			description: ["Along with Sodium Persulfate, it's used in board recipes, making them much cheaper and cutting the wire resources by 4x."]
 			id: "71410C823BA76E8A"
 			size: 1.0d
 			tasks: [{
@@ -1282,7 +1391,7 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: 2.0d
+			y: -2.5d
 		}
 		{
 			description: [
@@ -1291,6 +1400,12 @@
 				"It is strongly recommended to build multiple EBFs (no rush though). It will boost your production and make you ready for later progression."
 			]
 			id: "0410AC09EFAAB629"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "073C750834548F96"
+				table_id: 685747861540631198L
+				type: "loot"
+			}]
 			tasks: [{
 				count: 4L
 				id: "329CFB7B2E81AC83"
@@ -1298,6 +1413,70 @@
 				type: "item"
 			}]
 			x: 12.5d
+			y: -3.0d
+		}
+		{
+			description: [
+				"In order to make Ender Pearls in the early stages, you can use Ender Lillys!"
+				""
+				"You'll need this spore to craft the Ender Seeds."
+			]
+			id: "519A2EEDD7D4E686"
+			rewards: [{
+				count: 4
+				id: "0CEF78E2216E81C5"
+				item: "minecraft:ender_pearl"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3099C1F9680EACFC"
+				item: "botania:mycelium_seeds"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 4.5d
+		}
+		{
+			description: ["Drop a diamond into a Mana Pool and you'll get a Mana Diamond."]
+			id: "681A9E7EB66C71D2"
+			tasks: [{
+				id: "1932BD14412BAA36"
+				item: "botania:mana_diamond"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["519A2EEDD7D4E686"]
+			description: [
+				"You can use these in combination with Botany Pots, which will allow you to plant the seeds in dirt."
+				""
+				"It takes around 3 minutes for an Ender Lilly to grow fully, with the least time taken when using Farmland."
+			]
+			id: "4130F00F608F0D3B"
+			tasks: [{
+				id: "4AA200FDEF5E9C69"
+				item: "endercrop:ender_seeds"
+				type: "item"
+			}]
+			x: 15.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["630A813B0F4DA078"]
+			description: [
+				"You'll need an MV Alloy Smelter to make Quartz Glass."
+				""
+				"Not important in MV if you're not planning on building any Greenhouses, other than the speed upgrade."
+			]
+			id: "20739EF287DB0531"
+			tasks: [{
+				id: "006DD64DCE1B6C13"
+				item: "gtceu:mv_alloy_smelter"
+				type: "item"
+			}]
+			x: -6.0d
 			y: -3.0d
 		}
 	]

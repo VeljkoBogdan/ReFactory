@@ -1,0 +1,134 @@
+{
+	id: "0984440BFC9CF29E"
+	loot_size: 1
+	order_index: 2
+	rewards: [
+		{ item: "gtceu:mv_machine_casing" }
+		{
+			item: {
+				Count: 1
+				id: "gtceu:mv_iron_drill"
+				tag: {
+					Charge: 2147483647L
+					DisallowContainerItem: 0b
+					GT.Behaviours: {
+						AoEColumn: 1
+						AoELayer: 2
+						AoERow: 1
+						MaxAoEColumn: 1
+						MaxAoELayer: 2
+						MaxAoERow: 1
+						TorchPlacing: 1b
+					}
+					GT.Tool: {
+						Damage: 0
+						Enchantability: 14
+						HarvestLevel: 2
+						MaxDamage: 1023
+						ToolSpeed: 6.0f
+					}
+					HideFlags: 2
+					MaxCharge: 2147483647L
+				}
+			}
+			weight: 0.25f
+		}
+		{ count: 2, item: "gtceu:mv_battery_hull" }
+		{
+			item: {
+				Count: 1
+				id: "gtceu:mv_lithium_battery"
+				tag: {
+					Charge: 420000L
+				}
+			}
+		}
+		{ count: 2, item: "gtceu:mv_electric_motor" }
+		{ count: 2, item: "gtceu:mv_electric_pump" }
+		{ count: 2, item: "gtceu:mv_fluid_regulator" }
+		{ count: 2, item: "gtceu:mv_conveyor_module" }
+		{ count: 2, item: "gtceu:mv_electric_piston" }
+		{ count: 2, item: "gtceu:mv_robot_arm" }
+		{ item: "gtceu:mv_emitter" }
+		{ item: "gtceu:mv_sensor" }
+		{ count: 2, item: "gtceu:good_electronic_circuit" }
+		{ item: "gtceu:mv_machine_hull" }
+		{ item: "gtceu:mv_machine_hull" }
+		{ item: "botania:mana_spreader" }
+		{ count: 2, item: "botania:manasteel_block" }
+		{ item: "botania:mana_diamond_block" }
+		{ count: 4, item: "botania:mana_pearl" }
+		{ count: 4, item: "botania:mana_diamond" }
+		{ count: 4, item: "botania:mana_powder" }
+		{
+			item: {
+				Count: 1
+				id: "botania:manasteel_pick"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "botania:manasteel_shovel"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "botania:manasteel_axe"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "botania:manasteel_hoe"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "botania:manasteel_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "botania:manasteel_shears"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ count: 2, item: "kubejs:mana_core" }
+		{ count: 4, item: "minecraft:ender_pearl" }
+		{ item: "gtceu:duct_tape" }
+		{ item: "gtceu:item_filter" }
+		{ item: "gtceu:item_tag_filter" }
+		{ item: "gtceu:fluid_filter" }
+		{ item: "gtceu:fluid_tag_filter" }
+		{
+			item: {
+				Count: 1
+				id: "thermal:satchel"
+				tag: { }
+			}
+			weight: 0.25f
+		}
+	]
+	title: "MV Loot"
+}
