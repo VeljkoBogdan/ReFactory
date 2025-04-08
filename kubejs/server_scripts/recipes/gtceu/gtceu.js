@@ -411,4 +411,13 @@ ServerEvents.recipes(event => {
         )
         .duration(20*25)
         .EUt(GTValues.VA[GTValues.EV])
+
+    // Ender Pearl duplication // TEMP (probably)
+    event.recipes.gtceu.autoclave('ender_duplication')
+        .itemInputs(
+            '#forge:ender_pearls',
+            '2x gtceu:manasteel_dust',
+            '4x gtceu:lapis_dust'
+        )
+        .itemOutputs('2x ender_pearl')
 })
