@@ -73,15 +73,14 @@ ServerEvents.recipes(event => {
     // replace mana pool recipe
     event.remove({ id: 'botania:mana_pool' })
     event.recipes.gtceu.assembler('kubejs_mana_pool')
-    .circuit(31)
-    .itemInputs(
-        '5x botania:livingrock'
-    )
-    .itemOutputs(
-        'botania:mana_pool'
-    )
-    .duration(20*15)
-    .EUt(GTValues.VA[GTValues.LV] / 2)
+        .itemInputs(
+            '8x gtceu:livingrock_plate'
+        )
+        .itemOutputs(
+            'botania:mana_pool'
+        )
+        .duration(20*15)
+        .EUt(GTValues.VA[GTValues.LV])
 
     // replace botania ingot with gt ingot and in recipes
     // event.replaceInput({ input: 'botania:manasteel_ingot' }, 'botania:manasteel_ingot', 'gtceu:manasteel_ingot')
@@ -518,6 +517,29 @@ ServerEvents.recipes(event => {
         )
         .duration(20*10)
         .EUt(GTValues.VA[GTValues.LV] / 2)
+
+    // Livingrock plate
+    // Water
+    event.recipes.gtceu.cutter('cut_livingrock_block_to_plate_water')
+        .itemInputs('botania:livingrock')
+        .inputFluids('minecraft:water 17')
+        .itemOutputs('9x gtceu:livingrock_plate')
+        .EUt(GTValues.VA[GTValues.LV])
+        .duration(20*30)
+    // Distilled Water
+    event.recipes.gtceu.cutter('cut_livingrock_block_to_plate_distilled_water')
+        .itemInputs('botania:livingrock')
+        .inputFluids('gtceu:distilled_water 12')
+        .itemOutputs('9x gtceu:livingrock_plate')
+        .EUt(GTValues.VA[GTValues.LV])
+        .duration(20*25)
+    // Lubricant
+    event.recipes.gtceu.cutter('cut_livingrock_block_to_plate')
+        .itemInputs('botania:livingrock')
+        .inputFluids('gtceu:lubricant 4')
+        .itemOutputs('9x gtceu:livingrock_plate')
+        .EUt(GTValues.VA[GTValues.LV])
+        .duration(20*20)
 })
 
 // yeet('botania:manasteel_ingot')

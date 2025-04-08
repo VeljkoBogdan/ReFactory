@@ -556,10 +556,12 @@ ServerEvents.recipes(event => {
     event.recipes.gtceu.chemical_reactor('fluix_crystal')
         .itemInputs(
             'gtceu:charged_certus_quartz_gem',
-            'redstone',
             'quartz'
         )
-        .inputFluids(Fluid.of('water', 500))
+        .inputFluids(
+            'water 500',
+            'gtceu:redstone 144'
+        )
         .itemOutputs('2x gtceu:fluix_crystal_gem')
         .duration(20*4)
         .EUt(GTValues.VA[GTValues.MV])

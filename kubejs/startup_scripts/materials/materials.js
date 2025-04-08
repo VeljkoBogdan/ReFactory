@@ -295,6 +295,14 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
         )
         .iconSet(GTMaterialIconSet.CERTUS)
 
+    // Livingrock
+    event.create('livingrock')
+        .color(0xd7d7cc)
+        .iconSet(GTMaterialIconSet.ROUGH)
+        .flags(
+            GTMaterialFlags.GENERATE_PLATE
+        )
+
     // Ad Astra
     // Desh
     // event.create('desh')

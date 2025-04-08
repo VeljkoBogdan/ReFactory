@@ -29,9 +29,7 @@
 			description: [
 				"Crucial machine for creating LV power."
 				""
-				"Route steam into it and it will generate electricity. Though not really a great source of power, it works for the early stages of LV."
-				""
-				"&eConsult the power tab for more info.&r"
+				"Route steam into it and it will generate electricity. Though not really a great source of power, it works for the early stages."
 			]
 			id: "03D3442F857F0592"
 			rewards: [{
