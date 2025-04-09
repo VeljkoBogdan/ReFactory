@@ -289,6 +289,7 @@ ServerEvents.recipes(event => {
 
     // Micro Processor Mainframe
     event.replaceInput({output: 'gtceu:micro_processor_mainframe'}, 'gtceu:annealed_copper_single_wire', 'gtceu:elventium_single_wire')
+    event.replaceInput({output: 'gtceu:micro_processor_mainframe'}, 'gtceu:aluminium_frame', 'gtceu:lumium_frame')
     
     //// ---------------------------------------------------------------------------------------------------------------------------
 

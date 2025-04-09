@@ -207,7 +207,8 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
         GTMaterialFlags.GENERATE_FOIL,
         GTMaterialFlags.GENERATE_GEAR,
         GTMaterialFlags.GENERATE_ROD,
-        GTMaterialFlags.GENERATE_ROTOR
+        GTMaterialFlags.GENERATE_ROTOR,
+        GTMaterialFlags.GENERATE_FRAME
     )
     .blastTemp(2000, null, GTValues.VA[GTValues.EV], 20*20)
 
