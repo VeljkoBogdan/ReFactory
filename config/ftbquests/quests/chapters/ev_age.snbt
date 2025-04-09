@@ -305,8 +305,8 @@
 				item: "gtceu:rtm_alloy_coil_block"
 				type: "item"
 			}]
-			x: 6.5d
-			y: -17.0d
+			x: 4.5d
+			y: -19.5d
 		}
 		{
 			dependencies: ["7C4C8B84E1F1CEAB"]

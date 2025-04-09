@@ -1,0 +1,134 @@
+{
+	id: "6374D0860A7486D4"
+	loot_size: 1
+	order_index: 3
+	rewards: [
+		{
+			count: 2
+			item: {
+				Count: 1
+				id: "gtceu:hv_lithium_battery"
+				tag: {
+					Charge: 1800000L
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "gtceu:energy_crystal"
+				tag: {
+					Charge: 6400000L
+				}
+			}
+		}
+		{ count: 2, item: "gtceu:advanced_integrated_circuit" }
+		{
+			item: {
+				Count: 1
+				id: "gtceu:hv_aluminium_drill"
+				tag: {
+					Charge: 2147483647L
+					DisallowContainerItem: 0b
+					GT.Behaviours: {
+						AoEColumn: 2
+						AoELayer: 4
+						AoERow: 2
+						MaxAoEColumn: 2
+						MaxAoELayer: 4
+						MaxAoERow: 2
+						TorchPlacing: 1b
+					}
+					GT.Tool: {
+						AttackDamage: 8.5f
+						AttackSpeed: -3.2f
+						Damage: 0
+						Enchantability: 14
+						HarvestLevel: 2
+						MaxDamage: 3839
+						ToolSpeed: 10.0f
+					}
+					HideFlags: 2
+					MaxCharge: 2147483647L
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "gtceu:hv_aluminium_wrench"
+				tag: {
+					Charge: 2147483647L
+					DisallowContainerItem: 0b
+					GT.Behaviours: {
+						Mode: 2b
+					}
+					GT.Tool: {
+						Damage: 0
+						Enchantability: 14
+						HarvestLevel: 2
+						MaxDamage: 767
+						ToolSpeed: 22.0f
+					}
+					HideFlags: 2
+					MaxCharge: 2147483647L
+				}
+			}
+		}
+		{ count: 2, item: "gtceu:hv_electric_motor" }
+		{ count: 2, item: "gtceu:hv_electric_pump" }
+		{ item: "gtceu:hv_fluid_regulator" }
+		{ item: "gtceu:hv_conveyor_module" }
+		{ count: 2, item: "gtceu:hv_electric_piston" }
+		{ count: 2, item: "gtceu:hv_robot_arm" }
+		{ item: "gtceu:hv_emitter" }
+		{ item: "gtceu:hv_sensor" }
+		{
+			item: {
+				Count: 1
+				id: "gtceu:hv_item_magnet"
+				tag: {
+					Charge: 1600000L
+				}
+			}
+		}
+		{ item: "gtceu:lv_super_tank" }
+		{ item: "gtceu:lv_super_chest" }
+		{ count: 8, item: "botania:terrasteel_ingot" }
+		{ count: 8, item: "gtceu:stainless_steel_ingot" }
+		{ item: "gtceu:stainless_steel_fluid_cell" }
+		{ count: 8, item: "gtceu:universal_fluid_cell" }
+		{ count: 4, item: "gtceu:steel_fluid_cell" }
+		{ count: 2, item: "gtceu:aluminium_fluid_cell" }
+		{
+			item: {
+				Count: 1
+				id: "botania:terra_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "botania:terra_axe"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "botania:terra_pick"
+				tag: {
+					Damage: 0
+					mana: 99999999
+				}
+			}
+		}
+		{ count: 12, item: "gtceu:terralumina_ingot" }
+	]
+	title: "HV Loot"
+}

@@ -10,6 +10,11 @@
 	quests: [
 		{
 			dependencies: ["6AB3F08490774D51"]
+			description: [
+				"Welcome to HV, the age of progress!"
+				""
+				"You'll have very fast machines and access to Applied Energistics 2!"
+			]
 			icon: "gtceu:hv_machine_hull"
 			id: "59775F7F175FF086"
 			shape: "square"
@@ -46,6 +51,7 @@
 		}
 		{
 			dependencies: ["04EEC280F22C612F"]
+			description: ["Ambrosium is a burnable gem, used in making Elventium, a HV superconductor."]
 			id: "4A6F76983101B7E1"
 			size: 1.0d
 			tasks: [{
@@ -58,18 +64,24 @@
 		}
 		{
 			dependencies: ["3C1300681CAA0377"]
+			description: ["Very tough alloy."]
 			id: "68BAC4CBCD602803"
-			size: 1.0d
+			size: 1.5d
 			tasks: [{
 				id: "4BC4012FA008DC4B"
 				item: "gtceu:zanite_steel_ingot"
 				type: "item"
 			}]
 			x: 2.0d
-			y: 2.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["04EEC280F22C612F"]
+			description: [
+				"Zanite is a gem and a resource required for Zanite Steel."
+				""
+				"It can also be made into tools and armor."
+			]
 			id: "3C1300681CAA0377"
 			size: 1.0d
 			tasks: [{
@@ -89,6 +101,12 @@
 			]
 			icon: "aether:aether_portal_frame"
 			id: "04EEC280F22C612F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6404DFBEACA5C87A"
+				table_id: 7166582181172905684L
+				type: "loot"
+			}]
 			shape: "gear"
 			size: 1.5d
 			tasks: [
@@ -115,7 +133,18 @@
 				"722C635C6F7AA733"
 				"528DAD15BFA6104A"
 			]
+			description: [
+				"Next tier of coils."
+				""
+				"Congratulations!"
+			]
 			id: "28B610006FFBCBE6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5FD95EA083672782"
+				table_id: 7166582181172905684L
+				type: "loot"
+			}]
 			shape: "gear"
 			size: 1.5d
 			tasks: [{
@@ -124,11 +153,16 @@
 				item: "gtceu:nichrome_coil_block"
 				type: "item"
 			}]
-			x: 7.5d
-			y: -3.0d
+			x: 9.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["59775F7F175FF086"]
+			description: [
+				"Speeds up assembly."
+				""
+				"You'll need it for some HV recipes."
+			]
 			id: "17A254562B5DF529"
 			size: 1.0d
 			tasks: [{
@@ -136,8 +170,8 @@
 				item: "gtceu:hv_assembler"
 				type: "item"
 			}]
-			x: -10.5d
-			y: -3.0d
+			x: -16.0d
+			y: 1.5d
 		}
 		{
 			dependencies: [
@@ -147,6 +181,12 @@
 			]
 			description: ["Cheapest LV circuits there are."]
 			id: "53CBD2CE4933D4F0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "437E49592B64EAB8"
+				table_id: 7166582181172905684L
+				type: "loot"
+			}]
 			size: 1.5d
 			tasks: [{
 				id: "1666B115D48EE522"
@@ -159,7 +199,14 @@
 		}
 		{
 			dependencies: ["442599FD110BB3C3"]
+			description: ["The board for the next tier of circuits."]
 			id: "1147F49038872B8F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7E858BF4B2BA1D77"
+				table_id: 7166582181172905684L
+				type: "loot"
+			}]
 			size: 1.5d
 			tasks: [{
 				id: "16FC91122792C2C1"
@@ -174,14 +221,21 @@
 				"1147F49038872B8F"
 				"489074B5570FEE37"
 			]
+			description: ["Cheapest MV circuits."]
 			id: "0E89B435074FF121"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5F11A545A1CC4303"
+				table_id: 7166582181172905684L
+				type: "loot"
+			}]
 			size: 1.5d
 			tasks: [{
 				id: "66B8C580766D15E1"
 				item: "gtceu:micro_processor"
 				type: "item"
 			}]
-			title: "Cheap MV Circuits"
+			title: "Cheapest MV Circuits"
 			x: 0.0d
 			y: 5.0d
 		}
@@ -191,7 +245,18 @@
 				"4815B8E4EF4AC16E"
 				"722C635C6F7AA733"
 			]
+			description: [
+				"As the title suggests... cheaper HV Circuits."
+				""
+				"I'm really tired of writing quests..."
+			]
 			id: "1D08089B37803F70"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "17B5DE8B4D2F23EC"
+				table_id: 7166582181172905684L
+				type: "loot"
+			}]
 			size: 1.5d
 			tasks: [{
 				id: "25AF509E2496D7B9"
@@ -199,7 +264,7 @@
 				type: "item"
 			}]
 			title: "Cheaper HV Circuits"
-			x: 5.0d
+			x: 7.5d
 			y: 5.0d
 		}
 		{
@@ -210,6 +275,12 @@
 			]
 			description: ["A bit expensive but worth it!"]
 			id: "5E0F220459741BE1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7124E9D2E2850A65"
+				table_id: 7166582181172905684L
+				type: "loot"
+			}]
 			shape: "gear"
 			size: 1.5d
 			tasks: [{
@@ -218,7 +289,7 @@
 				type: "item"
 			}]
 			title: "Early EV Circuits"
-			x: 10.0d
+			x: 13.0d
 			y: 5.0d
 		}
 		{
@@ -233,6 +304,12 @@
 				"&8Or don't, I don't really care, you can do what you want, I'm just a guy in a book.&r"
 			]
 			id: "5C1F974BF9733EE6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "24364BC5BDA59E4F"
+				table_id: 7166582181172905684L
+				type: "loot"
+			}]
 			shape: "gear"
 			size: 1.5d
 			tasks: [{
@@ -241,7 +318,7 @@
 				type: "item"
 			}]
 			title: "Early IV Circuits"
-			x: 13.0d
+			x: 16.0d
 			y: 5.0d
 		}
 		{
@@ -249,7 +326,20 @@
 				"41DC9E77D843E0D2"
 				"095EFD640A49AE71"
 			]
+			description: [
+				"The EV material."
+				""
+				"You'll need plenty of this, so keep on making more!"
+				""
+				"You have progressed far! Congrats!"
+			]
 			id: "43D222FD4AF3280E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7320739A17D2F276"
+				table_id: 7166582181172905684L
+				type: "loot"
+			}]
 			shape: "gear"
 			size: 1.5d
 			tasks: [{
@@ -257,7 +347,7 @@
 				item: "gtceu:titanium_ingot"
 				type: "item"
 			}]
-			x: 17.0d
+			x: 20.0d
 			y: 0.0d
 		}
 		{
@@ -270,7 +360,7 @@
 				item: "gtceu:rutile_dust"
 				type: "item"
 			}]
-			x: 15.0d
+			x: 18.0d
 			y: -7.5d
 		}
 		{
@@ -283,7 +373,7 @@
 				item: "gtceu:titanium_tetrachloride_bucket"
 				type: "item"
 			}]
-			x: 17.0d
+			x: 20.0d
 			y: -7.5d
 		}
 		{
@@ -305,13 +395,27 @@
 					type: "item"
 				}
 			]
-			x: 17.0d
+			x: 20.0d
 			y: -3.0d
 		}
 		{
 			dependencies: ["5E0F220459741BE1"]
-			description: ["Chill!"]
+			description: [
+				"Chill!"
+				""
+				"The Vacuum Freezer freezes things. Cool, isn't it?"
+				""
+				"Required to cool down very hot ingots."
+				""
+				"&8Can it also produce ice for my matcha?&r"
+			]
 			id: "41DC9E77D843E0D2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "11D51E3D075E467D"
+				table_id: 7166582181172905684L
+				type: "loot"
+			}]
 			shape: "gear"
 			size: 1.5d
 			tasks: [{
@@ -319,12 +423,19 @@
 				item: "gtceu:vacuum_freezer"
 				type: "item"
 			}]
-			x: 15.0d
+			x: 13.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["43D222FD4AF3280E"]
+			description: ["Time for the EV Age!"]
 			id: "097912261E2A9B52"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "53EBA0C7D34EECF2"
+				table_id: 7166582181172905684L
+				type: "loot"
+			}]
 			shape: "gear"
 			size: 1.5d
 			tasks: [{
@@ -332,14 +443,11 @@
 				item: "gtceu:ev_machine_hull"
 				type: "item"
 			}]
-			x: 19.0d
-			y: -2.0d
+			x: 22.0d
+			y: 0.0d
 		}
 		{
-			dependencies: [
-				"442D375BF085216E"
-				"1DA37C72B3F83FD4"
-			]
+			dependencies: ["1DA37C72B3F83FD4"]
 			description: ["You can now finally craft Eyes of Ender."]
 			id: "30D787446CE3CE8B"
 			size: 1.5d
@@ -377,6 +485,11 @@
 		}
 		{
 			dependencies: ["0B159426F31C5AC1"]
+			description: [
+				"Very useful, will allow you to extract plenty of resources for a relatively short period of time."
+				""
+				"Remember to pair with enough power and enough storage."
+			]
 			id: "0310998DEAFB2B09"
 			size: 1.0d
 			tasks: [{
@@ -389,7 +502,14 @@
 		}
 		{
 			dependencies: ["5E0F220459741BE1"]
+			description: ["Great step towards better circuit assembling!"]
 			id: "1F4BD78DF492DE6A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3A895E3E798C9460"
+				table_id: 7166582181172905684L
+				type: "loot"
+			}]
 			shape: "gear"
 			size: 1.5d
 			tasks: [{
@@ -397,11 +517,12 @@
 				item: "gtceu:hv_circuit_assembler"
 				type: "item"
 			}]
-			x: 10.0d
+			x: 13.0d
 			y: 7.5d
 		}
 		{
 			dependencies: ["0CECA3E8DF49EA33"]
+			description: ["Stores a good amount of energy."]
 			id: "4AEC76A5E18BF772"
 			size: 1.0d
 			tasks: [{
@@ -414,6 +535,13 @@
 		}
 		{
 			dependencies: ["59775F7F175FF086"]
+			description: [
+				"With HV, you unlock 2 new Maintenance hatches:"
+				""
+				"&3Configurable Maintenance Hatch&r - lets you change the speed of recipes at the price of maintenance issue frequency."
+				""
+				"&3Automatic Maintenance Hatch&r - automatically resolves maintenance issues for you"
+			]
 			icon: "gtceu:configurable_maintenance_hatch"
 			id: "107D6EDE7A48ABAD"
 			size: 1.0d
@@ -430,8 +558,8 @@
 				}
 			]
 			title: "New Maintenance Hatches"
-			x: -13.0d
-			y: -3.0d
+			x: -14.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["273E6401132B67CF"]
@@ -442,13 +570,26 @@
 				item: "gtceu:hv_super_chest"
 				type: "item"
 			}]
-			x: -16.0d
-			y: 3.0d
+			x: -8.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["59775F7F175FF086"]
+			description: [
+				"The Cleanroom is an essential multiblock for crafting certain products. The machines placed inside it will be extra clean. You can wire in electricity from the outside using hulls or diodes."
+				""
+				"From now on more and more products will require the Cleanroom."
+				""
+				"Check the Multiblock Information tab to see more."
+			]
 			hide_dependency_lines: true
 			id: "42ADECB98707B089"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "78200294B5E8A537"
+				table_id: 7166582181172905684L
+				type: "loot"
+			}]
 			shape: "gear"
 			size: 1.5d
 			tasks: [{
@@ -456,11 +597,12 @@
 				item: "gtceu:cleanroom"
 				type: "item"
 			}]
-			x: 10.0d
-			y: 0.0d
+			x: 16.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["59775F7F175FF086"]
+			description: ["Used to make Brine for Bromine and Iodine."]
 			id: "658F35B4B40FFB93"
 			size: 1.0d
 			tasks: [{
@@ -468,11 +610,12 @@
 				item: "gtceu:evaporation_plant"
 				type: "item"
 			}]
-			x: -14.5d
-			y: -3.0d
+			x: -13.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["59775F7F175FF086"]
+			description: ["The Implosion Chamber is a multiblock that uses the pressure of explosions to compress stuff."]
 			hide_dependency_lines: true
 			id: "31C81A033CB8C11D"
 			size: 1.0d
@@ -481,11 +624,16 @@
 				item: "gtceu:implosion_compressor"
 				type: "item"
 			}]
-			x: 15.0d
+			x: 18.0d
 			y: 5.0d
 		}
 		{
 			dependencies: ["20831A754A2A5392"]
+			description: [
+				"To get Gelled Toluene, you'll need some Toluene (go figure?)"
+				""
+				"You can get Toluene from distilling Wood Tar, which you can get from extracting Charcoal, or smelting wood in the Pyrolyse oven."
+			]
 			id: "70CA8E65AA945363"
 			size: 1.0d
 			tasks: [{
@@ -501,6 +649,7 @@
 				"70CA8E65AA945363"
 				"40E5E5D9E58528D2"
 			]
+			description: ["The Industrial TNT is the stronger version of the regular TNT. You'll need it to make rocket platings."]
 			id: "44890B3796B295E2"
 			size: 1.0d
 			tasks: [{
@@ -508,17 +657,24 @@
 				item: "gtceu:industrial_tnt"
 				type: "item"
 			}]
-			x: 17.0d
+			x: 20.0d
 			y: 10.0d
 		}
 		{
 			dependencies: ["4AEC76A5E18BF772"]
+			description: ["Grants good protection, night vision, fall damage negation and step-assist."]
 			icon: {
 				Count: 1
 				id: "gtceu:nanomuscle_helmet"
 				tag: { }
 			}
 			id: "25AFA7FC86E52939"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0329A0032933D9FC"
+				table_id: 7166582181172905684L
+				type: "loot"
+			}]
 			size: 1.0d
 			tasks: [
 				{
@@ -552,7 +708,18 @@
 		}
 		{
 			dependencies: ["59775F7F175FF086"]
+			description: [
+				"This multiblock is very useful for extracting various resources from liquids."
+				""
+				"You will probably spam them often. So be prepared, have a lot of Stainless Steel ready."
+			]
 			id: "20831A754A2A5392"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "40B2A2A436E6A026"
+				table_id: 7166582181172905684L
+				type: "loot"
+			}]
 			shape: "gear"
 			size: 1.5d
 			tasks: [{
@@ -568,7 +735,18 @@
 				"5C00182B01D5FFCF"
 				"400A096DB2D1D861"
 			]
+			description: [
+				"Polytetrafluoroethylene, or PTFE, is used as an upgrade to Polyethylene. Certain upgrades yield more when using PTFE, some even require PTFE."
+				""
+				"It is recommended to have this automated after getting your first LCR."
+			]
 			id: "508C959C59F50CAF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "46A297E5D1C76B65"
+				table_id: 7166582181172905684L
+				type: "loot"
+			}]
 			shape: "gear"
 			size: 1.5d
 			tasks: [{
@@ -581,6 +759,13 @@
 		}
 		{
 			dependencies: ["59775F7F175FF086"]
+			description: [
+				"Multi Smelters are insanely useful machines that can smelt batches of resources in seconds."
+				""
+				"The speed and amount per batch depends on the tier of coil used in the machine."
+				""
+				"They also serve as an Alloy Smelter."
+			]
 			id: "25BA9E6C6E55C85C"
 			size: 1.0d
 			tasks: [{
@@ -589,10 +774,11 @@
 				type: "item"
 			}]
 			x: -13.0d
-			y: -1.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["59775F7F175FF086"]
+			description: ["Lets you produce cracked fluids at 2x the output of the chemical reactor."]
 			id: "17515CF049766872"
 			size: 1.0d
 			tasks: [{
@@ -600,12 +786,19 @@
 				item: "gtceu:cracker"
 				type: "item"
 			}]
-			x: -16.0d
-			y: -1.5d
+			x: -14.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["508C959C59F50CAF"]
+			description: ["Large version of the Chemical Reactor, allows skipping steps in reactions."]
 			id: "3F75C75CFDA986C1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6CF868BABAD3AAC9"
+				table_id: 7166582181172905684L
+				type: "loot"
+			}]
 			shape: "gear"
 			size: 1.5d
 			tasks: [{
@@ -617,22 +810,11 @@
 			y: -12.5d
 		}
 		{
-			dependencies: ["0C4E72AB5A1B13E6"]
-			id: "6BD0E91035055F7D"
-			size: 1.0d
-			tasks: [{
-				id: "3022E359A7FA4E54"
-				item: "gtceu:hv_item_magnet"
-				type: "item"
-			}]
-			x: -13.0d
-			y: 4.5d
-		}
-		{
 			dependencies: [
 				"6B1DA81DE2410919"
 				"0B159426F31C5AC1"
 			]
+			description: ["Want to teleport your fluid from one machine to the other?"]
 			id: "57D35AEFE44C9CB2"
 			size: 1.0d
 			tasks: [{
@@ -645,6 +827,11 @@
 		}
 		{
 			dependencies: ["43D222FD4AF3280E"]
+			description: [
+				"They are a bit expensive but are very worth it."
+				""
+				"All storages of the same color code share an inventory, so you can have many without them interfering with each other."
+			]
 			icon: "enderstorage:ender_chest"
 			id: "60C751CF4D7C286E"
 			size: 1.0d
@@ -661,11 +848,12 @@
 				}
 			]
 			title: "Ender Storage"
-			x: 16.0d
+			x: 19.0d
 			y: 1.0d
 		}
 		{
 			dependencies: ["30D787446CE3CE8B"]
+			description: ["The Ender Pouch will allow you to have a portable configurable ender chest."]
 			id: "63B866791B806ECC"
 			size: 1.0d
 			tasks: [{
@@ -673,8 +861,8 @@
 				item: "enderstorage:ender_pouch"
 				type: "item"
 			}]
-			x: -18.0d
-			y: -7.5d
+			x: -17.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["30D787446CE3CE8B"]
@@ -686,19 +874,6 @@
 				type: "item"
 			}]
 			x: -14.5d
-			y: -6.0d
-		}
-		{
-			dependencies: ["59775F7F175FF086"]
-			hide_dependency_lines: true
-			id: "442D375BF085216E"
-			size: 1.0d
-			tasks: [{
-				id: "020D284088B5EA39"
-				item: "minecraft:ender_pearl"
-				type: "item"
-			}]
-			x: -17.5d
 			y: -6.0d
 		}
 		{
@@ -735,11 +910,18 @@
 		}
 		{
 			dependencies: [
-				"34D27CED8F185184"
 				"298AA444AEC8C3A1"
-				"3B1F268BC1A56F83"
+				"48267B88994A6920"
+				"3E39C0E0CB93625B"
 			]
+			description: ["You'll need HV Energy Hatches to overclock your EBFs in order to produce Titanium."]
 			id: "6C75DE589F2268C7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "32386B3A067F6F51"
+				table_id: 7166582181172905684L
+				type: "loot"
+			}]
 			shape: "gear"
 			size: 1.5d
 			tasks: [{
@@ -747,11 +929,12 @@
 				item: "gtceu:hv_energy_input_hatch"
 				type: "item"
 			}]
-			x: -20.5d
+			x: -17.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["14E993FAD54631CD"]
+			description: ["In order to make the next tier of integrated power circuits, you'll need a better Cutter."]
 			id: "48267B88994A6920"
 			size: 1.0d
 			tasks: [{
@@ -759,12 +942,23 @@
 				item: "gtceu:hv_cutter"
 				type: "item"
 			}]
-			x: -17.5d
+			x: -16.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["30D787446CE3CE8B"]
+			description: [
+				"You can find the Stronghold in the Overworld."
+				""
+				"&cIt is advised to have a helmet with some sort of nightvision, as the End is pitch black.&r"
+			]
 			id: "62B1007E03E72515"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "79AE25D99C4A2A93"
+				table_id: 7166582181172905684L
+				type: "loot"
+			}]
 			size: 1.0d
 			tasks: [{
 				dimension: "minecraft:the_end"
@@ -778,6 +972,11 @@
 		}
 		{
 			dependencies: ["68BAC4CBCD602803"]
+			description: [
+				"An ancient circuit used by the elves."
+				""
+				"Required to make the Elden Gateway."
+			]
 			id: "42993980A7D65EBB"
 			size: 1.0d
 			tasks: [{
@@ -786,22 +985,11 @@
 				type: "item"
 			}]
 			x: 3.5d
-			y: 1.0d
-		}
-		{
-			dependencies: ["59775F7F175FF086"]
-			id: "0C4E72AB5A1B13E6"
-			size: 1.0d
-			tasks: [{
-				id: "0C126303B81F4873"
-				item: "gtceu:hv_battery_hull"
-				type: "item"
-			}]
-			x: -13.0d
-			y: 3.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["1DA37C72B3F83FD4"]
+			description: ["If you do not want to fight Blazes in the Nether, it is best to produce powder using Carbon and Sulfur."]
 			id: "783DE37E3030180D"
 			size: 1.0d
 			tasks: [{
@@ -822,11 +1010,16 @@
 				item: "gtceu:phosphorus_boule"
 				type: "item"
 			}]
-			x: -16.0d
-			y: 1.5d
+			x: -5.5d
+			y: -4.0d
 		}
 		{
-			dependencies: ["59775F7F175FF086"]
+			dependencies: ["17A254562B5DF529"]
+			description: [
+				"Tired of pumping water into your machines?"
+				""
+				"Well, then you might find this useful! Just pop this on as a cover for your machine and it'll fill the machine with water, infinitely."
+			]
 			id: "35A298845D55AEED"
 			size: 1.0d
 			tasks: [{
@@ -834,11 +1027,12 @@
 				item: "gtceu:infinite_water_cover"
 				type: "item"
 			}]
-			x: -14.5d
-			y: 3.0d
+			x: -17.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["59775F7F175FF086"]
+			description: ["Want to hold 64 buckets of fluid inside your inventory? Well then lucky for you!"]
 			hide_dependency_lines: true
 			id: "63CE3350D5F484A7"
 			size: 1.0d
@@ -847,11 +1041,12 @@
 				item: "gtceu:stainless_steel_fluid_cell"
 				type: "item"
 			}]
-			x: -14.5d
-			y: 4.5d
+			x: -17.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["1DA37C72B3F83FD4"]
+			description: ["Next tier of rubber."]
 			id: "0C2C24739D10F90C"
 			size: 1.0d
 			tasks: [{
@@ -865,22 +1060,24 @@
 		{
 			dependencies: ["59775F7F175FF086"]
 			description: [
-				"Now your macerators have unlocked chanced byproducts!"
+				"Now your macerators have unlocked &3chanced byproducts&r!"
 				""
 				"I recommend building an advanced processing line somewhat soon, to extract as much as you can from the ores you are getting."
 			]
 			id: "2B5F523C728A64C3"
+			shape: "gear"
 			size: 1.0d
 			tasks: [{
 				id: "08D59374CB56A31B"
 				item: "gtceu:hv_macerator"
 				type: "item"
 			}]
-			x: -14.5d
-			y: -1.5d
+			x: -10.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["59775F7F175FF086"]
+			description: ["Better energy cables. Capable of transfering 5k FE per tick."]
 			id: "640C2569D10D1CDC"
 			size: 1.0d
 			tasks: [{
@@ -889,12 +1086,17 @@
 				type: "item"
 			}]
 			x: -13.0d
-			y: 1.5d
+			y: 5.0d
 		}
 		{
 			dependencies: [
 				"42993980A7D65EBB"
 				"512B03E7BB59B936"
+			]
+			description: [
+				"The portal to the world of the Elves (though not a portal you can enter)."
+				""
+				"Throw items in and the Elves will throw an item out, simple trade!"
 			]
 			id: "2894F38706D609AD"
 			size: 1.0d
@@ -908,7 +1110,20 @@
 		}
 		{
 			dependencies: ["2894F38706D609AD"]
+			description: [
+				"The third checkpoint in Botania."
+				""
+				"Also required to make Elventium."
+				""
+				"You can also make armor and tools out of it, and it is very useful in Botania."
+			]
 			id: "60A095952D52DFE3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "45A4F9DC9125D8D7"
+				table_id: 7166582181172905684L
+				type: "loot"
+			}]
 			shape: "gear"
 			size: 1.5d
 			tasks: [{
@@ -916,7 +1131,7 @@
 				item: "botania:elementium_ingot"
 				type: "item"
 			}]
-			x: 5.0d
+			x: 5.5d
 			y: 0.0d
 		}
 		{
@@ -932,11 +1147,12 @@
 				item: "gtceu:liquid_aether_air_bucket"
 				type: "item"
 			}]
-			x: 9.0d
+			x: 13.0d
 			y: -5.5d
 		}
 		{
 			dependencies: ["62B1007E03E72515"]
+			description: ["The End Air has a lot of useful resources that could be distilled, especially when frozen into Liquid End Air."]
 			id: "3E615E3C2E46F831"
 			size: 1.0d
 			tasks: [{
@@ -945,7 +1161,7 @@
 				type: "item"
 			}]
 			x: -16.0d
-			y: -4.5d
+			y: -4.0d
 		}
 		{
 			dependencies: [
@@ -954,19 +1170,20 @@
 				"31C81A033CB8C11D"
 				"44890B3796B295E2"
 			]
-			description: ["You'll need 13 of these to make your very first rocket!"]
+			description: ["Needed to make a rocket!"]
 			id: "4F14AC38199A005E"
-			size: 1.5d
+			size: 1.0d
 			tasks: [{
 				id: "772280E8D0AA09A5"
 				item: "kubejs:t1_rocket_plate"
 				type: "item"
 			}]
-			x: 17.0d
-			y: 2.0d
+			x: 20.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["6CB7D934C87C3EB9"]
+			description: ["Mistrium is a mysterious fluid from The Aether."]
 			id: "1C4FCF8636BC790A"
 			size: 1.0d
 			tasks: [{
@@ -974,7 +1191,7 @@
 				item: "gtceu:mistrium_bucket"
 				type: "item"
 			}]
-			x: 11.0d
+			x: 14.5d
 			y: -5.5d
 		}
 		{
@@ -986,27 +1203,72 @@
 				item: "gtceu:ozone_bucket"
 				type: "item"
 			}]
-			x: 9.0d
-			y: -4.0d
-		}
-		{
-			dependencies: ["43D222FD4AF3280E"]
-			id: "247390A4673AD828"
-			size: 1.0d
-			tasks: [{
-				id: "41C127184EEC3E8F"
-				item: "gcyr:rocket_scanner"
-				type: "item"
-			}]
-			x: 19.0d
-			y: 0.0d
+			x: 13.0d
+			y: -6.5d
 		}
 		{
 			dependencies: [
+				"43D222FD4AF3280E"
 				"4F14AC38199A005E"
-				"247390A4673AD828"
+			]
+			description: [
+				"The Rocket Scanner is a multiblock required to craft the rocket."
+				""
+				"You'll need to balance the number of thrusters and fuel tanks, so the thust inside a built rocket is larger than 0 m/s."
+				""
+				"The Magnet ID Card is used to set the destination of the rocket. Right click while it is in the hand, choose the planet, put it into the rocket and you are free to go!"
+				""
+				"The rocket will require rocket fuel in order to launch."
+				""
+				"&cThe rocket will also explode upon contact with a planet, so be careful.&r"
+				""
+				"&cYou will also need some sort of space suit to survive the atmoshpere.&r"
+			]
+			id: "247390A4673AD828"
+			size: 1.0d
+			tasks: [
+				{
+					id: "41C127184EEC3E8F"
+					item: "gcyr:rocket_scanner"
+					type: "item"
+				}
+				{
+					id: "06BAAF951BE96E1A"
+					item: "gcyr:basic_rocket_motor"
+					type: "item"
+				}
+				{
+					id: "67C7EC1AE9663614"
+					item: "gcyr:basic_fuel_tank"
+					type: "item"
+				}
+				{
+					id: "204F67A3FB9EF450"
+					item: {
+						Count: 1
+						id: "gcyr:id_chip"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: 22.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["247390A4673AD828"]
+			description: [
+				"Welcome to the moon."
+				""
+				"The moon is crucial to progression, offering multiple new ores. See the next quests for more info."
 			]
 			id: "7F79BF7FD6AE35CE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "22F2894096E171CD"
+				table_id: 7166582181172905684L
+				type: "loot"
+			}]
 			shape: "gear"
 			size: 1.5d
 			tasks: [{
@@ -1016,8 +1278,8 @@
 				title: "To the Moon!"
 				type: "dimension"
 			}]
-			x: 19.0d
-			y: 2.0d
+			x: 23.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["41DC9E77D843E0D2"]
@@ -1028,11 +1290,12 @@
 				item: "gtceu:nichrome_ingot"
 				type: "item"
 			}]
-			x: 15.0d
-			y: -3.0d
+			x: 11.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["59775F7F175FF086"]
+			description: ["You can get Raw Tantalite from both the Overworld and Nether"]
 			hide_dependency_lines: true
 			id: "05A634B47A2EF253"
 			size: 1.0d
@@ -1067,22 +1330,16 @@
 				item: "gtceu:inductor"
 				type: "item"
 			}]
-			x: 5.0d
+			x: 7.5d
 			y: 6.5d
 		}
 		{
-			dependencies: ["48267B88994A6920"]
-			id: "34D27CED8F185184"
-			tasks: [{
-				id: "6708F78CC53DD87E"
-				item: "gtceu:lpic_chip"
-				type: "item"
-			}]
-			x: -19.0d
-			y: 0.0d
-		}
-		{
 			dependencies: ["59775F7F175FF086"]
+			description: [
+				"You'll have a lot of Sodium from Clay Electrolizing."
+				""
+				"Potassium, on the other hand, can be electrolized from Saltpeter or Ender Pearl Dust."
+			]
 			hide_dependency_lines: true
 			id: "298AA444AEC8C3A1"
 			tasks: [{
@@ -1090,23 +1347,25 @@
 				item: "gtceu:sodium_potassium_bucket"
 				type: "item"
 			}]
-			x: -22.0d
-			y: -1.5d
+			x: -19.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["59775F7F175FF086"]
-			hide_dependency_lines: true
+			description: ["Sturdy steel alloy."]
+			hide_dependency_lines: false
 			id: "3B1F268BC1A56F83"
 			tasks: [{
 				id: "05424AD043038E03"
 				item: "gtceu:black_steel_ingot"
 				type: "item"
 			}]
-			x: -22.0d
-			y: 0.0d
+			x: -14.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["59775F7F175FF086"]
+			description: ["Required to progress towards The Aether"]
 			id: "1DA37C72B3F83FD4"
 			size: 1.5d
 			tasks: [{
@@ -1118,14 +1377,22 @@
 			y: -7.5d
 		}
 		{
-			dependencies: ["59775F7F175FF086"]
+			dependencies: [
+				"59775F7F175FF086"
+				"3B1F268BC1A56F83"
+			]
+			description: [
+				"You'll need Red Steel to make the HV Cutter."
+				""
+				"It's also good for tools."
+			]
 			id: "14E993FAD54631CD"
 			tasks: [{
 				id: "50CB454B6F804B96"
 				item: "gtceu:red_steel_ingot"
 				type: "item"
 			}]
-			x: -16.0d
+			x: -14.5d
 			y: 0.0d
 		}
 		{
@@ -1152,6 +1419,11 @@
 		}
 		{
 			dependencies: ["59775F7F175FF086"]
+			description: [
+				"Use higher tiers of plastic when you can when making these."
+				""
+				"Prepare to make a bunch!"
+			]
 			id: "442599FD110BB3C3"
 			tasks: [{
 				id: "7B7AB9A85AB05AA3"
@@ -1175,14 +1447,15 @@
 		}
 		{
 			dependencies: ["59775F7F175FF086"]
+			description: ["Phosphorus can be made from electrolyzing Apatite or Tricalcium Phosphate."]
 			id: "273E6401132B67CF"
 			tasks: [{
 				id: "3747A350EF966384"
 				item: "gtceu:phosphorus_dust"
 				type: "item"
 			}]
-			x: -14.5d
-			y: 1.5d
+			x: -7.0d
+			y: -4.0d
 		}
 		{
 			dependencies: [
@@ -1214,7 +1487,10 @@
 			y: -7.5d
 		}
 		{
-			dependencies: ["1DA37C72B3F83FD4"]
+			dependencies: [
+				"1DA37C72B3F83FD4"
+				"273E6401132B67CF"
+			]
 			description: ["Phosphorus Pentoxide, Nitrogen and Zinc make Blitz powder."]
 			id: "5DE437C1810F3513"
 			tasks: [{
@@ -1239,6 +1515,7 @@
 		}
 		{
 			dependencies: ["04EEC280F22C612F"]
+			description: ["Aether Air is very useful for distillation. It's even more useful when cooled down to liquid form."]
 			id: "4CAEA7913D1BDE3B"
 			tasks: [{
 				id: "44E23138176899BD"
@@ -1250,17 +1527,31 @@
 		}
 		{
 			dependencies: ["1C4FCF8636BC790A"]
+			description: [
+				"A very sturdy and impact-safe ingot."
+				""
+				"Great for dissipating heat."
+				""
+				"Also used in Thermal recipes."
+			]
 			id: "6491CC503A0BD3A7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "467D9579BFDABE76"
+				table_id: 7166582181172905684L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "2C3AAA8092BB82D3"
 				item: "gtceu:lumium_ingot"
 				type: "item"
 			}]
-			x: 13.0d
+			x: 16.0d
 			y: -5.5d
 		}
 		{
 			dependencies: ["59775F7F175FF086"]
+			description: ["You'll need this mixer for a couple of HV and EV recipes"]
 			id: "0CECA3E8DF49EA33"
 			tasks: [{
 				id: "2FF99897C494265F"
@@ -1272,6 +1563,7 @@
 		}
 		{
 			dependencies: ["66606096794A8A3B"]
+			description: ["Required to make the Elven Gateway."]
 			id: "512B03E7BB59B936"
 			tasks: [{
 				id: "4229035B36AA189E"
@@ -1283,6 +1575,7 @@
 		}
 		{
 			dependencies: ["59775F7F175FF086"]
+			description: ["Required to make Glimmering wood."]
 			id: "66606096794A8A3B"
 			tasks: [{
 				id: "70192B2B50BB420D"
@@ -1301,11 +1594,12 @@
 				item: "gtceu:nitration_mixture_bucket"
 				type: "item"
 			}]
-			x: 15.5d
+			x: 18.5d
 			y: 8.5d
 		}
 		{
 			dependencies: ["508C959C59F50CAF"]
+			description: ["Super Tank II was so good, they made... wait I already used this joke."]
 			id: "4A0E391E525A5A38"
 			tasks: [{
 				id: "2471A1AD8C86C0F0"
@@ -1316,17 +1610,33 @@
 			y: -11.0d
 		}
 		{
-			dependencies: ["59775F7F175FF086"]
+			dependencies: ["2894F38706D609AD"]
+			description: [
+				"Tired of throwing stuff into your Botania mana pool to make Manasteel? Tired of your generating flowers dying, setting up open crates, mana spreaders and whatnot?"
+				""
+				"Well, then these multiblocks are perfect for you. With just the right amount of power, you can do most of the mana recipes inside these big things."
+				""
+				"The &cMana Generator&r generates mana using flowers and their fuel."
+				""
+				"The &bLarge Mana Pool&r copies a lot of the Botania mana pool recipes. This multiblock does not provide recipes for recipes that use catalysts."
+			]
 			id: "452239D2CC8CCC7D"
-			shape: "gear"
-			size: 1.5d
-			tasks: [{
-				id: "075C3BDDD20A87CC"
-				item: "gtceu:large_mana_pool"
-				type: "item"
-			}]
-			x: -5.0d
-			y: 3.0d
+			size: 1.0d
+			tasks: [
+				{
+					id: "075C3BDDD20A87CC"
+					item: "gtceu:large_mana_pool"
+					type: "item"
+				}
+				{
+					id: "79957B43977D10AD"
+					item: "gtceu:mana_generator"
+					type: "item"
+				}
+			]
+			title: "Automating Mana"
+			x: 3.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["59775F7F175FF086"]
@@ -1342,8 +1652,76 @@
 				item: "ae2:energy_acceptor"
 				type: "item"
 			}]
-			x: -8.0d
+			x: -13.0d
 			y: -3.0d
+		}
+		{
+			dependencies: ["7F79BF7FD6AE35CE"]
+			description: [
+				"Sheldonite is required to make Platinum."
+				""
+				"It's only present on the Moon, in Sheldonite Veins."
+			]
+			id: "28F91949488DA658"
+			tasks: [{
+				count: 32L
+				id: "0FF44BE0535DADE9"
+				item: "gtceu:raw_cooperite"
+				type: "item"
+			}]
+			x: 25.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7F79BF7FD6AE35CE"]
+			description: [
+				"Neodymium is required to make magnetic neodymium rods."
+				""
+				"You can find it on the Moon (but also Mars)."
+			]
+			id: "33A96C17734C64C7"
+			tasks: [{
+				count: 32L
+				id: "0BE3C859D7E2DF04"
+				item: "gtceu:raw_neodymium"
+				type: "item"
+			}]
+			x: 25.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["3B1F268BC1A56F83"]
+			description: ["An Essential ingredient for HV Energy Hatches."]
+			id: "3E39C0E0CB93625B"
+			tasks: [{
+				id: "5E76D8CE516E52D6"
+				item: "gtceu:hv_voltage_coil"
+				type: "item"
+			}]
+			x: -17.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["62B1007E03E72515"]
+			description: [
+				"With Popped Chorus fruits, you can make potions of flying, which can last up to 30 minutes."
+				""
+				"They grant &3Creative Flight&r."
+			]
+			id: "408BC5FA1D2DC61F"
+			tasks: [{
+				id: "37004990DCC6D490"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "apotheosis:extra_long_flying"
+					}
+				}
+				type: "item"
+			}]
+			x: -17.5d
+			y: -4.5d
 		}
 	]
 	title: "HV Age"
