@@ -34,11 +34,7 @@ Current latest version: <b>0.2.0</b>
 
 ### Overview
 
-Start your journey by building massive factories and working through the many GregTech tiers, each with its own special materials and machines.  
-This is an expert modpack with custom recipes and content that make every step of progress feel earned. Use the power of Botania to support  
-your tech with magical tools and automation. The world is dangerous, strong enemies with unique abilities will come for you. Explore the Aether,  
-a key dimension for important resources, and travel to the Solar System and beyond as you advance. Factory-building, magic, and survival come  
-together in this tough but rewarding experience.
+Start your journey by building massive factories and working through the many GregTech tiers, each with its own special materials and machines. This is an expert modpack with custom recipes and content that make every step of progress feel earned. Use the power of Botania to support your tech with magical tools and automation. The world is dangerous, strong enemies with unique abilities will come for you. Explore the Aether, a key dimension for important resources, and travel to the Solar System and beyond as you advance. Factory-building, magic, and survival come together in this tough but rewarding experience.
 
 **Also guns... anyone?**
 
