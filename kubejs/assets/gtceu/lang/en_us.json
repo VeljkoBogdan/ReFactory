@@ -57,8 +57,8 @@
     "tooltip.gtceu.multiblock.proliferation_inducer": "Used for growing an ancient biometal",
     "tooltip.gtceu.multiblock.crystal_puller": "Used for creating silicon boules",
     "tooltip.gtceu.multiblock.greenhouse": "Used for growing plants",
-    "tooltip.gtceu.multiblock.large_mana_pool": "Used to simulate Mana Pool recipes using Mana",
-    "tooltip.gtceu.multiblock.mana_generator": "Used to simulate botania flowers, outputing Mana",
+    "tooltip.gtceu.multiblock.large_mana_pool": "Used to simulate Mana Pool recipes using Mana and power",
+    "tooltip.gtceu.multiblock.mana_generator": "Used to simulate botania flowers using power, outputing Mana",
 
     "gtceu.jei.ore_vein.zanite": "Zanite Vein",
     "gtceu.jei.ore_vein.ambrosium": "Ambrosium Vein",
