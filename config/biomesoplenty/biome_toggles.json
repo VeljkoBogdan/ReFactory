@@ -1,5 +1,5 @@
 {
-  "aspen_glade_enabled": true,
+  "aspen_glade_enabled": false,
   "auroral_garden_enabled": false,
   "bayou_enabled": false,
   "bog_enabled": false,
@@ -19,10 +19,10 @@
   "fungal_jungle_enabled": false,
   "glowing_grotto_enabled": false,
   "grassland_enabled": false,
-  "gravel_beach_enabled": true,
+  "gravel_beach_enabled": false,
   "highland_enabled": false,
-  "hot_springs_enabled": true,
-  "jacaranda_glade_enabled": true,
+  "hot_springs_enabled": false,
+  "jacaranda_glade_enabled": false,
   "jade_cliffs_enabled": false,
   "lavender_field_enabled": false,
   "lavender_forest_enabled": false,
@@ -39,7 +39,7 @@
   "ominous_woods_enabled": false,
   "orchard_enabled": false,
   "origin_valley_enabled": false,
-  "overgrown_greens_enabled": true,
+  "overgrown_greens_enabled": false,
   "pasture_enabled": false,
   "prairie_enabled": false,
   "pumpkin_patch_enabled": false,
@@ -65,7 +65,7 @@
   "wasteland_enabled": true,
   "wasteland_steppe_enabled": false,
   "wetland_enabled": false,
-  "wintry_origin_valley_enabled": true,
+  "wintry_origin_valley_enabled": false,
   "withered_abyss_enabled": false,
   "woodland_enabled": false
 }
