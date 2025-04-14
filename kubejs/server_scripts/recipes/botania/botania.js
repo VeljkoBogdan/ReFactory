@@ -27,14 +27,14 @@ ServerEvents.recipes(event => {
     event.shaped(
         'botania:apothecary_default',
         [
-            'CPC',
-            'SCS',
+            'SPS',
+            ' C ',
             'CCC'
         ],
         {
-            C: '#minecraft:stone_crafting_materials',
-            P: '#botania:petals',
-            S: 'gtceu:steel_plate'
+            C: 'minecraft:stone',
+            S: 'minecraft:stone_slab',
+            P: '#botania:petals'
         }
     )
 
@@ -540,6 +540,31 @@ ServerEvents.recipes(event => {
         .itemOutputs('9x gtceu:livingrock_plate')
         .EUt(GTValues.VA[GTValues.LV])
         .duration(20*20)
+
+    // Dirt from Dried Salt
+    event.recipes.botania.petal_apothecary(
+        '3x minecraft:dirt', 
+        [
+            'biomesoplenty:dried_salt',
+            'biomesoplenty:dried_salt',
+            'biomesoplenty:dried_salt',
+            'biomesoplenty:dried_salt'
+        ],
+        '#botania:petals'
+    )
+
+    // Clay from dirt
+    event.recipes.botania.petal_apothecary(
+        '3x minecraft:clay_ball',
+        [
+            'minecraft:dirt',
+            'minecraft:dirt',
+            'minecraft:dirt',
+            'minecraft:dirt'
+        ],
+        '#botania:petals'
+    )
+        
 })
 
 // yeet('botania:manasteel_ingot')

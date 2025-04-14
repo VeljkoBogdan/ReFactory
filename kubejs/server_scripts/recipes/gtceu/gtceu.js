@@ -412,4 +412,15 @@ ServerEvents.recipes(event => {
         )
         .duration(20*25)
         .EUt(GTValues.VA[GTValues.EV])
+
+    })
+    
+// Remove vanilla tools
+const tools = ["shovel", "pickaxe", "axe", "hoe", "sword"]
+const adjectives = ["wooden", "iron", "stone", "golden", "diamond", "netherite"]
+
+tools.forEach(tool => {
+    adjectives.forEach(adjective => {
+        yeet(`minecraft:${adjective}_${tool}`)
+    })
 })

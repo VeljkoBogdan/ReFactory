@@ -5,7 +5,7 @@
 	group: ""
 	icon: "gtceu:wetware_processor_mainframe"
 	id: "5067D127F87CB27B"
-	order_index: 11
+	order_index: 12
 	quest_links: [ ]
 	quests: [{
 		dependencies: ["008881C6B4F568F3"]

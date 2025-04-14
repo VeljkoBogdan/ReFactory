@@ -36,7 +36,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["14769C69DDD4F79E"]
+			dependencies: ["10C2C691F26385C4"]
 			description: [
 				"I recommend getting a few torches ASAP in order to light up your base."
 				""
@@ -49,8 +49,8 @@
 				item: "minecraft:torch"
 				type: "item"
 			}]
-			x: -1.5d
-			y: 0.0d
+			x: 0.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["10C2C691F26385C4"]
@@ -68,15 +68,15 @@
 				item: "minecraft:iron_ingot"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 3.0d
+			x: 1.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["10C2C691F26385C4"]
 			description: ["You can get Copper from several ores (Chalcopyrite, Malachite, Copper)"]
 			id: "19ED228B99A30CBF"
 			rewards: [{
-				count: 64
+				count: 16
 				id: "36AC65C92EDD36E8"
 				item: "minecraft:copper_ingot"
 				type: "item"
@@ -87,15 +87,15 @@
 				item: "minecraft:copper_ingot"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 1.5d
+			x: 4.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["10C2C691F26385C4"]
 			description: ["You can get Tin from Sphalerite or Cassiterite."]
 			id: "4B41B7447B139821"
 			rewards: [{
-				count: 64
+				count: 16
 				id: "161A88ECFE0D3396"
 				item: "gtceu:tin_ingot"
 				type: "item"
@@ -106,14 +106,11 @@
 				item: "gtceu:tin_ingot"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 3.0d
+			x: 3.0d
+			y: 4.5d
 		}
 		{
-			dependencies: [
-				"14769C69DDD4F79E"
-				"1296F376D1AA5290"
-			]
+			dependencies: ["7C4B66885D8AD0D4"]
 			description: [
 				"You'll need this to smelt almost all ores."
 				""
@@ -131,8 +128,8 @@
 				item: "minecraft:furnace"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 1.5d
+			x: 1.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["77219C4E83F48E8F"]
@@ -326,42 +323,13 @@
 				}
 			]
 			title: "Tools"
-			x: 1.5d
-			y: 4.5d
-		}
-		{
-			dependencies: ["1296F376D1AA5290"]
-			description: ["The mallet is very useful to &estop/start a Greg machine&r."]
-			id: "40B04FC774C8545C"
-			subtitle: "Don't mistake this for a hammer"
-			tasks: [{
-				id: "7D06E7FDB875FD54"
-				item: {
-					Count: 1
-					id: "gtceu:wood_mallet"
-					tag: {
-						DisallowContainerItem: 0b
-						GT.Behaviours: { }
-						GT.Tool: {
-							Damage: 0
-							MaxDamage: 127
-						}
-						HideFlags: 2
-					}
-				}
-				type: "item"
-			}]
 			x: 3.0d
-			y: 0.0d
+			y: 6.0d
 		}
 		{
-			dependencies: [
-				"03CF5FEDA44D312B"
-				"4B41B7447B139821"
-				"19ED228B99A30CBF"
-			]
+			dependencies: ["4AAB03A4BF0BCA12"]
 			description: [
-				"Craft some bronze dust from copper and tin dust, and put it into a furnace."
+				"Put the bronze dust into the furnace and wait for it to smelt."
 				"Now you get bronze! Congratulations!"
 			]
 			id: "7A8F5B47B4784EF5"
@@ -372,148 +340,15 @@
 				type: "item"
 			}]
 			shape: "gear"
-			size: 1.5d
+			size: 1.0d
 			tasks: [{
 				count: 16L
 				id: "532D6DE4DA19A8ED"
 				item: "gtceu:bronze_ingot"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 4.5d
-		}
-		{
-			dependencies: [
-				"7A8F5B47B4784EF5"
-				"0C2AE8D7483504CC"
-			]
-			description: [
-				"The basic way to get steam, by burning flamable items."
-				""
-				"&4Do NOT put water into an empty hot boiler, it will blow up!&r"
-			]
-			id: "570F99AFC0C287A7"
-			subtitle: "Finally, machinery (not yet)"
-			tasks: [{
-				id: "2F42ECCAB4CBF85B"
-				item: "gtceu:lp_steam_solid_boiler"
-				type: "item"
-			}]
-			title: "Steam Age"
-			x: 4.5d
-			y: 4.5d
-		}
-		{
-			dependencies: ["364AD55044CC7EBE"]
-			description: [
-				"A primitive pump makes getting more water into the steam boilers a lot easier."
-				""
-				"Unlike the Aqueous Accumulator, it does export water."
-			]
-			id: "3FCDBCB2152DE3FB"
-			optional: true
-			size: 1.0d
-			tasks: [{
-				id: "181EE1896DB52E1C"
-				item: "gtceu:primitive_pump"
-				type: "item"
-			}]
-			x: 9.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["071811F3550BAF2F"]
-			description: [
-				"You might have figured there is &4NO CLAY&r in the world, anywhere."
-				""
-				"To make clay, simply craft 8 dirt blocks with a water bucket."
-				""
-				"Later on you'll get a much better way of getting clay."
-			]
-			hide_dependency_lines: true
-			id: "0C2AE8D7483504CC"
-			rewards: [{
-				count: 32
-				id: "31B2B4E8FBDBC2FC"
-				item: "minecraft:clay_ball"
-				type: "item"
-			}]
-			subtitle: "No clay?"
-			tasks: [{
-				count: 32L
-				id: "501B3C9CD37425C4"
-				item: "minecraft:clay_ball"
-				type: "item"
-			}]
-			x: 4.5d
-			y: 3.0d
-		}
-		{
-			dependencies: ["5E785D06BD90880A"]
-			description: [
-				"Creates coke and creosote from coal."
-				""
-				"You will need 116 Coke Oven bricks for this."
-				""
-				"I recommend building 2+, if you have the resources to do that. Note that they can be wall-shared."
-			]
-			icon: "gtceu:coke_oven"
-			id: "364AD55044CC7EBE"
-			rewards: [{
-				count: 32
-				id: "4213B61D30307511"
-				item: "minecraft:coal"
-				type: "item"
-			}]
-			tasks: [
-				{
-					id: "7BF316FE70843AF7"
-					item: "gtceu:coke_oven"
-					type: "item"
-				}
-				{
-					count: 25L
-					id: "431A0C5FEFDE9DC5"
-					item: { Count: 25, id: "gtceu:coke_oven_bricks" }
-					type: "item"
-				}
-			]
-			x: 9.0d
-			y: 1.5d
-		}
-		{
-			dependencies: ["2F7F7A99342C19A6"]
-			description: ["Put some gravel in the forge hammer to get sand."]
-			id: "5E785D06BD90880A"
-			rewards: [{
-				count: 32
-				id: "358B82812D8DFBB7"
-				item: "minecraft:sand"
-				type: "item"
-			}]
-			tasks: [{
-				id: "697074F319A0CDB5"
-				item: "minecraft:sand"
-				type: "item"
-			}]
-			x: 7.5d
-			y: 1.5d
-		}
-		{
-			dependencies: ["30A1CCB30F870404"]
-			description: [
-				"A forge hammer is used to turn ingots into plates at a 3:2 ratio, which is much better than making them by hand."
-				""
-				"&eIt is also needed for making sand from gravel, because sand does not generate naturally.&r"
-			]
-			id: "2F7F7A99342C19A6"
-			tasks: [{
-				id: "697C4B2469318D1F"
-				item: "gtceu:lp_steam_forge_hammer"
-				type: "item"
-			}]
 			x: 6.0d
-			y: 1.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["03CF5FEDA44D312B"]
@@ -555,8 +390,8 @@
 				}
 			]
 			title: "Fluid Pipes"
-			x: 1.5d
-			y: 6.0d
+			x: 3.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["03CF5FEDA44D312B"]
@@ -570,327 +405,7 @@
 			}]
 			title: "Item Pipes"
 			x: 3.0d
-			y: 6.0d
-		}
-		{
-			dependencies: ["364AD55044CC7EBE"]
-			description: ["Coke is required to make steel."]
-			id: "536AD04E85FE9AE6"
-			size: 1.0d
-			tasks: [{
-				id: "33281D1815EE531B"
-				item: "gtceu:coke_gem"
-				type: "item"
-			}]
-			x: 10.5d
-			y: 1.5d
-		}
-		{
-			dependencies: ["570F99AFC0C287A7"]
-			description: ["The core of all your steam machines"]
-			id: "30A1CCB30F870404"
-			subtitle: "Finally, machinery (kind of)"
-			tasks: [{
-				id: "636DE7A331407FB3"
-				item: "gtceu:bronze_machine_casing"
-				type: "item"
-			}]
-			x: 6.0d
-			y: 4.5d
-		}
-		{
-			dependencies: ["30A1CCB30F870404"]
-			description: [
-				"A much better way of generating steam, but you will need silver to make it."
-				""
-				"The solar boilers also calcify over time, so you need to break it and place it again to get rid of it."
-				""
-				"&4Do NOT put water into an empty hot boiler, it will blow up!&r"
-			]
-			id: "64A960EB7D740D3F"
-			subtitle: "Much Efficient"
-			tasks: [{
-				id: "689A4D99EE70B56F"
-				item: "gtceu:lp_steam_solar_boiler"
-				type: "item"
-			}]
-			title: "Solar Boilers"
-			x: 4.5d
-			y: 6.0d
-		}
-		{
-			dependencies: ["30A1CCB30F870404"]
-			description: ["Makes alloys, which are going to be needed later."]
-			id: "66BCC30A05D77C6F"
-			tasks: [{
-				id: "7C93F074DF8AD9B0"
-				item: "gtceu:lp_steam_alloy_smelter"
-				type: "item"
-			}]
-			x: 6.0d
-			y: 6.0d
-		}
-		{
-			dependencies: ["30A1CCB30F870404"]
-			description: [
-				"This block compresses things into compressed things."
-				""
-				"It is also needed to make Firebricks for a Primitive Blast Furnace."
-			]
-			id: "5FC306AB0CF12117"
-			tasks: [{
-				id: "06F7D7D87FB7BD7E"
-				item: "gtceu:lp_steam_compressor"
-				type: "item"
-			}]
-			x: 7.5d
-			y: 4.5d
-		}
-		{
-			dependencies: ["5FC306AB0CF12117"]
-			description: [
-				"A very important multiblock, able to make steel from iron and coke."
-				""
-				"I very much recommend making multiple PBFs, especially because the recipe has been made cheaper, with double the amount of Fireclay Dust per craft. Steel takes a while."
-				""
-				"&eThey can also wall-share!&r"
-			]
-			id: "102E0DFFBDE7BD84"
-			tasks: [
-				{
-					id: "205FE61D350E26B6"
-					item: "gtceu:primitive_blast_furnace"
-					type: "item"
-				}
-				{
-					count: 32L
-					id: "19260AA417D42E3C"
-					item: { Count: 32, id: "gtceu:firebricks" }
-					type: "item"
-				}
-			]
-			x: 9.0d
-			y: 4.5d
-		}
-		{
-			dependencies: [
-				"536AD04E85FE9AE6"
-				"102E0DFFBDE7BD84"
-			]
-			description: [
-				"Combine iron and coke in the Primitive Blast Furnace to get steel!"
-				""
-				"You'll need plenty of it, so keep the PBF going."
-			]
-			id: "189B920AAB6456B4"
-			rewards: [
-				{
-					count: 8
-					id: "50007B6662EF549E"
-					item: "aether:gingerbread_man"
-					type: "item"
-				}
-				{
-					count: 16
-					id: "537A32D610BEB9E4"
-					item: "gtceu:steel_ingot"
-					type: "item"
-				}
-			]
-			shape: "gear"
-			size: 1.5d
-			tasks: [{
-				count: 16L
-				id: "28811BAA82471930"
-				item: "gtceu:steel_ingot"
-				type: "item"
-			}]
-			title: "Steel"
-			x: 10.5d
-			y: 4.5d
-		}
-		{
-			dependencies: ["6C35D6ECE63E59AB"]
-			description: [
-				"Electricity finally!"
-				""
-				"This block is an ingredient to all your LV machines."
-				""
-				"Go to LV AGE when you complete this quest!"
-			]
-			id: "62B56B57D291BF7B"
-			shape: "gear"
-			size: 1.5d
-			tasks: [{
-				id: "005B104BEE3776A8"
-				item: "gtceu:lv_machine_hull"
-				type: "item"
-			}]
-			x: 16.5d
-			y: 4.5d
-		}
-		{
-			dependencies: ["189B920AAB6456B4"]
-			description: ["A step into future."]
-			id: "313476D47A208906"
-			rewards: [{
-				count: 16
-				id: "223019980AF8C83E"
-				item: "gtceu:steel_ingot"
-				type: "item"
-			}]
-			tasks: [{
-				id: "2C455DA05F51CDE9"
-				item: "gtceu:lv_machine_casing"
-				type: "item"
-			}]
-			x: 13.5d
-			y: 4.5d
-		}
-		{
-			dependencies: [
-				"38D1CF49FA014533"
-				"59B13573493F565F"
-			]
-			description: ["Now that you have rubber, you're ready to make cables! "]
-			id: "09ECD67B4648D2EA"
-			tasks: [{
-				id: "1ECBD4DC55C2A0EE"
-				item: "gtceu:rubber_ingot"
-				type: "item"
-			}]
-			x: 15.0d
-			y: 3.0d
-		}
-		{
-			dependencies: ["370BF17C5F4076DD"]
-			description: [
-				"Sulfur does not naturally generate in the Overworld, rather, you have to get it from the Nether's Sulfur vein."
-				""
-				"An alternative way to get Sulfur is by centrifuging Realgar (or, less efficient, Netherrack dust), for which you'll need either a LV Centrifuge, or a Steam Separator."
-			]
-			id: "38D1CF49FA014533"
-			tasks: [{
-				id: "24F52A408312390C"
-				item: "gtceu:sulfur_dust"
-				type: "item"
-			}]
-			x: 13.5d
-			y: 3.0d
-		}
-		{
-			dependencies: [
-				"313476D47A208906"
-				"09ECD67B4648D2EA"
-			]
-			description: ["Craft the rubber into sheets, and coat some tin cables with it."]
-			id: "6C35D6ECE63E59AB"
-			tasks: [{
-				count: 2L
-				id: "42C1623EB206A147"
-				item: "gtceu:tin_single_cable"
-				type: "item"
-			}]
-			title: "Cables"
-			x: 15.0d
-			y: 4.5d
-		}
-		{
-			dependencies: ["24F313A71382D5A4"]
-			description: [
-				"There are also no rubber trees, so you'll have to get into a little bit of Botania to get them."
-				""
-				"&aGo to the Regrowth tab for more info."
-			]
-			id: "59B13573493F565F"
-			tasks: [{
-				id: "377653D00B1E2F1A"
-				item: "gtceu:rubber_sapling"
-				type: "item"
-			}]
-			x: 13.5d
-			y: 1.5d
-		}
-		{
-			dependencies: ["30A1CCB30F870404"]
-			description: ["A &aVERY&r good multiblock. Uses steam to grind 8 ores at a time, which is much faster than a regular macerator. It is recommended to get this to make your life less miserable."]
-			id: "288B368DB443FC38"
-			tasks: [{
-				id: "1E0DC4F4BCC2038A"
-				item: "gtceu:steam_grinder"
-				type: "item"
-			}]
-			x: 7.5d
-			y: 6.0d
-		}
-		{
-			dependencies: [
-				"3AACA352C261688C"
-				"09ECD67B4648D2EA"
-			]
-			description: ["A market is very useful to get seeds and grow better and more sustainable food."]
-			id: "31A0620289688EFB"
-			rewards: [{
-				count: 8
-				id: "33DAE636387D1F01"
-				item: "minecraft:emerald"
-				type: "item"
-			}]
-			tasks: [{
-				id: "1F21F93BD35D84D9"
-				item: "farmingforblockheads:market"
-				type: "item"
-			}]
-			x: 16.5d
-			y: 1.5d
-		}
-		{
-			dependencies: ["30A1CCB30F870404"]
-			description: ["Primitive input and output buses that don't require cables to craft."]
-			id: "429FB4A4E857C6F3"
-			tasks: [
-				{
-					id: "61A4B8C049F3CE1C"
-					item: "gtceu:steam_input_bus"
-					type: "item"
-				}
-				{
-					id: "4352A0A3F98F9003"
-					item: "gtceu:steam_output_bus"
-					type: "item"
-				}
-			]
-			title: "Steam bus"
-			x: 4.5d
-			y: 7.0d
-		}
-		{
-			dependencies: ["30A1CCB30F870404"]
-			description: ["A multiblock version of the alloy smelter."]
-			id: "07A730A0B1F9A9CB"
-			tasks: [{
-				id: "2629D18876434DC8"
-				item: "steamadditions:steam_foundry"
-				type: "item"
-			}]
-			x: 6.0d
-			y: 7.0d
-		}
-		{
-			dependencies: ["30A1CCB30F870404"]
-			description: [
-				"A multiblock version of the centrifuge."
-				""
-				"Can be used to make sulfur if you really hate to go to the nether."
-			]
-			id: "0F9A343D4916C7A4"
-			tasks: [{
-				id: "28DB8871FF767453"
-				item: "steamadditions:steam_separator"
-				type: "item"
-			}]
-			x: 7.5d
-			y: 7.0d
+			y: 8.5d
 		}
 		{
 			dependencies: ["03CF5FEDA44D312B"]
@@ -901,7 +416,7 @@
 				""
 				"You can only output from the bottom."
 			]
-			hide_dependency_lines: true
+			hide_dependency_lines: false
 			id: "0B4DDD082A28BD6C"
 			tasks: [
 				{
@@ -923,25 +438,8 @@
 				}
 			]
 			title: "Primitive Tank"
-			x: -3.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["30A1CCB30F870404"]
-			description: [
-				"A primitive way to get infinite cobblestone is with a rock crusher."
-				""
-				"It requires steam to run, as well as a lava and water block adjacent to it."
-			]
-			id: "700A61CF2839E142"
-			tasks: [{
-				id: "11A8110C4D883C83"
-				item: "gtceu:lp_steam_rock_crusher"
-				type: "item"
-			}]
-			title: "Cobble Generator"
-			x: 7.5d
-			y: 3.0d
+			x: 2.0d
+			y: 8.5d
 		}
 		{
 			dependencies: [
@@ -987,51 +485,8 @@
 					type: "item"
 				}
 			]
-			x: -1.5d
-			y: 1.5d
-		}
-		{
-			dependencies: ["31A0620289688EFB"]
-			description: [
-				"There is no sugar cane in the market, but you can make it using Botania."
-				""
-				"You can also get it from a wandering trader if you're lucky."
-				""
-				"You will need it to make paper for resistors."
-			]
-			id: "4521814F0D4989E9"
-			tasks: [{
-				id: "23F96D4BF8CF7A55"
-				item: "minecraft:sugar_cane"
-				type: "item"
-			}]
-			x: 18.0d
-			y: 1.5d
-		}
-		{
-			dependencies: ["09ECD67B4648D2EA"]
-			description: ["This tool removes fluid from machines."]
-			id: "34DED645D7701EBF"
-			tasks: [{
-				id: "50333742978F3153"
-				item: {
-					Count: 1
-					id: "gtceu:rubber_plunger"
-					tag: {
-						DisallowContainerItem: 0b
-						GT.Behaviours: { }
-						GT.Tool: {
-							Damage: 0
-							Enchantability: 10
-							MaxDamage: 255
-						}
-						HideFlags: 2
-					}
-				}
-				type: "item"
-			}]
-			x: 16.5d
-			y: 3.0d
+			x: 0.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["14769C69DDD4F79E"]
@@ -1117,23 +572,8 @@
 				}
 				type: "item"
 			}]
-			x: 0.0d
-			y: 6.0d
-		}
-		{
-			dependencies: ["189B920AAB6456B4"]
-			description: ["To get certain resources (e.g. Sulfur and Nether Quartz), you're going to need to visit the Nether."]
-			hide_dependency_lines: false
-			id: "370BF17C5F4076DD"
-			tasks: [{
-				dimension: "minecraft:the_nether"
-				icon: "minecraft:obsidian"
-				id: "57B3232E17DB0996"
-				type: "dimension"
-			}]
-			title: "Visit the Nether"
-			x: 12.0d
-			y: 3.0d
+			x: 2.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["14769C69DDD4F79E"]
@@ -1149,61 +589,6 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: -1.5d
-		}
-		{
-			id: "223D1C1F43CDFF74"
-			optional: true
-			tasks: [{
-				id: "074A508EB6FAEEA4"
-				item: "silentgear:fluffy_seeds"
-				type: "item"
-			}]
-			x: 4.5d
-			y: -1.5d
-		}
-		{
-			dependencies: ["223D1C1F43CDFF74"]
-			id: "628E5C66DC7C1E88"
-			tasks: [{
-				id: "57909C27ACEEE0D2"
-				item: "silentgear:fluffy_string"
-				type: "item"
-			}]
-			x: 4.5d
-			y: 0.0d
-		}
-		{
-			dependencies: ["628E5C66DC7C1E88"]
-			id: "1077BCD57E1E3837"
-			tasks: [{
-				id: "12F122359499B88E"
-				item: "minecraft:string"
-				type: "item"
-			}]
-			x: 4.5d
-			y: 1.5d
-		}
-		{
-			dependencies: ["223D1C1F43CDFF74"]
-			id: "74D8894C4E3F7290"
-			tasks: [{
-				id: "2CA0089B112FF213"
-				item: "silentgear:fluffy_feather"
-				type: "item"
-			}]
-			x: 6.0d
-			y: -1.5d
-		}
-		{
-			dependencies: ["74D8894C4E3F7290"]
-			id: "2E183948DCF883FC"
-			tasks: [{
-				id: "24E647DE835640B3"
-				item: "minecraft:feather"
-				type: "item"
-			}]
-			x: 6.0d
 			y: 0.0d
 		}
 		{
@@ -1215,8 +600,8 @@
 				item: "craftingstation:crafting_station"
 				type: "item"
 			}]
-			x: 1.5d
-			y: -1.5d
+			x: 3.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["071811F3550BAF2F"]
@@ -1231,8 +616,8 @@
 				title: "Early Ore Processing"
 				type: "checkmark"
 			}]
-			x: -1.5d
-			y: 3.0d
+			x: 0.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["071811F3550BAF2F"]
@@ -1243,8 +628,232 @@
 				item: "gtceu:wrought_iron_ingot"
 				type: "item"
 			}]
-			x: 0.0d
+			x: 1.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["152793BBC475E574"]
+			description: [
+				"Use dirt and petals to make clay in the apothecary."
+				""
+				"Later on you'll get a much better way of getting clay."
+			]
+			hide_dependency_lines: false
+			id: "0C2AE8D7483504CC"
+			rewards: [{
+				count: 8
+				id: "31B2B4E8FBDBC2FC"
+				item: "minecraft:clay_ball"
+				type: "item"
+			}]
+			subtitle: "No clay?"
+			tasks: [{
+				count: 8L
+				id: "501B3C9CD37425C4"
+				item: "minecraft:clay_ball"
+				type: "item"
+			}]
+			x: 7.5d
 			y: 4.5d
+		}
+		{
+			description: ["Very useful for farming feathers and string."]
+			id: "223D1C1F43CDFF74"
+			optional: true
+			tasks: [{
+				id: "074A508EB6FAEEA4"
+				item: "silentgear:fluffy_seeds"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"7A8F5B47B4784EF5"
+				"0C2AE8D7483504CC"
+			]
+			description: [
+				"The basic way to get steam, by burning flamable items."
+				""
+				"&4Do NOT put water into an empty hot boiler, it will blow up!&r"
+				""
+				"Congratulations, you have completed this chapter. You can freely move onto the next."
+			]
+			id: "570F99AFC0C287A7"
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Finally, machinery (not yet)"
+			tasks: [{
+				id: "2F42ECCAB4CBF85B"
+				item: "gtceu:lp_steam_solid_boiler"
+				type: "item"
+			}]
+			title: "Steam Age"
+			x: 7.5d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"1296F376D1AA5290"
+				"61C83CEB0C20873A"
+			]
+			description: [
+				"You might have saw that there are no vanilla tools."
+				""
+				"Instead you will have to use GregTech tools."
+			]
+			id: "7C4B66885D8AD0D4"
+			tasks: [{
+				id: "2B578350890CC23A"
+				item: {
+					Count: 1
+					id: "gtceu:flint_pickaxe"
+					tag: {
+						DisallowContainerItem: 0b
+						GT.Behaviours: {
+							TorchPlacing: 1b
+						}
+						GT.Tool: {
+							Damage: 0
+							Enchantability: 5
+							HarvestLevel: 2
+							MaxDamage: 63
+							ToolSpeed: 5.5f
+						}
+						HideFlags: 2
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["14769C69DDD4F79E"]
+			description: [
+				"There is a lot of gravel in the lakes and rivers. "
+				""
+				"You may even find some in caves."
+			]
+			id: "61C83CEB0C20873A"
+			tasks: [{
+				id: "6C0D0E3CCFE8CD9F"
+				item: "minecraft:flint"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["03CF5FEDA44D312B"]
+			description: ["A much better pickaxe than the flint one!"]
+			id: "60338FE768FFFAE3"
+			tasks: [{
+				id: "5A1CD225AAA053BD"
+				item: {
+					Count: 1
+					id: "gtceu:wrought_iron_pickaxe"
+					tag: {
+						DisallowContainerItem: 0b
+						GT.Behaviours: {
+							TorchPlacing: 1b
+						}
+						GT.Tool: {
+							Damage: 0
+							Enchantability: 5
+							HarvestLevel: 2
+							MaxDamage: 383
+							ToolSpeed: 6.0f
+						}
+						HideFlags: 2
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["31BDF4591ACF03E1"]
+			description: [
+				"The apothecary is used to craft items."
+				""
+				"To craft items, right click with a water bucket to fill it, then drop the items you want to drop (the order doesn't matter), and at last drop the reagent item (usually a seed). If you did it correctly, all the items and the water should get consumed and the product should drop."
+				""
+				"If you accidentaly dropped in an item you don't need, you can right click the apothecary to extract it."
+			]
+			id: "2ED2E40A78639C73"
+			rewards: [{
+				count: 4
+				id: "349D6C074357CF1B"
+				item: "minecraft:bone_meal"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4C3B93802611D378"
+				item: "botania:apothecary_default"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2ED2E40A78639C73"]
+			description: ["Make the dirt using dried salt and petals in the apothecary."]
+			id: "152793BBC475E574"
+			tasks: [{
+				count: 16L
+				id: "043950C6C9167C79"
+				item: "minecraft:dirt"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"19ED228B99A30CBF"
+				"4B41B7447B139821"
+				"03CF5FEDA44D312B"
+			]
+			description: ["Crush the copper and tin ingots into dusts using the mortar. Combine 3 copper dusts with 1 tin dust and you'll get 3 bronze dust!"]
+			id: "4AAB03A4BF0BCA12"
+			tasks: [
+				{
+					count: 12L
+					id: "0F552635F313885F"
+					item: "gtceu:copper_dust"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "1F79F125D75AAE0A"
+					item: "gtceu:tin_dust"
+					type: "item"
+				}
+				{
+					count: 12L
+					id: "62C2BA3C6A948E13"
+					item: { Count: 12, id: "gtceu:bronze_dust" }
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7C4B66885D8AD0D4"]
+			description: ["Smelt some cobblestone to get stone. You will need it to craft the apothecary."]
+			id: "31BDF4591ACF03E1"
+			tasks: [{
+				count: 8L
+				id: "3FA598192A17489A"
+				item: { Count: 8, id: "minecraft:stone" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.5d
 		}
 	]
 	title: "The Beginning"

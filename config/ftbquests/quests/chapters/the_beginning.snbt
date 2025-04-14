@@ -197,6 +197,26 @@
 			x: 2.0d
 			y: 0.0d
 		}
+		{
+			dependencies: ["4552071689D9C460"]
+			description: [
+				"Some substances and materials are hazardous, so you will need to take great care when handling them."
+				""
+				"The material will have info about it's toxicity in the tooltip."
+				""
+				"If you wish to disable it, go to Mods->GregTech->Config"
+				"->Gameplay->hazardsEnabled"
+				"and set it to False."
+			]
+			id: "0EAF7EF7AC0A3343"
+			tasks: [{
+				id: "6D9E40013B67E6CE"
+				title: "Toxic Materials"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
 	]
 	title: "Intro"
 }

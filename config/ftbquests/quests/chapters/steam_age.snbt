@@ -1,0 +1,534 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "steam_age"
+	group: ""
+	icon: "gtceu:lp_steam_solid_boiler"
+	id: "4BC832EA23E254B0"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["364AD55044CC7EBE"]
+			description: [
+				"A primitive pump makes getting more water into the steam boilers a lot easier."
+				""
+				"Unlike the Aqueous Accumulator, it does export water."
+			]
+			id: "3FCDBCB2152DE3FB"
+			optional: true
+			size: 1.0d
+			tasks: [{
+				id: "181EE1896DB52E1C"
+				item: "gtceu:primitive_pump"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5E785D06BD90880A"]
+			description: [
+				"Creates coke and creosote from coal."
+				""
+				"You will need 116 Coke Oven bricks for this."
+				""
+				"I recommend building 2+, if you have the resources to do that. Note that they can be wall-shared."
+			]
+			icon: "gtceu:coke_oven"
+			id: "364AD55044CC7EBE"
+			rewards: [{
+				count: 32
+				id: "4213B61D30307511"
+				item: "minecraft:coal"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "7BF316FE70843AF7"
+					item: "gtceu:coke_oven"
+					type: "item"
+				}
+				{
+					count: 25L
+					id: "431A0C5FEFDE9DC5"
+					item: { Count: 25, id: "gtceu:coke_oven_bricks" }
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2F7F7A99342C19A6"]
+			description: ["Put some gravel in the forge hammer to get sand."]
+			id: "5E785D06BD90880A"
+			rewards: [{
+				count: 32
+				id: "358B82812D8DFBB7"
+				item: "minecraft:sand"
+				type: "item"
+			}]
+			tasks: [{
+				id: "697074F319A0CDB5"
+				item: "minecraft:sand"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["30A1CCB30F870404"]
+			description: [
+				"A forge hammer is used to turn ingots into plates at a 3:2 ratio, which is much better than making them by hand."
+				""
+				"&eIt is also needed for making sand from gravel, because sand does not generate naturally.&r"
+			]
+			id: "2F7F7A99342C19A6"
+			tasks: [{
+				id: "697C4B2469318D1F"
+				item: "gtceu:lp_steam_forge_hammer"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["364AD55044CC7EBE"]
+			description: ["Coke is required to make steel."]
+			id: "536AD04E85FE9AE6"
+			size: 1.0d
+			tasks: [{
+				id: "33281D1815EE531B"
+				item: "gtceu:coke_gem"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"570F99AFC0C287A7"
+				"2D026E971B2F87E8"
+			]
+			description: ["The core of all your steam machines"]
+			id: "30A1CCB30F870404"
+			subtitle: "Finally, machinery (kind of)"
+			tasks: [{
+				id: "636DE7A331407FB3"
+				item: "gtceu:bronze_machine_casing"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["30A1CCB30F870404"]
+			description: [
+				"A much better way of generating steam, but you will need silver to make it."
+				""
+				"The solar boilers also calcify over time, so you need to break it and place it again to get rid of it."
+				""
+				"&4Do NOT put water into an empty hot boiler, it will blow up!&r"
+			]
+			id: "64A960EB7D740D3F"
+			subtitle: "Much Efficient"
+			tasks: [{
+				id: "689A4D99EE70B56F"
+				item: "gtceu:lp_steam_solar_boiler"
+				type: "item"
+			}]
+			title: "Solar Boilers"
+			x: -5.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["30A1CCB30F870404"]
+			description: ["Makes alloys, which are going to be needed later."]
+			id: "66BCC30A05D77C6F"
+			tasks: [{
+				id: "7C93F074DF8AD9B0"
+				item: "gtceu:lp_steam_alloy_smelter"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["30A1CCB30F870404"]
+			description: [
+				"This block compresses things into compressed things."
+				""
+				"It is also needed to make Firebricks for a Primitive Blast Furnace."
+			]
+			id: "5FC306AB0CF12117"
+			tasks: [{
+				id: "06F7D7D87FB7BD7E"
+				item: "gtceu:lp_steam_compressor"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5FC306AB0CF12117"]
+			description: [
+				"A very important multiblock, able to make steel from iron and coke."
+				""
+				"I very much recommend making multiple PBFs, especially because the recipe has been made cheaper, with double the amount of Fireclay Dust per craft. Steel takes a while."
+				""
+				"&eThey can also wall-share!&r"
+			]
+			id: "102E0DFFBDE7BD84"
+			tasks: [
+				{
+					id: "205FE61D350E26B6"
+					item: "gtceu:primitive_blast_furnace"
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "19260AA417D42E3C"
+					item: { Count: 32, id: "gtceu:firebricks" }
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"536AD04E85FE9AE6"
+				"102E0DFFBDE7BD84"
+			]
+			description: [
+				"Combine iron and coke in the Primitive Blast Furnace to get steel!"
+				""
+				"You'll need plenty of it, so keep the PBF going."
+			]
+			id: "189B920AAB6456B4"
+			rewards: [
+				{
+					count: 8
+					id: "50007B6662EF549E"
+					item: "aether:gingerbread_man"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "537A32D610BEB9E4"
+					item: "gtceu:steel_ingot"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				count: 16L
+				id: "28811BAA82471930"
+				item: "gtceu:steel_ingot"
+				type: "item"
+			}]
+			title: "Steel"
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6C35D6ECE63E59AB"]
+			description: [
+				"Electricity finally!"
+				""
+				"This block is an ingredient to all your LV machines."
+				""
+				"Go to LV AGE when you complete this quest!"
+			]
+			id: "62B56B57D291BF7B"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "005B104BEE3776A8"
+				item: "gtceu:lv_machine_hull"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["189B920AAB6456B4"]
+			description: ["A step into future."]
+			id: "313476D47A208906"
+			rewards: [{
+				count: 16
+				id: "223019980AF8C83E"
+				item: "gtceu:steel_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2C455DA05F51CDE9"
+				item: "gtceu:lv_machine_casing"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"38D1CF49FA014533"
+				"59B13573493F565F"
+			]
+			description: ["Now that you have rubber, you're ready to make cables! "]
+			id: "09ECD67B4648D2EA"
+			tasks: [{
+				id: "1ECBD4DC55C2A0EE"
+				item: "gtceu:rubber_ingot"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["370BF17C5F4076DD"]
+			description: [
+				"Sulfur does not naturally generate in the Overworld, rather, you have to get it from the Nether's Sulfur vein."
+				""
+				"An alternative way to get Sulfur is by centrifuging Realgar (or, less efficient, Netherrack dust), for which you'll need either a LV Centrifuge, or a Steam Separator."
+			]
+			id: "38D1CF49FA014533"
+			tasks: [{
+				id: "24F52A408312390C"
+				item: "gtceu:sulfur_dust"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"313476D47A208906"
+				"09ECD67B4648D2EA"
+			]
+			description: ["Craft the rubber into sheets, and coat some tin cables with it."]
+			id: "6C35D6ECE63E59AB"
+			tasks: [{
+				count: 2L
+				id: "42C1623EB206A147"
+				item: "gtceu:tin_single_cable"
+				type: "item"
+			}]
+			title: "Cables"
+			x: 5.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["24F313A71382D5A4"]
+			description: [
+				"There are also no rubber trees, so you'll have to get into a little bit of Botania to get them."
+				""
+				"&aGo to the Regrowth tab for more info."
+			]
+			id: "59B13573493F565F"
+			tasks: [{
+				id: "377653D00B1E2F1A"
+				item: "gtceu:rubber_sapling"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["30A1CCB30F870404"]
+			description: ["A &aVERY&r good multiblock. Uses steam to grind 8 ores at a time, which is much faster than a regular macerator. It is recommended to get this to make your life less miserable."]
+			id: "288B368DB443FC38"
+			tasks: [{
+				id: "1E0DC4F4BCC2038A"
+				item: "gtceu:steam_grinder"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"3AACA352C261688C"
+				"09ECD67B4648D2EA"
+			]
+			description: ["A market is very useful to get seeds and grow better and more sustainable food."]
+			id: "31A0620289688EFB"
+			rewards: [{
+				count: 8
+				id: "33DAE636387D1F01"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1F21F93BD35D84D9"
+				item: "farmingforblockheads:market"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["30A1CCB30F870404"]
+			description: ["Primitive input and output buses that don't require cables to craft."]
+			id: "429FB4A4E857C6F3"
+			tasks: [
+				{
+					id: "61A4B8C049F3CE1C"
+					item: "gtceu:steam_input_bus"
+					type: "item"
+				}
+				{
+					id: "4352A0A3F98F9003"
+					item: "gtceu:steam_output_bus"
+					type: "item"
+				}
+			]
+			title: "Steam bus"
+			x: -5.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["30A1CCB30F870404"]
+			description: ["A multiblock version of the alloy smelter."]
+			id: "07A730A0B1F9A9CB"
+			tasks: [{
+				id: "2629D18876434DC8"
+				item: "steamadditions:steam_foundry"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["30A1CCB30F870404"]
+			description: [
+				"A multiblock version of the centrifuge."
+				""
+				"Can be used to make sulfur if you really hate to go to the nether."
+			]
+			id: "0F9A343D4916C7A4"
+			tasks: [{
+				id: "28DB8871FF767453"
+				item: "steamadditions:steam_separator"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["30A1CCB30F870404"]
+			description: [
+				"A primitive way to get infinite cobblestone is with a rock crusher."
+				""
+				"It requires steam to run, as well as a lava and water block adjacent to it."
+			]
+			id: "700A61CF2839E142"
+			tasks: [{
+				id: "11A8110C4D883C83"
+				item: "gtceu:lp_steam_rock_crusher"
+				type: "item"
+			}]
+			title: "Cobble Generator"
+			x: -2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["31A0620289688EFB"]
+			description: [
+				"There is no sugar cane in the market, but you can make it using Botania."
+				""
+				"You can also get it from a wandering trader if you're lucky."
+				""
+				"You will need it to make paper for resistors."
+			]
+			id: "4521814F0D4989E9"
+			tasks: [{
+				id: "23F96D4BF8CF7A55"
+				item: "minecraft:sugar_cane"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["09ECD67B4648D2EA"]
+			description: ["This tool removes fluid from machines."]
+			id: "34DED645D7701EBF"
+			tasks: [{
+				id: "50333742978F3153"
+				item: {
+					Count: 1
+					id: "gtceu:rubber_plunger"
+					tag: {
+						DisallowContainerItem: 0b
+						GT.Behaviours: { }
+						GT.Tool: {
+							Damage: 0
+							Enchantability: 10
+							MaxDamage: 255
+						}
+						HideFlags: 2
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["189B920AAB6456B4"]
+			description: ["To get certain resources (e.g. Sulfur and Nether Quartz), you're going to need to visit the Nether."]
+			hide_dependency_lines: false
+			id: "370BF17C5F4076DD"
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				icon: "minecraft:obsidian"
+				id: "57B3232E17DB0996"
+				type: "dimension"
+			}]
+			title: "Visit the Nether"
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["570F99AFC0C287A7"]
+			icon: "gtceu:lp_steam_solid_boiler"
+			id: "2D026E971B2F87E8"
+			shape: "square"
+			tasks: [{
+				id: "4CF9E4ADF80AC5DD"
+				title: "Steam Age"
+				type: "checkmark"
+			}]
+			x: -5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2D026E971B2F87E8"]
+			description: ["The mallet is very useful to &estop/start a Greg machine&r."]
+			id: "40B04FC774C8545C"
+			subtitle: "Don't mistake this for a hammer"
+			tasks: [{
+				id: "7D06E7FDB875FD54"
+				item: {
+					Count: 1
+					id: "gtceu:wood_mallet"
+					tag: {
+						DisallowContainerItem: 0b
+						GT.Behaviours: { }
+						GT.Tool: {
+							Damage: 0
+							MaxDamage: 127
+						}
+						HideFlags: 2
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.5d
+		}
+	]
+	title: "Steam Age"
+}

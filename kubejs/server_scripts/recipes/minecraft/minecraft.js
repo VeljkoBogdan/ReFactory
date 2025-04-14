@@ -1,17 +1,17 @@
 ServerEvents.recipes(event => {
-    // CLAY
-	event.shaped(
-		'8x minecraft:clay_ball',
-		[
-			'AAA',
-			'ABA',
-			'AAA'
-		],
-		{
-			A: '#minecraft:dirt',
-			B: 'minecraft:water_bucket'
-		}
-	)
+    // CLAY - REMOVED IN PRESTEAM REWORK
+	// event.shaped(
+	// 	'8x minecraft:clay_ball',
+	// 	[
+	// 		'AAA',
+	// 		'ABA',
+	// 		'AAA'
+	// 	],
+	// 	{
+	// 		A: '#minecraft:dirt',
+	// 		B: 'minecraft:water_bucket'
+	// 	}
+	// )
 
 	// remove handcrafted ender eye recipe
 	event.remove('minecraft:ender_eye')
@@ -68,5 +68,4 @@ ServerEvents.recipes(event => {
 		.itemOutputs('minecraft:hopper')
 		.duration(20*40)
 		.EUt(2)
-	
 })

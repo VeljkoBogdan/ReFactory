@@ -5,7 +5,7 @@
 	group: ""
 	icon: "gtceu:crystal_processor_mainframe"
 	id: "54436DC4AC0104F2"
-	order_index: 10
+	order_index: 11
 	quest_links: [ ]
 	quests: [
 		{
