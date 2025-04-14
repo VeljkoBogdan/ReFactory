@@ -236,7 +236,7 @@
 		}
 		{
 			dependencies: ["77FC61AFA9608A79"]
-			description: ["There are no meteors in this modpack, you make your own presses. See next quest!"]
+			description: ["There are meteors in this modpack, but they don't have any presses, you make your own. See next quest!"]
 			id: "423F890260ABEB74"
 			tasks: [{
 				id: "218B02CADD0DD630"
