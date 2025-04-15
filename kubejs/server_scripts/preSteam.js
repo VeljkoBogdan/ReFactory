@@ -5,7 +5,6 @@ BlockEvents.rightClicked('biomesoplenty:dried_salt', e => {
     const { hand, block, player } = e;
     const soundToPlay = 'minecraft:block.gravel.step'
     const particleEffect = 'minecraft:block'
-    var itemToPop = 'minecraft:flint'
 
     const heldItem = player.getMainHandItem();
     const now = Date.now()
@@ -19,10 +18,11 @@ BlockEvents.rightClicked('biomesoplenty:dried_salt', e => {
             e.server.runCommandSilent(`particle ${particleEffect} biomesoplenty:dried_salt ${block.x} ${block.y} ${block.z} 0.5 0.5 0.5 0.01 30 normal`)
             e.server.runCommandSilent(`playsound ${soundToPlay} ambient @a ${block.x} ${block.y} ${block.z}`)
 
-            itemToPop = Item.of(itemToPop)
+            let rand = Math.random()
+            if (rand > 0.75) {
+                if (rand < 0.85) e.block.popItem(Item.of('minecraft:flint'))
+                if (rand < 0.95 && rand > 0.85) e.block.popItem(Item.of('minecraft:bone_meal'))
 
-            if (Math.random() > 0.75) {
-                e.block.popItem(itemToPop)
                 e.block.set('minecraft:air')
             }
 
@@ -33,5 +33,32 @@ BlockEvents.rightClicked('biomesoplenty:dried_salt', e => {
     }
 
     return true
+})
+
+// Dried and Dead Grass rarely drop bone meal and fertilizer
+BlockEvents.broken('biomesoplenty:desert_grass', e => {
+    const { block } = e
+
+    let rand = Math.random()
+
+    if (rand < 0.25) {
+        e.block.popItem(Item.of('minecraft:bone_meal'))
+    }
+    if (rand > 0.75) {
+        e.block.popItem(Item.of('botania:fertilizer'))
+    }
+})
+
+BlockEvents.broken('biomesoplenty:dead_grass', e => {
+    const { block } = e
+
+    let rand = Math.random()
+
+    if (rand < 0.25) {
+        e.block.popItem(Item.of('minecraft:bone_meal'))
+    }
+    if (rand > 0.75) {
+        e.block.popItem(Item.of('botania:fertilizer'))
+    }
 })
 

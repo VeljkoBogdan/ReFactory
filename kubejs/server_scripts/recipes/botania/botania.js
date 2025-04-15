@@ -34,7 +34,7 @@ ServerEvents.recipes(event => {
         {
             C: 'minecraft:stone',
             S: 'minecraft:stone_slab',
-            P: '#botania:petals'
+            P: 'botania:fertilizer'
         }
     )
 

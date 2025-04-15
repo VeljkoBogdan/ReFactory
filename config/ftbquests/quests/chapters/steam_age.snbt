@@ -23,7 +23,7 @@
 				item: "gtceu:primitive_pump"
 				type: "item"
 			}]
-			x: -0.5d
+			x: -1.0d
 			y: -2.5d
 		}
 		{
@@ -82,7 +82,7 @@
 			description: [
 				"A forge hammer is used to turn ingots into plates at a 3:2 ratio, which is much better than making them by hand."
 				""
-				"&eIt is also needed for making sand from gravel, because sand does not generate naturally.&r"
+				"&eIt is also needed for making sand from gravel, that's made from cobblestone, because sand and gravel do not generate naturally.&r"
 			]
 			id: "2F7F7A99342C19A6"
 			tasks: [{
@@ -132,6 +132,7 @@
 				"&4Do NOT put water into an empty hot boiler, it will blow up!&r"
 			]
 			id: "64A960EB7D740D3F"
+			optional: true
 			subtitle: "Much Efficient"
 			tasks: [{
 				id: "689A4D99EE70B56F"
@@ -146,6 +147,7 @@
 			dependencies: ["30A1CCB30F870404"]
 			description: ["Makes alloys, which are going to be needed later."]
 			id: "66BCC30A05D77C6F"
+			optional: true
 			tasks: [{
 				id: "7C93F074DF8AD9B0"
 				item: "gtceu:lp_steam_alloy_smelter"
@@ -361,6 +363,7 @@
 			dependencies: ["30A1CCB30F870404"]
 			description: ["A &aVERY&r good multiblock. Uses steam to grind 8 ores at a time, which is much faster than a regular macerator. It is recommended to get this to make your life less miserable."]
 			id: "288B368DB443FC38"
+			optional: true
 			tasks: [{
 				id: "1E0DC4F4BCC2038A"
 				item: "gtceu:steam_grinder"
@@ -394,6 +397,7 @@
 			dependencies: ["30A1CCB30F870404"]
 			description: ["Primitive input and output buses that don't require cables to craft."]
 			id: "429FB4A4E857C6F3"
+			optional: true
 			tasks: [
 				{
 					id: "61A4B8C049F3CE1C"
@@ -414,6 +418,7 @@
 			dependencies: ["30A1CCB30F870404"]
 			description: ["A multiblock version of the alloy smelter."]
 			id: "07A730A0B1F9A9CB"
+			optional: true
 			tasks: [{
 				id: "2629D18876434DC8"
 				item: "steamadditions:steam_foundry"
@@ -430,6 +435,7 @@
 				"Can be used to make sulfur if you really hate to go to the nether."
 			]
 			id: "0F9A343D4916C7A4"
+			optional: true
 			tasks: [{
 				id: "28DB8871FF767453"
 				item: "steamadditions:steam_separator"
@@ -477,6 +483,7 @@
 			dependencies: ["09ECD67B4648D2EA"]
 			description: ["This tool removes fluid from machines."]
 			id: "34DED645D7701EBF"
+			optional: true
 			tasks: [{
 				id: "50333742978F3153"
 				item: {
@@ -528,7 +535,11 @@
 		}
 		{
 			dependencies: ["2D026E971B2F87E8"]
-			description: ["The mallet is very useful to &estop/start a Greg machine&r."]
+			description: [
+				"The mallet is very useful to &estop/start a Greg machine&r."
+				""
+				"Your early steam machinery probably won't be able to run for prolonged periods of time. That's where this tool comes in useful. You can stop the machine in order to buffer more steam, and then start it back up when it has enough."
+			]
 			id: "40B04FC774C8545C"
 			subtitle: "Don't mistake this for a hammer"
 			tasks: [{
@@ -550,6 +561,41 @@
 			}]
 			x: -5.0d
 			y: 0.5d
+		}
+		{
+			dependencies: ["364AD55044CC7EBE"]
+			description: [
+				"Sometimes you need to store a lot of fluid (very useful for buffering steam)."
+				""
+				"You can input using tank valves that have to be on the side or top of the multiblock."
+				""
+				"You can only output from the bottom."
+			]
+			hide_dependency_lines: false
+			id: "0B4DDD082A28BD6C"
+			optional: true
+			tasks: [
+				{
+					id: "02E3ACFC98FB8EAB"
+					item: "gtceu:wooden_multiblock_tank"
+					type: "item"
+				}
+				{
+					count: 25L
+					id: "67D06155EE673EEE"
+					item: { Count: 25, id: "gtceu:wood_wall" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "66F59BFBBD1021AE"
+					item: { Count: 2, id: "gtceu:wooden_tank_valve" }
+					type: "item"
+				}
+			]
+			title: "Primitive Tank"
+			x: 0.0d
+			y: -2.5d
 		}
 	]
 	title: "Steam Age"

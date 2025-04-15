@@ -115,14 +115,29 @@
 				"You'll need this to smelt almost all ores."
 				""
 				"Don't worry about keeping ores for later in order to process them. You will get much better ways of getting ores later on. Focus on the present for now."
+				""
+				"Also, it is now time to start looking and mining for a bunch of different ores, that's what the prospector is for."
 			]
 			id: "10C2C691F26385C4"
-			rewards: [{
-				count: 8
-				id: "3F67FD3CF928804C"
-				item: "minecraft:cookie"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 8
+					id: "3F67FD3CF928804C"
+					item: "minecraft:cookie"
+					type: "item"
+				}
+				{
+					id: "2BA776AF75FD0497"
+					item: {
+						Count: 1
+						id: "gtceu:prospector.hv"
+						tag: {
+							Charge: 1600000L
+						}
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "26D084F2991E50A8"
 				item: "minecraft:furnace"
@@ -408,40 +423,6 @@
 			y: 8.5d
 		}
 		{
-			dependencies: ["03CF5FEDA44D312B"]
-			description: [
-				"Sometimes you need to store a lot of fluid (very useful for buffering steam)."
-				""
-				"You can input using tank valves that have to be on the side or top of the multiblock."
-				""
-				"You can only output from the bottom."
-			]
-			hide_dependency_lines: false
-			id: "0B4DDD082A28BD6C"
-			tasks: [
-				{
-					id: "02E3ACFC98FB8EAB"
-					item: "gtceu:wooden_multiblock_tank"
-					type: "item"
-				}
-				{
-					count: 25L
-					id: "67D06155EE673EEE"
-					item: { Count: 25, id: "gtceu:wood_wall" }
-					type: "item"
-				}
-				{
-					count: 2L
-					id: "66F59BFBBD1021AE"
-					item: { Count: 2, id: "gtceu:wooden_tank_valve" }
-					type: "item"
-				}
-			]
-			title: "Primitive Tank"
-			x: 2.0d
-			y: 8.5d
-		}
-		{
 			dependencies: [
 				"071811F3550BAF2F"
 				"10C2C691F26385C4"
@@ -572,7 +553,7 @@
 				}
 				type: "item"
 			}]
-			x: 2.0d
+			x: 1.5d
 			y: 7.5d
 		}
 		{
@@ -600,8 +581,8 @@
 				item: "craftingstation:crafting_station"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 0.0d
+			x: 1.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["071811F3550BAF2F"]
@@ -738,6 +719,7 @@
 			]
 			id: "61C83CEB0C20873A"
 			tasks: [{
+				count: 3L
 				id: "6C0D0E3CCFE8CD9F"
 				item: "minecraft:flint"
 				type: "item"
@@ -771,11 +753,14 @@
 				}
 				type: "item"
 			}]
-			x: 4.0d
+			x: 4.5d
 			y: 7.5d
 		}
 		{
-			dependencies: ["31BDF4591ACF03E1"]
+			dependencies: [
+				"31BDF4591ACF03E1"
+				"1851399AEC83E563"
+			]
 			description: [
 				"The apothecary is used to craft items."
 				""
@@ -854,6 +839,29 @@
 			}]
 			x: 4.5d
 			y: 1.5d
+		}
+		{
+			dependencies: ["14769C69DDD4F79E"]
+			description: [
+				"You can get Floral Fertilizer and Bone Meal from destroying dead and dried grass in the world."
+				""
+				"You can also get Bone Meal by right clicking dried salt with an empty hand."
+			]
+			id: "1851399AEC83E563"
+			tasks: [
+				{
+					id: "457B2A28E53F07D5"
+					item: "botania:fertilizer"
+					type: "item"
+				}
+				{
+					id: "743E17572A01446A"
+					item: "minecraft:bone_meal"
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: 0.0d
 		}
 	]
 	title: "The Beginning"
