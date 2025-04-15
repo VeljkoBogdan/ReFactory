@@ -1,3 +1,8 @@
+# 0.2.1
+- New world generation
+- Reworked pre-steam age
+- Questbook improvements
+
 # 0.2.0
 - Multiple new multiblocks: Crystal Puller, Large Mana Pool, Mana Generator, Greenhouse
 - Possible to travel to the Moon in HV (Required for platinum and neodymium)

@@ -215,9 +215,31 @@
 					type: "item"
 				}
 				{
-					count: 16
-					id: "537A32D610BEB9E4"
-					item: "gtceu:steel_ingot"
+					id: "6BF28595D1BC9800"
+					item: {
+						Count: 1
+						id: "gtceu:diamond_mining_hammer"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: {
+								AoEColumn: 1
+								AoELayer: 0
+								AoERow: 1
+								MaxAoEColumn: 1
+								MaxAoELayer: 0
+								MaxAoERow: 1
+							}
+							GT.Tool: {
+								Damage: 0
+								Enchantability: 18
+								HarvestLevel: 3
+								MaxDamage: 420
+								ToolSpeed: 6.4f
+							}
+							HideFlags: 2
+							Unbreakable: 1
+						}
+					}
 					type: "item"
 				}
 			]

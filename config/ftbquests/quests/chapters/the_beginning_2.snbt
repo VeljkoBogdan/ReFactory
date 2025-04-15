@@ -732,9 +732,9 @@
 		{
 			dependencies: ["14769C69DDD4F79E"]
 			description: [
-				"There is a lot of gravel in the lakes and rivers. "
+				"The surface contains no gravel and it is insanely rare underground."
 				""
-				"You may even find some in caves."
+				"For now, you can get flint by right clicking dried salt with an empty hand."
 			]
 			id: "61C83CEB0C20873A"
 			tasks: [{

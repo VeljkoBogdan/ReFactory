@@ -15,38 +15,14 @@
 				"The point of the modpack is to create a sustainable factory from the ground up, on an empty and barren land."
 				""
 				"&cThe Wasteland biome is never-ending &r"
-				""
-				"Here, have an unbreakable hammer! :)"
 			]
 			disable_toast: true
 			icon: "minecraft:book"
 			id: "43E0325219933606"
 			rewards: [{
-				id: "3DDE7ADEE672DBF3"
-				item: {
-					Count: 1
-					id: "gtceu:diamond_mining_hammer"
-					tag: {
-						DisallowContainerItem: 0b
-						GT.Behaviours: {
-							AoEColumn: 1
-							AoELayer: 0
-							AoERow: 1
-							MaxAoEColumn: 1
-							MaxAoELayer: 0
-							MaxAoERow: 1
-						}
-						GT.Tool: {
-							Damage: 0
-							Enchantability: 18
-							HarvestLevel: 3
-							MaxDamage: 420
-							ToolSpeed: 6.4f
-						}
-						HideFlags: 2
-						Unbreakable: 1
-					}
-				}
+				count: 4
+				id: "412B9A4C7BE787C6"
+				item: "minecraft:apple"
 				type: "item"
 			}]
 			size: 2.0d
@@ -131,24 +107,12 @@
 		{
 			dependencies: ["43E0325219933606"]
 			description: [
-				"GregTech changes the ore generation, making it so the ores are spawned in groups."
-				"So in order to find a ore it's not a good idea to just dig straight down, rather, find the ore you are looking for with an Ore Prospector, and you'll find a lot of it in one place."
+				"GregTech changes the ore generation, making it so the ores are spawned in groups, or veins."
 				""
 				"&eNote: You're going to need A LOT of ores throughout the game, especially stuff like copper and iron.&r"
 			]
 			icon: "minecraft:iron_ore"
 			id: "66E630CF05711378"
-			rewards: [{
-				id: "3380955CCA1F1AF9"
-				item: {
-					Count: 1
-					id: "gtceu:prospector.hv"
-					tag: {
-						Charge: 1600000L
-					}
-				}
-				type: "item"
-			}]
 			tasks: [{
 				id: "6013A71DEFC79C82"
 				title: "GT Ore Generation"
@@ -162,11 +126,13 @@
 			description: [
 				"Since you'll be surviving here without food for a while, here are some berries, plant them."
 				""
-				"You'll get more food throughout quests, but there's always a supply of food in the Emergency Items section."
+				"You'll get more food throughout the early quests, but you'll have to be prepared later. "
+				""
+				"There's always a supply of food in the Emergency Items section."
 			]
 			id: "665BCDDFC912F276"
 			rewards: [{
-				count: 32
+				count: 16
 				id: "1FDF67CC5CBF4FF7"
 				item: "minecraft:sweet_berries"
 				type: "item"

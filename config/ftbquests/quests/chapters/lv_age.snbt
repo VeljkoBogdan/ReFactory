@@ -685,12 +685,42 @@
 				"Make sure to make a lot of it!"
 			]
 			id: "18BC6F844CF368EF"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "4EA074C96D338039"
-				table_id: 3489525684019709649L
-				type: "loot"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4EA074C96D338039"
+					table_id: 3489525684019709649L
+					type: "loot"
+				}
+				{
+					id: "50C7CAA9C71B66F2"
+					item: {
+						Count: 1
+						id: "gtceu:diamond_mining_hammer"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: {
+								AoEColumn: 1
+								AoELayer: 0
+								AoERow: 1
+								MaxAoEColumn: 1
+								MaxAoELayer: 0
+								MaxAoERow: 1
+							}
+							GT.Tool: {
+								Damage: 0
+								Enchantability: 18
+								HarvestLevel: 3
+								MaxDamage: 420
+								ToolSpeed: 6.4f
+							}
+							HideFlags: 2
+							Unbreakable: 1
+						}
+					}
+					type: "item"
+				}
+			]
 			shape: "gear"
 			size: 1.5d
 			tasks: [{
@@ -1330,6 +1360,72 @@
 			}]
 			x: 18.0d
 			y: -1.5d
+		}
+		{
+			dependencies: ["18BC6F844CF368EF"]
+			description: ["If you want, you can trade 16 aluminium ingots for an unbreakablle diamond mining hammer!"]
+			icon: {
+				Count: 1
+				id: "gtceu:diamond_mining_hammer"
+				tag: {
+					DisallowContainerItem: 0b
+					GT.Behaviours: {
+						AoEColumn: 1
+						AoELayer: 0
+						AoERow: 1
+						MaxAoEColumn: 1
+						MaxAoELayer: 0
+						MaxAoERow: 1
+						TorchPlacing: 1b
+					}
+					GT.Tool: {
+						Damage: 0
+						Enchantability: 18
+						HarvestLevel: 3
+						MaxDamage: 2303
+						ToolSpeed: 6.4f
+					}
+					HideFlags: 2
+				}
+			}
+			id: "4DCF5675251BF230"
+			rewards: [{
+				id: "1724387A2AE1D1F6"
+				item: {
+					Count: 1
+					id: "gtceu:diamond_mining_hammer"
+					tag: {
+						DisallowContainerItem: 0b
+						GT.Behaviours: {
+							AoEColumn: 1
+							AoELayer: 0
+							AoERow: 1
+							MaxAoEColumn: 1
+							MaxAoELayer: 0
+							MaxAoERow: 1
+						}
+						GT.Tool: {
+							Damage: 0
+							Enchantability: 18
+							HarvestLevel: 3
+							MaxDamage: 420
+							ToolSpeed: 6.4f
+						}
+						HideFlags: 2
+						Unbreakable: 1
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "6C85AE8AEE866B0F"
+				item: { Count: 16, id: "gtceu:aluminium_ingot" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 13.5d
 		}
 	]
 	title: "LV Age"
