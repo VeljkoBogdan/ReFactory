@@ -683,6 +683,10 @@
 				"You might have saw that there are no vanilla tools."
 				""
 				"Instead you will have to use GregTech tools."
+				""
+				"I recommend getting Iron first. "
+				""
+				"Bring multiple pickaxes with you on a mining trip because flint ones don't last that long."
 			]
 			id: "7C4B66885D8AD0D4"
 			tasks: [{
@@ -828,7 +832,10 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["7C4B66885D8AD0D4"]
+			dependencies: [
+				"7C4B66885D8AD0D4"
+				"10C2C691F26385C4"
+			]
 			description: ["Smelt some cobblestone to get stone. You will need it to craft the apothecary."]
 			id: "31BDF4591ACF03E1"
 			tasks: [{
@@ -862,6 +869,18 @@
 			]
 			x: 7.5d
 			y: 0.0d
+		}
+		{
+			dependencies: ["152793BBC475E574"]
+			description: ["You can get botania flowers by using Floral Fertilizer on dirt or grass."]
+			id: "306DEE58E23BEB20"
+			tasks: [{
+				id: "6FC046A6129C92C3"
+				item: "botania:white_petal"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 3.0d
 		}
 	]
 	title: "The Beginning"

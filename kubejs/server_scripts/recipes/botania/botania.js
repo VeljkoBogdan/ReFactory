@@ -550,7 +550,7 @@ ServerEvents.recipes(event => {
             'biomesoplenty:dried_salt',
             'biomesoplenty:dried_salt'
         ],
-        '#botania:petals'
+        'minecraft:bone_meal'
     )
 
     // Clay from dirt
