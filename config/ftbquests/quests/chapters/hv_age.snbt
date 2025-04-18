@@ -60,7 +60,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: -3.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["3C1300681CAA0377"]
@@ -90,7 +90,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: -3.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["7DFAB08F359689DD"]
