@@ -1,3 +1,4 @@
+// priority: 0
 GTCEuStartupEvents.registry('gtceu:recipe_type', event => {
     // setMaxIOSize(item in | item out | fluid in | fluid out)
 

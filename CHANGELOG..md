@@ -2,6 +2,7 @@
 - New world generation
 - Reworked pre-steam age
 - Questbook improvements
+- Fixed error during material registering
 
 # 0.2.0
 - Multiple new multiblocks: Crystal Puller, Large Mana Pool, Mana Generator, Greenhouse
