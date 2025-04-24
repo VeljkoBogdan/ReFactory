@@ -1170,10 +1170,15 @@
 				"31C81A033CB8C11D"
 				"44890B3796B295E2"
 			]
-			description: ["Needed to make a rocket!"]
+			description: [
+				"Needed to make a rocket!"
+				""
+				"You'll need 6 for your first one"
+			]
 			id: "4F14AC38199A005E"
 			size: 1.0d
 			tasks: [{
+				count: 6L
 				id: "772280E8D0AA09A5"
 				item: "kubejs:t1_rocket_plate"
 				type: "item"

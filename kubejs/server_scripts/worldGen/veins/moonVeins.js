@@ -54,7 +54,7 @@ GTCEuServerEvents.oreVeins(event => {
             .buildLayerPattern(pattern => pattern
                 .layer(l => l.weight(3).mat(GTMaterials.get('desh')).size(2, 4))
                 .layer(l => l.weight(1).mat(GTMaterials.Cobalt).size(1, 3))
-                .layer(l => l.weight(2).mat(GTMaterials.Tantalum).size(1, 2))
+                .layer(l => l.weight(2).mat(GTMaterials.Tantalite).size(1, 2))
             )
         )
         .surfaceIndicatorGenerator(indicator => indicator
