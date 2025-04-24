@@ -1,0 +1,11 @@
+{
+  // 配件的的显示名称和工具提示，支持本地化
+  "name": "maxstuff.attachment.tac_laser.name",
+  // 配件的客户端数据
+  "display": "maxstuff:tac_laser_display",
+  // 配件的属性
+  "data": "maxstuff:tac_laser_data",
+  // 配件的类型。scope、grip、muzzle、stock、laser、extended_mag
+  // 枪械配件槽位能从中选择可以安装的类型
+  "type": "scope"
+}

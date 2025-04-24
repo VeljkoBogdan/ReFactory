@@ -1,0 +1,36 @@
+{
+  "materials": [
+    {
+      "item": {
+        "tag": "forge:ingots/iron"
+      },
+      "count": 54
+    },
+    {
+      "item": {
+        "tag": "forge:ingots/gold"
+      },
+      "count": 32
+    },
+    {
+      "item": {
+        "item": "minecraft:quartz"
+      },
+      "count": 28
+    },
+    {
+      "item": {
+        "tag": "minecraft:logs"
+      },
+      "count": 24
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "maxstuff:ak308",
+    "attachments": {
+      "stock": "maxstuff:stock_ak_ar"
+    }
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

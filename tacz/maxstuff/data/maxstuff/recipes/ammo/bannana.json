@@ -1,0 +1,16 @@
+{
+  "materials": [
+    {
+      "item": {
+        "tag": "minecraft:leaves"
+      },
+      "count": 60
+    }
+  ],
+  "result": {
+    "type": "ammo",
+    "id": "maxstuff:bannana",
+    "count": 60
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

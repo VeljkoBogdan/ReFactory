@@ -1,0 +1,54 @@
+{
+  "model": "maxstuff:gun/cursed15_geo",
+  "texture": "maxstuff:gun/uv/cursed15",
+  "lod": {
+    "model": "maxstuff:gun/cursed15_geo",
+    "texture": "maxstuff:gun/uv/cursed15"
+  },
+  "hud": "maxstuff:gun/hud/cursed15",
+  "slot": "maxstuff:gun/slot/cursed15",
+  "animation": "maxstuff:cursed15",
+  "use_default_animation": "rifle",
+  "third_person_animation": "default",
+  "transform": {
+    "scale": {
+      "thirdperson": [0.6, 0.6, 0.6],
+      "ground": [0.6, 0.6, 0.6],
+      "fixed": [1.2, 1.2, 1.2]
+    }
+  },
+  "muzzle_flash": {
+    "texture": "tacz:flash/common_muzzle_flash",
+    "scale": 0
+  },
+  "shell": {
+    "initial_velocity": [5, 2, 1],
+    "random_velocity": [1, 1, 0.25],
+    "acceleration": [0.0, -10, 0.0],
+    "angular_velocity": [360, -1200, 90],
+    "living_time": 1.0
+  },
+  "sounds": {
+    "shoot": "maxstuff:cursed15/cursed15_shoot",
+    "shoot_3p": "maxstuff:cursed15/cursed15_shoot",
+    "reload_empty": "tacz:m4a1/m4a1_reload_empty",
+    "inspect": "tacz:m4a1/m4a1_inspect",
+    "inspect_empty": "tacz:m4a1/m4a1_inspect_empty",
+    "draw": "tacz:m4a1/m4a1_draw",
+    "put_away": "tacz:m4a1/m4a1_put_away",
+    "silence": "maxstuff:cursed15/cursed15_silence",
+    "silence_3p": "maxstuff:cursed15/cursed15_silence"
+  },
+  "offhand_show": {
+    "pos": [1, 19, 4],
+    "rotate": [0, 0, 50],
+    "scale": [0.5, 0.5, 0.5]
+  },
+  "hotbar_show": {
+    "0": {
+      "pos": [-1, 19, 3],
+      "rotate": [-180, 0, 130],
+      "scale": [0.5, 0.5, 0.5]
+    }
+  }
+}

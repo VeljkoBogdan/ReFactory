@@ -1,0 +1,39 @@
+{
+  "materials": [
+    {
+      "item": {
+        "tag": "forge:ingots/iron"
+      },
+      "count": 128
+    },
+    {
+      "item": {
+        "tag": "forge:gems/diamond"
+      },
+      "count": 32
+    },
+    {
+      "item": {
+        "tag": "forge:rods/blaze"
+      },
+      "count": 16
+    },
+    {
+      "item": {
+        "item": "minecraft:wither_skeleton_skull"
+      },
+      "count": 3
+    },
+    {
+      "item": {
+        "tag": "minecraft:logs"
+      },
+      "count": 64
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "maxstuff:mk18_mjolnir"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

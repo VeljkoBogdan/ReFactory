@@ -1,0 +1,8 @@
+{
+  "name": "ea.block.ammobench",
+  "display": "ea:ammobench",
+  "data": "ea:ammobench",
+  "tooltip": "ea.ammobench.desc",
+  "id": "tacz:workbench_b",
+  "sort": 1
+}

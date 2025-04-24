@@ -1,0 +1,8 @@
+{
+  "slot": "maxstuff:ammo/slot/545x39",
+  "shell": {
+    "model": "tacz:shell/762x39_shell",
+    "texture": "tacz:shell/762x39_shell"
+  },
+  "tracer_color": "#FF8888"
+}

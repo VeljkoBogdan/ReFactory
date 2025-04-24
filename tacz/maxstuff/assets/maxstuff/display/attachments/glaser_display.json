@@ -1,0 +1,14 @@
+{
+  "model": "maxstuff:attachment/glaser_geo",
+  "texture": "maxstuff:attachment/uv/glaser",
+  "slot": "maxstuff:attachment/slot/glaser",
+  "zoom": [
+    1.33
+  ],
+  "sight": true,
+  "fov": 70.0,
+  "sounds": {
+    "install": "tacz:attachments/scope_general_c",
+    "uninstall": "tacz:attachments/scope_general_c"
+  }
+}

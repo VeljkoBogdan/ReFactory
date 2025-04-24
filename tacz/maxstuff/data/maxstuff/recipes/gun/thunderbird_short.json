@@ -1,0 +1,37 @@
+{
+  "materials": [
+    {
+      "item": {
+        "tag": "forge:gems/diamond"
+      },
+      "count": 2
+    },
+    {
+      "item": {
+        "tag": "forge:ingots/gold"
+      },
+      "count": 7
+    },
+    {
+      "item": {
+        "tag": "forge:ingots/iron"
+      },
+      "count": 42
+    },
+    {
+      "item": {
+        "tag": "forge:rods/blaze"
+      }
+    },
+    {
+      "item": {
+        "item": "minecraft:wither_skeleton_skull"
+      }
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "maxstuff:thunderbird_short"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

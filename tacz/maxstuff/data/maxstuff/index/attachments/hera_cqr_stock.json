@@ -1,0 +1,6 @@
+{
+  "name": "maxstuff.attachment.hera_cqr_stock.name",
+  "display": "maxstuff:hera_cqr_stock_display",
+  "data": "maxstuff:hera_cqr_stock_data",
+  "type": "stock"
+}

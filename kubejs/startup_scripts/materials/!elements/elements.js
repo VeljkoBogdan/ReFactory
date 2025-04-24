@@ -44,7 +44,21 @@ GTCEuStartupEvents.registry('gtceu:element', event => {
         .isIsotope(false)
     
     // Ad Astra
-    // event.create('desh', 135, 320, -1, null, 'De', false)
-    // event.create('ostrum', 136, 324, -1, null, 'Ot', false)
-    // event.create('calorite', 137, 328, -1, null, 'Ct', false)
+    event.create('desh')
+        .protons(135)
+        .neutrons(320)
+        .symbol('De')
+        .isIsotope(false)
+
+    event.create('ostrum')
+        .protons(136)
+        .neutrons(324)
+        .symbol('Ot')
+        .isIsotope(false)
+
+    event.create('calorite')
+        .protons(137)
+        .neutrons(328)
+        .symbol('Ct')
+        .isIsotope(false)
  })

@@ -1,0 +1,19 @@
+{
+  "slot": "maxstuff:attachment/slot/sight_okp7_ak",
+  "model": "maxstuff:attachment/sight_okp7_ak_geo",
+  "texture": "maxstuff:attachment/uv/sight_okp7_ak",
+  "lod": {
+    "model": "tacz:attachment/lod/sight_okp7",
+    "texture": "tacz:attachment/lod/sight_okp7"
+  },
+  "zoom": [
+    1.5
+  ],
+  "scope": false,
+  "sight": true,
+  "fov": 70.0,
+  "sounds": {
+    "install": "tacz:attachments/scope_general_c",
+    "uninstall": "tacz:attachments/scope_general_c"
+  }
+}

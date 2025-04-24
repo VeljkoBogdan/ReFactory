@@ -1,0 +1,8 @@
+{
+    "name": "maxstuff.gun.dragonuv_svds.name",
+    "display": "maxstuff:dragonuv_svds_display",
+    "data": "maxstuff:dragonuv_svds_data",
+    "tooltip": "maxstuff.gun.dovetail.desc",
+    "type": "sniper",
+    "sort": 1
+}

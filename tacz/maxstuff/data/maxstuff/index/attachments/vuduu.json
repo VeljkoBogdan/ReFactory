@@ -1,0 +1,6 @@
+{
+  "name": "maxstuff.attachment.vuduu.name",
+  "display": "maxstuff:vuduu_display",
+  "data": "maxstuff:vuduu_data",
+  "type": "scope"
+}

@@ -1,0 +1,31 @@
+{
+  "materials": [
+    {
+      "item": {
+        "tag": "forge:ingots/iron"
+      },
+      "count": 16
+    },
+    {
+      "item": {
+        "item": "minecraft:leather"
+      },
+      "count": 6
+    },
+    {
+      "item": {
+        "tag": "minecraft:logs"
+      },
+      "count": 24
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "maxstuff:ak_delta",
+    "attachments": {
+      "stock": "tacz:oem_stock_light",
+      "scope": "tacz:sight_sro_dot"
+    }
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

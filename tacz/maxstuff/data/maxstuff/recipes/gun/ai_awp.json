@@ -1,0 +1,27 @@
+{
+  "materials": [
+    {
+      "item": {
+        "tag": "forge:gems/diamond"
+      },
+      "count": 8
+    },
+    {
+      "item": {
+        "tag": "forge:ingots/gold"
+      },
+      "count": 35
+    },
+    {
+      "item": {
+        "tag": "forge:ingots/iron"
+      },
+      "count": 160
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "maxstuff:ai_awp"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

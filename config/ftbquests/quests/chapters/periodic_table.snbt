@@ -974,7 +974,7 @@
 			}]
 			title: "La"
 			x: 3.0d
-			y: 10.0d
+			y: 11.0d
 		}
 		{
 			id: "702D843C5958DE04"
@@ -985,7 +985,7 @@
 			}]
 			title: "Ce"
 			x: 4.0d
-			y: 10.0d
+			y: 11.0d
 		}
 		{
 			id: "22D3D84B0A8FA9DD"
@@ -995,7 +995,7 @@
 				type: "checkmark"
 			}]
 			x: 5.0d
-			y: 10.0d
+			y: 11.0d
 		}
 		{
 			id: "75083717B488361D"
@@ -1006,7 +1006,7 @@
 			}]
 			title: "Nd"
 			x: 6.0d
-			y: 10.0d
+			y: 11.0d
 		}
 		{
 			id: "479565508997F7BC"
@@ -1016,7 +1016,7 @@
 				type: "checkmark"
 			}]
 			x: 7.0d
-			y: 10.0d
+			y: 11.0d
 		}
 		{
 			id: "6316E996240E92A6"
@@ -1027,7 +1027,7 @@
 			}]
 			title: "Sm"
 			x: 8.0d
-			y: 10.0d
+			y: 11.0d
 		}
 		{
 			id: "64AF0821A70C33BD"
@@ -1038,7 +1038,7 @@
 			}]
 			title: "Eu"
 			x: 9.0d
-			y: 10.0d
+			y: 11.0d
 		}
 		{
 			id: "1DE0208FD05EC8FC"
@@ -1048,7 +1048,7 @@
 				type: "checkmark"
 			}]
 			x: 10.0d
-			y: 10.0d
+			y: 11.0d
 		}
 		{
 			id: "5C8DF0738BB0B6CB"
@@ -1058,7 +1058,7 @@
 				type: "checkmark"
 			}]
 			x: 11.0d
-			y: 10.0d
+			y: 11.0d
 		}
 		{
 			id: "48662B4F8D628649"
@@ -1068,7 +1068,7 @@
 				type: "checkmark"
 			}]
 			x: 12.0d
-			y: 10.0d
+			y: 11.0d
 		}
 		{
 			id: "47AD7EA556BD8B3B"
@@ -1078,7 +1078,7 @@
 				type: "checkmark"
 			}]
 			x: 13.0d
-			y: 10.0d
+			y: 11.0d
 		}
 		{
 			id: "733D072E67DC1636"
@@ -1088,7 +1088,7 @@
 				type: "checkmark"
 			}]
 			x: 14.0d
-			y: 10.0d
+			y: 11.0d
 		}
 		{
 			id: "32AF822A23765E24"
@@ -1098,7 +1098,7 @@
 				type: "checkmark"
 			}]
 			x: 15.0d
-			y: 10.0d
+			y: 11.0d
 		}
 		{
 			id: "5C7EC6376C6DE593"
@@ -1108,7 +1108,7 @@
 				type: "checkmark"
 			}]
 			x: 16.0d
-			y: 10.0d
+			y: 11.0d
 		}
 		{
 			id: "0FDA933F3DEDF831"
@@ -1119,7 +1119,7 @@
 			}]
 			title: "Lu"
 			x: 17.0d
-			y: 10.0d
+			y: 11.0d
 		}
 		{
 			id: "3E9E4E398EBCF9DF"
@@ -1130,7 +1130,7 @@
 			}]
 			title: "Th"
 			x: 4.0d
-			y: 11.0d
+			y: 12.0d
 		}
 		{
 			id: "1E570155C674994B"
@@ -1141,7 +1141,7 @@
 			}]
 			title: "U"
 			x: 6.0d
-			y: 11.0d
+			y: 12.0d
 		}
 		{
 			id: "543B0E6A7B751AA0"
@@ -1152,7 +1152,7 @@
 			}]
 			title: "Pu"
 			x: 8.0d
-			y: 11.0d
+			y: 12.0d
 		}
 		{
 			id: "56BE132A91807204"
@@ -1163,7 +1163,7 @@
 			}]
 			title: "Am"
 			x: 9.0d
-			y: 11.0d
+			y: 12.0d
 		}
 		{
 			id: "0536BD3D5B317F4D"
@@ -1173,7 +1173,7 @@
 				type: "checkmark"
 			}]
 			x: 3.0d
-			y: 11.0d
+			y: 12.0d
 		}
 		{
 			id: "14717D0D90F11C21"
@@ -1183,7 +1183,7 @@
 				type: "checkmark"
 			}]
 			x: 5.0d
-			y: 11.0d
+			y: 12.0d
 		}
 		{
 			id: "42157CEFC13759D4"
@@ -1193,7 +1193,7 @@
 				type: "checkmark"
 			}]
 			x: 7.0d
-			y: 11.0d
+			y: 12.0d
 		}
 		{
 			id: "25B90CE1DFF7FAE0"
@@ -1203,7 +1203,7 @@
 				type: "checkmark"
 			}]
 			x: 10.0d
-			y: 11.0d
+			y: 12.0d
 		}
 		{
 			id: "3771F0002DF8CEEB"
@@ -1213,7 +1213,7 @@
 				type: "checkmark"
 			}]
 			x: 11.0d
-			y: 11.0d
+			y: 12.0d
 		}
 		{
 			id: "06B7F35329A902B2"
@@ -1223,7 +1223,7 @@
 				type: "checkmark"
 			}]
 			x: 12.0d
-			y: 11.0d
+			y: 12.0d
 		}
 		{
 			id: "5EC3E24DE830F49B"
@@ -1233,7 +1233,7 @@
 				type: "checkmark"
 			}]
 			x: 13.0d
-			y: 11.0d
+			y: 12.0d
 		}
 		{
 			id: "1A464E11423157A8"
@@ -1243,7 +1243,7 @@
 				type: "checkmark"
 			}]
 			x: 14.0d
-			y: 11.0d
+			y: 12.0d
 		}
 		{
 			id: "72A6868C7207690C"
@@ -1253,7 +1253,7 @@
 				type: "checkmark"
 			}]
 			x: 15.0d
-			y: 11.0d
+			y: 12.0d
 		}
 		{
 			id: "20A24521A10E0C61"
@@ -1263,7 +1263,7 @@
 				type: "checkmark"
 			}]
 			x: 16.0d
-			y: 11.0d
+			y: 12.0d
 		}
 		{
 			id: "25F43725D33AF139"
@@ -1273,7 +1273,7 @@
 				type: "checkmark"
 			}]
 			x: 17.0d
-			y: 11.0d
+			y: 12.0d
 		}
 		{
 			id: "70CA448129DCC351"
@@ -1307,6 +1307,39 @@
 			title: "Mi"
 			x: 17.0d
 			y: 7.0d
+		}
+		{
+			id: "47C224C518B5534A"
+			tasks: [{
+				id: "13C6206148DAE554"
+				item: "gtceu:desh_ingot"
+				type: "item"
+			}]
+			title: "De"
+			x: 16.0d
+			y: 8.0d
+		}
+		{
+			id: "173D04144F49221B"
+			tasks: [{
+				id: "42DC2D22C546ECF4"
+				item: "gtceu:ostrum_ingot"
+				type: "item"
+			}]
+			title: "Ot"
+			x: 17.0d
+			y: 8.0d
+		}
+		{
+			id: "4BDD595E9F69ABB9"
+			tasks: [{
+				id: "7612F581473E70BF"
+				item: "gtceu:calorite_ingot"
+				type: "item"
+			}]
+			title: "Ct"
+			x: 0.0d
+			y: 9.0d
 		}
 	]
 	title: "Periodic Table"

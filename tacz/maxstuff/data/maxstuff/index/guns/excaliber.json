@@ -1,0 +1,8 @@
+{
+    "name": "maxstuff.gun.excaliber.name",
+    "display": "maxstuff:excaliber_display",
+    "data": "maxstuff:excaliber_data",
+  "tooltip": "maxstuff.gun.silly.desc",
+    "type": "sniper",
+    "sort": 1
+}

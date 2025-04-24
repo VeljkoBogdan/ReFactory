@@ -1,0 +1,9 @@
+{
+  "slot": "maxstuff:attachment/slot/scw_stock",
+  "model": "maxstuff:attachment/scw_stock_geo",
+  "texture": "maxstuff:attachment/uv/scw_stock",
+  "sounds": {
+    "install": "tacz:attachments/attachment_general_a",
+    "uninstall": "tacz:attachments/attachment_general_uninstall"
+  }
+}

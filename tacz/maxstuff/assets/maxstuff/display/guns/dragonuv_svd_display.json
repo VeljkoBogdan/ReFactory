@@ -1,0 +1,64 @@
+{
+  "model": "maxstuff:gun/dragonuv_svd_geo",
+  "texture": "maxstuff:gun/uv/dragonuv_svd",
+  "lod": {
+    "model": "maxstuff:gun/dragonuv_svd_geo",
+    "texture": "maxstuff:gun/uv/dragonuv_svd"
+  },
+  "hud": "maxstuff:gun/hud/dragonuv_svd",
+  "slot": "maxstuff:gun/slot/dragonuv_svd",
+  "animation": "maxstuff:dragonuv_svd",
+  "use_default_animation": "rifle",
+  "third_person_animation": "default",
+  "show_crosshair": false,
+  "transform": {
+    "scale": {
+      "thirdperson": [0.6, 0.6, 0.6],
+      "ground": [0.6, 0.6, 0.6],
+      "fixed": [1.2, 1.2, 1.2]
+    }
+  },
+  "muzzle_flash": {
+    "texture": "tacz:flash/common_muzzle_flash",
+    "scale": 0.75
+  },
+  "iron_zoom": 1.2,
+  "shell": {
+    "initial_velocity": [5, 2, 1],
+    "random_velocity": [1, 1, 0.25],
+    "acceleration": [0.0, -10, 0.0],
+    "angular_velocity": [360, -1200, 90],
+    "living_time": 1.0
+  },
+  "sounds": {
+    "shoot": "maxstuff:svd/svd_shoot",
+    "shoot_3p": "maxstuff:svd/svd_shoot_3p",
+    "reload_empty": "maxstuff:svd/svd_reload_empty",
+    "reload_tactical": "maxstuff:svd/svd_reload_tactical",
+    "inspect": "tacz:rpk/rpk_inspect",
+    "inspect_empty": "tacz:rpk/rpk_inspect_empty",
+    "draw": "tacz:rpk/rpk_draw",
+    "put_away": "tacz:rpk/rpk_put_away",
+    "silence": "maxstuff:svd/svd_silence",
+    "silence_3p": "maxstuff:svd/svd_silence_3p",
+    "dry_fire": "tacz:dry_fire",
+    "fire_select": "tacz:fire_select",
+    "head_hit": "tacz:head_hit",
+    "flesh_hit": "tacz:flesh_hit",
+    "kill": "tacz:kill",
+    "melee_push": "tacz:melee_stock/melee_stock_02",
+    "melee_stock": "tacz:melee_stock/melee_stock_03"
+  },
+  "offhand_show": {
+    "pos": [1, 20, 3.5],
+    "rotate": [0, 0, 60],
+    "scale": [0.5, 0.5, 0.5]
+  },
+  "hotbar_show": {
+    "0": {
+      "pos": [-1, 20, 3],
+      "rotate": [-180, 0, 120],
+      "scale": [0.5, 0.5, 0.5]
+    }
+  }
+}

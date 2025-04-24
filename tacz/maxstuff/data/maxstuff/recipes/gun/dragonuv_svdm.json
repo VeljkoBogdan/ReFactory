@@ -1,0 +1,39 @@
+{
+  "materials": [
+    {
+      "item": {
+        "tag": "forge:ingots/iron"
+      },
+      "count": 102
+    },
+    {
+      "item": {
+        "tag": "forge:ingots/gold"
+      },
+      "count": 18
+    },
+    {
+      "item": {
+        "tag": "forge:gems/lapis"
+      },
+      "count": 16
+    },
+    {
+      "item": {
+        "tag": "forge:rods/blaze"
+      },
+      "count": 4
+    },
+    {
+      "item": {
+        "item": "minecraft:quartz"
+      },
+      "count": 24
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "maxstuff:dragonuv_svdm"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

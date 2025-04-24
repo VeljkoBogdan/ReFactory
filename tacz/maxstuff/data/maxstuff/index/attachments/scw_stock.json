@@ -1,0 +1,6 @@
+{
+  "name": "maxstuff.attachment.scw_stock.name",
+  "display": "maxstuff:scw_stock_display",
+  "data": "tacz:stock_carbon_bone_c5_data",
+  "type": "stock"
+}

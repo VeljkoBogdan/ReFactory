@@ -306,54 +306,54 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
         )
 
     // Ad Astra
-    // Desh
-    // event.create('desh')
-    // .ingot()
-    // .ore()
-    // .color(0xef8f00)
-    // .element(GTElements.get('desh'))
-    // .iconSet(GTMaterialIconSet.METALLIC)
-    // .flags(GTMaterialFlags.GENERATE_PLATE,
-    //     GTMaterialFlags.GENERATE_BOLT_SCREW,
-    //     GTMaterialFlags.GENERATE_DENSE,
-    //     GTMaterialFlags.GENERATE_RING,
-    //     GTMaterialFlags.GENERATE_FINE_WIRE,
-    //     GTMaterialFlags.GENERATE_FOIL,
-    //     GTMaterialFlags.GENERATE_GEAR,
-    //     GTMaterialFlags.GENERATE_ROD
-    // )
+    event.create('desh')
+        .ingot()
+        .ore()
+        .color(0xef8f00)
+        .element(GTElements.get('desh'))
+        .iconSet(GTMaterialIconSet.METALLIC)
+        .flags(GTMaterialFlags.GENERATE_PLATE,
+            GTMaterialFlags.GENERATE_BOLT_SCREW,
+            GTMaterialFlags.GENERATE_DENSE,
+            GTMaterialFlags.GENERATE_RING,
+            GTMaterialFlags.GENERATE_FINE_WIRE,
+            GTMaterialFlags.GENERATE_FOIL,
+            GTMaterialFlags.GENERATE_GEAR,
+            GTMaterialFlags.GENERATE_ROD
+        )
 
-    // event.create('ostrum')
-    // .ingot()
-    // .ore()
-    // .color(0x5f2f60)
-    // .element(GTElements.get('ostrum'))
-    // .iconSet(GTMaterialIconSet.METALLIC)
-    // .flags(GTMaterialFlags.GENERATE_PLATE,
-    //     GTMaterialFlags.GENERATE_BOLT_SCREW,
-    //     GTMaterialFlags.GENERATE_DENSE,
-    //     GTMaterialFlags.GENERATE_RING,
-    //     GTMaterialFlags.GENERATE_FINE_WIRE,
-    //     GTMaterialFlags.GENERATE_FOIL,
-    //     GTMaterialFlags.GENERATE_GEAR,
-    //     GTMaterialFlags.GENERATE_ROD
-    // )
+    event.create('ostrum')
+        .ingot()
+        .ore()
+        .color(0x5f2f60)
+        .element(GTElements.get('ostrum'))
+        .iconSet(GTMaterialIconSet.METALLIC)
+        .flags(GTMaterialFlags.GENERATE_PLATE,
+            GTMaterialFlags.GENERATE_BOLT_SCREW,
+            GTMaterialFlags.GENERATE_DENSE,
+            GTMaterialFlags.GENERATE_RING,
+            GTMaterialFlags.GENERATE_FINE_WIRE,
+            GTMaterialFlags.GENERATE_FOIL,
+            GTMaterialFlags.GENERATE_GEAR,
+            GTMaterialFlags.GENERATE_ROD
+        )
 
-    // event.create('calorite')
-    // .ingot()
-    // .ore()
-    // .color(0x8f1f30)
-    // .element(GTElements.get('calorite'))
-    // .iconSet(GTMaterialIconSet.METALLIC)
-    // .flags(GTMaterialFlags.GENERATE_PLATE,
-    //     GTMaterialFlags.GENERATE_BOLT_SCREW,
-    //     GTMaterialFlags.GENERATE_DENSE,
-    //     GTMaterialFlags.GENERATE_RING,
-    //     GTMaterialFlags.GENERATE_FINE_WIRE,
-    //     GTMaterialFlags.GENERATE_FOIL,
-    //     GTMaterialFlags.GENERATE_GEAR,
-    //     GTMaterialFlags.GENERATE_ROD
-    // )
+    event.create('calorite')
+        .ingot()
+        .ore()
+        .color(0x8f1f30)
+        .secondaryColor(0xff0000)
+        .element(GTElements.get('calorite'))
+        .iconSet(GTMaterialIconSet.METALLIC)
+        .flags(GTMaterialFlags.GENERATE_PLATE,
+            GTMaterialFlags.GENERATE_BOLT_SCREW,
+            GTMaterialFlags.GENERATE_DENSE,
+            GTMaterialFlags.GENERATE_RING,
+            GTMaterialFlags.GENERATE_FINE_WIRE,
+            GTMaterialFlags.GENERATE_FOIL,
+            GTMaterialFlags.GENERATE_GEAR,
+            GTMaterialFlags.GENERATE_ROD
+        )
 
     // Chlorophyte line
     event.create('chlorophyte')

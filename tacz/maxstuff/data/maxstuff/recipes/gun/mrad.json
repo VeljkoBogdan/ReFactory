@@ -1,0 +1,45 @@
+{
+  "materials": [
+    {
+      "item": {
+        "tag": "forge:gems/diamond"
+      },
+      "count": 12
+    },
+    {
+      "item": {
+        "tag": "forge:gems/lapis"
+      },
+      "count": 32
+    },
+    {
+      "item": {
+        "item": "minecraft:netherite_scrap"
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "tag": "forge:ingots/gold"
+      },
+      "count": 64
+    },
+    {
+      "item": {
+        "tag": "forge:ingots/iron"
+      },
+      "count": 250
+    },
+    {
+      "item": {
+        "tag": "forge:rods/blaze"
+      },
+      "count": 10
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "maxstuff:mrad"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

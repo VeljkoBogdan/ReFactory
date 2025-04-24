@@ -1,0 +1,7 @@
+{
+    "name": "maxstuff.gun.mk18_auto.name",
+    "display": "maxstuff:mk18_burst_display",
+    "data": "maxstuff:mk18_auto_data",
+    "type": "rifle",
+    "sort": 2
+}

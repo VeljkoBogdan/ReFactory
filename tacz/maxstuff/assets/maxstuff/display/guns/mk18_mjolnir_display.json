@@ -1,0 +1,53 @@
+{
+  "model": "maxstuff:gun/mk18_mjolnir_geo",
+  "texture": "maxstuff:gun/uv/mk18_mjolnir",
+  "lod": {
+    "model": "maxstuff:gun/mk18_mjolnir_geo",
+    "texture": "maxstuff:gun/uv/mk18_mjolnir"
+  },
+  "hud": "maxstuff:gun/hud/mk18_mjolnir",
+  "slot": "maxstuff:gun/slot/mk18_mjolnir",
+  "animation": "maxstuff:mk18_mjolnir",
+  "use_default_animation": "rifle",
+  "third_person_animation": "default",
+  "transform": {
+    "scale": {
+      "thirdperson": [0.6, 0.6, 0.6],
+      "ground": [0.6, 0.6, 0.6],
+      "fixed": [1.2, 1.2, 1.2]
+    }
+  },
+  "muzzle_flash": {
+    "texture": "tacz:flash/common_muzzle_flash",
+    "scale": 0.65
+  },
+  "shell": {
+    "initial_velocity": [5, 2, 1],
+    "random_velocity": [1, 1, 0.25],
+    "acceleration": [0.0, -10, 0.0],
+    "angular_velocity": [360, -1200, 90],
+    "living_time": 1.0
+  },
+  "sounds": {
+    "shoot": "maxstuff:mk18_mjolnir/mjolnir_shoot",
+    "shoot_3p": "maxstuff:mk18_mjolnir/mjolnir_shoot_3p",
+    "inspect": "maxstuff:mk18_mjolnir/mk18_mjolnir_inspect",
+    "inspect_empty": "maxstuff:mk18_mjolnir/mk18_mjolnir_inspect_empty",
+    "draw": "maxstuff:mk18_mjolnir/mk18_mjolnir_draw",
+    "put_away": "maxstuff:mk18_mjolnir/mk18_mjolnir_put_away",
+    "silence": "maxstuff:mk18_mjolnir/mjolnir_silence",
+    "silence_3p": "maxstuff:mk18_mjolnir/mjolnir_silence_3p"
+  },
+  "offhand_show": {
+    "pos": [1, 19, 4],
+    "rotate": [0, 0, 50],
+    "scale": [0.5, 0.5, 0.5]
+  },
+  "hotbar_show": {
+    "0": {
+      "pos": [-1, 19, 3],
+      "rotate": [-180, 0, 130],
+      "scale": [0.5, 0.5, 0.5]
+    }
+  }
+}

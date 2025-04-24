@@ -1,0 +1,7 @@
+{
+    "name": "maxstuff.gun.rpk16.name",
+    "display": "maxstuff:rpk16_display",
+    "data": "maxstuff:rpk16_data",
+    "type": "mg",
+    "sort": 2
+}

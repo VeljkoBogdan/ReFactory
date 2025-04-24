@@ -1,0 +1,36 @@
+{
+  "materials": [
+    {
+      "item": {
+        "tag": "forge:gems/diamond"
+      },
+      "count": 2
+    },
+    {
+      "item": {
+        "tag": "forge:gems/lapis"
+      },
+      "count": 24
+    },
+    {
+      "item": {
+        "tag": "forge:ingots/gold"
+      },
+      "count": 42
+    },
+    {
+      "item": {
+        "tag": "forge:ingots/iron"
+      },
+      "count": 140
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "maxstuff:msr",
+    "attachments": {
+      "stock": "tacz:oem_stock_heavy"
+    }
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

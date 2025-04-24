@@ -1210,49 +1210,60 @@
 			dependencies: [
 				"43D222FD4AF3280E"
 				"4F14AC38199A005E"
+				"60B304F0242EDD39"
 			]
 			description: [
-				"The Rocket Scanner is a multiblock required to craft the rocket."
-				""
-				"You'll need to balance the number of thrusters and fuel tanks, so the thust inside a built rocket is larger than 0 m/s."
-				""
-				"The Magnet ID Card is used to set the destination of the rocket. Right click while it is in the hand, choose the planet, put it into the rocket and you are free to go!"
+				"The tier 1 rocket will allow you to travel to the Moon."
 				""
 				"The rocket will require rocket fuel in order to launch."
 				""
-				"&cThe rocket will also explode upon contact with a planet, so be careful.&r"
-				""
 				"&cYou will also need some sort of space suit to survive the atmoshpere.&r"
+				""
+				"&cBring another launch pad so you can launch from the Moon as well!&r"
 			]
+			icon: {
+				Count: 1
+				id: "ad_astra:tier_1_rocket"
+				tag: { }
+			}
 			id: "247390A4673AD828"
+			shape: "gear"
 			size: 1.0d
 			tasks: [
 				{
-					id: "41C127184EEC3E8F"
-					item: "gcyr:rocket_scanner"
+					id: "4C6EA6A60EB896E9"
+					item: "ad_astra:steel_engine"
 					type: "item"
 				}
 				{
-					id: "06BAAF951BE96E1A"
-					item: "gcyr:basic_rocket_motor"
+					id: "3490939C1B07557F"
+					item: "ad_astra:rocket_nose_cone"
 					type: "item"
 				}
 				{
-					id: "67C7EC1AE9663614"
-					item: "gcyr:basic_fuel_tank"
+					count: 4L
+					id: "7F8275017A86478E"
+					item: { Count: 4, id: "ad_astra:rocket_fin" }
 					type: "item"
 				}
 				{
-					id: "204F67A3FB9EF450"
+					count: 2L
+					id: "4B05A691EDD62027"
+					item: { Count: 2, id: "gtceu:stainless_steel_drum" }
+					type: "item"
+				}
+				{
+					id: "7092ED19D6FF9DA3"
 					item: {
 						Count: 1
-						id: "gcyr:id_chip"
+						id: "ad_astra:tier_1_rocket"
 						tag: { }
 					}
 					type: "item"
 				}
 			]
-			x: 22.0d
+			title: "Tier 1 Rocket"
+			x: 23.5d
 			y: 2.5d
 		}
 		{
@@ -1272,13 +1283,13 @@
 			shape: "gear"
 			size: 1.5d
 			tasks: [{
-				dimension: "gcyr:luna"
-				icon: "gcyr:moon_sand"
+				dimension: "ad_astra:moon"
+				icon: "ad_astra:moon_globe"
 				id: "5605E8AEDC2F8FBF"
 				title: "To the Moon!"
 				type: "dimension"
 			}]
-			x: 23.5d
+			x: 25.0d
 			y: 2.5d
 		}
 		{
@@ -1669,16 +1680,12 @@
 				item: "gtceu:raw_cooperite"
 				type: "item"
 			}]
-			x: 25.5d
-			y: 1.5d
+			x: 26.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["7F79BF7FD6AE35CE"]
-			description: [
-				"Neodymium is required to make magnetic neodymium rods."
-				""
-				"You can find it on the Moon (but also Mars)."
-			]
+			description: ["Neodymium is required to make magnetic neodymium rods."]
 			id: "33A96C17734C64C7"
 			tasks: [{
 				count: 32L
@@ -1686,8 +1693,8 @@
 				item: "gtceu:raw_neodymium"
 				type: "item"
 			}]
-			x: 25.5d
-			y: 3.5d
+			x: 26.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["3B1F268BC1A56F83"]
@@ -1722,6 +1729,31 @@
 			}]
 			x: -17.5d
 			y: -4.5d
+		}
+		{
+			dependencies: ["7F79BF7FD6AE35CE"]
+			description: [""]
+			id: "28B022A777C667AB"
+			tasks: [{
+				count: 32L
+				id: "040B2409E8FF3333"
+				item: { Count: 32, id: "gtceu:raw_desh" }
+				type: "item"
+			}]
+			x: 27.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["097912261E2A9B52"]
+			description: ["In order to craft your first rocket (and all the other) you will require the Nasa Workbench!"]
+			id: "60B304F0242EDD39"
+			tasks: [{
+				id: "4B9360D34CD97DD8"
+				item: "ad_astra:nasa_workbench"
+				type: "item"
+			}]
+			x: 23.5d
+			y: 0.0d
 		}
 	]
 	title: "HV Age"

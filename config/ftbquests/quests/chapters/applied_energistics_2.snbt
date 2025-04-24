@@ -59,11 +59,6 @@
 					item: "ae2things:disk_housing"
 					type: "item"
 				}
-				{
-					id: "2F357EF9AC0372A0"
-					item: "appbot:mana_cell_housing"
-					type: "item"
-				}
 			]
 			x: -1.5d
 			y: -1.5d

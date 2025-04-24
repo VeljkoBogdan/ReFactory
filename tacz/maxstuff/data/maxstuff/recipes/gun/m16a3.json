@@ -1,0 +1,27 @@
+{
+  "materials": [
+    {
+      "item": {
+        "tag": "forge:ingots/iron"
+      },
+      "count": 34
+    },
+    {
+      "item": {
+        "tag": "forge:gems/lapis"
+      },
+      "count": 7
+    },
+    {
+      "item": {
+        "tag": "minecraft:logs"
+      },
+      "count": 6
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "maxstuff:m16a3"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

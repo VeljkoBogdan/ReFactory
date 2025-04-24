@@ -1,0 +1,6 @@
+{
+  "name": "maxstuff.attachment.speed_mag.name",
+  "display": "maxstuff:speed_mag_display",
+  "data": "maxstuff:speed_mag_data",
+  "type": "extended_mag"
+}

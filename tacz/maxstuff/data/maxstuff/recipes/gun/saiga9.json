@@ -1,0 +1,30 @@
+{
+  "materials": [
+    {
+      "item": {
+        "tag": "forge:ingots/iron"
+      },
+      "count": 20
+    },
+    {
+      "item": {
+        "item": "minecraft:quartz"
+      },
+      "count": 12
+    },
+    {
+      "item": {
+        "tag": "forge:gems/lapis"
+      },
+      "count": 6
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "maxstuff:saiga9",
+    "attachments": {
+      "stock": "tacz:oem_stock_light"
+    }
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

@@ -1,0 +1,11 @@
+{
+  "slot": "maxstuff:attachment/slot/a3_grip",
+  // 配件的默认模型，不可为空
+  "model": "maxstuff:attachment/a3_grip_geo",
+  // 配件默认模型使用的材质，不可为空
+  "texture": "maxstuff:attachment/uv/a3_grip",
+  "sounds": {
+    "install": "tacz:attachments/attachment_general_b",
+    "uninstall": "tacz:attachments/attachment_general_uninstall"
+  }
+}

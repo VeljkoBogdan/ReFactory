@@ -1,0 +1,6 @@
+{
+  "name": "maxstuff.attachment.loudener.name",
+  "display": "maxstuff:loudener_display",
+  "data": "maxstuff:loudener_data",
+  "type": "muzzle"
+}

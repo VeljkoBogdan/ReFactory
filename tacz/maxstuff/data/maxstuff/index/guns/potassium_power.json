@@ -1,0 +1,7 @@
+{
+    "name": "maxstuff.gun.potassium_power.name",
+    "display": "maxstuff:potassium_power_display",
+    "data": "maxstuff:potassium_power_data",
+    "type": "rifle",
+    "sort": 1
+}

@@ -1,0 +1,27 @@
+{
+  "materials": [
+    {
+      "item": {
+        "tag": "forge:ingots/gold"
+      },
+      "count": 42
+    },
+    {
+      "item": {
+        "tag": "forge:ingots/iron"
+      },
+      "count": 86
+    },
+    {
+      "item": {
+        "tag": "forge:gems/quartz"
+      },
+      "count": 18
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "maxstuff:hk417"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

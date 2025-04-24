@@ -1,0 +1,27 @@
+{
+  "materials": [
+    {
+      "item": {
+        "tag": "forge:ingots/iron"
+      },
+      "count": 26
+    },
+    {
+      "item": {
+        "tag": "forge:ingots/copper"
+      },
+      "count": 12
+    },
+    {
+      "item": {
+        "tag": "minecraft:logs"
+      },
+      "count": 48
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "maxstuff:adar2"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

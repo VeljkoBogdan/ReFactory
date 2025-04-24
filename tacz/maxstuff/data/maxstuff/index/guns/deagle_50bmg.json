@@ -1,0 +1,7 @@
+{
+  "name": "maxstuff.gun.deagle_50bmg.name",
+  "display": "maxstuff:deagle_50bmg_display",
+  "tooltip": "maxstuff.gun.silly.desc",
+  "data": "maxstuff:deagle_50bmg_data",
+  "type": "pistol"
+}

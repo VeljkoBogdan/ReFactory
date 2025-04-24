@@ -1,0 +1,8 @@
+{
+    "name": "maxstuff.gun.cursed15.name",
+    "display": "maxstuff:cursed15_display",
+    "tooltip": "maxstuff.gun.silly.desc",
+    "data": "maxstuff:cursed15_data",
+    "type": "rifle",
+    "sort": 2
+}

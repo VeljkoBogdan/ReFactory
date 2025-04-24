@@ -1,0 +1,8 @@
+{
+    "name": "maxstuff.gun.m870t.name",
+    "display": "maxstuff:m870t_display",
+    "data": "maxstuff:m870t_data",
+    "type": "shotgun",
+    "item_type": "modern_kinetic",
+    "sort": 1
+}

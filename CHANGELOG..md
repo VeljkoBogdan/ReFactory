@@ -3,6 +3,8 @@
 - Reworked pre-steam age
 - Questbook improvements
 - Fixed error during material registering
+- Removed mods: Easy Villagers, Gregicality Rocketry, Applied Botanics Addon, Botanical Machinery, Cagerium, EMI Trades, MrCrayfish's Gun Mod, Time in a bottle
+- Added mods: Sun and Moon Celestial configuration, [TaCZ] Timeless and Classics Zero + MaxStuff, Legendary Survival Overhaul, Farmer's Delight, Creeper Overhaul
 
 # 0.2.0
 - Multiple new multiblocks: Crystal Puller, Large Mana Pool, Mana Generator, Greenhouse

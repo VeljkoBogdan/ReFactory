@@ -1,0 +1,9 @@
+{
+  "name": "maxstuff.attachment.glaser.name",
+
+  "display": "maxstuff:glaser_display",
+
+  "data": "maxstuff:glaser_data",
+  
+  "type": "scope"
+}

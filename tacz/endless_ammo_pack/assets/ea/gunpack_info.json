@@ -1,0 +1,21 @@
+{
+  // 版本
+  "version": "1.2",
+  // 名称，支持本地化
+  "name": "pack.ea.eapack.name",
+  // 描述文本，支持本地化
+  "desc": "pack.ea.eapack.desc",
+  // 许可证
+  "license": "CC BY-NC-ND 4.0",
+  // 作者
+  "authors": [
+    "Maxinablender, Barquito Toxico"
+  ],
+  // 日期：ISO 8601 标准，即 YYYY-MM-DD
+  "date": "16-12-2024",
+  "url": "https://ealinks.carrd.co",
+  "dependencies": {
+    // 模组 ID 和版本号
+    // "tacz": "[1.0.3,)"
+  }
+}

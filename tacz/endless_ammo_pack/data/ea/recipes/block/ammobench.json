@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##I",
+    "OcO",
+    "O O"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:paper"
+    },
+    "I": {
+      "item": "minecraft:iron_block"
+    },
+    "O": {
+      "tag": "minecraft:logs"
+    },
+    "c": {
+      "item": "minecraft:copper_ingot"
+    }
+  },
+  "result": {
+    "item": "tacz:workbench_b",
+    "nbt": {
+      "BlockId": "ea:ammobench"
+    }
+  }
+}

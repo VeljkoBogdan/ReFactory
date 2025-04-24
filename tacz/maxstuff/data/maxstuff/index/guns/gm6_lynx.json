@@ -1,0 +1,7 @@
+{
+    "name": "maxstuff.gun.gm6_lynx.name",
+    "display": "maxstuff:gm6_lynx_display",
+    "data": "maxstuff:gm6_lynx_data",
+    "type": "sniper",
+    "sort": 1
+}
