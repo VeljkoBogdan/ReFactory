@@ -328,18 +328,18 @@ ServerEvents.recipes(event => {
     })
 
     // TODO: change
-    event.shaped('kubejs:osmiridium_engine', [
-      'SPS',
-      'PMP',
-      'DFH'
-    ], {
-      P: 'gtceu:osmiridium_plate',
-      S: 'gtceu:osmiridium_screw',
-      M: 'gtceu:ev_machine_hull',
-      F: 'gtceu:osmiridium_rotor',
-      H: '#forge:tools/hammers',
-      D: '#forge:tools/screwdrivers',
-    })
+    // event.shaped('kubejs:osmiridium_engine', [
+    //   'SPS',
+    //   'PMP',
+    //   'DFH'
+    // ], {
+    //   P: 'gtceu:osmiridium_plate',
+    //   S: 'gtceu:osmiridium_screw',
+    //   M: 'gtceu:ev_machine_hull',
+    //   F: 'gtceu:osmiridium_rotor',
+    //   H: '#forge:tools/hammers',
+    //   D: '#forge:tools/screwdrivers',
+    // })
 
     // TODO: change
     event.shaped('ad_astra:ti_69', [
