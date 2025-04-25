@@ -5,6 +5,7 @@ let yeet = (itemName) => {
     ServerEvents.tags('item', event => {
       event.add('c:hidden_from_recipe_viewers', itemName)
       event.remove('forge:tools/hammers', itemName)
+      event.remove('forge:ingots')
     })
 }
 let yeet_f = (itemName) => {
@@ -87,7 +88,7 @@ ServerEvents.tags('fluid', event => {
     event.remove(`forge:hydrogen`, 'ad_astra:hydrogen')
 })
   
-  ServerEvents.recipes(event => {
+ServerEvents.recipes(event => {
     event.remove({ output: 'ad_astra:tier_1_rocket' })
     event.remove({ output: 'ad_astra:tier_2_rocket' })
     event.remove({ output: 'ad_astra:tier_3_rocket' })
@@ -96,22 +97,24 @@ ServerEvents.tags('fluid', event => {
     event.remove({ output: 'ad_astra:steel_engine' })
     event.remove({ output: 'ad_astra:launch_pad' })
     event.remove({ output: 'ad_astra:nasa_workbench' })
-    // event.remove({ output: 'ad_astra:oxygen_distributor' })
-    // event.remove({ output: 'ad_astra:oxygen_sensor' })
-    // event.remove({ output: 'ad_astra:gravity_normalizer' })
-    // event.remove({ output: 'ad_astra:ti_69' })
-    // event.remove({ output: 'ad_astra:space_helmet' })
-    // event.remove({ output: 'ad_astra:space_suit' })
-    // event.remove({ output: 'ad_astra:space_pants' })
-    // event.remove({ output: 'ad_astra:space_boots' })
-    // event.remove({ output: 'ad_astra:netherite_space_helmet' })
-    // event.remove({ output: 'ad_astra:netherite_space_suit' })
-    // event.remove({ output: 'ad_astra:netherite_space_pants' })
-    // event.remove({ output: 'ad_astra:netherite_space_boots' })
-    // event.remove({ output: 'ad_astra:jet_suit_helmet' })
-    // event.remove({ output: 'ad_astra:jet_suit' })
-    // event.remove({ output: 'ad_astra:jet_suit_pants' })
-    // event.remove({ output: 'ad_astra:jet_suit_boots' })
+    //
+    event.remove({ output: 'ad_astra:oxygen_distributor' })
+    event.remove({ output: 'ad_astra:oxygen_sensor' })
+    event.remove({ output: 'ad_astra:gravity_normalizer' })
+    event.remove({ output: 'ad_astra:ti_69' })
+    event.remove({ output: 'ad_astra:space_helmet' })
+    event.remove({ output: 'ad_astra:space_suit' })
+    event.remove({ output: 'ad_astra:space_pants' })
+    event.remove({ output: 'ad_astra:space_boots' })
+    event.remove({ output: 'ad_astra:netherite_space_helmet' })
+    event.remove({ output: 'ad_astra:netherite_space_suit' })
+    event.remove({ output: 'ad_astra:netherite_space_pants' })
+    event.remove({ output: 'ad_astra:netherite_space_boots' })
+    event.remove({ output: 'ad_astra:jet_suit_helmet' })
+    event.remove({ output: 'ad_astra:jet_suit' })
+    event.remove({ output: 'ad_astra:jet_suit_pants' })
+    event.remove({ output: 'ad_astra:jet_suit_boots' })
+    //
     event.remove({ output: 'ad_astra:wheel' })
     event.remove({ output: 'ad_astra:tier_1_rover' })
     event.remove({ id: 'ad_astra:nasa_workbench/tier_1_rocket_from_nasa_workbench' })
@@ -137,28 +140,6 @@ ServerEvents.tags('fluid', event => {
 
     
     // TIER 1
-
-    // event.custom({
-    //   type: "ad_astra:nasa_workbench",
-    //   ingredients: [
-    //     { ingredient: { item: "ad_astra:rocket_nose_cone" } },
-    //     { ingredient: { item: "kubejs:t1_rocket_plate" } },
-    //     { ingredient: { item: "kubejs:t1_rocket_plate" } },
-    //     { ingredient: { item: "kubejs:t1_rocket_plate" } },
-    //     { ingredient: { item: "kubejs:t1_rocket_plate" } },
-    //     { ingredient: { item: "kubejs:t1_rocket_plate" } },
-    //     { ingredient: { item: "kubejs:t1_rocket_plate" } },
-    //     { ingredient: { item: "ad_astra:rocket_fin" } },
-    //     { ingredient: { item: "gtceu:titanium_drum" } },
-    //     { ingredient: { item: "gtceu:titanium_drum" } },
-    //     { ingredient: { item: "ad_astra:rocket_fin" } },
-    //     { ingredient: { item: "ad_astra:rocket_fin" } },
-    //     { ingredient: { item: "ad_astra:steel_engine" } },
-    //     { ingredient: { item: "ad_astra:rocket_fin" } },
-    //   ],
-    //   output: "ad_astra:tier_1_rocket",
-    // })
-
     event.custom({
         "type": "ad_astra:nasa_workbench",
         "ingredients": [
@@ -202,19 +183,6 @@ ServerEvents.tags('fluid', event => {
       .duration(20)
       .EUt(GTValues.VA[GTValues.HV])
 
-    // event.recipes.gtceu.forming_press("t2_welded_plate")
-    //   .itemInputs(['4x gtceu:virtue_meld_plate', '4x gtceu:tungsten_steel_plate', '4x gtceu:thorium_plate', '4x gtceu:luminescent_utherium_plate'])
-    //   .circuit(1)
-    //   .itemOutputs('kubejs:t1_welded_rocket_plate_mk2')
-    //   .duration(160)
-    //   .EUt(GTValues.VA[GTValues.EV])
-
-    // event.recipes.gtceu.implosion_compressor("t2_rocket_plate")
-    //   .itemInputs('kubejs:t1_welded_rocket_plate_mk2')
-    //   .itemOutputs('kubejs:t2_rocket_plating')
-    //   .duration(10)
-    //   .EUt(GTValues.VA[GTValues.EV])
-
     event.recipes.gtceu.canner("ad_astra:gas_tank/filling_t1")
       .itemInputs('ad_astra:gas_tank')
       .inputFluids('gtceu:oxygen 1000')
@@ -237,33 +205,31 @@ ServerEvents.tags('fluid', event => {
       .itemOutputs(Item.of('ad_astra:space_suit', '{BotariumData:{StoredFluids:[{Amount:1000L,Fluid:"gtceu:oxygen"}]}}'))
       .duration(20*10)
 
-    // event.recipes.gtceu.assembler("space_suit_t1")
-    //   .itemInputs(['32x gtceu:polytetrafluoroethylene_plate', '4x gtceu:stainless_steel_plate', '4x gtceu:titanium_plate', 'ad_astra:gas_tank'])
-    //   .circuit(1)
-    //   .itemOutputs('ad_astra:space_suit')
-    //   .duration(20*10)
-    //   .EUt(GTValues.VA[GTValues.HV])
-
-    // event.recipes.gtceu.assembler("space_helmet_t1")
-    //   .itemInputs(['20x gtceu:polytetrafluoroethylene_plate', '3x gtceu:stainless_steel_plate', '3x gtceu:titanium_plate', 'gtceu:glass_plate'])
-    //   .circuit(1)
-    //   .itemOutputs('ad_astra:space_helmet')
-    //   .duration(160)
-    //   .EUt(GTValues.VA[GTValues.HV])
-
-    // event.recipes.gtceu.assembler("space_pants_t1")
-    //   .itemInputs(['28x gtceu:polytetrafluoroethylene_plate', '4x gtceu:stainless_steel_plate', '4x gtceu:titanium_plate'])
-    //   .circuit(2)
-    //   .itemOutputs('ad_astra:space_pants')
-    //   .duration(160)
-    //   .EUt(GTValues.VA[GTValues.HV])
-
-    // event.recipes.gtceu.assembler("space_boots_t1")
-    //   .itemInputs(['16x gtceu:polytetrafluoroethylene_plate', '1x gtceu:stainless_steel_plate', '1x gtceu:titanium_plate'])
-    //   .circuit(2)
-    //   .itemOutputs('ad_astra:space_boots')
-    //   .duration(160)
-    //   .EUt(GTValues.VA[GTValues.HV])
+    // TODO: change
+    event.recipes.gtceu.assembler("space_suit_t1")
+      .itemInputs(['32x gtceu:polytetrafluoroethylene_plate', '4x gtceu:stainless_steel_plate', '4x gtceu:titanium_plate', 'ad_astra:gas_tank'])
+      .circuit(1)
+      .itemOutputs('ad_astra:space_suit')
+      .duration(20*10)
+      .EUt(GTValues.VA[GTValues.HV])
+    event.recipes.gtceu.assembler("space_helmet_t1")
+      .itemInputs(['20x gtceu:polytetrafluoroethylene_plate', '3x gtceu:stainless_steel_plate', '3x gtceu:titanium_plate', 'gtceu:glass_plate'])
+      .circuit(1)
+      .itemOutputs('ad_astra:space_helmet')
+      .duration(160)
+      .EUt(GTValues.VA[GTValues.HV])
+    event.recipes.gtceu.assembler("space_pants_t1")
+      .itemInputs(['28x gtceu:polytetrafluoroethylene_plate', '4x gtceu:stainless_steel_plate', '4x gtceu:titanium_plate'])
+      .circuit(2)
+      .itemOutputs('ad_astra:space_pants')
+      .duration(160)
+      .EUt(GTValues.VA[GTValues.HV])
+    event.recipes.gtceu.assembler("space_boots_t1")
+      .itemInputs(['16x gtceu:polytetrafluoroethylene_plate', '1x gtceu:stainless_steel_plate', '1x gtceu:titanium_plate'])
+      .circuit(2)
+      .itemOutputs('ad_astra:space_boots')
+      .duration(160)
+      .EUt(GTValues.VA[GTValues.HV])
 
     event.recipes.gtceu.assembler("launch_pad")
       .itemInputs(['5x gtceu:stainless_steel_plate', '4x gtceu:titanium_plate'])
@@ -322,28 +288,30 @@ ServerEvents.tags('fluid', event => {
       F: 'gtceu:titanium_frame'
     })
 
-    // event.shaped('ad_astra:oxygen_distributor', [
-    //   'CBC',
-    //   'AHA',
-    //   'DDD'
-    // ], {
-    //   A: 'gtceu:stainless_steel_rotor',
-    //   B: 'gtceu:titanium_drum',
-    //   C: '#gtceu:circuits/ev',
-    //   H: 'gtceu:hv_machine_hull',
-    //   D: 'gtceu:desh_plate',
-    // })
+    // TODO: change
+    event.shaped('ad_astra:oxygen_distributor', [
+      'CBC',
+      'AHA',
+      'DDD'
+    ], {
+      A: 'gtceu:stainless_steel_rotor',
+      B: 'gtceu:titanium_drum',
+      C: '#gtceu:circuits/ev',
+      H: 'gtceu:hv_machine_hull',
+      D: 'gtceu:desh_plate',
+    })
 
-    // event.shaped('ad_astra:gravity_normalizer', [
-    //   'M M',
-    //   'EHE',
-    //   'DDD'
-    // ], {
-    //   M: '#gtceu:circuits/hv',
-    //   E: 'gtceu:hv_emitter',
-    //   H: 'gtceu:hv_machine_hull',
-    //   D: 'gtceu:desh_plate',
-    // })
+    // TODO: change
+    event.shaped('ad_astra:gravity_normalizer', [
+      'M M',
+      'EHE',
+      'DDD'
+    ], {
+      M: '#gtceu:circuits/hv',
+      E: 'gtceu:hv_emitter',
+      H: 'gtceu:hv_machine_hull',
+      D: 'gtceu:desh_plate',
+    })
 
     event.shaped('ad_astra:steel_engine', [
       'SRS',
@@ -359,31 +327,33 @@ ServerEvents.tags('fluid', event => {
       R: 'gtceu:steel_rod'
     })
 
-    // event.shaped('kubejs:osmiridium_engine', [
-    //   'SPS',
-    //   'PMP',
-    //   'DFH'
-    // ], {
-    //   P: 'gtceu:osmiridium_plate',
-    //   S: 'gtceu:osmiridium_screw',
-    //   M: 'gtceu:ev_machine_hull',
-    //   F: 'gtceu:osmiridium_rotor',
-    //   H: '#forge:tools/hammers',
-    //   D: '#forge:tools/screwdrivers',
-    // })
+    // TODO: change
+    event.shaped('kubejs:osmiridium_engine', [
+      'SPS',
+      'PMP',
+      'DFH'
+    ], {
+      P: 'gtceu:osmiridium_plate',
+      S: 'gtceu:osmiridium_screw',
+      M: 'gtceu:ev_machine_hull',
+      F: 'gtceu:osmiridium_rotor',
+      H: '#forge:tools/hammers',
+      D: '#forge:tools/screwdrivers',
+    })
 
-    // event.shaped('ad_astra:ti_69', [
-    //   'SGS',
-    //   'PMP',
-    //   'CDC'
-    // ], {
-    //   P: 'gtceu:steel_plate',
-    //   S: 'gtceu:stainless_steel_screw',
-    //   M: '#gtceu:circuits/hv',
-    //   C: 'gtceu:gold_single_cable',
-    //   D: '#forge:tools/screwdrivers',
-    //   G: 'gtceu:computer_monitor_cover'
-    // })
+    // TODO: change
+    event.shaped('ad_astra:ti_69', [
+      'SGS',
+      'PMP',
+      'CDC'
+    ], {
+      P: 'gtceu:steel_plate',
+      S: 'gtceu:stainless_steel_screw',
+      M: '#gtceu:circuits/hv',
+      C: 'gtceu:gold_single_cable',
+      D: '#forge:tools/screwdrivers',
+      G: 'gtceu:computer_monitor_cover'
+    })
 
     event.replaceOutput(
       { output: 'gtceu:desh_block' },
@@ -406,11 +376,41 @@ ServerEvents.tags('fluid', event => {
     event.replaceInput({id: 'ad_astra:recipes/rocket_nose_cone'},
       '#forge:plates/steel',
       'kubejs:t1_rocket_plate'
-     )
+    )
 
-     event.replaceInput({id: 'ad_astra:recipes/rocket_fin'},
-      '#forge:plates/steel',
-      'kubejs:t1_rocket_plate'
-     )
+    event.replaceInput({id: 'ad_astra:recipes/rocket_fin'},
+    '#forge:plates/steel',
+    'kubejs:t1_rocket_plate'
+    )
 
-  })
+    event.remove({output: 'ad_astra:rocket_fin'})
+    event.shaped(
+        'ad_astra:rocket_fin',
+        [
+            ' S ',
+            'SSS',
+            'SHS'
+        ],
+        {
+            S: 'gtceu:steel_plate',
+            H: '#forge:tools/hammers'
+        }
+    )
+
+    event.remove({output: 'ad_astra:rocket_nose_cone'})
+    event.shaped(
+        'ad_astra:rocket_nose_cone',
+        [
+            ' C ',
+            'HSD',
+            'SSS'
+        ],
+        {
+            S: 'gtceu:steel_plate',
+            C: 'gtceu:copper_rod',
+            H: '#forge:tools/hammers',
+            D: '#forge:tools/screwdrivers'
+        }
+    )
+
+})
