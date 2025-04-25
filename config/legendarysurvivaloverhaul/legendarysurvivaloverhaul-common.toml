@@ -26,7 +26,7 @@
 		# If enabled, information like position and direction will be hidden from the debug screen (F3).
 		"Hide Info From Debug" = true
 		# If enabled, the player can regenerate health naturally if their hunger is full enough (doesn't affect external healing, such as golden apples, the Regeneration effect, etc.)
-		"Natural Regeneration Enabled" = false
+		"Natural Regeneration Enabled" = true
 		# If enabled, the player suffers vanilla freeze when inside powder snow.
 		"Vanilla Freeze Enabled" = false
 		# How much health player will have initially.
@@ -59,7 +59,7 @@
 	"Player On Fire Modifier" = 12.5
 	# How much of an effect sprinting has on a player's temperature.
 	#Range: -1000.0 ~ 1000.0
-	"Player Sprint Modifier" = 1.5
+	"Player Sprint Modifier" = 1.4
 	# How much the effects of the player's altitude on temperature are multiplied starting at Y 64.
 	# Each 64 blocks further from Y 64 will reduce player's temperature by this value.
 	# It means that for a value of -5, the body temperature of the player is reduced by 5 for each 64 blocks (the calculus is done linearly).
@@ -127,7 +127,7 @@
 	[temperature.biomes]
 		# How much a biome's temperature effects are multiplied.
 		#Range: 0.0 ~ 1000.0
-		"Biome Temperature Multiplier" = 16.0
+		"Biome Temperature Multiplier" = 12.0
 		# Whether biomes will have an effect on a player's temperature.
 		"Biomes affect Temperature" = true
 		# How much hot biome's dryness will make nights really cold.
@@ -420,7 +420,7 @@
 [health-overhaul]
 	# How much of Additional Health a player can accumulate. 2 Heath means a full heart.
 	#Range: 0.0 ~ 10000.0
-	"Maximum Additional Health" = 20.0
+	"Maximum Additional Health" = 60.0
 
 	[health-overhaul.shield-health]
 		# How much of Shield Health a player can accumulate. 2 Shield Heath means a full shield.
