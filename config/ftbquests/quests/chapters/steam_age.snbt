@@ -656,6 +656,35 @@
 			x: 4.0d
 			y: 0.5d
 		}
+		{
+			dependencies: ["189B920AAB6456B4"]
+			description: [
+				"You have unlocked guns!"
+				""
+				"You can craft guns using the gun smith table, and ammo using the ammo bench."
+			]
+			id: "0F0A611733E1CA4F"
+			tasks: [
+				{
+					id: "319FF32D2E601030"
+					item: "tacz:gun_smith_table"
+					type: "item"
+				}
+				{
+					id: "196179B5971AF83E"
+					item: {
+						Count: 1
+						id: "tacz:workbench_b"
+						tag: {
+							BlockId: "ea:ammobench"
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 3.5d
+		}
 	]
 	title: "Steam Age"
 }

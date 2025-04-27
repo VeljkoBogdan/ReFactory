@@ -135,8 +135,8 @@
 				}
 				type: "item"
 			}]
-			x: 4.5d
-			y: 0.0d
+			x: 3.0d
+			y: -3.5d
 		}
 		{
 			description: [
@@ -207,7 +207,7 @@
 				}
 			]
 			title: "Better Building"
-			x: 7.0d
+			x: 4.5d
 			y: 0.0d
 		}
 		{
@@ -300,7 +300,7 @@
 				}
 				type: "item"
 			}]
-			x: 7.0d
+			x: 4.5d
 			y: 1.5d
 		}
 		{
@@ -380,6 +380,38 @@
 			}]
 			x: -3.0d
 			y: 1.5d
+		}
+		{
+			description: ["Crafting On A Stick adds plenty of station version on a stick. They allow you to access their GUIs from your inventory. Basically mobile stations."]
+			id: "5C23DA03E3DD508F"
+			rewards: [{
+				id: "75F3BD8CE243A24B"
+				item: "farmersdelight:barbecue_stick"
+				type: "item"
+			}]
+			tasks: [{
+				id: "78E7B7E9643E53A3"
+				item: "crafting_on_a_stick:crafting_table"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.5d
+		}
+		{
+			description: [
+				"If you click on the top-left icon in your inventory menu, you can access the Extreme Sound Muffler."
+				""
+				"You can select any of the sounds to disable it. Very good for mob farms or loads of machines."
+			]
+			icon: "botania:cacophonium"
+			id: "62A48B382E2FA463"
+			tasks: [{
+				id: "027025467BA70F30"
+				title: "Muting sounds"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: -5.0d
 		}
 	]
 	title: "Tips n Tricks"
