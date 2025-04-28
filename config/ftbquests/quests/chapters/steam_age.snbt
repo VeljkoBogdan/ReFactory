@@ -341,10 +341,7 @@
 			y: 3.5d
 		}
 		{
-			dependencies: [
-				"24F313A71382D5A4"
-				"7F0829EF48195AAE"
-			]
+			dependencies: ["7F0829EF48195AAE"]
 			description: [
 				"Essential trees for rubber production!"
 				""
@@ -373,10 +370,7 @@
 			y: 0.5d
 		}
 		{
-			dependencies: [
-				"3AACA352C261688C"
-				"09ECD67B4648D2EA"
-			]
+			dependencies: ["09ECD67B4648D2EA"]
 			description: ["A market is very useful to get seeds and grow better and more sustainable food."]
 			id: "31A0620289688EFB"
 			rewards: [{

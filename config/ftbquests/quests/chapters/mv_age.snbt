@@ -1248,7 +1248,6 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["7654326C675F0181"]
 			description: ["Throw an Ender Pearl into a Mana Pool and you'll get a Mana Pearl."]
 			id: "7E7F3081B25D024D"
 			tasks: [{
@@ -1260,7 +1259,6 @@
 			y: 4.5d
 		}
 		{
-			dependencies: ["11E30097AC7708B5"]
 			description: ["These runes are going to be a bit of a grind... but I trust in you!"]
 			id: "3EABF54D848B7C03"
 			tasks: [

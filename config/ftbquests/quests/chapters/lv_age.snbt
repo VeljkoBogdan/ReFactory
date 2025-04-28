@@ -754,8 +754,6 @@
 				"Higher materials require higher levels of coils."
 				""
 				"One EBF requires 16 coils, unless it's wall-sharing with another EBF."
-				""
-				"Take a look at the \"Coils\" chapter for more coil info."
 			]
 			id: "4806751104224E6A"
 			tasks: [{

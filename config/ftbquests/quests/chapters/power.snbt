@@ -14,7 +14,7 @@
 		x: -2.0d
 		y: 0.5d
 	}]
-	order_index: 18
+	order_index: 17
 	quest_links: [ ]
 	quests: [
 		{
@@ -110,6 +110,7 @@
 			y: 0.625d
 		}
 		{
+			dependencies: ["03D3442F857F0592"]
 			id: "4C60781F63A68896"
 			tasks: [{
 				id: "68DE0ECEE441989C"
@@ -121,6 +122,7 @@
 			y: 2.0d
 		}
 		{
+			dependencies: ["630A813B0F4DA078"]
 			id: "2ED1972D5F6AB80D"
 			tasks: [{
 				id: "3A52DA2BD6692CF3"
@@ -132,6 +134,7 @@
 			y: 2.0d
 		}
 		{
+			dependencies: ["59775F7F175FF086"]
 			id: "47A9CB0608353FA0"
 			tasks: [{
 				id: "27609B3DF6199510"
@@ -143,6 +146,7 @@
 			y: 2.0d
 		}
 		{
+			dependencies: ["59775F7F175FF086"]
 			description: ["Multiblock version of the HV Steam Turbine."]
 			id: "680AA1D55DD526DA"
 			tasks: [{
@@ -155,6 +159,7 @@
 			y: 2.0d
 		}
 		{
+			dependencies: ["35CB055A24346DE1"]
 			id: "38EB3F74FF15565E"
 			tasks: [{
 				id: "519AEAC7E63199EC"
@@ -166,6 +171,7 @@
 			y: 3.0d
 		}
 		{
+			dependencies: ["630A813B0F4DA078"]
 			id: "356863732109304B"
 			tasks: [{
 				id: "5E2711CB5FF2B101"
@@ -177,6 +183,7 @@
 			y: 3.0d
 		}
 		{
+			dependencies: ["59775F7F175FF086"]
 			id: "7F8C19C918404342"
 			tasks: [{
 				id: "63426B10D1ACA745"
@@ -188,6 +195,7 @@
 			y: 3.0d
 		}
 		{
+			dependencies: ["669F52806D1D39F6"]
 			id: "1007ECF43A2BDD4B"
 			tasks: [{
 				id: "2143CA3D0607FB73"
@@ -199,6 +207,7 @@
 			y: 3.0d
 		}
 		{
+			dependencies: ["35CB055A24346DE1"]
 			id: "498545974B0CD4CC"
 			tasks: [{
 				id: "220B2B919FAEC436"
@@ -210,6 +219,7 @@
 			y: 4.0d
 		}
 		{
+			dependencies: ["630A813B0F4DA078"]
 			id: "426E2F60A0FFBF77"
 			tasks: [{
 				id: "6C52E97FC021C5AA"
@@ -221,6 +231,7 @@
 			y: 4.0d
 		}
 		{
+			dependencies: ["59775F7F175FF086"]
 			id: "40039F44075ACA2B"
 			tasks: [{
 				id: "5EE2AA68917889C1"
@@ -232,6 +243,7 @@
 			y: 4.0d
 		}
 		{
+			dependencies: ["669F52806D1D39F6"]
 			id: "65C93A6E1F11107D"
 			tasks: [{
 				id: "1B49A18760D7C85E"
@@ -243,6 +255,7 @@
 			y: 4.0d
 		}
 		{
+			dependencies: ["3F37E03149399E3F"]
 			id: "251F3EBC1EF05E99"
 			tasks: [{
 				id: "4ED8568B604E3AED"
@@ -334,22 +347,20 @@
 			y: 2.0d
 		}
 		{
+			dependencies: ["164443788430F196"]
 			description: [
 				"Welcome to Powah!"
 				""
 				"Use it to generate insane amounts of, well, power."
 			]
+			icon: "powah:dielectric_paste"
 			id: "41EFB2DDDC445E15"
 			rewards: [{
 				id: "3DCE973E4EEFEC76"
 				item: "powah:book"
 				type: "item"
 			}]
-			tasks: [{
-				id: "686BE727611E654C"
-				item: "powah:dielectric_paste"
-				type: "item"
-			}]
+			title: "Powah"
 			x: 4.5d
 			y: -1.5d
 		}
@@ -561,12 +572,14 @@
 			y: -2.5d
 		}
 		{
+			dependencies: ["6945C4E4B0EF9E12"]
 			id: "19A8026472BC3300"
 			tasks: [{
 				id: "274C70F32C791328"
 				item: "gtceu:plasma_large_turbine"
 				type: "item"
 			}]
+			title: "LuV Plasma"
 			x: 6.0d
 			y: 4.0d
 		}

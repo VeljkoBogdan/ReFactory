@@ -76,7 +76,7 @@
 		"Temperature Immunity On First Spawn Enabled" = true
 		# Temperature immunity period in ticks while the player is immune to temperature effects on first spawn.
 		#Range: 0 ~ 100000
-		"Temperature Immunity On First Spawn Time" = 1800
+		"Temperature Immunity On First Spawn Time" = 3000
 
 	[temperature.secondary_effects]
 		# If enabled, players will also receive other effects from their current temperature state.
@@ -127,7 +127,7 @@
 	[temperature.biomes]
 		# How much a biome's temperature effects are multiplied.
 		#Range: 0.0 ~ 1000.0
-		"Biome Temperature Multiplier" = 12.0
+		"Biome Temperature Multiplier" = 10.0
 		# Whether biomes will have an effect on a player's temperature.
 		"Biomes affect Temperature" = true
 		# How much hot biome's dryness will make nights really cold.
