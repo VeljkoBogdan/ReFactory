@@ -577,8 +577,8 @@
 			description: ["A crafting station works exactly the same as the vanilla crafting table, except it will keep the items inside upon exiting its menu, and will also access nearby storage."]
 			id: "29562335311A1C1F"
 			tasks: [{
-				id: "1D6565DAECC29876"
-				item: "craftingstation:crafting_station"
+				id: "0738E4A80B7BF73B"
+				item: "tconstruct:crafting_station"
 				type: "item"
 			}]
 			x: 1.5d
@@ -636,18 +636,6 @@
 			}]
 			x: 7.5d
 			y: 4.5d
-		}
-		{
-			description: ["Very useful for farming feathers and string."]
-			id: "223D1C1F43CDFF74"
-			optional: true
-			tasks: [{
-				id: "074A508EB6FAEEA4"
-				item: "silentgear:fluffy_seeds"
-				type: "item"
-			}]
-			x: 4.5d
-			y: -1.5d
 		}
 		{
 			dependencies: [
@@ -850,7 +838,7 @@
 		{
 			dependencies: ["14769C69DDD4F79E"]
 			description: [
-				"You can get Floral Fertilizer and Bone Meal from destroying dead and dried grass in the world."
+				"You can get Floral Fertilizer, Bone Meal and Wheat Seeds from destroying dead and dried grass in the world."
 				""
 				"You can also get Bone Meal by right clicking dried salt with an empty hand."
 			]
@@ -864,6 +852,11 @@
 				{
 					id: "743E17572A01446A"
 					item: "minecraft:bone_meal"
+					type: "item"
+				}
+				{
+					id: "5E91918129B7A616"
+					item: "minecraft:wheat_seeds"
 					type: "item"
 				}
 			]

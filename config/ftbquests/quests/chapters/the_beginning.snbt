@@ -187,89 +187,14 @@
 		{
 			dependencies: ["43E0325219933606"]
 			description: [
-				"Legendary Survival Overhaul brings several mechanics that change your survival."
+				"Cold Sweat brings several mechanics that change your survival."
 				""
 				"&bTemperature&r: Your environment can impact your body temperature, indicated between your health and hunger bar. High or low body temperature will give you debuffs, or even hurt you if they get extreme. In this biome you have to worry about heat specifically. You can remedy heat by eating cold food, not exposing yourself to direct sunlight, swimming in water, wearing heat resistant armor, etc."
 				""
-				"&bThirst&r: Along with hunger, you will also gain thirst, which works the same way. In the early game you can drink pond water by shift right-clicking, or you can collect it in the canister for later use. Later on you can purify it so it doesn't give you the thirst debuff."
-				""
-				"&bGetting Hurt&r: Each one of your body parts can get targeted when hurt, and each gives different debuffs. You can break your legs from falling which will slow you down until you heal. You can heal by applying bangages or using other meds."
-				""
-				"&eAs a start you'll get a full canister, heat resistant armor and a thermometer to track your heat level.&r"
+				"&bThirst&r: Along with hunger, you will also gain thirst, which works the same way. In the early game you can drink pond water by shift right-clicking."
 			]
-			icon: "legendarysurvivaloverhaul:large_canteen"
+			icon: "cold_sweat:thermometer"
 			id: "48C9DC116BCF13B8"
-			rewards: [
-				{
-					id: "163DFA4D0CC18E8D"
-					item: {
-						Count: 1
-						id: "legendarysurvivaloverhaul:canteen"
-						tag: {
-							"legendarysurvivaloverhaul:HydrationCapacity": 10
-							"legendarysurvivaloverhaul:HydrationPurity": "normal"
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "20CBADB96F048FFA"
-					item: {
-						Count: 1
-						id: "legendarysurvivaloverhaul:desert_helmet"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "584F7009521CDDF1"
-					item: {
-						Count: 1
-						id: "legendarysurvivaloverhaul:desert_chestplate"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "0691579732F73E32"
-					item: {
-						Count: 1
-						id: "legendarysurvivaloverhaul:desert_leggings"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "4E2A71B7132978C4"
-					item: {
-						Count: 1
-						id: "legendarysurvivaloverhaul:desert_boots"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "1FC399C4F2A5AA85"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							Parent: {
-								temperature: 39.0f
-							}
-						}
-						id: "legendarysurvivaloverhaul:thermometer"
-					}
-					type: "item"
-				}
-			]
 			tasks: [{
 				id: "2F2B264736884EA6"
 				title: "Temperature, Thirst and Body parts"
