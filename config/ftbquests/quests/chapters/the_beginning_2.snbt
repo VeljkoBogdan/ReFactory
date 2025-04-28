@@ -882,6 +882,41 @@
 			x: 6.0d
 			y: 3.0d
 		}
+		{
+			dependencies: ["03CF5FEDA44D312B"]
+			description: ["Mining hammers are a god-sent tool in the early game, allowing you to mine a 3x3 area of blocks. Definitely use it!"]
+			id: "58890D0740220099"
+			tasks: [{
+				id: "783C27054BB3D6C8"
+				item: {
+					Count: 1
+					id: "gtceu:wrought_iron_mining_hammer"
+					tag: {
+						DisallowContainerItem: 0b
+						GT.Behaviours: {
+							AoEColumn: 1
+							AoELayer: 0
+							AoERow: 1
+							MaxAoEColumn: 1
+							MaxAoELayer: 0
+							MaxAoERow: 1
+							TorchPlacing: 1b
+						}
+						GT.Tool: {
+							Damage: 0
+							Enchantability: 5
+							HarvestLevel: 2
+							MaxDamage: 1151
+							ToolSpeed: 4.8f
+						}
+						HideFlags: 2
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 8.5d
+		}
 	]
 	title: "The Beginning"
 }

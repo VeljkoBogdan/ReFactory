@@ -851,7 +851,7 @@
 			description: ["The base of all MV machines"]
 			id: "498EF8FFD105D589"
 			shape: "gear"
-			size: 1.0d
+			size: 1.5d
 			tasks: [{
 				id: "165C8A2A8AE2CF63"
 				item: "gtceu:mv_machine_hull"
@@ -1420,6 +1420,17 @@
 				type: "item"
 			}]
 			x: -1.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["18BC6F844CF368EF"]
+			id: "4E10874269276733"
+			tasks: [{
+				id: "1BFFC145FE05C1D5"
+				item: "buildinggadgets2:gadget_building"
+				type: "item"
+			}]
+			x: 1.5d
 			y: 13.5d
 		}
 	]
