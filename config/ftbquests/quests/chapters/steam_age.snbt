@@ -23,8 +23,8 @@
 				item: "gtceu:primitive_pump"
 				type: "item"
 			}]
-			x: -1.0d
-			y: -2.5d
+			x: 0.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["5E785D06BD90880A"]
@@ -43,6 +43,7 @@
 				item: "minecraft:coal"
 				type: "item"
 			}]
+			shape: "gear"
 			tasks: [
 				{
 					id: "7BF316FE70843AF7"
@@ -56,8 +57,8 @@
 					type: "item"
 				}
 			]
-			x: -0.5d
-			y: -1.0d
+			x: 1.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["116EA26D387F70E8"]
@@ -76,7 +77,7 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: -1.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["30A1CCB30F870404"]
@@ -88,7 +89,7 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: 3.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["364AD55044CC7EBE"]
@@ -100,8 +101,8 @@
 				item: "gtceu:coke_gem"
 				type: "item"
 			}]
-			x: 1.0d
-			y: -1.0d
+			x: 2.5d
+			y: -2.5d
 		}
 		{
 			dependencies: [
@@ -137,7 +138,7 @@
 				type: "item"
 			}]
 			title: "Solar Boilers"
-			x: -3.5d
+			x: -5.0d
 			y: 4.5d
 		}
 		{
@@ -170,28 +171,36 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["5FC306AB0CF12117"]
+			dependencies: [
+				"5FC306AB0CF12117"
+				"3620B8407865D2A1"
+			]
 			description: [
 				"A very important multiblock, able to make steel from iron and coke."
 				""
 				"I very much recommend making multiple PBFs, especially because the recipe has been made cheaper, with double the amount of Fireclay Dust per craft. Steel takes a while."
 				""
 				"&eThey can also wall-share!&r"
+				""
+				"&7You need 32 bricks for the structure and 1 for the controller.&r"
 			]
 			id: "102E0DFFBDE7BD84"
+			shape: "gear"
 			tasks: [
 				{
-					id: "205FE61D350E26B6"
+					count: 33L
+					id: "19260AA417D42E3C"
+					item: "gtceu:firebricks"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "6CB1CCE482DCEE04"
 					item: "gtceu:primitive_blast_furnace"
 					type: "item"
 				}
-				{
-					count: 32L
-					id: "19260AA417D42E3C"
-					item: { Count: 32, id: "gtceu:firebricks" }
-					type: "item"
-				}
 			]
+			title: "Primitive Blast Furnace"
 			x: -0.5d
 			y: 2.0d
 		}
@@ -251,7 +260,7 @@
 				type: "item"
 			}]
 			title: "Steel"
-			x: 1.0d
+			x: 2.5d
 			y: 2.0d
 		}
 		{
@@ -271,7 +280,7 @@
 				item: "gtceu:lv_machine_hull"
 				type: "item"
 			}]
-			x: 7.0d
+			x: 8.5d
 			y: 3.5d
 		}
 		{
@@ -289,7 +298,7 @@
 				item: "gtceu:lv_machine_casing"
 				type: "item"
 			}]
-			x: 2.5d
+			x: 4.0d
 			y: 3.5d
 		}
 		{
@@ -304,7 +313,7 @@
 				item: "gtceu:rubber_ingot"
 				type: "item"
 			}]
-			x: 5.5d
+			x: 7.0d
 			y: 2.0d
 		}
 		{
@@ -320,7 +329,7 @@
 				item: "gtceu:sulfur_dust"
 				type: "item"
 			}]
-			x: 4.0d
+			x: 5.5d
 			y: 2.0d
 		}
 		{
@@ -337,7 +346,7 @@
 				type: "item"
 			}]
 			title: "Cables"
-			x: 5.5d
+			x: 7.0d
 			y: 3.5d
 		}
 		{
@@ -353,7 +362,7 @@
 				item: "gtceu:rubber_sapling"
 				type: "item"
 			}]
-			x: 5.5d
+			x: 7.0d
 			y: 0.5d
 		}
 		{
@@ -366,8 +375,8 @@
 				item: "gtceu:steam_grinder"
 				type: "item"
 			}]
-			x: -2.0d
-			y: 0.5d
+			x: -3.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["09ECD67B4648D2EA"]
@@ -384,7 +393,7 @@
 				item: "farmingforblockheads:market"
 				type: "item"
 			}]
-			x: 7.0d
+			x: 8.5d
 			y: 0.5d
 		}
 		{
@@ -405,8 +414,8 @@
 				}
 			]
 			title: "Steam bus"
-			x: -0.5d
-			y: 0.5d
+			x: -2.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["30A1CCB30F870404"]
@@ -435,7 +444,7 @@
 				item: "steamadditions:steam_separator"
 				type: "item"
 			}]
-			x: -5.0d
+			x: -2.0d
 			y: 4.5d
 		}
 		{
@@ -452,7 +461,7 @@
 				type: "item"
 			}]
 			title: "Cobble Generator"
-			x: -2.0d
+			x: -3.5d
 			y: 4.5d
 		}
 		{
@@ -470,7 +479,7 @@
 				item: "minecraft:sugar_cane"
 				type: "item"
 			}]
-			x: 8.5d
+			x: 10.0d
 			y: 0.5d
 		}
 		{
@@ -496,7 +505,7 @@
 				}
 				type: "item"
 			}]
-			x: 7.0d
+			x: 8.5d
 			y: 2.0d
 		}
 		{
@@ -511,7 +520,7 @@
 				type: "dimension"
 			}]
 			title: "Visit the Nether"
-			x: 2.5d
+			x: 4.0d
 			y: 2.0d
 		}
 		{
@@ -588,8 +597,8 @@
 				}
 			]
 			title: "Primitive Tank"
-			x: 0.0d
-			y: -2.5d
+			x: 1.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["30A1CCB30F870404"]
@@ -623,7 +632,7 @@
 				type: "checkmark"
 			}]
 			x: -3.5d
-			y: -1.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["189B920AAB6456B4"]
@@ -634,7 +643,7 @@
 				item: "botania:pure_daisy"
 				type: "item"
 			}]
-			x: 2.5d
+			x: 4.0d
 			y: 0.5d
 		}
 		{
@@ -647,7 +656,7 @@
 				item: { Count: 8, id: "botania:livingwood_log" }
 				type: "item"
 			}]
-			x: 4.0d
+			x: 5.5d
 			y: 0.5d
 		}
 		{
@@ -676,8 +685,116 @@
 					type: "item"
 				}
 			]
-			x: 1.0d
+			x: 2.5d
 			y: 3.5d
+		}
+		{
+			dependencies: ["5E785D06BD90880A"]
+			description: [
+				"Grout is used to make Seared Bricks for your smeltery and Primitive Blast Furnace."
+				""
+				"For this you'll need 17 blocks of Clay, 68 sand and 68 gravel."
+			]
+			id: "59E8CB4016D2A348"
+			tasks: [{
+				count: 132L
+				id: "5DDE5101F3490077"
+				item: "tconstruct:grout"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["363B6F16D079622C"]
+			description: [
+				"The base block for building a Tinker's Construct smeltery."
+				""
+				"You are going to focus on crushing these bricks into dust to make the Primitive Blast Furnace for now."
+			]
+			id: "2EE31193AD86A4E2"
+			tasks: [{
+				count: 33L
+				id: "5DCC05725F95294B"
+				item: "tconstruct:seared_bricks"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["59E8CB4016D2A348"]
+			description: ["Make the Unfired Seared Bricks using Grout and a Brick Wooden Form. Smelt them in a furnace to get Seared Bricks."]
+			id: "363B6F16D079622C"
+			tasks: [
+				{
+					count: 132L
+					id: "5733CBF9299EB555"
+					item: "kubejs:unfired_seared_brick"
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 132L
+					id: "4FDDDBC08CC037A0"
+					item: "tconstruct:seared_brick"
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"2EE31193AD86A4E2"
+				"189B920AAB6456B4"
+			]
+			id: "243F5B59E6E5EE5A"
+			tasks: [{
+				id: "4F58E7C13EC120D3"
+				item: "tconstruct:smeltery_controller"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"2EE31193AD86A4E2"
+				"2F7F7A99342C19A6"
+			]
+			id: "3620B8407865D2A1"
+			shape: "gear"
+			tasks: [{
+				count: 33L
+				id: "7CB5B79BAA4C0381"
+				item: "gtceu:seared_brick_dust"
+				type: "item"
+			}]
+			title: "Seared Brick Dust"
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["364AD55044CC7EBE"]
+			description: [
+				"Got your Coke Oven filled to the brim with Creosote?"
+				""
+				"You can use it as fuel in a furnace, compression dynamo, or steam boiler."
+				""
+				"You can also treat wood with it."
+				""
+				"If you do want to void it, you can do so by removing the bottom center block of the Coke Oven."
+			]
+			icon: "gtceu:creosote_bucket"
+			id: "117FF9A621276749"
+			tasks: [{
+				id: "56D081EDD5557A08"
+				title: "Too Much Creosote..."
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: -2.5d
 		}
 	]
 	title: "Steam Age"

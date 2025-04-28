@@ -305,6 +305,12 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
             GTMaterialFlags.GENERATE_PLATE
         )
 
+    // Seared Brick
+    event.create('seared_brick')
+        .dust()
+        .color(0x333131)
+        .iconSet(GTMaterialIconSet.ROUGH)
+
     // Ad Astra
     event.create('desh')
         .ingot()

@@ -183,16 +183,17 @@ ServerEvents.recipes(event => {
         '4x gtceu:fireclay_dust',
         [
             'gtceu:clay_dust',
-            'gtceu:brick_dust'
+            'gtceu:seared_brick_dust'
         ]
     )
+
     // Fixing the fireclay dust dupe
     event.remove({ id: 'gtceu:centrifuge/decomposition_centrifuging__fireclay' })
     event.recipes.gtceu.centrifuge('fireclay_dupe_fix')
         .itemInputs('4x gtceu:fireclay_dust')
         .itemOutputs(
             'gtceu:clay_dust',
-            'gtceu:brick_dust'
+            'gtceu:seared_brick_dust'
         )
         .duration(20*2.25)
         .EUt(30)
