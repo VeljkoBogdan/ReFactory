@@ -25,7 +25,7 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["0E1F6E844041CC9F"]
+			dependencies: ["298F63E0659E0FD6"]
 			description: [
 				"Crucial machine for creating LV power."
 				""
@@ -45,13 +45,13 @@
 				item: "gtceu:lv_steam_turbine"
 				type: "item"
 			}]
-			x: 6.0d
-			y: -3.0d
+			x: 7.5d
+			y: -1.5d
 		}
 		{
 			dependencies: [
 				"09ECD67B4648D2EA"
-				"03D3442F857F0592"
+				"0E1F6E844041CC9F"
 			]
 			description: [
 				"Tired yet?"
@@ -212,7 +212,7 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: -1.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["03D3442F857F0592"]
@@ -224,7 +224,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: -1.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["03D3442F857F0592"]
@@ -240,7 +240,7 @@
 				type: "item"
 			}]
 			x: 7.5d
-			y: -1.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["44495C979D17EFD5"]
@@ -304,7 +304,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: -1.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["44495C979D17EFD5"]
@@ -379,10 +379,7 @@
 			y: -1.5d
 		}
 		{
-			dependencies: [
-				"298F63E0659E0FD6"
-				"03D3442F857F0592"
-			]
+			dependencies: ["298F63E0659E0FD6"]
 			description: [
 				"A component for machines that manipulate liquids."
 				""
@@ -1101,7 +1098,7 @@
 				type: "item"
 			}]
 			x: 7.5d
-			y: 0.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["55D76A052A9EE6A0"]
