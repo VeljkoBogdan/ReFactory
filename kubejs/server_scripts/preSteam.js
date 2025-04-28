@@ -43,9 +43,10 @@ BlockEvents.broken('biomesoplenty:desert_grass', e => {
 
     if (rand < 0.25) {
         e.block.popItem(Item.of('minecraft:bone_meal'))
-    }
-    if (rand > 0.75) {
+    } else if (rand > 0.75) {
         e.block.popItem(Item.of('botania:fertilizer'))
+    } else if (rand > 0.25 && rand < 0.5) {
+        e.block.popItem(Item.of('minecraft:wheat_seeds'))
     }
 })
 
@@ -56,9 +57,10 @@ BlockEvents.broken('biomesoplenty:dead_grass', e => {
 
     if (rand < 0.25) {
         e.block.popItem(Item.of('minecraft:bone_meal'))
-    }
-    if (rand > 0.75) {
+    } else if (rand > 0.75) {
         e.block.popItem(Item.of('botania:fertilizer'))
+    } else if (rand > 0.25 && rand < 0.5) {
+        e.block.popItem(Item.of('minecraft:wheat_seeds'))
     }
 })
 
