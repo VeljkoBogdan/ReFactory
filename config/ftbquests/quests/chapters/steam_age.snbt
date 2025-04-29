@@ -749,6 +749,7 @@
 				"2EE31193AD86A4E2"
 				"189B920AAB6456B4"
 			]
+			description: ["The brain of the smeltery"]
 			id: "243F5B59E6E5EE5A"
 			tasks: [{
 				id: "4F58E7C13EC120D3"
@@ -763,6 +764,7 @@
 				"2EE31193AD86A4E2"
 				"2F7F7A99342C19A6"
 			]
+			description: ["Macerate the bricks into dust using a macerator, forge hammer or mortar."]
 			id: "3620B8407865D2A1"
 			shape: "gear"
 			tasks: [{

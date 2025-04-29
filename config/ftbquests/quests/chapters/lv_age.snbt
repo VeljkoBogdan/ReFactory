@@ -333,7 +333,6 @@
 		{
 			dependencies: ["298F63E0659E0FD6"]
 			description: ["Mixes things to create mixed things :BatChest:"]
-			hide_dependent_lines: true
 			id: "4816A85DF7D24F0B"
 			size: 1.0d
 			tasks: [{
@@ -903,6 +902,7 @@
 				""
 				"It's not really necessary in the early game, but keep it in mind for later."
 			]
+			hide_dependency_lines: true
 			id: "0B597578FA4639DF"
 			tasks: [{
 				id: "718DD372E45A8A9E"
@@ -1077,6 +1077,7 @@
 				""
 				"You can get Arsenic from centrifuging Realgar Dust."
 			]
+			hide_dependency_lines: true
 			id: "7D4B02AACF124E44"
 			tasks: [{
 				id: "6800D7060EB527F6"
@@ -1496,6 +1497,23 @@
 			title: "Spreading Mana"
 			x: 4.5d
 			y: 5.0d
+		}
+		{
+			dependencies: ["4816A85DF7D24F0B"]
+			description: [
+				"The conduit binder is used for all EnderIO conduits which are very useful."
+				""
+				"Check out the EnderIO tab for more info."
+			]
+			hide_dependency_lines: false
+			id: "3D20AD20CA37A280"
+			tasks: [{
+				id: "04929F17E0D06C9B"
+				item: "enderio:conduit_binder"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -4.5d
 		}
 	]
 	title: "LV Age"
