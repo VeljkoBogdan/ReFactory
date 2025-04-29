@@ -1248,7 +1248,9 @@
 			y: 6.0d
 		}
 		{
+			dependencies: ["630A813B0F4DA078"]
 			description: ["Throw an Ender Pearl into a Mana Pool and you'll get a Mana Pearl."]
+			hide_dependency_lines: true
 			id: "7E7F3081B25D024D"
 			tasks: [{
 				id: "53D9961BB6A1B2DA"
@@ -1376,10 +1378,13 @@
 			y: -2.5d
 		}
 		{
+			dependencies: ["630A813B0F4DA078"]
 			description: [
 				"You might have noticed you are getting low on resources."
 				""
 				"It is strongly recommended to build multiple EBFs (no rush though). It will boost your production and make you ready for later progression."
+				""
+				"Make sure they wall share, you can make a quad-ebf so that every ebf wallshares with 2 other ebfs."
 			]
 			id: "0410AC09EFAAB629"
 			rewards: [{
@@ -1394,15 +1399,17 @@
 				item: { Count: 4, id: "gtceu:electric_blast_furnace" }
 				type: "item"
 			}]
-			x: 12.5d
-			y: -3.0d
+			x: -3.0d
+			y: 1.5d
 		}
 		{
+			dependencies: ["630A813B0F4DA078"]
 			description: [
 				"In order to make Ender Pearls in the early stages, you can use Ender Lillys!"
 				""
 				"You'll need this spore to craft the Ender Seeds."
 			]
+			hide_dependency_lines: true
 			id: "519A2EEDD7D4E686"
 			optional: true
 			rewards: [{
@@ -1420,7 +1427,9 @@
 			y: 4.5d
 		}
 		{
+			dependencies: ["630A813B0F4DA078"]
 			description: ["Drop a diamond into a Mana Pool and you'll get a Mana Diamond."]
+			hide_dependency_lines: true
 			id: "681A9E7EB66C71D2"
 			tasks: [{
 				id: "1932BD14412BAA36"

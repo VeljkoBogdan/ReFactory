@@ -1433,6 +1433,70 @@
 			x: 1.5d
 			y: 13.5d
 		}
+		{
+			dependencies: ["01A0E9661BB0FDAB"]
+			description: [
+				"The Mana Pool holds &bmana&r. To generate mana, you can use various &agenerating flowers&r from Botania. "
+				""
+				"In the beginning, particularly good flowers are &9Hydroangeas&r or &6Endoflame&r"
+				""
+				"Endoflames are probably your go-to, they produce mana from burnable fuels that are dropped near it. You can drop items using an open crate."
+			]
+			icon: "botania:endoflame"
+			id: "04B546A6C1D2C247"
+			tasks: [
+				{
+					id: "08DEB1A5D2A1ABD4"
+					item: "botania:hydroangeas"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "1944BF95E0C6DA43"
+					item: "botania:endoflame"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "Generating Mana"
+			x: 3.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["01A0E9661BB0FDAB"]
+			description: [
+				"The &bmana spreader&r will collect mana from nearby generating flowers, and shoot it in the direction it is facing."
+				""
+				"You can use the &ewand of the forest&r to direct a spreader to the mana pool, and it will fill the mana pool."
+				""
+				"&bNote that the mana it shoots will deplete when traveling, so make sure it's as close to the mana pool as possible.&r"
+			]
+			icon: "botania:mana_spreader"
+			id: "753BCA51177DC85C"
+			tasks: [
+				{
+					id: "019998879FD08C7E"
+					item: "botania:mana_spreader"
+					type: "item"
+				}
+				{
+					id: "0E31A5973D660731"
+					item: {
+						Count: 1
+						id: "botania:twig_wand"
+						tag: {
+							color1: 0
+							color2: 0
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "Spreading Mana"
+			x: 4.5d
+			y: 5.0d
+		}
 	]
 	title: "LV Age"
 }
