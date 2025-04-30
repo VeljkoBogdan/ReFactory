@@ -469,6 +469,7 @@
 			y: -4.5d
 		}
 		{
+			dependencies: ["3F37E03149399E3F"]
 			id: "270411056AEC4BCD"
 			tasks: [{
 				id: "535E06B374F545AA"
@@ -488,6 +489,22 @@
 			}]
 			x: 1.5d
 			y: -1.5d
+		}
+		{
+			dependencies: ["3F37E03149399E3F"]
+			description: [
+				"Although it's called a creative botany pot, it is really not."
+				""
+				"It's just incredibly fast."
+			]
+			id: "31E534AC6E11C3F4"
+			tasks: [{
+				id: "4927C1EFA112C036"
+				item: "botanypotstiers:creative_terracotta_botany_pot"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
 		}
 	]
 	title: "IV Age"

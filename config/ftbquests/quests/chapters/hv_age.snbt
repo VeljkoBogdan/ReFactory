@@ -1760,6 +1760,18 @@
 			x: 23.5d
 			y: 0.0d
 		}
+		{
+			dependencies: ["59775F7F175FF086"]
+			description: ["You can now make elite botany pots, which are faster than regular ones."]
+			id: "60981E29CE15DB29"
+			tasks: [{
+				id: "1FE3F31128988D81"
+				item: "botanypotstiers:elite_terracotta_botany_pot"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 1.0d
+		}
 	]
 	title: "HV Age"
 }

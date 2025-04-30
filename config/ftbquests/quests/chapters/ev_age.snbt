@@ -525,6 +525,18 @@
 			x: 2.5d
 			y: -17.0d
 		}
+		{
+			dependencies: ["669F52806D1D39F6"]
+			description: ["An upgrade to the Elite Botany Pots. Significantly faster."]
+			id: "3B665763717D408B"
+			tasks: [{
+				id: "3D983CBBD33D9906"
+				item: "botanypotstiers:ultra_terracotta_botany_pot"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -11.0d
+		}
 	]
 	title: "EV Age"
 }
