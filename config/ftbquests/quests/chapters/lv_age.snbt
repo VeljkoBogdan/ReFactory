@@ -884,6 +884,7 @@
 			dependencies: ["0E1F6E844041CC9F"]
 			description: ["Holds insane amounts of one item."]
 			id: "5CE14FF227CC4A58"
+			optional: true
 			tasks: [{
 				id: "3FB6A1A4FB68E55E"
 				item: "gtceu:lv_super_chest"
@@ -1044,6 +1045,7 @@
 			dependencies: ["0E1F6E844041CC9F"]
 			description: ["This little guy holds energy for you and can charge your inventory equipment."]
 			id: "29598AD66C765FBA"
+			optional: true
 			tasks: [{
 				id: "09621B4CE4B7D315"
 				item: {
@@ -1221,6 +1223,7 @@
 				"You will need to output the water somehow (pump, conduit) because this machine doesn't export automatically."
 			]
 			id: "6F8BA04C054531D5"
+			optional: true
 			tasks: [{
 				id: "1916FC1736C81B3E"
 				item: "thermal:device_water_gen"
@@ -1237,6 +1240,7 @@
 				"There are higher tiers as you progress, made out of more advanced materials."
 			]
 			id: "46303F9FE371A8BA"
+			optional: true
 			tasks: [{
 				id: "178F4B931CE5BCF6"
 				item: "gtceu:steel_crate"
@@ -1313,6 +1317,7 @@
 				"Needs charge to work."
 			]
 			id: "496A59D3C7E8D87B"
+			optional: true
 			tasks: [{
 				id: "2CC93D390B46DA3D"
 				item: {
@@ -1514,6 +1519,23 @@
 			}]
 			x: 7.5d
 			y: -4.5d
+		}
+		{
+			dependencies: ["0E1F6E844041CC9F"]
+			description: [
+				"Place a seed and soil inside the botany pot, and it will grow the plant! When it is fully grown, you can right click to harvest it."
+				""
+				"If you convert it into a hopper botany pot (by combining it with a hopper in the crafting table) it will automatically harvest the plant when it is fully grown and output the items to the storage below itself."
+			]
+			id: "03B564444DFB6D48"
+			optional: true
+			tasks: [{
+				id: "33236785E24B4D29"
+				item: "botanypots:terracotta_botany_pot"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.5d
 		}
 	]
 	title: "LV Age"

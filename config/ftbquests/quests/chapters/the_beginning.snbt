@@ -200,6 +200,7 @@
 				title: "Temperature, Thirst and Body parts"
 				type: "checkmark"
 			}]
+			title: "Temperature and Thirst"
 			x: -1.5d
 			y: -1.5d
 		}
