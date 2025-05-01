@@ -1,3 +1,5 @@
+// Thanks to Ghostipedia for the code
+
 let UtilsJS = Java.loadClass("dev.latvian.mods.kubejs.util.UtilsJS")
 
 GTCEuStartupEvents.registry('gtceu:tag_prefix', e => {
@@ -33,4 +35,7 @@ GTCEuStartupEvents.registry('gtceu:tag_prefix', e => {
     createStoneTypeOre('ad_astra:venus_stone')
     createStoneTypeOre('ad_astra:mercury_stone')
     createStoneTypeOre('ad_astra:glacio_stone')
+    createStoneTypeOre('undergarden:depthrock')
+    createStoneTypeOre('undergarden:shiverstone')
+    // createStoneTypeOre('undergarden:sediment')
 })

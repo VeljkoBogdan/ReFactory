@@ -4,8 +4,9 @@
 - Questbook improvements
 - Fixed error during material registering
 - Gregification of various mods
+- Undergarden required for MV and Manasteel
 - Removed mods: Easy Villagers, Gregicality Rocketry, Applied Botanics Addon, Botanical Machinery, Cagerium, EMI Trades, MrCrayfish's Gun Mod, Time in a bottle, Silent Gear
-- Added mods: Sun and Moon Celestial configuration, [TaCZ] Timeless and Classics Zero + MaxStuff, Cold Sweat, Farmer's Delight, Creeper Overhaul, Tinker's Construct
+- Added mods: Sun and Moon Celestial configuration, [TaCZ] Timeless and Classics Zero + MaxStuff, Cold Sweat, Farmer's Delight, Creeper Overhaul, Tinker's Construct, Undergarden, Botany Trees
 
 # 0.2.0
 - Multiple new multiblocks: Crystal Puller, Large Mana Pool, Mana Generator, Greenhouse

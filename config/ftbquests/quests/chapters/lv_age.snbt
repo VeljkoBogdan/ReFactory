@@ -525,8 +525,8 @@
 				type: "item"
 			}]
 			title: "Your Second Circuit"
-			x: 3.0d
-			y: 12.0d
+			x: 6.0d
+			y: 14.0d
 		}
 		{
 			dependencies: [
@@ -541,7 +541,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: 10.0d
+			y: 12.0d
 		}
 		{
 			dependencies: ["1AD99F9620569AA4"]
@@ -570,7 +570,7 @@
 				type: "item"
 			}]
 			x: 10.0d
-			y: 12.0d
+			y: 14.0d
 		}
 		{
 			dependencies: ["74C94B5C7B866A34"]
@@ -582,8 +582,8 @@
 				item: "gtceu:phenolic_circuit_board"
 				type: "item"
 			}]
-			x: 8.0d
-			y: 10.0d
+			x: 8.5d
+			y: 12.0d
 		}
 		{
 			dependencies: ["1AD99F9620569AA4"]
@@ -672,8 +672,8 @@
 		}
 		{
 			dependencies: [
-				"318CA73CE4C3DC3D"
 				"5F717D5E9715ED7C"
+				"4806751104224E6A"
 			]
 			description: [
 				"Aluminium is an essential element and is a gateway to MV."
@@ -725,7 +725,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 12.0d
+			y: 16.0d
 		}
 		{
 			dependencies: ["62B56B57D291BF7B"]
@@ -740,7 +740,7 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: 12.0d
+			y: 16.0d
 		}
 		{
 			dependencies: [
@@ -763,7 +763,7 @@
 			}]
 			title: "Coils"
 			x: 0.0d
-			y: 10.0d
+			y: 14.0d
 		}
 		{
 			dependencies: ["318CA73CE4C3DC3D"]
@@ -842,8 +842,8 @@
 				item: "gtceu:lv_circuit_assembler"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 13.5d
+			x: 6.0d
+			y: 16.0d
 		}
 		{
 			dependencies: ["18BC6F844CF368EF"]
@@ -857,7 +857,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 13.5d
+			y: 17.5d
 		}
 		{
 			dependencies: ["35CB055A24346DE1"]
@@ -910,8 +910,8 @@
 				item: "gtceu:soldering_alloy_dust"
 				type: "item"
 			}]
-			x: 4.5d
-			y: 13.5d
+			x: 7.5d
+			y: 16.0d
 		}
 		{
 			dependencies: ["298F63E0659E0FD6"]
@@ -1087,7 +1087,7 @@
 				type: "item"
 			}]
 			x: 7.0d
-			y: 10.0d
+			y: 12.0d
 		}
 		{
 			dependencies: ["01E6A51033DA1518"]
@@ -1114,8 +1114,8 @@
 				item: "gtceu:mana_alloy_ingot"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 10.0d
+			x: 4.5d
+			y: 14.0d
 		}
 		{
 			dependencies: ["74C94B5C7B866A34"]
@@ -1131,8 +1131,8 @@
 				item: "botania:mana_pool"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 6.0d
+			x: 4.5d
+			y: 9.0d
 		}
 		{
 			dependencies: [
@@ -1159,8 +1159,8 @@
 				item: "botania:manasteel_ingot"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 6.0d
+			x: 4.5d
+			y: 12.0d
 		}
 		{
 			dependencies: ["74C94B5C7B866A34"]
@@ -1213,7 +1213,7 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: 12.0d
+			y: 16.0d
 		}
 		{
 			dependencies: ["0E1F6E844041CC9F"]
@@ -1426,7 +1426,7 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: 13.5d
+			y: 17.5d
 		}
 		{
 			dependencies: ["18BC6F844CF368EF"]
@@ -1437,7 +1437,7 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: 13.5d
+			y: 17.5d
 		}
 		{
 			dependencies: ["01A0E9661BB0FDAB"]
@@ -1465,11 +1465,14 @@
 				}
 			]
 			title: "Generating Mana"
-			x: 3.5d
-			y: 5.0d
+			x: 4.5d
+			y: 10.0d
 		}
 		{
-			dependencies: ["01A0E9661BB0FDAB"]
+			dependencies: [
+				"01A0E9661BB0FDAB"
+				"735D0BC709C67509"
+			]
 			description: [
 				"The &bmana spreader&r will collect mana from nearby generating flowers, and shoot it in the direction it is facing."
 				""
@@ -1501,7 +1504,7 @@
 			]
 			title: "Spreading Mana"
 			x: 4.5d
-			y: 5.0d
+			y: 11.0d
 		}
 		{
 			dependencies: ["4816A85DF7D24F0B"]
@@ -1536,6 +1539,55 @@
 			}]
 			x: -1.5d
 			y: -1.5d
+		}
+		{
+			dependencies: [
+				"45961AD543495B1D"
+				"74C94B5C7B866A34"
+			]
+			description: [
+				"This is the portal activator for The Undergarden."
+				""
+				"You will need to access the Undergarden to get Utherium. You'll need this material for mana spreaders and other LV and MV components."
+			]
+			id: "50A5F4983B628438"
+			tasks: [{
+				id: "615FB5C7CE7AB775"
+				item: "undergarden:catalyst"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["50A5F4983B628438"]
+			description: [
+				"Place Stone Bricks in the same way you would for a Nether Portal, then right click the Catalyzer on one of the bottom stone bricks and it will form a portal."
+				""
+				"Be careful in the Undergarden, there are many both hostile and passive mobs."
+			]
+			id: "518756FCEA4DA67E"
+			tasks: [{
+				dimension: "undergarden:undergarden"
+				icon: "undergarden:depthrock"
+				id: "57390DF2F29F6E52"
+				type: "dimension"
+			}]
+			title: "Visit The Undergarden"
+			x: 3.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["518756FCEA4DA67E"]
+			id: "735D0BC709C67509"
+			tasks: [{
+				count: 16L
+				id: "32D4192387915E77"
+				item: { Count: 16, id: "gtceu:raw_utherium" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 11.0d
 		}
 	]
 	title: "LV Age"

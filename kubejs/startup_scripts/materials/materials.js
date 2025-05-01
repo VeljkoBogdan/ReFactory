@@ -432,6 +432,24 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
         .color(0x625d66)
         .iconSet(GTMaterialIconSet.DULL)
 
+    // Undergarden
+
+    event.create('utherium')
+        .gem()
+        .ore()
+        .color(0xc3434c)
+        .iconSet(GTMaterialIconSet.CERTUS)
+        .flags(
+            GTMaterialFlags.GENERATE_PLATE,
+            GTMaterialFlags.GENERATE_BOLT_SCREW,
+            GTMaterialFlags.GENERATE_ROD,
+            GTMaterialFlags.GENERATE_SPRING,
+            GTMaterialFlags.GENERATE_SPRING_SMALL,
+            GTMaterialFlags.GENERATE_FOIL,
+            GTMaterialFlags.NO_SMELTING,
+            GTMaterialFlags.NO_ORE_SMELTING
+        )
+
     // Superconductors
 
     // cable properties (Voltage, Amperage, Loss/block, isSuperconductor)

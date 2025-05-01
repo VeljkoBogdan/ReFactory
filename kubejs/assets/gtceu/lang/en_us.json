@@ -1,6 +1,8 @@
 {
     "tagprefix.holystone": "Holystone %s Ore",
     "tagprefix.moon_stone": "Moon Stone %s Ore",
+    "tagprefix.depthrock": "Depthrock %s Ore",
+    "tagprefix.shiverstone": "Shiverstone %s Ore",
 
     "gtceu.proliferation_inducer": "§dProliferation",
     "gtceu.crystal_puller": "§bCrystal Pulling",
@@ -45,6 +47,7 @@
     "material.gtceu.fluix_crystal": "Fluix Crystal",
     "material.gtceu.livingrock": "Livingrock",
     "material.gtceu.seared_brick": "Seared Brick",
+    "material.gtceu.utherium": "Utherium",
 
     "material.gtceu.chlorophyte": "Chlorophyte",
     "material.gtceu.indole_3_acetic_acid": "Indole-3-Acetic Acid",
@@ -70,5 +73,6 @@
     "gtceu.jei.ore_vein.calorite": "Calorite Vein",
     "gtceu.jei.ore_vein.sheldonite_vein_moon": "Sheldonite Vein",
     "gtceu.jei.ore_vein.neodymium_vein_moon": "Neodymium Vein",
-    "gtceu.jei.ore_vein.desh_vein_moon": "Desh Vein"
+    "gtceu.jei.ore_vein.desh_vein_moon": "Desh Vein",
+    "gtceu.jei.ore_vein.utherium_vein": "Utherium Vein"
 }

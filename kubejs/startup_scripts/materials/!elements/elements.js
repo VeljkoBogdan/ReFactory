@@ -61,4 +61,5 @@ GTCEuStartupEvents.registry('gtceu:element', event => {
         .neutrons(328)
         .symbol('Ct')
         .isIsotope(false)
+
  })
