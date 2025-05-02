@@ -206,17 +206,19 @@ ServerEvents.recipes(event => {
 
     // Mana spreaders
     event.remove({id: 'botania:mana_spreader'})
-    event.recipes.gtceu.assembler('kubejs_mana_spreader')
-        .itemInputs(
-            '6x #botania:livingwood_logs',
-            'gtceu:lv_emitter',
-            'gtceu:glass_plate'
-        )
-        .itemOutputs(
-            'botania:mana_spreader'
-        )
-        .duration(20*10)
-        .EUt(GTValues.VA[GTValues.LV] / 2)
+    event.shaped(
+        'botania:mana_spreader',
+        [
+            'LLL',
+            'LEP',
+            'LLL'
+        ],
+        {
+            L: '#botania:livingwood_logs',
+            E: 'gtceu:lv_emitter',
+            P: 'gtceu:utherium_plate'
+        }
+    )
 
     event.remove({id: 'botania:redstone_spreader'})
     event.recipes.gtceu.assembler('kubejs_redstone_spreader')

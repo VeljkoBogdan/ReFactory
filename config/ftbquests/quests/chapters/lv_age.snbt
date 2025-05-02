@@ -1541,10 +1541,7 @@
 			y: -1.5d
 		}
 		{
-			dependencies: [
-				"45961AD543495B1D"
-				"74C94B5C7B866A34"
-			]
+			dependencies: ["45961AD543495B1D"]
 			description: [
 				"This is the portal activator for The Undergarden."
 				""
@@ -1557,7 +1554,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 8.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["50A5F4983B628438"]
@@ -1575,7 +1572,7 @@
 			}]
 			title: "Visit The Undergarden"
 			x: 3.0d
-			y: 9.5d
+			y: 9.0d
 		}
 		{
 			dependencies: ["518756FCEA4DA67E"]

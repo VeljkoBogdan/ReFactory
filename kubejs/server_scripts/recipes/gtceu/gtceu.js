@@ -414,7 +414,24 @@ ServerEvents.recipes(event => {
         .duration(20*25)
         .EUt(GTValues.VA[GTValues.EV])
 
-    })
+    // Replacing steel for utherium plate in MV shaped recipe
+    event.replaceInput({output: 'gtceu:good_electronic_circuit'}, 'gtceu:steel_plate', 'gtceu:utherium_plate')
+
+    // MV Machine Hull
+    event.replaceInput({output: 'gtceu:mv_machine_hull'}, 'gtceu:aluminium_plate', 'gtceu:utherium_plate')    
+    
+    // MV Piston
+    event.replaceInput({output: 'gtceu:mv_electric_piston'}, 'gtceu:aluminium_rod', 'gtceu:utherium_rod')
+
+    // MV Arm
+    event.replaceInput({output: 'gtceu:mv_robot_arm'}, 'gtceu:aluminium_rod', 'gtceu:utherium_rod')
+
+    // MV Emitter
+    event.replaceInput({output: 'gtceu:mv_emitter'}, 'gtceu:flawless_emerald_gem', 'gtceu:flawless_utherium_gem')
+
+    // MV Sensor
+    event.replaceInput({output: 'gtceu:mv_sensor'}, 'gtceu:flawless_emerald_gem', 'gtceu:flawless_utherium_gem')
+})
     
 // Remove vanilla tools
 const tools = ["shovel", "pickaxe", "axe", "hoe", "sword"]
