@@ -740,7 +740,7 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: 16.0d
+			y: 17.5d
 		}
 		{
 			dependencies: [
@@ -846,7 +846,10 @@
 			y: 16.0d
 		}
 		{
-			dependencies: ["18BC6F844CF368EF"]
+			dependencies: [
+				"18BC6F844CF368EF"
+				"735D0BC709C67509"
+			]
 			description: ["The base of all MV machines"]
 			id: "498EF8FFD105D589"
 			shape: "gear"
@@ -856,8 +859,8 @@
 				item: "gtceu:mv_machine_hull"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 17.5d
+			x: 3.0d
+			y: 16.0d
 		}
 		{
 			dependencies: ["35CB055A24346DE1"]
@@ -1436,7 +1439,7 @@
 				item: "buildinggadgets2:gadget_building"
 				type: "item"
 			}]
-			x: 1.5d
+			x: 0.0d
 			y: 17.5d
 		}
 		{
