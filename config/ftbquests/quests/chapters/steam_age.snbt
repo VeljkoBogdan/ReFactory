@@ -178,7 +178,9 @@
 			description: [
 				"A very important multiblock, able to make steel from iron and coke."
 				""
-				"I very much recommend making multiple PBFs, especially because the recipe has been made cheaper, with double the amount of Fireclay Dust per craft. Steel takes a while."
+				"I very much recommend making multiple PBFs, especially because the recipe has been made cheaper, with double the amount of Fireclay Dust per craft. "
+				""
+				"&aSteel takes a while.&r"
 				""
 				"&eThey can also wall-share!&r"
 				""
@@ -380,7 +382,11 @@
 		}
 		{
 			dependencies: ["09ECD67B4648D2EA"]
-			description: ["A market is very useful to get seeds and grow better and more sustainable food."]
+			description: [
+				"A market is very useful to get seeds and grow better and more sustainable food."
+				""
+				"You'll also need it to get sugar canes, which are required for paper."
+			]
 			id: "31A0620289688EFB"
 			rewards: [{
 				count: 8
@@ -510,7 +516,11 @@
 		}
 		{
 			dependencies: ["189B920AAB6456B4"]
-			description: ["To get certain resources (e.g. Sulfur and Nether Quartz), you're going to need to visit the Nether."]
+			description: [
+				"To get certain resources (e.g. Sulfur and Nether Quartz), you're going to need to visit the Nether."
+				""
+				"If you can't mine obsidian yet, you can make the portal using water and lava buckets."
+			]
 			hide_dependency_lines: false
 			id: "370BF17C5F4076DD"
 			tasks: [{
@@ -751,6 +761,7 @@
 			]
 			description: ["The brain of the smeltery"]
 			id: "243F5B59E6E5EE5A"
+			optional: true
 			tasks: [{
 				id: "4F58E7C13EC120D3"
 				item: "tconstruct:smeltery_controller"
