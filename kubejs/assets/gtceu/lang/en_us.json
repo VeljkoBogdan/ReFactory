@@ -3,6 +3,10 @@
     "tagprefix.moon_stone": "Moon Stone %s Ore",
     "tagprefix.depthrock": "Depthrock %s Ore",
     "tagprefix.shiverstone": "Shiverstone %s Ore",
+    "tagprefix.mars_stone": "Mars Stone %s Ore",
+    "tagprefix.venus_stone": "Venus Stone %s Ore",
+    "tagprefix.mercury_stone": "Mercury Stone %s Ore",
+    "tagprefix.glacio_stone": "Glacio Stone %s Ore",
 
     "gtceu.proliferation_inducer": "§dProliferation",
     "gtceu.crystal_puller": "§bCrystal Pulling",
