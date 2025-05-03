@@ -68,4 +68,28 @@ ServerEvents.recipes(event => {
 		.itemOutputs('minecraft:hopper')
 		.duration(20*40)
 		.EUt(2)
+
+    // Bed gregification
+    const bedColors = [
+        'white', 'light_gray', 'gray', 'black', 'brown', 'red', 'orange', 'yellow',
+        'lime', 'green', 'cyan', 'light_blue', 'blue', 'purple', 'magenta', 'pink'
+    ];
+    
+    for (const color of bedColors) {
+        event.remove({id: `minecraft:${color}_bed`})
+        event.shaped(
+            `minecraft:${color}_bed`, 
+        [
+            'WWW',
+            'PPP',
+            'FHF'
+        ], 
+        {
+            W: `minecraft:${color}_wool`,
+            P: '#minecraft:planks',
+            F: '#minecraft:fences',
+            H: '#forge:tools/hammers'
+        });
+    }
+          
 })
