@@ -431,6 +431,33 @@ ServerEvents.recipes(event => {
 
     // MV Sensor
     event.replaceInput({output: 'gtceu:mv_sensor'}, 'gtceu:flawless_emerald_gem', 'gtceu:flawless_utherium_gem')
+
+    // MV casings with manasteel
+    event.remove({output: 'gtceu:mv_machine_casing'})
+    event.shaped(
+        'gtceu:mv_machine_casing',
+        [
+            'AMA',
+            'MWM',
+            'AMA'
+        ],
+        {
+            A: 'gtceu:aluminium_plate',
+            M: 'gtceu:manasteel_plate',
+            W: '#forge:tools/wrenches'
+        }
+    )
+    event.recipes.gtceu.assembler('kubejs:mv_machine_casing')
+        .circuit(8)
+        .itemInputs(
+            '4x gtceu:aluminium_plate',
+            '4x gtceu:manasteel_plate'
+        )
+        .itemOutputs(
+            'gtceu:mv_machine_casing'
+        )
+        .duration(20*2.5)
+        .EUt(GTValues.VA[GTValues.LV] / 2)
 })
     
 // Remove vanilla tools

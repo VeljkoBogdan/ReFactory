@@ -526,7 +526,7 @@
 			}]
 			title: "Your Second Circuit"
 			x: 6.0d
-			y: 14.0d
+			y: 14.5d
 		}
 		{
 			dependencies: [
@@ -541,7 +541,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: 12.0d
+			y: 11.5d
 		}
 		{
 			dependencies: ["1AD99F9620569AA4"]
@@ -570,7 +570,7 @@
 				type: "item"
 			}]
 			x: 10.0d
-			y: 14.0d
+			y: 14.5d
 		}
 		{
 			dependencies: ["74C94B5C7B866A34"]
@@ -582,8 +582,8 @@
 				item: "gtceu:phenolic_circuit_board"
 				type: "item"
 			}]
-			x: 8.5d
-			y: 12.0d
+			x: 8.0d
+			y: 11.5d
 		}
 		{
 			dependencies: ["1AD99F9620569AA4"]
@@ -739,8 +739,8 @@
 				item: "gtceu:aluminium_dust"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 17.5d
+			x: -1.5d
+			y: 14.5d
 		}
 		{
 			dependencies: [
@@ -763,7 +763,7 @@
 			}]
 			title: "Coils"
 			x: 0.0d
-			y: 14.0d
+			y: 14.5d
 		}
 		{
 			dependencies: ["318CA73CE4C3DC3D"]
@@ -849,6 +849,7 @@
 			dependencies: [
 				"18BC6F844CF368EF"
 				"735D0BC709C67509"
+				"2D7A83E987DF8527"
 			]
 			description: ["The base of all MV machines"]
 			id: "498EF8FFD105D589"
@@ -1090,7 +1091,7 @@
 				type: "item"
 			}]
 			x: 7.0d
-			y: 12.0d
+			y: 11.5d
 		}
 		{
 			dependencies: ["01E6A51033DA1518"]
@@ -1118,17 +1119,18 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: 14.0d
+			y: 14.5d
 		}
 		{
 			dependencies: ["74C94B5C7B866A34"]
 			description: [
 				"Welcome to tier 2 of Botania."
 				""
-				"This will open up crafting with mana, check out the recipes it has, something might be of use to you."
+				"This will make Manasteel crafting available to you, which is the important material to crafting Mana Alloy, MV Machine casings and many more."
 			]
 			disable_toast: true
 			id: "01A0E9661BB0FDAB"
+			shape: "gear"
 			tasks: [{
 				id: "2F71AD033A6074AD"
 				item: "botania:mana_pool"
@@ -1155,15 +1157,21 @@
 		}
 		{
 			dependencies: ["01A0E9661BB0FDAB"]
-			description: ["Manasteel is the first metal you'll get in Botania."]
+			description: [
+				"Manasteel is the first metal you'll get in Botania. It is required for many resources in MV, including casings, wires and circuits."
+				""
+				"You can automate the production using open crates for now."
+			]
 			id: "55D76A052A9EE6A0"
+			shape: "gear"
+			size: 1.5d
 			tasks: [{
 				id: "40E8B07C3856E4DB"
 				item: "botania:manasteel_ingot"
 				type: "item"
 			}]
 			x: 4.5d
-			y: 12.0d
+			y: 12.75d
 		}
 		{
 			dependencies: ["74C94B5C7B866A34"]
@@ -1588,6 +1596,17 @@
 			}]
 			x: 3.0d
 			y: 11.0d
+		}
+		{
+			dependencies: ["55D76A052A9EE6A0"]
+			id: "2D7A83E987DF8527"
+			tasks: [{
+				id: "4A5BE1C0B7DBF801"
+				item: "gtceu:mv_machine_casing"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 16.0d
 		}
 	]
 	title: "LV Age"

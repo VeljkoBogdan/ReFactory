@@ -330,7 +330,7 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["630A813B0F4DA078"]
+			dependencies: ["1B3FDC526DA1F37A"]
 			id: "0F53A979A0A20B60"
 			size: 1.5d
 			tasks: [{
@@ -338,7 +338,7 @@
 				item: "gtceu:mv_emitter"
 				type: "item"
 			}]
-			x: -4.5d
+			x: -6.0d
 			y: 7.5d
 		}
 		{
@@ -645,7 +645,7 @@
 				type: "item"
 			}]
 			x: -7.5d
-			y: 1.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["185B32DF4B476A19"]
@@ -739,11 +739,11 @@
 				item: "gtceu:mv_miner"
 				type: "item"
 			}]
-			x: -7.5d
-			y: 0.0d
+			x: -9.0d
+			y: 1.5d
 		}
 		{
-			dependencies: ["630A813B0F4DA078"]
+			dependencies: ["1B3FDC526DA1F37A"]
 			description: ["You're going to hate this 2... wait, wrong modpack"]
 			id: "12D3FF7ABD35CD49"
 			size: 1.0d
@@ -752,8 +752,8 @@
 				item: "gtceu:mv_sensor"
 				type: "item"
 			}]
-			x: -6.0d
-			y: 0.0d
+			x: -7.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["08EE54E6C1C766CF"]
@@ -811,7 +811,7 @@
 				type: "item"
 			}]
 			x: -6.0d
-			y: 1.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["4F74168E48A8348E"]
@@ -1471,6 +1471,22 @@
 			}]
 			x: -6.0d
 			y: -3.0d
+		}
+		{
+			dependencies: ["630A813B0F4DA078"]
+			description: [
+				"Sift some Utherium ore to get flawless Utherium gems."
+				""
+				"This will be the primary ingredient for MV Emitters and Sensors"
+			]
+			id: "1B3FDC526DA1F37A"
+			tasks: [{
+				id: "0F9701C6E8DCF94D"
+				item: "gtceu:flawless_utherium_gem"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 1.5d
 		}
 	]
 	title: "MV Age"
