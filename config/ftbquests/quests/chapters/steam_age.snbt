@@ -9,21 +9,42 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["364AD55044CC7EBE"]
+			dependencies: ["117FF9A621276749"]
 			description: [
 				"A primitive pump makes getting more water into the steam boilers a lot easier."
 				""
-				"Unlike the Aqueous Accumulator, it does export water."
+				"It is recommended to make this so your boilers don't explode."
+				""
+				"Provides 1 water bucket per second."
 			]
 			id: "3FCDBCB2152DE3FB"
 			optional: true
 			size: 1.0d
-			tasks: [{
-				id: "181EE1896DB52E1C"
-				item: "gtceu:primitive_pump"
-				type: "item"
-			}]
-			x: 0.5d
+			tasks: [
+				{
+					id: "181EE1896DB52E1C"
+					item: "gtceu:primitive_pump"
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "4379BC690E407254"
+					item: { Count: 10, id: "gtceu:pump_deck" }
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "61F89E1F22264A69"
+					item: { Count: 10, id: "gtceu:treated_wood_frame" }
+					type: "item"
+				}
+				{
+					id: "09BF2C5B808AE087"
+					item: "gtceu:pump_hatch"
+					type: "item"
+				}
+			]
+			x: -0.5d
 			y: -4.0d
 		}
 		{
@@ -44,6 +65,7 @@
 				type: "item"
 			}]
 			shape: "gear"
+			size: 1.5d
 			tasks: [
 				{
 					id: "7BF316FE70843AF7"
@@ -80,7 +102,10 @@
 			y: -2.5d
 		}
 		{
-			dependencies: ["30A1CCB30F870404"]
+			dependencies: [
+				"30A1CCB30F870404"
+				"5FC306AB0CF12117"
+			]
 			description: ["A forge hammer is used to turn ingots into plates at a 3:2 ratio, which is much better than making them by hand."]
 			id: "2F7F7A99342C19A6"
 			tasks: [{
@@ -111,6 +136,7 @@
 			]
 			description: ["The core of all your steam machines"]
 			id: "30A1CCB30F870404"
+			size: 1.5d
 			subtitle: "Finally, machinery (kind of)"
 			tasks: [{
 				id: "636DE7A331407FB3"
@@ -188,6 +214,7 @@
 			]
 			id: "102E0DFFBDE7BD84"
 			shape: "gear"
+			size: 1.5d
 			tasks: [
 				{
 					count: 33L
@@ -310,6 +337,7 @@
 			]
 			description: ["Now that you have rubber, you're ready to make cables! "]
 			id: "09ECD67B4648D2EA"
+			size: 1.5d
 			tasks: [{
 				id: "1ECBD4DC55C2A0EE"
 				item: "gtceu:rubber_ingot"
@@ -576,7 +604,7 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["364AD55044CC7EBE"]
+			dependencies: ["117FF9A621276749"]
 			description: [
 				"Sometimes you need to store a lot of fluid (very useful for buffering steam)."
 				""
@@ -607,7 +635,7 @@
 				}
 			]
 			title: "Primitive Tank"
-			x: 1.5d
+			x: 2.5d
 			y: -4.0d
 		}
 		{
@@ -796,8 +824,6 @@
 				"You can use it as fuel in a furnace, compression dynamo, or steam boiler."
 				""
 				"You can also treat wood with it."
-				""
-				"If you do want to void it, you can do so by removing the bottom center block of the Coke Oven."
 			]
 			icon: "gtceu:creosote_bucket"
 			id: "117FF9A621276749"
@@ -806,8 +832,8 @@
 				title: "Too Much Creosote..."
 				type: "checkmark"
 			}]
-			x: 4.0d
-			y: -2.5d
+			x: 1.0d
+			y: -4.0d
 		}
 	]
 	title: "Steam Age"

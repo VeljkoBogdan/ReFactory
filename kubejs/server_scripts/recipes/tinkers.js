@@ -4,22 +4,23 @@ ServerEvents.recipes(event => {
             'tconstruct:seared_bricks',
         )
         .itemOutputs('gtceu:seared_brick_dust')
-        .duration(20*4)
+        .duration(20*2.5)
         .EUt(GTValues.VA[GTValues.ULV])
     event.recipes.gtceu.forge_hammer('kubejs_seared_brick_dust_forge_hammer')
         .itemInputs(
             'tconstruct:seared_bricks',
         )
         .itemOutputs('gtceu:seared_brick_dust')
-        .duration(20*4)
+        .duration(20*2.5)
         .EUt(GTValues.VA[GTValues.ULV])
-    event.shapeless(
-        'gtceu:seared_brick_dust',
-        [
-            'tconstruct:seared_bricks',
-            '#forge:tools/mortars'
-        ]
-    )
+    // Removed to make the macerator or forge hammer required to make
+    // event.shapeless(
+    //     'gtceu:seared_brick_dust',
+    //     [
+    //         'tconstruct:seared_bricks',
+    //         '#forge:tools/mortars'
+    //     ]
+    // )
 
     event.remove({input: 'tconstruct:grout', output: 'tconstruct:seared_brick'})
     event.shaped(
