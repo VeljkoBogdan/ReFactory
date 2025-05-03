@@ -176,6 +176,24 @@
 			x: -1.5d
 			y: 1.5d
 		}
+		{
+			description: [
+				"This chapter is not finished."
+				""
+				"It might be very inaccurate, have missing or unfinished descriptions or illogical questlines."
+			]
+			icon: "botania:cosmetic_questgiver_mark"
+			id: "2DE3494DA74501FD"
+			shape: "square"
+			size: 1.5d
+			tasks: [{
+				id: "08AB44A6FB71D473"
+				title: "TODO"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: -2.5d
+		}
 	]
 	title: "UV Age"
 }

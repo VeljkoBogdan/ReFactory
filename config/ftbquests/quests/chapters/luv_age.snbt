@@ -531,6 +531,24 @@
 			x: 1.5d
 			y: -7.0d
 		}
+		{
+			description: [
+				"This chapter is not finished."
+				""
+				"It might be very inaccurate, have missing or unfinished descriptions or illogical questlines."
+			]
+			icon: "botania:cosmetic_questgiver_mark"
+			id: "1898771A5537D679"
+			shape: "square"
+			size: 1.5d
+			tasks: [{
+				id: "4312508C7099FD98"
+				title: "TODO"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: -8.0d
+		}
 	]
 	title: "LuV Age"
 }

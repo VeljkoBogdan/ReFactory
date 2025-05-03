@@ -506,6 +506,24 @@
 			x: 1.5d
 			y: 1.5d
 		}
+		{
+			description: [
+				"This chapter is not finished."
+				""
+				"It might be very inaccurate, have missing or unfinished descriptions or illogical questlines."
+			]
+			icon: "botania:cosmetic_questgiver_mark"
+			id: "258E2CB3552C2B3F"
+			shape: "square"
+			size: 1.5d
+			tasks: [{
+				id: "1B5B2D7A8592D5C6"
+				title: "TODO"
+				type: "checkmark"
+			}]
+			x: -9.0d
+			y: -10.0d
+		}
 	]
 	title: "IV Age"
 }

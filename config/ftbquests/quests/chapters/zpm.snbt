@@ -372,6 +372,24 @@
 			x: -3.0d
 			y: 4.5d
 		}
+		{
+			description: [
+				"This chapter is not finished."
+				""
+				"It might be very inaccurate, have missing or unfinished descriptions or illogical questlines."
+			]
+			icon: "botania:cosmetic_questgiver_mark"
+			id: "59BFFDD4B92DD950"
+			shape: "square"
+			size: 1.5d
+			tasks: [{
+				id: "287F811DB76DA9D9"
+				title: "TODO"
+				type: "checkmark"
+			}]
+			x: -5.5d
+			y: -4.5d
+		}
 	]
 	title: "ZPM Age"
 }

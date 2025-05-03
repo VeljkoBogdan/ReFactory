@@ -7,18 +7,38 @@
 	id: "5067D127F87CB27B"
 	order_index: 12
 	quest_links: [ ]
-	quests: [{
-		dependencies: ["008881C6B4F568F3"]
-		icon: "gtceu:wetware_processor_mainframe"
-		id: "65B0E98F7AF62971"
-		shape: "square"
-		tasks: [{
-			id: "59FDC6605BCF04A1"
-			type: "checkmark"
-		}]
-		title: "UHV Age"
-		x: 0.0d
-		y: 0.0d
-	}]
+	quests: [
+		{
+			dependencies: ["008881C6B4F568F3"]
+			icon: "gtceu:wetware_processor_mainframe"
+			id: "65B0E98F7AF62971"
+			shape: "square"
+			tasks: [{
+				id: "59FDC6605BCF04A1"
+				type: "checkmark"
+			}]
+			title: "UHV Age"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"This chapter is not finished."
+				""
+				"It might be very inaccurate, have missing or unfinished descriptions or illogical questlines."
+			]
+			icon: "botania:cosmetic_questgiver_mark"
+			id: "0EB9F2C7F5BE04EC"
+			shape: "square"
+			size: 1.5d
+			tasks: [{
+				id: "07289FE6C6A67581"
+				title: "TODO"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: -2.0d
+		}
+	]
 	title: "UHV Age"
 }

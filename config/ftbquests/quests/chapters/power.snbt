@@ -583,6 +583,24 @@
 			x: 6.0d
 			y: 4.0d
 		}
+		{
+			description: [
+				"This chapter is not finished."
+				""
+				"It might be very inaccurate, have missing or unfinished descriptions or illogical questlines."
+			]
+			icon: "botania:cosmetic_questgiver_mark"
+			id: "4EC2064128E5B2B2"
+			shape: "square"
+			size: 1.5d
+			tasks: [{
+				id: "551AD9477BCF3CF6"
+				title: "TODO"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: -2.0d
+		}
 	]
 	title: "Power"
 }

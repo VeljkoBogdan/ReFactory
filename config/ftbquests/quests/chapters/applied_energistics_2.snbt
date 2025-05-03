@@ -343,6 +343,24 @@
 			x: 3.5d
 			y: 2.5d
 		}
+		{
+			description: [
+				"This chapter is not finished."
+				""
+				"It might be very inaccurate, have missing or unfinished descriptions or illogical questlines."
+			]
+			icon: "botania:cosmetic_questgiver_mark"
+			id: "3056169833B1CECE"
+			shape: "square"
+			size: 1.5d
+			tasks: [{
+				id: "60909F53A245BC64"
+				title: "TODO"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -5.0d
+		}
 	]
 	title: "Applied Energistics 2"
 }

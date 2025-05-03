@@ -180,6 +180,24 @@
 			x: 4.5d
 			y: 0.0d
 		}
+		{
+			description: [
+				"This chapter is not finished."
+				""
+				"It might be very inaccurate, have missing or unfinished descriptions or illogical questlines."
+			]
+			icon: "botania:cosmetic_questgiver_mark"
+			id: "7B9C2E80598C0A9E"
+			shape: "square"
+			size: 1.5d
+			tasks: [{
+				id: "7954CBEC4FA551E6"
+				title: "TODO"
+				type: "checkmark"
+			}]
+			x: -2.25d
+			y: -5.25d
+		}
 	]
 	title: "Storage"
 }

@@ -537,6 +537,24 @@
 			x: 10.5d
 			y: -11.0d
 		}
+		{
+			description: [
+				"This chapter is not finished."
+				""
+				"It might be very inaccurate, have missing or unfinished descriptions or illogical questlines."
+			]
+			icon: "botania:cosmetic_questgiver_mark"
+			id: "67BE94D1491BD3F4"
+			shape: "square"
+			size: 1.5d
+			tasks: [{
+				id: "6AB364FECABDA4F4"
+				title: "TODO"
+				type: "checkmark"
+			}]
+			x: 6.5d
+			y: -15.0d
+		}
 	]
 	title: "EV Age"
 }
