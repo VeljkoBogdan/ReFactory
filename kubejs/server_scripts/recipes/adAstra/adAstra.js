@@ -130,6 +130,7 @@ ServerEvents.recipes(event => {
     event.remove({ output: 'ad_astra:calorite_ingot' })
     event.remove({ id: 'ad_astra:calorite_nugget' })
     event.remove({ id: 'ad_astra:calorite_block' })
+    event.remove({ id: 'ad_astra:steel_rod' })
 
     event.replaceInput({}, 'ad_astra:desh_plate', 'gtceu:desh_plate')
     event.replaceInput({}, 'ad_astra:desh_ingot', 'gtceu:desh_ingot')
