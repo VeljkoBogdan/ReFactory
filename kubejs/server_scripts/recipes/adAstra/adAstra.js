@@ -131,6 +131,7 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'ad_astra:calorite_nugget' })
     event.remove({ id: 'ad_astra:calorite_block' })
     event.remove({ id: 'ad_astra:steel_rod' })
+    event.remove({ id: 'ad_astra:steel_block'})
 
     event.replaceInput({}, 'ad_astra:desh_plate', 'gtceu:desh_plate')
     event.replaceInput({}, 'ad_astra:desh_ingot', 'gtceu:desh_ingot')
@@ -138,6 +139,7 @@ ServerEvents.recipes(event => {
     event.replaceInput({}, 'ad_astra:ostrum_ingot', 'gtceu:ostrum_ingot')
     event.replaceInput({}, 'ad_astra:calorite_plate', 'gtceu:calorite_plate')
     event.replaceInput({}, 'ad_astra:calorite_ingot', 'gtceu:calorite_ingot')
+    event.replaceInput({}, '#ad_astra:steel_plates', '#forge:plates/steel')
 
     
     // TIER 1
