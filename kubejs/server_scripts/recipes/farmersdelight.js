@@ -80,4 +80,54 @@ ServerEvents.recipes(event => {
             P: 'gtceu:wood_plate'
         }
     )
+
+    // Dead Logs and Rubber Logs on the chopping board
+    event.custom({
+        type: 'farmersdelight:cutting',
+        ingredients: [
+            { item: 'biomesoplenty:dead_log' }
+        ],
+        tool: { tag: 'minecraft:axes' },
+        result: [
+            { item: 'biomesoplenty:stripped_dead_log', count: 1 },
+            { item: 'farmersdelight:tree_bark', count: 1 }
+
+        ]
+    })
+    event.custom({
+        type: 'farmersdelight:cutting',
+        ingredients: [
+            { item: 'biomesoplenty:dead_wood' }
+        ],
+        tool: { tag: 'minecraft:axes' },
+        result: [
+            { item: 'biomesoplenty:stripped_dead_wood', count: 1 },
+            { item: 'farmersdelight:tree_bark', count: 1 }
+
+        ]
+    })
+    event.custom({
+        type: 'farmersdelight:cutting',
+        ingredients: [
+            { item: 'gtceu:rubber_log' }
+        ],
+        tool: { tag: 'minecraft:axes' },
+        result: [
+            { item: 'gtceu:stripped_rubber_log', count: 1 },
+            { item: 'farmersdelight:tree_bark', count: 1 }
+
+        ]
+    })
+    event.custom({
+        type: 'farmersdelight:cutting',
+        ingredients: [
+            { item: 'gtceu:rubber_wood' }
+        ],
+        tool: { tag: 'minecraft:axes' },
+        result: [
+            { item: 'gtceu:stripped_rubber_wood', count: 1 },
+            { item: 'farmersdelight:tree_bark', count: 1 }
+
+        ]
+    })
 })
