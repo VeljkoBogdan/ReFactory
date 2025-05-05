@@ -41,5 +41,5 @@ ServerEvents.recipes(event => {
         'kubejs:unfired_seared_brick'
     )
         
-
+    event.remove({ id: 'tconstruct:common/materials/steel_block_from_ingots'})
 })
