@@ -27,7 +27,7 @@ There are plenty of recipe changes, but fear not, the questbook will guide you t
 Currently features content to and including HV 
 </h3>
 <h4 align="center">
-Current latest version: <b>0.2.0</b> 
+Current latest version: <b>0.2.1</b> 
 </h4>
 
 ---
