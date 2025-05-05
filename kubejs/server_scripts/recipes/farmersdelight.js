@@ -127,7 +127,6 @@ ServerEvents.recipes(event => {
         result: [
             { item: 'gtceu:stripped_rubber_wood', count: 1 },
             { item: 'farmersdelight:tree_bark', count: 1 }
-
         ]
     })
 })
