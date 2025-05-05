@@ -545,8 +545,12 @@ ServerEvents.recipes(event => {
 
     // Dirt from Dried Salt
     event.recipes.botania.petal_apothecary(
-        '3x minecraft:dirt', 
+        '8x minecraft:dirt', 
         [
+            'biomesoplenty:dried_salt',
+            'biomesoplenty:dried_salt',
+            'biomesoplenty:dried_salt',
+            'biomesoplenty:dried_salt',
             'biomesoplenty:dried_salt',
             'biomesoplenty:dried_salt',
             'biomesoplenty:dried_salt',
@@ -557,8 +561,12 @@ ServerEvents.recipes(event => {
 
     // Clay from dirt
     event.recipes.botania.petal_apothecary(
-        '3x minecraft:clay_ball',
+        '8x minecraft:clay_ball',
         [
+            'minecraft:dirt',
+            'minecraft:dirt',
+            'minecraft:dirt',
+            'minecraft:dirt',
             'minecraft:dirt',
             'minecraft:dirt',
             'minecraft:dirt',
