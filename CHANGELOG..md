@@ -1,3 +1,8 @@
+# 0.2.2
+- Clay and dirt yield from apothecary increased
+- Removed problematic recipes
+- Dead and Rubber logs and wood are now choppable on the chopping board
+
 # 0.2.1
 - New world generation
 - Reworked pre-steam age
