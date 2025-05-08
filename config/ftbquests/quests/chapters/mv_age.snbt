@@ -54,6 +54,7 @@
 		{
 			dependencies: ["4F74168E48A8348E"]
 			id: "41D7CFAE222CAE64"
+			shape: "gear"
 			size: 1.5d
 			tasks: [{
 				id: "5651DA51C150E465"
@@ -96,6 +97,7 @@
 				"It is incredibly useful (and efficient!)"
 			]
 			id: "40949CE64C6F886A"
+			shape: "hexagon"
 			size: 1.0d
 			tasks: [{
 				id: "1EC4569A0911D349"
@@ -733,6 +735,7 @@
 				"&eRemember to chunk load them!&r"
 			]
 			id: "2A693A123793F7E8"
+			shape: "hexagon"
 			size: 1.0d
 			tasks: [{
 				id: "1306B2572A639129"
@@ -804,6 +807,7 @@
 				"Also grants byproducts that can be useful later."
 			]
 			id: "49322CC369C75E67"
+			shape: "hexagon"
 			size: 1.0d
 			tasks: [{
 				id: "4C686EAE4EE51341"
@@ -901,6 +905,7 @@
 				"2. Making it by distilling and cracking Oil."
 			]
 			id: "6AAE3CEF45ADDFEB"
+			shape: "gear"
 			size: 1.0d
 			tasks: [{
 				id: "4C1AB74E49F75C0B"
@@ -1263,6 +1268,7 @@
 		{
 			description: ["These runes are going to be a bit of a grind... but I trust in you!"]
 			id: "3EABF54D848B7C03"
+			shape: "gear"
 			tasks: [
 				{
 					id: "18811CEF1A89705E"
@@ -1393,6 +1399,7 @@
 				table_id: 685747861540631198L
 				type: "loot"
 			}]
+			shape: "hexagon"
 			tasks: [{
 				count: 4L
 				id: "329CFB7B2E81AC83"

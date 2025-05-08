@@ -19,51 +19,6 @@
 			y: -3.5d
 		}
 		{
-			dependencies: ["2F1D18213F81EA19"]
-			id: "2404AE6E4C456D91"
-			tasks: [{
-				id: "036A5E9C7985733D"
-				item: "storagedrawers:oak_full_drawers_1"
-				type: "item"
-			}]
-			title: "Drawers"
-			x: 0.0d
-			y: -1.5d
-		}
-		{
-			dependencies: ["2404AE6E4C456D91"]
-			id: "60A9009AC25302EB"
-			tasks: [{
-				id: "69B3DA91B07BCC52"
-				item: "storagedrawers:compacting_drawers_3"
-				type: "item"
-			}]
-			x: 1.5d
-			y: -1.5d
-		}
-		{
-			dependencies: ["2404AE6E4C456D91"]
-			id: "09E8FC5979ED74E5"
-			tasks: [{
-				id: "68311700BA4167B7"
-				item: "storagedrawers:controller"
-				type: "item"
-			}]
-			x: 1.5d
-			y: 0.0d
-		}
-		{
-			dependencies: ["2404AE6E4C456D91"]
-			id: "71BC91775A091E91"
-			tasks: [{
-				id: "0AF8ECF5B63F3567"
-				item: "storagedrawers:upgrade_template"
-				type: "item"
-			}]
-			x: 0.0d
-			y: 0.0d
-		}
-		{
 			id: "0661223152CAAE33"
 			tasks: [{
 				id: "654DAEE0283271C0"
@@ -110,42 +65,25 @@
 		}
 		{
 			dependencies: ["2F1D18213F81EA19"]
-			description: ["Very good storage option for the early game."]
+			description: [
+				"Very good storage option for the early game."
+				""
+				"Has multiple upgrades."
+			]
 			hide_dependency_lines: true
 			icon: "ironchest:iron_chest"
 			id: "70385A410D4727A1"
-			tasks: [
-				{
-					id: "429E4676F4A5BF88"
-					item: "ironchest:copper_chest"
-					type: "item"
-				}
-				{
-					id: "1C733D51CAA32855"
-					item: "ironchest:gold_chest"
-					type: "item"
-				}
-				{
-					id: "45EDE30CA59855F3"
-					item: "ironchest:diamond_chest"
-					type: "item"
-				}
-				{
-					id: "38510F199861E7AB"
-					item: "ironchest:iron_chest"
-					type: "item"
-				}
-				{
-					id: "3591BCB7743933D9"
-					item: "ironchest:crystal_chest"
-					type: "item"
-				}
-				{
-					id: "2111042350E95D23"
-					item: "ironchest:obsidian_chest"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 2
+				id: "6279E3668ECD45A5"
+				item: "ironchest:iron_chest"
+				type: "item"
+			}]
+			tasks: [{
+				id: "38510F199861E7AB"
+				item: "ironchest:iron_chest"
+				type: "item"
+			}]
 			title: "Iron Chests"
 			x: 1.5d
 			y: -3.5d
@@ -197,6 +135,62 @@
 			}]
 			x: -2.25d
 			y: -5.25d
+		}
+		{
+			description: [
+				"Sophisticated Storage barrels have all that the vanilla barrels have, but they also allow upgrades."
+				""
+				"They can also be upgraded in order: copper > iron > gold > diamond > netherite."
+				""
+				"(quest accepts any barrel)"
+			]
+			id: "28247FCDC1C3A73B"
+			rewards: [{
+				count: 4
+				id: "38175EABBA24291C"
+				item: "sophisticatedstorage:upgrade_base"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7993AEC04AE5EF48"
+				item: {
+					Count: 1
+					id: "sophisticatedstorage:barrel"
+					tag: { }
+				}
+				match_nbt: false
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			description: [
+				"Limited barrels act like drawers, they hold a lot of one item type. There are multiple versions, each holding 1, 2, 3 and 4 item types at once."
+				""
+				"They can also be upgraded in order: copper > iron > gold > diamond > netherite."
+				""
+				"(quest accepts any limited barrel)"
+			]
+			id: "345A880D476338D2"
+			rewards: [{
+				count: 4
+				id: "3719D3F5CF10F3E8"
+				item: "sophisticatedstorage:upgrade_base"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3268193A20DEBDC1"
+				item: {
+					Count: 1
+					id: "sophisticatedstorage:limited_barrel_1"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.0d
 		}
 	]
 	title: "Storage"

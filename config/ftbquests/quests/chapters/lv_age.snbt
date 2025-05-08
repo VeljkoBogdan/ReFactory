@@ -67,6 +67,7 @@
 				table_id: 3489525684019709649L
 				type: "loot"
 			}]
+			shape: "gear"
 			size: 1.5d
 			tasks: [{
 				id: "24805EF455C7050A"
@@ -114,6 +115,13 @@
 				"It turns ingots into plates and sheets, along with other functionalities."
 			]
 			id: "196B6372301A235E"
+			rewards: [{
+				count: 8
+				id: "4C94ACB798CADCFA"
+				item: "gtceu:steel_ingot"
+				type: "item"
+			}]
+			shape: "hexagon"
 			size: 1.0d
 			tasks: [{
 				id: "0042010F7338590F"
@@ -131,6 +139,13 @@
 				"Turns ingots into rods more efficiently than by hand."
 			]
 			id: "7C29E80B0DDAE836"
+			rewards: [{
+				count: 8
+				id: "797C11048668B202"
+				item: "gtceu:iron_rod"
+				type: "item"
+			}]
+			shape: "hexagon"
 			size: 1.0d
 			tasks: [{
 				id: "19EBE89C4A440CE3"
@@ -148,6 +163,27 @@
 				"Makes crafting wires A LOT less of a pain."
 			]
 			id: "12401DF56940C9F9"
+			rewards: [{
+				id: "07613F6B19B82771"
+				item: {
+					Count: 1
+					id: "gtceu:steel_wire_cutter"
+					tag: {
+						DisallowContainerItem: 0b
+						GT.Behaviours: { }
+						GT.Tool: {
+							Damage: 0
+							Enchantability: 14
+							HarvestLevel: 3
+							MaxDamage: 511
+							ToolSpeed: 9.0f
+						}
+						HideFlags: 2
+					}
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
 			size: 1.0d
 			tasks: [{
 				id: "4C6556A485A4CFD2"
@@ -193,6 +229,7 @@
 				table_id: 3489525684019709649L
 				type: "loot"
 			}]
+			shape: "gear"
 			size: 1.5d
 			tasks: [{
 				id: "13A71EEFE85F45F8"
@@ -218,6 +255,7 @@
 			dependencies: ["03D3442F857F0592"]
 			description: ["A machine that creates alloys. Usually more efficient than blending dusts by hand."]
 			id: "416D2D2897567BA7"
+			shape: "gear"
 			tasks: [{
 				id: "020EA65E86B87D88"
 				item: "gtceu:lv_alloy_smelter"
@@ -258,6 +296,21 @@
 			dependencies: ["298F63E0659E0FD6"]
 			description: ["Separates things into their components (no this is not the electrolyzer)"]
 			id: "5951A83C0CC6B27D"
+			rewards: [
+				{
+					count: 16
+					id: "6FA58A867AEDFFF4"
+					item: "gtceu:sticky_resin"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "643AEF3E47F99E85"
+					item: "gtceu:fluid_cell"
+					type: "item"
+				}
+			]
+			shape: "gear"
 			tasks: [{
 				id: "7AA5294339CD58CC"
 				item: "gtceu:lv_centrifuge"
@@ -286,6 +339,12 @@
 			dependencies: ["1AD99F9620569AA4"]
 			description: ["Compresses stuff (you didn't see this one coming did ya?)"]
 			id: "2C3AF8EA8EF8A321"
+			rewards: [{
+				count: 16
+				id: "459B4BDAE2E42102"
+				item: "gtceu:rubber_ingot"
+				type: "item"
+			}]
 			tasks: [{
 				id: "00D83C31629AFEB3"
 				item: "gtceu:lv_compressor"
@@ -310,6 +369,7 @@
 			dependencies: ["44495C979D17EFD5"]
 			description: ["Extracts stuff from liquids."]
 			id: "20A8D7A27A745592"
+			shape: "gear"
 			tasks: [{
 				id: "74100EBEAB9A3FD0"
 				item: "gtceu:lv_extractor"
@@ -322,6 +382,12 @@
 			dependencies: ["1AD99F9620569AA4"]
 			description: ["Not really useful in LV, as 90% of the recipes it has require MV voltage."]
 			id: "11ACC7CD8EFFBB66"
+			rewards: [{
+				count: 4
+				id: "6D8A2E22A8BB36F1"
+				item: "gtceu:empty_mold"
+				type: "item"
+			}]
 			tasks: [{
 				id: "0E31D8A896B81D9D"
 				item: "gtceu:lv_extruder"
@@ -334,6 +400,13 @@
 			dependencies: ["298F63E0659E0FD6"]
 			description: ["Mixes things to create mixed things :BatChest:"]
 			id: "4816A85DF7D24F0B"
+			rewards: [{
+				count: 2
+				id: "6EAE556FAEECCBEB"
+				item: "gtceu:item_filter"
+				type: "item"
+			}]
+			shape: "gear"
 			size: 1.0d
 			tasks: [{
 				id: "5BD63BEF636CF8BB"
@@ -369,6 +442,7 @@
 				"You don't have access to batteries yet, but keep this in mind."
 			]
 			id: "7A182C2B32A50D8A"
+			optional: true
 			tasks: [{
 				id: "0E85CD2DFD187C0A"
 				item: "gtceu:lv_battery_buffer_4x"
@@ -391,6 +465,7 @@
 				table_id: 3489525684019709649L
 				type: "loot"
 			}]
+			shape: "gear"
 			size: 1.5d
 			tasks: [{
 				id: "299B171F8C158356"
@@ -414,6 +489,7 @@
 				table_id: 3489525684019709649L
 				type: "loot"
 			}]
+			shape: "gear"
 			size: 1.5d
 			tasks: [{
 				id: "40F518F0A11F8BA7"
@@ -437,6 +513,7 @@
 				table_id: 3489525684019709649L
 				type: "loot"
 			}]
+			shape: "gear"
 			size: 1.5d
 			tasks: [{
 				id: "415DDFF88B9399DC"
@@ -450,6 +527,13 @@
 			dependencies: ["0E1F6E844041CC9F"]
 			description: ["With the Placeable Emitters mod, you can now place emitters and transfer energy wirelessly!"]
 			id: "05B388C998126A7C"
+			optional: true
+			rewards: [{
+				count: 4
+				id: "57A06106EB4E9304"
+				item: "gtceu:brass_ingot"
+				type: "item"
+			}]
 			size: 1.0d
 			tasks: [{
 				id: "6FA92A9A0C209647"
@@ -510,12 +594,20 @@
 				"With these 2 circuits, you should immediately craft the LV Circuit Assembler, as it is very efficient in making circuits."
 			]
 			id: "07377D4D02DC350A"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "4F88B2D4010E26D1"
-				table_id: 3489525684019709649L
-				type: "loot"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4F88B2D4010E26D1"
+					table_id: 3489525684019709649L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "35F4189513DD6D59"
+					table_id: 3489525684019709649L
+					type: "random"
+				}
+			]
 			shape: "gear"
 			size: 1.5d
 			tasks: [{
@@ -534,6 +626,12 @@
 				"7D4B02AACF124E44"
 			]
 			id: "3052BAA53CF8DBAA"
+			rewards: [{
+				count: 2
+				id: "1AB1222635385387"
+				item: "gtceu:basic_electronic_circuit"
+				type: "item"
+			}]
 			tasks: [{
 				count: 4L
 				id: "1B3917FEBC3F7C66"
@@ -547,6 +645,18 @@
 			dependencies: ["1AD99F9620569AA4"]
 			description: ["You will need this machine to create the Phenolic Circuit boards for now."]
 			id: "14A2B15A4B228C88"
+			rewards: [{
+				id: "45A04497EC54FED6"
+				item: {
+					Count: 1
+					id: "tconstruct:large_plate"
+					tag: {
+						Material: "tconstruct:steel"
+					}
+				}
+				type: "item"
+			}]
+			shape: "gear"
 			size: 1.0d
 			tasks: [{
 				id: "7F4FBFF1E586A88E"
@@ -563,6 +673,12 @@
 			]
 			description: ["Press some silver wires into the boards in a Forming Press and Woila!"]
 			id: "2770BFB05F1E26EC"
+			rewards: [{
+				count: 4
+				id: "4719DA6FC76B1DE7"
+				item: "gtceu:phenolic_printed_circuit_board"
+				type: "item"
+			}]
 			tasks: [{
 				count: 2L
 				id: "3735B04F8FFAE088"
@@ -576,6 +692,12 @@
 			dependencies: ["74C94B5C7B866A34"]
 			description: ["You will need 2 to create 2 MV circuit boards."]
 			id: "5B86B4616F141E18"
+			rewards: [{
+				count: 8
+				id: "4D344653326816E0"
+				item: "gtceu:resistor"
+				type: "item"
+			}]
 			tasks: [{
 				count: 2L
 				id: "6ECDCCE5C2AFCBAB"
@@ -589,6 +711,12 @@
 			dependencies: ["1AD99F9620569AA4"]
 			description: ["If the igneous extruder is not good enough for you."]
 			id: "597B768AC0E3FBEC"
+			rewards: [{
+				count: 128
+				id: "795F7D301D54BB17"
+				item: "gtceu:marble"
+				type: "item"
+			}]
 			tasks: [{
 				id: "79E17099F22F5C5E"
 				item: "gtceu:lv_rock_crusher"
@@ -681,42 +809,12 @@
 				"Make sure to make a lot of it!"
 			]
 			id: "18BC6F844CF368EF"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "4EA074C96D338039"
-					table_id: 3489525684019709649L
-					type: "loot"
-				}
-				{
-					id: "50C7CAA9C71B66F2"
-					item: {
-						Count: 1
-						id: "gtceu:diamond_mining_hammer"
-						tag: {
-							DisallowContainerItem: 0b
-							GT.Behaviours: {
-								AoEColumn: 1
-								AoELayer: 0
-								AoERow: 1
-								MaxAoEColumn: 1
-								MaxAoELayer: 0
-								MaxAoERow: 1
-							}
-							GT.Tool: {
-								Damage: 0
-								Enchantability: 18
-								HarvestLevel: 3
-								MaxDamage: 420
-								ToolSpeed: 6.4f
-							}
-							HideFlags: 2
-							Unbreakable: 1
-						}
-					}
-					type: "item"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4EA074C96D338039"
+				table_id: 3489525684019709649L
+				type: "loot"
+			}]
 			shape: "gear"
 			size: 1.5d
 			tasks: [{
@@ -853,6 +951,12 @@
 			]
 			description: ["The base of all MV machines"]
 			id: "498EF8FFD105D589"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "28D180A4EA9CEA1C"
+				table_id: 685747861540631198L
+				type: "random"
+			}]
 			shape: "gear"
 			size: 1.5d
 			tasks: [{
@@ -870,11 +974,12 @@
 				""
 				"Well then this is the perfect block for you!"
 				""
-				"Later on you might want to generate power with Powah (whose reactors are buffed) or other power generation methods, so you can use these to easily convert energy."
+				"If you ever want to take a different approach to power other than GregTech stuff, this block allows you to do that."
 				""
 				"&eConsult the \"Power\" section of the questbook for more power sources.&r"
 			]
 			id: "77529F6F46D25E74"
+			optional: true
 			tasks: [{
 				id: "537E23D3C0AD1590"
 				item: "gtceu:lv_4a_energy_converter"
@@ -925,13 +1030,14 @@
 				"For now you can use it to make bolts, but it only gets more useful later on."
 			]
 			id: "0ADAD20D4196337D"
+			shape: "gear"
 			tasks: [{
 				id: "5E22F7BF0CECAAC5"
 				item: "gtceu:lv_cutter"
 				type: "item"
 			}]
-			x: 10.5d
-			y: -6.0d
+			x: 13.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["44495C979D17EFD5"]
@@ -953,6 +1059,8 @@
 				"This is a multiblock that burns fuel and generates a lot of steam."
 				""
 				"This block might be for you if you have a lot of burnable material and need a lot of steam, though solar panels should do the job just as well, for free."
+				""
+				"&cDO NOT MAKE THIS MULTIBLOCK, IT WILL EXPLODE ON WORLD ENTERING&r"
 			]
 			id: "7D3B41AED0D6C081"
 			optional: true
@@ -984,6 +1092,11 @@
 				"You can also transform them into Universal Cells, which can hold more molten fluids (1000mb) than normal cells (144mb), but have less functionality."
 			]
 			id: "68ADC7ADA9E45EB2"
+			rewards: [{
+				id: "77764BDCADE3024B"
+				item: "enderio:fluid_tank"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "57BA2CE66F9FC27B"
@@ -1009,6 +1122,7 @@
 				"You can set the number in the bottom left of the machine's menu."
 			]
 			id: "4249C932C7F3FF69"
+			optional: true
 			rewards: [{
 				id: "2F30C90FEE74A89F"
 				item: "gtceu:basic_electronic_circuit"
@@ -1029,13 +1143,14 @@
 			y: -6.0d
 		}
 		{
-			dependencies: ["4521814F0D4989E9"]
+			dependencies: ["35CB055A24346DE1"]
 			description: [
-				"Paper is made using Chad, which is made from Sugarcane."
+				"Paper is made using Chad or Tree Bark."
 				""
-				"You can make sugarcane using Botania's Apothecary with Carrots. You can get Carrots from the market."
+				"You can make Chad from sugarcane, and you can make sugarcane using Botania's Apothecary with Carrots. You can get Carrots from Farming for Blockhead's Market."
+				""
+				"You can get Tree Bark by chopping wood on the Chopping Board."
 			]
-			hide_dependency_lines: true
 			id: "527C703959FD9B65"
 			tasks: [{
 				id: "193B1D97DF63836A"
@@ -1043,7 +1158,7 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: -3.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["0E1F6E844041CC9F"]
@@ -1085,6 +1200,12 @@
 			]
 			hide_dependency_lines: true
 			id: "7D4B02AACF124E44"
+			rewards: [{
+				count: 4
+				id: "75D6BC0D16F722B6"
+				item: "gtceu:gallium_arsenide_dust"
+				type: "item"
+			}]
 			tasks: [{
 				id: "6800D7060EB527F6"
 				item: "gtceu:gallium_arsenide_dust"
@@ -1097,6 +1218,12 @@
 			dependencies: ["01E6A51033DA1518"]
 			description: ["You can smelt the copper in the arc furnace into Annealed Copper, which can be used in many recipes that require Copper and gives a higher yield."]
 			id: "3EC7290C5FE13ED1"
+			rewards: [{
+				count: 16
+				id: "3E662068A6019442"
+				item: "gtceu:copper_single_wire"
+				type: "item"
+			}]
 			tasks: [{
 				id: "3B48A4CC5F973C1A"
 				item: "gtceu:annealed_copper_ingot"
@@ -1223,11 +1350,11 @@
 				item: "enderio:void_chassis"
 				type: "item"
 			}]
-			x: -1.5d
-			y: 16.0d
+			x: -1.0d
+			y: 17.5d
 		}
 		{
-			dependencies: ["0E1F6E844041CC9F"]
+			dependencies: ["44495C979D17EFD5"]
 			description: [
 				"Generates water when placed between two water sources."
 				""
@@ -1235,13 +1362,18 @@
 			]
 			id: "6F8BA04C054531D5"
 			optional: true
+			rewards: [{
+				id: "13BA777CED4DD4E1"
+				item: "gtceu:lv_electric_pump"
+				type: "item"
+			}]
 			tasks: [{
 				id: "1916FC1736C81B3E"
 				item: "thermal:device_water_gen"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -4.5d
+			x: 21.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["0E1F6E844041CC9F"]
@@ -1252,6 +1384,26 @@
 			]
 			id: "46303F9FE371A8BA"
 			optional: true
+			rewards: [{
+				id: "31E7A69D717666EA"
+				item: {
+					Count: 1
+					id: "gtceu:iron_crowbar"
+					tag: {
+						DisallowContainerItem: 0b
+						GT.Behaviours: { }
+						GT.Tool: {
+							Damage: 0
+							Enchantability: 14
+							HarvestLevel: 2
+							MaxDamage: 255
+							ToolSpeed: 6.0f
+						}
+						HideFlags: 2
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "178F4B931CE5BCF6"
 				item: "gtceu:steel_crate"
@@ -1262,7 +1414,11 @@
 		}
 		{
 			dependencies: ["44495C979D17EFD5"]
-			description: ["A simple jetpack, but needs liquid fuel, which you might not have at this stage."]
+			description: [
+				"A simple jetpack, but needs liquid fuel."
+				""
+				"Any liquid fuel will work such as creosote, oil, etc."
+			]
 			id: "14DC5DD0B504E902"
 			tasks: [{
 				id: "535612784E5DC6B0"
@@ -1374,83 +1530,6 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["18BC6F844CF368EF"]
-			description: ["If you want, you can trade 16 aluminium ingots for an unbreakablle diamond mining hammer!"]
-			icon: {
-				Count: 1
-				id: "gtceu:diamond_mining_hammer"
-				tag: {
-					DisallowContainerItem: 0b
-					GT.Behaviours: {
-						AoEColumn: 1
-						AoELayer: 0
-						AoERow: 1
-						MaxAoEColumn: 1
-						MaxAoELayer: 0
-						MaxAoERow: 1
-						TorchPlacing: 1b
-					}
-					GT.Tool: {
-						Damage: 0
-						Enchantability: 18
-						HarvestLevel: 3
-						MaxDamage: 2303
-						ToolSpeed: 6.4f
-					}
-					HideFlags: 2
-				}
-			}
-			id: "4DCF5675251BF230"
-			rewards: [{
-				id: "1724387A2AE1D1F6"
-				item: {
-					Count: 1
-					id: "gtceu:diamond_mining_hammer"
-					tag: {
-						DisallowContainerItem: 0b
-						GT.Behaviours: {
-							AoEColumn: 1
-							AoELayer: 0
-							AoERow: 1
-							MaxAoEColumn: 1
-							MaxAoELayer: 0
-							MaxAoERow: 1
-						}
-						GT.Tool: {
-							Damage: 0
-							Enchantability: 18
-							HarvestLevel: 3
-							MaxDamage: 420
-							ToolSpeed: 6.4f
-						}
-						HideFlags: 2
-						Unbreakable: 1
-					}
-				}
-				type: "item"
-			}]
-			tasks: [{
-				consume_items: true
-				count: 16L
-				id: "6C85AE8AEE866B0F"
-				item: { Count: 16, id: "gtceu:aluminium_ingot" }
-				type: "item"
-			}]
-			x: -1.5d
-			y: 17.5d
-		}
-		{
-			dependencies: ["18BC6F844CF368EF"]
-			id: "4E10874269276733"
-			tasks: [{
-				id: "1BFFC145FE05C1D5"
-				item: "buildinggadgets2:gadget_building"
-				type: "item"
-			}]
-			x: 0.0d
-			y: 17.5d
-		}
-		{
 			dependencies: ["01A0E9661BB0FDAB"]
 			description: [
 				"The Mana Pool holds &bmana&r. To generate mana, you can use various &agenerating flowers&r from Botania. "
@@ -1543,13 +1622,18 @@
 			]
 			id: "03B564444DFB6D48"
 			optional: true
+			rewards: [{
+				id: "5F5FAA10364365E8"
+				item: "minecraft:farmland"
+				type: "item"
+			}]
 			tasks: [{
 				id: "33236785E24B4D29"
 				item: "botanypots:terracotta_botany_pot"
 				type: "item"
 			}]
-			x: -1.5d
-			y: -1.5d
+			x: 0.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["45961AD543495B1D"]
@@ -1559,6 +1643,7 @@
 				"You will need to access the Undergarden to get Utherium. You'll need this material for mana spreaders and other LV and MV components."
 			]
 			id: "50A5F4983B628438"
+			shape: "gear"
 			tasks: [{
 				id: "615FB5C7CE7AB775"
 				item: "undergarden:catalyst"
@@ -1575,6 +1660,12 @@
 				"Be careful in the Undergarden, there are many both hostile and passive mobs."
 			]
 			id: "518756FCEA4DA67E"
+			rewards: [{
+				count: 4
+				id: "418CBE6C43D93011"
+				item: "farmersdelight:chocolate_pie"
+				type: "item"
+			}]
 			tasks: [{
 				dimension: "undergarden:undergarden"
 				icon: "undergarden:depthrock"
@@ -1607,6 +1698,74 @@
 			}]
 			x: 4.5d
 			y: 16.0d
+		}
+		{
+			dependencies: ["18BC6F844CF368EF"]
+			description: ["If you want, you can give some Aluminium Ingots in return for this unbreakable mining hammer."]
+			id: "080270877BCFDE66"
+			rewards: [{
+				id: "4204AAC532673D70"
+				item: {
+					Count: 1
+					id: "gtceu:blue_steel_mining_hammer"
+					tag: {
+						DisallowContainerItem: 0b
+						GT.Behaviours: {
+							AoEColumn: 1
+							AoELayer: 0
+							AoERow: 1
+							MaxAoEColumn: 1
+							MaxAoELayer: 0
+							MaxAoERow: 1
+						}
+						GT.Tool: {
+							AttackDamage: 7.5f
+							AttackSpeed: -3.1000001f
+							Damage: 0
+							Enchantability: 33
+							HarvestLevel: 4
+							MaxDamage: 420
+							ToolSpeed: 9.0f
+						}
+						HideFlags: 2
+						Name: "Insanely Tough Mining Hammer"
+						RepairCost: 0
+						Unbreakable: 1
+						display: {
+							Name: "{\"text\":\"Insanely Tough Mining Hammer\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 32L
+				id: "1F9214040773A9D9"
+				item: { Count: 16, id: "gtceu:aluminium_ingot" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 17.5d
+		}
+		{
+			dependencies: ["518756FCEA4DA67E"]
+			description: ["The Gloomer and Dweller inside The Undergarden drop leather."]
+			id: "40E754EC1BE7E04E"
+			optional: true
+			rewards: [{
+				count: 4
+				id: "52209B8ACF744773"
+				item: "minecraft:rabbit_hide"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6B1C0982655B5FF9"
+				item: "minecraft:leather"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 9.0d
 		}
 	]
 	title: "LV Age"

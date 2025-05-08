@@ -3,22 +3,22 @@
 	loot_size: 1
 	order_index: 1
 	rewards: [
-		{ item: "gtceu:basic_electronic_circuit" }
+		{ count: 4, item: "gtceu:basic_electronic_circuit" }
 		{ item: "gtceu:lv_power_unit" }
-		{ count: 8, item: "gtceu:steel_ingot" }
+		{ count: 16, item: "gtceu:steel_ingot" }
 		{ count: 4, item: "gtceu:fluid_cell" }
 		{ item: "gtceu:steel_fluid_cell" }
 		{ item: "gtceu:lv_battery_hull" }
 		{ item: "gtceu:lv_electric_pump" }
-		{ item: "gtceu:lv_electric_motor" }
+		{ count: 2, item: "gtceu:lv_electric_motor" }
 		{ item: "gtceu:lv_conveyor_module" }
 		{ item: "gtceu:lv_electric_piston" }
 		{ item: "gtceu:lv_robot_arm" }
-		{ count: 4, item: "gtceu:resistor" }
+		{ count: 8, item: "gtceu:resistor" }
 		{ count: 4, item: "gtceu:vacuum_tube" }
 		{ count: 4, item: "gtceu:resin_printed_circuit_board" }
-		{ count: 4, item: "gtceu:resin_circuit_board" }
-		{ count: 8, item: "gtceu:sticky_resin" }
+		{ count: 8, item: "gtceu:resin_circuit_board" }
+		{ count: 16, item: "gtceu:sticky_resin" }
 		{ count: 2, item: "gtceu:purple_drink" }
 		{ count: 3, item: "thermal:cooked_corn" }
 		{ count: 3, item: "thermal:cheese_wedge" }

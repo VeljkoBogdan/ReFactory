@@ -244,42 +244,12 @@
 				"You'll need plenty of it, so keep the PBF going."
 			]
 			id: "189B920AAB6456B4"
-			rewards: [
-				{
-					count: 8
-					id: "50007B6662EF549E"
-					item: "aether:gingerbread_man"
-					type: "item"
-				}
-				{
-					id: "6BF28595D1BC9800"
-					item: {
-						Count: 1
-						id: "gtceu:diamond_mining_hammer"
-						tag: {
-							DisallowContainerItem: 0b
-							GT.Behaviours: {
-								AoEColumn: 1
-								AoELayer: 0
-								AoERow: 1
-								MaxAoEColumn: 1
-								MaxAoELayer: 0
-								MaxAoERow: 1
-							}
-							GT.Tool: {
-								Damage: 0
-								Enchantability: 18
-								HarvestLevel: 3
-								MaxDamage: 420
-								ToolSpeed: 6.4f
-							}
-							HideFlags: 2
-							Unbreakable: 1
-						}
-					}
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 8
+				id: "50007B6662EF549E"
+				item: "aether:gingerbread_man"
+				type: "item"
+			}]
 			shape: "gear"
 			size: 1.5d
 			tasks: [{
@@ -410,11 +380,7 @@
 		}
 		{
 			dependencies: ["09ECD67B4648D2EA"]
-			description: [
-				"A market is very useful to get seeds and grow better and more sustainable food."
-				""
-				"You'll also need it to get sugar canes, which are required for paper."
-			]
+			description: ["A market is very useful to get seeds, saplings and mushrooms and grow better and more sustainable food."]
 			id: "31A0620289688EFB"
 			rewards: [{
 				count: 8
@@ -489,6 +455,7 @@
 				"It requires steam to run, as well as a lava and water block adjacent to it."
 			]
 			id: "700A61CF2839E142"
+			optional: true
 			tasks: [{
 				id: "11A8110C4D883C83"
 				item: "gtceu:lp_steam_rock_crusher"
@@ -497,24 +464,6 @@
 			title: "Cobble Generator"
 			x: -3.5d
 			y: 4.5d
-		}
-		{
-			dependencies: ["31A0620289688EFB"]
-			description: [
-				"There is no sugar cane in the market, but you can make it using Botania."
-				""
-				"You can also get it from a wandering trader if you're lucky."
-				""
-				"You will need it to make paper for resistors."
-			]
-			id: "4521814F0D4989E9"
-			tasks: [{
-				id: "23F96D4BF8CF7A55"
-				item: "minecraft:sugar_cane"
-				type: "item"
-			}]
-			x: 10.0d
-			y: 0.5d
 		}
 		{
 			dependencies: ["09ECD67B4648D2EA"]
@@ -702,27 +651,15 @@
 			description: [
 				"You have unlocked guns!"
 				""
-				"You can craft guns using the gun smith table, and ammo using the ammo bench."
+				"You can craft guns and ammo using the gun smith table."
 			]
 			id: "0F0A611733E1CA4F"
-			tasks: [
-				{
-					id: "319FF32D2E601030"
-					item: "tacz:gun_smith_table"
-					type: "item"
-				}
-				{
-					id: "196179B5971AF83E"
-					item: {
-						Count: 1
-						id: "tacz:workbench_b"
-						tag: {
-							BlockId: "ea:ammobench"
-						}
-					}
-					type: "item"
-				}
-			]
+			optional: true
+			tasks: [{
+				id: "319FF32D2E601030"
+				item: "tacz:gun_smith_table"
+				type: "item"
+			}]
 			x: 2.5d
 			y: 3.5d
 		}

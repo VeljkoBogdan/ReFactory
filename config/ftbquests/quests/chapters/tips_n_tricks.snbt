@@ -145,6 +145,12 @@
 				"Can be upgraded."
 			]
 			id: "2CC084E99F046E9B"
+			rewards: [{
+				count: 4
+				id: "78773BBCFEA8808A"
+				item: "sophisticatedbackpacks:upgrade_base"
+				type: "item"
+			}]
 			tasks: [{
 				id: "6DAAF38E308EE321"
 				item: "sophisticatedbackpacks:backpack"
@@ -169,6 +175,12 @@
 			description: ["Customizable gadgets that allow you to build/destroy easier. They do use power."]
 			icon: "buildinggadgets2:gadget_building"
 			id: "05FEE694FAF9A095"
+			rewards: [{
+				count: 256
+				id: "0685769C9000ACB2"
+				item: "xtonesreworked:xtone_tile"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "50DCD55354F8E97F"
@@ -213,6 +225,12 @@
 		{
 			description: ["Magnum torch creates a large area where mobs cannot spawn."]
 			id: "5629AF02666D9F9C"
+			rewards: [{
+				count: 16
+				id: "6C4489E15DAFC0B5"
+				item: "minecraft:torch"
+				type: "item"
+			}]
 			tasks: [{
 				id: "1EA330A3290CE0BD"
 				item: "torchmaster:megatorch"
@@ -291,6 +309,12 @@
 				"Shift+right-click to store, right-click to retrieve XP."
 			]
 			id: "77166410873988E7"
+			rewards: [{
+				count: 8
+				id: "1DF23D8B83DD9DF5"
+				item: "minecraft:experience_bottle"
+				type: "item"
+			}]
 			tasks: [{
 				id: "5B1E787D289662E3"
 				item: {

@@ -2,8 +2,9 @@
 - Clay and dirt yield from apothecary increased
 - Removed problematic recipes
 - Dead and Rubber logs and wood are now choppable on the chopping board
-- Added mods: Sophisticated Storage
+- Added mods: Sophisticated Storage, Oculus
 - Removed mods: Storage Drawers
+// REMOVE ALL STORAGE DRAWERS CONTENTS BEFORE UPDATING
 
 # 0.2.1
 - New world generation
