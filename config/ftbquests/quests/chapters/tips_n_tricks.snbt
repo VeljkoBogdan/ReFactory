@@ -437,6 +437,45 @@
 			x: 3.0d
 			y: -5.0d
 		}
+		{
+			description: ["Allows you to create different styles of the same block, very useful for building a base!"]
+			id: "781B262D778AE758"
+			tasks: [{
+				id: "3CF5BBF617C43D21"
+				item: {
+					Count: 1
+					id: "rechiseled:chisel"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Re-Chiseled"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			description: ["FramedBlocks provides a lot of framed blocks in different shapes. You can place any block inside them, and they will have the texture of that block. Useful for building bases."]
+			id: "6FE0690A562CE7F6"
+			tasks: [{
+				id: "7F35B0EAEE101483"
+				item: "framedblocks:framed_cube"
+				type: "item"
+			}]
+			title: "FramedBlocks"
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			description: ["The Dis-Enchanting Table allows you to retrieve enchantments from enchanted items."]
+			id: "42AF208C7E1B199C"
+			tasks: [{
+				id: "0FF0157F3DE5D28C"
+				item: "disenchanting_table:disenchanting_table"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
 	]
 	title: "Tips n Tricks"
 }

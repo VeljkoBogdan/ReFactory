@@ -1,4 +1,7 @@
 {
+  "framedblocks": {
+    "framed_item_frame": true
+  },
   "minecraft": {
     "item_storage.show_name_amount": 5,
     "furnace": true,
@@ -58,11 +61,6 @@
     "endercrop": true,
     "endstone": true
   },
-  "easy_villagers": {
-    "villager": true,
-    "converter": true,
-    "breeder": true
-  },
   "gtceu": {
     "primitive_pump": true,
     "auto_output_info": true,
@@ -96,6 +94,9 @@
     "adventure": true,
     "ench": true,
     "spawner": true
+  },
+  "lootr": {
+    "info": true
   },
   "corpse": {
     "corpse": true

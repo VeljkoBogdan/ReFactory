@@ -147,7 +147,7 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["30A1CCB30F870404"]
+			dependencies: ["0D7B0A39897561D4"]
 			description: [
 				"A much better way of generating steam, but you will need silver to make it."
 				""
@@ -164,11 +164,11 @@
 				type: "item"
 			}]
 			title: "Solar Boilers"
-			x: -5.0d
-			y: 4.5d
+			x: -6.5d
+			y: -1.0d
 		}
 		{
-			dependencies: ["30A1CCB30F870404"]
+			dependencies: ["0D7B0A39897561D4"]
 			description: ["Makes alloys, which are going to be needed later."]
 			id: "66BCC30A05D77C6F"
 			optional: true
@@ -177,8 +177,8 @@
 				item: "gtceu:lp_steam_alloy_smelter"
 				type: "item"
 			}]
-			x: -3.5d
-			y: 3.5d
+			x: -5.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["30A1CCB30F870404"]
@@ -366,7 +366,7 @@
 			y: 0.5d
 		}
 		{
-			dependencies: ["30A1CCB30F870404"]
+			dependencies: ["1B9466B9DC03A81E"]
 			description: ["A &aVERY&r good multiblock. Uses steam to grind 8 ores at a time, which is much faster than a regular macerator. It is recommended to get this to make your life less miserable."]
 			id: "288B368DB443FC38"
 			optional: true
@@ -376,7 +376,7 @@
 				type: "item"
 			}]
 			x: -3.5d
-			y: 5.5d
+			y: 6.5d
 		}
 		{
 			dependencies: ["09ECD67B4648D2EA"]
@@ -418,7 +418,7 @@
 			y: 3.5d
 		}
 		{
-			dependencies: ["30A1CCB30F870404"]
+			dependencies: ["1B9466B9DC03A81E"]
 			description: ["A multiblock version of the alloy smelter."]
 			id: "07A730A0B1F9A9CB"
 			optional: true
@@ -427,11 +427,11 @@
 				item: "steamadditions:steam_foundry"
 				type: "item"
 			}]
-			x: -5.0d
-			y: 3.5d
+			x: -3.5d
+			y: 5.0d
 		}
 		{
-			dependencies: ["30A1CCB30F870404"]
+			dependencies: ["1B9466B9DC03A81E"]
 			description: [
 				"A multiblock version of the centrifuge."
 				""
@@ -444,8 +444,8 @@
 				item: "steamadditions:steam_separator"
 				type: "item"
 			}]
-			x: -2.0d
-			y: 4.5d
+			x: -5.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["30A1CCB30F870404"]
@@ -463,7 +463,7 @@
 			}]
 			title: "Cobble Generator"
 			x: -3.5d
-			y: 4.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["09ECD67B4648D2EA"]
@@ -771,6 +771,67 @@
 			}]
 			x: 1.0d
 			y: -4.0d
+		}
+		{
+			dependencies: ["2D026E971B2F87E8"]
+			id: "0D7B0A39897561D4"
+			tasks: [{
+				id: "48BD5CC4B707D381"
+				item: "gtceu:bronze_brick_casing"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2D026E971B2F87E8"]
+			id: "1B9466B9DC03A81E"
+			tasks: [{
+				id: "00824024ACF8D007"
+				item: "gtceu:steam_machine_casing"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1B9466B9DC03A81E"]
+			description: ["Multiblock version of the lathe. Gives much more efficient production of rods. Allows 8 recipes at a time."]
+			id: "7E0C0D96C78AB709"
+			optional: true
+			tasks: [{
+				id: "6458778CC1007DC4"
+				item: "gtceu:steam_borer"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1B9466B9DC03A81E"]
+			description: ["Multiblock version of the Extractor, allows for 8 recipes at a time."]
+			id: "3A119FB271E590F1"
+			optional: true
+			tasks: [{
+				id: "7F3F7A70B109E78F"
+				item: "gtceu:steam_large_extractor"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1B9466B9DC03A81E"]
+			description: ["Multiblock version of the mixer. Allows 8 recipes at a time."]
+			id: "18A39FBA2F3CFBAD"
+			optional: true
+			tasks: [{
+				id: "065BBE2FCAF1B3D0"
+				item: "gtceu:steam_blender"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 6.5d
 		}
 	]
 	title: "Steam Age"
