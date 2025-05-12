@@ -574,6 +574,18 @@ ServerEvents.recipes(event => {
         ],
         '#botania:petals'
     )
+
+    // Feathers from string
+    event.recipes.botania.petal_apothecary(
+        '4x minecraft:feather',
+        [
+            'minecraft:string',
+            'minecraft:string',
+            'minecraft:string',
+            'minecraft:string'
+        ],
+        '#forge:seeds'
+    )
         
 })
 
