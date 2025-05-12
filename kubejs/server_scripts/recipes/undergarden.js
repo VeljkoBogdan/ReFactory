@@ -26,4 +26,6 @@ ServerEvents.recipes(event => {
             C: '#gtceu:circuits/lv'
         }
     )
+
+    event.remove({input: 'undergarden:catalyst'})
 })
