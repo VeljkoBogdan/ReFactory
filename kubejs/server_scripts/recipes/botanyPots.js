@@ -11,6 +11,30 @@ ServerEvents.recipes(event => {
             20*180,                                         // growthTicks
             1,                                       // optional, growthModifier - this can be set to 1 in most cases
         )
+
+        event.remove({type: 'botanypots:crop', input: 'gtceu:rubber_sapling'})
+
+        event.recipes.botanypots.crop(
+            "gtceu:rubber_sapling",
+            ["dirt"], 
+            { block: "gtceu:rubber_sapling" }, 
+            [
+                Item.of ("gtceu:rubber_log")
+                    .withChance(1)
+                    .withRolls(2, 4),
+                Item.of ("minecraft:stick")
+                    .withChance(0.25)
+                    .withRolls(1, 2),
+                Item.of ("gtceu:sticky_resin")
+                    .withChance(0.25)
+                    .withRolls(1, 1),
+                Item.of ("gtceu:rubber_sapling")
+                    .withChance(0.15)
+                    .withRolls(1, 1)
+            ],
+            20*120,
+            1,
+        )
     
         // For future reference
         
