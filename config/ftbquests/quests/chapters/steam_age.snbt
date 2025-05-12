@@ -833,6 +833,19 @@
 			x: -6.5d
 			y: 6.5d
 		}
+		{
+			dependencies: ["189B920AAB6456B4"]
+			description: ["If you have extra steel, make yourself the Advanced Blast Furnace. It can make steel much more efficiently, and also process 4 recipes at a time!"]
+			id: "5F1B965B2EBABCDF"
+			optional: true
+			tasks: [{
+				id: "23BE9FB98B2E4328"
+				item: "gtceu:advanced_primitive_blast_furnace"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.5d
+		}
 	]
 	title: "Steam Age"
 }
