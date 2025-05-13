@@ -19,7 +19,7 @@
 				item: "biomesoplenty:dead_log"
 				type: "item"
 			}]
-			x: 0.0d
+			x: 3.0d
 			y: 0.0d
 		}
 		{
@@ -32,7 +32,7 @@
 				item: "minecraft:crafting_table"
 				type: "item"
 			}]
-			x: 1.5d
+			x: 4.5d
 			y: 0.0d
 		}
 		{
@@ -110,7 +110,7 @@
 			y: 4.5d
 		}
 		{
-			dependencies: ["7C4B66885D8AD0D4"]
+			dependencies: ["2C4A3A86D8913871"]
 			description: [
 				"You'll need this to smelt almost all ores."
 				""
@@ -434,6 +434,7 @@
 			]
 			icon: "ironfurnaces:iron_furnace"
 			id: "1F0BF9D9E762756A"
+			optional: true
 			tasks: [
 				{
 					id: "34E5761882DCFFD1"
@@ -519,8 +520,8 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
-			y: -1.5d
+			x: 4.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["03CF5FEDA44D312B"]
@@ -569,20 +570,8 @@
 				item: "minecraft:campfire"
 				type: "item"
 			}]
-			x: -1.5d
-			y: 0.0d
-		}
-		{
-			dependencies: ["1296F376D1AA5290"]
-			description: ["A crafting station works exactly the same as the vanilla crafting table, except it will keep the items inside upon exiting its menu, and will also access nearby storage."]
-			id: "29562335311A1C1F"
-			tasks: [{
-				id: "0738E4A80B7BF73B"
-				item: "tconstruct:crafting_station"
-				type: "item"
-			}]
-			x: 1.5d
-			y: -1.5d
+			x: 2.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["071811F3550BAF2F"]
@@ -663,46 +652,6 @@
 			y: 6.0d
 		}
 		{
-			dependencies: [
-				"1296F376D1AA5290"
-				"61C83CEB0C20873A"
-			]
-			description: [
-				"You might have saw that there are no vanilla tools."
-				""
-				"Instead you will have to use GregTech tools."
-				""
-				"I recommend getting Iron first. "
-				""
-				"Bring multiple pickaxes with you on a mining trip because flint ones don't last that long."
-			]
-			id: "7C4B66885D8AD0D4"
-			tasks: [{
-				id: "2B578350890CC23A"
-				item: {
-					Count: 1
-					id: "gtceu:flint_pickaxe"
-					tag: {
-						DisallowContainerItem: 0b
-						GT.Behaviours: {
-							TorchPlacing: 1b
-						}
-						GT.Tool: {
-							Damage: 0
-							Enchantability: 5
-							HarvestLevel: 2
-							MaxDamage: 63
-							ToolSpeed: 5.5f
-						}
-						HideFlags: 2
-					}
-				}
-				type: "item"
-			}]
-			x: 1.5d
-			y: 1.5d
-		}
-		{
 			dependencies: ["14769C69DDD4F79E"]
 			description: [
 				"The surface contains no gravel and it is insanely rare underground."
@@ -716,8 +665,8 @@
 				item: "minecraft:flint"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 1.5d
+			x: 3.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["03CF5FEDA44D312B"]
@@ -767,6 +716,7 @@
 				item: "minecraft:bone_meal"
 				type: "item"
 			}]
+			shape: "gear"
 			tasks: [{
 				id: "4C3B93802611D378"
 				item: "botania:apothecary_default"
@@ -821,8 +771,8 @@
 		}
 		{
 			dependencies: [
-				"7C4B66885D8AD0D4"
 				"10C2C691F26385C4"
+				"2C4A3A86D8913871"
 			]
 			description: ["Smelt some cobblestone to get stone. You will need it to craft the apothecary."]
 			id: "31BDF4591ACF03E1"
@@ -909,6 +859,83 @@
 			}]
 			x: 4.5d
 			y: 8.5d
+		}
+		{
+			dependencies: ["14769C69DDD4F79E"]
+			id: "68713F8421BA5BB3"
+			tasks: [{
+				id: "4AB0C49F83D5E682"
+				item: "tconstruct:pattern"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["68713F8421BA5BB3"]
+			id: "61441A40EAFF7A46"
+			tasks: [{
+				id: "4D84075D0F563735"
+				item: "tconstruct:crafting_station"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["68713F8421BA5BB3"]
+			id: "005050AEE23C9288"
+			tasks: [{
+				id: "177B48D7C4F8EE39"
+				item: "tconstruct:part_builder"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["68713F8421BA5BB3"]
+			id: "595C615D1424B4D5"
+			tasks: [{
+				id: "753B7397BD657D19"
+				item: "tconstruct:tinker_station"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["68713F8421BA5BB3"]
+			id: "2D21598A21016787"
+			tasks: [{
+				id: "7CA7A754766C92CC"
+				item: "tconstruct:part_chest"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"595C615D1424B4D5"
+				"005050AEE23C9288"
+			]
+			id: "2C4A3A86D8913871"
+			shape: "gear"
+			tasks: [{
+				id: "7B399F759D1EDC28"
+				item: {
+					Count: 1
+					id: "tconstruct:pickaxe"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
 		}
 	]
 	title: "The Beginning"
