@@ -44,11 +44,11 @@
 					type: "item"
 				}
 			]
-			x: -0.5d
-			y: -4.0d
+			x: -3.5d
+			y: -2.5d
 		}
 		{
-			dependencies: ["5E785D06BD90880A"]
+			dependencies: ["2D026E971B2F87E8"]
 			description: [
 				"Creates coke and creosote from coal."
 				""
@@ -79,27 +79,8 @@
 					type: "item"
 				}
 			]
-			x: 1.0d
-			y: -2.5d
-		}
-		{
-			dependencies: ["116EA26D387F70E8"]
-			description: ["snad"]
-			id: "5E785D06BD90880A"
-			rewards: [{
-				count: 32
-				id: "358B82812D8DFBB7"
-				item: "minecraft:sand"
-				type: "item"
-			}]
-			tasks: [{
-				count: 32L
-				id: "697074F319A0CDB5"
-				item: "minecraft:sand"
-				type: "item"
-			}]
 			x: -2.0d
-			y: -2.5d
+			y: -1.0d
 		}
 		{
 			dependencies: [
@@ -127,7 +108,7 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: -2.5d
+			y: -1.0d
 		}
 		{
 			dependencies: [
@@ -584,41 +565,7 @@
 				}
 			]
 			title: "Primitive Tank"
-			x: 2.5d
-			y: -4.0d
-		}
-		{
-			dependencies: ["30A1CCB30F870404"]
-			description: ["You can use the hammer to break &9cobblestone into gravel&r, and &agravel into sand&r!"]
-			icon: {
-				Count: 1
-				id: "gtceu:iron_hammer"
-				tag: {
-					DisallowContainerItem: 0b
-					GT.Behaviours: { }
-					GT.Tool: {
-						Damage: 0
-						Enchantability: 14
-						HarvestLevel: 2
-						MaxDamage: 255
-						ToolSpeed: 6.0f
-					}
-					HideFlags: 2
-				}
-			}
-			id: "116EA26D387F70E8"
-			rewards: [{
-				count: 32
-				id: "6AF079B5F10B08A1"
-				item: "minecraft:cobblestone"
-				type: "item"
-			}]
-			tasks: [{
-				id: "15B0551A608A509C"
-				title: "Hammer time"
-				type: "checkmark"
-			}]
-			x: -3.5d
+			x: -0.5d
 			y: -2.5d
 		}
 		{
@@ -664,66 +611,7 @@
 			y: 3.5d
 		}
 		{
-			dependencies: ["5E785D06BD90880A"]
-			description: [
-				"Grout is used to make Seared Bricks for your smeltery and Primitive Blast Furnace."
-				""
-				"For this you'll need 17 blocks of Clay, 68 sand and 68 gravel."
-			]
-			id: "59E8CB4016D2A348"
-			tasks: [{
-				count: 132L
-				id: "5DDE5101F3490077"
-				item: "tconstruct:grout"
-				type: "item"
-			}]
-			x: -2.0d
-			y: -1.0d
-		}
-		{
-			dependencies: ["363B6F16D079622C"]
-			description: [
-				"The base block for building a Tinker's Construct smeltery."
-				""
-				"You are going to focus on crushing these bricks into dust to make the Primitive Blast Furnace for now."
-			]
-			id: "2EE31193AD86A4E2"
-			tasks: [{
-				count: 33L
-				id: "5DCC05725F95294B"
-				item: "tconstruct:seared_bricks"
-				type: "item"
-			}]
-			x: 1.0d
-			y: -1.0d
-		}
-		{
-			dependencies: ["59E8CB4016D2A348"]
-			description: ["Make the Unfired Seared Bricks using Grout and a Brick Wooden Form. Smelt them in a furnace to get Seared Bricks."]
-			id: "363B6F16D079622C"
-			tasks: [
-				{
-					count: 132L
-					id: "5733CBF9299EB555"
-					item: "kubejs:unfired_seared_brick"
-					optional_task: true
-					type: "item"
-				}
-				{
-					count: 132L
-					id: "4FDDDBC08CC037A0"
-					item: "tconstruct:seared_brick"
-					type: "item"
-				}
-			]
-			x: -0.5d
-			y: -1.0d
-		}
-		{
-			dependencies: [
-				"2EE31193AD86A4E2"
-				"2F7F7A99342C19A6"
-			]
+			dependencies: ["2F7F7A99342C19A6"]
 			description: ["Macerate the bricks into dust using a macerator, forge hammer or mortar."]
 			id: "3620B8407865D2A1"
 			shape: "gear"
@@ -753,8 +641,8 @@
 				title: "Too Much Creosote..."
 				type: "checkmark"
 			}]
-			x: 1.0d
-			y: -4.0d
+			x: -2.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["2D026E971B2F87E8"]

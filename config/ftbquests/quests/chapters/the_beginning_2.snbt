@@ -50,7 +50,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 4.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["10C2C691F26385C4"]
@@ -87,7 +87,7 @@
 				item: "minecraft:copper_ingot"
 				type: "item"
 			}]
-			x: 3.5d
+			x: 4.5d
 			y: 6.0d
 		}
 		{
@@ -107,7 +107,7 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: 7.5d
+			y: 9.0d
 		}
 		{
 			dependencies: ["2C4A3A86D8913871"]
@@ -338,18 +338,20 @@
 				}
 			]
 			title: "Tools"
-			x: 4.5d
-			y: 4.5d
+			x: 6.0d
+			y: 3.0d
 		}
 		{
 			dependencies: [
-				"4AAB03A4BF0BCA12"
 				"7FCAC41DAF96462F"
 				"3CFF0CD9AB0BFB99"
+				"19ED228B99A30CBF"
+				"4B41B7447B139821"
 			]
 			description: [
-				"Put the bronze dust into the furnace and wait for it to smelt."
-				"Now you get bronze! Congratulations!"
+				"Put 3 parts copper and 1 part tin into the smeltery and wait. After smelting it should alloy into bronze!"
+				""
+				"Now drain that bronze into the ingot cast and you got yourself ingots!"
 			]
 			id: "7A8F5B47B4784EF5"
 			rewards: [{
@@ -367,7 +369,7 @@
 				type: "item"
 			}]
 			x: 7.5d
-			y: 7.5d
+			y: 9.0d
 		}
 		{
 			dependencies: ["03CF5FEDA44D312B"]
@@ -409,8 +411,8 @@
 				}
 			]
 			title: "Fluid Pipes"
-			x: 3.5d
-			y: 4.0d
+			x: 7.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["03CF5FEDA44D312B"]
@@ -423,11 +425,11 @@
 				type: "item"
 			}]
 			title: "Item Pipes"
-			x: 3.5d
-			y: 5.0d
+			x: 7.0d
+			y: 2.5d
 		}
 		{
-			dependencies: ["10C2C691F26385C4"]
+			dependencies: ["071811F3550BAF2F"]
 			description: [
 				"Welcome to Iron Furnaces."
 				""
@@ -468,8 +470,8 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
-			y: 3.0d
+			x: 4.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["14769C69DDD4F79E"]
@@ -556,7 +558,7 @@
 				type: "checkmark"
 			}]
 			x: 0.0d
-			y: 6.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["071811F3550BAF2F"]
@@ -592,7 +594,7 @@
 				item: "minecraft:clay_ball"
 				type: "item"
 			}]
-			x: 9.0d
+			x: 10.5d
 			y: 4.5d
 		}
 		{
@@ -617,8 +619,8 @@
 				type: "item"
 			}]
 			title: "Steam Age"
-			x: 9.0d
-			y: 7.5d
+			x: 10.5d
+			y: 9.0d
 		}
 		{
 			dependencies: ["14769C69DDD4F79E"]
@@ -662,7 +664,7 @@
 				item: "botania:apothecary_default"
 				type: "item"
 			}]
-			x: 9.0d
+			x: 10.5d
 			y: 1.5d
 		}
 		{
@@ -675,39 +677,8 @@
 				item: "minecraft:dirt"
 				type: "item"
 			}]
-			x: 9.0d
+			x: 10.5d
 			y: 3.0d
-		}
-		{
-			dependencies: [
-				"19ED228B99A30CBF"
-				"4B41B7447B139821"
-				"03CF5FEDA44D312B"
-			]
-			description: ["Crush the copper and tin ingots into dusts using the mortar. Combine 3 copper dusts with 1 tin dust and you'll get 3 bronze dust!"]
-			id: "4AAB03A4BF0BCA12"
-			tasks: [
-				{
-					count: 12L
-					id: "0F552635F313885F"
-					item: "gtceu:copper_dust"
-					type: "item"
-				}
-				{
-					count: 4L
-					id: "1F79F125D75AAE0A"
-					item: "gtceu:tin_dust"
-					type: "item"
-				}
-				{
-					count: 12L
-					id: "62C2BA3C6A948E13"
-					item: { Count: 12, id: "gtceu:bronze_dust" }
-					type: "item"
-				}
-			]
-			x: 4.5d
-			y: 7.5d
 		}
 		{
 			dependencies: [
@@ -750,7 +721,7 @@
 					type: "item"
 				}
 			]
-			x: 9.0d
+			x: 10.5d
 			y: 0.0d
 		}
 		{
@@ -776,7 +747,7 @@
 				item: "botania:white_petal"
 				type: "item"
 			}]
-			x: 7.5d
+			x: 9.0d
 			y: 3.0d
 		}
 		{
@@ -907,7 +878,10 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["447138570DD0E0E0"]
+			dependencies: [
+				"447138570DD0E0E0"
+				"19ED228B99A30CBF"
+			]
 			description: [
 				"To create bronze, you're going to need to alloy copper and tin, which you can't do by hand."
 				""
@@ -950,7 +924,7 @@
 					type: "item"
 				}
 			]
-			x: 7.0d
+			x: 7.5d
 			y: 6.0d
 		}
 		{
@@ -982,6 +956,7 @@
 		}
 		{
 			dependencies: ["7B65CB7D4E38804C"]
+			description: ["Make Unfired Seared Bricks, and then fire them in a furnace to get Seared Bricks."]
 			icon: "tconstruct:seared_brick"
 			id: "447138570DD0E0E0"
 			tasks: [
@@ -1002,13 +977,26 @@
 		}
 		{
 			dependencies: ["7FCAC41DAF96462F"]
+			description: ["Smelt some gold in the smeltery and pour it over an ingot to get the cast."]
 			id: "3CFF0CD9AB0BFB99"
 			tasks: [{
 				id: "3F4193394F45C5F8"
 				item: "tconstruct:ingot_cast"
 				type: "item"
 			}]
-			x: 8.0d
+			x: 8.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["7FCAC41DAF96462F"]
+			id: "6294D256C325BD5E"
+			optional: true
+			tasks: [{
+				id: "700C77C7532BCF3A"
+				item: "tconstruct:pick_head_cast"
+				type: "item"
+			}]
+			x: 8.5d
 			y: 6.0d
 		}
 	]
