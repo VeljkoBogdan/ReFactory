@@ -50,7 +50,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 3.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["10C2C691F26385C4"]
@@ -68,8 +68,8 @@
 				item: "minecraft:iron_ingot"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 4.5d
+			x: 3.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["10C2C691F26385C4"]
@@ -87,8 +87,8 @@
 				item: "minecraft:copper_ingot"
 				type: "item"
 			}]
-			x: 4.5d
-			y: 3.0d
+			x: 3.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["10C2C691F26385C4"]
@@ -106,8 +106,8 @@
 				item: "gtceu:tin_ingot"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 4.5d
+			x: 1.5d
+			y: 7.5d
 		}
 		{
 			dependencies: ["2C4A3A86D8913871"]
@@ -338,11 +338,15 @@
 				}
 			]
 			title: "Tools"
-			x: 3.0d
-			y: 6.0d
+			x: 4.5d
+			y: 4.5d
 		}
 		{
-			dependencies: ["4AAB03A4BF0BCA12"]
+			dependencies: [
+				"4AAB03A4BF0BCA12"
+				"7FCAC41DAF96462F"
+				"3CFF0CD9AB0BFB99"
+			]
 			description: [
 				"Put the bronze dust into the furnace and wait for it to smelt."
 				"Now you get bronze! Congratulations!"
@@ -362,8 +366,8 @@
 				item: "gtceu:bronze_ingot"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 6.0d
+			x: 7.5d
+			y: 7.5d
 		}
 		{
 			dependencies: ["03CF5FEDA44D312B"]
@@ -405,8 +409,8 @@
 				}
 			]
 			title: "Fluid Pipes"
-			x: 3.0d
-			y: 7.5d
+			x: 3.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["03CF5FEDA44D312B"]
@@ -419,14 +423,11 @@
 				type: "item"
 			}]
 			title: "Item Pipes"
-			x: 3.0d
-			y: 8.5d
+			x: 3.5d
+			y: 5.0d
 		}
 		{
-			dependencies: [
-				"071811F3550BAF2F"
-				"10C2C691F26385C4"
-			]
+			dependencies: ["10C2C691F26385C4"]
 			description: [
 				"Welcome to Iron Furnaces."
 				""
@@ -468,7 +469,7 @@
 				}
 			]
 			x: 0.0d
-			y: 4.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["14769C69DDD4F79E"]
@@ -525,40 +526,6 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["03CF5FEDA44D312B"]
-			description: ["A very useful tool for gathering dirt/gravel. Mines in a 3x3 radius."]
-			id: "2C091EEA2566F00E"
-			tasks: [{
-				id: "481B9E8C050ECCA9"
-				item: {
-					Count: 1
-					id: "gtceu:iron_spade"
-					tag: {
-						DisallowContainerItem: 0b
-						GT.Behaviours: {
-							AoEColumn: 1
-							AoELayer: 0
-							AoERow: 1
-							MaxAoEColumn: 1
-							MaxAoELayer: 0
-							MaxAoERow: 1
-						}
-						GT.Tool: {
-							Damage: 0
-							Enchantability: 14
-							HarvestLevel: 2
-							MaxDamage: 767
-							ToolSpeed: 4.8f
-						}
-						HideFlags: 2
-					}
-				}
-				type: "item"
-			}]
-			x: 1.5d
-			y: 7.5d
-		}
-		{
 			dependencies: ["14769C69DDD4F79E"]
 			description: [
 				"A Campfire will create a safe zone where mobs cannot spawn."
@@ -576,7 +543,7 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["071811F3550BAF2F"]
+			dependencies: ["10C2C691F26385C4"]
 			description: [
 				"Don't worry about ore doubling, processing and other stuff yet, focus on getting a lot of ores and just smelting them."
 				""
@@ -600,8 +567,8 @@
 				item: "gtceu:wrought_iron_ingot"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 6.0d
+			x: 4.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["152793BBC475E574"]
@@ -625,7 +592,7 @@
 				item: "minecraft:clay_ball"
 				type: "item"
 			}]
-			x: 7.5d
+			x: 9.0d
 			y: 4.5d
 		}
 		{
@@ -650,8 +617,8 @@
 				type: "item"
 			}]
 			title: "Steam Age"
-			x: 7.5d
-			y: 6.0d
+			x: 9.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["14769C69DDD4F79E"]
@@ -669,35 +636,6 @@
 			}]
 			x: 2.0d
 			y: 0.5d
-		}
-		{
-			dependencies: ["03CF5FEDA44D312B"]
-			description: ["A much better pickaxe than the flint one!"]
-			id: "60338FE768FFFAE3"
-			tasks: [{
-				id: "5A1CD225AAA053BD"
-				item: {
-					Count: 1
-					id: "gtceu:wrought_iron_pickaxe"
-					tag: {
-						DisallowContainerItem: 0b
-						GT.Behaviours: {
-							TorchPlacing: 1b
-						}
-						GT.Tool: {
-							Damage: 0
-							Enchantability: 5
-							HarvestLevel: 2
-							MaxDamage: 383
-							ToolSpeed: 6.0f
-						}
-						HideFlags: 2
-					}
-				}
-				type: "item"
-			}]
-			x: 4.5d
-			y: 7.5d
 		}
 		{
 			dependencies: [
@@ -724,7 +662,7 @@
 				item: "botania:apothecary_default"
 				type: "item"
 			}]
-			x: 7.5d
+			x: 9.0d
 			y: 1.5d
 		}
 		{
@@ -737,7 +675,7 @@
 				item: "minecraft:dirt"
 				type: "item"
 			}]
-			x: 7.5d
+			x: 9.0d
 			y: 3.0d
 		}
 		{
@@ -769,7 +707,7 @@
 				}
 			]
 			x: 4.5d
-			y: 6.0d
+			y: 7.5d
 		}
 		{
 			dependencies: [
@@ -812,7 +750,7 @@
 					type: "item"
 				}
 			]
-			x: 7.5d
+			x: 9.0d
 			y: 0.0d
 		}
 		{
@@ -838,43 +776,8 @@
 				item: "botania:white_petal"
 				type: "item"
 			}]
-			x: 6.0d
+			x: 7.5d
 			y: 3.0d
-		}
-		{
-			dependencies: ["03CF5FEDA44D312B"]
-			description: ["Mining hammers are a god-sent tool in the early game, allowing you to mine a 3x3 area of blocks. Definitely use it!"]
-			id: "58890D0740220099"
-			tasks: [{
-				id: "783C27054BB3D6C8"
-				item: {
-					Count: 1
-					id: "gtceu:wrought_iron_mining_hammer"
-					tag: {
-						DisallowContainerItem: 0b
-						GT.Behaviours: {
-							AoEColumn: 1
-							AoELayer: 0
-							AoERow: 1
-							MaxAoEColumn: 1
-							MaxAoELayer: 0
-							MaxAoERow: 1
-							TorchPlacing: 1b
-						}
-						GT.Tool: {
-							Damage: 0
-							Enchantability: 5
-							HarvestLevel: 2
-							MaxDamage: 1151
-							ToolSpeed: 4.8f
-						}
-						HideFlags: 2
-					}
-				}
-				type: "item"
-			}]
-			x: 4.5d
-			y: 8.5d
 		}
 		{
 			dependencies: ["14769C69DDD4F79E"]
@@ -1002,6 +905,111 @@
 			}]
 			x: 1.5d
 			y: 1.5d
+		}
+		{
+			dependencies: ["447138570DD0E0E0"]
+			description: [
+				"To create bronze, you're going to need to alloy copper and tin, which you can't do by hand."
+				""
+				"You'll have to construct a &6Smeltery&r."
+				""
+				"The amount of seared bricks is enough to craft a 2x2x2 Smeltery, but a 1x2x2 will also suffice."
+			]
+			icon: "tconstruct:smeltery_controller"
+			id: "7FCAC41DAF96462F"
+			tasks: [
+				{
+					id: "0EDB598CDB95BF1F"
+					item: "tconstruct:smeltery_controller"
+					type: "item"
+				}
+				{
+					id: "115E94D6AD9824BD"
+					item: "tconstruct:seared_drain"
+					type: "item"
+				}
+				{
+					id: "1E2617E56E02983A"
+					item: "tconstruct:seared_fuel_tank"
+					type: "item"
+				}
+				{
+					count: 17L
+					id: "43FF9FF82600F531"
+					item: { Count: 17, id: "tconstruct:seared_bricks" }
+					type: "item"
+				}
+				{
+					id: "63D2158A7277BDB4"
+					item: "tconstruct:seared_faucet"
+					type: "item"
+				}
+				{
+					id: "62627A50D6BCA39E"
+					item: "tconstruct:seared_table"
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"03CF5FEDA44D312B"
+				"0C2AE8D7483504CC"
+			]
+			description: [
+				"You'll need plenty of this."
+				""
+				"To get gravel, you can mine cobblestone with a GT hammer tool."
+				""
+				"Similarly, you can get sand from mining gravel with a GT hammer tool."
+			]
+			id: "7B65CB7D4E38804C"
+			rewards: [{
+				count: 16
+				id: "462165EB7133C447"
+				item: "tconstruct:grout"
+				type: "item"
+			}]
+			tasks: [{
+				id: "77D896CF469036E3"
+				item: "tconstruct:grout"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["7B65CB7D4E38804C"]
+			icon: "tconstruct:seared_brick"
+			id: "447138570DD0E0E0"
+			tasks: [
+				{
+					id: "7357CF6271EA202F"
+					item: "kubejs:unfired_seared_brick"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "1ADFA69D61F2C892"
+					item: "tconstruct:seared_brick"
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7FCAC41DAF96462F"]
+			id: "3CFF0CD9AB0BFB99"
+			tasks: [{
+				id: "3F4193394F45C5F8"
+				item: "tconstruct:ingot_cast"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 6.0d
 		}
 	]
 	title: "The Beginning"

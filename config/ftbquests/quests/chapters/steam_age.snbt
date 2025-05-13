@@ -722,22 +722,6 @@
 		{
 			dependencies: [
 				"2EE31193AD86A4E2"
-				"189B920AAB6456B4"
-			]
-			description: ["The brain of the smeltery"]
-			id: "243F5B59E6E5EE5A"
-			optional: true
-			tasks: [{
-				id: "4F58E7C13EC120D3"
-				item: "tconstruct:smeltery_controller"
-				type: "item"
-			}]
-			x: 1.0d
-			y: 0.5d
-		}
-		{
-			dependencies: [
-				"2EE31193AD86A4E2"
 				"2F7F7A99342C19A6"
 			]
 			description: ["Macerate the bricks into dust using a macerator, forge hammer or mortar."]
