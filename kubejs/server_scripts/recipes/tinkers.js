@@ -90,4 +90,18 @@ ServerEvents.recipes(event => {
             W: '#forge:tools/wrenches'
         }
     )
+
+    event.remove({output: 'tconstruct:seared_basin'})
+    event.shaped(
+        'tconstruct:seared_basin',
+        [
+            'B B',
+            'S S',
+            'BSB'
+        ],
+        {
+            B: 'tconstruct:seared_brick',
+            S: 'gtceu:steel_plate'
+        }
+    )
 })
