@@ -57,7 +57,7 @@
 			description: ["You can get iron from several ores (Pyrite, Magnetite, Yellow Limonite)"]
 			id: "071811F3550BAF2F"
 			rewards: [{
-				count: 64
+				count: 16
 				id: "2CC4F008477BD963"
 				item: "minecraft:iron_ingot"
 				type: "item"
@@ -474,6 +474,7 @@
 			dependencies: ["14769C69DDD4F79E"]
 			description: ["It's not much but better than nothing."]
 			id: "17B097B326E0A44F"
+			optional: true
 			tasks: [
 				{
 					id: "0A3F84F099A00FB4"
@@ -565,6 +566,7 @@
 				"It will also hurt and kill those that are near it."
 			]
 			id: "1CF59D16AF1501E9"
+			optional: true
 			tasks: [{
 				id: "1D8DBFF2DF9D361C"
 				item: "minecraft:campfire"
@@ -665,8 +667,8 @@
 				item: "minecraft:flint"
 				type: "item"
 			}]
-			x: 3.0d
-			y: -1.5d
+			x: 2.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["03CF5FEDA44D312B"]
@@ -817,6 +819,20 @@
 			dependencies: ["152793BBC475E574"]
 			description: ["You can get botania flowers by using Floral Fertilizer on dirt or grass."]
 			id: "306DEE58E23BEB20"
+			rewards: [
+				{
+					count: 4
+					id: "20AD90805FF2C2D2"
+					item: "botania:red_petal"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "53F6A123258F9488"
+					item: "botania:blue_petal"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "6FC046A6129C92C3"
 				item: "botania:white_petal"
@@ -862,8 +878,16 @@
 		}
 		{
 			dependencies: ["14769C69DDD4F79E"]
+			description: ["A template for all of your tool parts. Also used to make work tables."]
 			id: "68713F8421BA5BB3"
+			rewards: [{
+				count: 4
+				id: "2C60A5EA88578124"
+				item: "tconstruct:pattern"
+				type: "item"
+			}]
 			tasks: [{
+				count: 9L
 				id: "4AB0C49F83D5E682"
 				item: "tconstruct:pattern"
 				type: "item"
@@ -873,7 +897,9 @@
 		}
 		{
 			dependencies: ["68713F8421BA5BB3"]
+			description: ["A crafting table on steroids. Stores items inside of it, and can also access nearby storage."]
 			id: "61441A40EAFF7A46"
+			optional: true
 			tasks: [{
 				id: "4D84075D0F563735"
 				item: "tconstruct:crafting_station"
@@ -884,17 +910,23 @@
 		}
 		{
 			dependencies: ["68713F8421BA5BB3"]
+			description: ["The part builder uses the Pattern and a material to create tool parts."]
 			id: "005050AEE23C9288"
 			tasks: [{
 				id: "177B48D7C4F8EE39"
 				item: "tconstruct:part_builder"
 				type: "item"
 			}]
-			x: 1.5d
+			x: 1.0d
 			y: 0.5d
 		}
 		{
 			dependencies: ["68713F8421BA5BB3"]
+			description: [
+				"The Tinker Station uses tool parts to create various tools."
+				""
+				"It can also repair and upgrade existing tools."
+			]
 			id: "595C615D1424B4D5"
 			tasks: [{
 				id: "753B7397BD657D19"
@@ -906,7 +938,20 @@
 		}
 		{
 			dependencies: ["68713F8421BA5BB3"]
+			description: ["The part chest holds all of your tool parts."]
 			id: "2D21598A21016787"
+			optional: true
+			rewards: [{
+				id: "572B1F26A34FB800"
+				item: {
+					Count: 1
+					id: "tconstruct:adze_head"
+					tag: {
+						Material: "tconstruct:flint"
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "7CA7A754766C92CC"
 				item: "tconstruct:part_chest"
@@ -919,8 +964,29 @@
 			dependencies: [
 				"595C615D1424B4D5"
 				"005050AEE23C9288"
+				"61C83CEB0C20873A"
+			]
+			description: [
+				"Craft your first pickaxe! &8Any pickaxe will do&r."
+				""
+				"I recommend getting a flint pickaxe head, wooden tool binding and a wooden handle."
+				""
+				"If you want, you can upgrade the pickaxe once you have stone, because flint tools slow down the less durability they have."
+				""
+				"&3Bring your Tinker Station and tool material with you wherever you go, that way you can repair it without going back to your base.&r"
 			]
 			id: "2C4A3A86D8913871"
+			rewards: [{
+				id: "0FB97854C2F6200B"
+				item: {
+					Count: 1
+					id: "tconstruct:small_axe_head"
+					tag: {
+						Material: "tconstruct:flint"
+					}
+				}
+				type: "item"
+			}]
 			shape: "gear"
 			tasks: [{
 				id: "7B399F759D1EDC28"
