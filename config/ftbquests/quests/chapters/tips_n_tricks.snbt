@@ -476,6 +476,33 @@
 			x: 7.5d
 			y: 0.0d
 		}
+		{
+			can_repeat: true
+			description: [
+				"Quest used to recharge your prospector if it ever goes out of power."
+				""
+				"Repeatable."
+			]
+			disable_toast: true
+			id: "7F59B62F4243C903"
+			rewards: [{
+				id: "7B57AB7A06CCC728"
+				item: "gtceu:prospector.hv"
+				team_reward: false
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "7A3E9B461B6E2264"
+				item: "gtceu:prospector.hv"
+				type: "item"
+			}]
+			title: "Recharge my Prospector!"
+			x: 7.5d
+			y: -5.0d
+		}
 	]
 	title: "Tips n Tricks"
 }

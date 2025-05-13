@@ -17,6 +17,7 @@
 				""
 				"Provides 1 water bucket per second."
 			]
+			icon: "gtceu:primitive_pump"
 			id: "3FCDBCB2152DE3FB"
 			optional: true
 			size: 1.0d
@@ -197,6 +198,7 @@
 				""
 				"&7You need 32 bricks for the structure and 1 for the controller.&r"
 			]
+			icon: "gtceu:primitive_blast_furnace"
 			id: "102E0DFFBDE7BD84"
 			shape: "gear"
 			size: 1.5d
@@ -389,6 +391,7 @@
 				""
 				"Used by steam multiblocks."
 			]
+			icon: "gtceu:steam_input_bus"
 			id: "429FB4A4E857C6F3"
 			optional: true
 			tasks: [
@@ -552,6 +555,7 @@
 				"You can only output from the bottom."
 			]
 			hide_dependency_lines: false
+			icon: "gtceu:wooden_multiblock_tank"
 			id: "0B4DDD082A28BD6C"
 			optional: true
 			tasks: [
@@ -690,7 +694,7 @@
 				type: "item"
 			}]
 			x: -6.5d
-			y: 5.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["1B9466B9DC03A81E"]
@@ -716,7 +720,7 @@
 				type: "item"
 			}]
 			x: -6.5d
-			y: 6.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["189B920AAB6456B4"]
@@ -792,6 +796,30 @@
 			title: "Any Sledge Hammer"
 			x: -2.0d
 			y: 5.0d
+		}
+		{
+			dependencies: ["1B9466B9DC03A81E"]
+			description: [
+				"Holds 500 buckets."
+				""
+				"Unlike the wooden tank, it can handle steam just fine!"
+			]
+			icon: "gtceu:bronze_multiblock_tank"
+			id: "5A5C6C460C5DE5BB"
+			tasks: [
+				{
+					id: "5EF6D6345879D2D3"
+					item: "gtceu:bronze_multiblock_tank"
+					type: "item"
+				}
+				{
+					id: "0A55C76579C2ECF5"
+					item: "gtceu:bronze_tank_valve"
+					type: "item"
+				}
+			]
+			x: -6.5d
+			y: 6.5d
 		}
 	]
 	title: "Steam Age"
