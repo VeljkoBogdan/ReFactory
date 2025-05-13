@@ -1,3 +1,14 @@
+let yeet = (itemName) => {
+    ServerEvents.recipes(event => {
+      event.remove({ output: itemName })
+    })
+    ServerEvents.tags('item', event => {
+      event.add('c:hidden_from_recipe_viewers', itemName)
+      event.remove('forge:tools/hammers', itemName)
+      event.remove('forge:ingots')
+    })
+}
+
 ServerEvents.recipes(event => {
     // Removing default mv circuit board recipes
     event.remove({ id: 'gtceu:assembler/phenolic_board' })
@@ -467,5 +478,15 @@ const adjectives = ["wooden", "iron", "stone", "golden", "diamond", "netherite"]
 tools.forEach(tool => {
     adjectives.forEach(adjective => {
         yeet(`minecraft:${adjective}_${tool}`)
+    })
+})
+
+// Remove early GT tools (to force tinkers)
+const adjectivesGT = ["flint", "cobalt_brass", "wrought_iron", "steel", "invar", "diamond", "bronze", "iron", "aluminium"]
+const toolTypes = ["pickaxe", "mining_hammer", "axe", "sword", "shovel", "spade"]
+
+toolTypes.forEach(tool => {
+    adjectivesGT.forEach(adjective => {
+        yeet(`gtceu:${adjective}_${tool}`)
     })
 })
