@@ -99,7 +99,11 @@
 		}
 		{
 			dependencies: ["364AD55044CC7EBE"]
-			description: ["Coke is required to make steel."]
+			description: [
+				"Coke is required to make steel."
+				""
+				"Make sure the coke oven is running all the time, and that the coke oven to primitive blast furnace ratio is 1:1"
+			]
 			id: "536AD04E85FE9AE6"
 			size: 1.0d
 			tasks: [{
@@ -351,6 +355,7 @@
 			description: ["A &aVERY&r good multiblock. Uses steam to grind 8 ores at a time, which is much faster than a regular macerator. It is recommended to get this to make your life less miserable."]
 			id: "288B368DB443FC38"
 			optional: true
+			shape: "hexagon"
 			tasks: [{
 				id: "1E0DC4F4BCC2038A"
 				item: "gtceu:steam_grinder"
@@ -379,7 +384,11 @@
 		}
 		{
 			dependencies: ["30A1CCB30F870404"]
-			description: ["Primitive input and output buses that don't require cables to craft."]
+			description: [
+				"Primitive input and output buses that don't require cables to craft."
+				""
+				"Used by steam multiblocks."
+			]
 			id: "429FB4A4E857C6F3"
 			optional: true
 			tasks: [
@@ -395,7 +404,7 @@
 				}
 			]
 			title: "Steam bus"
-			x: -2.0d
+			x: -3.0d
 			y: 3.5d
 		}
 		{
@@ -443,7 +452,7 @@
 				type: "item"
 			}]
 			title: "Cobble Generator"
-			x: -3.5d
+			x: -4.0d
 			y: 3.5d
 		}
 		{
@@ -612,7 +621,11 @@
 		}
 		{
 			dependencies: ["2F7F7A99342C19A6"]
-			description: ["Macerate the bricks into dust using a macerator, forge hammer or mortar."]
+			description: [
+				"Macerate the bricks into dust using a macerator, forge hammer or mortar."
+				""
+				"You can craft bricks using seared stone made in the smeltery instead of grout."
+			]
 			id: "3620B8407865D2A1"
 			shape: "gear"
 			tasks: [{
@@ -717,6 +730,68 @@
 			}]
 			x: 1.0d
 			y: 3.5d
+		}
+		{
+			dependencies: ["5FC306AB0CF12117"]
+			description: [
+				"The tinkers anvil will require 3 blocks of certain metals to craft, with bronze probably being your main one."
+				""
+				"It expands your tool repertoire with very useful tools!"
+			]
+			id: "2E2C79657FDB2B4C"
+			tasks: [{
+				id: "1064585E81F9B1EA"
+				item: {
+					Count: 1
+					id: "tconstruct:tinkers_anvil"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["189B920AAB6456B4"]
+			description: ["Want to make metal blocks without using gregtech, then use this!"]
+			id: "6D7A09DA66CC2559"
+			tasks: [{
+				id: "2EFF40325466F782"
+				item: "tconstruct:seared_basin"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2E2C79657FDB2B4C"]
+			description: [
+				"This big guy will let you mine a 3x3 are! How cool!"
+				""
+				"It is very, very recommended to get this in order to make your life much less miserable."
+			]
+			id: "1337BD8A5092D97B"
+			rewards: [{
+				id: "35D4D74DEAC4B759"
+				item: "tconstruct:iron_reinforcement"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "15409A8E6D6B03CC"
+				item: {
+					Count: 1
+					id: "tconstruct:sledge_hammer"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+					}
+				}
+				type: "item"
+			}]
+			title: "Any Sledge Hammer"
+			x: -2.0d
+			y: 5.0d
 		}
 	]
 	title: "Steam Age"

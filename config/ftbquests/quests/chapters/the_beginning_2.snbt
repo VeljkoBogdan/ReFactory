@@ -891,6 +891,7 @@
 			]
 			icon: "tconstruct:smeltery_controller"
 			id: "7FCAC41DAF96462F"
+			shape: "gear"
 			tasks: [
 				{
 					id: "0EDB598CDB95BF1F"
@@ -984,11 +985,16 @@
 				item: "tconstruct:ingot_cast"
 				type: "item"
 			}]
-			x: 8.5d
+			x: 9.0d
 			y: 7.5d
 		}
 		{
 			dependencies: ["7FCAC41DAF96462F"]
+			description: [
+				"You can now craft advanced tool parts using casting."
+				""
+				"I recommend starting with iron, then moving to bronze once it's available to you."
+			]
 			id: "6294D256C325BD5E"
 			optional: true
 			tasks: [{
@@ -996,7 +1002,7 @@
 				item: "tconstruct:pick_head_cast"
 				type: "item"
 			}]
-			x: 8.5d
+			x: 9.0d
 			y: 6.0d
 		}
 	]
