@@ -42,4 +42,52 @@ ServerEvents.recipes(event => {
     )
         
     event.remove({ id: 'tconstruct:common/materials/steel_block_from_ingots'})
+
+    // Smeltery Controller
+    event.shaped(
+        'tconstruct:smeltery_controller',
+        [
+            'BRB',
+            'SPS',
+            'BGB'
+        ],
+        {
+            B: 'tconstruct:seared_brick',
+            R: 'gtceu:copper_ring',
+            S: 'gtceu:copper_screw',
+            P: 'gtceu:copper_plate',
+            G: 'gtceu:copper_spring'
+        }
+    )
+
+    // Seared drain
+    event.remove({output: 'tconstruct:seared_drain'})
+    event.shaped(
+        'tconstruct:seared_drain',
+        [
+            'BCB',
+            'CWC',
+            'BCB'
+        ],
+        {
+            B: 'tconstruct:seared_brick',
+            C: 'gtceu:copper_plate',
+            W: '#forge:tools/wrenches'
+        }
+    )
+
+    // Seared Tank
+    event.remove({output: 'tconstruct:seared_fuel_tank'})
+    event.shaped(
+        'tconstruct:seared_fuel_tank',
+        [
+            'BBB',
+            'BWB',
+            'BBB'
+        ],
+        {
+            B: 'tconstruct:seared_brick',
+            W: '#forge:tools/wrenches'
+        }
+    )
 })
