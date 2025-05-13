@@ -469,6 +469,9 @@ ServerEvents.recipes(event => {
         )
         .duration(20*2.5)
         .EUt(GTValues.VA[GTValues.LV] / 2)
+
+    // Remove bronze dust recipe
+    event.remove({id: 'gtceu:shapeless/dust_bronze'})
 })
     
 // Remove vanilla tools
