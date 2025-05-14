@@ -1569,7 +1569,7 @@
 				item: "enderio:void_chassis"
 				type: "item"
 			}]
-			x: -1.0d
+			x: 0.0d
 			y: 17.5d
 		}
 		{
@@ -1961,55 +1961,6 @@
 			}]
 			x: 4.5d
 			y: 16.0d
-		}
-		{
-			dependencies: ["18BC6F844CF368EF"]
-			description: ["If you want, you can give some Aluminium Ingots in return for this unbreakable mining hammer."]
-			id: "080270877BCFDE66"
-			rewards: [{
-				id: "4204AAC532673D70"
-				item: {
-					Count: 1
-					id: "gtceu:blue_steel_mining_hammer"
-					tag: {
-						DisallowContainerItem: 0b
-						GT.Behaviours: {
-							AoEColumn: 1
-							AoELayer: 0
-							AoERow: 1
-							MaxAoEColumn: 1
-							MaxAoELayer: 0
-							MaxAoERow: 1
-						}
-						GT.Tool: {
-							AttackDamage: 7.5f
-							AttackSpeed: -3.1000001f
-							Damage: 0
-							Enchantability: 33
-							HarvestLevel: 4
-							MaxDamage: 420
-							ToolSpeed: 9.0f
-						}
-						HideFlags: 2
-						Name: "Insanely Tough Mining Hammer"
-						RepairCost: 0
-						Unbreakable: 1
-						display: {
-							Name: "{\"text\":\"Insanely Tough Mining Hammer\"}"
-						}
-					}
-				}
-				type: "item"
-			}]
-			tasks: [{
-				consume_items: true
-				count: 32L
-				id: "1F9214040773A9D9"
-				item: { Count: 16, id: "gtceu:aluminium_ingot" }
-				type: "item"
-			}]
-			x: 1.0d
-			y: 17.5d
 		}
 		{
 			dependencies: ["518756FCEA4DA67E"]
