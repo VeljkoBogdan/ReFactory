@@ -5,62 +5,9 @@
 	group: ""
 	icon: "ftbquests:book"
 	id: "077BA14C503A136B"
-	order_index: 1
+	order_index: 2
 	quest_links: [ ]
 	quests: [
-		{
-			description: ["GregTech Axes are similar to regular axes, but cut the whole tree down."]
-			icon: {
-				Count: 1
-				id: "gtceu:iron_axe"
-				tag: {
-					DisallowContainerItem: 0b
-					GT.Behaviours: {
-						DisableShields: 1b
-						TreeFelling: 1b
-					}
-					GT.Tool: {
-						Damage: 0
-						Enchantability: 14
-						HarvestLevel: 2
-						MaxDamage: 255
-						ToolSpeed: 4.0f
-					}
-					HideFlags: 2
-				}
-			}
-			id: "2156AC379D8A33E3"
-			rewards: [{
-				id: "31E45DF3A789748F"
-				item: {
-					Count: 1
-					id: "gtceu:flint_axe"
-					tag: {
-						DisallowContainerItem: 0b
-						GT.Behaviours: {
-							DisableShields: 1b
-							TreeFelling: 1b
-						}
-						GT.Tool: {
-							Damage: 0
-							Enchantability: 5
-							HarvestLevel: 2
-							MaxDamage: 63
-							ToolSpeed: 3.5f
-						}
-						HideFlags: 2
-					}
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "002F7CF95B751E58"
-				type: "checkmark"
-			}]
-			title: "GT Axes"
-			x: -1.5d
-			y: 0.0d
-		}
 		{
 			dependencies: ["189B920AAB6456B4"]
 			description: [
@@ -156,8 +103,8 @@
 				item: "sophisticatedbackpacks:backpack"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 1.5d
+			x: -1.5d
+			y: 0.0d
 		}
 		{
 			description: ["With the Find Me mod, you can now search nearby chests for items by pressing \"Y\" while hovering over the item you want to search."]

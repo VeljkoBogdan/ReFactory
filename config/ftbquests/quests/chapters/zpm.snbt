@@ -5,7 +5,7 @@
 	group: ""
 	icon: "gtceu:quantum_processor_mainframe"
 	id: "3B5E1EFB4DFE8F56"
-	order_index: 10
+	order_index: 11
 	quest_links: [ ]
 	quests: [
 		{

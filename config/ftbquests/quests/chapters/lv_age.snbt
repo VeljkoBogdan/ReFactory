@@ -5,7 +5,7 @@
 	group: ""
 	icon: "gtceu:basic_electronic_circuit"
 	id: "29B5D62254073156"
-	order_index: 4
+	order_index: 5
 	quest_links: [ ]
 	quests: [
 		{
@@ -32,12 +32,20 @@
 				"Route steam into it and it will generate electricity. Though not really a great source of power, it works for the early stages."
 			]
 			id: "03D3442F857F0592"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "719C84CE6713238F"
-				table_id: 3489525684019709649L
-				type: "loot"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "719C84CE6713238F"
+					table_id: 3489525684019709649L
+					type: "loot"
+				}
+				{
+					count: 4
+					id: "2868AE5712787CEF"
+					item: "kubejs:refactory_coin"
+					type: "item"
+				}
+			]
 			shape: "gear"
 			size: 1.5d
 			tasks: [{
@@ -61,12 +69,20 @@
 				"It's going to be hard making these components by hand until you get appropriate machines that will do the job for you."
 			]
 			id: "298F63E0659E0FD6"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "191BC70C3252C3A9"
-				table_id: 3489525684019709649L
-				type: "loot"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "191BC70C3252C3A9"
+					table_id: 3489525684019709649L
+					type: "loot"
+				}
+				{
+					count: 2
+					id: "73522AD64CB1357A"
+					item: "kubejs:refactory_coin"
+					type: "item"
+				}
+			]
 			shape: "gear"
 			size: 1.5d
 			tasks: [{
@@ -90,12 +106,20 @@
 				"Make as much as you are able to, you'll need them, trust me."
 			]
 			id: "0E1F6E844041CC9F"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "730144A4454FF52F"
-				table_id: 3489525684019709649L
-				type: "loot"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "730144A4454FF52F"
+					table_id: 3489525684019709649L
+					type: "loot"
+				}
+				{
+					count: 4
+					id: "1E88421259705B66"
+					item: "kubejs:refactory_coin"
+					type: "item"
+				}
+			]
 			shape: "gear"
 			size: 1.5d
 			tasks: [{
@@ -163,26 +187,34 @@
 				"Makes crafting wires A LOT less of a pain."
 			]
 			id: "12401DF56940C9F9"
-			rewards: [{
-				id: "07613F6B19B82771"
-				item: {
-					Count: 1
-					id: "gtceu:steel_wire_cutter"
-					tag: {
-						DisallowContainerItem: 0b
-						GT.Behaviours: { }
-						GT.Tool: {
-							Damage: 0
-							Enchantability: 14
-							HarvestLevel: 3
-							MaxDamage: 511
-							ToolSpeed: 9.0f
+			rewards: [
+				{
+					id: "07613F6B19B82771"
+					item: {
+						Count: 1
+						id: "gtceu:steel_wire_cutter"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: { }
+							GT.Tool: {
+								Damage: 0
+								Enchantability: 14
+								HarvestLevel: 3
+								MaxDamage: 511
+								ToolSpeed: 9.0f
+							}
+							HideFlags: 2
 						}
-						HideFlags: 2
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					count: 2
+					id: "45807D813DD1EC6C"
+					item: "kubejs:refactory_coin"
+					type: "item"
+				}
+			]
 			shape: "hexagon"
 			size: 1.0d
 			tasks: [{
@@ -243,6 +275,11 @@
 			dependencies: ["03D3442F857F0592"]
 			description: ["Not a requirement for progression (especially if you have higher level Iron Furnaces), but uses power instead of solid fuel."]
 			id: "4CC0BC35DF5A8F18"
+			rewards: [{
+				id: "096E7BC703196B6F"
+				item: "kubejs:refactory_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "56C90758761F1404"
 				item: "gtceu:lv_electric_furnace"
@@ -255,6 +292,12 @@
 			dependencies: ["03D3442F857F0592"]
 			description: ["A machine that creates alloys. Usually more efficient than blending dusts by hand."]
 			id: "416D2D2897567BA7"
+			rewards: [{
+				count: 2
+				id: "2ED5BE9E9362C1D4"
+				item: "kubejs:refactory_coin"
+				type: "item"
+			}]
 			shape: "gear"
 			tasks: [{
 				id: "020EA65E86B87D88"
@@ -272,6 +315,11 @@
 				"You can use it to get glass efficiently, and many more things."
 			]
 			id: "01E6A51033DA1518"
+			rewards: [{
+				id: "7F35C2FA6D469760"
+				item: "kubejs:refactory_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "6CA7F14BA3CAA4F3"
 				item: "gtceu:lv_arc_furnace"
@@ -284,6 +332,11 @@
 			dependencies: ["44495C979D17EFD5"]
 			description: ["Turns certain dusts into gems, among other things."]
 			id: "662A64496CA2E824"
+			rewards: [{
+				id: "593D369374DDFC0F"
+				item: "kubejs:refactory_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "1706653C1D728D37"
 				item: "gtceu:lv_autoclave"
@@ -309,6 +362,12 @@
 					item: "gtceu:fluid_cell"
 					type: "item"
 				}
+				{
+					count: 2
+					id: "48981A358231E604"
+					item: "kubejs:refactory_coin"
+					type: "item"
+				}
 			]
 			shape: "gear"
 			tasks: [{
@@ -327,6 +386,11 @@
 				"It is incredibly useful throughout the pack."
 			]
 			id: "2425F4CE4FE78AC1"
+			rewards: [{
+				id: "2C9BE1C5BE3FF43E"
+				item: "kubejs:refactory_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "5B34E0D422A1B61B"
 				item: "gtceu:lv_chemical_reactor"
@@ -339,12 +403,19 @@
 			dependencies: ["1AD99F9620569AA4"]
 			description: ["Compresses stuff (you didn't see this one coming did ya?)"]
 			id: "2C3AF8EA8EF8A321"
-			rewards: [{
-				count: 16
-				id: "459B4BDAE2E42102"
-				item: "gtceu:rubber_ingot"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 16
+					id: "459B4BDAE2E42102"
+					item: "gtceu:rubber_ingot"
+					type: "item"
+				}
+				{
+					id: "7A931915A7C26D18"
+					item: "kubejs:refactory_coin"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "00D83C31629AFEB3"
 				item: "gtceu:lv_compressor"
@@ -357,6 +428,11 @@
 			dependencies: ["03D3442F857F0592"]
 			description: ["Separates things into their components (no this is not the centrifuge)"]
 			id: "4D377D42028B96A1"
+			rewards: [{
+				id: "2D98D42F2C0D79D4"
+				item: "kubejs:refactory_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "4FCF72B0E5AC601F"
 				item: "gtceu:lv_electrolyzer"
@@ -369,6 +445,12 @@
 			dependencies: ["44495C979D17EFD5"]
 			description: ["Extracts stuff from liquids."]
 			id: "20A8D7A27A745592"
+			rewards: [{
+				count: 2
+				id: "27C662734CA80ABF"
+				item: "kubejs:refactory_coin"
+				type: "item"
+			}]
 			shape: "gear"
 			tasks: [{
 				id: "74100EBEAB9A3FD0"
@@ -382,12 +464,19 @@
 			dependencies: ["1AD99F9620569AA4"]
 			description: ["Not really useful in LV, as 90% of the recipes it has require MV voltage."]
 			id: "11ACC7CD8EFFBB66"
-			rewards: [{
-				count: 4
-				id: "6D8A2E22A8BB36F1"
-				item: "gtceu:empty_mold"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 4
+					id: "6D8A2E22A8BB36F1"
+					item: "gtceu:empty_mold"
+					type: "item"
+				}
+				{
+					id: "75A8AAE494AD99FC"
+					item: "kubejs:refactory_coin"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "0E31D8A896B81D9D"
 				item: "gtceu:lv_extruder"
@@ -400,12 +489,20 @@
 			dependencies: ["298F63E0659E0FD6"]
 			description: ["Mixes things to create mixed things :BatChest:"]
 			id: "4816A85DF7D24F0B"
-			rewards: [{
-				count: 2
-				id: "6EAE556FAEECCBEB"
-				item: "gtceu:item_filter"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 2
+					id: "6EAE556FAEECCBEB"
+					item: "gtceu:item_filter"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "28507A077A42C142"
+					item: "kubejs:refactory_coin"
+					type: "item"
+				}
+			]
 			shape: "gear"
 			size: 1.0d
 			tasks: [{
@@ -424,6 +521,11 @@
 				"This little guy washes your dusts/ores."
 			]
 			id: "7EAA57EC0799D40D"
+			rewards: [{
+				id: "2E2C3D4FA665E18A"
+				item: "kubejs:refactory_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "3992F3ADBF90A6C6"
 				item: "gtceu:lv_ore_washer"
@@ -459,12 +561,19 @@
 				"Can be used as a cover on a machine."
 			]
 			id: "44495C979D17EFD5"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "2F9456B88C036EE1"
-				table_id: 3489525684019709649L
-				type: "loot"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2F9456B88C036EE1"
+					table_id: 3489525684019709649L
+					type: "loot"
+				}
+				{
+					id: "0BC6F4BD6C628945"
+					item: "kubejs:refactory_coin"
+					type: "item"
+				}
+			]
 			shape: "gear"
 			size: 1.5d
 			tasks: [{
@@ -528,12 +637,19 @@
 			description: ["With the Placeable Emitters mod, you can now place emitters and transfer energy wirelessly!"]
 			id: "05B388C998126A7C"
 			optional: true
-			rewards: [{
-				count: 4
-				id: "57A06106EB4E9304"
-				item: "gtceu:brass_ingot"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 4
+					id: "57A06106EB4E9304"
+					item: "gtceu:brass_ingot"
+					type: "item"
+				}
+				{
+					id: "34664AA9A0A90250"
+					item: "kubejs:refactory_coin"
+					type: "item"
+				}
+			]
 			size: 1.0d
 			tasks: [{
 				id: "6FA92A9A0C209647"
@@ -547,6 +663,11 @@
 			dependencies: ["44495C979D17EFD5"]
 			description: ["Puts stuff into cans (and batteries)."]
 			id: "1996FB28610A07F4"
+			rewards: [{
+				id: "59BB3D99D7929390"
+				item: "kubejs:refactory_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "0AF54BBA168B9520"
 				item: "gtceu:lv_canner"
@@ -606,6 +727,12 @@
 					id: "35F4189513DD6D59"
 					table_id: 3489525684019709649L
 					type: "random"
+				}
+				{
+					count: 4
+					id: "4E678B6A34466B11"
+					item: "kubejs:refactory_coin"
+					type: "item"
 				}
 			]
 			shape: "gear"
@@ -711,12 +838,19 @@
 			dependencies: ["1AD99F9620569AA4"]
 			description: ["If the igneous extruder is not good enough for you."]
 			id: "597B768AC0E3FBEC"
-			rewards: [{
-				count: 128
-				id: "795F7D301D54BB17"
-				item: "gtceu:marble"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 128
+					id: "795F7D301D54BB17"
+					item: "gtceu:marble"
+					type: "item"
+				}
+				{
+					id: "6600560F7DBE620D"
+					item: "kubejs:refactory_coin"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "79E17099F22F5C5E"
 				item: "gtceu:lv_rock_crusher"
@@ -752,6 +886,12 @@
 					id: "6B31235CAE55D981"
 					table_id: 3489525684019709649L
 					type: "loot"
+				}
+				{
+					count: 4
+					id: "1EC7A8EFADDB2B30"
+					item: "kubejs:refactory_coin"
+					type: "item"
 				}
 			]
 			shape: "gear"
@@ -881,11 +1021,18 @@
 			]
 			disable_toast: true
 			id: "79469B87C6E057CA"
-			rewards: [{
-				id: "28AD185319B60FF1"
-				item: "gtceu:duct_tape"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "28AD185319B60FF1"
+					item: "gtceu:duct_tape"
+					type: "item"
+				}
+				{
+					id: "54DFB590D9BEB2B5"
+					item: "kubejs:refactory_coin"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "76DDC25C641D4F7F"
 				title: "Wallsharing"
@@ -951,12 +1098,20 @@
 			]
 			description: ["The base of all MV machines"]
 			id: "498EF8FFD105D589"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "28D180A4EA9CEA1C"
-				table_id: 685747861540631198L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "28D180A4EA9CEA1C"
+					table_id: 685747861540631198L
+					type: "random"
+				}
+				{
+					count: 4
+					id: "25135D81D8787997"
+					item: "kubejs:refactory_coin"
+					type: "item"
+				}
+			]
 			shape: "gear"
 			size: 1.5d
 			tasks: [{
@@ -980,6 +1135,11 @@
 			]
 			id: "77529F6F46D25E74"
 			optional: true
+			rewards: [{
+				id: "3CCC2D72EDF0C94B"
+				item: "kubejs:refactory_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "537E23D3C0AD1590"
 				item: "gtceu:lv_4a_energy_converter"
@@ -994,6 +1154,11 @@
 			description: ["Holds insane amounts of one item."]
 			id: "5CE14FF227CC4A58"
 			optional: true
+			rewards: [{
+				id: "6B9732EC80067741"
+				item: "kubejs:refactory_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "3FB6A1A4FB68E55E"
 				item: "gtceu:lv_super_chest"
@@ -1030,6 +1195,11 @@
 				"For now you can use it to make bolts, but it only gets more useful later on."
 			]
 			id: "0ADAD20D4196337D"
+			rewards: [{
+				id: "7167524E345E4AAB"
+				item: "kubejs:refactory_coin"
+				type: "item"
+			}]
 			shape: "gear"
 			tasks: [{
 				id: "5E22F7BF0CECAAC5"
@@ -1043,6 +1213,11 @@
 			dependencies: ["44495C979D17EFD5"]
 			description: ["Pumps liquids."]
 			id: "29C101F9D9E01012"
+			rewards: [{
+				id: "53B649553DE6C20A"
+				item: "kubejs:refactory_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "1A49E8ACB4659F89"
 				item: "gtceu:lv_pump"
@@ -1064,6 +1239,7 @@
 			]
 			id: "7D3B41AED0D6C081"
 			optional: true
+			shape: "octagon"
 			tasks: [{
 				id: "75C6919BB02D9293"
 				item: "gtceu:bronze_large_boiler"
@@ -1076,6 +1252,11 @@
 			dependencies: ["2425F4CE4FE78AC1"]
 			description: ["Chemical reactors allow you to make rubber more efficiently."]
 			id: "7B42F0062CCF379B"
+			rewards: [{
+				id: "76541F08D0DA3843"
+				item: "kubejs:refactory_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "5CE5439EE3C20DB9"
 				item: "gtceu:rubber_bucket"
@@ -1092,11 +1273,18 @@
 				"You can also transform them into Universal Cells, which can hold more molten fluids (1000mb) than normal cells (144mb), but have less functionality."
 			]
 			id: "68ADC7ADA9E45EB2"
-			rewards: [{
-				id: "77764BDCADE3024B"
-				item: "enderio:fluid_tank"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "77764BDCADE3024B"
+					item: "enderio:fluid_tank"
+					type: "item"
+				}
+				{
+					id: "1F812637545B97CF"
+					item: "kubejs:refactory_coin"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "57BA2CE66F9FC27B"
@@ -1165,6 +1353,11 @@
 			description: ["This little guy holds energy for you and can charge your inventory equipment."]
 			id: "29598AD66C765FBA"
 			optional: true
+			rewards: [{
+				id: "7A0B10487B25C827"
+				item: "kubejs:refactory_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "09621B4CE4B7D315"
 				item: {
@@ -1181,6 +1374,11 @@
 			dependencies: ["44495C979D17EFD5"]
 			description: ["Distills liquids."]
 			id: "59B4E0F4EA02306B"
+			rewards: [{
+				id: "75728B91FE7B0445"
+				item: "kubejs:refactory_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "73E33CD17C8C95FD"
 				item: "gtceu:lv_distillery"
@@ -1290,6 +1488,12 @@
 				"You can automate the production using open crates for now."
 			]
 			id: "55D76A052A9EE6A0"
+			rewards: [{
+				count: 4
+				id: "483975B9690CA818"
+				item: "kubejs:refactory_coin"
+				type: "item"
+			}]
 			shape: "gear"
 			size: 1.5d
 			tasks: [{
@@ -1304,6 +1508,11 @@
 			dependencies: ["74C94B5C7B866A34"]
 			description: ["Better than a regular cell."]
 			id: "389E05F5B0B8FD1A"
+			rewards: [{
+				id: "595904AA1E97E8B2"
+				item: "kubejs:refactory_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "60D7C8FB99B88068"
 				item: "gtceu:steel_fluid_cell"
@@ -1320,6 +1529,11 @@
 				"See the \"Power\" tab for more info."
 			]
 			id: "164443788430F196"
+			rewards: [{
+				id: "5C90F092BB069786"
+				item: "kubejs:refactory_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "75CCC7153CD65E6E"
 				item: "powah:dielectric_paste"
@@ -1333,6 +1547,11 @@
 			dependencies: ["7F7FA47652C0FA90"]
 			description: ["If you haven't made an EnderIO magnet, this one does the job as well, but is a bit harder to craft."]
 			id: "1E761C6B347E80D6"
+			rewards: [{
+				id: "15F2F344397613D4"
+				item: "kubejs:refactory_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "3E7BF9337D7DCD9F"
 				item: "gtceu:lv_item_magnet"
@@ -1362,11 +1581,18 @@
 			]
 			id: "6F8BA04C054531D5"
 			optional: true
-			rewards: [{
-				id: "13BA777CED4DD4E1"
-				item: "gtceu:lv_electric_pump"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "13BA777CED4DD4E1"
+					item: "gtceu:lv_electric_pump"
+					type: "item"
+				}
+				{
+					id: "41590601EB12FB57"
+					item: "kubejs:refactory_coin"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "1916FC1736C81B3E"
 				item: "thermal:device_water_gen"
@@ -1384,26 +1610,33 @@
 			]
 			id: "46303F9FE371A8BA"
 			optional: true
-			rewards: [{
-				id: "31E7A69D717666EA"
-				item: {
-					Count: 1
-					id: "gtceu:iron_crowbar"
-					tag: {
-						DisallowContainerItem: 0b
-						GT.Behaviours: { }
-						GT.Tool: {
-							Damage: 0
-							Enchantability: 14
-							HarvestLevel: 2
-							MaxDamage: 255
-							ToolSpeed: 6.0f
+			rewards: [
+				{
+					id: "31E7A69D717666EA"
+					item: {
+						Count: 1
+						id: "gtceu:iron_crowbar"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: { }
+							GT.Tool: {
+								Damage: 0
+								Enchantability: 14
+								HarvestLevel: 2
+								MaxDamage: 255
+								ToolSpeed: 6.0f
+							}
+							HideFlags: 2
 						}
-						HideFlags: 2
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "711CF382D9E2D857"
+					item: "kubejs:refactory_coin"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "178F4B931CE5BCF6"
 				item: "gtceu:steel_crate"
@@ -1420,6 +1653,11 @@
 				"Any liquid fuel will work such as creosote, oil, etc."
 			]
 			id: "14DC5DD0B504E902"
+			rewards: [{
+				id: "4A5D360BB4878837"
+				item: "kubejs:refactory_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "535612784E5DC6B0"
 				item: {
@@ -1440,6 +1678,11 @@
 				"Each GT tier has its own upgrade."
 			]
 			id: "2D82EB05632CE9E0"
+			rewards: [{
+				id: "66DD4B41FF496E10"
+				item: "kubejs:refactory_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "08F6FE0738F55D61"
 				item: "powah:energy_cable_starter"
@@ -1456,6 +1699,11 @@
 				"It does not export items by default, so you're going to have to pull from it."
 			]
 			id: "1845F5B69046AA95"
+			rewards: [{
+				id: "12E23AB22144AF98"
+				item: "kubejs:refactory_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "002EA2B577FE7C7F"
 				item: "thermal:device_rock_gen"
@@ -1510,6 +1758,11 @@
 				"You'll unlock your first one when you get &3Manasteel&r, which is close, but don't rush!"
 			]
 			id: "3F552EA8957F9A07"
+			rewards: [{
+				id: "5B9EC12980E94F37"
+				item: "kubejs:refactory_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "6671396AA9DC2EDE"
 				title: "Superconductors"
@@ -1521,6 +1774,11 @@
 		{
 			dependencies: ["44495C979D17EFD5"]
 			id: "1767841E26CE2BE4"
+			rewards: [{
+				id: "370540002067D667"
+				item: "kubejs:refactory_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "3E42A389DABB4ADC"
 				item: "gtceu:lv_brewery"
@@ -1605,6 +1863,11 @@
 			]
 			hide_dependency_lines: false
 			id: "3D20AD20CA37A280"
+			rewards: [{
+				id: "04A84D29B0D75FCA"
+				item: "kubejs:refactory_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "04929F17E0D06C9B"
 				item: "enderio:conduit_binder"

@@ -5,7 +5,7 @@
 	group: ""
 	icon: "gtceu:lp_steam_solid_boiler"
 	id: "4BC832EA23E254B0"
-	order_index: 3
+	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{
@@ -20,6 +20,11 @@
 			icon: "gtceu:primitive_pump"
 			id: "3FCDBCB2152DE3FB"
 			optional: true
+			rewards: [{
+				id: "126A6CC86BC67B6F"
+				item: "kubejs:refactory_coin"
+				type: "item"
+			}]
 			size: 1.0d
 			tasks: [
 				{
@@ -59,12 +64,20 @@
 			]
 			icon: "gtceu:coke_oven"
 			id: "364AD55044CC7EBE"
-			rewards: [{
-				count: 32
-				id: "4213B61D30307511"
-				item: "minecraft:coal"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 32
+					id: "4213B61D30307511"
+					item: "minecraft:coal"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "40F9EBA6218CE1E8"
+					item: "kubejs:refactory_coin"
+					type: "item"
+				}
+			]
 			shape: "gear"
 			size: 1.5d
 			tasks: [
@@ -90,6 +103,12 @@
 			]
 			description: ["A forge hammer is used to turn ingots into plates at a 3:2 ratio, which is much better than making them by hand."]
 			id: "2F7F7A99342C19A6"
+			rewards: [{
+				count: 2
+				id: "6C59A1CD21E9379B"
+				item: "kubejs:refactory_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "697C4B2469318D1F"
 				item: "gtceu:lp_steam_forge_hammer"
@@ -143,6 +162,12 @@
 			]
 			id: "64A960EB7D740D3F"
 			optional: true
+			rewards: [{
+				count: 2
+				id: "3C7BBED89D998289"
+				item: "kubejs:refactory_coin"
+				type: "item"
+			}]
 			subtitle: "Much Efficient"
 			tasks: [{
 				id: "689A4D99EE70B56F"
@@ -158,6 +183,13 @@
 			description: ["Makes alloys, which are going to be needed later."]
 			id: "66BCC30A05D77C6F"
 			optional: true
+			rewards: [{
+				count: 2
+				id: "5CB037F1F5B3E272"
+				item: "kubejs:refactory_coin"
+				type: "item"
+			}]
+			shape: "hexagon"
 			tasks: [{
 				id: "7C93F074DF8AD9B0"
 				item: "gtceu:lp_steam_alloy_smelter"
@@ -174,6 +206,12 @@
 				"It is also needed to make Firebricks for a Primitive Blast Furnace."
 			]
 			id: "5FC306AB0CF12117"
+			rewards: [{
+				count: 2
+				id: "31850B1D3FC8BAFD"
+				item: "kubejs:refactory_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "06F7D7D87FB7BD7E"
 				item: "gtceu:lp_steam_compressor"
@@ -200,6 +238,12 @@
 			]
 			icon: "gtceu:primitive_blast_furnace"
 			id: "102E0DFFBDE7BD84"
+			rewards: [{
+				count: 8
+				id: "31CC4516A7D8A1CA"
+				item: "kubejs:refactory_coin"
+				type: "item"
+			}]
 			shape: "gear"
 			size: 1.5d
 			tasks: [
@@ -231,12 +275,20 @@
 				"You'll need plenty of it, so keep the PBF going."
 			]
 			id: "189B920AAB6456B4"
-			rewards: [{
-				count: 8
-				id: "50007B6662EF549E"
-				item: "aether:gingerbread_man"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 8
+					id: "50007B6662EF549E"
+					item: "aether:gingerbread_man"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "350F7F86CA48093C"
+					item: "kubejs:refactory_coin"
+					type: "item"
+				}
+			]
 			shape: "gear"
 			size: 1.5d
 			tasks: [{
@@ -259,6 +311,12 @@
 				"Go to LV AGE when you complete this quest!"
 			]
 			id: "62B56B57D291BF7B"
+			rewards: [{
+				count: 4
+				id: "209194F46DAFF4BD"
+				item: "kubejs:refactory_coin"
+				type: "item"
+			}]
 			shape: "gear"
 			size: 1.5d
 			tasks: [{
@@ -294,6 +352,12 @@
 			]
 			description: ["Now that you have rubber, you're ready to make cables! "]
 			id: "09ECD67B4648D2EA"
+			rewards: [{
+				count: 4
+				id: "763E1A102297DD0D"
+				item: "kubejs:refactory_coin"
+				type: "item"
+			}]
 			size: 1.5d
 			tasks: [{
 				id: "1ECBD4DC55C2A0EE"
@@ -357,6 +421,12 @@
 			description: ["A &aVERY&r good multiblock. Uses steam to grind 8 ores at a time, which is much faster than a regular macerator. It is recommended to get this to make your life less miserable."]
 			id: "288B368DB443FC38"
 			optional: true
+			rewards: [{
+				count: 2
+				id: "481B2C757AFC9ABA"
+				item: "kubejs:refactory_coin"
+				type: "item"
+			}]
 			shape: "hexagon"
 			tasks: [{
 				id: "1E0DC4F4BCC2038A"
@@ -415,6 +485,12 @@
 			description: ["A multiblock version of the alloy smelter."]
 			id: "07A730A0B1F9A9CB"
 			optional: true
+			rewards: [{
+				count: 2
+				id: "30F7BA33C6895609"
+				item: "kubejs:refactory_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "2629D18876434DC8"
 				item: "steamadditions:steam_foundry"
@@ -432,6 +508,12 @@
 			]
 			id: "0F9A343D4916C7A4"
 			optional: true
+			rewards: [{
+				count: 2
+				id: "5CA2D09A750F6658"
+				item: "kubejs:refactory_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "28DB8871FF767453"
 				item: "steamadditions:steam_separator"
@@ -449,6 +531,11 @@
 			]
 			id: "700A61CF2839E142"
 			optional: true
+			rewards: [{
+				id: "33A20AB60DCA8CB9"
+				item: "kubejs:refactory_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "11A8110C4D883C83"
 				item: "gtceu:lp_steam_rock_crusher"
@@ -558,6 +645,11 @@
 			icon: "gtceu:wooden_multiblock_tank"
 			id: "0B4DDD082A28BD6C"
 			optional: true
+			rewards: [{
+				id: "6C9C2229D57B77A5"
+				item: "kubejs:refactory_coin"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "02E3ACFC98FB8EAB"
@@ -688,6 +780,12 @@
 			description: ["Multiblock version of the lathe. Gives much more efficient production of rods. Allows 8 recipes at a time."]
 			id: "7E0C0D96C78AB709"
 			optional: true
+			rewards: [{
+				count: 2
+				id: "22FF90B1653E4A66"
+				item: "kubejs:refactory_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "6458778CC1007DC4"
 				item: "gtceu:steam_borer"
@@ -701,6 +799,12 @@
 			description: ["Multiblock version of the Extractor, allows for 8 recipes at a time."]
 			id: "3A119FB271E590F1"
 			optional: true
+			rewards: [{
+				count: 2
+				id: "0C39EF4ED5170753"
+				item: "kubejs:refactory_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "7F3F7A70B109E78F"
 				item: "gtceu:steam_large_extractor"
@@ -714,6 +818,12 @@
 			description: ["Multiblock version of the mixer. Allows 8 recipes at a time."]
 			id: "18A39FBA2F3CFBAD"
 			optional: true
+			rewards: [{
+				count: 2
+				id: "41BC69D224BEAFF3"
+				item: "kubejs:refactory_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "065BBE2FCAF1B3D0"
 				item: "gtceu:steam_blender"
@@ -727,6 +837,12 @@
 			description: ["If you have extra steel, make yourself the Advanced Blast Furnace. It can make steel much more efficiently, and also process 4 recipes at a time!"]
 			id: "5F1B965B2EBABCDF"
 			optional: true
+			rewards: [{
+				count: 4
+				id: "049346FE3CE1B5D7"
+				item: "kubejs:refactory_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "23BE9FB98B2E4328"
 				item: "gtceu:advanced_primitive_blast_furnace"
@@ -743,6 +859,12 @@
 				"It expands your tool repertoire with very useful tools!"
 			]
 			id: "2E2C79657FDB2B4C"
+			rewards: [{
+				count: 2
+				id: "4A6E907DACE34A34"
+				item: "kubejs:refactory_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "1064585E81F9B1EA"
 				item: {
@@ -806,6 +928,12 @@
 			]
 			icon: "gtceu:bronze_multiblock_tank"
 			id: "5A5C6C460C5DE5BB"
+			rewards: [{
+				count: 2
+				id: "3F40C195B46C159D"
+				item: "kubejs:refactory_coin"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "5EF6D6345879D2D3"

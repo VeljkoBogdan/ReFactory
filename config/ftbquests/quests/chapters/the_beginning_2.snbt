@@ -5,7 +5,7 @@
 	group: ""
 	icon: "biomesoplenty:dead_log"
 	id: "13790159E00110D4"
-	order_index: 2
+	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
@@ -612,6 +612,12 @@
 				"Congratulations, you have completed this chapter. You can freely move onto the next."
 			]
 			id: "570F99AFC0C287A7"
+			rewards: [{
+				count: 4
+				id: "60528B153CACD1D0"
+				item: "kubejs:refactory_coin"
+				type: "item"
+			}]
 			shape: "gear"
 			size: 1.5d
 			subtitle: "Finally, machinery (not yet)"
@@ -654,12 +660,20 @@
 				"If you accidentaly dropped in an item you don't need, you can right click the apothecary to extract it."
 			]
 			id: "2ED2E40A78639C73"
-			rewards: [{
-				count: 4
-				id: "349D6C074357CF1B"
-				item: "minecraft:bone_meal"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 4
+					id: "349D6C074357CF1B"
+					item: "minecraft:bone_meal"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "2806838B2C06555A"
+					item: "kubejs:refactory_coin"
+					type: "item"
+				}
+			]
 			shape: "gear"
 			tasks: [{
 				id: "4C3B93802611D378"
@@ -893,6 +907,12 @@
 			]
 			icon: "tconstruct:smeltery_controller"
 			id: "7FCAC41DAF96462F"
+			rewards: [{
+				count: 4
+				id: "5FB931C134439C77"
+				item: "kubejs:refactory_coin"
+				type: "item"
+			}]
 			shape: "gear"
 			tasks: [
 				{

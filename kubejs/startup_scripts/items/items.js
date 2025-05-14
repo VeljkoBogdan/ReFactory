@@ -22,7 +22,11 @@ StartupEvents.registry('item', event => {
 
     event.create('unfired_seared_brick')
         .displayName('Unfired Seared Brick')
-    
+
+    // Refactory coin
+    event.create('refactory_coin')
+        .displayName('ReFactory Coin')
+        .tooltip('§jUsed to trade for items in the Shop')
 
     // // Simulated Egg
     // event.create('simulated_egg')

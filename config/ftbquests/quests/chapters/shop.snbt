@@ -1,0 +1,376 @@
+{
+	consume_items: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	default_repeatable_quest: true
+	disable_toast: true
+	filename: "shop"
+	group: ""
+	icon: "kubejs:refactory_coin"
+	id: "769F670BF66B2DD0"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: true
+			dependencies: ["03CF5FEDA44D312B"]
+			icon: { Count: 64, id: "minecraft:clay_ball" }
+			id: "10B88775943D6BCD"
+			rewards: [{
+				count: 64
+				id: "59CB99AD3E9C360D"
+				item: "minecraft:clay_ball"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 8L
+				id: "4B975E918850D912"
+				item: { Count: 8, id: "kubejs:refactory_coin" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["35CB055A24346DE1"]
+			icon: { Count: 16, id: "gtceu:vacuum_tube" }
+			id: "2B34709869721992"
+			rewards: [{
+				count: 16
+				id: "488361B7AB971C5D"
+				item: "gtceu:vacuum_tube"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 8L
+				id: "0C03E6D22B38DC9E"
+				item: { Count: 8, id: "kubejs:refactory_coin" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["630A813B0F4DA078"]
+			icon: { Count: 16, id: "gtceu:diode" }
+			id: "14624DC89B899AFD"
+			rewards: [{
+				count: 16
+				id: "0F155B1011A2C544"
+				item: "gtceu:diode"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 8L
+				id: "3110C3FAD0E30C9D"
+				item: { Count: 8, id: "kubejs:refactory_coin" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["35CB055A24346DE1"]
+			icon: { Count: 16, id: "gtceu:tin_single_cable" }
+			id: "5945D8F07D762122"
+			rewards: [{
+				count: 16
+				id: "755CEAB3B8A721AB"
+				item: "gtceu:tin_single_cable"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 8L
+				id: "3475B40524BD2B40"
+				item: { Count: 8, id: "kubejs:refactory_coin" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["35CB055A24346DE1"]
+			icon: { Count: 16, id: "gtceu:red_alloy_single_cable" }
+			id: "0EEB4D3D2A3F4D88"
+			rewards: [{
+				count: 16
+				id: "420E2D63E202F05E"
+				item: "gtceu:red_alloy_single_cable"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 8L
+				id: "7CDD7F171E40EE90"
+				item: { Count: 8, id: "kubejs:refactory_coin" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["35CB055A24346DE1"]
+			icon: { Count: 32, id: "gtceu:sticky_resin" }
+			id: "343B644D9920CDC4"
+			rewards: [{
+				count: 32
+				id: "01A6946FE7ECC598"
+				item: "gtceu:sticky_resin"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 8L
+				id: "0C2B52D8DBAE7D96"
+				item: { Count: 8, id: "kubejs:refactory_coin" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["03CF5FEDA44D312B"]
+			icon: { Count: 4, id: "botanypots:terracotta_botany_pot" }
+			id: "1743BB0B4D472D7B"
+			rewards: [{
+				count: 4
+				id: "720D72F1EA85BB4C"
+				item: "botanypots:terracotta_botany_pot"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 8L
+				id: "2FD799AB54605EFF"
+				item: { Count: 8, id: "kubejs:refactory_coin" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["35CB055A24346DE1"]
+			icon: { Count: 16, id: "gtceu:resistor" }
+			id: "44E375119BC1CB8C"
+			rewards: [{
+				count: 16
+				id: "5724D2402031BF0B"
+				item: "gtceu:resistor"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 8L
+				id: "0D704610F1C1FC8E"
+				item: { Count: 8, id: "kubejs:refactory_coin" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["35CB055A24346DE1"]
+			icon: { Count: 16, id: "minecraft:paper" }
+			id: "6A3139282E2D24A1"
+			rewards: [{
+				count: 16
+				id: "251A9CE83B6A9846"
+				item: "minecraft:paper"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "1830F53F8DA1F849"
+				item: { Count: 8, id: "kubejs:refactory_coin" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["35CB055A24346DE1"]
+			icon: { Count: 16, id: "minecraft:glass" }
+			id: "1587B9D358BE1492"
+			rewards: [{
+				count: 16
+				id: "181B61906F7ABAC8"
+				item: "minecraft:glass"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 8L
+				id: "2EA0FACFEBE9E782"
+				item: { Count: 8, id: "kubejs:refactory_coin" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["630A813B0F4DA078"]
+			icon: { Count: 16, id: "gtceu:copper_single_cable" }
+			id: "300DE42E66936A28"
+			rewards: [{
+				count: 16
+				id: "07212AA907B23DF3"
+				item: "gtceu:copper_single_cable"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 8L
+				id: "18DE72F521CBCBC0"
+				item: { Count: 8, id: "kubejs:refactory_coin" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["59775F7F175FF086"]
+			icon: { Count: 16, id: "gtceu:transistor" }
+			id: "4EA67699AF69D860"
+			rewards: [{
+				count: 16
+				id: "1DD837ABCF999D25"
+				item: "gtceu:transistor"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 8L
+				id: "7E4DECD0EB4CA8F4"
+				item: { Count: 8, id: "kubejs:refactory_coin" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["59775F7F175FF086"]
+			icon: { Count: 16, id: "gtceu:inductor" }
+			id: "1ACA594CFDB9AC0A"
+			rewards: [{
+				count: 16
+				id: "3ACE303F6BE43FB2"
+				item: "gtceu:inductor"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 8L
+				id: "55F97C448DC6EEC8"
+				item: { Count: 8, id: "kubejs:refactory_coin" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["59775F7F175FF086"]
+			icon: { Count: 16, id: "gtceu:capacitor" }
+			id: "1B4B52DBAB8CE634"
+			rewards: [{
+				count: 16
+				id: "03881CD4B4D37DF8"
+				item: "gtceu:capacitor"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 8L
+				id: "70E43AA508E49F49"
+				item: { Count: 8, id: "kubejs:refactory_coin" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["35CB055A24346DE1"]
+			icon: { Count: 8, id: "minecraft:ender_pearl" }
+			id: "0DA20C3C9ACA71E9"
+			rewards: [{
+				count: 8
+				id: "29200AA604E72ED2"
+				item: "minecraft:ender_pearl"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 8L
+				id: "346021682F338E72"
+				item: { Count: 8, id: "kubejs:refactory_coin" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["35CB055A24346DE1"]
+			icon: { Count: 16, id: "minecraft:gunpowder" }
+			id: "6E2CCBED3F5AFD91"
+			rewards: [{
+				count: 16
+				id: "4338FCBC9982E024"
+				item: "minecraft:gunpowder"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 8L
+				id: "6D8B68020CAAD204"
+				item: { Count: 8, id: "kubejs:refactory_coin" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["59775F7F175FF086"]
+			icon: { Count: 16, id: "gtceu:industrial_tnt" }
+			id: "1F9C4044CC216233"
+			rewards: [{
+				count: 16
+				id: "1B04C782718DBEFC"
+				item: "gtceu:industrial_tnt"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 8L
+				id: "737E2A8C5580A225"
+				item: { Count: 8, id: "kubejs:refactory_coin" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 4.5d
+		}
+		{
+			description: [
+				"This chapter is not finished and probably unbalanced."
+				""
+				"You will unlock portions of the shop after certain points of the progression."
+			]
+			icon: "botania:cosmetic_questgiver_mark"
+			id: "35A542475080BFA1"
+			shape: "square"
+			size: 1.5d
+			tasks: [{
+				id: "0CEDFA582DB2D39A"
+				title: "TODO"
+				type: "checkmark"
+			}]
+			x: 3.75d
+			y: -3.0d
+		}
+	]
+	title: "Shop"
+}
