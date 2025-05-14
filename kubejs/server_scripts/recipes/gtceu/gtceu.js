@@ -472,6 +472,103 @@ ServerEvents.recipes(event => {
 
     // Remove bronze dust recipe
     event.remove({id: 'gtceu:shapeless/dust_bronze'})
+
+    // Large Steam Extractor
+    event.shaped(
+        'gtceu:steam_large_extractor',
+        [
+            'CSC',
+            'CEC',
+            'CFC'
+        ],
+        {
+            C: 'gtceu:steam_machine_casing',
+            S: 'gtceu:bronze_screw',
+            E: 'gtceu:lp_steam_extractor',
+            F: 'gtceu:bronze_rotor'
+        }
+    )
+
+    //Steam Borer
+    event.shaped(
+        'gtceu:steam_borer',
+        [
+            'CCC',
+            'RSF',
+            'CCC'
+        ],
+        {
+            C: 'gtceu:steam_machine_casing',
+            S: 'gtceu:bronze_screw',
+            F: 'gtceu:bronze_rotor',
+            R: 'gtceu:bronze_ring'
+        }
+    )
+
+    // Steam Blender
+    event.shaped(
+        'gtceu:steam_blender',
+        [
+            'CSC',
+            'CRC',
+            'CFC'
+        ],
+        {
+            C: 'gtceu:steam_machine_casing',
+            S: 'gtceu:bronze_screw',
+            F: 'gtceu:bronze_rotor',
+            R: 'gtceu:bronze_rod'
+        }
+    )
+
+    // Bronze mb tank
+    event.shaped(
+        'gtceu:bronze_multiblock_tank',
+        [
+            ' R ',
+            'HCW',
+            ' R '
+        ],
+        {
+            C: 'gtceu:steam_machine_casing',
+            R: 'gtceu:bronze_ring',
+            H: '#forge:tools/hammers',
+            W: '#forge:tools/wrenches'
+        }
+    )
+    // Bronze mb valve
+    event.shaped(
+        'gtceu:bronze_tank_valve',
+        [
+            ' R ',
+            'HCW',
+            ' F '
+        ],
+        {
+            C: 'gtceu:steam_machine_casing',
+            R: 'gtceu:bronze_ring',
+            H: '#forge:tools/hammers',
+            W: '#forge:tools/wrenches',
+            F: 'gtceu:bronze_rotor'
+        }
+    )
+
+    // Advanced Blast Furnace
+    event.shaped(
+        'gtceu:advanced_primitive_blast_furnace',
+        [
+            'CSC',
+            'RPR',
+            'FFF'
+        ],
+        {
+            C: 'gtceu:solid_machine_casing',
+            R: 'gtceu:steel_ring',
+            S: 'gtceu:steel_screw',
+            P: 'gtceu:primitive_blast_furnace',
+            F: 'gtceu:steel_firebox_casing'
+        }
+    )
 })
     
 // Remove vanilla tools
