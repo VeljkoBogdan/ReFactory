@@ -325,7 +325,8 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
             GTMaterialFlags.GENERATE_FINE_WIRE,
             GTMaterialFlags.GENERATE_FOIL,
             GTMaterialFlags.GENERATE_GEAR,
-            GTMaterialFlags.GENERATE_ROD
+            GTMaterialFlags.GENERATE_ROD,
+            GTMaterialFlags.GENERATE_FRAME
         )
 
     event.create('ostrum')
