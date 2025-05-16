@@ -35,7 +35,20 @@ ServerEvents.recipes(event => {
         ],
         {
             I: 'gtceu:gold_plate',
-            F: 'minecraft:furnace',
+            F: 'ironfurnaces:iron_furnace',
+            W: '#forge:tools/wrenches'
+        }
+    )
+    event.shaped(
+        'ironfurnaces:gold_furnace',
+        [
+            'III',
+            'IFI',
+            'IWI'
+        ],
+        {
+            I: 'gtceu:gold_plate',
+            F: 'ironfurnaces:silver_furnace',
             W: '#forge:tools/wrenches'
         }
     )
@@ -50,7 +63,7 @@ ServerEvents.recipes(event => {
         ],
         {
             I: 'gtceu:diamond_plate',
-            F: 'minecraft:furnace',
+            F: 'ironfurnaces:gold_furnace',
             W: '#forge:tools/wrenches'
         }
     )
@@ -65,14 +78,14 @@ ServerEvents.recipes(event => {
         ],
         {
             I: 'gtceu:emerald_plate',
-            F: 'minecraft:furnace',
+            F: 'ironfurnaces:diamond_furnace',
             W: '#forge:tools/wrenches'
         }
     )
 
     event.remove({ output: 'ironfurnaces:obsidian_furnace' })
     event.shaped(
-        'ironfurnaces:obsidian_furnace',
+        'ironfurnaces:emerald_furnace',
         [
             'III',
             'IFI',
@@ -80,7 +93,7 @@ ServerEvents.recipes(event => {
         ],
         {
             I: 'gtceu:obsidian_plate',
-            F: 'minecraft:furnace',
+            F: 'ironfurnaces:diamond_furnace',
             W: '#forge:tools/wrenches'
         }
     )
@@ -95,7 +108,7 @@ ServerEvents.recipes(event => {
         ],
         {
             I: 'gtceu:certus_quartz_plate',
-            F: 'minecraft:furnace',
+            F: 'ironfurnaces:emerald_furnace',
             W: '#forge:tools/wrenches'
         }
     )
@@ -110,7 +123,7 @@ ServerEvents.recipes(event => {
         ],
         {
             I: 'minecraft:netherite_ingot',
-            F: 'minecraft:furnace',
+            F: 'ironfurnaces:obsidian_furnace',
             W: '#forge:tools/wrenches'
         }
     )
@@ -140,7 +153,21 @@ ServerEvents.recipes(event => {
         ],
         {
             I: 'gtceu:silver_plate',
-            F: 'minecraft:furnace',
+            F: 'ironfurnaces:copper_furnace',
+            W: '#forge:tools/wrenches'
+        }
+    )
+
+    event.shaped(
+        'ironfurnaces:silver_furnace',
+        [
+            'III',
+            'IFI',
+            'IWI'
+        ],
+        {
+            I: 'gtceu:silver_plate',
+            F: 'ironfurnaces:iron_furnace',
             W: '#forge:tools/wrenches'
         }
     )
