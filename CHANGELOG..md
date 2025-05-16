@@ -3,7 +3,7 @@
 - Clay and dirt yield from apothecary increased
 - Removed problematic recipes
 - Dead and Rubber logs and wood are now choppable on the chopping board
-- Added mods: Sophisticated Storage, Oculus, Double Doors, Entity Culling, Smooth Boot, Quests Freeze Fix, Connected Glass, Lootr, Rechiseled, AdvancedAE, AE2 Wireless Terminals, FramedBlocks, Dis-enchanting table, AE Infinity Booster, ReFactory Core
+- Added mods: Sophisticated Storage, Oculus, Double Doors, Entity Culling, Smooth Boot, Quests Freeze Fix, Connected Glass, Lootr, Rechiseled, AdvancedAE, AE2 Wireless Terminals, FramedBlocks, Dis-enchanting table, AE Infinity Booster, ReFactory Core, Redstone Clock
 - Updated mods: Collective
 - Removed mods:
 
