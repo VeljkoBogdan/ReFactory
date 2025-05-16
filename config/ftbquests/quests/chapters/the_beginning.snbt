@@ -186,13 +186,7 @@
 		}
 		{
 			dependencies: ["43E0325219933606"]
-			description: [
-				"Cold Sweat brings several mechanics that change your survival."
-				""
-				"&bTemperature&r: Your environment can impact your body temperature, indicated between your health and hunger bar. High or low body temperature will give you debuffs, or even hurt you if they get extreme. In this biome you have to worry about heat specifically. You can remedy heat by eating cold food, not exposing yourself to direct sunlight, swimming in water, wearing heat resistant armor, etc."
-				""
-				"&bThirst&r: Along with hunger, you will also gain thirst, which works the same way. In the early game you can drink pond water by shift right-clicking."
-			]
+			description: ["&bTemperature&r: Your environment can impact your body temperature, indicated between your health and hunger bar. High or low body temperature will give you debuffs, or even hurt you if they get extreme. In this biome you have to worry about heat specifically. You can remedy heat by eating cold food, not exposing yourself to direct sunlight, swimming in water, wearing heat resistant armor, etc."]
 			icon: "cold_sweat:thermometer"
 			id: "48C9DC116BCF13B8"
 			tasks: [{
@@ -200,7 +194,7 @@
 				title: "Temperature, Thirst and Body parts"
 				type: "checkmark"
 			}]
-			title: "Temperature and Thirst"
+			title: "Temperature"
 			x: -1.5d
 			y: -1.5d
 		}
