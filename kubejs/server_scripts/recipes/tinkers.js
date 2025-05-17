@@ -104,4 +104,11 @@ ServerEvents.recipes(event => {
             S: 'gtceu:steel_plate'
         }
     )
+
+    // Remove the Foundry to remove byproducts
+    event.remove({output: 'tconstruct:foundry_controller'})
+})
+
+ServerEvents.tags('item', event => {
+    event.add('forge:tools/mining_hammers', 'tconstruct:sledge_hammer')
 })
