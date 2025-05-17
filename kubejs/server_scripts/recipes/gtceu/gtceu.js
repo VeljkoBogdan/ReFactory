@@ -267,6 +267,7 @@ ServerEvents.recipes(event => {
     //// LV - Manasteel / Mana Alloy
     //// MV - Terrasteel / Terralumina
     //// HV - Elementium / Elventium
+    //// EV - Gaia
 
     // LV TIER
     // Good Electronic Circuit
@@ -302,6 +303,20 @@ ServerEvents.recipes(event => {
     // Micro Processor Mainframe
     event.replaceInput({output: 'gtceu:micro_processor_mainframe'}, 'gtceu:annealed_copper_single_wire', 'gtceu:elventium_single_wire')
     event.replaceInput({output: 'gtceu:micro_processor_mainframe'}, 'gtceu:aluminium_frame', 'gtceu:lumium_frame')
+
+    // EV TIER
+    // Nanoprocessor
+    event.replaceInput({output: 'gtceu:nano_processor'}, 'gtceu:fine_electrum_wire', 'gtceu:fine_gaia_wire')
+
+    // Nanoprocessor Assembly
+    event.replaceInput({output: 'gtceu:nano_processor_assembly'}, 'gtceu:fine_electrum_wire', 'gtceu:fine_gaia_wire')
+
+    // Nanoprocessor Computer
+    event.replaceInput({output: 'gtceu:nano_processor_computer'}, 'gtceu:fine_electrum_wire', 'gtceu:fine_gaia_wire')    
+    
+    // Nanoprocessor Mainframe
+    event.replaceInput({output: 'gtceu:nano_processor_mainframe'}, 'gtceu:annealed_copper_single_wire', 'gtceu:gaia_single_wire')
+    event.replaceInput({output: 'gtceu:nano_processor_mainframe'}, 'gtceu:aluminium_frame', 'gtceu:desh_frame')
     
     //// ---------------------------------------------------------------------------------------------------------------------------
 
@@ -575,6 +590,7 @@ ServerEvents.recipes(event => {
     event.remove({type: 'blasting', output: 'gtceu:platinum_ingot'})
     event.remove({id: /enderio:smelting\/gtceu\/smelting\/.*_platinum_to_ingot/})
     event.remove({id: /enderio:smelting\/gtceu\/smelting\/.*_platinum_ore_to_ingot/})
+
 })
     
 // Remove vanilla tools
