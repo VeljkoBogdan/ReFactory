@@ -569,6 +569,12 @@ ServerEvents.recipes(event => {
             F: 'gtceu:steel_firebox_casing'
         }
     )
+
+    // Removing Platinum from furnace, blast and alloy recipes
+    event.remove({type: 'smelting', output: 'gtceu:platinum_ingot'})
+    event.remove({type: 'blasting', output: 'gtceu:platinum_ingot'})
+    event.remove({id: /enderio:smelting\/gtceu\/smelting\/.*_platinum_to_ingot/})
+    event.remove({id: /enderio:smelting\/gtceu\/smelting\/.*_platinum_ore_to_ingot/})
 })
     
 // Remove vanilla tools
