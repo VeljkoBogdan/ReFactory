@@ -62,4 +62,9 @@ GTCEuStartupEvents.registry('gtceu:element', event => {
         .symbol('Ct')
         .isIsotope(false)
 
+    event.create('mythril')
+        .protons(144)
+        .neutrons(340)
+        .symbol('Mh')
+        .isIsotope(false)
  })

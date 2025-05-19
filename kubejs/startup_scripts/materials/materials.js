@@ -368,7 +368,29 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
             GTMaterialFlags.GENERATE_ROD
         )
 
-    // Chlorophyte line
+    event.create('mythril')
+        .ingot()
+        .color(0x006a7a)
+        .secondaryColor(0x0d1475)
+        .element(GTElements.get('mythril'))
+        .iconSet(GTMaterialIconSet.METALLIC)
+        .flags(GTMaterialFlags.GENERATE_PLATE,
+            GTMaterialFlags.GENERATE_BOLT_SCREW,
+            GTMaterialFlags.GENERATE_DENSE,
+            GTMaterialFlags.GENERATE_RING,
+            GTMaterialFlags.GENERATE_FINE_WIRE,
+            GTMaterialFlags.GENERATE_FOIL,
+            GTMaterialFlags.GENERATE_GEAR,
+            GTMaterialFlags.GENERATE_ROD
+        )
+
+    event.create('liquid_soul')
+        .fluid()
+        .color(0x38342e)
+        .secondaryColor(0x7d2847)
+        .iconSet(GTMaterialIconSet.FLUID)
+
+    // Chlorophyte line -----------------------------------------------------------------------------------
     event.create('chlorophyte')
         .element(GTElements.get('chlorophyte'))
         .liquid()
