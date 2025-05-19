@@ -591,6 +591,19 @@ ServerEvents.recipes(event => {
     event.remove({id: /enderio:smelting\/gtceu\/smelting\/.*_platinum_to_ingot/})
     event.remove({id: /enderio:smelting\/gtceu\/smelting\/.*_platinum_ore_to_ingot/})
 
+    event.remove({id: 'gtceu:macerator/macerate_raw_desh_ore_to_crushed_ore'})
+    event.recipes.gtceu.macerator('kubejs:desh_maceration')
+        .itemInputs(
+            'gtceu:raw_desh'
+        )
+        .itemOutputs(
+            '2x gtceu:crushed_desh_ore',
+        )
+        .chancedOutput('gtceu:mythril_dust', 1000, 250)
+        .duration(20*20)
+        .EUt(GTValues.VA[GTValues.HV])
+
+
 })
     
 // Remove vanilla tools

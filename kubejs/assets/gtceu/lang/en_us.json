@@ -52,7 +52,7 @@
     "material.gtceu.livingrock": "Livingrock",
     "material.gtceu.seared_brick": "Seared Brick",
     "material.gtceu.utherium": "Utherium",
-    "material.gtceu.mythril": "§1Mythril",
+    "material.gtceu.mythril": "§9Mythril",
     "material.gtceu.liquid_soul": "§4Liquid Soul",
 
     "material.gtceu.chlorophyte": "Chlorophyte",
@@ -82,5 +82,6 @@
     "gtceu.jei.ore_vein.desh_vein_moon": "Desh Vein",
     "gtceu.jei.ore_vein.utherium_vein": "Utherium Vein",
     "gtceu.jei.ore_vein.god_vein": "Gold Vein",
-    "gtceu.jei.ore_vein.copper_vein": "Copper Vein"
+    "gtceu.jei.ore_vein.copper_vein": "Copper Vein",
+    "gtceu.jei.ore_vein.naquadah_vein": "Naquadah Vein"
 }
