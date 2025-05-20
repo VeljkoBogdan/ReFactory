@@ -604,7 +604,89 @@ ServerEvents.recipes(event => {
     //     .duration(20*20)
     //     .EUt(GTValues.VA[GTValues.HV])
 
+    // HV casing requires terrasteel plates
+    event.remove({id: 'gtceu:shaped/casing_hv'})
+    event.shaped(
+        'gtceu:hv_machine_casing',
+        [
+            'STS',
+            'TWT',
+            'STS'
+        ],
+        {
+            S: 'gtceu:stainless_steel_plate',
+            T: 'gtceu:terrasteel_plate',
+            W: '#forge:tools/wrenches'
+        }
+    )
+    event.remove({id: 'gtceu:assembler/casing_hv'})
+    event.recipes.gtceu.assembler('kubejs:assembler/hv_machine_casing')
+        .circuit(8)
+        .itemInputs(
+            '4x gtceu:stainless_steel_plate',
+            '4x gtceu:terrasteel_plate'
+        )
+        .itemOutputs(
+            'gtceu:hv_machine_casing'
+        )
+        .duration(20*2.5)
+        .EUt(GTValues.VA[GTValues.LV] / 2)
 
+    // EV casing requires elementium
+    event.remove({id: 'gtceu:shaped/casing_ev'})
+    event.shaped(
+        'gtceu:ev_machine_casing',
+        [
+            'STS',
+            'TWT',
+            'STS'
+        ],
+        {
+            S: 'gtceu:titanium_plate',
+            T: 'gtceu:elementium_plate',
+            W: '#forge:tools/wrenches'
+        }
+    )
+    event.remove({id: 'gtceu:assembler/casing_ev'})
+    event.recipes.gtceu.assembler('kubejs:assembler/ev_machine_casing')
+        .circuit(8)
+        .itemInputs(
+            '4x gtceu:titanium_plate',
+            '4x gtceu:elementium_plate'
+        )
+        .itemOutputs(
+            'gtceu:ev_machine_casing'
+        )
+        .duration(20*2.5)
+        .EUt(GTValues.VA[GTValues.LV] / 2)
+
+    // IV casing requires elementium
+    event.remove({id: 'gtceu:shaped/casing_iv'})
+    event.shaped(
+        'gtceu:iv_machine_casing',
+        [
+            'STS',
+            'TWT',
+            'STS'
+        ],
+        {
+            S: 'gtceu:tungsten_steel_plate',
+            T: 'gtceu:desh_plate',
+            W: '#forge:tools/wrenches'
+        }
+    )
+    event.remove({id: 'gtceu:assembler/casing_iv'})
+    event.recipes.gtceu.assembler('kubejs:assembler/iv_machine_casing')
+        .circuit(8)
+        .itemInputs(
+            '4x gtceu:tungsten_steel_plate',
+            '4x gtceu:desh_plate'
+        )
+        .itemOutputs(
+            'gtceu:iv_machine_casing'
+        )
+        .duration(20*2.5)
+        .EUt(GTValues.VA[GTValues.LV] / 2)
 })
     
 // Remove vanilla tools
