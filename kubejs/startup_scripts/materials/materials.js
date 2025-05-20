@@ -1,6 +1,7 @@
 // priority: 9999
 
 const $BlastProperty = Java.loadClass('com.gregtechceu.gtceu.api.data.chemical.material.properties.BlastProperty');
+const $OreProperty = Java.loadClass('com.gregtechceu.gtceu.api.data.chemical.material.properties.OreProperty');
 
 GTCEuStartupEvents.registry('gtceu:material', event => {
 
@@ -334,6 +335,7 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
             GTMaterialFlags.GENERATE_ROD,
             GTMaterialFlags.GENERATE_FRAME
         )
+        .blastTemp(4000, null, GTValues.VA[GTValues.IV], 20*20)
 
     event.create('ostrum')
         .ingot()
@@ -568,4 +570,8 @@ GTCEuStartupEvents.materialModification(event => {
     TagPrefix.dust['setIgnored(com.gregtechceu.gtceu.api.data.chemical.material.Material,java.util.function.Supplier[])'](GTMaterials.get('blitz'), () => Item.getItem('thermal:blitz_powder'))
     TagPrefix.dust['setIgnored(com.gregtechceu.gtceu.api.data.chemical.material.Material,java.util.function.Supplier[])'](GTMaterials.get('blizz'), () => Item.getItem('thermal:blizz_powder'))
     TagPrefix.dust['setIgnored(com.gregtechceu.gtceu.api.data.chemical.material.Material,java.util.function.Supplier[])'](GTMaterials.get('basalz'), () => Item.getItem('thermal:basalz_powder'))
+
+    // Adding desh byproducts
+    let deshOreProperty = GTMaterials.get('desh').getProperty(PropertyKey.ORE);
+    deshOreProperty.setOreByProducts('mythril', 'iron');
 })
