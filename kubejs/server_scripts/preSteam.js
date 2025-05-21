@@ -6,12 +6,13 @@ BlockEvents.rightClicked('biomesoplenty:dried_salt', e => {
     const soundToPlay = 'minecraft:block.gravel.step'
     const particleEffect = 'minecraft:block'
 
-    const heldItem = player.getMainHandItem();
+    const heldItem = player.getMainHandItem()
+    const offhandItem = player.getOffHandItem()
     const now = Date.now()
     const cooldown = 333
     const playerId = player.id
 
-    if (heldItem === null) {
+    if (heldItem === Item.of('minecraft:stick') && offhandItem === null) {
         const lastUse = flintCooldowns.get(playerId) ?? 0
         if (now - lastUse > cooldown) {
             // /particle minecraft:block biomesoplenty:dried_salt -501 77 -530 0.5 0.5 0.5 0.01 30 normal
