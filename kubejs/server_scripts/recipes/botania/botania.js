@@ -586,6 +586,29 @@ ServerEvents.recipes(event => {
         ],
         '#forge:seeds'
     )
+
+    // Terrasteel mana price reduction from 500k to 10k
+    event.remove({id: 'botania:terra_plate/terrasteel_ingot'})
+    event.recipes.botania.terra_plate(
+        'botania:terrasteel_ingot',
+        [
+            'botania:manasteel_ingot',
+            'botania:mana_diamond',
+            'botania:mana_pearl'
+        ],
+        10000
+    )
+
+    // Need mana pearl block for this!
+    // event.recipes.botania.terra_plate(
+    //     'botania:terrasteel_block',
+    //     [
+    //         'botania:manasteel_block',
+    //         'botania:mana_diamond_block',
+    //         'botania:mana_pearl'
+    //     ],
+    //     90000
+    // )
         
 })
 
