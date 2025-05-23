@@ -711,18 +711,18 @@ ServerEvents.recipes(event => {
 
     event.remove({id: 'gtceu:chemical_reactor/nano_cpu_wafer'})
     event.remove({id: 'gtceu:large_chemical_reactor/nano_cpu_wafer'})
-    event.recipes.gtceu.chemical_reactor('chemical_reactor/nano_cpu_wafer')
+    event.recipes.gtceu.chemical_reactor('nano_cpu_wafer')
         .itemInputs(
             'gtceu:cpu_wafer',
             '16x kubejs:mythril_infused_carbon_fibers'
         )
-        .inputFluids(Fluid.of('#forge:glowstone'), 576)
+        .inputFluids(Fluid.of('gtceu:flowing_glowstone', 576))
         .itemOutputs('gtceu:nano_cpu_wafer')
         .duration(20*60)
         .EUt(GTValues.VA[GTValues.EV])
 
     event.remove({id: 'gtceu:assembler/voltage_coil_ev'})
-    event.recipes.gtceu.assembler('assembler/voltage_coil_ev')
+    event.recipes.gtceu.assembler('voltage_coil_ev')
         .itemInputs(
             'gtceu:magnetic_neodymium_rod',
             '16x gtceu:fine_platinum_wire',
@@ -735,7 +735,7 @@ ServerEvents.recipes(event => {
 
     event.remove({id: 'gtceu:chemical_reactor/epoxy_board'})
     event.remove({id: 'gtceu:large_chemical_reactor/epoxy_board'})
-    event.recipes.gtceu.assembler('chemical_reactor/epoxy_circuit_board')
+    event.recipes.gtceu.chemical_reactor('epoxy_circuit_board')
         .itemInputs(
             'gtceu:epoxy_plate',
             '8x gtceu:lumium_foil'
