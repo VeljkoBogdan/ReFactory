@@ -167,7 +167,30 @@ ServerEvents.recipes(event => {
         }
     })
 
-    // TIER 2 TODO:
+    // TIER 2
+    event.custom({
+        "type": "ad_astra:nasa_workbench",
+        "ingredients": [
+            {"item": "kubejs:desh_rocket_nose_cone"},
+            {"item": "kubejs:t2_rocket_plate"},
+            {"item": "kubejs:t2_rocket_plate"},
+            {"item": "kubejs:t2_rocket_plate"},
+            {"item": "kubejs:t2_rocket_plate"},
+            {"item": "kubejs:t2_rocket_plate"},
+            {"item": "kubejs:t2_rocket_plate"},
+            {"item": "kubejs:desh_rocket_fin"},
+            {"item": 'gtceu:titanium_drum'},
+            {"item": 'gtceu:titanium_drum'},
+            {"item": "kubejs:desh_rocket_fin"},
+            {"item": "kubejs:desh_rocket_fin"},
+            {"item": "ad_astra:desh_engine"},
+            {"item": "kubejs:desh_rocket_fin"}
+        ],
+        "result": {
+            "count": 1,
+            "id": "ad_astra:tier_2_rocket"
+        }
+    })
 
     event.recipes.gtceu.forming_press("t1_welded_plate")
       .itemInputs(['4x gtceu:zanite_steel_plate', '4x gtceu:black_steel_plate', '4x gtceu:titanium_plate', '4x gtceu:manasteel_plate'])
