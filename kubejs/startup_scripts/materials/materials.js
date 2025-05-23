@@ -372,6 +372,7 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
 
     event.create('mythril')
         .ingot()
+        .fluid()
         .color(0x006a7a)
         .secondaryColor(0x0d1475)
         .element(GTElements.get('mythril'))
