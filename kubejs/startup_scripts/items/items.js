@@ -26,7 +26,10 @@ StartupEvents.registry('item', event => {
     // Refactory coin
     event.create('refactory_coin')
         .displayName('ReFactory Coin')
-        .tooltip('§jUsed to trade for items in the Shop')
+        .tooltip('§3Used to trade for items in the Shop')
+
+    event.create('mythril_infused_carbon_fibers')
+        .displayName('§3Mythril Infused Carbon Fibers')
 
     // // Simulated Egg
     // event.create('simulated_egg')

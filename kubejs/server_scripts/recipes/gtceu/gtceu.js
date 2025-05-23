@@ -687,6 +687,63 @@ ServerEvents.recipes(event => {
         )
         .duration(20*2.5)
         .EUt(GTValues.VA[GTValues.LV] / 2)
+
+    event.remove({id: 'gtceu:assembler/smd_diode'})
+    event.recipes.gtceu.assembler('assembler/smd_diode')
+        .itemInputs(
+            'gtceu:gallium_arsenide_dust',
+            '8x gtceu:fine_platinum_wire',
+            '4x gtceu:fine_lumium_wire'
+        )
+        .inputFluids(Fluid.of('gtceu:flowing_polyethylene', 288))
+        .itemOutputs('32x gtceu:smd_diode')
+        .duration(20*10)
+        .EUt(GTValues.VA[GTValues.HV])
+
+    event.recipes.gtceu.chemical_reactor('chemical_reactor/mythril_infused_carbon_fibers')
+        .itemInputs(
+            '4x gtceu:carbon_fibers',
+            'gtceu:mythril_dust'
+        )
+        .itemOutputs('4x kubejs:mythril_infused_carbon_fibers')
+        .duration(20*8)
+        .EUt(GTValues.VA[GTValues.HV])
+
+    event.remove({id: 'gtceu:chemical_reactor/nano_cpu_wafer'})
+    event.remove({id: 'gtceu:large_chemical_reactor/nano_cpu_wafer'})
+    event.recipes.gtceu.chemical_reactor('chemical_reactor/nano_cpu_wafer')
+        .itemInputs(
+            'gtceu:cpu_wafer',
+            '16x kubejs:mythril_infused_carbon_fibers'
+        )
+        .inputFluids(Fluid.of('#forge:glowstone'), 576)
+        .itemOutputs('gtceu:nano_cpu_wafer')
+        .duration(20*60)
+        .EUt(GTValues.VA[GTValues.EV])
+
+    event.remove({id: 'gtceu:assembler/voltage_coil_ev'})
+    event.recipes.gtceu.assembler('assembler/voltage_coil_ev')
+        .itemInputs(
+            'gtceu:magnetic_neodymium_rod',
+            '16x gtceu:fine_platinum_wire',
+            '8x gtceu:fine_lumium_wire'
+        )
+        .circuit(1)
+        .itemOutputs('gtceu:ev_voltage_coil')
+        .duration(20*10)
+        .EUt(GTValues.VA[GTValues.EV])
+
+    event.remove({id: 'gtceu:chemical_reactor/epoxy_board'})
+    event.remove({id: 'gtceu:large_chemical_reactor/epoxy_board'})
+    event.recipes.gtceu.assembler('chemical_reactor/epoxy_circuit_board')
+        .itemInputs(
+            'gtceu:epoxy_plate',
+            '8x gtceu:lumium_foil'
+        )
+        .inputFluids(Fluid.of('gtceu:sulfuric_acid', 500))
+        .itemOutputs('gtceu:epoxy_circuit_board')
+        .duration(20*30)
+        .EUt(GTValues.VA[GTValues.LV])
 })
     
 // Remove vanilla tools
