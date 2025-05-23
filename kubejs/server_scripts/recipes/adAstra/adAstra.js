@@ -416,4 +416,50 @@ ServerEvents.recipes(event => {
         }
     )
 
+    event.remove({id: 'ad_astra:desh_engine'})
+    event.shaped(
+        'ad_astra:desh_engine', 
+        [
+      'SRS',
+      'PMP',
+      'DFH'
+    ], 
+    {
+      P: 'gtceu:desh_plate',
+      S: 'gtceu:desh_screw',
+      M: 'gtceu:ev_machine_hull',
+      F: 'gtceu:titanium_rotor',
+      H: '#forge:tools/hammers',
+      D: '#forge:tools/screwdrivers',
+      R: 'gtceu:desh_rod'
+    })
+
+    event.shaped(
+        'kubejs:desh_rocket_nose_cone',
+        [
+            ' C ',
+            'HSD',
+            'SSS'
+        ],
+        {
+            S: 'gtceu:desh_plate',
+            C: 'gtceu:tungsten_steel_rod',
+            H: '#forge:tools/hammers',
+            D: '#forge:tools/screwdrivers'
+        }
+    )
+
+    event.shaped(
+        'kubejs:desh_rocket_fin',
+        [
+            ' S ',
+            'SSS',
+            'SHS'
+        ],
+        {
+            S: 'gtceu:desh_plate',
+            H: '#forge:tools/hammers'
+        }
+    )
+
 })
