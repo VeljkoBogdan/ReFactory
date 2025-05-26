@@ -31,6 +31,14 @@ ServerEvents.recipes(event => {
     event.replaceOutput({}, 'ae2:fluix_crystal', 'gtceu:fluix_crystal_gem')
     event.replaceOutput({}, 'ae2:fluix_dust', 'gtceu:fluix_crystal_dust')
 
+    // Charged Certus Quartz recipe
+    event.recipes.gtceu.electrolyzer('electrolyzer/charged_certus_quartz_gem')
+        .circuit(20)
+        .itemInputs('gtceu:certus_quartz_gem')
+        .itemOutputs('gtceu:charged_certus_quartz_gem')
+        .duration(20*2)
+        .EUt(GTValues.VA[GTValues.MV] / 2)
+
     // Quartz Fiber
     event.remove({id: 'ae2:network/parts/quartz_fiber_part'})
     event.recipes.gtceu.alloy_smelter('quartz_fiber')
