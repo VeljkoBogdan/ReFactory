@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:material_melting",
+  "input": "botania:elementium",
+  "temperature": 900,
+  "result": {
+    "fluid": "gtceu:molten_elementium",
+    "amount": 288
+  }
+}

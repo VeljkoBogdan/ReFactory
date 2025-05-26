@@ -1,0 +1,10 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": { "item": "botania:elementium_ingot" },
+  "result": {
+    "fluid": "gtceu:molten_elementium",
+    "amount": 144
+  },
+  "temperature": 900,
+  "time": 80
+}

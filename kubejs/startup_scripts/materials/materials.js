@@ -393,6 +393,21 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
         .secondaryColor(0x7d2847)
         .iconSet(GTMaterialIconSet.FLUID)
 
+    event.create('molten_manasteel')
+        .fluid()
+        .color(0x195eff)
+        .iconSet(GTMaterialIconSet.FLUID)
+
+    event.create('molten_terrasteel')
+        .fluid()
+        .color(0x16bf00)
+        .iconSet(GTMaterialIconSet.FLUID)
+
+    event.create('molten_elementium')
+        .fluid()
+        .color(0xff2be3)
+        .iconSet(GTMaterialIconSet.FLUID)
+
     // Chlorophyte line -----------------------------------------------------------------------------------
     event.create('chlorophyte')
         .element(GTElements.get('chlorophyte'))

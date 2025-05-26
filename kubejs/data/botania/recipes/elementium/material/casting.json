@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:material_fluid",
+  "fluid": {
+    "fluid": "gtceu:molten_elementium",
+    "amount": 288
+  },
+  "temperature": 900,
+  "output": "botania:elementium"
+}

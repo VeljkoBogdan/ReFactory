@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:material_melting",
+  "input": "botania:manasteel",
+  "temperature": 900,
+  "result": {
+    "fluid": "gtceu:molten_manasteel",
+    "amount": 288
+  }
+}
