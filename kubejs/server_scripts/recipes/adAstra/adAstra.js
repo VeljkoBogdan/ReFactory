@@ -192,6 +192,7 @@ ServerEvents.recipes(event => {
         }
     })
 
+    // T1 plates
     event.recipes.gtceu.forming_press("t1_welded_plate")
       .itemInputs(['4x gtceu:zanite_steel_plate', '4x gtceu:black_steel_plate', '4x gtceu:titanium_plate', '4x gtceu:manasteel_plate'])
       .circuit(1)
@@ -203,11 +204,29 @@ ServerEvents.recipes(event => {
       .itemInputs(
         'kubejs:t1_welded_rocket_plate',
         'gtceu:industrial_tnt'
-    )
+        )
       .circuit(1)
       .itemOutputs('kubejs:t1_rocket_plate')
       .duration(20)
       .EUt(GTValues.VA[GTValues.HV])
+
+    // T2 Plates
+    event.recipes.gtceu.forming_press("t2_welded_plate")
+      .itemInputs(['8x gtceu:desh_plate', '8x gtceu:lumium_plate', '8x gtceu:tungsten_steel_plate', '8x gtceu:gaia_plate'])
+      .circuit(1)
+      .itemOutputs('kubejs:t2_welded_rocket_plate')
+      .duration(20*8)
+      .EUt(GTValues.VA[GTValues.EV])
+
+    event.recipes.gtceu.implosion_compressor("t2_rocket_plate")
+      .itemInputs(
+        'kubejs:t2_welded_rocket_plate',
+        '4x gtceu:industrial_tnt'
+        )
+      .circuit(1)
+      .itemOutputs('kubejs:t2_rocket_plate')
+      .duration(20)
+      .EUt(GTValues.VA[GTValues.EV])
 
     event.recipes.gtceu.canner("ad_astra:gas_tank/filling_t1")
       .itemInputs('ad_astra:gas_tank')
