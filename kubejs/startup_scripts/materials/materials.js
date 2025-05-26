@@ -89,7 +89,7 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
         GTMaterialFlags.GENERATE_ROD,
         GTMaterialFlags.GENERATE_BOLT_SCREW
     )
-    .blastTemp(1800, null, GTValues.VA[GTValues.HV], 20*20)
+    .blastTemp(1600, null, GTValues.VA[GTValues.HV], 20*20)
 
     // Mana
     event.create('mana')
