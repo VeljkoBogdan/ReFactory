@@ -5,37 +5,51 @@ ServerEvents.recipes(event => {
 	event.remove({ id: 'enderstorage:ender_chest'})
 	event.remove({ id: 'enderstorage:ender_tank'})
 
-	// ENDER CHEST
-	event.recipes.gtceu.assembler('kubejs_ender_chest')
-		.itemInputs(
-			'gtceu:titanium_crate',
-			'8x powah:ender_core',
-			'gtceu:mv_field_generator'
-		)
-		.itemOutputs('enderstorage:ender_chest')
-		.duration(4800)
-		.EUt(256)
-	
-	// ENDER TANK
-	event.recipes.gtceu.assembler('kubejs_ender_tank')
-		.itemInputs(
-			'gtceu:ev_hermetic_casing',
-			'8x powah:ender_core',
-			'gtceu:ender_fluid_link_cover'
-		)
-		.itemOutputs('enderstorage:ender_tank')
-		.duration(4800)
-		.EUt(256)
-		
 	// ENDER POUCH
-	event.recipes.gtceu.assembler('kubejs_ender_pouch')
-		.itemInputs(
-			'4x minecraft:leather',
-			'8x powah:ender_core',
-			'gtceu:mv_field_generator',
-			'minecraft:ender_chest'
-		)
-		.itemOutputs('enderstorage:ender_pouch')
-		.duration(4800)
-		.EUt(256)
+	event.shaped(
+        "enderstorage:ender_pouch",
+        [
+            'PCP',
+            'CEC',
+            'PSP'
+        ],
+        {
+            P: "gtceu:ender_pearl_plate",
+            C: "botania:spell_cloth",
+            E: "minecraft:ender_chest",
+            S: "gtceu:stainless_steel_crate"
+        }
+    )
+	
+    // ENDER CHEST
+    event.shaped(
+        "enderstorage:ender_chest",
+        [
+            'PFP',
+            'PCP',
+            'PSP'
+        ],
+        {
+            P: 'gtceu:ender_pearl_plate',
+            F: "gtceu:lv_field_generator",
+            C: 'minecraft:ender_chest',
+            S: "gtceu:stainless_steel_crate"
+        }
+    )
+
+    // ENDER TANK
+    event.shaped(
+        "enderstorage:ender_tank",
+        [
+            'PLP',
+            'PHP',
+            'PFP'
+        ],
+        {
+            P: 'gtceu:ender_pearl_plate',
+            L: "gtceu:ender_fluid_link_cover",
+            H: "gtceu:mv_hermetic_casing",
+            F: "enderio:pressurized_fluid_tank"
+        }
+    )
 })
