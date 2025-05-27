@@ -609,7 +609,38 @@ ServerEvents.recipes(event => {
     //     ],
     //     90000
     // )
-        
+
+    // Gaia ingot
+    event.remove({id:'botania:gaia_ingot'})
+    event.recipes.gtceu.large_chemical_reactor('large_chemical_reactor/gaia_ingot')
+        .itemInputs(
+            "2x botania:terrasteel_ingot",
+            "2x bloodmagic:reinforcedslate",
+            '4x botania:life_essence'
+        )
+        .itemOutputs('2x botania:gaia_ingot')
+        .duration(20*8)
+        .EUt(GTValues.VA[GTValues.HV])
+
+    // Liquid soul
+    event.recipes.gtceu.chemical_reactor('chemical_reactor/liquid_soul')
+        .itemInputs(
+            "gtceu:mythril_dust",
+            '4x minecraft:soul_sand'
+        )
+        .inputFluids(Fluid.of('minecraft:lava', 1000))
+        .outputFluids(Fluid.of('gtceu:liquid_soul', 144*8))
+        .duration(20*8)
+        .EUt(GTValues.VA[GTValues.EV])
+    
+    // Gaia spirits
+    event.remove({output: 'botania:life_essence'})
+    event.recipes.gtceu.chemical_reactor('chemical_reactor/gaia_spirits')
+        .itemInputs('2x botania:pixie_dust')
+        .inputFluids(Fluid.of('gtceu:liquid_soul', 144*4))
+        .itemOutputs('4x botania:life_essence')
+        .duration(20*4)
+        .EUt(GTValues.VA[GTValues.MV])
 })
 
 // yeet('botania:manasteel_ingot')

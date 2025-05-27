@@ -427,7 +427,10 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["43D222FD4AF3280E"]
+			dependencies: [
+				"43D222FD4AF3280E"
+				"60A095952D52DFE3"
+			]
 			description: ["Time for the EV Age!"]
 			id: "097912261E2A9B52"
 			rewards: [{
@@ -1771,6 +1774,22 @@
 			}]
 			x: -8.0d
 			y: 1.0d
+		}
+		{
+			dependencies: ["25AFA7FC86E52939"]
+			description: ["Allows flight!"]
+			id: "047CA6113B60DC55"
+			tasks: [{
+				id: "1B58849997BF5C20"
+				item: {
+					Count: 1
+					id: "gtceu:avanced_nanomuscle_chestplate"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.5d
 		}
 	]
 	title: "HV Age"

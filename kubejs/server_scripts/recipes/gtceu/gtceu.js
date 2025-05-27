@@ -744,6 +744,8 @@ ServerEvents.recipes(event => {
         .itemOutputs('gtceu:epoxy_circuit_board')
         .duration(20*30)
         .EUt(GTValues.VA[GTValues.LV])
+
+    event.replaceInput({id: 'gtceu:assembler/coil_rtm_alloy'}, 'gtceu:vanadium_steel_foil', 'gtceu:gaia_foil')
 })
     
 // Remove vanilla tools

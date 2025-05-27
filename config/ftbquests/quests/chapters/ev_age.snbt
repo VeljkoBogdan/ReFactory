@@ -10,6 +10,11 @@
 	quests: [
 		{
 			dependencies: ["5E0F220459741BE1"]
+			description: [
+				"Welcome to the EV age!"
+				""
+				"You'll focus on autocrafting"
+			]
 			icon: "gtceu:micro_processor_computer"
 			id: "669F52806D1D39F6"
 			shape: "square"
@@ -31,19 +36,24 @@
 				item: "gtceu:platinum_ingot"
 				type: "item"
 			}]
-			x: 6.5d
-			y: -11.0d
+			x: 7.0d
+			y: -15.5d
 		}
 		{
 			dependencies: ["0DE76CF32EEE7200"]
+			description: [
+				"Epoxy circuits are what is required for making your next tier of circuits."
+				""
+				"For that you will need epoxy, check the quests below this one"
+			]
 			id: "7B3BF6B3C10F384F"
 			tasks: [{
 				id: "60C7936C33BCC62A"
 				item: "gtceu:epoxy_printed_circuit_board"
 				type: "item"
 			}]
-			x: 14.5d
-			y: -11.0d
+			x: 18.5d
+			y: -8.0d
 		}
 		{
 			dependencies: [
@@ -57,8 +67,8 @@
 				item: "gtceu:epoxy_bucket"
 				type: "item"
 			}]
-			x: 16.5d
-			y: -11.0d
+			x: 18.5d
+			y: -6.5d
 		}
 		{
 			dependencies: ["2234451EE953C16E"]
@@ -68,8 +78,8 @@
 				item: "gtceu:bisphenol_a_bucket"
 				type: "item"
 			}]
-			x: 16.5d
-			y: -13.0d
+			x: 17.5d
+			y: -6.5d
 		}
 		{
 			dependencies: ["104910C1F869E19B"]
@@ -79,125 +89,115 @@
 				item: "gtceu:epichlorohydrin_bucket"
 				type: "item"
 			}]
-			x: 18.5d
-			y: -11.0d
+			x: 19.5d
+			y: -6.5d
 		}
 		{
-			dependencies: ["20831A754A2A5392"]
-			icon: "gtceu:distillation_tower"
-			id: "05651DD3F5379C6F"
-			title: "Distillation"
-			x: 18.5d
-			y: -15.0d
-		}
-		{
-			dependencies: ["05651DD3F5379C6F"]
+			dependencies: ["669F52806D1D39F6"]
+			hide_dependency_lines: true
 			id: "104910C1F869E19B"
 			tasks: [{
 				id: "6B0C1F82F1668C39"
 				item: "gtceu:propene_bucket"
 				type: "item"
 			}]
-			x: 18.5d
-			y: -13.0d
+			x: 19.5d
+			y: -5.5d
 		}
 		{
-			dependencies: ["05651DD3F5379C6F"]
+			dependencies: ["669F52806D1D39F6"]
+			hide_dependency_lines: true
 			id: "2234451EE953C16E"
 			tasks: [{
 				id: "3937A249036F34CE"
 				item: "gtceu:phenol_bucket"
 				type: "item"
 			}]
-			x: 16.5d
-			y: -15.0d
-		}
-		{
-			dependencies: ["05651DD3F5379C6F"]
-			id: "782D4A3124B3CCA0"
-			tasks: [{
-				id: "1C3DF2066DF3266A"
-				item: "gtceu:benzene_bucket"
-				type: "item"
-			}]
-			x: 20.5d
-			y: -15.0d
+			x: 17.5d
+			y: -5.5d
 		}
 		{
 			dependencies: [
-				"3DD39BF682E9B668"
 				"3FDE9F22A732DE02"
+				"383C4B9D24589E17"
 			]
+			description: ["The base for the next tier of circuits!"]
 			id: "680209857CB6E739"
 			tasks: [{
 				id: "58C3FFB7D47AA419"
 				item: "gtceu:nano_cpu_wafer"
 				type: "item"
 			}]
-			x: 12.5d
-			y: -13.0d
+			x: 16.5d
+			y: -11.5d
 		}
 		{
 			dependencies: ["669F52806D1D39F6"]
+			description: ["Very durable fiber!"]
 			id: "3DD39BF682E9B668"
 			tasks: [{
 				id: "09691D4D602056F0"
 				item: "gtceu:carbon_fibers"
 				type: "item"
 			}]
-			x: 10.5d
-			y: -13.0d
+			x: 10.0d
+			y: -11.5d
 		}
 		{
 			dependencies: ["669F52806D1D39F6"]
 			id: "3FDE9F22A732DE02"
+			shape: "gear"
 			tasks: [{
 				id: "0BECDE3A215D2BC9"
 				item: "gtceu:ev_chemical_reactor"
 				type: "item"
 			}]
-			x: 10.5d
-			y: -15.0d
+			x: 16.5d
+			y: -13.0d
 		}
 		{
 			dependencies: [
 				"680209857CB6E739"
 				"7B3BF6B3C10F384F"
+				"0787681ADFECEC77"
+				"2C3F51C6C0776EA6"
 			]
+			description: ["Cheapest HV circuits."]
 			id: "78B4672CBAA42363"
 			tasks: [{
 				id: "012B97CA956F1EB0"
 				item: "gtceu:nano_processor"
 				type: "item"
 			}]
-			x: 12.5d
-			y: -11.0d
+			x: 18.5d
+			y: -9.5d
 		}
 		{
 			dependencies: ["78B4672CBAA42363"]
+			description: ["Cheaper EV circuits"]
 			id: "1E9208F77714C5A2"
 			tasks: [{
 				id: "32F6A2405D0B3E49"
 				item: "gtceu:nano_processor_assembly"
 				type: "item"
 			}]
-			x: 12.5d
-			y: -9.0d
+			x: 20.0d
+			y: -9.5d
 		}
 		{
 			dependencies: [
 				"0231BB49E8441530"
-				"0626593F1C05C352"
 				"1E9208F77714C5A2"
 			]
+			description: ["Cheaper IV circuits"]
 			id: "60DFB8F58ACDED6E"
 			tasks: [{
 				id: "0AFB3061B358B416"
 				item: "gtceu:nano_processor_computer"
 				type: "item"
 			}]
-			x: 12.5d
-			y: -7.0d
+			x: 21.5d
+			y: -9.5d
 		}
 		{
 			dependencies: ["5155F1DFD1D1AD33"]
@@ -207,22 +207,15 @@
 				item: "gtceu:smd_diode"
 				type: "item"
 			}]
-			x: 8.5d
-			y: -11.0d
+			x: 21.5d
+			y: -15.5d
 		}
 		{
-			dependencies: ["35A65112B1648D9F"]
-			id: "0626593F1C05C352"
-			tasks: [{
-				id: "1F8D9FCC4DEADA4C"
-				item: "gtceu:nor_memory_chip"
-				type: "item"
-			}]
-			x: 14.5d
-			y: -7.0d
-		}
-		{
-			dependencies: ["60DFB8F58ACDED6E"]
+			dependencies: [
+				"60DFB8F58ACDED6E"
+				"53E70BC08204BB84"
+			]
+			description: ["Your first LuV circuit! Congrats!"]
 			id: "34EEB454757F1A1C"
 			shape: "gear"
 			tasks: [{
@@ -230,14 +223,11 @@
 				item: "gtceu:nano_processor_mainframe"
 				type: "item"
 			}]
-			x: 12.5d
-			y: -5.0d
+			x: 23.0d
+			y: -9.5d
 		}
 		{
-			dependencies: [
-				"4CCF92F0CA1127AD"
-				"2DC6D2C059E8BE07"
-			]
+			dependencies: ["2DC6D2C059E8BE07"]
 			id: "7CC959FF709B1FEF"
 			shape: "gear"
 			size: 1.0d
@@ -246,8 +236,8 @@
 				item: "gtceu:tungsten_steel_ingot"
 				type: "item"
 			}]
-			x: 6.5d
-			y: -19.5d
+			x: 7.0d
+			y: -22.5d
 		}
 		{
 			dependencies: ["051FB469C3C08656"]
@@ -257,19 +247,8 @@
 				item: "gtceu:tungsten_dust"
 				type: "item"
 			}]
-			x: 8.5d
-			y: -19.5d
-		}
-		{
-			dependencies: ["669F52806D1D39F6"]
-			id: "4CCF92F0CA1127AD"
-			tasks: [{
-				id: "1E56A8A3032613F2"
-				item: "gtceu:ev_mixer"
-				type: "item"
-			}]
-			x: 8.5d
-			y: -17.0d
+			x: 7.0d
+			y: -24.0d
 		}
 		{
 			dependencies: ["4585F230C85521DB"]
@@ -279,24 +258,26 @@
 				item: "gtceu:tungstic_acid_dust"
 				type: "item"
 			}]
-			x: 10.5d
-			y: -19.5d
+			x: 7.0d
+			y: -25.5d
 		}
 		{
-			dependencies: ["3FDE9F22A732DE02"]
+			dependencies: ["669F52806D1D39F6"]
+			hide_dependency_lines: true
 			id: "4585F230C85521DB"
 			tasks: [{
 				id: "04BB7C7E9009B0F8"
 				item: "gtceu:ev_chemical_bath"
 				type: "item"
 			}]
-			x: 10.5d
-			y: -17.0d
+			x: 8.5d
+			y: -25.5d
 		}
 		{
 			dependencies: [
 				"7CC959FF709B1FEF"
 				"41004B2926909C43"
+				"557888C5D7E0789E"
 			]
 			id: "1A9738F89ECA8E6C"
 			shape: "gear"
@@ -305,11 +286,11 @@
 				item: "gtceu:rtm_alloy_coil_block"
 				type: "item"
 			}]
-			x: 4.5d
-			y: -19.5d
+			x: 4.0d
+			y: -21.0d
 		}
 		{
-			dependencies: ["7C4C8B84E1F1CEAB"]
+			dependencies: ["1DD37108B744742C"]
 			id: "41004B2926909C43"
 			shape: "gear"
 			tasks: [{
@@ -317,41 +298,61 @@
 				item: "gtceu:ruthenium_dust"
 				type: "item"
 			}]
-			x: 4.5d
-			y: -17.0d
+			x: 1.5d
+			y: -20.0d
 		}
 		{
-			dependencies: ["2594F2FBB6147B61"]
+			dependencies: [
+				"2594F2FBB6147B61"
+				"699F6C56C378C599"
+			]
+			description: [
+				"Process the raw ore into purified ore."
+				""
+				"Now mix the purified ore with some nitric acid in the chemical reactor to get platinum group sludge (PGS) and some sulfur nickel solution."
+				""
+				"You can electrolyze the sulfur nickel solution to get nickel, oxygen and sulfur."
+				""
+				"You can centrifuge the PGS in an EV centrifuge along with some aqua regia to gain various products."
+			]
 			id: "6B6940FDFD680AFF"
+			shape: "gear"
+			size: 1.0d
 			tasks: [{
 				id: "1F16F8448438F646"
 				item: "gtceu:platinum_group_sludge_dust"
 				type: "item"
 			}]
-			x: 4.5d
+			title: "Processing the sheldonite"
+			x: 1.5d
 			y: -13.0d
 		}
 		{
-			dependencies: ["6B6940FDFD680AFF"]
+			dependencies: [
+				"6B6940FDFD680AFF"
+				"699F6C56C378C599"
+			]
+			description: ["The inert metal mixture can be reacted with sulfuric acid in an EV chemical reactor to get Ruthenium and Rhodium."]
 			id: "7C4C8B84E1F1CEAB"
 			tasks: [{
 				id: "65F36CD032761698"
 				item: "gtceu:inert_metal_mixture_dust"
 				type: "item"
 			}]
-			x: 4.5d
-			y: -15.0d
+			x: 1.5d
+			y: -15.5d
 		}
 		{
 			dependencies: ["6B6940FDFD680AFF"]
+			description: ["Ignore the rarest metal mixture for now, but don't throw it away, you'll need IV to process it."]
 			id: "7B7C13C7CFFF03F9"
 			tasks: [{
 				id: "17A8616A6CDE9E3E"
 				item: "gtceu:rarest_metal_mixture_dust"
 				type: "item"
 			}]
-			x: 2.5d
-			y: -13.0d
+			x: 1.0d
+			y: -12.0d
 		}
 		{
 			dependencies: ["669F52806D1D39F6"]
@@ -363,18 +364,22 @@
 				type: "item"
 			}]
 			x: 8.5d
-			y: -7.0d
+			y: -8.0d
 		}
 		{
-			dependencies: ["7CC959FF709B1FEF"]
+			dependencies: [
+				"7CC959FF709B1FEF"
+				"20EFB62FAA8F2AB2"
+			]
 			id: "699F6C56C378C599"
+			shape: "gear"
 			tasks: [{
 				id: "6C79D0C9934203D2"
 				item: "gtceu:ev_energy_input_hatch"
 				type: "item"
 			}]
-			x: 6.5d
-			y: -21.0d
+			x: 7.0d
+			y: -18.0d
 		}
 		{
 			dependencies: ["4088C106B4D46075"]
@@ -385,14 +390,11 @@
 				item: "gtceu:quantum_eye"
 				type: "item"
 			}]
-			x: 10.5d
-			y: -7.0d
+			x: 7.0d
+			y: -8.0d
 		}
 		{
-			dependencies: [
-				"4088C106B4D46075"
-				"5B3A4F5769490D07"
-			]
+			dependencies: ["4088C106B4D46075"]
 			id: "6E99AFC95789B30B"
 			tasks: [{
 				id: "4518F090F4E74489"
@@ -400,7 +402,7 @@
 				type: "item"
 			}]
 			x: 8.5d
-			y: -5.0d
+			y: -6.5d
 		}
 		{
 			dependencies: ["5155F1DFD1D1AD33"]
@@ -410,31 +412,23 @@
 				item: "powah:energy_cable_blazing"
 				type: "item"
 			}]
-			x: 4.5d
-			y: -11.0d
+			x: 6.0d
+			y: -15.5d
 		}
 		{
-			dependencies: ["669F52806D1D39F6"]
-			hide_dependency_lines: true
-			id: "5B3A4F5769490D07"
-			tasks: [{
-				id: "1FCDDEBC129E8441"
-				item: "minecraft:nether_star"
-				type: "item"
-			}]
-			x: 10.5d
-			y: -5.0d
-		}
-		{
-			dependencies: ["5155F1DFD1D1AD33"]
+			dependencies: [
+				"5155F1DFD1D1AD33"
+				"4263EB754052F1DC"
+			]
 			id: "0787681ADFECEC77"
+			shape: "gear"
 			tasks: [{
 				id: "00C3FB9665966673"
 				item: "gtceu:ev_circuit_assembler"
 				type: "item"
 			}]
-			x: 6.5d
-			y: -9.0d
+			x: 7.0d
+			y: -9.5d
 		}
 		{
 			dependencies: ["2DC6D2C059E8BE07"]
@@ -444,8 +438,8 @@
 				item: "gtceu:tungsten_ingot"
 				type: "item"
 			}]
-			x: 8.5d
-			y: -21.0d
+			x: 5.5d
+			y: -24.0d
 		}
 		{
 			dependencies: ["380F3DFDA8957C8C"]
@@ -456,12 +450,11 @@
 				item: "gtceu:alloy_blast_smelter"
 				type: "item"
 			}]
-			x: 2.5d
-			y: -11.0d
+			x: 1.0d
+			y: -21.0d
 		}
 		{
-			dependencies: ["669F52806D1D39F6"]
-			hide_dependency_lines: true
+			dependencies: ["1A9738F89ECA8E6C"]
 			id: "380F3DFDA8957C8C"
 			tasks: [{
 				id: "16F6E864277D2063"
@@ -469,61 +462,52 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: -9.0d
+			y: -21.0d
 		}
 		{
+			dependencies: [
+				"5DA249569F2D1E36"
+				"43237774B2517E92"
+			]
+			description: ["Gaia ingots are going to be required in circuit crafting and the tier 2 rocket plating."]
 			id: "2C3F51C6C0776EA6"
+			shape: "gear"
 			tasks: [{
 				id: "183230371F5E85C1"
 				item: "botania:gaia_ingot"
 				type: "item"
 			}]
-			x: 0.5d
-			y: -11.0d
+			x: 18.5d
+			y: -19.5d
 		}
 		{
 			dependencies: ["669F52806D1D39F6"]
+			description: [
+				"You should have a lot of Sheldonite from the moon."
+				""
+				"Now it is time to process it into Platinum."
+				""
+				"I strongly recommend processing it fully to get all the byproducts, but if you just want a little bit of platinum for now, you can electrolyze the dust."
+			]
 			id: "2594F2FBB6147B61"
 			tasks: [{
 				id: "11B5FEB6D9F33A97"
 				item: "gtceu:raw_cooperite"
 				type: "item"
 			}]
-			x: 6.5d
+			x: 7.0d
 			y: -13.0d
 		}
 		{
-			dependencies: ["7B7C13C7CFFF03F9"]
-			id: "4A2084787B7045E3"
-			tasks: [{
-				id: "12D6135A674F5672"
-				item: "gtceu:osmium_dust"
-				type: "item"
-			}]
-			x: 2.5d
-			y: -15.0d
-		}
-		{
-			dependencies: ["7B7C13C7CFFF03F9"]
-			id: "067228193DC1A0D2"
-			tasks: [{
-				id: "0471638CF1874420"
-				item: "gtceu:iridium_dust"
-				type: "item"
-			}]
-			x: 0.5d
-			y: -15.0d
-		}
-		{
-			dependencies: ["7C4C8B84E1F1CEAB"]
+			dependencies: ["47FF3648B7E8F9BC"]
 			id: "4DF177BBB82DDB66"
 			tasks: [{
 				id: "07CD5C62540D433A"
 				item: "gtceu:rhodium_dust"
 				type: "item"
 			}]
-			x: 2.5d
-			y: -17.0d
+			x: -0.5d
+			y: -15.5d
 		}
 		{
 			dependencies: ["669F52806D1D39F6"]
@@ -534,8 +518,8 @@
 				item: "botanypotstiers:ultra_terracotta_botany_pot"
 				type: "item"
 			}]
-			x: 10.5d
-			y: -11.0d
+			x: 8.5d
+			y: -14.5d
 		}
 		{
 			description: [
@@ -552,8 +536,490 @@
 				title: "TODO"
 				type: "checkmark"
 			}]
-			x: 6.5d
-			y: -15.0d
+			x: -3.0d
+			y: -18.75d
+		}
+		{
+			dependencies: ["6639BB3BE306D69C"]
+			description: ["Now you can react the pixie dust and liquid soul to put some soul into the pixie energy and turn it into Gaia Spirits (or whatever else you can imagine, I just had to make the recipe harder :P)"]
+			id: "5DA249569F2D1E36"
+			tasks: [{
+				id: "12FD4347EF6C8F9D"
+				item: "botania:life_essence"
+				type: "item"
+			}]
+			x: 18.5d
+			y: -14.5d
+		}
+		{
+			dependencies: ["7C4C8B84E1F1CEAB"]
+			description: ["React Ruthenium tetroxide with carbon to get pure Ruthenium dust."]
+			id: "1DD37108B744742C"
+			tasks: [{
+				id: "21BCD0B6A58DEC48"
+				item: "gtceu:ruthenium_tetroxide_dust"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -16.5d
+		}
+		{
+			dependencies: ["7C4C8B84E1F1CEAB"]
+			description: ["Electrolyze the rhodium sulfate to get pure rhodium dust."]
+			id: "47FF3648B7E8F9BC"
+			tasks: [{
+				id: "38C4F04D982B9CF5"
+				item: "gtceu:rhodium_sulfate_bucket"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -15.5d
+		}
+		{
+			dependencies: ["6B6940FDFD680AFF"]
+			description: ["Centrifuge the raw platinum to get pure platinum dust and some chlorine."]
+			id: "54B2B8D78ADEF8F1"
+			tasks: [{
+				id: "25D328575AA28CEA"
+				item: "gtceu:platinum_raw_dust"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -14.0d
+		}
+		{
+			dependencies: ["6B6940FDFD680AFF"]
+			description: ["Mix the raw palladium powder with hydrochloric acid to get pure palladium."]
+			id: "188E8E818F2D5061"
+			tasks: [{
+				id: "1FDB3ED498548C59"
+				item: "gtceu:palladium_raw_dust"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -13.0d
+		}
+		{
+			dependencies: ["6B6940FDFD680AFF"]
+			description: ["Platinum sludge residue can be centrifuged to get silicon dioxide and gold."]
+			id: "48299A3ACD7CFD1D"
+			tasks: [{
+				id: "0076CA0E83E40FBE"
+				item: "gtceu:platinum_sludge_residue_dust"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["5155F1DFD1D1AD33"]
+			id: "20EFB62FAA8F2AB2"
+			tasks: [{
+				id: "7F44E71C003229C8"
+				item: "gtceu:ev_voltage_coil"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -16.5d
+		}
+		{
+			dependencies: [
+				"3FDE9F22A732DE02"
+				"7D6E0F5E06157A42"
+			]
+			description: ["Mix some mythril, soul sand and lava to get &4Liquid Soul&r, ooooh... scaryyyy...."]
+			id: "6639BB3BE306D69C"
+			tasks: [{
+				id: "3B0D3BD2D9876DEC"
+				item: "gtceu:liquid_soul_bucket"
+				type: "item"
+			}]
+			x: 16.5d
+			y: -14.5d
+		}
+		{
+			dependencies: ["2C3F51C6C0776EA6"]
+			description: ["You need Gaia foil for RTM coils."]
+			id: "557888C5D7E0789E"
+			tasks: [{
+				id: "7C186EA1E97E8452"
+				item: "gtceu:gaia_foil"
+				type: "item"
+			}]
+			x: 16.5d
+			y: -21.0d
+		}
+		{
+			dependencies: [
+				"1E9E4AEB7430FCBF"
+				"1A9738F89ECA8E6C"
+			]
+			id: "2BC540AB6497B161"
+			tasks: [{
+				id: "729D6F8F335857E1"
+				item: "gtceu:desh_ingot"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -21.0d
+		}
+		{
+			dependencies: ["669F52806D1D39F6"]
+			description: [
+				"I hope you haven't smelted all your desh ore."
+				""
+				"You're going to have to process it to get some Mythril (and some Iron) which will be useful for progression."
+			]
+			id: "1E9E4AEB7430FCBF"
+			tasks: [{
+				id: "407039C6A7B2C3AF"
+				item: "gtceu:raw_desh"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -14.5d
+		}
+		{
+			dependencies: ["1E9E4AEB7430FCBF"]
+			description: ["You can get Mythril by processing desh ore."]
+			id: "7D6E0F5E06157A42"
+			tasks: [{
+				id: "0FC36675D6C037FB"
+				item: "gtceu:mythril_dust"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -14.5d
+		}
+		{
+			dependencies: [
+				"2BC540AB6497B161"
+				"2C3F51C6C0776EA6"
+				"7CC959FF709B1FEF"
+			]
+			id: "0742AB0118D5A56D"
+			shape: "gear"
+			tasks: [{
+				count: 6L
+				id: "1D7BA5CCF14E668A"
+				item: "kubejs:t2_rocket_plate"
+				type: "item"
+			}]
+			x: 18.5d
+			y: -22.5d
+		}
+		{
+			dependencies: ["0742AB0118D5A56D"]
+			id: "7FBF5E1B748B5650"
+			tasks: [{
+				id: "364B2DF6DE9183C7"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_2_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 18.5d
+			y: -24.0d
+		}
+		{
+			dependencies: [
+				"2BC540AB6497B161"
+				"7CC959FF709B1FEF"
+			]
+			id: "3610A007E2EDA9CA"
+			shape: "gear"
+			tasks: [{
+				id: "1FF6DCE0185ADDED"
+				item: "gtceu:iv_machine_casing"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -22.5d
+		}
+		{
+			dependencies: ["2DC6D2C059E8BE07"]
+			id: "383E04C477720842"
+			tasks: [{
+				id: "4A00725641BDA6DF"
+				item: "gtceu:tungsten_carbide_ingot"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -24.0d
+		}
+		{
+			dependencies: [
+				"7CC959FF709B1FEF"
+				"1A9738F89ECA8E6C"
+			]
+			id: "0C8C54531E77549A"
+			tasks: [{
+				id: "46EBE990155B6045"
+				item: "gtceu:hssg_ingot"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -22.5d
+		}
+		{
+			dependencies: [
+				"0C8C54531E77549A"
+				"0808D2E05CBFB662"
+			]
+			id: "3C73BD94919A57C4"
+			tasks: [{
+				id: "63CAA2680116B317"
+				item: "gtceu:hsse_ingot"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -22.5d
+		}
+		{
+			dependencies: ["7FBF5E1B748B5650"]
+			id: "3180F492F13A77FD"
+			tasks: [{
+				dimension: "ad_astra:mars"
+				id: "3520BB0D1DC63679"
+				type: "dimension"
+			}]
+			x: 18.5d
+			y: -25.5d
+		}
+		{
+			dependencies: ["2BC540AB6497B161"]
+			id: "53E70BC08204BB84"
+			tasks: [{
+				id: "20DBA14A70D15A1D"
+				item: "gtceu:desh_frame"
+				type: "item"
+			}]
+			x: 23.0d
+			y: -21.0d
+		}
+		{
+			dependencies: ["669F52806D1D39F6"]
+			description: [
+				"This will be your entry into Blood Magic, a magic mod that uses blood and sacrifice to power the altar."
+				""
+				"It contains many useful stuff, like rituals, tools and potions."
+				""
+				"There is also stuff like the ore meteor ritual that can generate ores passively for you."
+			]
+			id: "4CFCE86B93661143"
+			tasks: [{
+				id: "64443D7FA2701F68"
+				item: {
+					Count: 1
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "bloodmagic:guide"
+					}
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: -14.5d
+		}
+		{
+			dependencies: ["4CFCE86B93661143"]
+			description: [
+				"This is the start of your sacrifice journey. Prick yourself with the knife near the altar and it will fill with blood (life essence)."
+				""
+				"The blood slowly drains away passively, keep that in mind."
+				""
+				"When you want to put something in the altar, right click it with the item and wait. After it has consumed enough blood it will transform into the wanted item."
+			]
+			icon: "bloodmagic:altar"
+			id: "63901622D76AA82F"
+			shape: "gear"
+			tasks: [
+				{
+					id: "59401CFE70BBA414"
+					item: "bloodmagic:altar"
+					type: "item"
+				}
+				{
+					id: "40CE016D6177E731"
+					item: {
+						Count: 1
+						id: "bloodmagic:sacrificialdagger"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: -16.5d
+		}
+		{
+			dependencies: ["63901622D76AA82F"]
+			description: [
+				"There are multiple tiers of the blood orb, all of which store an increasing amount of life essence."
+				""
+				"For now you can only craft the Weak Blood Orb."
+			]
+			id: "6DAE249413EB0E73"
+			tasks: [{
+				id: "3EB43CCB83E14D5A"
+				item: "bloodmagic:weakbloodorb"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -16.5d
+		}
+		{
+			dependencies: ["63901622D76AA82F"]
+			description: ["Throw the soul snare at any mob to snare it. Once it's snared kill it to get its will."]
+			id: "2F9E808C2EE0650B"
+			tasks: [{
+				id: "7BEDE538049F747A"
+				item: "bloodmagic:soulsnare"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -18.0d
+		}
+		{
+			dependencies: ["2F9E808C2EE0650B"]
+			id: "6D2CFB26CD8456EE"
+			tasks: [{
+				id: "284C43FFA797E729"
+				item: {
+					Count: 1
+					id: "bloodmagic:basemonstersoul"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: -19.5d
+		}
+		{
+			dependencies: ["63901622D76AA82F"]
+			description: ["Throw any stone in the altar to get slates. You'll need these for many other recipes in the mod."]
+			id: "6D6D1CCEB56BE3EA"
+			tasks: [{
+				id: "176854BC9D075C20"
+				item: "bloodmagic:blankslate"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -18.0d
+		}
+		{
+			dependencies: ["6D6D1CCEB56BE3EA"]
+			description: [
+				"Place 9 runes below the altar to transform it into a Tier 2 altar, which can make more advanced items."
+				""
+				"You can replace any amount of those 9 runes with other runes with various effects. See the other runes branching from this quest to find more info."
+			]
+			id: "050936F8ADC7235D"
+			shape: "gear"
+			tasks: [{
+				count: 9L
+				id: "76F0E87B5BDEC240"
+				item: { Count: 9, id: "bloodmagic:blankrune" }
+				type: "item"
+			}]
+			x: 13.5d
+			y: -18.0d
+		}
+		{
+			dependencies: ["050936F8ADC7235D"]
+			description: ["The speed rune will speed up the charging of the items in the altar."]
+			id: "69B9D7DB4706EF19"
+			tasks: [{
+				id: "6D2CB80D935E901C"
+				item: "bloodmagic:speedrune"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -17.0d
+		}
+		{
+			dependencies: ["050936F8ADC7235D"]
+			description: [
+				"This rune will give more life essence from mobs you sacrifice at the altar."
+				""
+				"For that you will need a Dagger of Sacrifice."
+			]
+			id: "4E2973759004A3FB"
+			tasks: [{
+				id: "7925BA4F3C529CDC"
+				item: "bloodmagic:sacrificerune"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -19.0d
+		}
+		{
+			dependencies: ["050936F8ADC7235D"]
+			description: ["The rune of self sacrifice will increase the amount of life essence that is gained from sacrificing your health."]
+			id: "4FC5E28D69579970"
+			tasks: [{
+				id: "6D668F9223A53E4A"
+				item: "bloodmagic:selfsacrificerune"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -17.0d
+		}
+		{
+			dependencies: ["050936F8ADC7235D"]
+			description: [
+				"Now that you have the tier 2 altar, you can craft the reinforced slate needed for Gaia ingots, as well as many other items."
+				""
+				"Progressing further into Blood Magic is optional from now on, but it may be worth it."
+			]
+			id: "43237774B2517E92"
+			tasks: [{
+				id: "15809A0C1F49361E"
+				item: "bloodmagic:reinforcedslate"
+				type: "item"
+			}]
+			x: 16.5d
+			y: -18.0d
+		}
+		{
+			dependencies: ["65F511A3B3D9F0A5"]
+			id: "2530D037CA136179"
+			tasks: [{
+				id: "3F43A989B6D9B221"
+				item: "gtceu:ev_large_miner"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -24.0d
+		}
+		{
+			dependencies: [
+				"7D6E0F5E06157A42"
+				"3DD39BF682E9B668"
+			]
+			description: ["Even more durable material, now with magical properties!"]
+			id: "383C4B9D24589E17"
+			tasks: [{
+				id: "1F0859A54FB81ABE"
+				item: "kubejs:mythril_infused_carbon_fibers"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -11.5d
+		}
+		{
+			dependencies: ["050936F8ADC7235D"]
+			description: ["The dagger of sacrifice allows you to sacrifice other mobs to fill the altar."]
+			id: "612F438680E36654"
+			tasks: [{
+				id: "0A275A4120A4EA0F"
+				item: "bloodmagic:daggerofsacrifice"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -19.0d
 		}
 	]
 	title: "EV Age"
