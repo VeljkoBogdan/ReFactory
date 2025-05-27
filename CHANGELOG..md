@@ -3,6 +3,11 @@
 - Removed ore indicators
 - Clay and dirt yield from apothecary increased
 - Removed problematic recipes
+- Charged Certus chraftable
+- Tier 2 rocket craftable, Mars visitable
+- Sifting Dried Salt is now possible only if holding sticks
+- Questbook improvements
+- Added Currency and Questbook Shop tab
 - Dead and Rubber logs and wood are now choppable on the chopping board
 - Many recipes are now harder and require more Botania materials / custom materials
 - Added mods: Sophisticated Storage, Oculus, Double Doors, Entity Culling, Smooth Boot, Quests Freeze Fix, Connected Glass, Lootr, Rechiseled, AdvancedAE, AE2 Wireless Terminals, FramedBlocks, Dis-enchanting table, AE Infinity Booster, ReFactory Core, Redstone Clock, LaserIO
