@@ -746,6 +746,11 @@ ServerEvents.recipes(event => {
         .EUt(GTValues.VA[GTValues.LV])
 
     event.replaceInput({id: 'gtceu:assembler/coil_rtm_alloy'}, 'gtceu:vanadium_steel_foil', 'gtceu:gaia_foil')
+
+    // Remove Ostrum from smelting and blasting
+    event.remove({type: 'smelting', output: 'gtceu:ostrum_ingot'})
+    event.remove({type: 'blasting', output: 'gtceu:ostrum_ingot'})
+    event.remove({type: 'enderio:alloy_smelting', output: 'gtceu:ostrum_ingot'})
 })
     
 // Remove vanilla tools
