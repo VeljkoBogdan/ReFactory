@@ -3,7 +3,7 @@ GTCEuServerEvents.oreVeins(event => {
     event.add('kubejs:utherium_vein', vein => {
         vein.layer('undergarden')
         vein.weight(20)
-        vein.clusterSize(35)
+        vein.clusterSize(25)
         vein.density(0.35)
         vein.discardChanceOnAirExposure(0)
         vein.heightRangeUniform(5, 40)
@@ -21,7 +21,7 @@ GTCEuServerEvents.oreVeins(event => {
     event.add('kubejs:copper_vein', vein => {
         vein.layer('undergarden')
         vein.weight(20)
-        vein.clusterSize(35)
+        vein.clusterSize(30)
         vein.density(0.55)
         vein.discardChanceOnAirExposure(0)
         vein.heightRangeUniform(5, 60)
@@ -38,8 +38,8 @@ GTCEuServerEvents.oreVeins(event => {
 
     event.add('kubejs:gold_vein', vein => {
         vein.layer('undergarden')
-        vein.weight(15)
-        vein.clusterSize(30)
+        vein.weight(10)
+        vein.clusterSize(20)
         vein.density(0.30)
         vein.discardChanceOnAirExposure(0)
         vein.heightRangeUniform(5, 36)

@@ -3,7 +3,7 @@ GTCEuServerEvents.oreVeins(event => {
     event.add('kubejs:sheldonite_vein_moon', vein => {
         vein.layer('moon_stone')
         vein.weight(30)
-        vein.clusterSize(30)
+        vein.clusterSize(25)
         vein.density(0.2)
         vein.discardChanceOnAirExposure(0)
         vein.heightRangeUniform(32, 96)
