@@ -53,3 +53,19 @@ GTCEuServerEvents.oreVeins(event => {
     })
 
 })
+
+// In server events
+GTCEuServerEvents.fluidVeins(event => {
+
+    event.add('salt_water_deposit', vein => {
+        vein.dimensions('undergarden:undergarden')
+        vein.fluid(() => Fluid.of("gtceu:salt_water").fluid)
+        vein.weight(600)
+        vein.minimumYield(120)
+        vein.maximumYield(720)
+        vein.depletionAmount(2)
+        vein.depletionChance(1)
+        vein.depletedYield(50)
+    })
+
+})
