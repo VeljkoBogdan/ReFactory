@@ -751,6 +751,7 @@ ServerEvents.recipes(event => {
     event.remove({type: 'smelting', output: 'gtceu:ostrum_ingot'})
     event.remove({type: 'blasting', output: 'gtceu:ostrum_ingot'})
     event.remove({type: 'enderio:alloy_smelting', output: 'gtceu:ostrum_ingot'})
+    event.remove({id: 'gtceu:arc_furnace/arc_ostrum_dust'})
 })
     
 // Remove vanilla tools

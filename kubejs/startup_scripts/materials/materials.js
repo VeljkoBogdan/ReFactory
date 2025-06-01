@@ -352,6 +352,7 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
             GTMaterialFlags.GENERATE_GEAR,
             GTMaterialFlags.GENERATE_ROD
         )
+        .blastTemp(4000, null, GTValues.VA[GTValues.IV], 20*20)
 
     event.create('calorite')
         .ingot()
