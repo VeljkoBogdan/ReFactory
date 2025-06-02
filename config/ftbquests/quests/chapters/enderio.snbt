@@ -85,10 +85,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: [
-				"0FF81E53547B92AE"
-				"198D927F0F40328D"
-			]
+			dependencies: ["0FF81E53547B92AE"]
 			description: [
 				"Okay, so i heard this has infinite energy transport. Take it with a grain of salt."
 				""
@@ -161,10 +158,7 @@
 			y: 0.5d
 		}
 		{
-			dependencies: [
-				"0FF81E53547B92AE"
-				"643FEB164D504DEB"
-			]
+			dependencies: ["0FF81E53547B92AE"]
 			description: ["Item Conduits are bad in terms of bulk transport, but insanely good in logistics. Configure priorities and use them with drawers for a cheap filter setup."]
 			id: "0C1C7A6A5BF6F75C"
 			rewards: [{
@@ -230,29 +224,6 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["2479DD1E235FEA1B"]
-			description: ["Made from Copper and Silicon. Needed for Future Alloys."]
-			id: "6F8CBEF30A745346"
-			tasks: [{
-				id: "357AA9FE7DCD58EB"
-				item: "enderio:copper_alloy_ingot"
-				type: "item"
-			}]
-			x: -2.5d
-			y: 0.0d
-		}
-		{
-			dependencies: ["6F8CBEF30A745346"]
-			id: "198D927F0F40328D"
-			tasks: [{
-				id: "2B2D8A786DE0F833"
-				item: "enderio:conductive_alloy_ingot"
-				type: "item"
-			}]
-			x: -2.5d
-			y: -1.0d
-		}
-		{
 			dependencies: ["1F6208F7AD819E46"]
 			description: ["The SAG Mill (Semi-Autogenous Grinder) is a cheap way to do ore processing, but is also required for many other EIO recipes."]
 			id: "3B88C3102C1AC271"
@@ -299,6 +270,7 @@
 			y: 2.5d
 		}
 		{
+			dependencies: ["189B920AAB6456B4"]
 			description: [
 				"To get Grains of Infinity, you need to light bedrock on fire and wait... or you can use the alternative method with flint and deepslate."
 				""
@@ -319,11 +291,16 @@
 				item: "enderio:grains_of_infinity"
 				type: "item"
 			}]
-			x: -2.0d
-			y: 4.0d
+			x: -3.0d
+			y: 5.0d
 		}
 		{
-			dependencies: ["4279169E4B3A9A28"]
+			dependencies: [
+				"4279169E4B3A9A28"
+				"4C33D83B53E3563A"
+				"4CBE7FA223FD96D6"
+				"4F8F4F290F005D6C"
+			]
 			description: ["Capacitors are modular \"upgrades\" (kind of?) to any EIO Machine. They are required to make the machine work and the higher the tier the more effective they make the machine."]
 			id: "12FA482532B5E8A2"
 			subtitle: "Stop the Cap, Cuh"
@@ -398,25 +375,13 @@
 		}
 		{
 			dependencies: ["2479DD1E235FEA1B"]
-			description: ["See, this is why i say stock up on pearls."]
-			id: "643FEB164D504DEB"
-			tasks: [{
-				id: "33BF65C50896053A"
-				item: "enderio:pulsating_alloy_ingot"
-				type: "item"
-			}]
-			x: -1.0d
-			y: 0.5d
-		}
-		{
-			dependencies: ["2479DD1E235FEA1B"]
 			id: "57B1CA72A6B208C0"
 			tasks: [{
 				id: "39E338C805AF499F"
 				item: "enderio:clear_glass"
 				type: "item"
 			}]
-			x: -3.5d
+			x: -3.0d
 			y: 0.5d
 		}
 		{
@@ -535,7 +500,6 @@
 				table_id: 6805427150730107784L
 				type: "loot"
 			}]
-			subtitle: "I don't think this works"
 			tasks: [{
 				id: "1A6B8350D0FFB4EB"
 				item: {
@@ -566,6 +530,54 @@
 			}]
 			x: -2.0d
 			y: -4.5d
+		}
+		{
+			dependencies: ["1F6208F7AD819E46"]
+			description: ["Allows you to enchant books with whichever enchantment you want."]
+			id: "4DE783B3D5489350"
+			tasks: [{
+				id: "36968646CB6C62EB"
+				item: "enderio:enchanter"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["189B920AAB6456B4"]
+			description: ["Made from steel and obsidian. Needed in crafting conductors and machines."]
+			id: "4F8F4F290F005D6C"
+			tasks: [{
+				id: "5CCA6E5C149CF492"
+				item: "gtceu:dark_steel_ingot"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["071811F3550BAF2F"]
+			description: ["Made from iron and redstone."]
+			id: "4CBE7FA223FD96D6"
+			tasks: [{
+				id: "1A1BBD0D19F83DF3"
+				item: "gtceu:conductive_alloy_ingot"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4816A85DF7D24F0B"]
+			description: ["Made from silicon, copper and redstone dust in a mixer."]
+			id: "4C33D83B53E3563A"
+			tasks: [{
+				id: "435B362460969691"
+				item: "gtceu:redstone_alloy_ingot"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 5.5d
 		}
 	]
 	title: "EnderIO"
