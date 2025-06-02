@@ -69,6 +69,23 @@ ServerEvents.recipes(event => {
 		.duration(20*40)
 		.EUt(2)
 
+    event.remove({id: 'minecraft:shears'})
+    event.shaped(
+        'minecraft:shears',
+        [
+            'HP ',
+            'PFP',
+            'RPS'
+        ],
+        {
+            P: 'gtceu:iron_plate',
+            R: 'gtceu:iron_ring',
+            H: '#forge:tools/hammers',
+            F: '#forge:tools/files',
+            S: '#forge:tools/screwdrivers'
+        }
+    )
+
     // Bed gregification
     const bedColors = [
         'white', 'light_gray', 'gray', 'black', 'brown', 'red', 'orange', 'yellow',
@@ -91,5 +108,5 @@ ServerEvents.recipes(event => {
             H: '#forge:tools/hammers'
         });
     }
-          
+        
 })

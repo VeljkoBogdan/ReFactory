@@ -462,6 +462,7 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
     
     event.create('pulsating_alloy')
         .ingot()
+        .liquid()
         .color(0x70d486)
         .components(
             'iron',

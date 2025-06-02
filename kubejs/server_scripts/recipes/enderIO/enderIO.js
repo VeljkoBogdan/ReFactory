@@ -124,7 +124,7 @@ ServerEvents.recipes(event => {
 			'CPC',
 		],
 		{
-			P: 'gtceu:soularium_pllate',
+			P: 'gtceu:soularium_plate',
 			V: 'enderio:void_chassis',
 			C: 'gtceu:electrum_single_cable'
 		}
@@ -444,9 +444,540 @@ ServerEvents.recipes(event => {
             V: 'enderio:vibrant_crystal'
         }
     )
+
+    event.remove({output: 'enderio:photovoltaic_composite'})
+    event.recipes.gtceu.mixer('photovoltaic_composite')
+        .itemInputs(
+            'gtceu:silicon_dust',
+            'gtceu:lapis_dust',
+            'gtceu:coal_dust'
+        )
+        .itemOutputs(
+            '3x enderio:photovoltaic_composite'
+        )
+        .duration(20*4)
+        .EUt(GTValues.VA[GTValues.LV] / 2)
+
+    event.shaped(
+        'enderio:photovoltaic_plate',
+        [
+            'GGG',
+            'CCC',
+            'PRP'
+        ],
+        {
+            C: 'enderio:photovoltaic_composite',
+            P: 'gtceu:dark_steel_plate',
+            R: 'gtceu:redstone_alloy_plate',
+            G: '#forge:glass_panes'
+        }
+    )
     
+    event.shaped(
+        'enderio:energetic_photovoltaic_module',
+        [
+            'PPP',
+            'CLC',
+            'EEE'
+        ],
+        {
+            P: 'enderio:photovoltaic_plate',
+            C: 'enderio:basic_capacitor',
+            L: '#gtceu:circuits/lv',
+            E: 'gtceu:energetic_alloy_plate'
+        }
+    )
+        
+    event.shaped(
+        'enderio:pulsating_photovoltaic_module',
+        [
+            'PPP',
+            'CLC',
+            'EEE'
+        ],
+        {
+            P: 'enderio:photovoltaic_plate',
+            C: 'enderio:double_layer_capacitor',
+            L: 'enderio:energetic_photovoltaic_module',
+            E: 'gtceu:pulsating_alloy_plate'
+        }
+    )
+            
+    event.shaped(
+        'enderio:vibrant_photovoltaic_module',
+        [
+            'PPP',
+            'CLC',
+            'EEE'
+        ],
+        {
+            P: 'enderio:photovoltaic_plate',
+            C: 'enderio:octadic_capacitor',
+            L: 'enderio:pulsating_photovoltaic_module',
+            E: 'gtceu:vibrant_alloy_plate'
+        }
+    )
+
+    event.remove({id: 'enderio:drain'})
+    event.shaped(
+        'enderio:drain',
+        [
+            'PGP',
+            'PMP',
+            'IBI'
+        ],
+        {
+            P: 'gtceu:copper_alloy_plate',
+            G: "#forge:glass",
+            M: 'enderio:void_chassis',
+            I: 'gtceu:iron_gear',
+            B: 'bucket'
+        }
+    )
+
+    event.remove({id: 'enderio:wired_charger'})
+    event.shaped(
+        'enderio:wired_charger',
+        [
+            'III',
+            'PMP',
+            'CBC'
+        ],
+        {
+            I: 'gtceu:conductive_alloy_plate',
+            P: 'gtceu:copper_alloy_plate',
+            M: 'enderio:void_chassis',
+            C: "gtceu:tin_quadruple_cable",
+            B: 'gtceu:dark_steel_plate'
+        }
+    )
+
+    event.remove({id: 'enderio:soul_binder'})
+    event.shaped(
+        'enderio:soul_binder',
+        [
+            'SVS',
+            'GMG',
+            'SZS'
+        ],
+        {
+            M: 'enderio:ensouled_chassis',
+            S: 'gtceu:soularium_plate',
+            V: 'enderio:empty_soul_vial',
+            G: 'gtceu:energetic_alloy_gear',
+            Z: 'enderio:z_logic_controller'
+        }
+    )
+
+    event.remove({id: 'enderio:powered_spawner'})
+    event.shaped(
+        'enderio:powered_spawner',
+        [
+            'SBS',
+            'CMC',
+            'GZG'
+        ],
+        {
+            M: 'enderio:ensouled_chassis',
+            S: 'gtceu:soularium_plate',
+            G: 'gtceu:energetic_alloy_gear',
+            Z: 'enderio:z_logic_controller',
+            B: 'enderio:broken_spawner',
+            C: 'enderio:vibrant_crystal'
+        }
+    )
+
+    event.remove({id: 'enderio:slice_and_splice'})
+    event.shaped(
+        'enderio:slice_and_splice',
+        [
+            'SHS',
+            'GMG',
+            'SBS'
+        ],
+        {
+            M: 'enderio:ensouled_chassis',
+            S: 'gtceu:soularium_plate',
+            G: 'gtceu:energetic_alloy_gear',
+            B: "gtceu:cobalt_brass_buzz_saw_blade",
+            H: '#forge:heads'
+        }
+    )
+
+    event.remove({id: 'enderio:soul_engine'})
+    event.shaped(
+        'enderio:soul_engine',
+        [
+            'SPS',
+            'TMT',
+            'SES'
+        ],
+        {
+            M: 'enderio:ensouled_chassis',
+            S: 'gtceu:soularium_plate',
+            P: 'gtceu:mv_electric_piston',
+            T: 'enderio:pressurized_fluid_tank',
+            E: "enderio:zombie_electrode"
+        }
+    )
+
+    event.remove({id: 'enderio:xp_obelisk'})
+    event.shaped(
+        'enderio:xp_obelisk',
+        [
+            ' R ',
+            ' S ',
+            'SMS'
+        ],
+        {
+            M: 'enderio:ensouled_chassis',
+            S: 'gtceu:soularium_plate',
+            R: "enderio:experience_rod"
+        }
+    )
+
+    event.remove({id: 'enderio:aversion_obelisk'})
+    event.shaped(
+        'enderio:aversion_obelisk',
+        [
+            ' E ',
+            'ASA',
+            'SMS'
+        ],
+        {
+            M: 'enderio:ensouled_chassis',
+            S: 'gtceu:soularium_plate',
+            E: "enderio:enderman_head",
+            A: 'gtceu:energetic_alloy_foil'
+        }
+    )
+
+    event.remove({id: 'enderio:vibrant_crystal'})
+    event.remove({id: 'enderio:pulsating_crystal'})
+
+    event.recipes.gtceu.autoclave('pulsating_crystal')
+        .itemInputs('diamond')
+        .inputFluids(Fluid.of("gtceu:molten_pulsating_alloy", 144))
+        .itemOutputs('enderio:pulsating_crystal')
+        .duration(20*10)
+        .EUt(GTValues.VA[GTValues.MV] / 2)
+
+    event.recipes.gtceu.autoclave('vibrant_crystal')
+        .itemInputs('enderio:pulsating_crystal')
+        .inputFluids(Fluid.of("gtceu:molten_vibrant_alloy", 144))
+        .itemOutputs('enderio:vibrant_crystal')
+        .duration(20*10)
+        .EUt(GTValues.VA[GTValues.MV] / 2)
+
+    
+    event.remove({id: 'enderio:energetic_photovoltaic_module'})
+    event.remove({id: 'enderio:pulsating_photovoltaic_module'})
+    event.remove({id: 'enderio:vibrant_photovoltaic_module'})
+    event.remove({id: 'enderio:alloy_smelting/photovoltaic_plate'})
     event.remove({id: 'enderio:primitive_alloy_smelter'})
     event.remove({id: 'enderio:stirling_generator'})
+
+    event.remove({id: 'enderio:redstone_filter_base'})
+    event.shaped(
+        'enderio:redstone_filter_base',
+        [
+            'RPR',
+            'PBP',
+            'RPR'
+        ],
+        {
+            R: 'gtceu:redstone_alloy_plate',
+            P: 'paper',
+            B: 'gtceu:dark_steel_plate'
+        }
+    )
+
+    materials.map(material => {
+        event.remove({output: `enderio:${material}_grinding_ball`})
+        event.shaped(
+            `enderio:${material}_grinding_ball`,
+            [
+                'FPF',
+                'PHP',
+                'FPF'
+            ],
+            {
+                F: `gtceu:${material}_foil`,
+                P: `gtceu:${material}_plate`,
+                H: '#forge:tools/files'
+            }
+        )
+    })
+
+    event.remove({id: 'enderio:yeta_wrench'})
+    event.shaped(
+        'enderio:yeta_wrench',
+        [
+            'PHP',
+            'PPP',
+            ' P '
+        ],
+        {
+            P: 'gtceu:copper_alloy_plate',
+            H: '#forge:tools/hammers'
+        }
+    )
+
+    event.remove({output: 'enderio:coordinate_selector'})
+    event.shaped(
+        'enderio:coordinate_selector',
+        [
+            'PPP',
+            'ECP',
+            '  P'
+        ],
+        {
+            P: 'gtceu:copper_alloy_plate',
+            C: 'compass',
+            E: "gtceu:ender_pearl_plate"
+        }
+    )
+    
+    event.remove({output: 'enderio:staff_of_travelling'})
+    event.shaped(
+        'enderio:staff_of_travelling',
+        [
+            '  E',
+            ' R ',
+            'R  '
+        ],
+        {
+            R: 'gtceu:dark_steel_rod',
+            E: "enderio:ender_crystal"
+        }
+    )
+        
+    event.remove({output: 'enderio:fluid_tank'})
+    event.shaped(
+        'enderio:fluid_tank',
+        [
+            'PBP',
+            'BGB',
+            'PBP'
+        ],
+        {
+            P: 'gtceu:iron_plate',
+            B: 'iron_bars',
+            G: '#forge:glass'
+        }
+    )
+        
+    event.remove({output: 'enderio:pressurized_fluid_tank'})
+    event.shaped(
+        'enderio:pressurized_fluid_tank',
+        [
+            'PBP',
+            'BGB',
+            'PBP'
+        ],
+        {
+            P: 'gtceu:double_dark_steel_plate',
+            B: 'enderio:dark_steel_bars',
+            G: 'enderio:fluid_tank'
+        }
+    )
+
+    event.remove({id: 'enderio:empty_soul_vial'})
+    event.shaped(
+        'enderio:empty_soul_vial',
+        [
+            ' P ',
+            'Q Q',
+            ' Q '
+        ],
+        {
+            P: 'gtceu:double_soularium_plate',
+            Q: '#enderio:fused_quartz'
+        }
+    )
+
+    event.remove({output: 'enderio:energy_conduit'})
+    event.shaped(
+        '6x enderio:energy_conduit',
+        [
+            'BBB',
+            'RRR',
+            'BBB'
+        ],
+        {
+            B: 'enderio:conduit_binder',
+            R: 'gtceu:conductive_alloy_plate'
+        }
+    )
+
+    event.remove({output: 'enderio:fluid_conduit'})
+    event.shaped(
+        '6x enderio:fluid_conduit',
+        [
+            'BBB',
+            'RRR',
+            'BBB'
+        ],
+        {
+            B: 'enderio:conduit_binder',
+            R: '#enderio:clear_glass'
+        }
+    )
+
+    event.remove({output: 'enderio:pressurized_fluid_conduit'})
+    event.shaped(
+        '6x enderio:pressurized_fluid_conduit',
+        [
+            'BBB',
+            'RRR',
+            'BBB'
+        ],
+        {
+            B: 'enderio:conduit_binder',
+            R: '#enderio:fused_quartz'
+        }
+    )
+
+    event.remove({output: 'enderio:ender_fluid_conduit'})
+    event.shaped(
+        '6x enderio:ender_fluid_conduit',
+        [
+            'BBB',
+            'RRR',
+            'BBB'
+        ],
+        {
+            B: 'enderio:conduit_binder',
+            R: 'gtceu:vibrant_alloy_plate'
+        }
+    )
+
+    event.remove({output: 'enderio:redstone_conduit'})
+    event.shaped(
+        '6x enderio:redstone_conduit',
+        [
+            'BBB',
+            'RRR',
+            'BBB'
+        ],
+        {
+            B: 'enderio:conduit_binder',
+            R: 'gtceu:redstone_alloy_plate'
+        }
+    )
+
+    event.remove({output: 'enderio:item_conduit'})
+    event.shaped(
+        '6x enderio:item_conduit',
+        [
+            'BBB',
+            'RRR',
+            'BBB'
+        ],
+        {
+            B: 'enderio:conduit_binder',
+            R: 'gtceu:pulsating_alloy_plate'
+        }
+    )
+
+    event.remove({output: 'enderio:extraction_speed_upgrade_1'})
+    event.shaped(
+        '2x enderio:extraction_speed_upgrade_1',
+        [
+            'RSR',
+            'SPS',
+            'RSR'
+        ],
+        {
+            R: 'gtceu:redstone_alloy_plate',
+            S: 'gtceu:double_steel_plate',
+            P: 'piston'
+        }
+    )
+
+    event.remove({output: 'enderio:extraction_speed_upgrade_2'})
+    event.shaped(
+        '2x enderio:extraction_speed_upgrade_2',
+        [
+            'RSR',
+            'SPS',
+            'RPR'
+        ],
+        {
+            R: 'gtceu:soularium_plate',
+            S: 'gtceu:double_aluminium_plate',
+            P: 'enderio:extraction_speed_upgrade_1'
+        }
+    )
+
+    event.remove({output: 'enderio:extraction_speed_upgrade_3'})
+    event.shaped(
+        '2x enderio:extraction_speed_upgrade_3',
+        [
+            'RSR',
+            'SPS',
+            'RPR'
+        ],
+        {
+            R: 'gtceu:energetic_alloy_plate',
+            S: 'gtceu:double_aluminium_plate',
+            P: 'enderio:extraction_speed_upgrade_2'
+        }
+    )
+
+    event.remove({output: 'enderio:extraction_speed_upgrade_4'})
+    event.shaped(
+        '2x enderio:extraction_speed_upgrade_4',
+        [
+            'RSR',
+            'SPS',
+            'RPR'
+        ],
+        {
+            R: 'gtceu:vibrant_alloy_plate',
+            S: 'gtceu:double_aluminium_plate',
+            P: 'enderio:extraction_speed_upgrade_3'
+        }
+    )
+
+    event.remove({output: 'enderio:dark_steel_bars'})
+    event.shaped(
+        '3x enderio:dark_steel_bars',
+        [
+            'RRR',
+            'RRR',
+            'HSF'
+        ],
+        {
+            R: 'gtceu:dark_steel_rod',
+            H: '#forge:tools/hammers',
+            S: '#forge:tools/saws',
+            F: '#forge:tools/files'
+        }
+    )
+    event.recipes.gtceu.assembler('dark_steel_bars')
+        .itemInputs('6x gtceu:dark_steel_rod')
+        .itemOutputs('16x enderio:dark_steel_bars')
+        .duration(20*12)
+        .EUt(GTValues.VA[GTValues.MV] * 0.75)
+
+    event.shaped(
+        'enderio:broken_spawner',
+        [
+            'PMP',
+            'BEB',
+            'PMP'
+        ],
+        {
+            P: 'gtceu:double_soularium_plate',
+            M: 'gtceu:elementium_plate',
+            B: 'enderio:dark_steel_bars',
+            E: "minecraft:dragon_egg"
+        }
+    )
+
+    
+    
 })
 
 

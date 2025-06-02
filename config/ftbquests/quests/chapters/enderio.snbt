@@ -81,8 +81,8 @@
 				type: "item"
 			}]
 			title: "Welcome to EnderIO! (Conduits)"
-			x: 0.0d
-			y: 0.0d
+			x: 0.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["0FF81E53547B92AE"]
@@ -103,8 +103,8 @@
 				item: "enderio:energy_conduit"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -1.0d
+			x: 0.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["0FF81E53547B92AE"]
@@ -136,8 +136,8 @@
 					type: "item"
 				}
 			]
-			x: 1.0d
-			y: -0.5d
+			x: 1.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["0FF81E53547B92AE"]
@@ -154,8 +154,8 @@
 				item: "enderio:redstone_conduit"
 				type: "item"
 			}]
-			x: 1.0d
-			y: 0.5d
+			x: 1.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["0FF81E53547B92AE"]
@@ -173,8 +173,8 @@
 				item: "enderio:item_conduit"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 1.0d
+			x: 0.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["0FF81E53547B92AE"]
@@ -194,8 +194,8 @@
 				item: "enderio:me_conduit"
 				type: "item"
 			}]
-			x: -1.0d
-			y: -0.5d
+			x: -0.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["1F6208F7AD819E46"]
@@ -385,25 +385,7 @@
 			y: 0.5d
 		}
 		{
-			dependencies: ["2479DD1E235FEA1B"]
-			description: ["Welcome to the next tier of machines! These machines focus around mob drops and xp."]
-			id: "7C1C8BF9AFFB989F"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "16886EA7B97C2A70"
-				table_id: 6805427150730107784L
-				type: "loot"
-			}]
-			tasks: [{
-				id: "0452AC5B3007CA18"
-				item: "enderio:soularium_ingot"
-				type: "item"
-			}]
-			x: -2.0d
-			y: -2.5d
-		}
-		{
-			dependencies: ["7C1C8BF9AFFB989F"]
+			dependencies: ["1F6208F7AD819E46"]
 			description: ["Soul Machines almost always need a soul vial for its use, so i recommend you make a few."]
 			id: "11B64118797C615D"
 			rewards: [{
@@ -418,10 +400,10 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: -3.5d
+			y: -2.5d
 		}
 		{
-			dependencies: ["11B64118797C615D"]
+			dependencies: ["0F4A383F3A4616C4"]
 			description: [
 				"The Powered Spawner requires two things to spawn mobs; Energy, and also a Soul Vial with the desired mob. It can be upgraded using capacitors for a bigger range."
 				""
@@ -444,8 +426,8 @@
 				}
 				type: "item"
 			}]
-			x: -3.0d
-			y: -4.0d
+			x: -2.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["11B64118797C615D"]
@@ -467,11 +449,11 @@
 				item: "enderio:slice_and_splice"
 				type: "item"
 			}]
-			x: -1.0d
-			y: -4.0d
+			x: -2.0d
+			y: -3.5d
 		}
 		{
-			dependencies: ["11B64118797C615D"]
+			dependencies: ["0F4A383F3A4616C4"]
 			description: [
 				"Used to bind souls to things like Broken Spawners from Soul Vials."
 				"Can also be used to infuse certain items with souls."
@@ -489,10 +471,10 @@
 				type: "item"
 			}]
 			x: -3.0d
-			y: -3.0d
+			y: -5.0d
 		}
 		{
-			dependencies: ["11B64118797C615D"]
+			dependencies: ["6B6F78B4FF764AAF"]
 			id: "28D396968C4FB436"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -510,7 +492,7 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: -3.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["11B64118797C615D"]
@@ -528,8 +510,8 @@
 				item: "enderio:empty_soul_vial"
 				type: "item"
 			}]
-			x: -2.0d
-			y: -4.5d
+			x: -1.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["1F6208F7AD819E46"]
@@ -578,6 +560,28 @@
 			}]
 			x: -2.0d
 			y: 5.5d
+		}
+		{
+			dependencies: ["7DD5F8DE20F8E0F7"]
+			id: "0F4A383F3A4616C4"
+			tasks: [{
+				id: "0D4874A1F0FD6A96"
+				item: "enderio:z_logic_controller"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["7DD5F8DE20F8E0F7"]
+			id: "6B6F78B4FF764AAF"
+			tasks: [{
+				id: "6BF0EED33F13E0BE"
+				item: "enderio:zombie_electrode"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -4.0d
 		}
 	]
 	title: "EnderIO"
