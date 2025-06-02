@@ -409,7 +409,129 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
         .color(0xff2be3)
         .iconSet(GTMaterialIconSet.FLUID)
 
-    // Chlorophyte line -----------------------------------------------------------------------------------
+    event.create('copper_alloy')
+        .ingot()
+        .color(0xb37907)
+        .components(
+            'copper',
+            'silicon'
+        )
+        .iconSet(GTMaterialIconSet.FINE)
+        .flags(GTMaterialFlags.GENERATE_PLATE,
+            GTMaterialFlags.GENERATE_BOLT_SCREW,
+            GTMaterialFlags.GENERATE_DENSE,
+            GTMaterialFlags.GENERATE_RING,
+            GTMaterialFlags.GENERATE_FINE_WIRE,
+            GTMaterialFlags.GENERATE_FOIL,
+            GTMaterialFlags.GENERATE_GEAR,
+            GTMaterialFlags.GENERATE_ROD
+        )
+        
+    event.create('dark_steel')
+        .ingot()
+        .color(0x878787)
+        .components(
+            'steel',
+            'obsidian'
+        )
+        .iconSet(GTMaterialIconSet.METALLIC)
+        .flags(GTMaterialFlags.GENERATE_PLATE,
+            GTMaterialFlags.GENERATE_BOLT_SCREW,
+            GTMaterialFlags.GENERATE_DENSE,
+            GTMaterialFlags.GENERATE_RING,
+            GTMaterialFlags.GENERATE_FINE_WIRE,
+            GTMaterialFlags.GENERATE_FOIL,
+            GTMaterialFlags.GENERATE_GEAR,
+            GTMaterialFlags.GENERATE_ROD
+        )
+                
+    event.create('end_steel')
+        .ingot()
+        .element('end_steel')
+        .color(0xbfb869)
+        .iconSet(GTMaterialIconSet.FINE)
+        .flags(GTMaterialFlags.GENERATE_PLATE,
+            GTMaterialFlags.GENERATE_BOLT_SCREW,
+            GTMaterialFlags.GENERATE_DENSE,
+            GTMaterialFlags.GENERATE_RING,
+            GTMaterialFlags.GENERATE_FINE_WIRE,
+            GTMaterialFlags.GENERATE_FOIL,
+            GTMaterialFlags.GENERATE_GEAR,
+            GTMaterialFlags.GENERATE_ROD
+        )
+    
+    event.create('pulsating_alloy')
+        .ingot()
+        .color(0x70d486)
+        .components(
+            'iron',
+            'ender_pearl'
+        )
+        .iconSet(GTMaterialIconSet.SHINY)
+        .flags(GTMaterialFlags.GENERATE_PLATE,
+            GTMaterialFlags.GENERATE_BOLT_SCREW,
+            GTMaterialFlags.GENERATE_DENSE,
+            GTMaterialFlags.GENERATE_RING,
+            GTMaterialFlags.GENERATE_FINE_WIRE,
+            GTMaterialFlags.GENERATE_FOIL,
+            GTMaterialFlags.GENERATE_GEAR,
+            GTMaterialFlags.GENERATE_ROD
+        )
+
+    event.create('redstone_alloy')
+        .ingot()
+        .color(0xfa5c5c)
+        .components(
+            'copper',
+            'redstone',
+            'silicon'
+        )
+        .iconSet(GTMaterialIconSet.METALLIC)
+        .flags(GTMaterialFlags.GENERATE_PLATE,
+            GTMaterialFlags.GENERATE_BOLT_SCREW,
+            GTMaterialFlags.GENERATE_DENSE,
+            GTMaterialFlags.GENERATE_RING,
+            GTMaterialFlags.GENERATE_FINE_WIRE,
+            GTMaterialFlags.GENERATE_FOIL,
+            GTMaterialFlags.GENERATE_GEAR,
+            GTMaterialFlags.GENERATE_ROD
+        )
+        
+    event.create('soularium')
+        .ingot()
+        .element('soularium')
+        .color(0x82715b)
+        .iconSet(GTMaterialIconSet.METALLIC)
+        .flags(GTMaterialFlags.GENERATE_PLATE,
+            GTMaterialFlags.GENERATE_BOLT_SCREW,
+            GTMaterialFlags.GENERATE_DENSE,
+            GTMaterialFlags.GENERATE_RING,
+            GTMaterialFlags.GENERATE_FINE_WIRE,
+            GTMaterialFlags.GENERATE_FOIL,
+            GTMaterialFlags.GENERATE_GEAR,
+            GTMaterialFlags.GENERATE_ROD
+        )
+                
+    event.create('conductive_alloy')
+        .ingot()
+        .color(0xd6a5a3)
+        .components(
+            'iron',
+            '2x redstone'
+        )
+        .iconSet(GTMaterialIconSet.METALLIC)
+        .flags(GTMaterialFlags.GENERATE_PLATE,
+            GTMaterialFlags.GENERATE_BOLT_SCREW,
+            GTMaterialFlags.GENERATE_DENSE,
+            GTMaterialFlags.GENERATE_RING,
+            GTMaterialFlags.GENERATE_FINE_WIRE,
+            GTMaterialFlags.GENERATE_FOIL,
+            GTMaterialFlags.GENERATE_GEAR,
+            GTMaterialFlags.GENERATE_ROD
+        )
+        
+
+    // Chlorophyte line --------------------------------------------------------------------------------------------------
     event.create('chlorophyte')
         .element(GTElements.get('chlorophyte'))
         .liquid()
@@ -498,7 +620,7 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
             GTMaterialFlags.NO_ORE_SMELTING
         )
 
-    // Superconductors
+    // Superconductors ---------------------------------------------------------------------------------------------------------
 
     // cable properties (Voltage, Amperage, Loss/block, isSuperconductor)
 
@@ -575,6 +697,8 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
             GTMaterialFlags.GENERATE_ROTOR
         )
         .iconSet(GTMaterialIconSet.METALLIC)
+
+    // ------------------------------------------------------------------------------------------------------------------------
 
 })
 

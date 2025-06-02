@@ -58,6 +58,14 @@
     "material.gtceu.molten_terrasteel": "Molten Terrasteel",
     "material.gtceu.molten_elementium": "Molten Elementium",
 
+    "material.gtceu.dark_steel": "Dark Steel",
+    "material.gtceu.copper_alloy": "Copper Alloy",
+    "material.gtceu.redstone_alloy": "Redstone Alloy",
+    "material.gtceu.conductive_alloy": "Conductive Alloy",
+    "material.gtceu.pulsating_alloy": "Pulsating Alloy",
+    "material.gtceu.soularium": "Soularium",
+    "material.gtceu.end_steel": "End Steel",
+
     "material.gtceu.chlorophyte": "Chlorophyte",
     "material.gtceu.indole_3_acetic_acid": "Indole-3-Acetic Acid",
     "material.gtceu.indole": "Indole",
@@ -86,5 +94,6 @@
     "gtceu.jei.ore_vein.utherium_vein": "Utherium Vein",
     "gtceu.jei.ore_vein.god_vein": "Gold Vein",
     "gtceu.jei.ore_vein.copper_vein": "Copper Vein",
-    "gtceu.jei.ore_vein.naquadah_vein": "Naquadah Vein"
+    "gtceu.jei.ore_vein.naquadah_vein": "Naquadah Vein",
+    "gtceu.jei.ore_vein.ostrum_vein": "Ostrum Vein"
 }

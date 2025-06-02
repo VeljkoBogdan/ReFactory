@@ -67,4 +67,10 @@ GTCEuStartupEvents.registry('gtceu:element', event => {
         .neutrons(340)
         .symbol('Mh')
         .isIsotope(false)
+
+    event.create('end_steel')
+        .symbol('Fe(MgFeSi₂O₄)?₂')
+
+    event.create('soularium')
+        .symbol('Au?₂')
  })

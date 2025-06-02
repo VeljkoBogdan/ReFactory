@@ -100,5 +100,20 @@ ServerEvents.recipes(event => {
 	.EUt(GTValues.VA[GTValues.ULV])
 })
 
-yeet('enderio:energetic_alloy_ingot')
-yeet('enderio:vibrant_alloy_ingot')
+let materials = [
+    'energetic_alloy',
+    'vibrant_alloy',
+    'dark_steel',
+    'end_steel',
+    'copper_alloy',
+    'redstone_alloy',
+    'conductive_alloy',
+    'pulsating_alloy',
+    'soularium'
+]
+
+materials.map(material => {
+    yeet(`enderio:${material}_ingot`)    
+    yeet(`enderio:${material}_nugget`)    
+    yeet(`enderio:${material}_block`)    
+})
