@@ -9,7 +9,92 @@ let yeet = (itemName) => {
     })
 }
 
+let materials = [
+    'energetic_alloy',
+    'vibrant_alloy',
+    'dark_steel',
+    'end_steel',
+    'copper_alloy',
+    'redstone_alloy',
+    'conductive_alloy',
+    'pulsating_alloy',
+    'soularium'
+]
+
 ServerEvents.recipes(event => {
+
+    // Converting ingots from enderio to gt
+    materials.map(material => {
+        event.shapeless(
+            `gtceu:${material}_ingot`,
+            [`enderio:${material}_ingot`]
+        )
+    })
+
+    event.recipes.gtceu.alloy_smelter('conductive_alloy')
+        .itemInputs(
+            'iron_ingot',
+            '2x redstone'
+        )
+        .itemOutputs('gtceu:conductive_alloy_ingot')
+        .duration(20*4)
+        .EUt(GTValues.VA[GTValues.LV])
+
+    event.recipes.gtceu.alloy_smelter('soularium')
+        .itemInputs(
+            'gold_ingot',
+            '2x soul_sand'
+        )
+        .itemOutputs('gtceu:soularium_ingot')
+        .duration(20*4)
+        .EUt(GTValues.VA[GTValues.MV])
+
+    event.recipes.gtceu.mixer('redstone_alloy_dust')
+        .itemInputs(
+            'gtceu:copper_dust',
+            'gtceu:silicon_dust',
+            'minecraft:redstone'
+        )
+        .itemOutputs('3x gtceu:redstone_alloy_dust')
+        .duration(20*5)
+        .EUt(GTValues.VA[GTValues.LV])
+
+    event.recipes.gtceu.alloy_smelter('pulsating_alloy')
+        .itemInputs(
+            'iron_ingot',
+            'gtceu:ender_pearl_dust'
+        )
+        .itemOutputs('gtceu:pulsating_alloy_ingot')
+        .duration(20*4)
+        .EUt(GTValues.VA[GTValues.LV])
+
+    event.recipes.gtceu.alloy_smelter('end_steel')
+        .itemInputs(
+            'gtceu:dark_steel_ingot',
+            '2x minecraft:end_stone'
+        )
+        .itemOutputs('gtceu:end_steel_ingot')
+        .duration(20*5)
+        .EUt(GTValues.VA[GTValues.LV])
+
+    event.recipes.gtceu.alloy_smelter('dark_steel')
+        .itemInputs(
+            'gtceu:steel_ingot',
+            'minecraft:obsidian'
+        )
+        .itemOutputs('gtceu:dark_steel_ingot')
+        .duration(20*4)
+        .EUt(GTValues.VA[GTValues.LV])
+
+    event.recipes.gtceu.alloy_smelter('copper_alloy')
+        .itemInputs(
+            'copper_ingot',
+            'gtceu:silicon_dust'
+        )
+        .itemOutputs('gtceu:copper_alloy_ingot')
+        .duration(20*4)
+        .EUt(GTValues.VA[GTValues.LV])
+
     // REMOVE ENDERIO MACHINE CHASSIS RECIPES
 	event.remove({ id: 'thermal:machine_frame' })
 	event.remove({ id: 'enderio:void_chassis' })
@@ -98,19 +183,11 @@ ServerEvents.recipes(event => {
 	.itemOutputs('4x enderio:conduit_binder_composite')
 	.duration(20*5)
 	.EUt(GTValues.VA[GTValues.ULV])
+
+
 })
 
-let materials = [
-    'energetic_alloy',
-    'vibrant_alloy',
-    'dark_steel',
-    'end_steel',
-    'copper_alloy',
-    'redstone_alloy',
-    'conductive_alloy',
-    'pulsating_alloy',
-    'soularium'
-]
+
 
 materials.map(material => {
     yeet(`enderio:${material}_ingot`)    
