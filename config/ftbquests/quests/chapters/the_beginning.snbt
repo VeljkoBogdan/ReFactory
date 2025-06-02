@@ -184,20 +184,6 @@
 			x: 3.5d
 			y: 0.0d
 		}
-		{
-			dependencies: ["43E0325219933606"]
-			description: ["&bTemperature&r: Your environment can impact your body temperature, indicated between your health and hunger bar. High or low body temperature will give you debuffs, or even hurt you if they get extreme. In this biome you have to worry about heat specifically. You can remedy heat by eating cold food, not exposing yourself to direct sunlight, swimming in water, wearing heat resistant armor, etc."]
-			icon: "cold_sweat:thermometer"
-			id: "48C9DC116BCF13B8"
-			tasks: [{
-				id: "2F2B264736884EA6"
-				title: "Temperature, Thirst and Body parts"
-				type: "checkmark"
-			}]
-			title: "Temperature"
-			x: -1.5d
-			y: -1.5d
-		}
 	]
 	title: "Intro"
 }

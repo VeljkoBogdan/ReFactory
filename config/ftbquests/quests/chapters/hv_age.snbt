@@ -1079,19 +1079,6 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["59775F7F175FF086"]
-			description: ["Better energy cables. Capable of transfering 5k FE per tick."]
-			id: "640C2569D10D1CDC"
-			size: 1.0d
-			tasks: [{
-				id: "7BD2B348DE8DD295"
-				item: "powah:energy_cable_hardened"
-				type: "item"
-			}]
-			x: -13.0d
-			y: 5.0d
-		}
-		{
 			dependencies: [
 				"42993980A7D65EBB"
 				"512B03E7BB59B936"
@@ -1790,6 +1777,25 @@
 			}]
 			x: 0.0d
 			y: -2.5d
+		}
+		{
+			dependencies: ["62B1007E03E72515"]
+			id: "14ADEC24DA33B9EA"
+			tasks: [
+				{
+					id: "5F5C57EA3641B509"
+					item: "gtceu:raw_tungstate"
+					type: "item"
+				}
+				{
+					id: "0CA5BEE561A02380"
+					item: "gtceu:raw_scheelite"
+					type: "item"
+				}
+			]
+			title: "Tungsten"
+			x: -14.5d
+			y: -4.5d
 		}
 	]
 	title: "HV Age"

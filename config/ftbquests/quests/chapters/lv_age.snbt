@@ -1519,29 +1519,7 @@
 				type: "item"
 			}]
 			x: 7.5d
-			y: 5.5d
-		}
-		{
-			dependencies: ["3F93873DE169ED25"]
-			description: [
-				"Start your Powah adventure!"
-				""
-				"See the \"Power\" tab for more info."
-			]
-			id: "164443788430F196"
-			rewards: [{
-				id: "5C90F092BB069786"
-				item: "kubejs:refactory_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "75CCC7153CD65E6E"
-				item: "powah:dielectric_paste"
-				type: "item"
-			}]
-			title: "Powah"
-			x: 18.0d
-			y: 1.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["7F7FA47652C0FA90"]
@@ -1669,27 +1647,6 @@
 			}]
 			x: 16.5d
 			y: -4.5d
-		}
-		{
-			dependencies: ["74C94B5C7B866A34"]
-			description: [
-				"Good for energy transfer, and fairly cheap."
-				""
-				"Each GT tier has its own upgrade."
-			]
-			id: "2D82EB05632CE9E0"
-			rewards: [{
-				id: "66DD4B41FF496E10"
-				item: "kubejs:refactory_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "08F6FE0738F55D61"
-				item: "powah:energy_cable_starter"
-				type: "item"
-			}]
-			x: 7.5d
-			y: 6.5d
 		}
 		{
 			dependencies: ["45961AD543495B1D"]

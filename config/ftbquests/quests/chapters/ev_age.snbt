@@ -13,7 +13,7 @@
 			description: [
 				"Welcome to the EV age!"
 				""
-				"You'll focus on autocrafting"
+				"You'll focus on autocrafting, blood magic and getting to Mars!"
 			]
 			icon: "gtceu:micro_processor_computer"
 			id: "669F52806D1D39F6"
@@ -405,21 +405,11 @@
 			y: -6.5d
 		}
 		{
-			dependencies: ["5155F1DFD1D1AD33"]
-			id: "15E5DED6010B7CAB"
-			tasks: [{
-				id: "7BB1FD75ADA1B6BF"
-				item: "powah:energy_cable_blazing"
-				type: "item"
-			}]
-			x: 6.0d
-			y: -15.5d
-		}
-		{
 			dependencies: [
 				"5155F1DFD1D1AD33"
 				"4263EB754052F1DC"
 			]
+			description: ["This machine will make it possible to create better and more advanced circuits."]
 			id: "0787681ADFECEC77"
 			shape: "gear"
 			tasks: [{
@@ -469,7 +459,11 @@
 				"5DA249569F2D1E36"
 				"43237774B2517E92"
 			]
-			description: ["Gaia ingots are going to be required in circuit crafting and the tier 2 rocket plating."]
+			description: [
+				"Gaia ingots are going to be required in circuit crafting and the tier 2 rocket plating."
+				""
+				"Apart from that they are an EV superconductor!"
+			]
 			id: "2C3F51C6C0776EA6"
 			shape: "gear"
 			tasks: [{
@@ -782,6 +776,7 @@
 			id: "3180F492F13A77FD"
 			tasks: [{
 				dimension: "ad_astra:mars"
+				icon: "ad_astra:mars_globe"
 				id: "3520BB0D1DC63679"
 				type: "dimension"
 			}]
@@ -1020,6 +1015,18 @@
 			}]
 			x: 14.0d
 			y: -19.0d
+		}
+		{
+			dependencies: ["3180F492F13A77FD"]
+			id: "3144AB9C2C09C709"
+			tasks: [{
+				count: 32L
+				id: "45D405702EBBAE95"
+				item: { Count: 32, id: "gtceu:raw_ostrum" }
+				type: "item"
+			}]
+			x: 18.5d
+			y: -27.0d
 		}
 	]
 	title: "EV Age"

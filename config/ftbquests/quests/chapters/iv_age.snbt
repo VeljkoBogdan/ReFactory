@@ -481,17 +481,6 @@
 		}
 		{
 			dependencies: ["3F37E03149399E3F"]
-			id: "4307BA731021D1A8"
-			tasks: [{
-				id: "5578C6D7C959D6AD"
-				item: "powah:energy_cable_niotic"
-				type: "item"
-			}]
-			x: 1.5d
-			y: -1.5d
-		}
-		{
-			dependencies: ["3F37E03149399E3F"]
 			description: [
 				"Although it's called a creative botany pot, it is really not."
 				""

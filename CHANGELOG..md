@@ -12,7 +12,7 @@
 - Many recipes are now harder and require more Botania materials / custom materials
 - Added mods: Sophisticated Storage, Oculus, Double Doors, Entity Culling, Smooth Boot, Quests Freeze Fix, Connected Glass, Lootr, Rechiseled, AdvancedAE, AE2 Wireless Terminals, FramedBlocks, Dis-enchanting table, AE Infinity Booster, ReFactory Core, Redstone Clock, LaserIO
 - Updated mods: Collective
-- Removed mods:
+- Removed mods: Powah, Cold Sweat
 
 # 0.2.1
 - New world generation
