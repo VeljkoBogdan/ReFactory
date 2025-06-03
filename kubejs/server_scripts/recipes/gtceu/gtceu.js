@@ -711,7 +711,7 @@ ServerEvents.recipes(event => {
         ],
         {
             S: 'gtceu:tungsten_steel_plate',
-            T: 'gtceu:desh_plate',
+            T: 'gtceu:gaia_plate',
             W: '#forge:tools/wrenches'
         }
     )

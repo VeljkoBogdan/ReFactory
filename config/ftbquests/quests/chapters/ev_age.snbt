@@ -719,8 +719,8 @@
 		}
 		{
 			dependencies: [
-				"2BC540AB6497B161"
 				"7CC959FF709B1FEF"
+				"2C3F51C6C0776EA6"
 			]
 			id: "3610A007E2EDA9CA"
 			shape: "gear"
@@ -729,8 +729,8 @@
 				item: "gtceu:iv_machine_casing"
 				type: "item"
 			}]
-			x: 12.0d
-			y: -22.5d
+			x: 4.0d
+			y: -19.5d
 		}
 		{
 			dependencies: ["2DC6D2C059E8BE07"]
@@ -889,8 +889,8 @@
 				}
 				type: "item"
 			}]
-			x: 10.0d
-			y: -19.5d
+			x: 9.0d
+			y: -18.0d
 		}
 		{
 			dependencies: ["63901622D76AA82F"]
