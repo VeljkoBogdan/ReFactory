@@ -9,6 +9,46 @@ let yeet = (itemName) => {
     })
 }
 
+let tierCables = {
+    ulv: 'red_alloy',
+    lv: 'tin',
+    mv: 'copper',
+    hv: 'gold',
+    ev: 'aluminium',
+    iv: 'platinum',
+    luv: 'niobium_titanium',
+    zpm: 'vanadium_gallium',
+    uv: 'yttrium_barium_cuprate',
+    uhv: 'europium'
+}
+
+let tiers = [
+    'ulv',
+    'lv',
+    'mv',
+    'hv',
+    'ev',
+    'iv',
+    'luv',
+    'zpm',
+    'uv',
+    'uhv'
+]
+
+let cableWidths = [
+    '1a',
+    '4a',
+    '8a',
+    '16a'
+]
+
+let cableWidthsName = {
+    '1a': 'single',
+    '4a': 'quadruple',
+    '8a': 'octal',
+    '16a': 'hex'
+}
+
 ServerEvents.recipes(event => {
     // Removing default mv circuit board recipes
     event.remove({ id: 'gtceu:assembler/phenolic_board' })
@@ -752,6 +792,33 @@ ServerEvents.recipes(event => {
     event.remove({type: 'blasting', output: 'gtceu:ostrum_ingot'})
     event.remove({type: 'enderio:alloy_smelting', output: 'gtceu:ostrum_ingot'})
     event.remove({id: 'gtceu:arc_furnace/arc_ostrum_dust'})
+
+    // Energy converters
+    tiers.map(tier => {
+        cableWidths.map(cableWidth => {
+            let material = tierCables[tier]
+            let width = cableWidthsName[cableWidth]
+
+            let cable = `gtceu:${material}_${width}_cable`
+
+            event.remove({output: `gtceu:${tier}_${cableWidth}_energy_converter`})
+            event.shaped(
+                `gtceu:${tier}_${cableWidth}_energy_converter`,
+                [
+                    'VCC',
+                    'RHP',
+                    'VCC'
+                ],
+                {
+                    V: `gtceu:${tier}_voltage_coil`,
+                    C: cable,
+                    R: `gtceu:red_alloy_${width}_cable`,
+                    H: `gtceu:${tier}_machine_hull`,
+                    P: `#gtceu:circuits/${tier}`,
+                }
+            )
+        })
+    })
 })
     
 // Remove vanilla tools
