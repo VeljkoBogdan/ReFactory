@@ -57,6 +57,9 @@
   "jadeaddons": {
     "equipment_requirement": ""
   },
+  "jadeaddons.lootr": {
+    "info": true
+  },
   "endercrop": {
     "endercrop": true,
     "endstone": true
@@ -94,9 +97,6 @@
     "adventure": true,
     "ench": true,
     "spawner": true
-  },
-  "lootr": {
-    "info": true
   },
   "corpse": {
     "corpse": true

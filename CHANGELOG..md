@@ -1,9 +1,9 @@
-# 0.2.2
+# 0.3
 - EV overhaul: Blood Magic, Gaia, Mars and much more
 - Removed ore indicators
 - Clay and dirt yield from apothecary increased
 - Removed problematic recipes
-- Charged Certus chraftable
+- Charged Certus craftable
 - Tier 2 rocket craftable, Mars visitable
 - Sifting Dried Salt is now possible only if holding sticks
 - Questbook improvements
@@ -11,7 +11,7 @@
 - Dead and Rubber logs and wood are now choppable on the chopping board
 - Many recipes are now harder and require more Botania materials / custom materials
 - Added mods: Sophisticated Storage, Oculus, Double Doors, Entity Culling, Smooth Boot, Quests Freeze Fix, Connected Glass, Lootr, Rechiseled, AdvancedAE, AE2 Wireless Terminals, FramedBlocks, Dis-enchanting table, AE Infinity Booster, ReFactory Core, Redstone Clock, LaserIO
-- Updated mods: Collective
+- Updated mods: Collective, Mantle, FTB XMod Compat, Fancy Menu, FTB Quests, Building Wands, Framework, SophisticatedCore, EMI, LDLib, AE2, Immersive Armors, Fzzy Config, UniLib, Almost Unified, Infernal Mobs, PuzzlesLib, GeckoLib, JEI, Polymorph, TerraBlender, Storage Drawers, Jade Addons, Botany Pots, Drippy Loading Screen, Jade, RightClickHarvest, Extreme Sound Muffler, CraftPresence, Sophisticated Storage, MonoLib, Not Enough Crashes, EMI Loot, In Control, Just Zoom, Dis-enchanting table, Tinkers Construct, TaCZ, Botania, BoP, Balm, Bad Optimizations, Apotheosis, OpenBlocks Elevator, Curios API, Farmer's delight, FTB Chunks, FTB, Essentials, Sophisticated Backpacks, Globalpacks, ModernFix
 - Removed mods: Powah, Cold Sweat
 
 # 0.2.1

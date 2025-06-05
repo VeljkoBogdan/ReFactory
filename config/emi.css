@@ -222,7 +222,7 @@
 	/**
 	 * Where to position the right sidebar
 	 */
-	right-sidebar-align: right, top;
+	right-sidebar-align: right, center;
 
 	/**
 	 * Whether to render the header buttons and page count for the right sidebar
@@ -430,7 +430,7 @@
 	/**
 	 * Copies the hovered recipe's ID to the clipboard
 	 */
-	copy-recipe-id: "key.keyboard.unknown";
+	copy-recipe-id: "key.mouse.5";
 
 	/**
 	 * In edit mode, hide the hovered stack
@@ -448,7 +448,7 @@
 	 * Whether development functions should be enabled. Not recommended for general
 	 * play.
 	 */
-	dev-mode: false;
+	dev-mode: true;
 
 	/**
 	 * Whether editing the index is enabled
@@ -475,7 +475,7 @@
 	 * These are typically developer facing and compatibility related, and not useful
 	 * for players.
 	 */
-	show-recipe-decorators: false;
+	show-recipe-decorators: true;
 
 	/**
 	 * Whether stacks in the index should display a highlight if they have a recipe

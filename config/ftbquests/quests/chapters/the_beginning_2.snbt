@@ -635,7 +635,7 @@
 			description: [
 				"The surface contains no gravel and it is insanely rare underground."
 				""
-				"For now, you can get flint by right clicking dried salt with an empty hand."
+				"For now, you can get flint by right clicking dried salt with a stick in hand."
 			]
 			id: "61C83CEB0C20873A"
 			tasks: [{
