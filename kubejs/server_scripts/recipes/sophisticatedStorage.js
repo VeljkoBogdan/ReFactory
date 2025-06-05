@@ -39,7 +39,28 @@ let upgrades = [
     'sophisticatedstorage:hopper_upgrade', 
     'sophisticatedstorage:advanced_hopper_upgrade', 
     'sophisticatedstorage:infinity_upgrade', 
-    'sophisticatedstorage:survival_infinity_upgrade'
+    'sophisticatedstorage:survival_infinity_upgrade',
+    'sophisticatedstorage:alchemy_upgrade',
+    'sophisticatedstorage:advanced_alchemy_upgrade'
+]
+
+const tierRecipes = [
+    ['sophisticatedstorage:basic_tier_upgrade', 'gtceu:wood_plate', 'sophisticatedstorage:upgrade_base'],
+    ['sophisticatedstorage:basic_to_copper_tier_upgrade', 'gtceu:copper_plate', 'sophisticatedstorage:upgrade_base'],
+    ['sophisticatedstorage:basic_to_iron_tier_upgrade', 'gtceu:iron_plate', 'sophisticatedstorage:upgrade_base'],
+    ['sophisticatedstorage:basic_to_gold_tier_upgrade', 'gtceu:gold_plate', 'sophisticatedstorage:upgrade_base'],
+    ['sophisticatedstorage:basic_to_diamond_tier_upgrade', 'gtceu:diamond_plate', 'sophisticatedstorage:upgrade_base'],
+    ['sophisticatedstorage:basic_to_netherite_tier_upgrade', 'minecraft:netherite_ingot', 'sophisticatedstorage:upgrade_base'],
+    ['sophisticatedstorage:copper_to_iron_tier_upgrade', 'gtceu:iron_plate', 'sophisticatedstorage:basic_to_copper_tier_upgrade'],
+    ['sophisticatedstorage:copper_to_gold_tier_upgrade', 'gtceu:gold_plate', 'sophisticatedstorage:basic_to_copper_tier_upgrade'],
+    ['sophisticatedstorage:copper_to_diamond_tier_upgrade', 'gtceu:diamond_plate', 'sophisticatedstorage:basic_to_copper_tier_upgrade'],
+    ['sophisticatedstorage:copper_to_netherite_tier_upgrade', 'minecraft:netherite_ingot', 'sophisticatedstorage:basic_to_copper_tier_upgrade'],
+    ['sophisticatedstorage:iron_to_gold_tier_upgrade', 'gtceu:gold_plate', 'sophisticatedstorage:basic_to_iron_tier_upgrade'],
+    ['sophisticatedstorage:iron_to_diamond_tier_upgrade', 'gtceu:diamond_plate', 'sophisticatedstorage:basic_to_iron_tier_upgrade'],
+    ['sophisticatedstorage:iron_to_netherite_tier_upgrade', 'minecraft:netherite_ingot', 'sophisticatedstorage:basic_to_iron_tier_upgrade'],
+    ['sophisticatedstorage:gold_to_diamond_tier_upgrade', 'gtceu:diamond_plate', 'sophisticatedstorage:basic_to_gold_tier_upgrade'],
+    ['sophisticatedstorage:gold_to_netherite_tier_upgrade', 'minecraft:netherite_ingot', 'sophisticatedstorage:basic_to_gold_tier_upgrade'],
+    ['sophisticatedstorage:diamond_to_netherite_tier_upgrade', 'minecraft:netherite_ingot', 'sophisticatedstorage:basic_to_diamond_tier_upgrade']
 ]
 
 ServerEvents.recipes(event => {
@@ -639,6 +660,61 @@ ServerEvents.recipes(event => {
             B: "sophisticatedstorage:upgrade_base"
         }
     )
+
+    event.shaped(
+        'sophisticatedstorage:alchemy_upgrade',
+        [
+            ' C ',
+            'PBP',
+            ' U '
+        ],
+        {
+            C: "gtceu:red_alloy_single_cable",
+            P: "gtceu:livingrock_plate",
+            U: "brewing_stand",
+            B: "sophisticatedstorage:upgrade_base"
+        }
+    )
+
+    event.shaped(
+        'sophisticatedstorage:advanced_alchemy_upgrade',
+        [
+            ' C ',
+            'PBP',
+            'SUS'
+        ],
+        {
+            C: "gtceu:annealed_copper_single_cable",
+            P: "gtceu:aluminium_plate",
+            U: "sophisticatedstorage:alchemy_upgrade",
+            B: "sophisticatedstorage:upgrade_base",
+            S: 'gtceu:mv_electric_pump'
+        }
+    )
+
+    tierRecipes.forEach(([output, material, center]) => {
+        event.remove({output: output})
+        material !== 'minecraft:netherite_ingot' ?
+            event.shaped(
+                output,
+                [
+                    'MMM',
+                    'MCM',
+                    'MMM'
+                ],
+                {
+                    M: material,
+                    C: center
+                }
+            ) 
+        :
+            event.shapeless(
+                output,
+                [material, center]
+            ) 
+    })
+
+    event.replaceInput({mod: 'sophisticatedstorage'}, 'redstone_torch', 'tconstruct:pattern')
 
     // NO INFINITY STUFF YET!!!
     // event.shaped(
