@@ -309,7 +309,18 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
         .color(0xd7d7cc)
         .iconSet(GTMaterialIconSet.ROUGH)
         .flags(
-            GTMaterialFlags.GENERATE_PLATE
+            GTMaterialFlags.GENERATE_PLATE,
+            GTMaterialFlags.GENERATE_ROD,
+            GTMaterialFlags.GENERATE_BOLT_SCREW
+        )
+        
+    // Livingwood
+    event.create('livingwood')
+        .color(0x4B190A)
+        .iconSet(GTMaterialIconSet.WOOD)
+        .flags(
+            GTMaterialFlags.GENERATE_PLATE,
+            GTMaterialFlags.GENERATE_ROD
         )
 
     // Seared Brick
