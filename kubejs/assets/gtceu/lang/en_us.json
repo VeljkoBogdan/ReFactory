@@ -96,5 +96,43 @@
     "gtceu.jei.ore_vein.god_vein": "Gold Vein",
     "gtceu.jei.ore_vein.copper_vein": "Copper Vein",
     "gtceu.jei.ore_vein.naquadah_vein": "Naquadah Vein",
-    "gtceu.jei.ore_vein.ostrum_vein": "Ostrum Vein"
+    "gtceu.jei.ore_vein.ostrum_vein": "Ostrum Vein",
+
+    "item.gtceu.resin_circuit_board": "Livingwood Circuit Board",
+    "item.gtceu.resin_circuit_board.tooltip": "§7Botanical Board",
+    "item.gtceu.resin_printed_circuit_board": "Livingwood Printed Circuit Board",
+    "item.gtceu.resin_printed_circuit_board.tooltip": "§7Botanical Circuit Board",
+    "item.gtceu.phenolic_circuit_board": "Mana-Infused Livingwood Circuit Board",
+    "item.gtceu.phenolic_circuit_board.tooltip": "§7Mana-Infused Board",
+    "item.gtceu.phenolic_printed_circuit_board": "Mana-Infused Printed Livingwood Circuit Board",
+    "item.gtceu.phenolic_printed_circuit_board.tooltip": "§7Mana-Infused Circuit Board",
+    "item.gtceu.plastic_circuit_board": "Glimmering Livingwood Circuit Board",
+    "item.gtceu.plastic_circuit_board.tooltip": "§7Enchanted Board",
+    "item.gtceu.plastic_printed_circuit_board": "Enchanted Printed Glimmering Livingwood Circuit Board",
+    "item.gtceu.plastic_printed_circuit_board.tooltip": "§7Enchanted Circuit Board",
+
+    "item.gtceu.vacuum_tube": "Primitive Botanical Vacuum Tube",
+    "item.gtceu.basic_electronic_circuit": "Basic Botanical Circuit",
+    "item.gtceu.basic_electronic_circuit.tooltip.0": "§7Slightly Magical",
+    "item.gtceu.good_electronic_circuit": "Good Botanical Circuit",
+    "item.gtceu.good_electronic_circuit.tooltip.0": "§7Slightly Magical",
+
+    "item.gtceu.basic_integrated_circuit": "Basic Mana-Infused Circuit",
+    "item.gtceu.basic_integrated_circuit.tooltip.0": "§7Uses Mana To Compute",
+    "item.gtceu.good_integrated_circuit": "Good Mana-Infused Circuit",
+    "item.gtceu.good_integrated_circuit.tooltip.0": "§7Uses Mana To Compute",
+    "item.gtceu.advanced_integrated_circuit": "Advanced Mana-Infused Circuit",
+    "item.gtceu.advanced_integrated_circuit.tooltip.0": "§7Uses Mana To Compute",
+
+    "item.gtceu.microchip_processor": "Enchanted Microchip Processor",
+    "item.gtceu.microchip_processor.tooltip.0": "§7Elven Circuits Hum With The Breath Of The Forest",
+    "item.gtceu.micro_processor": "Enchanted Microprocessor",
+    "item.gtceu.micro_processor.tooltip.0": "§7Harnesses The Rhythm Of Elven Magic In Bloom",
+    "item.gtceu.micro_processor_assembly": "Enchanted Microprocessor Assembly",
+    "item.gtceu.micro_processor_assembly.tooltip.0": "§7Mystical Precision In The Palm Of Your Hand",
+    "item.gtceu.micro_processor_computer": "Enchanted Microprocessor Supercomputer",
+    "item.gtceu.micro_processor_computer.tooltip.0": "§7Commands The Leylines With Celestial Elegance",
+    "item.gtceu.micro_processor_mainframe": "Enchanted Microprocessor Mainframe",
+    "item.gtceu.micro_processor_mainframe.tooltip.0": "§7A Crown Of Magical Logic, Fit For Gods"
+
 }
