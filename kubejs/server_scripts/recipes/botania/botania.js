@@ -546,21 +546,21 @@ ServerEvents.recipes(event => {
     // Livingwood plate
     // Water
     event.recipes.gtceu.cutter('cut_livingwood_block_to_plate_water')
-        .itemInputs('botania:livingwood')
+        .itemInputs('#botania:livingwood_logs')
         .inputFluids('minecraft:water 17')
         .itemOutputs('9x gtceu:livingwood_plate')
         .EUt(GTValues.VA[GTValues.LV])
         .duration(20*30)
     // Distilled Water
     event.recipes.gtceu.cutter('cut_livingwood_block_to_plate_distilled_water')
-        .itemInputs('botania:livingwood')
+        .itemInputs('#botania:livingwood_logs')
         .inputFluids('gtceu:distilled_water 12')
         .itemOutputs('9x gtceu:livingwood_plate')
         .EUt(GTValues.VA[GTValues.LV])
         .duration(20*25)
     // Lubricant
     event.recipes.gtceu.cutter('cut_livingwood_block_to_plate')
-        .itemInputs('botania:livingwood')
+        .itemInputs('#botania:livingwood_logs')
         .inputFluids('gtceu:lubricant 4')
         .itemOutputs('9x gtceu:livingwood_plate')
         .EUt(GTValues.VA[GTValues.LV])
