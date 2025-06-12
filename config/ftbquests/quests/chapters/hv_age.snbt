@@ -175,9 +175,9 @@
 		}
 		{
 			dependencies: [
-				"1147F49038872B8F"
 				"5069AE4DE34C5627"
 				"489074B5570FEE37"
+				"4645F587B7C20F05"
 			]
 			description: ["Cheapest LV circuits there are."]
 			id: "53CBD2CE4933D4F0"
@@ -187,39 +187,21 @@
 				table_id: 7166582181172905684L
 				type: "loot"
 			}]
-			size: 1.5d
+			size: 1.0d
 			tasks: [{
 				id: "1666B115D48EE522"
 				item: "gtceu:microchip_processor"
 				type: "item"
 			}]
 			title: "Cheapest LV Circuits"
-			x: -5.0d
-			y: 5.0d
-		}
-		{
-			dependencies: ["442599FD110BB3C3"]
-			description: ["The board for the next tier of circuits."]
-			id: "1147F49038872B8F"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "7E858BF4B2BA1D77"
-				table_id: 7166582181172905684L
-				type: "loot"
-			}]
-			size: 1.5d
-			tasks: [{
-				id: "16FC91122792C2C1"
-				item: "gtceu:plastic_printed_circuit_board"
-				type: "item"
-			}]
-			x: -10.0d
+			x: -2.5d
 			y: 5.0d
 		}
 		{
 			dependencies: [
-				"1147F49038872B8F"
 				"489074B5570FEE37"
+				"4645F587B7C20F05"
+				"5069AE4DE34C5627"
 			]
 			description: ["Cheapest MV circuits."]
 			id: "0E89B435074FF121"
@@ -644,7 +626,7 @@
 				item: "gtceu:gelled_toluene"
 				type: "item"
 			}]
-			x: -8.0d
+			x: -11.5d
 			y: 10.0d
 		}
 		{
@@ -724,14 +706,14 @@
 				type: "loot"
 			}]
 			shape: "gear"
-			size: 1.5d
+			size: 1.0d
 			tasks: [{
 				id: "2CB0DDA54BB47F50"
 				item: "gtceu:distillation_tower"
 				type: "item"
 			}]
-			x: -8.0d
-			y: 3.0d
+			x: -11.5d
+			y: 5.0d
 		}
 		{
 			dependencies: [
@@ -884,7 +866,7 @@
 			description: ["If you get Tantalum, you can craft insanely cheap components."]
 			icon: "gtceu:smd_transistor"
 			id: "2585010E61E151AB"
-			size: 1.5d
+			size: 1.0d
 			tasks: [
 				{
 					id: "17C0B5CC7DFD1A14"
@@ -908,8 +890,8 @@
 				}
 			]
 			title: "SMD Components"
-			x: -10.0d
-			y: 6.5d
+			x: -5.0d
+			y: 5.0d
 		}
 		{
 			dependencies: [
@@ -1075,7 +1057,7 @@
 				item: "gtceu:hv_macerator"
 				type: "item"
 			}]
-			x: -10.0d
+			x: -16.0d
 			y: 3.0d
 		}
 		{
@@ -1310,8 +1292,8 @@
 				item: "gtceu:tantalum_ingot"
 				type: "item"
 			}]
-			x: -11.5d
-			y: 6.5d
+			x: -5.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["59775F7F175FF086"]
@@ -1323,7 +1305,7 @@
 				item: "gtceu:capacitor"
 				type: "item"
 			}]
-			x: -5.0d
+			x: 0.0d
 			y: 6.5d
 		}
 		{
@@ -1425,22 +1407,6 @@
 		}
 		{
 			dependencies: ["59775F7F175FF086"]
-			description: [
-				"Use higher tiers of plastic when you can when making these."
-				""
-				"Prepare to make a bunch!"
-			]
-			id: "442599FD110BB3C3"
-			tasks: [{
-				id: "7B7AB9A85AB05AA3"
-				item: "gtceu:plastic_circuit_board"
-				type: "item"
-			}]
-			x: -11.5d
-			y: 5.0d
-		}
-		{
-			dependencies: ["59775F7F175FF086"]
 			hide_dependency_lines: true
 			id: "489074B5570FEE37"
 			tasks: [{
@@ -1477,6 +1443,7 @@
 				item: "gtceu:mythic_compound_dust"
 				type: "item"
 			}]
+			title: "Good Mythic Morning!"
 			x: -2.5d
 			y: -7.5d
 		}
@@ -1760,7 +1727,7 @@
 				type: "item"
 			}]
 			x: -8.0d
-			y: 1.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["25AFA7FC86E52939"]
@@ -1796,6 +1763,48 @@
 			title: "Tungsten"
 			x: -14.5d
 			y: -4.5d
+		}
+		{
+			dependencies: [
+				"4FA3ACC01F2B1FC8"
+				"779C3D21BA82E44F"
+			]
+			description: ["Prepare to craft a bunch of these"]
+			id: "4645F587B7C20F05"
+			tasks: [{
+				id: "750E8AB71E1409CE"
+				item: "gtceu:plastic_printed_circuit_board"
+				type: "item"
+			}]
+			title: "Enchanted!"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7DFAB08F359689DD"]
+			id: "4FA3ACC01F2B1FC8"
+			tasks: [{
+				id: "23386491FE80B771"
+				item: "gtceu:small_mythic_compound_dust"
+				type: "item"
+			}]
+			title: "Not so Mythical"
+			x: -2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["59775F7F175FF086"]
+			description: ["Magical circuit board"]
+			hide_dependency_lines: true
+			id: "779C3D21BA82E44F"
+			tasks: [{
+				id: "26F654EC22A261D1"
+				item: "gtceu:plastic_circuit_board"
+				type: "item"
+			}]
+			title: "Glimmering Boards"
+			x: 0.0d
+			y: 1.5d
 		}
 	]
 	title: "HV Age"

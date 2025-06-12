@@ -21,7 +21,7 @@
 				type: "checkmark"
 			}]
 			title: "LV AGE"
-			x: -3.0d
+			x: -5.0d
 			y: -3.0d
 		}
 		{
@@ -95,8 +95,9 @@
 		}
 		{
 			dependencies: [
-				"35CB055A24346DE1"
-				"527C703959FD9B65"
+				"3DB35B98F426DF2F"
+				"126D8BEC67BA4BE7"
+				"1DACF3E598C0485E"
 			]
 			description: [
 				"Here comes the hard part..."
@@ -249,7 +250,7 @@
 				item: "gtceu:lv_assembler"
 				type: "item"
 			}]
-			x: 6.0d
+			x: 7.5d
 			y: 8.0d
 		}
 		{
@@ -550,7 +551,7 @@
 				item: "gtceu:lv_battery_buffer_4x"
 				type: "item"
 			}]
-			x: -4.5d
+			x: -6.5d
 			y: -1.5d
 		}
 		{
@@ -605,7 +606,7 @@
 				item: "gtceu:lv_robot_arm"
 				type: "item"
 			}]
-			x: 6.0d
+			x: 7.5d
 			y: 3.0d
 		}
 		{
@@ -744,7 +745,7 @@
 				type: "item"
 			}]
 			title: "Your Second Circuit"
-			x: 6.0d
+			x: 7.5d
 			y: 14.5d
 		}
 		{
@@ -765,7 +766,7 @@
 				item: "gtceu:diode"
 				type: "item"
 			}]
-			x: 6.0d
+			x: 7.5d
 			y: 11.5d
 		}
 		{
@@ -790,13 +791,14 @@
 				item: "gtceu:lv_forming_press"
 				type: "item"
 			}]
-			x: 10.0d
+			x: 10.5d
 			y: 6.0d
 		}
 		{
 			dependencies: [
 				"5B86B4616F141E18"
 				"14A2B15A4B228C88"
+				"6A3B2EF9E54AB551"
 			]
 			description: ["Press some silver wires into the boards in a Forming Press and Woila!"]
 			id: "2770BFB05F1E26EC"
@@ -812,11 +814,14 @@
 				item: "gtceu:phenolic_printed_circuit_board"
 				type: "item"
 			}]
-			x: 10.0d
+			x: 10.5d
 			y: 14.5d
 		}
 		{
-			dependencies: ["74C94B5C7B866A34"]
+			dependencies: [
+				"74C94B5C7B866A34"
+				"01A0E9661BB0FDAB"
+			]
 			description: ["You will need 2 to create 2 MV circuit boards."]
 			id: "5B86B4616F141E18"
 			rewards: [{
@@ -831,8 +836,8 @@
 				item: "gtceu:phenolic_circuit_board"
 				type: "item"
 			}]
-			x: 8.0d
-			y: 11.5d
+			x: 9.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["1AD99F9620569AA4"]
@@ -1067,7 +1072,7 @@
 				title: "Cables"
 				type: "checkmark"
 			}]
-			x: -4.5d
+			x: -6.5d
 			y: -3.0d
 		}
 		{
@@ -1087,7 +1092,7 @@
 				item: "gtceu:lv_circuit_assembler"
 				type: "item"
 			}]
-			x: 6.0d
+			x: 7.5d
 			y: 16.0d
 		}
 		{
@@ -1146,7 +1151,7 @@
 				type: "item"
 			}]
 			title: "Energy Conversion"
-			x: -4.5d
+			x: -6.5d
 			y: -4.5d
 		}
 		{
@@ -1184,7 +1189,7 @@
 				item: "gtceu:soldering_alloy_dust"
 				type: "item"
 			}]
-			x: 7.5d
+			x: 9.0d
 			y: 16.0d
 		}
 		{
@@ -1245,8 +1250,8 @@
 				item: "gtceu:bronze_large_boiler"
 				type: "item"
 			}]
-			x: -1.5d
-			y: -4.5d
+			x: 1.5d
+			y: -7.5d
 		}
 		{
 			dependencies: ["2425F4CE4FE78AC1"]
@@ -1345,8 +1350,8 @@
 				item: "minecraft:paper"
 				type: "item"
 			}]
-			x: -1.5d
-			y: -1.5d
+			x: -3.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["0E1F6E844041CC9F"]
@@ -1409,7 +1414,7 @@
 				item: "gtceu:gallium_arsenide_dust"
 				type: "item"
 			}]
-			x: 7.0d
+			x: 8.5d
 			y: 11.5d
 		}
 		{
@@ -1428,7 +1433,7 @@
 				type: "item"
 			}]
 			x: 7.5d
-			y: 2.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["55D76A052A9EE6A0"]
@@ -1443,7 +1448,7 @@
 				item: "gtceu:mana_alloy_ingot"
 				type: "item"
 			}]
-			x: 4.5d
+			x: 6.0d
 			y: 14.5d
 		}
 		{
@@ -1461,8 +1466,8 @@
 				item: "botania:mana_pool"
 				type: "item"
 			}]
-			x: 4.5d
-			y: 9.0d
+			x: 6.0d
+			y: 10.0d
 		}
 		{
 			dependencies: [
@@ -1501,8 +1506,8 @@
 				item: "botania:manasteel_ingot"
 				type: "item"
 			}]
-			x: 4.5d
-			y: 12.75d
+			x: 6.0d
+			y: 13.0d
 		}
 		{
 			dependencies: ["74C94B5C7B866A34"]
@@ -1518,7 +1523,7 @@
 				item: "gtceu:steel_fluid_cell"
 				type: "item"
 			}]
-			x: 7.5d
+			x: 9.0d
 			y: 6.0d
 		}
 		{
@@ -1705,7 +1710,7 @@
 				}
 				type: "item"
 			}]
-			x: -3.0d
+			x: -5.0d
 			y: -4.5d
 		}
 		{
@@ -1725,7 +1730,7 @@
 				title: "Superconductors"
 				type: "checkmark"
 			}]
-			x: -6.0d
+			x: -8.0d
 			y: -3.0d
 		}
 		{
@@ -1770,8 +1775,8 @@
 				}
 			]
 			title: "Generating Mana"
-			x: 4.5d
-			y: 10.0d
+			x: 5.0d
+			y: 9.0d
 		}
 		{
 			dependencies: [
@@ -1808,7 +1813,7 @@
 				}
 			]
 			title: "Spreading Mana"
-			x: 4.5d
+			x: 5.0d
 			y: 11.0d
 		}
 		{
@@ -1916,7 +1921,7 @@
 				item: "gtceu:mv_machine_casing"
 				type: "item"
 			}]
-			x: 4.5d
+			x: 6.0d
 			y: 16.0d
 		}
 		{
@@ -1937,6 +1942,124 @@
 			}]
 			x: 1.5d
 			y: 9.0d
+		}
+		{
+			dependencies: ["35CB055A24346DE1"]
+			description: [
+				"To craft your first circuit, you will need boards."
+				""
+				"These boards can be made using resin and livingwood logs (or plates)."
+				""
+				"For now you can only make them in the Petal Apothecary."
+			]
+			id: "1A61A146A907EFFD"
+			rewards: [{
+				id: "56BC89F9D34EDFF7"
+				item: "kubejs:refactory_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "44F6D4AB4C51BD1B"
+				item: "gtceu:resin_circuit_board"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1A61A146A907EFFD"]
+			description: [
+				"Now you can combine them with copper and gold wire in the Petal Apothecary."
+				""
+				"This recipe is very inefficient, but you will get a better way to create them when you get to an assembler."
+			]
+			id: "3DB35B98F426DF2F"
+			rewards: [{
+				id: "4B6E640EC01B75B4"
+				item: "kubejs:refactory_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "717CF17FFECC6343"
+				item: "gtceu:resin_printed_circuit_board"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["35CB055A24346DE1"]
+			description: [
+				"Very outdated..."
+				""
+				"You'll need 2 per circuit."
+			]
+			id: "126D8BEC67BA4BE7"
+			tasks: [{
+				count: 2L
+				id: "40B4460E502F22CD"
+				item: { Count: 2, id: "gtceu:vacuum_tube" }
+				type: "item"
+			}]
+			title: "Old Timer"
+			x: -2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["527C703959FD9B65"]
+			description: [
+				"Resistors are a crucial part to every circuit."
+				""
+				"You'll need 2 per circuit."
+			]
+			id: "1DACF3E598C0485E"
+			tasks: [{
+				count: 2L
+				id: "4F6E4A0CF41C2730"
+				item: { Count: 2, id: "gtceu:resistor" }
+				type: "item"
+			}]
+			title: "Resistors"
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["01A0E9661BB0FDAB"]
+			description: ["Sparks can be placed on top of Mana Pools of any type, as well as Terrestrial Agglomeration Plates and Mana Enchanters, by right-clicking them. The Spark entity has a 25x25x25 functional range (radius 12) centered on itself. When a device with a Spark attached needs Mana, it will drain all Mana Pools with Sparks in its range."]
+			id: "05FB066A5E5CDD09"
+			tasks: [{
+				id: "3B9974B08ADA5BE6"
+				item: "botania:spark"
+				type: "item"
+			}]
+			title: "Wireless Mana"
+			x: 6.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["04B546A6C1D2C247"]
+			description: [
+				"Thanks to BlasmaTech, you can extract mana from flowers that produce mana by placing them on a pipe (the pipe has to already be facing up, be sure to wrench it if you can't place the flower)."
+				""
+				"The flower will automatically pump mana into the pipe."
+				""
+				"Flowers that use mana will automatically pull from pipes beneath them."
+				""
+				"Mana Plasma will come useful in crafts later, but you don't need it now."
+			]
+			id: "7194BC73101ECD6A"
+			rewards: [{
+				id: "32866414B9A51766"
+				item: "kubejs:refactory_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "167CEA4F10A9B9BA"
+				item: "blasmatech:mana_bucket"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 10.0d
 		}
 	]
 	title: "LV Age"

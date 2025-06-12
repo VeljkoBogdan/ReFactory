@@ -201,7 +201,7 @@
 				item: "gtceu:ulpic_chip"
 				type: "item"
 			}]
-			x: 26.5d
+			x: -1.5d
 			y: 13.5d
 		}
 		{
@@ -272,6 +272,7 @@
 				table_id: 685747861540631198L
 				type: "loot"
 			}]
+			shape: "gear"
 			size: 1.0d
 			tasks: [{
 				count: 2L
@@ -279,8 +280,8 @@
 				item: "gtceu:mv_energy_input_hatch"
 				type: "item"
 			}]
-			x: 26.5d
-			y: 10.5d
+			x: -1.5d
+			y: 12.0d
 		}
 		{
 			dependencies: [
@@ -366,32 +367,17 @@
 			y: -2.0d
 		}
 		{
-			dependencies: [
-				"7BD97DC4C3DE7F11"
-				"5459BC503BBBD81E"
+			dependencies: ["1FFBE42450E3D964"]
+			description: [
+				"Put the hot ingot into the chemical bath with some water or distilled water and you get yourself a cool and nice Kanthal Ingot."
+				""
+				"Note that you will need an EBF overclocked to HV."
 			]
-			description: ["Put the hot ingot into the chemical bath with some water or distilled water and you get yourself a cool and nice Kanthal Ingot."]
 			id: "0BB13F96B93699A8"
 			size: 1.0d
 			tasks: [{
 				id: "1ED384BC9AD338A3"
 				item: "gtceu:kanthal_ingot"
-				type: "item"
-			}]
-			x: 23.0d
-			y: 0.0d
-		}
-		{
-			dependencies: [
-				"1FFBE42450E3D964"
-				"6DDF9D316DE9DCF7"
-			]
-			description: ["Put the dust into the EBF to cook, and you get the Hot Ingot, but fear not, there is a way to cool it down."]
-			id: "5459BC503BBBD81E"
-			size: 1.0d
-			tasks: [{
-				id: "25E40097EDB50226"
-				item: "gtceu:hot_kanthal_ingot"
 				type: "item"
 			}]
 			x: 26.5d
@@ -480,7 +466,10 @@
 			y: 9.0d
 		}
 		{
-			dependencies: ["53A05923F8895595"]
+			dependencies: [
+				"53A05923F8895595"
+				"6DDF9D316DE9DCF7"
+			]
 			description: ["Make sure to craft a considerable amount."]
 			id: "0F53EFB5D7D2C329"
 			rewards: [{
@@ -708,6 +697,8 @@
 				"This is one of the breakthroughs in MV!"
 				""
 				"It will alllow you to craft &aTerrasteel&r, and an MV superconductor!"
+				""
+				"To assemble the multi-block structure, first place a flat horizontal square of 3x3 blocks in which the centre and four corners are composed of Livingrock, whilst the four cardinal direction edge pieces are composed of Lapis Lazuli Block. Then place the Terrestrial Agglomeration Plate on top of the central piece of Livingrock."
 			]
 			id: "42565F2AB5AC211C"
 			rewards: [{
@@ -1060,6 +1051,7 @@
 			dependencies: [
 				"22F6144BF80A1413"
 				"472217BE9BA19D20"
+				"487C3DB6BDC3E0F9"
 			]
 			description: ["Better MV circuits"]
 			id: "6DC53EC297BEBD3C"
@@ -1509,6 +1501,29 @@
 			}]
 			x: 11.5d
 			y: 6.0d
+		}
+		{
+			dependencies: ["630A813B0F4DA078"]
+			hide_dependency_lines: true
+			id: "4325A50ACCD5F941"
+			tasks: [{
+				id: "7E8E358F9BC3B3DE"
+				item: "gtceu:phenolic_circuit_board"
+				type: "item"
+			}]
+			x: 21.5d
+			y: 16.0d
+		}
+		{
+			dependencies: ["4325A50ACCD5F941"]
+			id: "487C3DB6BDC3E0F9"
+			tasks: [{
+				id: "73AA8506BEFEAB09"
+				item: "gtceu:phenolic_printed_circuit_board"
+				type: "item"
+			}]
+			x: 21.5d
+			y: 14.5d
 		}
 	]
 	title: "MV Age"
