@@ -43,4 +43,5 @@ ServerEvents.recipes(event => {
     ManaPool('mana_core', '#gtceu:circuits/lv', 1000, 'kubejs:mana_core', 20)
     ManaPool('force_relay', '#forge:pistons', 2000, 'botania:piston_relay', 10)
     ManaPool('grass_seeds', 'minecraft:grass', 250, 'botania:grass_seeds', 10)
+    ManaPool('mana_infused_board', 'gtceu:resin_circuit_board', 4000, 'gtceu:phenolic_circuit_board', 10)
 })

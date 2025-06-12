@@ -49,32 +49,40 @@ let cableWidthsName = {
     '16a': 'hex'
 }
 
+let plastics = [
+    'polyethylene',
+    'polyvinyl_chloride',
+    'polytetrafluoroethylene',
+    'polybenzimidazole'
+]
+
 ServerEvents.recipes(event => {
     // Removing default mv circuit board recipes
     event.remove({ id: 'gtceu:assembler/phenolic_board' })
 	event.remove({ id: 'gtceu:shaped/good_circuit_board' })
 
     // MV PHENOLIC CIRCUIT BOARD
-	event.recipes.gtceu.assembler('kubejs_phenolic_board')
-        .circuit(1)
-        .itemInputs(
-            'gtceu:wood_dust',
-            'gtceu:small_glass_dust'
-        )
-        .inputFluids(
-            Fluid.of('gtceu:glue', 50)
-        )
-        .itemOutputs(
-            'gtceu:phenolic_circuit_board'
-        )
-        .duration(160)
-        .EUt(30)
+	// event.recipes.gtceu.assembler('kubejs_phenolic_board')
+    //     .circuit(1)
+    //     .itemInputs(
+    //         'gtceu:wood_dust',
+    //         'gtceu:small_glass_dust'
+    //     )
+    //     .inputFluids(
+    //         Fluid.of('gtceu:glue', 50)
+    //     )
+    //     .itemOutputs(
+    //         'gtceu:phenolic_circuit_board'
+    //     )
+    //     .duration(160)
+    //     .EUt(30)
+    // DEPRECATED FOLLOWING CIRCUIT REWORK
 
-    // MV GOOD CIRCUIT BOARD
+    // // MV GOOD CIRCUIT BOARD
     event.recipes.gtceu.forming_press('kubejs_good_circuit_board')
         .itemInputs(
             'gtceu:phenolic_circuit_board',
-            '8x gtceu:silver_single_wire'
+            '8x gtceu:mana_alloy_single_wire'
         )
         .itemOutputs(
             'gtceu:phenolic_printed_circuit_board'
@@ -82,6 +90,7 @@ ServerEvents.recipes(event => {
         .circuit(1)
         .duration(160)
         .EUt(16)
+    
 
 	// REMOVE STEEL INGOTS AND BLOCKS FROM NON-COKE ITEMS IN PRIMITIVE BLAST FURNACE
 	event.remove({ 
@@ -819,6 +828,95 @@ ServerEvents.recipes(event => {
             )
         })
     })
+
+    event.remove({output: 'gtceu:resin_circuit_board'})
+    event.recipes.botania.petal_apothecary(
+        '3x gtceu:resin_circuit_board',
+        [
+            '#botania:livingwood_logs',
+            'gtceu:sticky_resin',
+            'gtceu:sticky_resin',
+            '#botania:livingwood_logs',
+            'gtceu:sticky_resin',
+            'gtceu:sticky_resin',
+            '#botania:livingwood_logs',
+            'gtceu:sticky_resin',
+            'gtceu:sticky_resin'
+        ],
+        'flint'
+    )
+    event.recipes.shaped(
+        '3x gtceu:resin_circuit_board',
+        [
+            'RRR',
+            'PPP',
+            'RRR'
+        ],
+        {
+            R: 'gtceu:sticky_resin',
+            P: 'gtceu:livingwood_plate'
+        }
+    )
+    event.remove({id:'gtceu:shaped/basic_circuit_board'})
+    event.recipes.botania.petal_apothecary(
+        'gtceu:resin_printed_circuit_board',
+        [
+            'gtceu:resin_circuit_board',
+            'gtceu:copper_single_wire',
+            'gtceu:copper_single_wire',
+            'gtceu:copper_single_wire',
+            'gtceu:copper_single_wire',
+            'gtceu:copper_single_wire',
+            'gtceu:copper_single_wire',
+            'gtceu:copper_single_wire',
+            'gtceu:copper_single_wire',
+        ],
+        'gtceu:gold_single_wire'
+    )
+
+    event.replaceInput({id: 'gtceu:assembler/basic_circuit_board'}, 'gtceu:wood_plate', 'gtceu:livingwood_plate')
+
+    event.remove({id: 'gtceu:assembler/kubejs_phenolic_board'})
+    event.recipes.botania.mana_infusion(
+        'gtceu:phenolic_circuit_board',
+        'gtceu:resin_circuit_board',
+        5000
+    )
+
+    event.replaceInput({output: 'gtceu:phenolic_printed_circuit_board'}, 'gtceu:silver_foil', 'gtceu:mana_alloy_foil')
+    event.replaceInput({output: 'gtceu:phenolic_printed_circuit_board'}, 'gtceu:silver_single_wire', 'gtceu:mana_alloy_single_wire')
+
+    event.remove({output: 'gtceu:plastic_circuit_board'})
+    plastics.map(plastic => {
+        const index = plastics.indexOf(plastic)
+
+        event.recipes.gtceu.chemical_reactor(`glimmering_livingwood_board_with_${plastic}`)
+            .itemInputs(
+                "4x gtceu:livingwood_plate",
+                `8x gtceu:${plastic}_foil`
+            )
+            .inputFluids(
+                Fluid.of("gtceu:flowing_glowstone", 144*8),
+                Fluid.of("blasmatech:mana", 1000),
+                Fluid.of("gtceu:sulfuric_acid", 250)
+            )
+            .itemOutputs(`${Math.pow(2, index)}x gtceu:plastic_circuit_board`)
+            .duration(20*25)
+            .EUt(GTValues.VA[GTValues.LV])
+    })
+
+    event.remove({output: 'gtceu:plastic_printed_circuit_board'})
+    event.recipes.botania.terra_plate(
+        'gtceu:plastic_printed_circuit_board',
+        [
+            'gtceu:plastic_circuit_board',
+            'gtceu:small_mythic_compound_dust',
+            'botania:mana_diamond',
+            'gtceu:terralumina_plate'
+        ],
+        5000
+    )
+    
 })
     
 // Remove vanilla tools
