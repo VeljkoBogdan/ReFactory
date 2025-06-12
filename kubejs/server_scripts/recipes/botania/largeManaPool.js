@@ -2,7 +2,7 @@ ServerEvents.recipes(event => {
     function ManaPool(id, input, manaAmount, output, duration) {
         event.recipes.gtceu.large_mana_pool(id)
             .itemInputs(input)
-            .inputFluids(Fluid.of('manaliquidizer:mana_fluid', manaAmount))
+            .inputFluids(Fluid.of('blasmatech:mana', manaAmount))
             .itemOutputs(output)
             .duration(duration)
             .EUt(GTValues.VA[GTValues.HV])
