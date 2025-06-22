@@ -760,12 +760,12 @@ ServerEvents.recipes(event => {
 
     event.remove({id: 'gtceu:chemical_reactor/nano_cpu_wafer'})
     event.remove({id: 'gtceu:large_chemical_reactor/nano_cpu_wafer'})
-    event.recipes.gtceu.chemical_reactor('nano_cpu_wafer')
+    event.recipes.gtceu.chemical_reactor('kubejs_nano_cpu_wafer')
         .itemInputs(
             'gtceu:cpu_wafer',
             '16x kubejs:mythril_infused_carbon_fibers'
         )
-        .inputFluids(Fluid.of('gtceu:flowing_glowstone', 576))
+        .inputFluids(Fluid.of('gtceu:glowstone', 576))
         .itemOutputs('gtceu:nano_cpu_wafer')
         .duration(20*60)
         .EUt(GTValues.VA[GTValues.EV])
@@ -896,7 +896,7 @@ ServerEvents.recipes(event => {
                 `8x gtceu:${plastic}_foil`
             )
             .inputFluids(
-                Fluid.of("gtceu:flowing_glowstone", 144*8),
+                Fluid.of("gtceu:glowstone", 144*8),
                 Fluid.of("blasmatech:mana", 1000),
                 Fluid.of("gtceu:sulfuric_acid", 250)
             )

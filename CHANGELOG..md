@@ -1,3 +1,6 @@
+# 0.3.1
+- Fixed some recipes using liquid glowstone as input not working
+
 # 0.3
 - EV overhaul: Blood Magic, Gaia, Mars and much more
 - Replaced circuits with botania-themed ones
