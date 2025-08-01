@@ -24,11 +24,8 @@ This is a quest driven GregTech pack, inspired by the likes of Regrowth, Nomifac
 <h4 align="center"> 
 There are plenty of recipe changes, but fear not, the questbook will guide you through these. </h4>
 <h3 align="center"> 
-Currently features content to and including HV 
+Currently features content to and including EV 
 </h3>
-<h4 align="center">
-Current latest version: <b>0.2.1</b> 
-</h4>
 
 ---
 
