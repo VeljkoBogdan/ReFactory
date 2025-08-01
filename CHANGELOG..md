@@ -1,3 +1,7 @@
+# 0.3.2
+- Added a custom panorama
+- Returned early game shovels
+
 # 0.3.1
 - Fixed some recipes using liquid glowstone as input not working
 

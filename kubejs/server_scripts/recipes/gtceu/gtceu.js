@@ -920,7 +920,7 @@ ServerEvents.recipes(event => {
 })
     
 // Remove vanilla tools
-const tools = ["shovel", "pickaxe", "axe", "hoe", "sword"]
+const tools = ["pickaxe", "axe", "hoe", "sword"]
 const adjectives = ["wooden", "iron", "stone", "golden", "diamond", "netherite"]
 
 tools.forEach(tool => {
