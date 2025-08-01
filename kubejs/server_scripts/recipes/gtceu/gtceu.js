@@ -916,6 +916,17 @@ ServerEvents.recipes(event => {
         ],
         5000
     )
+
+    // Damascus steel
+    event.recipes.gtceu.mixer("damascus_steel_dust")
+        .itemInputs(
+            "3x gtceu:steel_dust",
+            "gtceu:vanadium_dust",
+            "gtceu:nickel_dust"
+        )
+        .itemOutputs("5x gtceu:damascus_steel_dust")
+        .duration(20*10)
+        .EUt(GTValues.VA[GTValues.MV])
     
 })
     
