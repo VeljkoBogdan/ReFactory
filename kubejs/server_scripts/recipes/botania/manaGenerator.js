@@ -13,7 +13,7 @@ ServerEvents.recipes(event => {
             event.recipes.gtceu.mana_generator(id)
                 .notConsumable(InputItem.of(flower))
                 .itemInputs(itemInput)
-                .outputFluids(Fluid.of('manaliquidizer:mana_fluid', manaOutput))
+                .outputFluids(Fluid.of('blasmatech:mana', manaOutput))
                 .duration(duration)
                 .EUt(GTValues.VA[GTValues.HV])
         } else {
@@ -21,7 +21,7 @@ ServerEvents.recipes(event => {
                 event.recipes.gtceu.mana_generator(id)
                     .notConsumable(InputItem.of(flower))
                     .inputFluids(Fluid.of(fluidInput, 1000))
-                    .outputFluids(Fluid.of('manaliquidizer:mana_fluid', manaOutput))
+                    .outputFluids(Fluid.of('blasmatech:mana', manaOutput))
                     .duration(duration)
                     .EUt(GTValues.VA[GTValues.HV])
             } else {
@@ -29,7 +29,7 @@ ServerEvents.recipes(event => {
                     .notConsumable(InputItem.of(flower))
                     .itemInputs(itemInput)
                     .inputFluids(Fluid.of(fluidInput, 1000))
-                    .outputFluids(Fluid.of('manaliquidizer:mana_fluid', manaOutput))
+                    .outputFluids(Fluid.of('blasmatech:mana', manaOutput))
                     .duration(duration)
                     .EUt(GTValues.VA[GTValues.HV])
             }
