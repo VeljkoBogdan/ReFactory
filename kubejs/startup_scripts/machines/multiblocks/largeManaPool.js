@@ -23,7 +23,7 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
                 .or(Predicates.abilities(PartAbility.MAINTENANCE).setExactLimit(1))
             )
             .where('C', Predicates.blocks(GTBlocks.CASING_STAINLESS_CLEAN.get()))
-            .where('R', Predicates.blocks('botania:livingrock'))
+            .where('R', Predicates.blocks('kubejs:livingrock_casing'))
             .where('D', Predicates.blocks('botania:dragonstone_block'))
             .build()
         )

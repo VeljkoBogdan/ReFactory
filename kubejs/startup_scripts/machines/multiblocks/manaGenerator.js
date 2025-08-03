@@ -13,7 +13,7 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
             .aisle('#COC#', '#####', '#####', '#####', '#CCC#')
             .where('O', Predicates.controller(Predicates.blocks(definition.get())))
             .where('#', Predicates.any())
-            .where('C', Predicates.blocks(GTBlocks.CASING_STAINLESS_CLEAN.get())
+            .where('C', Predicates.blocks('kubejs:livingrock_casing')
                 .or(Predicates.abilities(PartAbility.IMPORT_FLUIDS))
                 .or(Predicates.abilities(PartAbility.EXPORT_FLUIDS))
                 .or(Predicates.abilities(PartAbility.IMPORT_ITEMS))
@@ -28,7 +28,7 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
             .build()
         )
         .workableCasingRenderer(
-            'gtceu:block/casings/solid/machine_casing_clean_stainless_steel',
+            'kubejs:block/casings/livingrock_casing',
             'gtceu:block/multiblock/implosion_compressor',
             false
         )

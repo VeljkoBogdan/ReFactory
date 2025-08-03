@@ -3,6 +3,7 @@
 - Returned early game shovels
 - Made Damascus steel craftable
 - Hydrator machines added
+- Changed Mana Generator and Large Mana Pool casings to livingrock casings
 
 # 0.3.1
 - Fixed some recipes using liquid glowstone as input not working
