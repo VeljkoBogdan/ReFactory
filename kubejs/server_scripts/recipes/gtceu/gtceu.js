@@ -928,6 +928,12 @@ ServerEvents.recipes(event => {
         .duration(20*10)
         .EUt(GTValues.VA[GTValues.MV])
     
+    event.recipes.gtceu.hydrator("dirt_from_dried_salt")
+        .itemInputs("biomesoplenty:dried_salt")
+        .inputFluids(Fluid.of("water", 144))
+        .itemOutputs("dirt")
+        .duration(20*5)
+        .EUt(GTValues.VA[GTValues.LV] / 4)
 })
     
 // Remove vanilla tools

@@ -2,6 +2,7 @@
 - Added a custom panorama
 - Returned early game shovels
 - Made Damascus steel craftable
+- Hydrator machines added
 
 # 0.3.1
 - Fixed some recipes using liquid glowstone as input not working
