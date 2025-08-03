@@ -928,12 +928,20 @@ ServerEvents.recipes(event => {
         .duration(20*10)
         .EUt(GTValues.VA[GTValues.MV])
     
+    // Dirt from dried salt in hydrator
     event.recipes.gtceu.hydrator("dirt_from_dried_salt")
         .itemInputs("biomesoplenty:dried_salt")
         .inputFluids(Fluid.of("water", 144))
         .itemOutputs("dirt")
         .duration(20*5)
         .EUt(GTValues.VA[GTValues.LV] / 4)
+
+    // Livingrock casing
+    event.recipes.gtceu.assembler('livingrock_casing')
+        .itemInputs('gtceu:stainless_steel_frame', '6x gtceu:livingrock_plate')
+        .itemOutputs('2x kubejs:livingrock_casing')
+        .duration(20*2.5)
+        .EUt(GTValues.V[GTValues.LV] / 2)
 })
     
 // Remove vanilla tools
