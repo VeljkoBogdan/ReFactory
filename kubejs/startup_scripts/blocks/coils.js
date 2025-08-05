@@ -1,0 +1,13 @@
+StartupEvents.registry('block', event => {
+    event.create('manasteel_coil_block', 'gtceu:coil')
+        .temperature(1800)
+        .level(1)
+        .energyDiscount(1)
+        .tier(0)
+        .coilMaterial(() => GTMaterials.get('manasteel'))
+        .texture('kubejs:block/coils/machine_coil_manasteel')
+        .hardness(5)
+        .requiresTool(true)
+        .material('metal')
+        .soundType('metal')
+})
