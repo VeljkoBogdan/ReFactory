@@ -5,6 +5,8 @@
 - Hydrator machines added
 - Changed Mana Generator and Large Mana Pool casings to livingrock casings
 - Fixed Mana Generator not generating mana
+- Added Terrestrial Agglomeration Nexus multiblock
+- Existing custom multiblocks have stricter max and min part abilities (previously you could overclock any multiblock by using multiple (2+) energy hatches of same tier)
 
 # 0.3.1
 - Fixed some recipes using liquid glowstone as input not working
