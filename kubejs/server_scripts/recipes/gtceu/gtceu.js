@@ -942,6 +942,23 @@ ServerEvents.recipes(event => {
         .itemOutputs('2x kubejs:livingrock_casing')
         .duration(20*2.5)
         .EUt(GTValues.V[GTValues.LV] / 2)
+    
+    // Mana-inert casing
+    event.recipes.gtceu.assembler('mana_inert_casing_from_lapis')
+        .itemInputs('gtceu:blue_steel_frame', '6x gtceu:lapis_plate')
+        .itemOutputs('2x kubejs:mana_inert_casing')
+        .duration(20*2.5)
+        .EUt(GTValues.V[GTValues.LV] / 2)
+    event.recipes.gtceu.assembler('mana_inert_casing_from_sodalite')
+        .itemInputs('gtceu:blue_steel_frame', '6x gtceu:sodalite_plate')
+        .itemOutputs('2x kubejs:mana_inert_casing')
+        .duration(20*2.5)
+        .EUt(GTValues.V[GTValues.LV] / 2)
+    event.recipes.gtceu.assembler('mana_inert_casing_from_lazurite')
+        .itemInputs('gtceu:blue_steel_frame', '6x gtceu:lazurite_plate')
+        .itemOutputs('2x kubejs:mana_inert_casing')
+        .duration(20*2.5)
+        .EUt(GTValues.V[GTValues.LV] / 2)
 })
     
 // Remove vanilla tools
