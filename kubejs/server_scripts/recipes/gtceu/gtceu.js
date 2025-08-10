@@ -165,7 +165,7 @@ ServerEvents.recipes(event => {
             '32x gtceu:silicon_dust'
         )
         .itemOutputs('gtceu:silicon_boule')
-        .duration(20*300)
+        .duration(20*320)
         .EUt(GTValues.VA[GTValues.MV])
         .blastFurnaceTemp(1784)
     // Phosporus Doped Boule
@@ -178,7 +178,7 @@ ServerEvents.recipes(event => {
         )
         .inputFluids(Fluid.of('gtceu:nitrogen', 8000))
         .itemOutputs('gtceu:phosphorus_boule')
-        .duration(20*360)
+        .duration(20*400)
         .EUt(GTValues.VA[GTValues.HV])
         .blastFurnaceTemp(2484)
     // Naquadah Doped Boule
@@ -191,7 +191,7 @@ ServerEvents.recipes(event => {
         )
         .inputFluids(Fluid.of('gtceu:argon', 8000))
         .itemOutputs('gtceu:naquadah_boule')
-        .duration(20*420)
+        .duration(20*500)
         .EUt(GTValues.VA[GTValues.EV])
         .blastFurnaceTemp(5400)
     // Neutronium Doped Boule
@@ -204,7 +204,7 @@ ServerEvents.recipes(event => {
         )
         .inputFluids(Fluid.of('gtceu:xenon', 8000))
         .itemOutputs('gtceu:neutronium_boule')
-        .duration(20*420)
+        .duration(20*600)
         .EUt(GTValues.VA[GTValues.IV])
         .blastFurnaceTemp(6484)
 
