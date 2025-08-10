@@ -10,7 +10,7 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
         .rotationState(RotationState.NON_Y_AXIS)
         .recipeType('crystal_puller')
         .appearanceBlock(GTBlocks.CASING_INVAR_HEATPROOF)
-        .recipeModifiers([GTRecipeModifiers.PARALLEL_HATCH, GTRecipeModifiers.OC_PERFECT, (machine, recipe) => GTRecipeModifiers.ebfOverclock(machine, recipe)])
+        .recipeModifiers([GTRecipeModifiers.PARALLEL_HATCH, GTRecipeModifiers.OC_NON_PERFECT, (machine, recipe) => GTRecipeModifiers.ebfOverclock(machine, recipe)])
         .pattern(definition => FactoryBlockPattern.start()
             .aisle('CcC', 'CCC', 'CCC', 'CCC')
             .aisle('ccc', 'C#C', 'C#C', 'CGC')
