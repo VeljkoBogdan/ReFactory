@@ -31,14 +31,10 @@
   "sounds": {
     "shoot": "maxstuff:honey_badger/honeybadger_shoot",
     "shoot_3p": "maxstuff:honey_badger/honeybadger_shoot_3p",
-    "reload_empty": "tacz:m4a1/m4a1_reload_empty",
-    "reload_tactical": "tacz:m4a1/m4a1_reload_tactical",
-    "inspect": "tacz:m4a1/m4a1_inspect",
-    "inspect_empty": "tacz:m4a1/m4a1_inspect_empty",
     "draw": "tacz:m4a1/m4a1_draw",
-    "put_away": "tacz:m4a1/m4a1_put_away",
-    "silence": "maxstuff:honey_badger/honeybadger_silence",
-    "silence_3p": "maxstuff:honey_badger/honeybadger_silence_3p"
+    "put_away": "tacz:spr15hb/spr15hb_put_away",
+    "silence": "tacz:spr15hb/spr15hb_silence",
+    "silence_3p": "tacz:spr15hb/spr15hb_silence_3p"
   },
   "offhand_show": {
     "pos": [1, 19, 4],

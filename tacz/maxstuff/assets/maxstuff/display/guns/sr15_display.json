@@ -8,6 +8,7 @@
   "hud": "maxstuff:gun/hud/sr15",
   "slot": "maxstuff:gun/slot/sr15",
   "animation": "maxstuff:sr15",
+  "state_machine": "maxstuff:sr16_state_machine",
   "use_default_animation": "rifle",
   "third_person_animation": "default",
   "transform": {
@@ -31,8 +32,6 @@
   "sounds": {
     "shoot": "maxstuff:sr15/sr15_shoot",
     "shoot_3p": "maxstuff:sr15/sr15_shoot3p",
-    "reload_empty": "tacz:m4a1/m4a1_reload_empty",
-    "reload_tactical": "tacz:m4a1/m4a1_reload_tactical",
     "inspect": "tacz:m4a1/m4a1_inspect",
     "inspect_empty": "tacz:m4a1/m4a1_inspect_empty",
     "draw": "tacz:m4a1/m4a1_draw",

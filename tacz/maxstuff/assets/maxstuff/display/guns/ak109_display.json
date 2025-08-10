@@ -62,16 +62,16 @@
   },
   // 枪械音效，在包目录下 sounds 文件夹内寻找，不建议为空
   "sounds": {
-    "shoot": "maxstuff:ak_alpha/ak_alpha_shoot",
-    "shoot_3p": "maxstuff:ak_alpha/ak_alpha_shoot_3p",
+    "shoot": "maxstuff:ak109/ak109_shoot",
+    "shoot_3p": "maxstuff:ak109/ak109_shoot",
     "reload_empty": "maxstuff:ak47/ak47_reload_empty",
     "reload_tactical": "maxstuff:ak47/ak47_reload_tactical",
     "inspect": "maxstuff:ak47/ak47_inspect",
     "inspect_empty": "maxstuff:ak47/ak47_inspect_empty",
     "draw": "tacz:ak47/ak47_draw",
     "put_away": "tacz:ak47/ak47_put_away",
-    "silence": "tacz:ak47/ak47_silence",
-    "silence_3p": "tacz:ak47/ak47_silence_3p",
+    "silence": "maxstuff:ak109/ak109_silence",
+    "silence_3p": "maxstuff:ak109/ak109_silence_3p",
     // 近战刺刀音效
     // "melee_bayonet": "tacz:melee_bayonet/melee_bash_05",
     // 下面四个音效可以不写，模组会自动添加默认音效

@@ -29,10 +29,10 @@
     "living_time": 1.0
   },
   "sounds": {
-    "shoot": "maxstuff:ro635/ro635_shoot",
-    "shoot_3p": "maxstuff:ro635/ro635_shoot",
-    "silence": "maxstuff:ro635/ro635_silence",
-    "silence_3p": "maxstuff:ro635/ro635_silence",
+    "shoot": "maxstuff:aug_para/aug_para_shoot",
+    "shoot_3p": "maxstuff:aug_para/aug_para_shoot",
+    "silence": "maxstuff:aug_para/aug_para_silence",
+    "silence_3p": "maxstuff:aug_para/aug_para_silence",
     "reload_empty": "tacz:aug/aug_reload_empty",
     "reload_tactical": "tacz:aug/aug_reload_tactical",
     "inspect": "tacz:aug/aug_inspect",

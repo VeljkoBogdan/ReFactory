@@ -7,19 +7,19 @@
     20
   ],
   "bolt": "closed_bolt",
-  "rpm": 630,
+  "rpm": 450,
   "bullet": {
     "life": 0.9,
     "bullet_amount": 1,
-    "damage": 24,
+    "damage": 17.5,
     "tracer_count_interval": 0,
     "extra_damage": {
       "armor_ignore": 0.60,
       "head_shot_multiplier": 2,
       "damage_adjust": [
-        {"distance": 80, "damage": 24},
-        {"distance": 160, "damage": 20},
-        {"distance": "infinite", "damage": 18}
+        {"distance": 80, "damage": 17.5},
+        {"distance": 160, "damage": 16.5},
+        {"distance": "infinite", "damage": 16}
       ]
     },
     "speed": 450,
@@ -44,21 +44,22 @@
   "put_away_time": 0.6,
   "aim_time": 0.18,
   "sprint_time": 0.23,
+  "weight": 5.3,
   "fire_mode": [
     "semi"
   ],
   "recoil": {
     "pitch": [
-      {"time": 0, "value": [2.55, 2.55]},
-      {"time": 0.32, "value": [2.55, 2.55]},
+      {"time": 0, "value": [1.55, 1.55]},
+      {"time": 0.32, "value": [1.55, 1.55]},
       {"time": 0.57, "value": [-0.5, -0.5]},
       {"time": 0.82, "value": [0.25, 0.25]},
       {"time": 1.17, "value": [0, 0]},
       {"time": 1.47, "value": [0, 0]}
     ],
     "yaw": [
-      {"time": 0, "value": [-1.1, -1.1]},
-      {"time": 0.32, "value": [-1.1, -1.1]},
+      {"time": 0, "value": [-0.6, -0.5]},
+      {"time": 0.32, "value": [-0.6, -0.5]},
       {"time": 0.57, "value": [0, 0]}
     ]
   },

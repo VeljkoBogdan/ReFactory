@@ -10826,7 +10826,7 @@
 				{
 					"name": "laser_pos",
 					"parent": "positioning2",
-					"pivot": [-6.888, 9.375, -4.15],
+					"pivot": [-6.62237, 10.3125, -10.5875],
 					"rotation": [0, 0, 90]
 				},
 				{
@@ -12201,7 +12201,7 @@
 				{
 					"name": "refit_laser_view",
 					"parent": "view",
-					"pivot": [1, 10, -13],
+					"pivot": [1, 10, -14.5],
 					"rotation": [0, 125, 0]
 				},
 				{

@@ -1,6 +1,6 @@
 {
   "ammo": "tacz:556x45",
-  "ammo_amount": 40,
+  "ammo_amount": 42,
   "extended_mag_ammo_amount": [
     50,
     70,
@@ -112,6 +112,7 @@
   "allow_attachment_types": [
     "muzzle",
     "scope",
+    "laser",
     "extended_mag"
   ],
   "exclusive_attachments": {

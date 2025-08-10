@@ -54,12 +54,6 @@
     "painting": true,
     "chiseled_bookshelf": true
   },
-  "jadeaddons": {
-    "equipment_requirement": ""
-  },
-  "jadeaddons.lootr": {
-    "info": true
-  },
   "endercrop": {
     "endercrop": true,
     "endstone": true
@@ -98,9 +92,6 @@
     "ench": true,
     "spawner": true
   },
-  "corpse": {
-    "corpse": true
-  },
   "balm": {
     "jade": true
   },
@@ -115,6 +106,18 @@
     "power_storage": true,
     "crafting_monitor": true,
     "part_name": true
+  },
+  "jadeaddons": {
+    "equipment_requirement": ""
+  },
+  "jadeaddons.lootr": {
+    "info": true
+  },
+  "waystones": {
+    "waystone": true
+  },
+  "corpse": {
+    "corpse": true
   },
   "storagedrawers": {
     "display.stacklimit": true,

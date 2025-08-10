@@ -33,11 +33,11 @@
   "reload": {
     "type": "magazine",
     "feed": {
-      "empty": 1.87,
+      "empty": 2,
       "tactical": 1.40
     },
     "cooldown": {
-      "empty": 2.2,
+      "empty": 2.8,
       "tactical": 1.87
     }
   },

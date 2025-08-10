@@ -33,7 +33,10 @@
   ],
   "result": {
     "type": "gun",
-    "id": "maxstuff:glock_54"
+    "id": "maxstuff:glock_54",
+    "attachments": {
+      "scope": "maxstuff:glaser"
+    }
   },
   "type": "tacz:gun_smith_table_crafting"
 }

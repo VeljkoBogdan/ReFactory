@@ -31,8 +31,6 @@
   "sounds": {
     "shoot": "maxstuff:genesis12/genesis12_shoot",
     "shoot_3p": "maxstuff:genesis12/genesis12_shoot",
-    "reload_empty": "tacz:m4a1/m4a1_reload_empty",
-    "reload_tactical": "tacz:m4a1/m4a1_reload_tactical",
     "inspect": "tacz:m4a1/m4a1_inspect",
     "inspect_empty": "maxstuff:genesis12/genesis12_inspect",
     "draw": "tacz:m4a1/m4a1_draw",

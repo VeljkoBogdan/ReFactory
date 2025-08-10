@@ -13,7 +13,7 @@
 			"bones": [
 				{
 					"name": "root",
-					"pivot": [-1, 5.375, 0]
+					"pivot": [0, 6.975, 2.5]
 				},
 				{
 					"name": "additional_magazine",
@@ -41,15 +41,15 @@
 					"pivot": [0, 9.5, -5.4375]
 				},
 				{
-					"name": "laser_pos",
-					"parent": "positioning2",
-					"pivot": [0, 8, -2.75],
-					"rotation": [0, 0, -180]
-				},
-				{
 					"name": "shell",
 					"parent": "positioning2",
 					"pivot": [0, 9.625, 2]
+				},
+				{
+					"name": "laser_pos",
+					"parent": "positioning2",
+					"pivot": [0, 8, -2.875],
+					"rotation": [0, 0, -180]
 				},
 				{
 					"name": "lower",
@@ -4626,8 +4626,8 @@
 				{
 					"name": "refit_laser_view",
 					"parent": "view",
-					"pivot": [5, 8.125, 0.65],
-					"rotation": [0, 70, 0]
+					"pivot": [14, 12, -13],
+					"rotation": [15, 120, 0]
 				},
 				{
 					"name": "camera",

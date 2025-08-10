@@ -2,14 +2,33 @@
   "ammo": "tacz:308",
   "ammo_amount": 20,
   "extended_mag_ammo_amount": [
+    23,
     25,
-    30,
-    35
+    50
   ],
   "bolt": "closed_bolt",
   "rpm": 600,
+  "script": "tacz:xmag_reload_logic",
+  "script_param": {
+    "reload_feed": 1.8,
+    "reload_cooldown": 2.3,
+    "empty_feed": 2.13,
+    "empty_cooldown": 2.6,
+    "reload_xmag_1_feed": 1.8,
+    "reload_xmag_1_cooldown": 2.3,
+    "empty_xmag_1_feed": 2.13,
+    "empty_xmag_1_cooldown": 2.6,
+    "reload_xmag_2_feed": 1.8,
+    "reload_xmag_2_cooldown": 2.3,
+    "empty_xmag_2_feed": 2.13,
+    "empty_xmag_2_cooldown": 2.6,
+    "reload_xmag_3_feed": 2.79,
+    "reload_xmag_3_cooldown": 3.63,
+    "empty_xmag_3_feed": 3.6,
+    "empty_xmag_3_cooldown": 4.17
+  },
   "bullet": {
-    "life": 0.75,
+    "life": 1.25,
     "bullet_amount": 1,
     "damage": 14,
     "tracer_count_interval": 0,
@@ -17,13 +36,12 @@
       "armor_ignore": 0.5,
       "head_shot_multiplier": 1.5,
       "damage_adjust": [
-        {"distance": 1, "damage": 14},
-        {"distance": 35, "damage": 12},
-        {"distance": 85, "damage": 10},
+        {"distance": 45, "damage": 12},
+        {"distance": 95, "damage": 10},
         {"distance": "infinite", "damage": 8}
       ]
     },
-    "speed": 265,
+    "speed": 789,
     "gravity": 0.098,
     "knockback": 0,
     "friction": 0.015,
@@ -43,30 +61,37 @@
   },
   "draw_time": 0.47,
   "put_away_time": 0.53,
-  "aim_time": 0.2,
+  "aim_time": 0.25,
   "sprint_time": 0.17,
+  "weight": 4.74,
+  "movement_speed": {
+    "base": 0.0,
+    "aim": -0.1,
+    "reload": 0
+  },
+  "crawl_recoil_multiplier": 0.45,
   "fire_mode": [
     "semi",
     "auto"
   ],
   "recoil": {
     "pitch": [
-      {"time": 0, "value": [1, 1]},
-      {"time": 0.2, "value": [1, 1]},
-      {"time": 0.6, "value": [-0.135, -0.135]},
+      {"time": 0, "value": [1.1, 1.15]},
+      {"time": 0.3, "value": [1.2, 1.25]},
+      {"time": 0.7, "value": [-0.135, -0.135]},
       {"time": 0.75, "value": [0, 0]}
     ],
     "yaw": [
       {"time": 0, "value": [-0.4, 0.3]},
-      {"time": 0.2, "value": [-0.4, 0.3]},
+      {"time": 0.2, "value": [-0.55, 0.45]},
       {"time": 0.6, "value": [0, 0]}
     ]
   },
   "inaccuracy": {
-    "stand": 4.75,
-    "move": 5,
-    "sneak": 4.25,
-    "lie": 3.75,
+    "stand": 2.75,
+    "move": 4,
+    "sneak": 3.25,
+    "lie": 2.75,
     "aim": 0.1
   },
   // 近战相关
@@ -96,6 +121,7 @@
     "scope",
     "stock",
     "grip",
+    "laser",
     "muzzle",
     "extended_mag"
   ],

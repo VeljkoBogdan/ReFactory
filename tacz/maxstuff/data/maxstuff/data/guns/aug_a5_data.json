@@ -103,6 +103,7 @@
     "muzzle",
     "scope",
     "grip",
+    "laser",
     "extended_mag"
   ],
   "exclusive_attachments": {

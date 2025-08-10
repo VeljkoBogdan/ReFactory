@@ -7,7 +7,8 @@
   },
   "hud": "maxstuff:gun/hud/hk417",
   "slot": "maxstuff:gun/slot/hk417",
-  "animation": "tacz:hk416d",
+  "animation": "maxstuff:hk417",
+  "state_machine": "tacz:hk416d_state_machine",
   "use_default_animation": "rifle",
   "third_person_animation": "default",
   "transform": {

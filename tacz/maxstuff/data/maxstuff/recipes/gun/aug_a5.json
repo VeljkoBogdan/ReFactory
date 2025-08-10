@@ -14,6 +14,12 @@
     },
     {
       "item": {
+        "tag": "forge:ingots/netherite"
+      },
+      "count": 2
+    },
+    {
+      "item": {
         "tag": "forge:gems/quartz"
       },
       "count": 16

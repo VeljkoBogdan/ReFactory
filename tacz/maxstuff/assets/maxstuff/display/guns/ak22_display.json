@@ -18,7 +18,7 @@
   // 背包/快捷栏等容器中槽位显示的 2D 材质，在包目录下的 textures 文件夹中寻找，不建议为空
   "slot": "maxstuff:gun/slot/ak22",
   // 调用的动画名，会在包目录下的 animations 文件夹中寻找，不建议为空
-  "animation": "maxstuff:ak_alpha",
+  "animation": "maxstuff:ak12",
   // 指定使用缺省动画，可为空。如果上文指定的动画文件里缺少某个动画，如 draw 动画，则会从缺省动画拷贝。
   // 值可为 rifle、pistol
   "use_default_animation": "rifle",
@@ -65,7 +65,6 @@
     "shoot": "maxstuff:ak12/ak12_shoot",
     "shoot_3p": "maxstuff:ak12/ak12_shoot_3p",
     "reload_empty": "maxstuff:ak47/ak47_reload_empty",
-    "reload_tactical": "maxstuff:ak47/ak47_reload_tactical",
     "inspect": "maxstuff:ak47/ak47_inspect",
     "inspect_empty": "maxstuff:ak47/ak47_inspect_empty",
     "draw": "tacz:ak47/ak47_draw",

@@ -7,7 +7,8 @@
   },
   "hud": "maxstuff:gun/hud/thunderbird_short",
   "slot": "maxstuff:gun/slot/thunderbird_short",
-  "animation": "maxstuff:thunderbird_short",
+  "animation": "maxstuff:thunderbird",
+  "state_machine": "maxstuff:sr16_state_machine",
   "use_default_animation": "pistol",
   "transform": {
     "scale": {

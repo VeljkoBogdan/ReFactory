@@ -65,6 +65,12 @@
 					"pivot": [0, 8.55, -21.325]
 				},
 				{
+					"name": "laser_pos",
+					"parent": "positioning2",
+					"pivot": [1, 8.58125, -6.825],
+					"rotation": [0, 0, 90]
+				},
+				{
 					"name": "constraint",
 					"parent": "AKM",
 					"pivot": [-0.225, 11.325, -13.825]
@@ -24833,6 +24839,12 @@
 					"parent": "views",
 					"pivot": [7, 7, -11],
 					"rotation": [0, 120, 0]
+				},
+				{
+					"name": "refit_laser_view",
+					"parent": "views",
+					"pivot": [7, 8.75, -3.25],
+					"rotation": [0, 62.5, 0]
 				},
 				{
 					"name": "refit_stock_view",

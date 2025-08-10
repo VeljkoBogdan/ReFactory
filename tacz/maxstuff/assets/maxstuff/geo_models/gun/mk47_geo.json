@@ -8191,15 +8191,14 @@
 					"pivot": [0, 9.55, -20.875]
 				},
 				{
-					"name": "laser_pos",
-					"parent": "positioning2",
-					"pivot": [1.462, 9.55, -13.025],
-					"rotation": [0, 0, 90]
-				},
-				{
 					"name": "scope_pos",
 					"parent": "positioning2",
-					"pivot": [0, 11.01, -2.125]
+					"pivot": [0, 11.01, -3.25]
+				},
+				{
+					"name": "laser_pos",
+					"parent": "positioning2",
+					"pivot": [0, 11.01, -13.125]
 				},
 				{
 					"name": "stock_pos",
@@ -9402,7 +9401,7 @@
 				{
 					"name": "refit_laser_view",
 					"parent": "view",
-					"pivot": [7, 10, -11],
+					"pivot": [7, 12, -12],
 					"rotation": [0, 70, 0]
 				},
 				{

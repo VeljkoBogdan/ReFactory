@@ -101,6 +101,7 @@
   "allow_attachment_types": [
     "scope",
     "grip",
+    "laser",
     "muzzle",
     "extended_mag"
   ],

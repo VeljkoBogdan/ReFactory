@@ -2,8 +2,8 @@
   "ammo": "tacz:50bmg",
   "ammo_amount": 10,
   "extended_mag_ammo_amount": [
-    12,
     14,
+    16,
     20
   ],
   "bolt": "closed_bolt",
@@ -57,8 +57,8 @@
   ],
   "recoil": {
     "pitch": [
-      {"time": 0, "value": [4.5, 4.5]},
-      {"time": 0.32, "value": [4.5, 4.5]},
+      {"time": 0, "value": [2.5, 2.5]},
+      {"time": 0.32, "value": [2.5, 2.5]},
       {"time": 0.57, "value": [-0.5, -0.5]},
       {"time": 0.82, "value": [0.25, 0.25]},
       {"time": 1.17, "value": [0, 0]},
@@ -102,6 +102,8 @@
   },
   "allow_attachment_types": [
     "scope",
+    "grip",
+    "laser",
     "muzzle",
     "extended_mag"
   ]

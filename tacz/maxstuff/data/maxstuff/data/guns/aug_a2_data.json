@@ -112,6 +112,7 @@
   "allow_attachment_types": [
     "muzzle",
     "scope",
+    "laser",
     "extended_mag"
   ],
   "exclusive_attachments": {

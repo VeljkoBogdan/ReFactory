@@ -10,17 +10,17 @@
   "rpm": 650,
   "bullet": {
     "life": 0.6,
-    "bullet_amount": 3,
-    "damage": 55,
+    "bullet_amount": 8,
+    "damage": 48,
     "tracer_count_interval": 0,
     "extra_damage": {
-      "armor_ignore": 0.0,
+      "armor_ignore": 0.55,
       "head_shot_multiplier": 1.33,
       "damage_adjust": [
-        {"distance": 1.5, "damage": 65},
-        {"distance": 15, "damage": 50},
-        {"distance": 30, "damage": 45},
-        {"distance": "infinite", "damage": 25}
+        {"distance": 1.5, "damage": 48},
+        {"distance": 15, "damage": 43},
+        {"distance": 30, "damage": 38},
+        {"distance": "infinite", "damage": 18}
       ]
     },
     "speed": 265,
@@ -33,12 +33,12 @@
   "reload": {
     "type": "magazine",
     "feed": {
-      "empty": 1.87,
-      "tactical": 1.40
+      "empty": 2.53,
+      "tactical": 1.9
     },
     "cooldown": {
-      "empty": 2.2,
-      "tactical": 1.87
+      "empty": 3.5,
+      "tactical": 2.9
     }
   },
   "draw_time": 0.3,
@@ -69,11 +69,11 @@
     ]
   },
   "inaccuracy": {
-    "stand": 4.5,
-    "move": 4.75,
-    "sneak": 4,
-    "lie": 4,
-    "aim": 4
+    "stand": 2.25,
+    "move": 2.55,
+    "sneak": 2,
+    "lie": 2,
+    "aim": 2
   },
   // 近战相关
   "melee": {

@@ -135,6 +135,7 @@
   "allow_attachment_types": [
     "scope",
     "stock",
+    "laser",
     "muzzle",
     "extended_mag"
   ],

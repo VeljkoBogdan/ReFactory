@@ -6297,7 +6297,7 @@
 				{
 					"name": "laser_pos",
 					"parent": "positioning2",
-					"pivot": [1.462, 9.55, -13.025],
+					"pivot": [1.11825, 9.55, -13.025],
 					"rotation": [0, 0, 90]
 				},
 				{

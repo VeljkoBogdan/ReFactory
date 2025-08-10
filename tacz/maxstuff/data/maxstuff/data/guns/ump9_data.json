@@ -1,5 +1,5 @@
 {
-  "ammo": "tacz:45acp",
+  "ammo": "tacz:9mm",
   "rpm": 750,
   "bullet": {
     "life": 0.55,

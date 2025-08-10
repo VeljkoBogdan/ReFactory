@@ -85,6 +85,7 @@
   "allow_attachment_types": [
     "extended_mag",
     "grip",
+    "laser",
     "muzzle",
     "scope"
   ]

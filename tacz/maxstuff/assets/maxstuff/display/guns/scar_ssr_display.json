@@ -7,7 +7,7 @@
   },
   "hud": "maxstuff:gun/hud/scar_ssr",
   "slot": "maxstuff:gun/slot/scar_ssr",
-  "animation": "tacz:scar_h",
+  "animation": "maxstuff:scar_ssr",
   "use_default_animation": "rifle",
   "third_person_animation": "default",
   "transform": {

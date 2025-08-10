@@ -6,7 +6,7 @@
 # <user_home>/.minecraft_global_packs/required_resourcepacks
 # <user_home>/.minecraft_global_packs/optional_resourcepacks
 enable_system_global_packs = false
-config_version = 3
+config_version = 4
 log_pack_ids = false
 
 #This config allows you to add or remove folders or single files as Data-/Resourcepacks
@@ -19,4 +19,5 @@ log_pack_ids = false
 [datapacks]
 	required = ["datapacks/", "global_packs/required_data/", "resourcepacks/"]
 	optional = ["global_packs/optional_data/"]
+	enable_builtin = []
 

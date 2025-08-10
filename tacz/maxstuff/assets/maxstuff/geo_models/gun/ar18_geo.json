@@ -1614,25 +1614,7 @@
 				{
 					"name": "gun_body",
 					"parent": "m4a1",
-					"pivot": [0, 8, -8],
-					"cubes": [
-						{
-							"origin": [0.4375, 7.04688, -7.75],
-							"size": [0.25, 1.5, 1.5],
-							"inflate": 0.01,
-							"uv": {
-								"west": {"uv": [46, 35], "uv_size": [1.5, 1.5]}
-							}
-						},
-						{
-							"origin": [0.45312, 7, -7.75],
-							"size": [0.25, 1.5, 1.5],
-							"inflate": 0.01,
-							"uv": {
-								"west": {"uv": [46, 43], "uv_size": [1.5, 1.5]}
-							}
-						}
-					]
+					"pivot": [0, 8, -8]
 				},
 				{
 					"name": "m4a1_pull",
@@ -6678,8 +6660,7 @@
 				{
 					"name": "laser_pos",
 					"parent": "positioning2",
-					"pivot": [1.462, 9.55, -13.025],
-					"rotation": [0, 0, 90]
+					"pivot": [-0.00675, 10.87813, -16.025]
 				},
 				{
 					"name": "scope_pos",
@@ -9059,7 +9040,7 @@
 					"rotation": [0, -90, 0]
 				},
 				{
-					"name": "Gun_rails2",
+					"name": "handguard_tactical",
 					"parent": "m4a1",
 					"pivot": [0.09283, 10.61951, -18.71875],
 					"cubes": [
@@ -9505,7 +9486,7 @@
 				{
 					"name": "refit_laser_view",
 					"parent": "view",
-					"pivot": [7, 10, -11],
+					"pivot": [7, 11.5, -11],
 					"rotation": [0, 70, 0]
 				},
 				{

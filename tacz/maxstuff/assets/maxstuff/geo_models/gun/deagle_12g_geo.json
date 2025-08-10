@@ -1151,7 +1151,8 @@
 				{
 					"name": "laser_pos",
 					"parent": "Deagle",
-					"pivot": [0, 4, -0.39375]
+					"pivot": [0, 4, 0.6062],
+					"rotation": [0, 0, -180]
 				},
 				{
 					"name": "muzzle_pos",
@@ -5896,8 +5897,8 @@
 				{
 					"name": "refit_laser_view",
 					"parent": "view",
-					"pivot": [7, 3.375, 1.9],
-					"rotation": [0, 70, 0]
+					"pivot": [7, 3.375, -4.1],
+					"rotation": [0, 120, 0]
 				}
 			]
 		}
