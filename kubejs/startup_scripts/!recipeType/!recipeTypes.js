@@ -43,7 +43,7 @@ GTCEuStartupEvents.registry('gtceu:recipe_type', event => {
     event.create('terra_nexus')
         .category('refactory')
         .setEUIO('in')
-        .setMaxIOSize(2, 2, 4, 4)
+        .setMaxIOSize(6, 6, 3, 3)
         .setProgressBar(GuiTextures.PROGRESS_BAR_ARROW, FillDirection.LEFT_TO_RIGHT)
         .setSound(GTSoundEntries.COOLING)
 })
