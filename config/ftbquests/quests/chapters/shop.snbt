@@ -5,10 +5,10 @@
 	default_repeatable_quest: true
 	disable_toast: true
 	filename: "shop"
-	group: ""
+	group: "3E7E61C6DDFC7256"
 	icon: "kubejs:refactory_coin"
 	id: "769F670BF66B2DD0"
-	order_index: 1
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{

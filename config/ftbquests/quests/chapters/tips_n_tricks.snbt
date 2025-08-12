@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "tips_n_tricks"
-	group: ""
+	group: "3D834CE54DEBD940"
 	icon: "ftbquests:book"
 	id: "077BA14C503A136B"
 	order_index: 2

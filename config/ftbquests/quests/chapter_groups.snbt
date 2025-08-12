@@ -1,3 +1,8 @@
 {
-	chapter_groups: [ ]
+	chapter_groups: [
+		{ id: "49C82E7D849BF337", title: "Pack Progression" }
+		{ id: "394AE89AC82DD679", title: "Non-progression mods" }
+		{ id: "3D834CE54DEBD940", title: "Info" }
+		{ id: "3E7E61C6DDFC7256", title: "Utilities" }
+	]
 }

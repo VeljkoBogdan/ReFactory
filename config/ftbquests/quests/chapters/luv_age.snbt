@@ -2,10 +2,10 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "luv_age"
-	group: ""
+	group: "49C82E7D849BF337"
 	icon: "gtceu:nano_processor_mainframe"
 	id: "5A0D9713F6A89D77"
-	order_index: 10
+	order_index: 7
 	quest_links: [ ]
 	quests: [
 		{

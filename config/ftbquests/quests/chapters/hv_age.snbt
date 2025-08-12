@@ -2,10 +2,10 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "hv_age"
-	group: ""
+	group: "49C82E7D849BF337"
 	icon: "gtceu:advanced_integrated_circuit"
 	id: "7FEB7EC8E62B9067"
-	order_index: 7
+	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{

@@ -3,10 +3,10 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "coils"
-	group: ""
+	group: "3D834CE54DEBD940"
 	icon: "gtceu:trinium_coil_block"
 	id: "785BB2D0429D0AAF"
-	order_index: 14
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
@@ -602,5 +602,5 @@
 			y: 1.0d
 		}
 	]
-	title: "Progression"
+	title: "Progress"
 }

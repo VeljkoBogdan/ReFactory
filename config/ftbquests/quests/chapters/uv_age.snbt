@@ -2,10 +2,10 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "uv_age"
-	group: ""
+	group: "49C82E7D849BF337"
 	icon: "gtceu:crystal_processor_mainframe"
 	id: "54436DC4AC0104F2"
-	order_index: 12
+	order_index: 9
 	quest_links: [ ]
 	quests: [
 		{

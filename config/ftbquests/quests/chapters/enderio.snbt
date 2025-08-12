@@ -3,7 +3,7 @@
 	default_quest_shape: ""
 	disable_toast: true
 	filename: "enderio"
-	group: ""
+	group: "394AE89AC82DD679"
 	icon: "enderio:ender_resonator"
 	id: "78C3D9CACFB4C904"
 	images: [
@@ -24,7 +24,7 @@
 			y: -3.5d
 		}
 	]
-	order_index: 19
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{

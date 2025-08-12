@@ -2,10 +2,10 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "zpm"
-	group: ""
+	group: "49C82E7D849BF337"
 	icon: "gtceu:quantum_processor_mainframe"
 	id: "3B5E1EFB4DFE8F56"
-	order_index: 11
+	order_index: 8
 	quest_links: [ ]
 	quests: [
 		{

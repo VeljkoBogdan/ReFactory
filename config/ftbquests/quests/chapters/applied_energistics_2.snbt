@@ -2,10 +2,10 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "applied_energistics_2"
-	group: ""
+	group: "394AE89AC82DD679"
 	icon: "ae2:controller"
 	id: "2B911F638B9484C6"
-	order_index: 17
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
@@ -127,7 +127,7 @@
 		}
 		{
 			dependencies: ["198F3F03A42BF420"]
-			description: ["Fluix ME Glass Cable is the simplest cable to make, &3transfers power and up to 8 channels&r. It comes in 17 diffrent colors, the default being Fluix, and can be dyed any color using any of the 16 dyes."]
+			description: ["Fluix ME Glass Cable is the simplest cable to make, &3transfers power and up to 8 channels&r. It comes in 17 different colors, the default being Fluix, and can be dyed any color using any of the 16 dyes."]
 			id: "236E5597D4F4B5EB"
 			tasks: [{
 				id: "42D2AD65251E9E23"
