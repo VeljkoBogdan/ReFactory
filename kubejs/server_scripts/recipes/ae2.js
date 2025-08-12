@@ -542,7 +542,7 @@ ServerEvents.recipes(event => {
     event.remove({output: 'ae2:quartz_glass'})
     event.recipes.gtceu.alloy_smelter('quartz_glass')
         .itemInputs(
-            '#c:glass_blocks',
+            '#forge:glass',
             '#forge:dusts/certus_quartz'
         )
         .itemOutputs('ae2:quartz_glass')
