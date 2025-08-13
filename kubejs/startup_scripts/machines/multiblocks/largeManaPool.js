@@ -1,11 +1,11 @@
 GTCEuStartupEvents.registry('gtceu:machine', event => {
 
     event.create('large_mana_pool', 'multiblock')
-        .tooltips(Component.translatable('tooltip.gtceu.multiblock.large_mana_pool'))
+        //.tooltips(Component.translatable('tooltip.gtceu.multiblock.large_mana_pool'))
         .rotationState(RotationState.NON_Y_AXIS)
         .recipeType('large_mana_pool')
-        .appearanceBlock(GTBlocks.CASING_ALUMINIUM_FROSTPROOF)
-        .recipeModifiers([GTRecipeModifiers.PARALLEL_HATCH, GTRecipeModifiers.OC_NON_PERFECT])
+        .appearanceBlock(() => GTBlocks.CASING_STAINLESS_CLEAN.get())
+        .recipeModifiers([GTRecipeModifiers.PARALLEL_HATCH, GTRecipeModifiers.ELECTRIC_OVERCLOCK.apply(OverclockingLogic.NON_PERFECT_OVERCLOCK)])
         .pattern(definition => FactoryBlockPattern.start()
             .aisle('FFFFF', 'CRRRC', 'CCCCC')
             .aisle('FRRRF', 'R###R', 'C###C')
@@ -27,9 +27,5 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
             .where('D', Predicates.blocks('botania:dragonstone_block'))
             .build()
         )
-        .workableCasingRenderer(
-            'gtceu:block/casings/solid/machine_casing_clean_stainless_steel',
-            'gtceu:block/multiblock/distillation_tower',
-            false
-        )
+        .workableCasingModel('gtceu:block/casings/solid/machine_casing_clean_stainless_steel', 'gtceu:block/multiblock/distillation_tower')
 })

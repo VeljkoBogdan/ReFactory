@@ -2,7 +2,7 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
     event.create('greenhouse', 'multiblock')
         .rotationState(RotationState.NON_Y_AXIS)
         .recipeType('greenhouse')
-        .appearanceBlock(GTBlocks.CASING_STEEL_SOLID)
+        .appearanceBlock(() => GTBlocks.CASING_STEEL_SOLID.get())
         .pattern(definition => FactoryBlockPattern.start()
             .aisle('CCC', 'CGC', 'CGC', 'CLC', 'CCC')
             .aisle('CMC', 'GSG', 'G#G', 'LIL', 'COC')
@@ -36,7 +36,7 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
             .where('#', Predicates.air())
             .build()
         )
-        .workableCasingRenderer('gtceu:block/casings/solid/machine_casing_solid_steel', 'gtceu:block/multiblock/implosion_compressor', false)
+        .workableCasingModel('gtceu:block/casings/solid/machine_casing_solid_steel', 'gtceu:block/multiblock/implosion_compressor')
 })
 
 // https://gregtechceu.github.io/gtceu-modern-docs/Modpacks/Examples/Greenhouse/ 

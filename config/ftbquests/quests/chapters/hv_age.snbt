@@ -587,19 +587,6 @@
 		}
 		{
 			dependencies: ["59775F7F175FF086"]
-			description: ["Used to make Brine for Bromine and Iodine."]
-			id: "658F35B4B40FFB93"
-			size: 1.0d
-			tasks: [{
-				id: "1F455ACB387BD89D"
-				item: "gtceu:evaporation_plant"
-				type: "item"
-			}]
-			x: -13.0d
-			y: 3.0d
-		}
-		{
-			dependencies: ["59775F7F175FF086"]
 			description: ["The Implosion Chamber is a multiblock that uses the pressure of explosions to compress stuff."]
 			hide_dependency_lines: true
 			id: "31C81A033CB8C11D"
@@ -1734,10 +1721,10 @@
 			description: ["Allows flight!"]
 			id: "047CA6113B60DC55"
 			tasks: [{
-				id: "1B58849997BF5C20"
+				id: "3BB30FBB70FC7630"
 				item: {
 					Count: 1
-					id: "gtceu:avanced_nanomuscle_chestplate"
+					id: "gtceu:advanced_nanomuscle_chestplate"
 					tag: { }
 				}
 				type: "item"

@@ -1,11 +1,11 @@
 GTCEuStartupEvents.registry('gtceu:machine', event => {
 
     event.create('proliferation_inducer', 'multiblock')
-        .tooltips(Component.translatable('tooltip.gtceu.multiblock.proliferation_inducer'))
+        //.tooltips(Component.translatable('tooltip.gtceu.multiblock.proliferation_inducer'))
         .rotationState(RotationState.NON_Y_AXIS)
         .recipeType('proliferation_inducer')
-        .appearanceBlock(GTBlocks.CASING_HSSE_STURDY)
-        .recipeModifiers([GTRecipeModifiers.PARALLEL_HATCH, GTRecipeModifiers.OC_PERFECT])
+        .appearanceBlock(() => GTBlocks.CASING_HSSE_STURDY.get())
+        .recipeModifiers([GTRecipeModifiers.PARALLEL_HATCH, GTRecipeModifiers.ELECTRIC_OVERCLOCK.apply(OverclockingLogic.PERFECT_OVERCLOCK)])
         .pattern(definition => FactoryBlockPattern.start()
             .aisle('F###F', 'F###F', 'F#C#F', 'FCCCF', '##C##', '#####')
             .aisle('#####', '##C##', '#CMC#', 'CMMMC', '#CMC#', '##C##')
@@ -27,9 +27,5 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
             .where('c', Predicates.blocks(GTBlocks.COIL_NAQUADAH.get()))
             .build()
         )
-        .workableCasingRenderer(
-            'gtceu:block/casings/solid/machine_casing_sturdy_hsse',
-            'gtceu:block/multiblock/large_chemical_reactor',
-            false
-        )
+        .workableCasingModel('gtceu:block/casings/solid/machine_casing_sturdy_hsse', 'gtceu:block/multiblock/large_chemical_reactor')
 })

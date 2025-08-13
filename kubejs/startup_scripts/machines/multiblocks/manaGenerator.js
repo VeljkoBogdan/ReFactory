@@ -1,10 +1,10 @@
 GTCEuStartupEvents.registry('gtceu:machine', event => {
     event.create('mana_generator', 'multiblock')
-        .tooltips(Component.translatable('tooltip.gtceu.multiblock.mana_generator'))
+        //.tooltips(Component.translatable('tooltip.gtceu.multiblock.mana_generator'))
         .rotationState(RotationState.ALL)
         .recipeType('mana_generator')
-        .appearanceBlock(GTBlocks.CASING_STAINLESS_CLEAN)
-        .recipeModifiers([GTRecipeModifiers.PARALLEL_HATCH, GTRecipeModifiers.OC_NON_PERFECT])
+        .appearanceBlock(() => GTBlocks.CASING_STAINLESS_CLEAN.get())
+        .recipeModifiers([GTRecipeModifiers.PARALLEL_HATCH, GTRecipeModifiers.ELECTRIC_OVERCLOCK.apply(OverclockingLogic.PERFECT_OVERCLOCK)])
         .pattern(definition => FactoryBlockPattern.start()
             .aisle('#CCC#', '#####', '#####', '#####', '#CCC#')
             .aisle('CCCCC', '#CAC#', '#DAD#', '#CAC#', 'CCCCC')
@@ -27,9 +27,5 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
             .where('F', Predicates.blocks('botania:blue_floating_flower'))
             .build()
         )
-        .workableCasingRenderer(
-            'kubejs:block/casings/livingrock_casing',
-            'gtceu:block/multiblock/implosion_compressor',
-            false
-        )
+        .workableCasingModel('kubejs:block/casings/livingrock_casing', 'gtceu:block/multiblock/implosion_compressor')
 })

@@ -1,10 +1,10 @@
 GTCEuStartupEvents.registry('gtceu:machine', event => {
     event.create('terra_nexus', 'multiblock')
-        .tooltips(Component.translatable('tooltip.gtceu.multiblock.terra_nexus'))
+        //.tooltips(Component.translatable('tooltip.gtceu.multiblock.terra_nexus'))
         .rotationState(RotationState.ALL)
         .recipeType('terra_nexus')
-        .appearanceBlock(GTBlocks.CASING_STAINLESS_CLEAN)
-        .recipeModifiers([GTRecipeModifiers.PARALLEL_HATCH, GTRecipeModifiers.OC_NON_PERFECT])
+        .appearanceBlock(() => GTBlocks.CASING_STAINLESS_CLEAN.get())
+        .recipeModifiers([GTRecipeModifiers.PARALLEL_HATCH, GTRecipeModifiers.ELECTRIC_OVERCLOCK.apply(OverclockingLogic.NON_PERFECT_OVERCLOCK)])
         .pattern(definition => FactoryBlockPattern.start()
             .aisle('LLLEEELLL', ' LLEEELL ', '         ')
             .aisle('LLLMMMLLL', 'LLLMMMLLL', ' LLMMMLL ')
@@ -29,9 +29,5 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
             .where('L', Predicates.blocks('kubejs:livingrock_casing'))
             .build()
         )
-        .workableCasingRenderer(
-            'kubejs:block/casings/mana_inert_casing',
-            'gtceu:block/multiblock/implosion_compressor',
-            false
-        )
+        .workableCasingModel('kubejs:block/casings/mana_inert_casing', 'gtceu:block/multiblock/implosion_compressor')
 })
