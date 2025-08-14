@@ -96,7 +96,6 @@ ServerEvents.recipes(event => {
         .EUt(GTValues.VA[GTValues.LV])
 
     // REMOVE ENDERIO MACHINE CHASSIS RECIPES
-	event.remove({ id: 'thermal:machine_frame' })
 	event.remove({ id: 'enderio:void_chassis' })
 	event.remove({ id: 'enderio:ensouled_chassis' })
 	
@@ -104,12 +103,12 @@ ServerEvents.recipes(event => {
 	event.shaped(
 		'enderio:void_chassis',
 		[
-			'PPP',
-			'PVP',
-			'CPC',
+			'PCP',
+			'CVC',
+			'PCP',
 		],
 		{
-			P: 'gtceu:aluminium_plate',
+			P: 'gtceu:double_aluminium_plate',
 			V: '#forge:tools/wrenches',
 			C: 'gtceu:copper_single_cable'
 		}
@@ -119,12 +118,12 @@ ServerEvents.recipes(event => {
 	event.shaped(
 		'enderio:ensouled_chassis',
 		[
-			'PPP',
-			'PVP',
-			'CPC',
+			'PCP',
+			'CVC',
+			'PCP',
 		],
 		{
-			P: 'gtceu:soularium_plate',
+			P: 'gtceu:double_soularium_plate',
 			V: 'enderio:void_chassis',
 			C: 'gtceu:electrum_single_cable'
 		}
