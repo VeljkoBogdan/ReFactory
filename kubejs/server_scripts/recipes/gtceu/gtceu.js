@@ -539,7 +539,7 @@ ServerEvents.recipes(event => {
 
     // Large Steam Extractor
     event.shaped(
-        'gtceu:steam_large_extractor',
+        'refactorycore:steam_large_extractor',
         [
             'CSC',
             'CEC',
@@ -555,7 +555,7 @@ ServerEvents.recipes(event => {
 
     //Steam Borer
     event.shaped(
-        'gtceu:steam_borer',
+        'refactorycore:steam_borer',
         [
             'CCC',
             'RSF',
@@ -571,7 +571,7 @@ ServerEvents.recipes(event => {
 
     // Steam Blender
     event.shaped(
-        'gtceu:steam_blender',
+        'refactorycore:steam_blender',
         [
             'CSC',
             'CRC',
@@ -587,7 +587,7 @@ ServerEvents.recipes(event => {
 
     // Bronze mb tank
     event.shaped(
-        'gtceu:bronze_multiblock_tank',
+        'refactorycore:bronze_multiblock_tank',
         [
             ' R ',
             'HCW',
@@ -602,7 +602,7 @@ ServerEvents.recipes(event => {
     )
     // Bronze mb valve
     event.shaped(
-        'gtceu:bronze_tank_valve',
+        'refactorycore:bronze_tank_valve',
         [
             ' R ',
             'HCW',
@@ -619,7 +619,7 @@ ServerEvents.recipes(event => {
 
     // Advanced Blast Furnace
     event.shaped(
-        'gtceu:advanced_primitive_blast_furnace',
+        'refactorycore:advanced_primitive_blast_furnace',
         [
             'CSC',
             'RPR',

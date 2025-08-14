@@ -787,8 +787,8 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "6458778CC1007DC4"
-				item: "gtceu:steam_borer"
+				id: "7176BE6DAEE0276F"
+				item: "refactorycore:steam_borer"
 				type: "item"
 			}]
 			x: -6.5d
@@ -806,8 +806,8 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "7F3F7A70B109E78F"
-				item: "gtceu:steam_large_extractor"
+				id: "6096714F5F1EF1EF"
+				item: "refactorycore:steam_large_extractor"
 				type: "item"
 			}]
 			x: -6.5d
@@ -825,8 +825,8 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "065BBE2FCAF1B3D0"
-				item: "gtceu:steam_blender"
+				id: "4E08174FD300673A"
+				item: "refactorycore:steam_blender"
 				type: "item"
 			}]
 			x: -6.5d
@@ -844,8 +844,8 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "23BE9FB98B2E4328"
-				item: "gtceu:advanced_primitive_blast_furnace"
+				id: "7C32EED8D4649C23"
+				item: "refactorycore:advanced_primitive_blast_furnace"
 				type: "item"
 			}]
 			x: 1.0d
@@ -926,7 +926,7 @@
 				""
 				"Unlike the wooden tank, it can handle steam just fine!"
 			]
-			icon: "gtceu:bronze_multiblock_tank"
+			icon: "refactorycore:bronze_multiblock_tank"
 			id: "5A5C6C460C5DE5BB"
 			rewards: [{
 				count: 2
@@ -936,13 +936,13 @@
 			}]
 			tasks: [
 				{
-					id: "5EF6D6345879D2D3"
-					item: "gtceu:bronze_multiblock_tank"
+					id: "2004A82F2C297FB7"
+					item: "refactorycore:bronze_tank_valve"
 					type: "item"
 				}
 				{
-					id: "0A55C76579C2ECF5"
-					item: "gtceu:bronze_tank_valve"
+					id: "409C07F0E6325EA3"
+					item: "refactorycore:bronze_multiblock_tank"
 					type: "item"
 				}
 			]

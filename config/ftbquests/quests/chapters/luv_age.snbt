@@ -521,17 +521,6 @@
 			y: -5.5d
 		}
 		{
-			dependencies: ["38537701E0EE6D51"]
-			id: "457B9A819607CDC9"
-			tasks: [{
-				id: "02584D132A6D8048"
-				item: "powah:energy_cable_spirited"
-				type: "item"
-			}]
-			x: 1.5d
-			y: -7.0d
-		}
-		{
 			description: [
 				"This chapter is not finished."
 				""
