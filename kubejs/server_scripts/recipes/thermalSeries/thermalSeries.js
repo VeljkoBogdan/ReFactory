@@ -1034,3 +1034,7 @@ yeet('thermal:chiller_rod_cast')
 yeet('thermal:earth_charge')
 yeet('thermal:ice_charge')
 yeet('thermal:lightning_charge')
+
+yeet('thermal:niter')
+yeet('thermal:niter_dust')
+yeet('thermal:niter_block')

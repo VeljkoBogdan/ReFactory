@@ -3,7 +3,9 @@ WorldgenEvents.remove((event) => {
     // remove ore generation
     event.removeFeatureById('underground_ores', [
         'aether:ambrosium_ore',
-        'aether:zanite_ore'
+        'aether:zanite_ore',
+        'thermal:niter_ore',
+        'thermal:deepslate_niter_ore'
     ])
 
     // Ad Astra
