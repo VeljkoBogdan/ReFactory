@@ -199,49 +199,65 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
     .color(0xfff9b5)
     .secondaryColor(0xed983e)
     .components(
-        '3x tin',
-        '1x silver',
         '4x glowstone',
+        '3x tin_alloy',
+        'silver',
         'mistrium'
     )
     .iconSet(GTMaterialIconSet.METALLIC)
     .flags(
-        GTMaterialFlags.GENERATE_PLATE, 
-        GTMaterialFlags.GENERATE_LONG_ROD,
+        GTMaterialFlags.GENERATE_PLATE,
         GTMaterialFlags.GENERATE_BOLT_SCREW,
-        GTMaterialFlags.GENERATE_DENSE,
-        GTMaterialFlags.GENERATE_RING,
         GTMaterialFlags.GENERATE_FINE_WIRE,
         GTMaterialFlags.GENERATE_FOIL,
         GTMaterialFlags.GENERATE_GEAR,
         GTMaterialFlags.GENERATE_ROD,
-        GTMaterialFlags.GENERATE_ROTOR,
-        GTMaterialFlags.GENERATE_FRAME
+        GTMaterialFlags.GENERATE_FRAME,
+        GTMaterialFlags.DISABLE_DECOMPOSITION
     )
-    .blastTemp(2000, null, GTValues.VA[GTValues.EV], 20*20)
+    .blastTemp(1700, null, GTValues.VA[GTValues.EV], 20*20)
 
     event.create('signalum')
     .ingot()
     .color(0xeb7628)
+    .secondaryColor(0xff0530)
     .components(
-        '3x copper',
-        '1x silver',
-        '2x redstone'
+        '3x red_alloy',
+        '2x red_steel',
+        'copper'
     )
     .iconSet(GTMaterialIconSet.METALLIC)
     .flags(
         GTMaterialFlags.GENERATE_PLATE, 
         GTMaterialFlags.GENERATE_LONG_ROD,
         GTMaterialFlags.GENERATE_BOLT_SCREW,
-        GTMaterialFlags.GENERATE_DENSE,
-        GTMaterialFlags.GENERATE_RING,
         GTMaterialFlags.GENERATE_FINE_WIRE,
         GTMaterialFlags.GENERATE_FOIL,
         GTMaterialFlags.GENERATE_GEAR,
         GTMaterialFlags.GENERATE_ROD,
-        GTMaterialFlags.GENERATE_ROTOR
+        GTMaterialFlags.DISABLE_DECOMPOSITION
     )
-    .blastTemp(2000, null, GTValues.VA[GTValues.IV], 20*20)
+    .blastTemp(2600, null, GTValues.VA[GTValues.IV], 20*20)
+
+    event.create('enderium')
+    .ingot()
+    .color(0x32a9b0)
+    .components(
+        '2x manasteel',
+        '2x blue_alloy',
+        'ender_pearl'
+    )
+    .iconSet(GTMaterialIconSet.SHINY)
+    .flags(
+        GTMaterialFlags.GENERATE_PLATE, 
+        GTMaterialFlags.GENERATE_BOLT_SCREW,
+        GTMaterialFlags.GENERATE_FINE_WIRE,
+        GTMaterialFlags.GENERATE_FOIL,
+        GTMaterialFlags.GENERATE_GEAR,
+        GTMaterialFlags.GENERATE_ROD,
+        GTMaterialFlags.DISABLE_DECOMPOSITION
+    )
+    .blastTemp(3500, null, GTValues.VA[GTValues.LuV], 20*20)
 
     // Silicon Dioxide, Sulfur, Iron
     event.create('basalz')

@@ -959,6 +959,18 @@ ServerEvents.recipes(event => {
         .itemOutputs('2x kubejs:mana_inert_casing')
         .duration(20*2.5)
         .EUt(GTValues.V[GTValues.LV] / 2)
+
+    // Enderium dust
+    event.recipes.gtceu.mixer('enderium_dust')
+        .itemInputs(
+            '2x gtceu:manasteel_dust',
+            '2x gtceu:blue_alloy_dust',
+            'gtceu:ender_pearl_dust'
+        )
+        .itemOutputs('5x gtceu:enderium_dust')
+        .duration(20*5)
+        .EUt(GTValues.VA[GTValues.EV])
+
 })
     
 // Remove vanilla tools

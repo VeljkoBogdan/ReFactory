@@ -107,10 +107,13 @@ ServerEvents.recipes(event => {
 
     // Remove the Foundry to remove byproducts
     event.remove({output: 'tconstruct:foundry_controller'})
+
+    // Removing game-breaking alloys
     event.remove({id: 'tconstruct:smeltery/melting/metal/platinum/ore_singular'})
     event.remove({id: 'tconstruct:smeltery/melting/metal/platinum/raw'})
     event.remove({id: 'tconstruct:smeltery/melting/metal/platinum/raw_block'})
     event.remove({id: 'tconstruct:smeltery/melting/metal/platinum/dust'})
+    event.remove({id: 'tconstruct:smeltery/alloys/molten_enderium'})
 })
 
 ServerEvents.tags('item', event => {
