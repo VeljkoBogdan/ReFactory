@@ -1,13 +1,7 @@
 // priority: 9999
 
-const $BlastProperty = Java.loadClass('com.gregtechceu.gtceu.api.data.chemical.material.properties.BlastProperty');
-const $OreProperty = Java.loadClass('com.gregtechceu.gtceu.api.data.chemical.material.properties.OreProperty');
-
 GTCEuStartupEvents.registry('gtceu:material', event => {
 
-    // Add Blast property to Platinum
-    GTMaterials.Platinum.setProperty(PropertyKey.BLAST, new $BlastProperty(3500, 'higher', GTValues.VA[GTValues.EV], 20*50, -1, -1));
-    
     // Ambrosium and Zanite from Aether
     event.create('ambrosium')
     .gem()
@@ -559,79 +553,7 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
         )
         
 
-    // Chlorophyte line --------------------------------------------------------------------------------------------------
-    event.create('chlorophyte')
-        .element(GTElements.get('chlorophyte'))
-        .liquid()
-        .ore()
-        .ingot()
-        .iconSet(GTMaterialIconSet.METALLIC)
-        .color(0x248900)
-        .secondaryColor(0x040D1B)
-        .flags(
-            GTMaterialFlags.GENERATE_PLATE, 
-            GTMaterialFlags.GENERATE_LONG_ROD,
-            GTMaterialFlags.GENERATE_BOLT_SCREW,
-            GTMaterialFlags.GENERATE_DENSE,
-            GTMaterialFlags.GENERATE_RING,
-            GTMaterialFlags.GENERATE_FINE_WIRE,
-            GTMaterialFlags.GENERATE_FOIL,
-            GTMaterialFlags.GENERATE_GEAR,
-            GTMaterialFlags.GENERATE_ROD,
-            GTMaterialFlags.GENERATE_ROTOR
-        )
-        .blastTemp(5500, null, GTValues.VA[GTValues.LuV], 20*20)
-
-    event.create('indole_3_acetic_acid')
-        .element(GTElements.get('indole_3_acetic_acid'))
-        .dust()
-        .color(0xd6d6d6)
-        .iconSet(GTMaterialIconSet.DULL)
-
-    event.create('indole')
-        .element(GTElements.get('indole'))
-        .dust()
-        .color(0xd1c7b8)
-        .iconSet(GTMaterialIconSet.DULL)
-
-    event.create('pyruvic_acid')
-        .element(GTElements.get('pyruvic_acid'))
-        .liquid()
-        .color(0xde8b71)
-        .iconSet(GTMaterialIconSet.FLUID)
-
-    event.create('glyceric_acid')
-        .element(GTElements.get('glyceric_acid'))
-        .liquid()
-        .color(0x8bd15c)
-        .iconSet(GTMaterialIconSet.FLUID)
-
-    event.create('phenylhydrazine')
-        .element(GTElements.get('phenylhydrazine'))
-        .liquid()
-        .color(0xd3d672)
-        .iconSet(GTMaterialIconSet.FLUID)
-
-    event.create('aniline')
-        .element(GTElements.get('aniline'))
-        .liquid()
-        .color(0xa89277)
-        .iconSet(GTMaterialIconSet.FLUID)
-
-    event.create('glycolic_acid')
-        .element(GTElements.get('glycolic_acid'))
-        .dust()
-        .color(0xe3e3e3)
-        .iconSet(GTMaterialIconSet.SHINY)
-
-    event.create('chlorophyte_growth_medium')
-        .element(GTElements.get('chlorophyte_growth_medium'))
-        .dust()
-        .color(0x625d66)
-        .iconSet(GTMaterialIconSet.DULL)
-
     // Undergarden
-
     event.create('utherium')
         .gem()
         .ore()
@@ -647,86 +569,6 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
             GTMaterialFlags.NO_SMELTING,
             GTMaterialFlags.NO_ORE_SMELTING
         )
-
-    // Superconductors ---------------------------------------------------------------------------------------------------------
-
-    // cable properties (Voltage, Amperage, Loss/block, isSuperconductor)
-
-    // LV
-    event.create('mana_alloy')
-    .ingot()
-    .components(
-        '1x manasteel',
-        '2x redstone'
-    )
-    .cableProperties(GTValues.V[GTValues.LV], 2, 0, true)
-    .color(0xed6bed)
-    .flags(
-        GTMaterialFlags.GENERATE_PLATE,
-        GTMaterialFlags.GENERATE_FOIL,
-        GTMaterialFlags.GENERATE_FINE_WIRE,
-        GTMaterialFlags.GENERATE_BOLT_SCREW
-    )
-    .iconSet(GTMaterialIconSet.SHINY)
-
-    // MV
-    event.create('terralumina')
-    .ingot()
-    .components(
-        '1x terrasteel',
-        '2x aluminium'
-    )
-    .cableProperties(GTValues.V[GTValues.MV], 2, 0, true)
-    .color(0x53ffcf)
-    .flags(
-        GTMaterialFlags.GENERATE_PLATE,
-        GTMaterialFlags.GENERATE_FOIL,
-        GTMaterialFlags.GENERATE_FINE_WIRE,
-        GTMaterialFlags.GENERATE_BOLT_SCREW
-    )
-    .iconSet(GTMaterialIconSet.SHINY)
-
-    // HV
-    event.create('elventium')
-    .ingot()
-    .components(
-        '1x elementium',
-        '1x ambrosium',
-        '2x gold'
-    )
-    .cableProperties(GTValues.V[GTValues.HV], 2, 0, true)
-    .color(0x414153)
-    .secondaryColor(0x331619)
-    .flags(
-        GTMaterialFlags.GENERATE_PLATE,
-        GTMaterialFlags.GENERATE_FOIL,
-        GTMaterialFlags.GENERATE_FINE_WIRE,
-        GTMaterialFlags.GENERATE_BOLT_SCREW
-    )
-    .iconSet(GTMaterialIconSet.SHINY)
-    .blastTemp(1200, null, GTValues.VA[GTValues.MV], 20*10)
-
-    // EV
-    event.create('gaia')
-        .ingot()
-        .color(0xa89f78)
-        .secondaryColor(0x51315f)
-        .cableProperties(GTValues.V[GTValues.EV], 4, 0, true)
-        .flags(
-            GTMaterialFlags.GENERATE_PLATE, 
-            GTMaterialFlags.GENERATE_LONG_ROD,
-            GTMaterialFlags.GENERATE_BOLT_SCREW,
-            GTMaterialFlags.GENERATE_DENSE,
-            GTMaterialFlags.GENERATE_RING,
-            GTMaterialFlags.GENERATE_FINE_WIRE,
-            GTMaterialFlags.GENERATE_FOIL,
-            GTMaterialFlags.GENERATE_GEAR,
-            GTMaterialFlags.GENERATE_ROD,
-            GTMaterialFlags.GENERATE_ROTOR
-        )
-        .iconSet(GTMaterialIconSet.METALLIC)
-
-    // ------------------------------------------------------------------------------------------------------------------------
 
 })
 
