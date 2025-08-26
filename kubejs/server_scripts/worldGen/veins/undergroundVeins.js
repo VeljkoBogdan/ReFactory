@@ -52,6 +52,23 @@ GTCEuServerEvents.oreVeins(event => {
         )
     })
 
+    event.add('sapphire_vein_undergarden', vein => {
+        vein.layer('undergarden')
+        vein.weight(60)
+        vein.clusterSize(20)
+        vein.density(0.50)
+        vein.discardChanceOnAirExposure(0)
+        vein.heightRangeUniform(-40, 0)
+        vein.layeredVeinGenerator(generator => generator
+            .buildLayerPattern(pattern => pattern
+                .layer(l => l.weight(3).mat(GTMaterials.Almandine).size(3, 4))
+                .layer(l => l.weight(2).mat(GTMaterials.Pyrope).size(1, 4))
+                .layer(l => l.weight(1).mat(GTMaterials.Sapphire).size(1, 3))
+                .layer(l => l.weight(1).mat(GTMaterials.GreenSapphire).size(1, 3))
+            )
+        )
+    })
+
 })
 
 // In server events
