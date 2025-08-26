@@ -983,7 +983,7 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: 14.5d
+			y: 16.0d
 		}
 		{
 			dependencies: [
@@ -1173,16 +1173,13 @@
 			y: -1.5d
 		}
 		{
-			dependencies: [
-				"4816A85DF7D24F0B"
-				"6B22D87DF0CDC580"
-			]
+			dependencies: ["6B22D87DF0CDC580"]
 			description: [
 				"Soldering alloy is the most efficient ingredient for electronic circuit crafting in the Circuit Assembler."
 				""
 				"It's not really necessary in the early game, but keep it in mind for later."
 			]
-			hide_dependency_lines: true
+			hide_dependency_lines: false
 			id: "0B597578FA4639DF"
 			tasks: [{
 				id: "718DD372E45A8A9E"
@@ -1914,7 +1911,10 @@
 			y: 11.0d
 		}
 		{
-			dependencies: ["55D76A052A9EE6A0"]
+			dependencies: [
+				"55D76A052A9EE6A0"
+				"18BC6F844CF368EF"
+			]
 			id: "2D7A83E987DF8527"
 			tasks: [{
 				id: "4A5BE1C0B7DBF801"
@@ -2060,6 +2060,43 @@
 			}]
 			x: 4.0d
 			y: 10.0d
+		}
+		{
+			dependencies: ["74C94B5C7B866A34"]
+			description: [
+				"You might have run into the problem of transporting items and fluids. From now on you'll be making processing lines that require a good item and fluid routing system."
+				""
+				"That's where LaserIO comes in. You can transport items, fluids, energy, and redstone signals wirelessly over Laser Nodes. "
+			]
+			icon: "laserio:laser_node"
+			id: "02F2E2777E8D5BD0"
+			tasks: [
+				{
+					id: "1258056952C2CEC5"
+					item: "laserio:laser_node"
+					type: "item"
+				}
+				{
+					id: "61CC6C314B36164C"
+					item: "laserio:card_item"
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["44495C979D17EFD5"]
+			description: ["A very easy way to turn Dried Salt into Dirt, if you want to."]
+			id: "33BA7120A70C6E45"
+			tasks: [{
+				id: "3BE89A4A00941B61"
+				item: "refactorycore:lv_hydrator"
+				type: "item"
+			}]
+			x: 19.5d
+			y: 0.0d
 		}
 	]
 	title: "LV Age"

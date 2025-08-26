@@ -506,7 +506,7 @@
 			y: 7.5d
 		}
 		{
-			dependencies: ["0CECA3E8DF49EA33"]
+			dependencies: ["713E1A46AA21E290"]
 			description: ["Stores a good amount of energy."]
 			id: "4AEC76A5E18BF772"
 			size: 1.0d
@@ -877,7 +877,7 @@
 				}
 			]
 			title: "SMD Components"
-			x: -5.0d
+			x: -8.5d
 			y: 5.0d
 		}
 		{
@@ -1271,7 +1271,6 @@
 		{
 			dependencies: ["59775F7F175FF086"]
 			description: ["You can get Raw Tantalite from both the Overworld and Nether"]
-			hide_dependency_lines: true
 			id: "05A634B47A2EF253"
 			size: 1.0d
 			tasks: [{
@@ -1279,8 +1278,8 @@
 				item: "gtceu:tantalum_ingot"
 				type: "item"
 			}]
-			x: -5.0d
-			y: 3.0d
+			x: -10.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["59775F7F175FF086"]
@@ -1579,6 +1578,10 @@
 				"The &cMana Generator&r generates mana using flowers and their fuel."
 				""
 				"The &bLarge Mana Pool&r copies a lot of the Botania mana pool recipes. This multiblock does not provide recipes for recipes that use catalysts."
+				""
+				"The &eTerra Agglomeration Nexus&r simulates the Terra Agglomeration Plate, sometimes for much cheaper."
+				""
+				"For now these multiblocks are only QOL, but later they will be required for progression."
 			]
 			id: "452239D2CC8CCC7D"
 			size: 1.0d
@@ -1591,6 +1594,11 @@
 				{
 					id: "79957B43977D10AD"
 					item: "gtceu:mana_generator"
+					type: "item"
+				}
+				{
+					id: "7213530E231AACF6"
+					item: "gtceu:terra_nexus"
 					type: "item"
 				}
 			]
@@ -1713,7 +1721,7 @@
 				item: "botanypotstiers:elite_terracotta_botany_pot"
 				type: "item"
 			}]
-			x: -8.0d
+			x: -8.5d
 			y: 1.5d
 		}
 		{
@@ -1792,6 +1800,17 @@
 			title: "Glimmering Boards"
 			x: 0.0d
 			y: 1.5d
+		}
+		{
+			dependencies: ["59775F7F175FF086"]
+			id: "713E1A46AA21E290"
+			tasks: [{
+				id: "55417DF0E9E16F2E"
+				item: "gtceu:hv_autoclave"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -2.5d
 		}
 	]
 	title: "HV Age"
