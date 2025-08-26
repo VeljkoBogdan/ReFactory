@@ -915,6 +915,17 @@ ServerEvents.recipes(event => {
             '#forge:tools/wire_cutters'
         ]
     )
+
+    event.remove({output: 'thermal:phytogro'})
+    event.shapeless(
+        '2x thermal:phytogro',
+        [
+            '#forge:sand',
+            'gtceu:saltpeter_dust',
+            'gtceu:apatite_dust'
+        ]
+    )
+
 })
 
 // hide thermal items
