@@ -975,7 +975,7 @@ ServerEvents.recipes(event => {
         }
     )
 
-    
+    event.remove({id: 'enderio:smelting/undergarden/smelt_catalyst'})
     
 })
 
