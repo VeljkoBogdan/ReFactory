@@ -50,7 +50,7 @@
 					type: "item"
 				}
 			]
-			x: -3.5d
+			x: -2.0d
 			y: -2.5d
 		}
 		{
@@ -79,7 +79,7 @@
 				}
 			]
 			shape: "gear"
-			size: 1.5d
+			size: 1.0d
 			tasks: [
 				{
 					id: "7BF316FE70843AF7"
@@ -93,7 +93,7 @@
 					type: "item"
 				}
 			]
-			x: -2.0d
+			x: -3.5d
 			y: -1.0d
 		}
 		{
@@ -114,7 +114,7 @@
 				item: "gtceu:lp_steam_forge_hammer"
 				type: "item"
 			}]
-			x: -2.0d
+			x: 2.5d
 			y: 0.5d
 		}
 		{
@@ -131,13 +131,13 @@
 				item: "gtceu:coke_gem"
 				type: "item"
 			}]
-			x: 2.5d
-			y: -1.0d
+			x: -3.5d
+			y: -2.5d
 		}
 		{
 			dependencies: [
 				"570F99AFC0C287A7"
-				"2D026E971B2F87E8"
+				"18146C58217B5C5D"
 			]
 			description: ["The core of all your steam machines"]
 			id: "30A1CCB30F870404"
@@ -148,7 +148,7 @@
 				item: "gtceu:bronze_machine_casing"
 				type: "item"
 			}]
-			x: -3.5d
+			x: 1.0d
 			y: 2.0d
 		}
 		{
@@ -176,7 +176,7 @@
 			}]
 			title: "Solar Boilers"
 			x: -6.5d
-			y: -1.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["0D7B0A39897561D4"]
@@ -196,7 +196,7 @@
 				type: "item"
 			}]
 			x: -5.0d
-			y: -2.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["30A1CCB30F870404"]
@@ -217,7 +217,7 @@
 				item: "gtceu:lp_steam_compressor"
 				type: "item"
 			}]
-			x: -2.0d
+			x: 2.5d
 			y: 2.0d
 		}
 		{
@@ -261,14 +261,11 @@
 				}
 			]
 			title: "Primitive Blast Furnace"
-			x: -0.5d
+			x: 4.0d
 			y: 2.0d
 		}
 		{
-			dependencies: [
-				"536AD04E85FE9AE6"
-				"102E0DFFBDE7BD84"
-			]
+			dependencies: ["102E0DFFBDE7BD84"]
 			description: [
 				"Combine iron and coke in the Primitive Blast Furnace to get steel!"
 				""
@@ -298,7 +295,7 @@
 				type: "item"
 			}]
 			title: "Steel"
-			x: 2.5d
+			x: 7.0d
 			y: 2.0d
 		}
 		{
@@ -324,7 +321,7 @@
 				item: "gtceu:lv_machine_hull"
 				type: "item"
 			}]
-			x: 8.5d
+			x: 13.0d
 			y: 3.5d
 		}
 		{
@@ -342,7 +339,7 @@
 				item: "gtceu:lv_machine_casing"
 				type: "item"
 			}]
-			x: 4.0d
+			x: 8.5d
 			y: 3.5d
 		}
 		{
@@ -364,7 +361,7 @@
 				item: "gtceu:rubber_ingot"
 				type: "item"
 			}]
-			x: 7.0d
+			x: 11.5d
 			y: 2.0d
 		}
 		{
@@ -380,7 +377,7 @@
 				item: "gtceu:sulfur_dust"
 				type: "item"
 			}]
-			x: 5.5d
+			x: 10.0d
 			y: 2.0d
 		}
 		{
@@ -397,7 +394,7 @@
 				type: "item"
 			}]
 			title: "Cables"
-			x: 7.0d
+			x: 11.5d
 			y: 3.5d
 		}
 		{
@@ -413,7 +410,7 @@
 				item: "gtceu:rubber_sapling"
 				type: "item"
 			}]
-			x: 7.0d
+			x: 11.5d
 			y: 0.5d
 		}
 		{
@@ -433,8 +430,8 @@
 				item: "gtceu:steam_grinder"
 				type: "item"
 			}]
-			x: -3.5d
-			y: 6.5d
+			x: 2.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["09ECD67B4648D2EA"]
@@ -451,7 +448,7 @@
 				item: "farmingforblockheads:market"
 				type: "item"
 			}]
-			x: 8.5d
+			x: 13.0d
 			y: 0.5d
 		}
 		{
@@ -477,8 +474,8 @@
 				}
 			]
 			title: "Steam bus"
-			x: -3.0d
-			y: 3.5d
+			x: 1.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["1B9466B9DC03A81E"]
@@ -496,8 +493,8 @@
 				item: "steamadditions:steam_foundry"
 				type: "item"
 			}]
-			x: -3.5d
-			y: 5.0d
+			x: 2.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["1B9466B9DC03A81E"]
@@ -519,8 +516,8 @@
 				item: "steamadditions:steam_separator"
 				type: "item"
 			}]
-			x: -5.0d
-			y: 6.5d
+			x: 2.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["30A1CCB30F870404"]
@@ -542,8 +539,8 @@
 				type: "item"
 			}]
 			title: "Cobble Generator"
-			x: -4.0d
-			y: 3.5d
+			x: 2.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["09ECD67B4648D2EA"]
@@ -568,7 +565,7 @@
 				}
 				type: "item"
 			}]
-			x: 8.5d
+			x: 13.0d
 			y: 2.0d
 		}
 		{
@@ -587,7 +584,7 @@
 				type: "dimension"
 			}]
 			title: "Visit the Nether"
-			x: 4.0d
+			x: 8.5d
 			y: 2.0d
 		}
 		{
@@ -596,10 +593,10 @@
 			id: "2D026E971B2F87E8"
 			shape: "square"
 			tasks: [{
-				id: "4CF9E4ADF80AC5DD"
-				title: "Steam Age"
+				id: "3C25EE113F9A3F54"
 				type: "checkmark"
 			}]
+			title: "Steam Age"
 			x: -5.0d
 			y: 2.0d
 		}
@@ -611,6 +608,7 @@
 				"Your early steam machinery probably won't be able to run for prolonged periods of time. That's where this tool comes in useful. You can stop the machine in order to buffer more steam, and then start it back up when it has enough."
 			]
 			id: "40B04FC774C8545C"
+			shape: "hexagon"
 			subtitle: "Don't mistake this for a hammer"
 			tasks: [{
 				id: "7D06E7FDB875FD54"
@@ -671,7 +669,7 @@
 			]
 			title: "Primitive Tank"
 			x: -0.5d
-			y: -2.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["189B920AAB6456B4"]
@@ -682,7 +680,7 @@
 				item: "botania:pure_daisy"
 				type: "item"
 			}]
-			x: 4.0d
+			x: 8.5d
 			y: 0.5d
 		}
 		{
@@ -695,7 +693,7 @@
 				item: { Count: 8, id: "botania:livingwood_log" }
 				type: "item"
 			}]
-			x: 5.5d
+			x: 10.0d
 			y: 0.5d
 		}
 		{
@@ -712,7 +710,7 @@
 				item: "tacz:gun_smith_table"
 				type: "item"
 			}]
-			x: 2.5d
+			x: 7.0d
 			y: 3.5d
 		}
 		{
@@ -731,7 +729,7 @@
 				type: "item"
 			}]
 			title: "Seared Brick Dust"
-			x: -0.5d
+			x: 4.0d
 			y: 0.5d
 		}
 		{
@@ -751,7 +749,7 @@
 				type: "checkmark"
 			}]
 			x: -2.0d
-			y: -2.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["2D026E971B2F87E8"]
@@ -762,17 +760,17 @@
 				type: "item"
 			}]
 			x: -5.0d
-			y: -1.0d
+			y: 0.5d
 		}
 		{
-			dependencies: ["2D026E971B2F87E8"]
+			dependencies: ["30A1CCB30F870404"]
 			id: "1B9466B9DC03A81E"
 			tasks: [{
 				id: "00824024ACF8D007"
 				item: "gtceu:steam_machine_casing"
 				type: "item"
 			}]
-			x: -5.0d
+			x: 1.0d
 			y: 5.0d
 		}
 		{
@@ -791,8 +789,8 @@
 				item: "refactorycore:steam_borer"
 				type: "item"
 			}]
-			x: -6.5d
-			y: 4.5d
+			x: -0.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["1B9466B9DC03A81E"]
@@ -810,8 +808,8 @@
 				item: "refactorycore:steam_large_extractor"
 				type: "item"
 			}]
-			x: -6.5d
-			y: 3.5d
+			x: 0.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["1B9466B9DC03A81E"]
@@ -829,8 +827,8 @@
 				item: "refactorycore:steam_blender"
 				type: "item"
 			}]
-			x: -6.5d
-			y: 5.5d
+			x: 0.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["189B920AAB6456B4"]
@@ -848,13 +846,13 @@
 				item: "refactorycore:advanced_primitive_blast_furnace"
 				type: "item"
 			}]
-			x: 1.0d
+			x: 5.5d
 			y: 3.5d
 		}
 		{
 			dependencies: ["5FC306AB0CF12117"]
 			description: [
-				"The tinkers anvil will require 3 blocks of certain metals to craft, with bronze probably being your main one."
+				"The tinkers anvil will require 3 blocks of certain metals to craft, with bronze probably being the cheapest one."
 				""
 				"It expands your tool repertoire with very useful tools!"
 			]
@@ -874,7 +872,7 @@
 				}
 				type: "item"
 			}]
-			x: -2.0d
+			x: 4.0d
 			y: 3.5d
 		}
 		{
@@ -886,7 +884,7 @@
 				item: "tconstruct:seared_basin"
 				type: "item"
 			}]
-			x: 1.0d
+			x: 7.0d
 			y: 0.5d
 		}
 		{
@@ -916,8 +914,8 @@
 				type: "item"
 			}]
 			title: "Any Sledge Hammer"
-			x: -2.0d
-			y: 5.0d
+			x: 4.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["1B9466B9DC03A81E"]
@@ -946,8 +944,205 @@
 					type: "item"
 				}
 			]
-			x: -6.5d
+			x: 1.0d
 			y: 6.5d
+		}
+		{
+			dependencies: [
+				"2D026E971B2F87E8"
+				"12DDB0EAE9AF0347"
+			]
+			icon: "naturesaura:wood_stand"
+			id: "4E74A42AA3A6B39D"
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 8L
+					id: "7327AF8B6F9AA33F"
+					item: { Count: 8, id: "naturesaura:wood_stand" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "3C12794FFEEB6240"
+					item: { Count: 16, id: "naturesaura:gold_powder" }
+					type: "item"
+				}
+				{
+					id: "3185EB1D9BDA9806"
+					item: "minecraft:oak_sapling"
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["570F99AFC0C287A7"]
+			icon: "naturesaura:gold_leaf"
+			id: "12DDB0EAE9AF0347"
+			tasks: [
+				{
+					id: "3A846EEE61950BC3"
+					item: "naturesaura:gold_fiber"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "41BDCA64EDAF5417"
+					item: "naturesaura:gold_leaf"
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["726066CE8EBA8967"]
+			id: "18146C58217B5C5D"
+			tasks: [{
+				id: "0BFB4FC8188F60E1"
+				item: "naturesaura:infused_iron"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"5DB90B1E38F984C0"
+				"4E74A42AA3A6B39D"
+			]
+			icon: "naturesaura:nature_altar"
+			id: "726066CE8EBA8967"
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "756A8D8AF48A0CCB"
+					item: "naturesaura:nature_altar"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "17E771FE8E331671"
+					item: { Count: 8, id: "naturesaura:gold_brick" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "197F09D1DC07DFA6"
+					item: { Count: 16, id: "minecraft:stone_bricks" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "1C8DB8269AD52B27"
+					item: { Count: 4, id: "minecraft:chiseled_stone_bricks" }
+					type: "item"
+				}
+				{
+					count: 20L
+					id: "5FB3F38950051C6C"
+					item: { Count: 20, id: "minecraft:oak_planks" }
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["16F0BB33FFF1AFAA"]
+			icon: {
+				Count: 1
+				id: "naturesaura:aura_bottle"
+				tag: {
+					stored_type: "naturesaura:overworld"
+				}
+			}
+			id: "5DB90B1E38F984C0"
+			tasks: [
+				{
+					id: "613C2B8DE7009270"
+					item: "naturesaura:bottle_two_the_rebottling"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "0037C776EB1CABB2"
+					item: {
+						Count: 1
+						id: "naturesaura:aura_bottle"
+						tag: {
+							stored_type: "naturesaura:overworld"
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["570F99AFC0C287A7"]
+			icon: "minecraft:glass"
+			id: "16F0BB33FFF1AFAA"
+			tasks: [
+				{
+					count: 12L
+					id: "4E90996B52D98971"
+					item: { Count: 12, id: "gtceu:glass_dust" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 12L
+					id: "215696B198CD3BB4"
+					item: { Count: 12, id: "kubejs:glass_shard" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "189760155D0E29E9"
+					item: { Count: 4, id: "minecraft:glass" }
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["4E74A42AA3A6B39D"]
+			id: "7F829D66E4F415D4"
+			tasks: [{
+				id: "32637F07EBC6885D"
+				item: "naturesaura:ancient_sapling"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4E74A42AA3A6B39D"]
+			id: "0868349EE66DA0BA"
+			tasks: [{
+				id: "79687EBD7A1DA34F"
+				item: "naturesaura:eye"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["102E0DFFBDE7BD84"]
+			id: "067F78D4CE978E11"
+			tasks: [{
+				id: "29858E6F44C9BAA7"
+				title: "Wall Sharing"
+				type: "checkmark"
+			}]
+			x: 5.5d
+			y: 0.5d
 		}
 	]
 	title: "Steam Age"

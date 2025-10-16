@@ -1,4 +1,4 @@
-# 0.3.2
+# 0.4
 - Added a custom panorama
 - Returned early game shovels
 - Made Damascus steel craftable
@@ -7,6 +7,7 @@
 - Fixed Mana Generator not generating mana
 - Added Terrestrial Agglomeration Nexus multiblock
 - Existing custom multiblocks have stricter max and min part abilities (previously you could overclock any multiblock by using multiple (2+) energy hatches of same tier)
+- Added Nature's Aura for early game
 - Updated mods
 
 # 0.3.1

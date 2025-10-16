@@ -653,6 +653,36 @@ ServerEvents.recipes(event => {
     //     .duration(20*20)
     //     .EUt(GTValues.VA[GTValues.HV])
 
+    // Early glass
+    event.smelting('kubejs:glass_shard', 'gtceu:glass_dust')
+    event.shaped(
+        'glass',
+        [
+            'GG ',
+            'GG ',
+            '   '
+        ],
+        {
+            G: 'kubejs:glass_shard'
+        }
+    )
+
+    // Steam casing requires Infused Iron plates
+    event.remove({id: 'gtceu:shaped/bronze_hull'})
+    event.shaped(
+        'gtceu:bronze_machine_casing',
+        [
+            'STS',
+            'TWT',
+            'STS'
+        ],
+        {
+            S: 'gtceu:bronze_plate',
+            T: 'gtceu:infused_iron_plate',
+            W: '#forge:tools/wrenches'
+        }
+    )
+
     // HV casing requires terrasteel plates
     event.remove({id: 'gtceu:shaped/casing_hv'})
     event.shaped(

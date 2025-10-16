@@ -62,13 +62,14 @@ ServerEvents.recipes(event => {
     )
 
     // sugar cane recipe
-    event.recipes.botania.petal_apothecary(
-        'minecraft:sugar_cane', 
-        [
-            'minecraft:carrot'
-        ],
-        '#forge:seeds'
-    )
+    // DEPRECATED: Nature's aura recipe
+    // event.recipes.botania.petal_apothecary(
+    //     'minecraft:sugar_cane', 
+    //     [
+    //         'minecraft:carrot'
+    //     ],
+    //     '#forge:seeds'
+    // )
 
     // replace mana pool recipe
     event.remove({ id: 'botania:mana_pool' })
@@ -620,6 +621,34 @@ ServerEvents.recipes(event => {
             'botania:mana_pearl'
         ],
         10000
+    )
+
+    // Grass for dead grass and desert grass
+    event.recipes.botania.petal_apothecary(
+        '2x grass',
+        [
+            'biomesoplenty:desert_grass',
+            'naturesaura:gold_powder'
+        ],
+        'biomesoplenty:desert_grass'
+    )
+    event.recipes.botania.petal_apothecary(
+        '2x grass',
+        [
+            'biomesoplenty:dead_grass',
+            'naturesaura:gold_powder'
+        ],
+        'biomesoplenty:dead_grass'
+    )
+
+    // Oak sapling recipe
+    event.recipes.botania.petal_apothecary(
+        '2x oak_sapling',
+        [
+            '#minecraft:saplings',
+            'naturesaura:gold_powder'
+        ],
+        '#minecraft:leaves'
     )
 
     // Need mana pearl block for this!

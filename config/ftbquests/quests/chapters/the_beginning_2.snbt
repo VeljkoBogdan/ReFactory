@@ -413,8 +413,8 @@
 				}
 			]
 			title: "Fluid Pipes"
-			x: 7.0d
-			y: 3.5d
+			x: 5.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["03CF5FEDA44D312B"]
@@ -427,8 +427,8 @@
 				type: "item"
 			}]
 			title: "Item Pipes"
-			x: 7.0d
-			y: 2.5d
+			x: 6.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["071811F3550BAF2F"]
@@ -952,8 +952,8 @@
 		}
 		{
 			dependencies: [
-				"03CF5FEDA44D312B"
 				"0C2AE8D7483504CC"
+				"03CF5FEDA44D312B"
 			]
 			description: [
 				"You'll need plenty of this."
@@ -974,7 +974,7 @@
 				item: "tconstruct:grout"
 				type: "item"
 			}]
-			x: 6.0d
+			x: 9.0d
 			y: 4.5d
 		}
 		{
@@ -995,7 +995,7 @@
 					type: "item"
 				}
 			]
-			x: 6.0d
+			x: 9.0d
 			y: 6.0d
 		}
 		{
@@ -1024,8 +1024,8 @@
 				item: "tconstruct:pick_head_cast"
 				type: "item"
 			}]
-			x: 9.0d
-			y: 6.0d
+			x: 8.0d
+			y: 7.5d
 		}
 	]
 	title: "The Beginning"

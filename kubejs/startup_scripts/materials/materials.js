@@ -570,17 +570,41 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
             GTMaterialFlags.NO_ORE_SMELTING
         )
 
+    // Nature's Aura
+    event.create('infused_iron')
+        .ingot()
+        .color(0x36bf3f)
+        .iconSet(GTMaterialIconSet.METALLIC)
+        .flags(GTMaterialFlags.GENERATE_PLATE,
+            GTMaterialFlags.GENERATE_ROD
+        )
+
+    event.create('sky_ingot')
+        .ingot()
+        .color(0x99e0ff)
+        .iconSet(GTMaterialIconSet.METALLIC)
+        .flags(GTMaterialFlags.GENERATE_PLATE,
+            GTMaterialFlags.GENERATE_ROD
+        )
+
 })
 
 GTCEuStartupEvents.materialModification(event => {
+    // Botania
     TagPrefix.ingot['setIgnored(com.gregtechceu.gtceu.api.data.chemical.material.Material,java.util.function.Supplier[])'](GTMaterials.get('manasteel'), () => Item.getItem('botania:manasteel_ingot'))
     TagPrefix.ingot['setIgnored(com.gregtechceu.gtceu.api.data.chemical.material.Material,java.util.function.Supplier[])'](GTMaterials.get('terrasteel'), () => Item.getItem('botania:terrasteel_ingot'))
     TagPrefix.ingot['setIgnored(com.gregtechceu.gtceu.api.data.chemical.material.Material,java.util.function.Supplier[])'](GTMaterials.get('elementium'), () => Item.getItem('botania:elementium_ingot'))
     TagPrefix.ingot['setIgnored(com.gregtechceu.gtceu.api.data.chemical.material.Material,java.util.function.Supplier[])'](GTMaterials.get('gaia'), () => Item.getItem('botania:gaia_ingot'))
 
+    // Thermal
     TagPrefix.dust['setIgnored(com.gregtechceu.gtceu.api.data.chemical.material.Material,java.util.function.Supplier[])'](GTMaterials.get('blitz'), () => Item.getItem('thermal:blitz_powder'))
     TagPrefix.dust['setIgnored(com.gregtechceu.gtceu.api.data.chemical.material.Material,java.util.function.Supplier[])'](GTMaterials.get('blizz'), () => Item.getItem('thermal:blizz_powder'))
     TagPrefix.dust['setIgnored(com.gregtechceu.gtceu.api.data.chemical.material.Material,java.util.function.Supplier[])'](GTMaterials.get('basalz'), () => Item.getItem('thermal:basalz_powder'))
+
+    // Nature's Aura
+    TagPrefix.ingot['setIgnored(com.gregtechceu.gtceu.api.data.chemical.material.Material,java.util.function.Supplier[])'](GTMaterials.get('infused_iron'), () => Item.getItem('naturesaura:infused_iron'))
+    TagPrefix.ingot['setIgnored(com.gregtechceu.gtceu.api.data.chemical.material.Material,java.util.function.Supplier[])'](GTMaterials.get('sky_ingot'), () => Item.getItem('naturesaura:sky_ingot'))
+
 
     // Adding desh byproducts
     let deshOreProperty = GTMaterials.get('desh').getProperty(PropertyKey.ORE);

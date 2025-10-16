@@ -28,8 +28,14 @@ StartupEvents.registry('item', event => {
         .displayName('ReFactory Coin')
         .tooltip('§3Used to trade for items in the Shop')
 
+    // Mythril infused carbon fibers
     event.create('mythril_infused_carbon_fibers')
         .displayName('§3Mythril Infused Carbon Fibers')
+
+    // Glass shard
+    event.create('glass_shard')
+        .displayName('Glass Shard')
+        .texture('kubejs:item/glass_shard')
 
     // // Simulated Egg
     // event.create('simulated_egg')
