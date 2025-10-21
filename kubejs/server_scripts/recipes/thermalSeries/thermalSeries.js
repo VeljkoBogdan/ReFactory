@@ -926,6 +926,49 @@ ServerEvents.recipes(event => {
         ]
     )
 
+    event.remove({id: 'thermal:press_coin_die'})
+    event.recipes.gtceu.forming_press('thermal:press_coin_die')
+        .notConsumable('gtceu:nugget_casting_mold')
+        .itemInputs('1x gtceu:invar_plate')
+        .itemOutputs('thermal:press_coin_die')
+        .duration(20*8)
+        .EUt(GTValues.VA[GTValues.LV])
+        
+    event.remove({id: 'thermal:press_gear_die'})
+    event.recipes.gtceu.forming_press('thermal:press_gear_die')
+        .notConsumable('gtceu:small_gear_casting_mold')
+        .itemInputs('1x gtceu:invar_plate')
+        .itemOutputs('thermal:press_gear_die')
+        .duration(20*8)
+        .EUt(GTValues.VA[GTValues.LV])
+        
+    event.remove({id: 'thermal:press_packing_2x2_die'})
+    event.recipes.gtceu.forming_press('thermal:press_packing_2x2_die')
+        .circuit(2)
+        .notConsumable('gtceu:block_casting_mold')
+        .itemInputs('1x gtceu:invar_plate')
+        .itemOutputs('thermal:press_packing_2x2_die')
+        .duration(20*8)
+        .EUt(GTValues.VA[GTValues.LV])
+        
+    event.remove({id: 'thermal:press_packing_3x3_die'})
+    event.recipes.gtceu.forming_press('thermal:press_packing_3x3_die')
+        .circuit(3)
+        .notConsumable('gtceu:block_casting_mold')
+        .itemInputs('1x gtceu:invar_plate')
+        .itemOutputs('thermal:press_packing_3x3_die')
+        .duration(20*8)
+        .EUt(GTValues.VA[GTValues.LV])
+        
+    event.remove({id: 'thermal:press_unpacking_die'})
+    event.recipes.gtceu.forming_press('thermal:press_unpacking_die')
+        .circuit(1)
+        .notConsumable('gtceu:block_casting_mold')
+        .itemInputs('1x gtceu:invar_plate')
+        .itemOutputs('thermal:press_unpacking_die')
+        .duration(20*8)
+        .EUt(GTValues.VA[GTValues.LV])
+
 })
 
 // hide thermal items
