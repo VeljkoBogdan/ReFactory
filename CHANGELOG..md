@@ -5,10 +5,14 @@
 - Hydrator machines added
 - Changed Mana Generator and Large Mana Pool casings to livingrock casings
 - Fixed Mana Generator not generating mana
+- Replaced Steam Additions machines with custom ReFactoryCore machines for better version matching
 - Added Terrestrial Agglomeration Nexus multiblock
 - Existing custom multiblocks have stricter max and min part abilities (previously you could overclock any multiblock by using multiple (2+) energy hatches of same tier)
 - Added Nature's Aura for early game
+- Infused iron needed to craft bronze casings
+- Early glass made by smelting glass dust into glass shards
 - Updated mods
+- Removed NoMoWanderer, Steam Additions
 
 # 0.3.1
 - Fixed some recipes using liquid glowstone as input not working
