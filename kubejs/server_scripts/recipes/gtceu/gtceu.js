@@ -782,7 +782,7 @@ ServerEvents.recipes(event => {
     event.recipes.gtceu.chemical_reactor('chemical_reactor/mythril_infused_carbon_fibers')
         .itemInputs(
             '4x gtceu:carbon_fibers',
-            'gtceu:mythril_dust'
+            'gtceu:small_mythril_dust'
         )
         .itemOutputs('4x kubejs:mythril_infused_carbon_fibers')
         .duration(20*8)
