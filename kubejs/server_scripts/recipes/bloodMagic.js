@@ -121,7 +121,7 @@ ServerEvents.recipes(event => {
             '2x botania:life_essence'
         )
         .itemOutputs('botania:gaia_ingot')
-        .duration(20*30)
+        .duration(20*40)
         .EUt(GTValues.VA[GTValues.HV])
 
     // Liquid soul
@@ -134,5 +134,5 @@ ServerEvents.recipes(event => {
         .inputFluids(Fluid.of('lava', 1000))
         .outputFluids(Fluid.of('gtceu:liquid_soul', 244))
         .duration(20*30)
-        .EUt(GTValues.VA[GTValues.MV])
+        .EUt(GTValues.VA[GTValues.HV])
 })
