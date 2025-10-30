@@ -39,6 +39,7 @@ yeet('bloodmagic:corrupted_tinydust')
 yeet('bloodmagic:sand_hellforged')
 
 ServerEvents.recipes(event => {
+    const { bloodmagic } = event.recipes
 
     // Sanguine Scientiem
     event.remove({id: 'bloodmagic:guide'})
@@ -84,5 +85,28 @@ ServerEvents.recipes(event => {
         }
     )
 
-    
+    event.remove({output: 'bloodmagic:soulsnare'})
+    bloodmagic.altar('bloodmagic:soulsnare', 'botania:dreamwood_twig')
+        .upgradeLevel(0)
+        .drainRate(50)
+        .consumptionRate(25)
+        .altarSyphon(1000)
+        
+    event.remove({id: 'bloodmagic:altar/slate'})
+    bloodmagic.altar('bloodmagic:blankslate', 'gtceu:carbon_fiber_plate')
+        .upgradeLevel(0)
+        .drainRate(100)
+        .consumptionRate(50)
+        .altarSyphon(1000)
+
+    event.remove({id: 'bloodmagic:blood_rune_blank'})
+    event.recipes.gtceu.large_mana_pool('bloodmagic:blankrune')
+        .itemInputs(
+            '4x bloodmagic:blankslate',
+            '8x botania:livingrock'
+        )
+        .inputFluids(Fluid.of('blasmatech:mana', 200))
+        .itemOutputs('4x bloodmagic:blankrune')
+
+        
 })
