@@ -1000,7 +1000,6 @@ ServerEvents.recipes(event => {
         .itemOutputs('5x gtceu:enderium_dust')
         .duration(20*5)
         .EUt(GTValues.VA[GTValues.EV])
-
 })
     
 // Remove vanilla tools

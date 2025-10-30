@@ -1,3 +1,43 @@
+const LPCapability = ReFactoryCapabilities.LP
+
+let yeet = (itemName) => {
+    ServerEvents.recipes(event => {
+        event.remove({ output: itemName })
+    })
+    ServerEvents.tags('item', event => {
+        event.add('c:hidden_from_recipe_viewers', itemName)
+    })
+}
+
+ServerEvents.tags('item', event => {
+        event.remove('forge:dusts/sulfur', 'bloodmagic:sulfur')
+        event.remove('forge:dusts/coal', 'bloodmagic:coalsand')
+        event.remove('forge:dusts/iron', 'bloodmagic:ironsand')
+        event.remove('forge:dusts/gold', 'bloodmagic:goldsand')
+        event.remove('forge:dusts/copper', 'bloodmagic:coppersand')
+        event.remove('forge:dusts/saltpeter', 'bloodmagic:saltpeter')
+
+        // Move to EnderIO
+        event.remove('forge:dusts/coal', 'enderio:powdered_coal')
+        event.remove('forge:dusts/iron', 'enderio:powdered_iron')
+        event.remove('forge:dusts/gold', 'enderio:powdered_gold')
+        event.remove('forge:dusts/copper', 'enderio:powdered_copper')
+})
+
+let bmOres = ['iron', 'gold', 'copper', 'demonite']
+
+bmOres.forEach(bmOre => {
+    yeet(`bloodmagic:${bmOre}fragment`)
+    yeet(`bloodmagic:${bmOre}gravel`)
+})
+
+yeet('bloodmagic:fragment_netherite_scrap')
+yeet('bloodmagic:gravel_netherite_scrap')
+yeet('bloodmagic:sand_netherite')
+yeet('bloodmagic:corrupted_dust')
+yeet('bloodmagic:corrupted_tinydust')
+yeet('bloodmagic:sand_hellforged')
+
 ServerEvents.recipes(event => {
 
     // Sanguine Scientiem
@@ -43,4 +83,6 @@ ServerEvents.recipes(event => {
             R: 'gtceu:titanium_rod'
         }
     )
+
+    
 })
