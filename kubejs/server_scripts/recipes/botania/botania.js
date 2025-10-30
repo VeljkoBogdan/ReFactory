@@ -664,26 +664,27 @@ ServerEvents.recipes(event => {
 
     // Gaia ingot
     event.remove({id:'botania:gaia_ingot'})
-    event.recipes.gtceu.large_chemical_reactor('large_chemical_reactor/gaia_ingot')
-        .itemInputs(
-            "2x botania:terrasteel_ingot",
-            "2x bloodmagic:reinforcedslate",
-            '4x botania:life_essence'
-        )
-        .itemOutputs('2x botania:gaia_ingot')
-        .duration(20*8)
-        .EUt(GTValues.VA[GTValues.HV])
+    // DEPRECATED FOLLOWING BLOOD MAGIC UPDATE
+    // event.recipes.gtceu.large_chemical_reactor('large_chemical_reactor/gaia_ingot')
+    //     .itemInputs(
+    //         "2x botania:terrasteel_ingot",
+    //         "2x bloodmagic:reinforcedslate",
+    //         '4x botania:life_essence'
+    //     )
+    //     .itemOutputs('2x botania:gaia_ingot')
+    //     .duration(20*8)
+    //     .EUt(GTValues.VA[GTValues.HV])
 
     // Liquid soul
-    event.recipes.gtceu.chemical_reactor('chemical_reactor/liquid_soul')
-        .itemInputs(
-            "gtceu:mythril_dust",
-            '4x minecraft:soul_sand'
-        )
-        .inputFluids(Fluid.of('minecraft:lava', 1000))
-        .outputFluids(Fluid.of('gtceu:liquid_soul', 144*8))
-        .duration(20*8)
-        .EUt(GTValues.VA[GTValues.EV])
+    // event.recipes.gtceu.chemical_reactor('chemical_reactor/liquid_soul')
+    //     .itemInputs(
+    //         "gtceu:mythril_dust",
+    //         '4x minecraft:soul_sand'
+    //     )
+    //     .inputFluids(Fluid.of('minecraft:lava', 1000))
+    //     .outputFluids(Fluid.of('gtceu:liquid_soul', 144*8))
+    //     .duration(20*8)
+    //     .EUt(GTValues.VA[GTValues.EV])
     
     // Gaia spirits
     event.remove({output: 'botania:life_essence'})

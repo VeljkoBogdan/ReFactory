@@ -85,6 +85,7 @@ ServerEvents.recipes(event => {
         }
     )
 
+    // Soulsnare
     event.remove({output: 'bloodmagic:soulsnare'})
     bloodmagic.altar('bloodmagic:soulsnare', 'botania:dreamwood_twig')
         .upgradeLevel(0)
@@ -92,6 +93,7 @@ ServerEvents.recipes(event => {
         .consumptionRate(25)
         .altarSyphon(1000)
         
+    // Blank slate and rune
     event.remove({id: 'bloodmagic:altar/slate'})
     bloodmagic.altar('bloodmagic:blankslate', 'gtceu:carbon_fiber_plate')
         .upgradeLevel(0)
@@ -105,8 +107,32 @@ ServerEvents.recipes(event => {
             '4x bloodmagic:blankslate',
             '8x botania:livingrock'
         )
+        .circuit(1)
         .inputFluids(Fluid.of('blasmatech:mana', 200))
         .itemOutputs('4x bloodmagic:blankrune')
+        .duration(20*8)
+        .EUt(GTValues.VA[GTValues.HV])
 
-        
+    // Gaia ingots
+    event.recipes.gtceu.bloodforge('gaia_ingot')
+        .input(LPCapability, 500)
+        .itemInputs(
+            'botania:terrasteel_ingot',
+            '2x botania:life_essence'
+        )
+        .itemOutputs('botania:gaia_ingot')
+        .duration(20*30)
+        .EUt(GTValues.VA[GTValues.HV])
+
+    // Liquid soul
+    event.recipes.gtceu.bloodforge('liquid_soul')
+        .input(LPCapability, 250)
+        .itemInputs(
+            '4x soul_sand',
+            'gtceu:obsidian_dust'
+        )
+        .inputFluids(Fluid.of('lava', 1000))
+        .outputFluids(Fluid.of('gtceu:liquid_soul', 244))
+        .duration(20*30)
+        .EUt(GTValues.VA[GTValues.MV])
 })
