@@ -759,7 +759,7 @@ ServerEvents.recipes(event => {
         .circuit(8)
         .itemInputs(
             '4x gtceu:tungsten_steel_plate',
-            '4x gtceu:desh_plate'
+            '4x gtceu:gaia_plate'
         )
         .itemOutputs(
             'gtceu:iv_machine_casing'
