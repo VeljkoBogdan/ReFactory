@@ -12,7 +12,10 @@ BlockEvents.rightClicked('biomesoplenty:dried_salt', e => {
     const cooldown = 333
     const playerId = player.id
 
-    if (heldItem === Item.of('minecraft:stick') && offhandItem === null) {
+    if (heldItem === Item.of('minecraft:stick') && 
+        offhandItem === null &&
+        !e.player.isCreative()
+    ) {
         const lastUse = flintCooldowns.get(playerId) ?? 0
         if (now - lastUse > cooldown) {
             // /particle minecraft:block biomesoplenty:dried_salt -501 77 -530 0.5 0.5 0.5 0.01 30 normal
@@ -38,30 +41,32 @@ BlockEvents.rightClicked('biomesoplenty:dried_salt', e => {
 
 // Dried and Dead Grass rarely drop bone meal and fertilizer
 BlockEvents.broken('biomesoplenty:desert_grass', e => {
-    const { block } = e
+    if (!e.player.isCreative()) {
+        const { block } = e
+        let rand = Math.random()
 
-    let rand = Math.random()
-
-    if (rand < 0.25) {
-        e.block.popItem(Item.of('minecraft:bone_meal'))
-    } else if (rand > 0.75) {
-        e.block.popItem(Item.of('botania:fertilizer'))
-    } else if (rand > 0.25 && rand < 0.5) {
-        e.block.popItem(Item.of('minecraft:wheat_seeds'))
+        if (rand < 0.25) {
+            e.block.popItem(Item.of('minecraft:bone_meal'))
+        } else if (rand > 0.75) {
+            e.block.popItem(Item.of('botania:fertilizer'))
+        } else if (rand > 0.25 && rand < 0.5) {
+            e.block.popItem(Item.of('minecraft:wheat_seeds'))
+        }
     }
 })
 
 BlockEvents.broken('biomesoplenty:dead_grass', e => {
-    const { block } = e
+    if (!e.player.isCreative()) {
+        const { block } = e
+        let rand = Math.random()
 
-    let rand = Math.random()
-
-    if (rand < 0.25) {
-        e.block.popItem(Item.of('minecraft:bone_meal'))
-    } else if (rand > 0.75) {
-        e.block.popItem(Item.of('botania:fertilizer'))
-    } else if (rand > 0.25 && rand < 0.5) {
-        e.block.popItem(Item.of('minecraft:wheat_seeds'))
+        if (rand < 0.25) {
+            e.block.popItem(Item.of('minecraft:bone_meal'))
+        } else if (rand > 0.75) {
+            e.block.popItem(Item.of('botania:fertilizer'))
+        } else if (rand > 0.25 && rand < 0.5) {
+            e.block.popItem(Item.of('minecraft:wheat_seeds'))
+        }
     }
 })
 
