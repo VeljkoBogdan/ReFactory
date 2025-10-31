@@ -9,6 +9,34 @@ let yeet = (itemName) => {
     })
 }
 
+let bmOres = ['iron', 'gold', 'copper', 'demonite']
+let bloodOrbs = [
+    'bloodmagic:weakbloodorb',
+    'bloodmagic:apprenticebloodorb',
+    'bloodmagic:magicianbloodorb',
+    'bloodmagic:masterbloodorb',
+    'bloodmagic:archmagebloodorb'
+]
+
+let lpHatchVoltages = [
+    'ev',
+    'iv',
+    'luv',
+    'zpm',
+    'uv',
+    'uhv',
+    'uev',
+    'uiv',
+    'uxv',
+    'opv',
+    'max'
+]
+
+let lpPlastics = [
+    'gtceu:polybenzimidazole',
+    'gtceu:polytetrafluoroethylene'
+]
+
 ServerEvents.tags('item', event => {
         event.remove('forge:dusts/sulfur', 'bloodmagic:sulfur')
         event.remove('forge:dusts/coal', 'bloodmagic:coalsand')
@@ -17,14 +45,14 @@ ServerEvents.tags('item', event => {
         event.remove('forge:dusts/copper', 'bloodmagic:coppersand')
         event.remove('forge:dusts/saltpeter', 'bloodmagic:saltpeter')
 
-        // Move to EnderIO
+        // TODO: Move to EnderIO
         event.remove('forge:dusts/coal', 'enderio:powdered_coal')
         event.remove('forge:dusts/iron', 'enderio:powdered_iron')
         event.remove('forge:dusts/gold', 'enderio:powdered_gold')
         event.remove('forge:dusts/copper', 'enderio:powdered_copper')
-})
 
-let bmOres = ['iron', 'gold', 'copper', 'demonite']
+        bloodOrbs.forEach(orb => event.add('bloodmagic:bloodorb', orb))
+})
 
 bmOres.forEach(bmOre => {
     yeet(`bloodmagic:${bmOre}fragment`)
@@ -135,4 +163,83 @@ ServerEvents.recipes(event => {
         .outputFluids(Fluid.of('gtceu:liquid_soul', 244))
         .duration(20*30)
         .EUt(GTValues.VA[GTValues.HV])
+
+    // LP hatch recipes
+    lpHatchVoltages.forEach(voltage => {
+        lpPlastics.forEach(plastic => {
+            let voltageTier = lpHatchVoltages.indexOf(voltage) + 1
+            let plasticAmount = (lpPlastics.indexOf(plastic) + 1) * 72 * voltageTier
+            // Input hatch
+            event.recipes.gtceu.assembler(`${voltage}_lp_input_hatch_using_${plastic}`)
+                .circuit(1)
+                .notConsumable('#bloodmagic:bloodorb')
+                .itemInputs(`gtceu:${voltage}_machine_hull`)
+                .inputFluids(Fluid.of(plastic, plasticAmount))
+                .itemOutputs(`refactorycore:${voltage}_lp_input_hatch`)
+                .duration(20*15)
+                .EUt(GTValues.VA[GTValues.LV])
+
+            // Output hatch
+            event.recipes.gtceu.assembler(`${voltage}_lp_output_hatch_using_${plastic}`)
+                .circuit(2)
+                .notConsumable('#bloodmagic:bloodorb')
+                .itemInputs(`gtceu:${voltage}_machine_hull`)
+                .inputFluids(Fluid.of(plastic, plasticAmount))
+                .itemOutputs(`refactorycore:${voltage}_lp_output_hatch`)
+                .duration(20*15)
+                .EUt(GTValues.VA[GTValues.LV])
+        })
+
+        // Input hatch conversion
+        event.shaped(
+            `refactorycore:${voltage}_lp_input_hatch`,
+            [
+                ' S ',
+                ' L ',
+                '   '
+            ],
+            {
+                S: '#forge:tools/screwdrivers',
+                L: `refactorycore:${voltage}_lp_output_hatch`
+            }
+        )
+
+        // Output hatch conversion
+        event.shaped(
+            `refactorycore:${voltage}_lp_output_hatch`,
+            [
+                ' S ',
+                ' L ',
+                '   '
+            ],
+            {
+                S: '#forge:tools/screwdrivers',
+                L: `refactorycore:${voltage}_lp_input_hatch`
+            }
+        )
+    })
+
+    // Blood orbs
+    event.remove({id: 'bloodmagic:altar/weakbloodorb'})
+    event.remove({id: 'bloodmagic:altar/apprenticebloodorb'})
+    event.remove({id: 'bloodmagic:altar/magicianbloodorb'})
+    // TODO: replace with a forEach later on
+
+    bloodmagic.altar('bloodmagic:weakbloodorb', 'gtceu:quantum_eye')
+        .upgradeLevel(0)
+        .consumptionRate(50)
+        .drainRate(25)
+        .altarSyphon(2000)
+
+    bloodmagic.altar('bloodmagic:apprenticebloodorb', 'gtceu:data_orb')
+        .upgradeLevel(1)
+        .consumptionRate(100)
+        .drainRate(25)
+        .altarSyphon(5000)
+
+    bloodmagic.altar('bloodmagic:magicianbloodorb', 'gtceu:quantum_star')
+        .upgradeLevel(2)
+        .consumptionRate(100)
+        .drainRate(50)
+        .altarSyphon(25000)
 })
