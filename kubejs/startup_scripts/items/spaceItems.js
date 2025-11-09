@@ -1,3 +1,13 @@
+function dimMark(name) {
+    StartupEvents.registry('item', event => {
+        event.create(`${name}_dim_marker`)
+            .displayName(`${name.charAt(0).toUpperCase() + name.slice(1)}`)
+            .texture(`kubejs:item/${name}`)
+    })
+}
+
+['moon', 'mercury', 'venus', 'mars', 'jupiter', 'saturn', 'uranus', 'neptune', 'glacio', 'aether', 'undergarden'].forEach(dim => dimMark(dim))
+
 StartupEvents.registry('item', event => {
     // Tier 1
     event.create('t1_welded_rocket_plate')

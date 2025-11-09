@@ -11,6 +11,8 @@
 - Added Nature's Aura for early game
 - Infused iron needed to craft bronze casings
 - Early glass made by smelting glass dust into glass shards
+- Added the Bloodforge multiblock with custom Blood Magic LP integration
+- Added more dimension markers
 - Updated mods
 - Removed NoMoWanderer, Steam Additions
 

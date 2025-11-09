@@ -4,16 +4,16 @@ GTCEuStartupEvents.registry("gtceu:dimension_marker", event => {
 
     // Aether marker
     event.create("aether:the_aether")
-        .iconSupplier(() => Item.of("aether:aether_grass_block").getItem())
+        .iconSupplier(() => Item.of("kubejs:aether_dim_marker").getItem())
         .tier(0)
 
     event.create("undergarden:undergarden")
-        .iconSupplier(() => Item.of("undergarden:depthrock").getItem())
+        .iconSupplier(() => Item.of("kubejs:undergarden_dim_marker").getItem())
         .tier(0)
 
     planets.forEach(planet => {
         event.create(`ad_astra:${planet}`)
-        .iconSupplier(() => Item.of(`ad_astra:${planet}_globe`).getItem())
+        .iconSupplier(() => Item.of(`kubejs:${planet}_dim_marker`).getItem())
         .tier(0)
     })
 })
