@@ -67,7 +67,7 @@ yeet('bloodmagic:corrupted_tinydust')
 yeet('bloodmagic:sand_hellforged')
 
 ServerEvents.recipes(event => {
-    const { bloodmagic } = event.recipes
+    const { bloodmagic, gtceu } = event.recipes
 
     // Sanguine Scientiem
     event.remove({id: 'bloodmagic:guide'})
@@ -242,4 +242,96 @@ ServerEvents.recipes(event => {
         .consumptionRate(100)
         .drainRate(50)
         .altarSyphon(25000)
+
+
+    // Arcane ashes
+    event.remove({id:'bloodmagic:alchemytable/arcane_ash'})
+    bloodmagic.altar('bloodmagic:arcaneashes', 'gtceu:mythic_compound_dust')
+        .upgradeLevel(2)
+        .consumptionRate(100)
+        .drainRate(50)
+        .altarSyphon(10000)
+
+    event.recipes.gtceu.bloodforge('arcane_ashes')
+        .input(LPCapability, 1000)
+        .itemInputs('gtceu:mythic_compound_dust')
+        .itemOutputs('bloodmagic:arcaneashes')
+        .duration(20*20)
+        .EUt(GTValues.VA[GTValues.HV])
+
+    // Scribe tools
+    event.remove({id: 'bloodmagic:altar/air_tool'})
+    event.remove({id: 'bloodmagic:altar/earth_tool'})
+    event.remove({id: 'bloodmagic:altar/fire_tool'})
+    event.remove({id: 'bloodmagic:altar/water_tool'})
+    event.remove({id: 'bloodmagic:altar/dusk_tool'})
+
+    gtceu.bloodforge('air_tool')
+        .input(LPCapability, 2500)
+        .itemInputs(
+            'gtceu:empty_spray_can',
+            'botania:rune_air',
+            'gtceu:mythic_compound_dust',
+        )
+        .itemOutputs('bloodmagic:airscribetool')
+        .duration(20*20)
+        .EUt(GTValues.VA[GTValues.EV])
+
+    gtceu.bloodforge('fire_tool')
+        .input(LPCapability, 2500)
+        .itemInputs(
+            'gtceu:empty_spray_can',
+            'botania:rune_fire',
+            'gtceu:mythic_compound_dust',
+        )
+        .itemOutputs('bloodmagic:firescribetool')
+        .duration(20*20)
+        .EUt(GTValues.VA[GTValues.EV])
+
+    gtceu.bloodforge('water_tool')
+        .input(LPCapability, 2500)
+        .itemInputs(
+            'gtceu:empty_spray_can',
+            'botania:rune_water',
+            'gtceu:mythic_compound_dust',
+        )
+        .itemOutputs('bloodmagic:waterscribetool')
+        .duration(20*20)
+        .EUt(GTValues.VA[GTValues.EV])
+
+    gtceu.bloodforge('earth_tool')
+        .input(LPCapability, 2500)
+        .itemInputs(
+            'gtceu:empty_spray_can',
+            'botania:rune_earth',
+            'gtceu:mythic_compound_dust',
+        )
+        .itemOutputs('bloodmagic:earthscribetool')
+        .duration(20*20)
+        .EUt(GTValues.VA[GTValues.EV])
+
+    gtceu.bloodforge('dusk_tool')
+        .input(LPCapability, 2500)
+        .itemInputs(
+            'gtceu:empty_spray_can',
+            'botania:rune_wrath',
+            'gtceu:mythic_compound_dust',
+        )
+        .itemOutputs('bloodmagic:duskscribetool')
+        .duration(20*20)
+        .EUt(GTValues.VA[GTValues.EV])
+
+    // Diviner
+    gtceu.bloodforge('diviner')
+        .input(LPCapability, 10000)
+        .notConsumable('bloodmagic:airscribetool')
+        .notConsumable('bloodmagic:firescribetool')
+        .notConsumable('bloodmagic:waterscribetool')
+        .notConsumable('bloodmagic:earthscribetool')
+        .itemInputs(
+            '4x naturesaura:ancient_stick'
+        )
+        .itemOutputs('bloodmagic:ritualdiviner')
+        .duration(20*40)
+        .EUt(GTValues.VA[GTValues.EV])
 })
