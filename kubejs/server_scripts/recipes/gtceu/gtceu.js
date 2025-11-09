@@ -93,23 +93,24 @@ ServerEvents.recipes(event => {
     
 
 	// REMOVE STEEL INGOTS AND BLOCKS FROM NON-COKE ITEMS IN PRIMITIVE BLAST FURNACE
-	event.remove({ 
-            type: 'gtceu:primitive_blast_furnace', 
-            output: 'gtceu:steel_ingot', 
-            not: [
-                { input: 'gtceu:coke_gem' }, 
-                {input: 'gtceu:coke_dust'}
-            ] 
-		}
-	)
-	event.remove({ 
-            type: 'gtceu:primitive_blast_furnace', 
-            output: 'gtceu:steel_block', 
-            not: { 
-                input: 'gtceu:coke_block' 
-            } 
-		}
-	)
+    // DEPRECATED FOLLOWING 0.4
+	// event.remove({ 
+    //         type: 'gtceu:primitive_blast_furnace', 
+    //         output: 'gtceu:steel_ingot', 
+    //         not: [
+    //             { input: 'gtceu:coke_gem' }, 
+    //             {input: 'gtceu:coke_dust'}
+    //         ] 
+	// 	}
+	// )
+	// event.remove({ 
+    //         type: 'gtceu:primitive_blast_furnace', 
+    //         output: 'gtceu:steel_block', 
+    //         not: { 
+    //             input: 'gtceu:coke_block' 
+    //         } 
+	// 	}
+	// )
 
     // snad recipe in an assembler
     event.remove('snad:snad')
