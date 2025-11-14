@@ -10,6 +10,7 @@
 - Existing custom multiblocks have stricter max and min part abilities (previously you could overclock any multiblock by using multiple (2+) energy hatches of same tier)
 - Added Nature's Aura for early game
 - Infused iron needed to craft bronze casings
+- Sky ingot needed to craft LV casings
 - Early glass made by smelting glass dust into glass shards
 - Added the Bloodforge multiblock with custom Blood Magic LP integration
 - Added more dimension markers

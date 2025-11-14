@@ -684,6 +684,34 @@ ServerEvents.recipes(event => {
         }
     )
 
+    // LV casing requires Sky Ingots
+    event.remove({id: 'gtceu:shaped/casing_lv'})
+    event.remove({id: 'gtceu:assembler/casing_lv'})
+    event.shaped(
+        'gtceu:lv_machine_casing',
+        [
+            'SGS',
+            'GWG',
+            'SGS'
+        ],
+        {
+            S: 'gtceu:steel_plate',
+            G: 'gtceu:sky_ingot_plate',
+            W: '#forge:tools/wrenches'
+        }
+    )
+    event.recipes.gtceu.assembler('assembler/lv_machine_casing')
+        .circuit(8)
+        .itemInputs(
+            '4x gtceu:steel_plate',
+            '4x gtceu:sky_ingot_plate'
+        )
+        .itemOutputs(
+            'gtceu:lv_machine_casing'
+        )
+        .duration(20*2.5)
+        .EUt(GTValues.VA[GTValues.LV] / 2)
+
     // HV casing requires terrasteel plates
     event.remove({id: 'gtceu:shaped/casing_hv'})
     event.shaped(
@@ -1001,6 +1029,8 @@ ServerEvents.recipes(event => {
         .itemOutputs('5x gtceu:enderium_dust')
         .duration(20*5)
         .EUt(GTValues.VA[GTValues.EV])
+
+
 })
     
 // Remove vanilla tools
