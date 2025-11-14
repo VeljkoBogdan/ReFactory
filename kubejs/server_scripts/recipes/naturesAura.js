@@ -26,5 +26,19 @@ ServerEvents.recipes(event => {
         ]
     )
 
-
+    // Pure Daisy
+    event.remove({id: 'botania:petal_apothecary/pure_daisy'})
+    naturesaura.tree_ritual(
+        'botania:pure_daisy',
+        [
+            'botania:white_petal',
+            'botania:white_petal',
+            goldPowder,
+            'naturesaura:sky_ingot',
+            'botania:white_petal',
+            'botania:white_petal',
+            'naturesaura:sky_ingot',
+            goldPowder
+        ]
+    )
 })
