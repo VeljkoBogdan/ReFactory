@@ -20,7 +20,7 @@ ServerEvents.recipes(event => {
     .itemInputs(
         '8x gtceu:obsidian_plate',
         'minecraft:glowstone',
-        '4x #c:glass_panes'
+        '4x #forge:glass_panes'
     )
     .itemOutputs('torchmaster:dreadlamp')
     .EUt(GTValues.VA[GTValues.LV] / 2)
@@ -31,7 +31,7 @@ ServerEvents.recipes(event => {
     .itemInputs(
         '4x gtceu:gold_plate',
         'minecraft:glowstone',
-        '4x #c:glass_panes'
+        '4x #forge:glass_panes'
     )
     .itemOutputs('torchmaster:feral_flare_lantern')
     .EUt(GTValues.VA[GTValues.LV] / 2)
@@ -40,7 +40,7 @@ ServerEvents.recipes(event => {
     event.recipes.gtceu.chemical_reactor('torchmaster:frozen_pearl')
     .itemInputs(
         'minecraft:ender_pearl',
-        '#forge:ices'
+        'minecraft:ice'
     )
     .itemOutputs('torchmaster:frozen_pearl')
     .EUt(GTValues.VA[GTValues.LV] / 2)
