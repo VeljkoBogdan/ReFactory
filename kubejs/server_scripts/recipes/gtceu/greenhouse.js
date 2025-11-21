@@ -136,4 +136,10 @@ ServerEvents.recipes(event => {
     // Brown Mushroom
     Greenhouse('brown_mushroom', 'minecraft:brown_mushroom', 1000, '12x minecraft:brown_mushroom', false)
     Greenhouse('brown_mushroom_boosted', 'minecraft:brown_mushroom', 1000, '24x minecraft:brown_mushroom', true)
+
+    ////// MISC //////
+
+    // Mogmoss
+    Greenhouse('mogmoss', 'undergarden:mogmoss', 1000, '4x undergarden:mogmoss', false)
+    Greenhouse('mogmoss_boosted', 'undergarden:mogmoss', 1000, '8x undergarden:mogmoss', true)
 })

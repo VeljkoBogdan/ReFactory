@@ -617,7 +617,7 @@ ServerEvents.recipes(event => {
         'botania:terrasteel_ingot',
         [
             'botania:manasteel_ingot',
-            'botania:mana_diamond',
+            'kubejs:crystalized_primal_sap',
             'botania:mana_pearl'
         ],
         10000
@@ -694,6 +694,36 @@ ServerEvents.recipes(event => {
         .itemOutputs('4x botania:life_essence')
         .duration(20*4)
         .EUt(GTValues.VA[GTValues.MV])
+
+    // Primal moss recipes
+    event.recipes.botania.mana_infusion(
+        'kubejs:primal_moss',
+        'undergarden:mogmoss',
+        500
+    )
+
+    event.recipes.gtceu.large_mana_pool('primal_moss')
+        .itemInputs('undergarden:mogmoss')
+        .inputFluids(Fluid.of('blasmatech:mana', 500))
+        .itemOutputs('kubejs:primal_moss')
+        .duration(20*4)
+        .EUt(GTValues.VA[GTValues.MV])
+
+    // Enriched primal sap
+    event.recipes.gtceu.chemical_reactor('enriched_primal_sap')
+        .itemInputs(
+            '2x kubejs:primal_moss',
+            'glowstone_dust'
+        )
+        .inputFluids(Fluid.of('water', 288))
+        .outputFluids(Fluid.of('gtceu:enriched_primal_sap', 288))
+
+    // Crystalized primal sap
+    event.recipes.gtceu.fluid_solidifier('crystalized_primal_sap')
+        .inputFluids(Fluid.of('gtceu:enriched_primal_sap', 144))
+        .itemOutputs('kubejs:crystalized_primal_sap')
+        .duration(20*8)
+        .EUt(GTValues.VA[GTValues.LV] / 2)
 })
 
 // yeet('botania:manasteel_ingot')

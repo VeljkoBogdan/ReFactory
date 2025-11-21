@@ -42,4 +42,12 @@ StartupEvents.registry('item', event => {
     //     .displayName('Simulated Egg')
     //     .texture('gtceu:item/simulated_egg')
     //     .tooltip('Used to simulate spawn eggs.')
+
+    // Primal moss
+    event.create('primal_moss')
+        .displayName('Primal Moss')
+
+    // Crystalized Primal Sap
+    event.create('crystalized_primal_sap')
+        .displayName('Crystalized Primal Sap')
 })

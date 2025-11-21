@@ -587,6 +587,11 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
             GTMaterialFlags.GENERATE_ROD
         )
 
+    // Enriched Primal Sap
+    event.create('enriched_primal_sap')
+        .fluid()
+        .color(0x12ff65)
+        .iconSet(GTMaterialIconSet.FLUID)
 })
 
 GTCEuStartupEvents.materialModification(event => {

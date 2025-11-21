@@ -969,6 +969,11 @@ ServerEvents.recipes(event => {
         .duration(20*8)
         .EUt(GTValues.VA[GTValues.LV])
 
+    event.recipes.thermal.insolator(
+        'undergarden:mogmoss',
+        'undergarden:mogmoss',
+    )
+
 })
 
 // hide thermal items

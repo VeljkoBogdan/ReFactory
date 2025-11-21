@@ -21,10 +21,12 @@ ServerEvents.recipes(event => {
         .circuit(1)
         .itemInputs(
             'botania:mana_pearl',
-            'botania:mana_diamond',
             'botania:manasteel_ingot'
         )
-        .inputFluids(Fluid.of('blasmatech:mana', 1000))
+        .inputFluids(
+            Fluid.of('blasmatech:mana', 1000),
+            Fluid.of('gtceu:enriched_primal_sap', 144)
+        )
         .itemOutputs('botania:terrasteel_ingot')
         .duration(20*10)
         .EUt(GTValues.VA[GTValues.HV])
