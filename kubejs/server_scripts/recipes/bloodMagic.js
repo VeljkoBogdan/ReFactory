@@ -322,6 +322,7 @@ ServerEvents.recipes(event => {
         .EUt(GTValues.VA[GTValues.EV])
 
     // Diviner
+    event.remove({id: 'bloodmagic:ritual_diviner_0'})
     gtceu.bloodforge('diviner')
         .input(LPCapability, 10000)
         .notConsumable('bloodmagic:airscribetool')
