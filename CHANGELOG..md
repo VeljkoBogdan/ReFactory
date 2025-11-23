@@ -14,6 +14,7 @@
 - Early glass made by smelting glass dust into glass shards
 - Added the Bloodforge multiblock with custom Blood Magic LP integration
 - Added more dimension markers
+- "one_biome" world type renamed to "Wasteland (Default)"
 - Added Angel Ring, Tom's Simple Storage, Colossal Chests, Functional Storage, Remove Hardcoded Colors From Functional Storage Upgrades, Functional Gregtech drawers, Functional Thermal Drawers, Functional Aether, Useful Backpacks
 - Updated mods
 - Removed NoMoWanderer, Steam Additions
