@@ -11,9 +11,10 @@
     "gtceu.proliferation_inducer": "§dProliferation",
     "gtceu.crystal_puller": "§bCrystal Pulling",
     "gtceu.greenhouse": "Greenhouse",
-    "gtceu.large_mana_pool": "Large Mana Pool",    
+    "gtceu.large_mana_pool": "Large Mana Pool",
     "gtceu.mana_generator": "Mana Generator",
     "gtceu.terra_nexus": "Terrestrial Agglomeration",
+    "gtceu.perfect_daisy": "Perfect Daisy",
 
     "block.gtceu.proliferation_inducer": "§dProliferation Inducer",
     "block.gtceu.crystal_puller": "§bCrystal Puller",
@@ -21,6 +22,7 @@
     "block.gtceu.large_mana_pool": "Large Mana Pool",
     "block.gtceu.mana_generator": "Mana Generator",
     "block.gtceu.terra_nexus": "Terrestrial Agglomeration Nexus",
+    "block.gtceu.perfect_daisy": "Perfect Daisy",
 
     "material.gtceu.zanite": "Zanite",
     "material.gtceu.ambrosium": "Ambrosium",
@@ -90,6 +92,7 @@
     "tooltip.gtceu.multiblock.large_mana_pool": "Used to simulate Mana Pool recipes using Mana and power",
     "tooltip.gtceu.multiblock.mana_generator": "Used to simulate botania flowers using power, outputing Mana",
     "tooltip.gtceu.multiblock.terra_nexus": "Used to simulate terrestrial agglomeration plate recipes using mana and power",
+    "tooltip.gtceu.multiblock.perfect_daisy": "Used to simulate pure daisy recipes using power",
 
     "gtceu.jei.ore_vein.zanite": "Zanite Vein",
     "gtceu.jei.ore_vein.ambrosium": "Ambrosium Vein",
