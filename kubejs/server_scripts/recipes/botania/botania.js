@@ -74,6 +74,7 @@ ServerEvents.recipes(event => {
     // replace mana pool recipe
     event.remove({ id: 'botania:mana_pool' })
     event.recipes.gtceu.assembler('kubejs_mana_pool')
+        .circuit(1)
         .itemInputs(
             '8x gtceu:livingrock_plate'
         )
