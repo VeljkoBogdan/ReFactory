@@ -253,35 +253,32 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
     )
     .blastTemp(3500, null, GTValues.VA[GTValues.LuV], 20*20)
 
-    // Silicon Dioxide, Sulfur, Iron
     event.create('basalz')
         .dust()
         .color(0x200f10)
         .components(
-            '2x sulfur',
-            '2x iron',
-            'silicon_dioxide'
+            'sulfur',
+            'iron'
         )
+        .flags(GTMaterialFlags.DISABLE_DECOMPOSITION)
 
-    // Water, Ammonia and Silver
     event.create('blizz')
         .dust()
         .color(0x60bfff)
         .components(
-            '2x water',
-            '2x silver',
-            'ammonia'
+            'water',
+            'silver'
         )
+        .flags(GTMaterialFlags.DISABLE_DECOMPOSITION)
 
-    // Phosphorus Pentoxide, Zinc, Nitrogen
     event.create('blitz')
         .dust()
         .color(0xd0d0a0)
         .components(
-            '2x phosphorus_pentoxide',
             '2x zinc',
             'nitrogen'
         )
+        .flags(GTMaterialFlags.DISABLE_DECOMPOSITION)
 
     // Mythic Compound
     event.create('mythic_compound')
@@ -292,6 +289,7 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
             'blitz',
             'blizz'
         )
+        .flags(GTMaterialFlags.DISABLE_DECOMPOSITION)
 
     // Charged certus quartz
     event.create('charged_certus_quartz')
