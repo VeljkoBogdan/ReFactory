@@ -1,1 +1,6 @@
-[]
+[
+    {
+        "mob": "minecraft:wandering_trader",
+        "result": "deny"
+    }
+]
