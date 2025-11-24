@@ -50,4 +50,10 @@ StartupEvents.registry('item', event => {
     // Crystalized Primal Sap
     event.create('crystalized_primal_sap')
         .displayName('Crystalized Primal Sap')
+
+    ////// PRODUCT PLACEMENTS :P //////
+    event.create('gtqu_mug')
+        .displayName('Glass of Radioactive Milk')
+        .tooltip("§7100% not laced with iris' homemade arsenic")
+        .tooltip("§8Also play GT Quantum")
 })
