@@ -376,7 +376,7 @@ ServerEvents.recipes(event => {
     // Basalz, Blitz and Blizz chem line
     event.recipes.gtceu.chemical_reactor('basalz')
         .itemInputs(
-            'sulfur_dust'
+            'gtceu:sulfur_dust'
         )
         .inputFluids(Fluid.of('gtceu:iron', 144))
         .itemOutputs('4x thermal:basalz_powder')
