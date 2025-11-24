@@ -1,8 +1,0 @@
-{
-    "name": "maxstuff.gun.ak_delta.name",
-    "display": "maxstuff:ak_delta_display",
-    "data": "maxstuff:ak_delta_data",
-    "tooltip": "maxstuff.gun.delta.desc",
-    "type": "rifle",
-    "sort": 1
-}

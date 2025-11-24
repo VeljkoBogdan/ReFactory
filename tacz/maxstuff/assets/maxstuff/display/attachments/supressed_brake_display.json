@@ -1,9 +1,0 @@
-{
-  "slot": "maxstuff:attachment/slot/supressed_brake",
-  "model": "maxstuff:attachment/supressed_brake_geo",
-  "texture": "maxstuff:attachment/uv/supressed_brake",
-  "sounds": {
-    "install": "tacz:attachments/attachment_general_a",
-    "uninstall": "tacz:attachments/attachment_general_uninstall"
-  }
-}

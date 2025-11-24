@@ -1,8 +1,0 @@
-{
-    "name": "maxstuff.gun.sap6.name",
-    "display": "maxstuff:sap6_display",
-    "data": "maxstuff:sap6_data",
-    "tooltip": "maxstuff.gun.wip.desc",
-    "type": "shotgun",
-    "sort": 2
-}

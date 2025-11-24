@@ -1,8 +1,0 @@
-{
-    "name": "maxstuff.gun.ar338.name",
-    "display": "maxstuff:ar338_display",
-    "data": "maxstuff:ar338_data",
-    "tooltip": "maxstuff.gun.wip.desc",
-    "type": "sniper",
-    "sort": 2
-}

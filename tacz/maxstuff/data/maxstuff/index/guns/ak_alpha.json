@@ -1,8 +1,0 @@
-{
-    "name": "maxstuff.gun.ak_alpha.name",
-    "display": "maxstuff:ak_alpha_display",
-    "data": "maxstuff:ak_alpha_data",
-    "tooltip": "maxstuff.gun.tabor.desc",
-    "type": "rifle",
-    "sort": 1
-}
