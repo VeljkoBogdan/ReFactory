@@ -55,5 +55,16 @@ StartupEvents.registry('item', event => {
     event.create('gtqu_mug')
         .displayName('Glass of Radioactive Milk')
         .tooltip("§7100% not laced with iris' homemade arsenic")
-        .tooltip("§8Also play GT Quantum")
+        .tooltip("§7Also play GT Quantum")
+        .useAnimation('drink')
+        .food(food => {
+            food.hunger(10)
+                .saturation(10)
+                .alwaysEdible(true)
+                .effect("minecraft:wither", 20*20, 20, 100)
+        })
 })
+
+global.IDontFeelGood = ctx => {
+    ctx.player.tell("I don't feel very good...")
+}
