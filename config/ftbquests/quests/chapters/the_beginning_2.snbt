@@ -345,7 +345,6 @@
 		}
 		{
 			dependencies: [
-				"7FCAC41DAF96462F"
 				"3CFF0CD9AB0BFB99"
 				"19ED228B99A30CBF"
 				"4B41B7447B139821"
@@ -413,8 +412,8 @@
 				}
 			]
 			title: "Fluid Pipes"
-			x: 5.5d
-			y: 2.0d
+			x: 6.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["03CF5FEDA44D312B"]
@@ -427,11 +426,14 @@
 				type: "item"
 			}]
 			title: "Item Pipes"
-			x: 6.5d
-			y: 2.0d
+			x: 7.5d
+			y: 3.0d
 		}
 		{
-			dependencies: ["071811F3550BAF2F"]
+			dependencies: [
+				"071811F3550BAF2F"
+				"03CF5FEDA44D312B"
+			]
 			description: [
 				"Welcome to Iron Furnaces."
 				""
@@ -472,7 +474,7 @@
 					type: "item"
 				}
 			]
-			x: 4.0d
+			x: 4.5d
 			y: 4.0d
 		}
 		{
@@ -1007,7 +1009,7 @@
 				item: "tconstruct:ingot_cast"
 				type: "item"
 			}]
-			x: 9.0d
+			x: 7.5d
 			y: 7.5d
 		}
 		{
@@ -1024,7 +1026,7 @@
 				item: "tconstruct:pick_head_cast"
 				type: "item"
 			}]
-			x: 8.0d
+			x: 9.0d
 			y: 7.5d
 		}
 	]

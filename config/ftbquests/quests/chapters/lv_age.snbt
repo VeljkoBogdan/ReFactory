@@ -1231,13 +1231,9 @@
 		{
 			dependencies: ["0E1F6E844041CC9F"]
 			description: [
-				"OPTIONAL"
-				""
 				"This is a multiblock that burns fuel and generates a lot of steam."
 				""
 				"This block might be for you if you have a lot of burnable material and need a lot of steam, though solar panels should do the job just as well, for free."
-				""
-				"&cDO NOT MAKE THIS MULTIBLOCK, IT WILL EXPLODE ON WORLD ENTERING&r"
 			]
 			id: "7D3B41AED0D6C081"
 			optional: true
@@ -1247,7 +1243,7 @@
 				item: "gtceu:bronze_large_boiler"
 				type: "item"
 			}]
-			x: 1.5d
+			x: 0.0d
 			y: -7.5d
 		}
 		{
@@ -1274,6 +1270,7 @@
 				""
 				"You can also transform them into Universal Cells, which can hold more molten fluids (1000mb) than normal cells (144mb), but have less functionality."
 			]
+			icon: "gtceu:fluid_cell"
 			id: "68ADC7ADA9E45EB2"
 			rewards: [
 				{

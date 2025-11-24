@@ -50,8 +50,9 @@
 					type: "item"
 				}
 			]
-			x: -2.0d
-			y: -2.5d
+			title: "Moar Water"
+			x: -5.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["2D026E971B2F87E8"]
@@ -93,8 +94,8 @@
 					type: "item"
 				}
 			]
-			x: -3.5d
-			y: -1.0d
+			x: -6.5d
+			y: 0.5d
 		}
 		{
 			dependencies: [
@@ -119,11 +120,7 @@
 		}
 		{
 			dependencies: ["364AD55044CC7EBE"]
-			description: [
-				"Coke is required to make steel."
-				""
-				"Make sure the coke oven is running all the time, and that the coke oven to primitive blast furnace ratio is 1:1"
-			]
+			description: ["Coke can be used to make steel."]
 			id: "536AD04E85FE9AE6"
 			size: 1.0d
 			tasks: [{
@@ -131,8 +128,8 @@
 				item: "gtceu:coke_gem"
 				type: "item"
 			}]
-			x: -3.5d
-			y: -2.5d
+			x: -6.5d
+			y: -1.0d
 		}
 		{
 			dependencies: [
@@ -141,6 +138,12 @@
 			]
 			description: ["The core of all your steam machines"]
 			id: "30A1CCB30F870404"
+			rewards: [{
+				count: 2
+				id: "4E6449AC4707D5A9"
+				item: "kubejs:refactory_coin"
+				type: "item"
+			}]
 			size: 1.5d
 			subtitle: "Finally, machinery (kind of)"
 			tasks: [{
@@ -168,6 +171,7 @@
 				item: "kubejs:refactory_coin"
 				type: "item"
 			}]
+			shape: "hexagon"
 			subtitle: "Much Efficient"
 			tasks: [{
 				id: "689A4D99EE70B56F"
@@ -175,11 +179,11 @@
 				type: "item"
 			}]
 			title: "Solar Boilers"
-			x: -6.5d
-			y: 0.5d
+			x: -8.0d
+			y: -1.0d
 		}
 		{
-			dependencies: ["0D7B0A39897561D4"]
+			dependencies: ["30A1CCB30F870404"]
 			description: ["Makes alloys, which are going to be needed later."]
 			id: "66BCC30A05D77C6F"
 			optional: true
@@ -195,8 +199,9 @@
 				item: "gtceu:lp_steam_alloy_smelter"
 				type: "item"
 			}]
-			x: -5.0d
-			y: -1.0d
+			title: "Alloy Smelter"
+			x: -0.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["30A1CCB30F870404"]
@@ -230,9 +235,7 @@
 				""
 				"I very much recommend making multiple PBFs, especially because the recipe has been made cheaper, with double the amount of Fireclay Dust per craft. "
 				""
-				"&aSteel takes a while.&r"
-				""
-				"&eThey can also wall-share!&r"
+				"&aSteel takes a while, it's recommended to have at least 2 or more of these to have a steady supply of steel.&r"
 				""
 				"&7You need 32 bricks for the structure and 1 for the controller.&r"
 			]
@@ -267,9 +270,11 @@
 		{
 			dependencies: ["102E0DFFBDE7BD84"]
 			description: [
-				"Combine iron and coke in the Primitive Blast Furnace to get steel!"
+				"Combine iron and coke/coal/charcoal in the Primitive Blast Furnace to get steel!"
 				""
 				"You'll need plenty of it, so keep the PBF going."
+				""
+				"Coke is the most efficient, but coal and charcoal will do the job as well."
 			]
 			id: "189B920AAB6456B4"
 			rewards: [
@@ -289,7 +294,6 @@
 			shape: "gear"
 			size: 1.5d
 			tasks: [{
-				count: 16L
 				id: "28811BAA82471930"
 				item: "gtceu:steel_ingot"
 				type: "item"
@@ -299,7 +303,10 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["6C35D6ECE63E59AB"]
+			dependencies: [
+				"6C35D6ECE63E59AB"
+				"313476D47A208906"
+			]
 			description: [
 				"Electricity finally!"
 				""
@@ -322,10 +329,10 @@
 				type: "item"
 			}]
 			x: 13.0d
-			y: 3.5d
+			y: 2.0d
 		}
 		{
-			dependencies: ["189B920AAB6456B4"]
+			dependencies: ["71FA192E6A7178B4"]
 			description: ["A step into future."]
 			id: "313476D47A208906"
 			rewards: [{
@@ -339,8 +346,8 @@
 				item: "gtceu:lv_machine_casing"
 				type: "item"
 			}]
-			x: 8.5d
-			y: 3.5d
+			x: 11.5d
+			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -355,13 +362,14 @@
 				item: "kubejs:refactory_coin"
 				type: "item"
 			}]
-			size: 1.5d
+			shape: "gear"
+			size: 1.0d
 			tasks: [{
 				id: "1ECBD4DC55C2A0EE"
 				item: "gtceu:rubber_ingot"
 				type: "item"
 			}]
-			x: 11.5d
+			x: 16.0d
 			y: 2.0d
 		}
 		{
@@ -377,15 +385,12 @@
 				item: "gtceu:sulfur_dust"
 				type: "item"
 			}]
-			x: 10.0d
-			y: 2.0d
+			x: 14.5d
+			y: 0.5d
 		}
 		{
-			dependencies: [
-				"313476D47A208906"
-				"09ECD67B4648D2EA"
-			]
-			description: ["Craft the rubber into sheets using a compressor, and coat some tin cables with it."]
+			dependencies: ["09ECD67B4648D2EA"]
+			description: ["Craft the rubber into sheets using a compressor (most efficient for now), and coat some tin cables with it."]
 			id: "6C35D6ECE63E59AB"
 			tasks: [{
 				count: 2L
@@ -394,8 +399,8 @@
 				type: "item"
 			}]
 			title: "Cables"
-			x: 11.5d
-			y: 3.5d
+			x: 14.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["7F0829EF48195AAE"]
@@ -410,8 +415,8 @@
 				item: "gtceu:rubber_sapling"
 				type: "item"
 			}]
-			x: 11.5d
-			y: 0.5d
+			x: 14.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["1B9466B9DC03A81E"]
@@ -448,7 +453,7 @@
 				item: "farmingforblockheads:market"
 				type: "item"
 			}]
-			x: 13.0d
+			x: 16.0d
 			y: 0.5d
 		}
 		{
@@ -489,8 +494,8 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "2629D18876434DC8"
-				item: "steamadditions:steam_foundry"
+				id: "2CD02A3769783954"
+				item: "refactorycore:steam_foundry"
 				type: "item"
 			}]
 			x: 2.0d
@@ -512,8 +517,8 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "28DB8871FF767453"
-				item: "steamadditions:steam_separator"
+				id: "37953E05960BA980"
+				item: "refactorycore:steam_separator"
 				type: "item"
 			}]
 			x: 2.5d
@@ -565,7 +570,7 @@
 				}
 				type: "item"
 			}]
-			x: 13.0d
+			x: 17.5d
 			y: 2.0d
 		}
 		{
@@ -577,6 +582,12 @@
 			]
 			hide_dependency_lines: false
 			id: "370BF17C5F4076DD"
+			rewards: [{
+				count: 2
+				id: "4FC03DECDB6789D6"
+				item: "kubejs:refactory_coin"
+				type: "item"
+			}]
 			tasks: [{
 				dimension: "minecraft:the_nether"
 				icon: "minecraft:obsidian"
@@ -585,10 +596,15 @@
 			}]
 			title: "Visit the Nether"
 			x: 8.5d
-			y: 2.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["570F99AFC0C287A7"]
+			description: [
+				"Welcome to the Steam Age!"
+				""
+				"You'll be progressing through Nature's Aura, getting your first GregTech machines, and crafting some better Tinker's gear."
+			]
 			icon: "gtceu:lp_steam_solid_boiler"
 			id: "2D026E971B2F87E8"
 			shape: "square"
@@ -597,7 +613,7 @@
 				type: "checkmark"
 			}]
 			title: "Steam Age"
-			x: -5.0d
+			x: -6.5d
 			y: 2.0d
 		}
 		{
@@ -627,7 +643,7 @@
 				}
 				type: "item"
 			}]
-			x: -6.5d
+			x: -8.0d
 			y: 2.0d
 		}
 		{
@@ -668,20 +684,27 @@
 				}
 			]
 			title: "Primitive Tank"
-			x: -0.5d
+			x: -3.5d
 			y: -1.0d
 		}
 		{
-			dependencies: ["189B920AAB6456B4"]
-			description: ["A pure daisy is used to convert logs and stone into livingwood and livingstone, respectively."]
+			dependencies: ["71FA192E6A7178B4"]
+			description: ["A pure daisy is used to convert logs and stone into livingwood and livingstone, respectively (among other things)."]
 			id: "4F41F51BF58A0CD3"
+			rewards: [{
+				count: 4
+				id: "5C85D40CAE7805D7"
+				item: "kubejs:refactory_coin"
+				type: "item"
+			}]
+			shape: "gear"
 			tasks: [{
 				id: "150DBF40C607CB99"
 				item: "botania:pure_daisy"
 				type: "item"
 			}]
-			x: 8.5d
-			y: 0.5d
+			x: 10.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["4F41F51BF58A0CD3"]
@@ -693,23 +716,47 @@
 				item: { Count: 8, id: "botania:livingwood_log" }
 				type: "item"
 			}]
-			x: 10.0d
-			y: 0.5d
+			x: 13.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["189B920AAB6456B4"]
 			description: [
 				"You have unlocked guns!"
 				""
-				"You can craft guns and ammo using the gun smith table."
+				"You can craft guns and ammo using the gun smith and ammo table."
 			]
+			icon: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunCurrentAmmoCount: 7
+					GunFireMode: "SEMI"
+					GunId: "tacz:deagle"
+					HasBulletInBarrel: 1b
+				}
+			}
 			id: "0F0A611733E1CA4F"
 			optional: true
-			tasks: [{
-				id: "319FF32D2E601030"
-				item: "tacz:gun_smith_table"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "319FF32D2E601030"
+					item: "tacz:gun_smith_table"
+					type: "item"
+				}
+				{
+					id: "2290283C2E0CA8AD"
+					item: {
+						Count: 1
+						id: "tacz:workbench_a"
+						tag: {
+							BlockId: "tacz:ammo_workbench"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Guns"
 			x: 7.0d
 			y: 3.5d
 		}
@@ -721,7 +768,6 @@
 				"You can craft bricks using seared stone made in the smeltery instead of grout."
 			]
 			id: "3620B8407865D2A1"
-			shape: "gear"
 			tasks: [{
 				count: 33L
 				id: "7CB5B79BAA4C0381"
@@ -748,23 +794,26 @@
 				title: "Too Much Creosote..."
 				type: "checkmark"
 			}]
-			x: -2.0d
-			y: -1.0d
+			x: -5.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["2D026E971B2F87E8"]
 			id: "0D7B0A39897561D4"
+			optional: true
 			tasks: [{
 				id: "48BD5CC4B707D381"
 				item: "gtceu:bronze_brick_casing"
 				type: "item"
 			}]
-			x: -5.0d
+			x: -8.0d
 			y: 0.5d
 		}
 		{
 			dependencies: ["30A1CCB30F870404"]
+			description: ["This casing is used by most Steam Multiblocks."]
 			id: "1B9466B9DC03A81E"
+			optional: true
 			tasks: [{
 				id: "00824024ACF8D007"
 				item: "gtceu:steam_machine_casing"
@@ -784,6 +833,7 @@
 				item: "kubejs:refactory_coin"
 				type: "item"
 			}]
+			shape: "hexagon"
 			tasks: [{
 				id: "7176BE6DAEE0276F"
 				item: "refactorycore:steam_borer"
@@ -841,6 +891,7 @@
 				item: "kubejs:refactory_coin"
 				type: "item"
 			}]
+			shape: "hexagon"
 			tasks: [{
 				id: "7C32EED8D4649C23"
 				item: "refactorycore:advanced_primitive_blast_furnace"
@@ -857,6 +908,7 @@
 				"It expands your tool repertoire with very useful tools!"
 			]
 			id: "2E2C79657FDB2B4C"
+			optional: true
 			rewards: [{
 				count: 2
 				id: "4A6E907DACE34A34"
@@ -879,6 +931,7 @@
 			dependencies: ["189B920AAB6456B4"]
 			description: ["Want to make metal blocks without using gregtech, then use this!"]
 			id: "6D7A09DA66CC2559"
+			optional: true
 			tasks: [{
 				id: "2EFF40325466F782"
 				item: "tconstruct:seared_basin"
@@ -895,6 +948,7 @@
 				"It is very, very recommended to get this in order to make your life much less miserable."
 			]
 			id: "1337BD8A5092D97B"
+			optional: true
 			rewards: [{
 				id: "35D4D74DEAC4B759"
 				item: "tconstruct:iron_reinforcement"
@@ -926,6 +980,7 @@
 			]
 			icon: "refactorycore:bronze_multiblock_tank"
 			id: "5A5C6C460C5DE5BB"
+			optional: true
 			rewards: [{
 				count: 2
 				id: "3F40C195B46C159D"
@@ -952,9 +1007,19 @@
 				"2D026E971B2F87E8"
 				"12DDB0EAE9AF0347"
 			]
+			description: [
+				"Your first altar will be the Tree Ritual, which will be used to craft some Nature's Aura items."
+				""
+				"Check the book to see the schematic of the ritual. Each block needs to be placed correctly in order for the ritual to work."
+			]
 			icon: "naturesaura:wood_stand"
 			id: "4E74A42AA3A6B39D"
-			shape: "hexagon"
+			rewards: [{
+				id: "1D085859FB4F9221"
+				item: "kubejs:refactory_coin"
+				type: "item"
+			}]
+			shape: "gear"
 			tasks: [
 				{
 					count: 8L
@@ -974,11 +1039,18 @@
 					type: "item"
 				}
 			]
-			x: -3.5d
+			x: -5.0d
 			y: 2.0d
 		}
 		{
-			dependencies: ["570F99AFC0C287A7"]
+			dependencies: ["346DBCAD0C1F92A9"]
+			description: [
+				"You can craft Brilliant Fibers with some leaves, grass and gold."
+				""
+				"Place Brilliant Fibers into leaves of a tree, and wait for them to complete converting into Golden Leaves."
+				""
+				"Once Golden, harvest the leaves to get a Gold Leaf."
+			]
 			icon: "naturesaura:gold_leaf"
 			id: "12DDB0EAE9AF0347"
 			tasks: [
@@ -994,11 +1066,12 @@
 					type: "item"
 				}
 			]
-			x: -3.5d
+			x: -5.0d
 			y: 3.5d
 		}
 		{
 			dependencies: ["726066CE8EBA8967"]
+			description: ["Infused Iron will be needed to craft your very first functional machines."]
 			id: "18146C58217B5C5D"
 			tasks: [{
 				id: "0BFB4FC8188F60E1"
@@ -1011,11 +1084,24 @@
 		{
 			dependencies: [
 				"5DB90B1E38F984C0"
-				"4E74A42AA3A6B39D"
+				"4400572E3AAA8806"
+			]
+			description: [
+				"Your next altar."
+				""
+				"It will allow you to produce Infused Iron and Tainted Gold ingots using &eAura&r."
+				""
+				"&dThis altar will consume Aura per recipe&r"
 			]
 			icon: "naturesaura:nature_altar"
 			id: "726066CE8EBA8967"
-			shape: "hexagon"
+			rewards: [{
+				count: 2
+				id: "1F20D2C3BB562C67"
+				item: "kubejs:refactory_coin"
+				type: "item"
+			}]
+			shape: "gear"
 			tasks: [
 				{
 					id: "756A8D8AF48A0CCB"
@@ -1052,6 +1138,13 @@
 		}
 		{
 			dependencies: ["16F0BB33FFF1AFAA"]
+			description: [
+				"Right clicking air with a Bottle and Cork will capture the &eAura&r around you into the container."
+				""
+				"&bDifferent dimensions have different Aura types, therefore giving different Bottled Auras.&r"
+				""
+				"&dThis interaction consumes the Aura around you.&r"
+			]
 			icon: {
 				Count: 1
 				id: "naturesaura:aura_bottle"
@@ -1084,6 +1177,11 @@
 		}
 		{
 			dependencies: ["570F99AFC0C287A7"]
+			description: [
+				"It's difficult to make glass in the early game, because you need the Alloy Smelter or Arc Furnace."
+				""
+				"But you can make an inefficient version by smelting Glass Dust to create some crude shards, which can be combined into a Glass block."
+			]
 			icon: "minecraft:glass"
 			id: "16F0BB33FFF1AFAA"
 			tasks: [
@@ -1112,29 +1210,31 @@
 			y: 5.0d
 		}
 		{
-			dependencies: ["4E74A42AA3A6B39D"]
+			dependencies: ["4400572E3AAA8806"]
+			description: [
+				"This tree will generate Aura by consuming its leaves."
+				""
+				"A very safe option if you've got the space for several of these."
+				""
+				"&cWhen the sapling grows, the resulting tree will replace blocks where the leaves will grow, voiding the drops. Be careful where you grow this tree.&r"
+			]
 			id: "7F829D66E4F415D4"
 			tasks: [{
 				id: "32637F07EBC6885D"
 				item: "naturesaura:ancient_sapling"
 				type: "item"
 			}]
+			title: "Primitive Aura Generation"
 			x: -3.5d
 			y: 0.5d
 		}
 		{
-			dependencies: ["4E74A42AA3A6B39D"]
-			id: "0868349EE66DA0BA"
-			tasks: [{
-				id: "79687EBD7A1DA34F"
-				item: "naturesaura:eye"
-				type: "item"
-			}]
-			x: -2.0d
-			y: 0.5d
-		}
-		{
 			dependencies: ["102E0DFFBDE7BD84"]
+			description: [
+				"Most multiblocks will allow you to wall-share their blocks, meaning you can use blocks from one multiblock to form the second multiblock."
+				""
+				"In PBF's case, you can use the wall of one PBF as a wall for another, which will save you the amount of blocks you need to craft."
+			]
 			id: "067F78D4CE978E11"
 			tasks: [{
 				id: "29858E6F44C9BAA7"
@@ -1143,6 +1243,148 @@
 			}]
 			x: 5.5d
 			y: 0.5d
+		}
+		{
+			dependencies: [
+				"189B920AAB6456B4"
+				"370BF17C5F4076DD"
+			]
+			description: [
+				"Look into the book to see how this ritual is built."
+				""
+				"Place the items that you want converted into the Offering table, and drop the Spirit of Calling near it. The resulting items will rain down from the skies."
+				""
+				"Make sure nothing is covering the altar from above."
+			]
+			icon: "naturesaura:offering_table"
+			id: "2F65A8AA49F91484"
+			rewards: [{
+				count: 2
+				id: "74720DBF03F4972A"
+				item: "kubejs:refactory_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "68BDB3F822A9C317"
+					item: "naturesaura:offering_table"
+					type: "item"
+				}
+				{
+					id: "1DC09C3408CDAABE"
+					item: "naturesaura:calling_spirit"
+					type: "item"
+				}
+			]
+			x: 8.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4F41F51BF58A0CD3"]
+			description: ["Place stone around the Daisy and wait for it to convert to Livingrock."]
+			id: "552A2195B4E915DF"
+			tasks: [{
+				count: 8L
+				id: "2D3FBA7F90745462"
+				item: "botania:livingrock"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2F65A8AA49F91484"]
+			description: [
+				"You'll need these ingots to craft your first LV machine casings."
+				""
+				"You can craft these using both Infused Iron and Tainted Gold, with Tainted Gold having a higher yield."
+			]
+			id: "71FA192E6A7178B4"
+			rewards: [{
+				count: 4
+				id: "632186B874C9C77C"
+				item: "naturesaura:tainted_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "10B43D3F9E4C6CCF"
+				item: "naturesaura:sky_ingot"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2D026E971B2F87E8"]
+			description: [
+				"You'll need to progress through some Nature's Aura to unlock your first machines and the next tier."
+				""
+				"&bFor that, you'll get this Nature's Aura book, that will have all the instructions needed to use this mod.&r"
+				""
+				"&cI strongly recommend using this book to see how to construct the altars this mod provides.&r"
+			]
+			id: "346DBCAD0C1F92A9"
+			rewards: [{
+				id: "6E3016F211B2C944"
+				item: {
+					Count: 1
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "naturesaura:book"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "29EF477F654D1535"
+				title: "Nature's Aura"
+				type: "checkmark"
+			}]
+			x: -6.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4E74A42AA3A6B39D"]
+			description: [
+				"&8If you've read the book you can skip this.&r"
+				""
+				"In every dimension there's &eAura&r, an ether that's present in the air."
+				""
+				"Using rituals and altars requires &eAura&r, which diminishes its amount in that specific region. &eAura&r will try and flow in around that region, filling it slowly."
+				""
+				"Having &atoo much Aura in the region will yield positive bonuses&r, while having &ctoo little Aura will cause negative effects&r, to both you and the environment."
+				""
+				"Generally, &byou never want all your altars and rituals in one place, and you never want the Aura to be low in your living space&r."
+				""
+				"&dThere are ways to increase the amount of Aura in a region. Check the Ancient Sapling quest&r."
+				""
+				"&dYou can also monitor the Aura amount in a region. Check the Environmental Eye quest.&r"
+			]
+			id: "4400572E3AAA8806"
+			tasks: [{
+				id: "78DD1452B09514E6"
+				title: "A Little bit more about Aura"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4400572E3AAA8806"]
+			description: [
+				"When equipped in a Curios slot, it gives the player the ability to see the Aura around them in the bottom right corner of the screen."
+				""
+				"&8You can freely adjust the position in the config.&r"
+			]
+			id: "2CA0FB67A760EE48"
+			tasks: [{
+				id: "2F797D46ED8162E2"
+				item: "naturesaura:eye"
+				type: "item"
+			}]
+			title: "Seeing Aura"
+			x: -3.5d
+			y: 3.5d
 		}
 	]
 	title: "Steam Age"

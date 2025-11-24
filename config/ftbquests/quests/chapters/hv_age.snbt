@@ -555,8 +555,8 @@
 				item: "gtceu:hv_super_chest"
 				type: "item"
 			}]
-			x: -8.5d
-			y: -4.0d
+			x: -10.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["59775F7F175FF086"]
@@ -884,7 +884,6 @@
 			dependencies: [
 				"298AA444AEC8C3A1"
 				"48267B88994A6920"
-				"3E39C0E0CB93625B"
 			]
 			description: ["You'll need HV Energy Hatches to overclock your EBFs in order to produce Titanium."]
 			id: "6C75DE589F2268C7"
@@ -982,8 +981,8 @@
 				item: "gtceu:phosphorus_boule"
 				type: "item"
 			}]
-			x: -5.5d
-			y: -4.0d
+			x: -8.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["17A254562B5DF529"]
@@ -1326,19 +1325,6 @@
 		}
 		{
 			dependencies: ["59775F7F175FF086"]
-			description: ["Sturdy steel alloy."]
-			hide_dependency_lines: false
-			id: "3B1F268BC1A56F83"
-			tasks: [{
-				id: "05424AD043038E03"
-				item: "gtceu:black_steel_ingot"
-				type: "item"
-			}]
-			x: -14.5d
-			y: -1.5d
-		}
-		{
-			dependencies: ["59775F7F175FF086"]
 			description: ["Required to progress towards The Aether"]
 			id: "1DA37C72B3F83FD4"
 			size: 1.5d
@@ -1351,10 +1337,7 @@
 			y: -7.5d
 		}
 		{
-			dependencies: [
-				"59775F7F175FF086"
-				"3B1F268BC1A56F83"
-			]
+			dependencies: ["59775F7F175FF086"]
 			description: [
 				"You'll need Red Steel to make the HV Cutter."
 				""
@@ -1412,8 +1395,8 @@
 				item: "gtceu:phosphorus_dust"
 				type: "item"
 			}]
-			x: -7.0d
-			y: -4.0d
+			x: -9.5d
+			y: -1.5d
 		}
 		{
 			dependencies: [
@@ -1430,7 +1413,7 @@
 				type: "item"
 			}]
 			title: "Good Mythic Morning!"
-			x: -2.5d
+			x: -1.5d
 			y: -7.5d
 		}
 		{
@@ -1446,10 +1429,7 @@
 			y: -7.5d
 		}
 		{
-			dependencies: [
-				"1DA37C72B3F83FD4"
-				"273E6401132B67CF"
-			]
+			dependencies: ["1DA37C72B3F83FD4"]
 			description: ["Phosphorus Pentoxide, Nitrogen and Zinc make Blitz powder."]
 			id: "5DE437C1810F3513"
 			tasks: [{
@@ -1654,18 +1634,6 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["3B1F268BC1A56F83"]
-			description: ["An Essential ingredient for HV Energy Hatches."]
-			id: "3E39C0E0CB93625B"
-			tasks: [{
-				id: "5E76D8CE516E52D6"
-				item: "gtceu:hv_voltage_coil"
-				type: "item"
-			}]
-			x: -17.5d
-			y: -1.5d
-		}
-		{
 			dependencies: ["62B1007E03E72515"]
 			description: [
 				"With Popped Chorus fruits, you can make potions of flying, which can last up to 30 minutes."
@@ -1784,7 +1752,7 @@
 				type: "item"
 			}]
 			title: "Not so Mythical"
-			x: -2.5d
+			x: -1.5d
 			y: 3.0d
 		}
 		{
@@ -1811,6 +1779,18 @@
 			}]
 			x: -4.0d
 			y: -2.5d
+		}
+		{
+			dependencies: ["6491CC503A0BD3A7"]
+			id: "16F2D9FAB40724AF"
+			tasks: [{
+				id: "3D9B24689484112A"
+				item: "angelring:angel_ring"
+				type: "item"
+			}]
+			title: "Infinite Flight?"
+			x: 18.0d
+			y: -5.5d
 		}
 	]
 	title: "HV Age"

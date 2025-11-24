@@ -432,29 +432,6 @@
 			y: -24.0d
 		}
 		{
-			dependencies: ["380F3DFDA8957C8C"]
-			id: "0808D2E05CBFB662"
-			size: 1.0d
-			tasks: [{
-				id: "471AF06FDF32DCDD"
-				item: "gtceu:alloy_blast_smelter"
-				type: "item"
-			}]
-			x: 1.0d
-			y: -21.0d
-		}
-		{
-			dependencies: ["1A9738F89ECA8E6C"]
-			id: "380F3DFDA8957C8C"
-			tasks: [{
-				id: "16F6E864277D2063"
-				item: "gtceu:tantalum_carbide_ingot"
-				type: "item"
-			}]
-			x: 2.5d
-			y: -21.0d
-		}
-		{
 			dependencies: [
 				"5DA249569F2D1E36"
 				"43237774B2517E92"
@@ -744,34 +721,6 @@
 			y: -24.0d
 		}
 		{
-			dependencies: [
-				"7CC959FF709B1FEF"
-				"1A9738F89ECA8E6C"
-			]
-			id: "0C8C54531E77549A"
-			tasks: [{
-				id: "46EBE990155B6045"
-				item: "gtceu:hssg_ingot"
-				type: "item"
-			}]
-			x: 4.0d
-			y: -22.5d
-		}
-		{
-			dependencies: [
-				"0C8C54531E77549A"
-				"0808D2E05CBFB662"
-			]
-			id: "3C73BD94919A57C4"
-			tasks: [{
-				id: "63CAA2680116B317"
-				item: "gtceu:hsse_ingot"
-				type: "item"
-			}]
-			x: 1.0d
-			y: -22.5d
-		}
-		{
 			dependencies: ["7FBF5E1B748B5650"]
 			id: "3180F492F13A77FD"
 			tasks: [{
@@ -801,7 +750,7 @@
 				""
 				"It contains many useful stuff, like rituals, tools and potions."
 				""
-				"There is also stuff like the ore meteor ritual that can generate ores passively for you."
+				"The book has a lot of info on how the mod works, please do give it a read!"
 			]
 			id: "4CFCE86B93661143"
 			tasks: [{
@@ -823,9 +772,11 @@
 			description: [
 				"This is the start of your sacrifice journey. Prick yourself with the knife near the altar and it will fill with blood (life essence)."
 				""
-				"The blood slowly drains away passively, keep that in mind."
+				"The blood slowly drains away into an \"internal tank\" that holds about 10% of your blood."
 				""
 				"When you want to put something in the altar, right click it with the item and wait. After it has consumed enough blood it will transform into the wanted item."
+				""
+				"&4Red sparks&r means the recipe is ongoing, &8gray sparks&r means the recipe is getting undone because there's not enough blood."
 			]
 			icon: "bloodmagic:altar"
 			id: "63901622D76AA82F"
@@ -1020,12 +971,36 @@
 			dependencies: ["3180F492F13A77FD"]
 			id: "3144AB9C2C09C709"
 			tasks: [{
-				count: 32L
+				count: 16L
 				id: "45D405702EBBAE95"
-				item: { Count: 32, id: "gtceu:raw_ostrum" }
+				item: "gtceu:raw_ostrum"
+				type: "item"
+			}]
+			x: 17.0d
+			y: -27.0d
+		}
+		{
+			dependencies: ["3180F492F13A77FD"]
+			id: "5DF9FFF2004D20FA"
+			tasks: [{
+				count: 16L
+				id: "073614275F3E6390"
+				item: { Count: 16, id: "gtceu:raw_tungstate" }
 				type: "item"
 			}]
 			x: 18.5d
+			y: -27.5d
+		}
+		{
+			dependencies: ["3180F492F13A77FD"]
+			id: "0E0A1623E4AA3442"
+			tasks: [{
+				count: 16L
+				id: "3E1EBDC259EED094"
+				item: { Count: 16, id: "gtceu:raw_scheelite" }
+				type: "item"
+			}]
+			x: 20.0d
 			y: -27.0d
 		}
 	]

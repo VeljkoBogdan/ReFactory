@@ -371,6 +371,26 @@
 			x: 3.75d
 			y: -3.0d
 		}
+		{
+			can_repeat: true
+			dependencies: ["2D026E971B2F87E8"]
+			description: ["Money for nothing and your dirt for cheap"]
+			id: "178151A7FD97DE4A"
+			rewards: [{
+				count: 64
+				id: "3826EDCEBBD841CE"
+				item: "minecraft:dirt"
+				type: "item"
+			}]
+			tasks: [{
+				count: 2L
+				id: "538968F1145B4BF6"
+				item: "kubejs:refactory_coin"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.0d
+		}
 	]
 	title: "Shop"
 }

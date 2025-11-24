@@ -19,13 +19,10 @@
 			}]
 			title: "IV Age"
 			x: 0.0d
-			y: 0.0d
+			y: -3.0d
 		}
 		{
-			dependencies: [
-				"1A70E39DBC13742A"
-				"3F37E03149399E3F"
-			]
+			dependencies: ["1A70E39DBC13742A"]
 			id: "49955E572AC194B1"
 			shape: "gear"
 			size: 1.5d
@@ -35,12 +32,11 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -1.5d
+			y: 2.0d
 		}
 		{
 			dependencies: [
 				"6136FCE33996E7BC"
-				"45A99B5A2BD7CA40"
 				"3F37E03149399E3F"
 			]
 			id: "1A70E39DBC13742A"
@@ -49,8 +45,8 @@
 				item: "gtceu:iv_mixer"
 				type: "item"
 			}]
-			x: -1.5d
-			y: -1.5d
+			x: 0.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["4A52C383E49CC653"]
@@ -61,8 +57,8 @@
 				item: "gtceu:laminated_glass"
 				type: "item"
 			}]
-			x: -4.5d
-			y: -1.5d
+			x: -6.0d
+			y: 0.0d
 		}
 		{
 			dependencies: [
@@ -75,8 +71,8 @@
 				item: "gtceu:polyvinyl_butyral_bucket"
 				type: "item"
 			}]
-			x: -6.0d
-			y: -1.5d
+			x: -7.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["5178526C19FBC522"]
@@ -86,8 +82,8 @@
 				item: "gtceu:polyvinyl_acetate_bucket"
 				type: "item"
 			}]
-			x: -6.0d
-			y: 0.0d
+			x: -7.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["3F37E03149399E3F"]
@@ -98,8 +94,8 @@
 				item: "gtceu:butyraldehyde_bucket"
 				type: "item"
 			}]
-			x: -7.5d
-			y: -1.5d
+			x: -9.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["3F37E03149399E3F"]
@@ -110,54 +106,15 @@
 				item: "gtceu:vinyl_acetate_bucket"
 				type: "item"
 			}]
-			x: -7.5d
-			y: 0.0d
+			x: -9.0d
+			y: 1.5d
 		}
 		{
-			dependencies: ["3F37E03149399E3F"]
-			hide_dependency_lines: true
-			id: "0CAA5A9C805F5334"
-			tasks: [{
-				id: "7BDB2665C179875B"
-				item: "gtceu:graphene_ingot"
-				type: "item"
-			}]
-			x: -1.5d
-			y: -4.5d
-		}
-		{
-			dependencies: ["0CAA5A9C805F5334"]
-			id: "45A99B5A2BD7CA40"
-			shape: "gear"
-			tasks: [{
-				id: "40E3892F3599736F"
-				item: "gtceu:iv_electric_motor"
-				type: "item"
-			}]
-			x: -1.5d
-			y: -3.0d
-		}
-		{
-			dependencies: [
-				"42B2CDF4C1FB9ECC"
-				"6F366B7F54C95B44"
-			]
+			dependencies: ["6F366B7F54C95B44"]
 			id: "539B123AE70751BD"
 			tasks: [{
 				id: "7831F2D46115387D"
 				item: "gtceu:iv_energy_input_hatch"
-				type: "item"
-			}]
-			x: -4.5d
-			y: -6.0d
-		}
-		{
-			dependencies: ["3F37E03149399E3F"]
-			hide_dependency_lines: true
-			id: "42B2CDF4C1FB9ECC"
-			tasks: [{
-				id: "590EF62B9081B8B7"
-				item: "gtceu:iridium_dust"
 				type: "item"
 			}]
 			x: -6.0d
@@ -171,7 +128,7 @@
 				item: "gtceu:iv_cutter"
 				type: "item"
 			}]
-			x: -4.5d
+			x: -6.0d
 			y: -3.0d
 		}
 		{
@@ -182,7 +139,7 @@
 				item: "gtceu:hpic_wafer"
 				type: "item"
 			}]
-			x: -6.0d
+			x: -4.5d
 			y: -4.5d
 		}
 		{
@@ -196,19 +153,19 @@
 				item: "gtceu:hpic_chip"
 				type: "item"
 			}]
-			x: -4.5d
+			x: -6.0d
 			y: -4.5d
 		}
 		{
 			dependencies: ["3F37E03149399E3F"]
-			hide_dependency_lines: true
+			hide_dependency_lines: false
 			id: "0EFB0D8CDE53E31C"
 			tasks: [{
 				id: "48E84B51EAA79DCC"
 				item: "gtceu:indium_gallium_phosphide_dust"
 				type: "item"
 			}]
-			x: -7.5d
+			x: -3.0d
 			y: -4.5d
 		}
 		{
@@ -219,7 +176,7 @@
 				item: "gtceu:qbit_cpu_wafer"
 				type: "item"
 			}]
-			x: -7.5d
+			x: -3.0d
 			y: -6.0d
 		}
 		{
@@ -233,22 +190,22 @@
 				item: "gtceu:quantum_processor"
 				type: "item"
 			}]
-			x: -7.5d
+			x: -4.5d
 			y: -7.5d
 		}
 		{
-			dependencies: ["081802EE27170790"]
+			dependencies: ["34077661328308FB"]
 			id: "256C8C7D49EA5829"
 			tasks: [{
 				id: "04D1759EF296DF4C"
 				item: "gtceu:quantum_processor_assembly"
 				type: "item"
 			}]
-			x: -6.0d
-			y: -7.5d
+			x: -4.5d
+			y: -9.0d
 		}
 		{
-			dependencies: ["081802EE27170790"]
+			dependencies: ["256C8C7D49EA5829"]
 			id: "5464B2B4D0EDD912"
 			tasks: [{
 				id: "5ECA46F83467AA95"
@@ -256,52 +213,30 @@
 				type: "item"
 			}]
 			x: -4.5d
-			y: -7.5d
+			y: -10.5d
 		}
 		{
-			dependencies: ["081802EE27170790"]
+			dependencies: ["5464B2B4D0EDD912"]
 			id: "50948FC264BA8EF2"
 			tasks: [{
 				id: "246C402059AD4131"
 				item: "gtceu:quantum_processor_mainframe"
 				type: "item"
 			}]
-			x: -3.0d
-			y: -7.5d
+			x: -4.5d
+			y: -12.0d
 		}
 		{
-			dependencies: ["1DACA568E400EB45"]
+			dependencies: ["3F37E03149399E3F"]
+			hide_dependency_lines: true
 			id: "081802EE27170790"
 			tasks: [{
 				id: "7522E313A374906B"
 				item: "gtceu:fiber_reinforced_printed_circuit_board"
 				type: "item"
 			}]
-			x: -9.0d
+			x: -3.0d
 			y: -7.5d
-		}
-		{
-			dependencies: ["3F37E03149399E3F"]
-			hide_dependency_lines: true
-			id: "3BD4A57C8E776D83"
-			tasks: [{
-				id: "702F36A6469185E3"
-				item: "gtceu:reinforced_epoxy_resin_plate"
-				type: "item"
-			}]
-			x: -9.0d
-			y: -4.5d
-		}
-		{
-			dependencies: ["3BD4A57C8E776D83"]
-			id: "1DACA568E400EB45"
-			tasks: [{
-				id: "59AA2AAE8EB55C00"
-				item: "gtceu:fiber_reinforced_circuit_board"
-				type: "item"
-			}]
-			x: -9.0d
-			y: -6.0d
 		}
 		{
 			dependencies: [
@@ -316,23 +251,23 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: -6.0d
+			y: -9.0d
 		}
 		{
 			dependencies: ["3F37E03149399E3F"]
-			hide_dependency_lines: true
+			hide_dependency_lines: false
 			id: "4D468B06B5952FA4"
 			tasks: [{
 				id: "66C3F0417E304A49"
 				item: "gtceu:tungsten_carbide_ingot"
 				type: "item"
 			}]
-			x: 3.0d
+			x: 1.5d
 			y: -6.0d
 		}
 		{
 			dependencies: ["3F37E03149399E3F"]
-			hide_dependency_lines: true
+			hide_dependency_lines: false
 			id: "3190DE2F5CF53483"
 			tasks: [{
 				id: "3613479299ACBCC9"
@@ -340,13 +275,13 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -6.0d
+			y: -9.0d
 		}
 		{
 			dependencies: [
 				"6136FCE33996E7BC"
 				"6F366B7F54C95B44"
-				"45A99B5A2BD7CA40"
+				"0DEAFF8F7747B74D"
 			]
 			id: "084C45E67B39F224"
 			shape: "gear"
@@ -356,7 +291,7 @@
 				item: "gtceu:assembly_line"
 				type: "item"
 			}]
-			x: -3.0d
+			x: -4.5d
 			y: -3.0d
 		}
 		{
@@ -367,8 +302,8 @@
 				item: "gtceu:polybenzimidazole_bucket"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -3.0d
+			x: 3.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["3F37E03149399E3F"]
@@ -380,7 +315,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: -7.5d
+			y: -10.5d
 		}
 		{
 			dependencies: [
@@ -394,7 +329,7 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: -7.5d
+			y: -10.5d
 		}
 		{
 			dependencies: [
@@ -429,8 +364,8 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
-			y: -7.5d
+			x: 1.5d
+			y: -12.0d
 		}
 		{
 			dependencies: ["081802EE27170790"]
@@ -440,8 +375,8 @@
 				item: "gtceu:lapotronic_energy_orb"
 				type: "item"
 			}]
-			x: -1.5d
-			y: -7.5d
+			x: -3.0d
+			y: -10.5d
 		}
 		{
 			dependencies: ["50948FC264BA8EF2"]
@@ -451,8 +386,8 @@
 				item: "gtceu:power_substation"
 				type: "item"
 			}]
-			x: -3.0d
-			y: -6.0d
+			x: -6.0d
+			y: -12.0d
 		}
 		{
 			dependencies: [
@@ -465,8 +400,8 @@
 				item: "gtceu:hsss_ingot"
 				type: "item"
 			}]
-			x: 1.5d
-			y: -4.5d
+			x: 3.0d
+			y: -9.0d
 		}
 		{
 			dependencies: ["3F37E03149399E3F"]
@@ -477,7 +412,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: -4.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["3F37E03149399E3F"]
@@ -493,7 +428,7 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: 1.5d
+			y: -1.5d
 		}
 		{
 			description: [
@@ -510,8 +445,92 @@
 				title: "TODO"
 				type: "checkmark"
 			}]
-			x: -9.0d
-			y: -10.0d
+			x: -12.0d
+			y: -11.25d
+		}
+		{
+			dependencies: ["49955E572AC194B1"]
+			id: "0070CB93EF1F679B"
+			tasks: [{
+				id: "7ECA2BB7C9A5157C"
+				item: "gtceu:luv_machine_casing"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1A70E39DBC13742A"]
+			id: "785A8464BDBBCF43"
+			tasks: [{
+				id: "21AE4EBF6D88F8F0"
+				item: "gtceu:niobium_titanium_ingot"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"0070CB93EF1F679B"
+				"785A8464BDBBCF43"
+			]
+			id: "0FCD5D760ECB9449"
+			tasks: [{
+				id: "65AE21A2CF2F7100"
+				item: "gtceu:luv_machine_hull"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"3190DE2F5CF53483"
+				"0808D2E05CBFB662"
+			]
+			id: "63B9ABF65FE9B7B1"
+			tasks: [{
+				id: "6798148624A874BB"
+				item: "gtceu:hsse_ingot"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["3F37E03149399E3F"]
+			id: "380F3DFDA8957C8C"
+			tasks: [{
+				id: "16F6E864277D2063"
+				item: "gtceu:tantalum_carbide_ingot"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["380F3DFDA8957C8C"]
+			id: "0808D2E05CBFB662"
+			size: 1.0d
+			tasks: [{
+				id: "471AF06FDF32DCDD"
+				item: "gtceu:alloy_blast_smelter"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["3F37E03149399E3F"]
+			id: "0DEAFF8F7747B74D"
+			tasks: [{
+				id: "5AE8F11AC2CB3345"
+				item: "gtceu:quantum_star"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -3.0d
 		}
 	]
 	title: "IV Age"
