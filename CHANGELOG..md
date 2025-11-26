@@ -17,6 +17,8 @@
 - Added the Perfect Daisy multiblock that simulates Pure Daisy recipes
 - Added more dimension markers
 - Reworked Mythical Compound recipe (buff)
+- Questbook improvements
+- Infernal mobs nerfed
 - "one_biome" world type renamed to "Wasteland (Default)"
 - Added Angel Ring, Tom's Simple Storage, Colossal Chests, Functional Storage, Remove Hardcoded Colors From Functional Storage Upgrades, Functional Gregtech drawers, Functional Thermal Drawers, Functional Aether, Useful Backpacks
 - Updated mods
