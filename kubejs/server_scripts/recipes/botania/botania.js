@@ -718,6 +718,8 @@ ServerEvents.recipes(event => {
         )
         .inputFluids(Fluid.of('water', 288))
         .outputFluids(Fluid.of('gtceu:enriched_primal_sap', 288))
+        .duration(20*8)
+        .EUt(GTValues.VA[GTValues.MV])
 
     // Crystalized primal sap
     event.recipes.gtceu.fluid_solidifier('crystalized_primal_sap')

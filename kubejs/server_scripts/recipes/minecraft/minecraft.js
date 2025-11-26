@@ -17,10 +17,10 @@ ServerEvents.recipes(event => {
 	event.remove('minecraft:ender_eye')
 
 	// String
-	event.shapeless(
-		'minecraft:string',
-		['silentgear:fluffy_string']
-	)
+	// event.shapeless(
+	// 	'minecraft:string',
+	// 	['silentgear:fluffy_string']
+	// )
 
 	// Prismarine 
 	event.recipes.gtceu.alloy_smelter('kubejs_prismarine')

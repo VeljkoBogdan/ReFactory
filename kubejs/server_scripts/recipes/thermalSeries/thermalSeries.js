@@ -89,6 +89,8 @@ ServerEvents.recipes(event => {
 		)
 		.inputFluids(Fluid.of('minecraft:water', 1000))
 		.itemOutputs('6x thermal:compost')
+        .duration(20*4)
+        .EUt(GTValues.VA[GTValues.LV] / 2)
 
 	// Aqueous Accumulator
 	event.remove({id: 'thermal:device_water_gen'})
