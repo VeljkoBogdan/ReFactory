@@ -172,7 +172,7 @@
 				""
 				"If you wish to enable it, go to Mods->GregTech->Config"
 				"->Gameplay->hazardsEnabled"
-				"and set it to False."
+				"and set it to True."
 			]
 			icon: "gtceu:asbestos_dust"
 			id: "0EAF7EF7AC0A3343"

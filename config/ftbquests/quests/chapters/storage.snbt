@@ -9,44 +9,54 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["14769C69DDD4F79E"]
+			description: [
+				"Your go-to early storage solution. Simple and effective."
+				""
+				"Also required to make other forms of storage."
+			]
 			id: "2F1D18213F81EA19"
+			shape: "square"
 			tasks: [{
 				id: "0DC922E957318129"
 				item: "minecraft:chest"
 				type: "item"
 			}]
 			x: 0.0d
-			y: -3.5d
+			y: -5.0d
 		}
 		{
+			dependencies: ["2C4A3A86D8913871"]
 			id: "0661223152CAAE33"
 			tasks: [{
 				id: "654DAEE0283271C0"
 				item: "trashcans:item_trash_can"
 				type: "item"
 			}]
-			x: -1.5d
-			y: -3.5d
+			x: 1.5d
+			y: 2.5d
 		}
 		{
+			dependencies: ["2C4A3A86D8913871"]
 			id: "4B26684866F08CEE"
 			tasks: [{
 				id: "3D5A480A54689A68"
 				item: "trashcans:energy_trash_can"
 				type: "item"
 			}]
-			x: -1.5d
-			y: -2.5d
+			x: 1.5d
+			y: 4.0d
 		}
 		{
+			dependencies: ["2C4A3A86D8913871"]
 			id: "39B585CD5BCA64ED"
 			tasks: [{
 				id: "0A14654F541DADD6"
 				item: "trashcans:liquid_trash_can"
 				type: "item"
 			}]
-			x: -2.5d
-			y: -3.5d
+			x: 3.0d
+			y: 2.5d
 		}
 		{
 			dependencies: [
@@ -60,8 +70,8 @@
 				item: "trashcans:ultimate_trash_can"
 				type: "item"
 			}]
-			x: -2.5d
-			y: -2.5d
+			x: 3.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["2F1D18213F81EA19"]
@@ -70,7 +80,7 @@
 				""
 				"Has multiple upgrades."
 			]
-			hide_dependency_lines: true
+			hide_dependency_lines: false
 			icon: "ironchest:iron_chest"
 			id: "70385A410D4727A1"
 			rewards: [{
@@ -86,111 +96,539 @@
 			}]
 			title: "Iron Chests"
 			x: 1.5d
-			y: -3.5d
+			y: -5.0d
 		}
 		{
+			dependencies: ["0F53EFB5D7D2C329"]
+			description: ["Ender Chests share the inventory with all the other chests with the same color configuration."]
 			id: "22A3C6A165D2B61F"
 			tasks: [{
 				id: "2DD6D4B497F03F59"
 				item: "enderstorage:ender_chest"
 				type: "item"
 			}]
-			x: 7.5d
-			y: 0.0d
+			x: 4.5d
+			y: -0.5d
 		}
 		{
+			dependencies: ["0F53EFB5D7D2C329"]
+			description: ["Ender Pouches share the inventory with all the other pouches with the same color configuration."]
 			id: "0797694DCEEA9E84"
 			tasks: [{
 				id: "05D1FC86EED93467"
 				item: "enderstorage:ender_pouch"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 0.0d
+			x: 3.0d
+			y: -0.5d
 		}
 		{
+			dependencies: ["185B32DF4B476A19"]
+			description: ["Ender Tanks share the inventory with all the other tanks with the same color configuration."]
 			id: "484CAF886C20F9C2"
 			tasks: [{
 				id: "219A9BF52123E46B"
 				item: "enderstorage:ender_tank"
 				type: "item"
 			}]
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["70385A410D4727A1"]
+			description: ["Has more space than an Iron Chest."]
+			id: "09C1646505313CC3"
+			tasks: [{
+				id: "3F75D9F5C2E33B18"
+				item: "ironchest:gold_chest"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["09C1646505313CC3"]
+			description: ["Has a lot of space."]
+			id: "1A53E6AFCE5BE934"
+			tasks: [{
+				id: "0C114EA5151A7C0C"
+				item: "ironchest:diamond_chest"
+				type: "item"
+			}]
 			x: 4.5d
-			y: 0.0d
+			y: -5.0d
 		}
 		{
-			description: [
-				"This chapter is not finished."
-				""
-				"It might be very inaccurate, have missing or unfinished descriptions or illogical questlines."
-			]
-			icon: "botania:cosmetic_questgiver_mark"
-			id: "7B9C2E80598C0A9E"
-			shape: "square"
-			size: 1.5d
+			dependencies: ["2F1D18213F81EA19"]
+			description: ["Cheaper than an Iron Chest, but has less space."]
+			id: "16A372710C96FFD9"
 			tasks: [{
-				id: "7954CBEC4FA551E6"
-				title: "TODO"
-				type: "checkmark"
-			}]
-			x: -2.25d
-			y: -5.25d
-		}
-		{
-			description: [
-				"Sophisticated Storage barrels have all that the vanilla barrels have, but they also allow upgrades."
-				""
-				"They can also be upgraded in order: copper > iron > gold > diamond > netherite."
-				""
-				"(quest accepts any barrel)"
-			]
-			id: "28247FCDC1C3A73B"
-			rewards: [{
-				count: 4
-				id: "38175EABBA24291C"
-				item: "sophisticatedstorage:upgrade_base"
-				type: "item"
-			}]
-			tasks: [{
-				id: "7993AEC04AE5EF48"
-				item: {
-					Count: 1
-					id: "sophisticatedstorage:barrel"
-					tag: { }
-				}
-				match_nbt: false
-				type: "item"
-				weak_nbt_match: true
-			}]
-			x: 0.0d
-			y: -2.0d
-		}
-		{
-			description: [
-				"Limited barrels act like drawers, they hold a lot of one item type. There are multiple versions, each holding 1, 2, 3 and 4 item types at once."
-				""
-				"They can also be upgraded in order: copper > iron > gold > diamond > netherite."
-				""
-				"(quest accepts any limited barrel)"
-			]
-			id: "345A880D476338D2"
-			rewards: [{
-				count: 4
-				id: "3719D3F5CF10F3E8"
-				item: "sophisticatedstorage:upgrade_base"
-				type: "item"
-			}]
-			tasks: [{
-				id: "3268193A20DEBDC1"
-				item: {
-					Count: 1
-					id: "sophisticatedstorage:limited_barrel_1"
-					tag: { }
-				}
+				id: "1E93D6D1F8DC8F31"
+				item: "ironchest:copper_chest"
 				type: "item"
 			}]
 			x: 1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2F1D18213F81EA19"]
+			description: ["Same space as a Diamond Chest with the added benefit of seeing the items in the world."]
+			id: "69A278A0A0ED938F"
+			tasks: [{
+				id: "7172E250627CDA48"
+				item: "ironchest:crystal_chest"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2F1D18213F81EA19"]
+			description: ["Same space as the Diamond Chest with the added benefit of explosion resistance."]
+			id: "42EE49CA7132410D"
+			tasks: [{
+				id: "1B7F47B975EC50C6"
+				item: "ironchest:obsidian_chest"
+				type: "item"
+			}]
+			x: 4.5d
 			y: -2.0d
+		}
+		{
+			dependencies: ["126D8BEC67BA4BE7"]
+			description: [
+				"Colossal Chests are a multiblock version of a regular chest, providing A LOT of space."
+				""
+				"A simple 3x3 chest can provide more than 1200 storage space."
+				""
+				"The amount in the quest is enough to make a 2x2 chest."
+				""
+				"To construct a chest, make a hollow cube with equal sides."
+			]
+			id: "24F056E19E87062F"
+			shape: "square"
+			tasks: [
+				{
+					id: "4F37D0479552987F"
+					item: "colossalchests:colossal_chest_wood"
+					type: "item"
+				}
+				{
+					count: 7L
+					id: "02F503CB0C3372F6"
+					item: { Count: 7, id: "colossalchests:chest_wall_wood" }
+					type: "item"
+				}
+			]
+			title: "Colossal Chests"
+			x: 6.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["24F056E19E87062F"]
+			id: "3F2BF553AC0B11CB"
+			tasks: [
+				{
+					id: "040D2F5A032AA874"
+					item: "colossalchests:colossal_chest_copper"
+					type: "item"
+				}
+				{
+					count: 7L
+					id: "44A100F48E7C6B71"
+					item: { Count: 7, id: "colossalchests:chest_wall_copper" }
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["3F2BF553AC0B11CB"]
+			id: "203D7CBA68C10434"
+			tasks: [
+				{
+					id: "36D56867E03530A7"
+					item: "colossalchests:colossal_chest_iron"
+					type: "item"
+				}
+				{
+					count: 7L
+					id: "23709923833FF754"
+					item: { Count: 7, id: "colossalchests:chest_wall_iron" }
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["203D7CBA68C10434"]
+			id: "66AF864B2E47E0AD"
+			tasks: [
+				{
+					id: "2BCB10941ADE45FB"
+					item: "colossalchests:colossal_chest_silver"
+					type: "item"
+				}
+				{
+					count: 7L
+					id: "3C4D4BD43BA25B5E"
+					item: { Count: 7, id: "colossalchests:chest_wall_silver" }
+					type: "item"
+				}
+			]
+			x: 10.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["66AF864B2E47E0AD"]
+			id: "4A985DAB005802C1"
+			tasks: [
+				{
+					id: "5D6A8EACC9AE8E90"
+					item: "colossalchests:colossal_chest_gold"
+					type: "item"
+				}
+				{
+					count: 7L
+					id: "51C035B7B18771EA"
+					item: { Count: 7, id: "colossalchests:chest_wall_gold" }
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["2F1D18213F81EA19"]
+			description: ["A very simple mod, allowing you to store insane amounts of one item."]
+			hide_dependency_lines: true
+			id: "3DD773A3BFB5355A"
+			shape: "square"
+			tasks: [{
+				id: "48F736599F6CC5DF"
+				item: "functionalstorage:oak_1"
+				type: "item"
+			}]
+			title: "Functional Storage"
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3DD773A3BFB5355A"]
+			description: [
+				"The storage controller allows insert and extract of items from the drawers that it's linked to."
+				""
+				"Very usefull if you want to connect your drawers to AE2 later on."
+			]
+			id: "5EEFAC5EE35DB003"
+			tasks: [{
+				id: "4B2AA4EA8766AED5"
+				item: "functionalstorage:storage_controller"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["5EEFAC5EE35DB003"]
+			description: ["Used to link controllers to drawers."]
+			id: "5C8ECEF29E46B608"
+			tasks: [{
+				id: "34FDAC6C4651DE29"
+				item: {
+					Count: 1
+					id: "functionalstorage:linking_tool"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["3DD773A3BFB5355A"]
+			description: ["Contains several modes, from hiding the item and amount render, to locking the drawer to a single item."]
+			id: "55DC48272FBE6E58"
+			tasks: [{
+				id: "5E0D641F9197C184"
+				item: "functionalstorage:configuration_tool"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"3DD773A3BFB5355A"
+				"03CF5FEDA44D312B"
+			]
+			description: ["These upgrades will allow you to store more items in a drawer, or extend the range of the Storage Controller."]
+			id: "0C853831EE7D8EF9"
+			tasks: [{
+				id: "6298881F9CDFE5DB"
+				item: "functionalstorage:copper_upgrade"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"0C853831EE7D8EF9"
+				"189B920AAB6456B4"
+			]
+			id: "794C2BBA94816F64"
+			tasks: [{
+				id: "6B5986311508F4FE"
+				item: "functionalstorage:gold_upgrade"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"794C2BBA94816F64"
+				"18BC6F844CF368EF"
+			]
+			id: "6C6F333768F3B99E"
+			tasks: [{
+				id: "2827990ADE380F0F"
+				item: "functionalstorage:diamond_upgrade"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"6C6F333768F3B99E"
+				"0F53EFB5D7D2C329"
+			]
+			id: "7690C88005F7B07F"
+			tasks: [{
+				id: "13EAB90F2941662F"
+				item: "functionalstorage:netherite_upgrade"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3DD773A3BFB5355A"]
+			id: "798989C876C3F22C"
+			tasks: [{
+				id: "69B4A89091C7548E"
+				item: "functionalstorage:iron_downgrade"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3DD773A3BFB5355A"]
+			description: ["This upgrade will allow the drawer to void any excess of the items once the drawer reaches its capacity."]
+			id: "7C9DA41EABC732E2"
+			tasks: [{
+				id: "6B2D32216C720E3E"
+				item: "functionalstorage:void_upgrade"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["5FC306AB0CF12117"]
+			description: [
+				"Tom's Simple Storage is an early storage management tool, similar to AE2 in function."
+				""
+				"It allows you to see, access and manipulate all items in the storages that are connected to the system."
+			]
+			id: "74107A170424213C"
+			shape: "square"
+			tasks: [{
+				id: "3BD8EB4EAF58E077"
+				item: "toms_storage:ts.storage_terminal"
+				type: "item"
+			}]
+			title: "Tom's Simple Storage"
+			x: 6.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["74107A170424213C"]
+			description: ["Storage terminal, but with crafting."]
+			id: "0AD4DA70B500FA5C"
+			tasks: [{
+				id: "65EBCD1983792AC9"
+				item: "toms_storage:ts.crafting_terminal"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["74107A170424213C"]
+			description: [
+				"The connector will connect all inventories that it is touching, into one. You can then place a terminal on it to view and manage all those items."
+				""
+				"It's basically a controller."
+			]
+			id: "584F882D36FF7D89"
+			tasks: [{
+				id: "5930B877E2A3D6E1"
+				item: "toms_storage:ts.inventory_connector"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["584F882D36FF7D89"]
+			description: ["The inventory trim is kind of a pipe that can be used to connect inventories to a Inventory Connector."]
+			id: "0EDE30BADCEA1648"
+			tasks: [{
+				id: "6D02289D21DB558A"
+				item: "toms_storage:ts.trim"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["74107A170424213C"]
+			description: ["The cables spread access to the Inventory Connector."]
+			id: "3AD8B3A9CFF570AE"
+			tasks: [{
+				id: "03199ECD59000BDA"
+				item: "toms_storage:ts.inventory_cable"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3AD8B3A9CFF570AE"]
+			description: [
+				"Allows access to an inventory, but also gives access to the outside."
+				""
+				"Place your terminal on here."
+			]
+			id: "7FF4E371E3183675"
+			tasks: [{
+				id: "1DC9D5BC64298ED6"
+				item: "toms_storage:ts.inventory_cable_connector"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["74107A170424213C"]
+			id: "0BA22894AACFE11B"
+			tasks: [{
+				id: "05E6C353B67B8530"
+				item: "toms_storage:ts.inventory_proxy"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3AD8B3A9CFF570AE"]
+			description: ["This will hopper configured items out of the network."]
+			id: "3F9C915134478B44"
+			tasks: [{
+				id: "0CA0D556BEE026D7"
+				item: "toms_storage:ts.inventory_hopper_basic"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3AD8B3A9CFF570AE"]
+			description: ["Emits a redstone signal based on the amount of items inside the network."]
+			id: "183E23C846E9B47F"
+			tasks: [{
+				id: "00388F7244C898FC"
+				item: "toms_storage:ts.level_emitter"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0BA22894AACFE11B"]
+			id: "760A66C299F10572"
+			tasks: [{
+				id: "2AB8620D17E059D4"
+				item: "toms_storage:ts.wireless_terminal"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["760A66C299F10572"]
+			id: "3C402FCB1BB0E355"
+			tasks: [{
+				id: "34E653FB5C95C6DC"
+				item: "toms_storage:ts.adv_wireless_terminal"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["31A0620289688EFB"]
+			description: [
+				"Useful Backpacks provide, well, backpacks."
+				""
+				"There are 3 versions, small, medium and large, with each containing a noticeable larger amount of space."
+				""
+				"They can also be colored."
+			]
+			id: "66F30482065AB989"
+			tasks: [{
+				id: "3FF4E630C904167B"
+				item: "usefulbackpacks:backpack_small"
+				type: "item"
+			}]
+			title: "Useful Backpacks"
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"66F30482065AB989"
+				"189B920AAB6456B4"
+			]
+			id: "7EDF87EA23C98664"
+			tasks: [{
+				id: "23050627A2FF7108"
+				item: "usefulbackpacks:backpack_medium"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"7EDF87EA23C98664"
+				"18BC6F844CF368EF"
+				"4DB4F6BF36D30A35"
+			]
+			id: "24FFF01BC9777B6A"
+			tasks: [{
+				id: "295B6F07789F655F"
+				item: "usefulbackpacks:backpack_large"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.0d
 		}
 	]
 	title: "Storage"

@@ -14,6 +14,8 @@
 	order_index: 1
 	quest_links: [ ]
 	quests: [{
+		dependencies: ["34FF2CB02D1A73FB"]
+		description: ["Waystones allow you to quickly teleport from one waystone to any other."]
 		id: "76C3F4304036AF39"
 		tasks: [{
 			id: "1ADC903FAE11CFAB"

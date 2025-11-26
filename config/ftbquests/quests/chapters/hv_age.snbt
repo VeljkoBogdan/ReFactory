@@ -40,18 +40,19 @@
 				"It's required to make Nichrome coils."
 			]
 			id: "722C635C6F7AA733"
-			size: 1.5d
+			size: 1.0d
 			tasks: [{
 				id: "21E7E4AFA1553AF5"
 				item: "gtceu:elventium_ingot"
 				type: "item"
 			}]
-			x: 7.5d
-			y: 0.0d
+			x: -4.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["04EEC280F22C612F"]
 			description: ["Ambrosium is a burnable gem, used in making Elventium, a HV superconductor."]
+			hide_dependent_lines: true
 			id: "4A6F76983101B7E1"
 			size: 1.0d
 			tasks: [{
@@ -59,21 +60,22 @@
 				item: "gtceu:ambrosium_gem"
 				type: "item"
 			}]
-			x: 5.0d
-			y: -2.5d
+			x: -5.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["3C1300681CAA0377"]
 			description: ["Very tough alloy."]
+			hide_dependency_lines: true
 			id: "68BAC4CBCD602803"
-			size: 1.5d
+			size: 1.0d
 			tasks: [{
 				id: "4BC4012FA008DC4B"
 				item: "gtceu:zanite_steel_ingot"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 2.5d
+			x: -5.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["04EEC280F22C612F"]
@@ -89,8 +91,8 @@
 				item: "gtceu:zanite_gem"
 				type: "item"
 			}]
-			x: 2.0d
-			y: -2.5d
+			x: -7.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["7DFAB08F359689DD"]
@@ -125,13 +127,14 @@
 				}
 			]
 			title: "Visit the Aether"
-			x: 5.0d
+			x: -5.5d
 			y: -7.5d
 		}
 		{
 			dependencies: [
 				"722C635C6F7AA733"
-				"528DAD15BFA6104A"
+				"41DC9E77D843E0D2"
+				"6C75DE589F2268C7"
 			]
 			description: [
 				"Next tier of coils."
@@ -153,8 +156,8 @@
 				item: "gtceu:nichrome_coil_block"
 				type: "item"
 			}]
-			x: 9.5d
-			y: 0.0d
+			x: -2.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["59775F7F175FF086"]
@@ -170,7 +173,7 @@
 				item: "gtceu:hv_assembler"
 				type: "item"
 			}]
-			x: -16.0d
+			x: -10.0d
 			y: 1.5d
 		}
 		{
@@ -187,15 +190,15 @@
 				table_id: 7166582181172905684L
 				type: "loot"
 			}]
-			size: 1.0d
+			size: 1.25d
 			tasks: [{
 				id: "1666B115D48EE522"
 				item: "gtceu:microchip_processor"
 				type: "item"
 			}]
 			title: "Cheapest LV Circuits"
-			x: -2.5d
-			y: 5.0d
+			x: -7.0d
+			y: 4.5d
 		}
 		{
 			dependencies: [
@@ -211,15 +214,15 @@
 				table_id: 7166582181172905684L
 				type: "loot"
 			}]
-			size: 1.5d
+			size: 1.25d
 			tasks: [{
 				id: "66B8C580766D15E1"
 				item: "gtceu:micro_processor"
 				type: "item"
 			}]
 			title: "Cheapest MV Circuits"
-			x: 0.0d
-			y: 5.0d
+			x: -5.5d
+			y: 4.5d
 		}
 		{
 			dependencies: [
@@ -239,21 +242,20 @@
 				table_id: 7166582181172905684L
 				type: "loot"
 			}]
-			size: 1.5d
+			size: 1.25d
 			tasks: [{
 				id: "25AF509E2496D7B9"
 				item: "gtceu:micro_processor_assembly"
 				type: "item"
 			}]
 			title: "Cheaper HV Circuits"
-			x: 7.5d
-			y: 5.0d
+			x: -4.0d
+			y: 4.5d
 		}
 		{
 			dependencies: [
 				"1D08089B37803F70"
 				"42ADECB98707B089"
-				"722C635C6F7AA733"
 			]
 			description: ["A bit expensive but worth it!"]
 			id: "5E0F220459741BE1"
@@ -264,15 +266,15 @@
 				type: "loot"
 			}]
 			shape: "gear"
-			size: 1.5d
+			size: 1.25d
 			tasks: [{
 				id: "55AF6871D5DDC015"
 				item: "gtceu:micro_processor_computer"
 				type: "item"
 			}]
 			title: "Early EV Circuits"
-			x: 13.0d
-			y: 5.0d
+			x: -2.5d
+			y: 4.5d
 		}
 		{
 			dependencies: [
@@ -293,15 +295,15 @@
 				type: "loot"
 			}]
 			shape: "gear"
-			size: 1.5d
+			size: 1.25d
 			tasks: [{
 				id: "2DC960AA62E911F6"
 				item: "gtceu:micro_processor_mainframe"
 				type: "item"
 			}]
 			title: "Early IV Circuits"
-			x: 16.0d
-			y: 5.0d
+			x: -1.0d
+			y: 4.5d
 		}
 		{
 			dependencies: [
@@ -323,13 +325,13 @@
 				type: "loot"
 			}]
 			shape: "gear"
-			size: 1.5d
+			size: 1.0d
 			tasks: [{
 				id: "0C91FD82700F7BF8"
 				item: "gtceu:titanium_ingot"
 				type: "item"
 			}]
-			x: 20.0d
+			x: 0.5d
 			y: 0.0d
 		}
 		{
@@ -342,7 +344,7 @@
 				item: "gtceu:rutile_dust"
 				type: "item"
 			}]
-			x: 18.0d
+			x: -2.5d
 			y: -7.5d
 		}
 		{
@@ -355,7 +357,7 @@
 				item: "gtceu:titanium_tetrachloride_bucket"
 				type: "item"
 			}]
-			x: 20.0d
+			x: 2.0d
 			y: -7.5d
 		}
 		{
@@ -377,8 +379,8 @@
 					type: "item"
 				}
 			]
-			x: 20.0d
-			y: -3.0d
+			x: 2.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["5E0F220459741BE1"]
@@ -405,8 +407,8 @@
 				item: "gtceu:vacuum_freezer"
 				type: "item"
 			}]
-			x: 13.0d
-			y: 0.0d
+			x: -2.5d
+			y: 3.0d
 		}
 		{
 			dependencies: [
@@ -428,14 +430,14 @@
 				item: "gtceu:ev_machine_hull"
 				type: "item"
 			}]
-			x: 22.0d
+			x: 2.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["1DA37C72B3F83FD4"]
 			description: ["You can now finally craft Eyes of Ender."]
 			id: "30D787446CE3CE8B"
-			size: 1.5d
+			size: 1.0d
 			tasks: [{
 				id: "7842EF6C359F8308"
 				item: "minecraft:ender_eye"
@@ -453,8 +455,8 @@
 				item: "gtceu:hv_sensor"
 				type: "item"
 			}]
-			x: -15.0d
-			y: -9.5d
+			x: -14.5d
+			y: -9.0d
 		}
 		{
 			dependencies: ["30D787446CE3CE8B"]
@@ -465,8 +467,8 @@
 				item: "gtceu:hv_emitter"
 				type: "item"
 			}]
-			x: -17.0d
-			y: -9.5d
+			x: -17.5d
+			y: -9.0d
 		}
 		{
 			dependencies: ["0B159426F31C5AC1"]
@@ -482,8 +484,8 @@
 				item: "gtceu:hv_miner"
 				type: "item"
 			}]
-			x: -14.0d
-			y: -11.5d
+			x: -14.5d
+			y: -10.5d
 		}
 		{
 			dependencies: ["5E0F220459741BE1"]
@@ -502,8 +504,8 @@
 				item: "gtceu:hv_circuit_assembler"
 				type: "item"
 			}]
-			x: 13.0d
-			y: 7.5d
+			x: -2.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["713E1A46AA21E290"]
@@ -515,8 +517,8 @@
 				item: "gtceu:energy_crystal"
 				type: "item"
 			}]
-			x: -2.5d
-			y: -2.5d
+			x: -8.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["59775F7F175FF086"]
@@ -555,8 +557,8 @@
 				item: "gtceu:hv_super_chest"
 				type: "item"
 			}]
-			x: -10.5d
-			y: -3.0d
+			x: -14.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["59775F7F175FF086"]
@@ -582,8 +584,8 @@
 				item: "gtceu:cleanroom"
 				type: "item"
 			}]
-			x: 16.0d
-			y: 7.5d
+			x: -1.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["59775F7F175FF086"]
@@ -596,8 +598,8 @@
 				item: "gtceu:implosion_compressor"
 				type: "item"
 			}]
-			x: 18.0d
-			y: 5.0d
+			x: 0.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["20831A754A2A5392"]
@@ -614,7 +616,7 @@
 				type: "item"
 			}]
 			x: -11.5d
-			y: 10.0d
+			y: 7.5d
 		}
 		{
 			dependencies: [
@@ -629,8 +631,8 @@
 				item: "gtceu:industrial_tnt"
 				type: "item"
 			}]
-			x: 20.0d
-			y: 10.0d
+			x: 0.5d
+			y: 7.5d
 		}
 		{
 			dependencies: ["4AEC76A5E18BF772"]
@@ -675,8 +677,8 @@
 				}
 			]
 			title: "NanoMuscle Armor"
-			x: -1.0d
-			y: -2.5d
+			x: -8.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["59775F7F175FF086"]
@@ -693,7 +695,7 @@
 				type: "loot"
 			}]
 			shape: "gear"
-			size: 1.0d
+			size: 1.5d
 			tasks: [{
 				id: "2CB0DDA54BB47F50"
 				item: "gtceu:distillation_tower"
@@ -703,10 +705,7 @@
 			y: 5.0d
 		}
 		{
-			dependencies: [
-				"5C00182B01D5FFCF"
-				"400A096DB2D1D861"
-			]
+			dependencies: ["1DA37C72B3F83FD4"]
 			description: [
 				"Polytetrafluoroethylene, or PTFE, is used as an upgrade to Polyethylene. Certain upgrades yield more when using PTFE, some even require PTFE."
 				""
@@ -720,14 +719,14 @@
 				type: "loot"
 			}]
 			shape: "gear"
-			size: 1.5d
+			size: 1.0d
 			tasks: [{
 				id: "79948A975EE7AC43"
 				item: "gtceu:polytetrafluoroethylene_bucket"
 				type: "item"
 			}]
 			x: -11.5d
-			y: -11.0d
+			y: -9.0d
 		}
 		{
 			dependencies: ["59775F7F175FF086"]
@@ -739,6 +738,7 @@
 				"They also serve as an Alloy Smelter."
 			]
 			id: "25BA9E6C6E55C85C"
+			shape: "hexagon"
 			size: 1.0d
 			tasks: [{
 				id: "695B3240BA0B4A36"
@@ -749,7 +749,7 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["59775F7F175FF086"]
+			dependencies: ["20831A754A2A5392"]
 			description: ["Lets you produce cracked fluids at 2x the output of the chemical reactor."]
 			id: "17515CF049766872"
 			size: 1.0d
@@ -758,8 +758,8 @@
 				item: "gtceu:cracker"
 				type: "item"
 			}]
-			x: -14.5d
-			y: 3.0d
+			x: -10.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["508C959C59F50CAF"]
@@ -779,7 +779,7 @@
 				type: "item"
 			}]
 			x: -11.5d
-			y: -12.5d
+			y: -10.5d
 		}
 		{
 			dependencies: [
@@ -795,7 +795,7 @@
 				type: "item"
 			}]
 			x: -16.0d
-			y: -11.5d
+			y: -9.0d
 		}
 		{
 			dependencies: ["43D222FD4AF3280E"]
@@ -820,8 +820,8 @@
 				}
 			]
 			title: "Ender Storage"
-			x: 19.0d
-			y: 1.0d
+			x: 0.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["30D787446CE3CE8B"]
@@ -849,7 +849,7 @@
 			y: -6.0d
 		}
 		{
-			dependencies: ["05A634B47A2EF253"]
+			dependencies: ["17A254562B5DF529"]
 			description: ["If you get Tantalum, you can craft insanely cheap components."]
 			icon: "gtceu:smd_transistor"
 			id: "2585010E61E151AB"
@@ -877,15 +877,13 @@
 				}
 			]
 			title: "SMD Components"
-			x: -8.5d
-			y: 5.0d
+			x: -10.0d
+			y: 3.0d
 		}
 		{
-			dependencies: [
-				"298AA444AEC8C3A1"
-				"48267B88994A6920"
-			]
+			dependencies: ["59775F7F175FF086"]
 			description: ["You'll need HV Energy Hatches to overclock your EBFs in order to produce Titanium."]
+			hide_dependency_lines: true
 			id: "6C75DE589F2268C7"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -900,21 +898,8 @@
 				item: "gtceu:hv_energy_input_hatch"
 				type: "item"
 			}]
-			x: -17.5d
-			y: 0.0d
-		}
-		{
-			dependencies: ["14E993FAD54631CD"]
-			description: ["In order to make the next tier of integrated power circuits, you'll need a better Cutter."]
-			id: "48267B88994A6920"
-			size: 1.0d
-			tasks: [{
-				id: "4F7A0FC8FF756FFC"
-				item: "gtceu:hv_cutter"
-				type: "item"
-			}]
-			x: -16.0d
-			y: 0.0d
+			x: -4.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["30D787446CE3CE8B"]
@@ -939,7 +924,7 @@
 			}]
 			title: "The End (not yet, actually)"
 			x: -16.0d
-			y: -5.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["68BAC4CBCD602803"]
@@ -955,7 +940,7 @@
 				item: "kubejs:elven_circuit"
 				type: "item"
 			}]
-			x: 3.5d
+			x: -7.0d
 			y: 1.5d
 		}
 		{
@@ -968,8 +953,8 @@
 				item: "minecraft:blaze_powder"
 				type: "item"
 			}]
-			x: -10.0d
-			y: -6.0d
+			x: -13.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["273E6401132B67CF"]
@@ -981,30 +966,13 @@
 				item: "gtceu:phosphorus_boule"
 				type: "item"
 			}]
-			x: -8.5d
-			y: -3.0d
-		}
-		{
-			dependencies: ["17A254562B5DF529"]
-			description: [
-				"Tired of pumping water into your machines?"
-				""
-				"Well, then you might find this useful! Just pop this on as a cover for your machine and it'll fill the machine with water, infinitely."
-			]
-			id: "35A298845D55AEED"
-			size: 1.0d
-			tasks: [{
-				id: "5AA830BBB24615FC"
-				item: "gtceu:infinite_water_cover"
-				type: "item"
-			}]
-			x: -17.5d
-			y: 1.5d
+			x: -14.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["59775F7F175FF086"]
 			description: ["Want to hold 64 buckets of fluid inside your inventory? Well then lucky for you!"]
-			hide_dependency_lines: true
+			hide_dependency_lines: false
 			id: "63CE3350D5F484A7"
 			size: 1.0d
 			tasks: [{
@@ -1012,8 +980,8 @@
 				item: "gtceu:stainless_steel_fluid_cell"
 				type: "item"
 			}]
-			x: -17.5d
-			y: 5.0d
+			x: -13.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["1DA37C72B3F83FD4"]
@@ -1036,14 +1004,14 @@
 				"I recommend building an advanced processing line somewhat soon, to extract as much as you can from the ores you are getting."
 			]
 			id: "2B5F523C728A64C3"
-			shape: "gear"
+			shape: "hexagon"
 			size: 1.0d
 			tasks: [{
 				id: "08D59374CB56A31B"
 				item: "gtceu:hv_macerator"
 				type: "item"
 			}]
-			x: -16.0d
+			x: -14.5d
 			y: 3.0d
 		}
 		{
@@ -1055,6 +1023,8 @@
 				"The portal to the world of the Elves (though not a portal you can enter)."
 				""
 				"Throw items in and the Elves will throw an item out, simple trade!"
+				""
+				"I recommend looking up a tutorial on how to construct the portal."
 			]
 			id: "2894F38706D609AD"
 			size: 1.0d
@@ -1063,7 +1033,7 @@
 				item: "botania:alfheim_portal"
 				type: "item"
 			}]
-			x: 3.5d
+			x: -7.0d
 			y: 0.0d
 		}
 		{
@@ -1089,7 +1059,7 @@
 				item: "botania:elementium_ingot"
 				type: "item"
 			}]
-			x: 5.5d
+			x: -5.5d
 			y: 0.0d
 		}
 		{
@@ -1105,8 +1075,8 @@
 				item: "gtceu:liquid_aether_air_bucket"
 				type: "item"
 			}]
-			x: 13.0d
-			y: -5.5d
+			x: -2.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["62B1007E03E72515"]
@@ -1119,7 +1089,7 @@
 				type: "item"
 			}]
 			x: -16.0d
-			y: -4.0d
+			y: -4.5d
 		}
 		{
 			dependencies: [
@@ -1141,8 +1111,8 @@
 				item: "kubejs:t1_rocket_plate"
 				type: "item"
 			}]
-			x: 20.0d
-			y: 2.5d
+			x: 0.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["6CB7D934C87C3EB9"]
@@ -1154,8 +1124,8 @@
 				item: "gtceu:mistrium_bucket"
 				type: "item"
 			}]
-			x: 14.5d
-			y: -5.5d
+			x: -1.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["6CB7D934C87C3EB9"]
@@ -1166,8 +1136,8 @@
 				item: "gtceu:ozone_bucket"
 				type: "item"
 			}]
-			x: 13.0d
-			y: -6.5d
+			x: -2.5d
+			y: -6.0d
 		}
 		{
 			dependencies: [
@@ -1180,9 +1150,7 @@
 				""
 				"The rocket will require rocket fuel in order to launch."
 				""
-				"&cYou will also need some sort of space suit to survive the atmoshpere.&r"
-				""
-				"&cBring another launch pad so you can launch from the Moon as well!&r"
+				"&cBring another launch pad so you can launch from the Moon as well as some fuel!&r"
 			]
 			icon: {
 				Count: 1
@@ -1191,7 +1159,7 @@
 			}
 			id: "247390A4673AD828"
 			shape: "gear"
-			size: 1.0d
+			size: 1.5d
 			tasks: [
 				{
 					id: "4C6EA6A60EB896E9"
@@ -1226,11 +1194,14 @@
 				}
 			]
 			title: "Tier 1 Rocket"
-			x: 23.5d
-			y: 2.5d
+			x: 3.5d
+			y: 1.5d
 		}
 		{
-			dependencies: ["247390A4673AD828"]
+			dependencies: [
+				"247390A4673AD828"
+				"2D57E24AA629CF77"
+			]
 			description: [
 				"Welcome to the moon."
 				""
@@ -1244,7 +1215,7 @@
 				type: "loot"
 			}]
 			shape: "gear"
-			size: 1.5d
+			size: 1.0d
 			tasks: [{
 				dimension: "ad_astra:moon"
 				icon: "ad_astra:moon_globe"
@@ -1252,33 +1223,8 @@
 				title: "To the Moon!"
 				type: "dimension"
 			}]
-			x: 25.0d
-			y: 2.5d
-		}
-		{
-			dependencies: ["41DC9E77D843E0D2"]
-			id: "528DAD15BFA6104A"
-			size: 1.0d
-			tasks: [{
-				id: "68F5C463B1081F7F"
-				item: "gtceu:nichrome_ingot"
-				type: "item"
-			}]
-			x: 11.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["59775F7F175FF086"]
-			description: ["You can get Raw Tantalite from both the Overworld and Nether"]
-			id: "05A634B47A2EF253"
-			size: 1.0d
-			tasks: [{
-				id: "734A6A0E49112C54"
-				item: "gtceu:tantalum_ingot"
-				type: "item"
-			}]
-			x: -10.0d
-			y: 5.0d
+			x: 5.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["59775F7F175FF086"]
@@ -1290,8 +1236,8 @@
 				item: "gtceu:capacitor"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 6.5d
+			x: -5.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["59775F7F175FF086"]
@@ -1303,31 +1249,14 @@
 				item: "gtceu:inductor"
 				type: "item"
 			}]
-			x: 7.5d
-			y: 6.5d
-		}
-		{
-			dependencies: ["59775F7F175FF086"]
-			description: [
-				"You'll have a lot of Sodium from Clay Electrolizing."
-				""
-				"Potassium, on the other hand, can be electrolized from Saltpeter or Ender Pearl Dust."
-			]
-			hide_dependency_lines: true
-			id: "298AA444AEC8C3A1"
-			tasks: [{
-				id: "170129ADE1FE5D8B"
-				item: "gtceu:sodium_potassium_bucket"
-				type: "item"
-			}]
-			x: -19.0d
-			y: 0.0d
+			x: -4.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["59775F7F175FF086"]
 			description: ["Required to progress towards The Aether"]
 			id: "1DA37C72B3F83FD4"
-			size: 1.5d
+			size: 1.0d
 			tasks: [{
 				id: "1D47DAABE51CDCEE"
 				item: "gtceu:hv_chemical_reactor"
@@ -1338,44 +1267,6 @@
 		}
 		{
 			dependencies: ["59775F7F175FF086"]
-			description: [
-				"You'll need Red Steel to make the HV Cutter."
-				""
-				"It's also good for tools."
-			]
-			id: "14E993FAD54631CD"
-			tasks: [{
-				id: "50CB454B6F804B96"
-				item: "gtceu:red_steel_ingot"
-				type: "item"
-			}]
-			x: -14.5d
-			y: 0.0d
-		}
-		{
-			dependencies: ["1DA37C72B3F83FD4"]
-			id: "5C00182B01D5FFCF"
-			tasks: [{
-				id: "22BE3889AFEAC567"
-				item: "gtceu:hydrofluoric_acid_bucket"
-				type: "item"
-			}]
-			x: -10.5d
-			y: -9.5d
-		}
-		{
-			dependencies: ["1DA37C72B3F83FD4"]
-			id: "400A096DB2D1D861"
-			tasks: [{
-				id: "45A61761A00B8E61"
-				item: "gtceu:chloroform_bucket"
-				type: "item"
-			}]
-			x: -12.5d
-			y: -9.5d
-		}
-		{
-			dependencies: ["59775F7F175FF086"]
 			hide_dependency_lines: true
 			id: "489074B5570FEE37"
 			tasks: [{
@@ -1383,8 +1274,8 @@
 				item: "gtceu:cpu_chip"
 				type: "item"
 			}]
-			x: -2.5d
-			y: 6.5d
+			x: -7.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["59775F7F175FF086"]
@@ -1395,8 +1286,8 @@
 				item: "gtceu:phosphorus_dust"
 				type: "item"
 			}]
-			x: -9.5d
-			y: -1.5d
+			x: -13.0d
+			y: 0.0d
 		}
 		{
 			dependencies: [
@@ -1413,7 +1304,7 @@
 				type: "item"
 			}]
 			title: "Good Mythic Morning!"
-			x: -1.5d
+			x: -8.5d
 			y: -7.5d
 		}
 		{
@@ -1425,7 +1316,7 @@
 				item: "thermal:basalz_powder"
 				type: "item"
 			}]
-			x: -7.0d
+			x: -10.0d
 			y: -7.5d
 		}
 		{
@@ -1437,7 +1328,7 @@
 				item: "thermal:blitz_powder"
 				type: "item"
 			}]
-			x: -7.0d
+			x: -10.0d
 			y: -6.0d
 		}
 		{
@@ -1449,7 +1340,7 @@
 				item: "thermal:blizz_powder"
 				type: "item"
 			}]
-			x: -7.0d
+			x: -10.0d
 			y: -9.0d
 		}
 		{
@@ -1461,8 +1352,8 @@
 				item: "gtceu:aether_air_bucket"
 				type: "item"
 			}]
-			x: 6.5d
-			y: -5.5d
+			x: -4.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["1C4FCF8636BC790A"]
@@ -1485,8 +1376,8 @@
 				item: "gtceu:lumium_ingot"
 				type: "item"
 			}]
-			x: 16.0d
-			y: -5.5d
+			x: -1.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["59775F7F175FF086"]
@@ -1497,8 +1388,8 @@
 				item: "gtceu:hv_mixer"
 				type: "item"
 			}]
-			x: -2.5d
-			y: -4.0d
+			x: -8.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["66606096794A8A3B"]
@@ -1509,7 +1400,7 @@
 				item: "botania:glimmering_livingwood_log"
 				type: "item"
 			}]
-			x: 0.0d
+			x: -8.5d
 			y: 0.0d
 		}
 		{
@@ -1521,7 +1412,7 @@
 				item: "gtceu:hv_chemical_bath"
 				type: "item"
 			}]
-			x: -5.0d
+			x: -10.0d
 			y: 0.0d
 		}
 		{
@@ -1533,8 +1424,8 @@
 				item: "gtceu:nitration_mixture_bucket"
 				type: "item"
 			}]
-			x: 18.5d
-			y: 8.5d
+			x: 2.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["508C959C59F50CAF"]
@@ -1545,8 +1436,8 @@
 				item: "gtceu:hv_super_tank"
 				type: "item"
 			}]
-			x: -9.5d
-			y: -11.0d
+			x: -13.0d
+			y: -9.0d
 		}
 		{
 			dependencies: ["2894F38706D609AD"]
@@ -1560,10 +1451,9 @@
 				"The &bLarge Mana Pool&r copies a lot of the Botania mana pool recipes. This multiblock does not provide recipes for recipes that use catalysts."
 				""
 				"The &eTerra Agglomeration Nexus&r simulates the Terra Agglomeration Plate, sometimes for much cheaper."
-				""
-				"For now these multiblocks are only QOL, but later they will be required for progression."
 			]
 			id: "452239D2CC8CCC7D"
+			shape: "hexagon"
 			size: 1.0d
 			tasks: [
 				{
@@ -1583,7 +1473,7 @@
 				}
 			]
 			title: "Automating Mana"
-			x: 3.5d
+			x: -7.0d
 			y: -1.5d
 		}
 		{
@@ -1594,14 +1484,15 @@
 				"Go to the &3Applied Energistics 2&r tab to find out more"
 			]
 			id: "34FF2CB02D1A73FB"
-			size: 1.5d
+			shape: "hexagon"
+			size: 1.0d
 			tasks: [{
 				id: "031BD5AB8927361C"
 				item: "ae2:energy_acceptor"
 				type: "item"
 			}]
 			x: -13.0d
-			y: -3.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["7F79BF7FD6AE35CE"]
@@ -1617,8 +1508,8 @@
 				item: "gtceu:raw_cooperite"
 				type: "item"
 			}]
-			x: 26.5d
-			y: 1.0d
+			x: 6.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["7F79BF7FD6AE35CE"]
@@ -1630,8 +1521,8 @@
 				item: "gtceu:raw_neodymium"
 				type: "item"
 			}]
-			x: 26.5d
-			y: 4.0d
+			x: 6.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["62B1007E03E72515"]
@@ -1665,8 +1556,8 @@
 				item: { Count: 32, id: "gtceu:raw_desh" }
 				type: "item"
 			}]
-			x: 27.0d
-			y: 2.5d
+			x: 7.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["097912261E2A9B52"]
@@ -1677,7 +1568,7 @@
 				item: "ad_astra:nasa_workbench"
 				type: "item"
 			}]
-			x: 23.5d
+			x: 3.5d
 			y: 0.0d
 		}
 		{
@@ -1705,8 +1596,8 @@
 				}
 				type: "item"
 			}]
-			x: 0.0d
-			y: -2.5d
+			x: -7.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["62B1007E03E72515"]
@@ -1728,11 +1619,9 @@
 			y: -4.5d
 		}
 		{
-			dependencies: [
-				"4FA3ACC01F2B1FC8"
-				"779C3D21BA82E44F"
-			]
+			dependencies: ["500BF195B95388DA"]
 			description: ["Prepare to craft a bunch of these"]
+			hide_dependency_lines: true
 			id: "4645F587B7C20F05"
 			tasks: [{
 				id: "750E8AB71E1409CE"
@@ -1740,34 +1629,8 @@
 				type: "item"
 			}]
 			title: "Enchanted!"
-			x: 0.0d
+			x: -7.0d
 			y: 3.0d
-		}
-		{
-			dependencies: ["7DFAB08F359689DD"]
-			id: "4FA3ACC01F2B1FC8"
-			tasks: [{
-				id: "23386491FE80B771"
-				item: "gtceu:small_mythic_compound_dust"
-				type: "item"
-			}]
-			title: "Not so Mythical"
-			x: -1.5d
-			y: 3.0d
-		}
-		{
-			dependencies: ["59775F7F175FF086"]
-			description: ["Magical circuit board"]
-			hide_dependency_lines: true
-			id: "779C3D21BA82E44F"
-			tasks: [{
-				id: "26F654EC22A261D1"
-				item: "gtceu:plastic_circuit_board"
-				type: "item"
-			}]
-			title: "Glimmering Boards"
-			x: 0.0d
-			y: 1.5d
 		}
 		{
 			dependencies: ["59775F7F175FF086"]
@@ -1777,11 +1640,12 @@
 				item: "gtceu:hv_autoclave"
 				type: "item"
 			}]
-			x: -4.0d
-			y: -2.5d
+			x: -10.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["6491CC503A0BD3A7"]
+			description: ["Provides infinite creative flight!"]
 			id: "16F2D9FAB40724AF"
 			tasks: [{
 				id: "3D9B24689484112A"
@@ -1789,8 +1653,81 @@
 				type: "item"
 			}]
 			title: "Infinite Flight?"
-			x: 18.0d
-			y: -5.5d
+			x: 0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7DFAB08F359689DD"]
+			id: "500BF195B95388DA"
+			tasks: [{
+				id: "1E8E4FFE14E285B2"
+				item: "gtceu:small_mythic_compound_dust"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"43D222FD4AF3280E"
+				"508C959C59F50CAF"
+				"17A254562B5DF529"
+			]
+			description: [
+				"Of course, you'll need a way to survive the 0 oxygen environment."
+				""
+				"You can fill up the chestplate's tank with Oxygen in a canner."
+			]
+			hide_dependency_lines: true
+			id: "2D57E24AA629CF77"
+			tasks: [
+				{
+					id: "5AFCC96387DA4B4D"
+					item: {
+						Count: 1
+						id: "ad_astra:space_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "48CCB4EDE5B4FE55"
+					item: {
+						Count: 1
+						id: "ad_astra:space_suit"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5E977375B2385176"
+					item: {
+						Count: 1
+						id: "ad_astra:space_pants"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5AE9083A2834B63F"
+					item: {
+						Count: 1
+						id: "ad_astra:space_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 3.0d
 		}
 	]
 	title: "HV Age"

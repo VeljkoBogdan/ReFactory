@@ -37,7 +37,7 @@
 				type: "item"
 			}]
 			x: 7.0d
-			y: -15.5d
+			y: -14.5d
 		}
 		{
 			dependencies: ["0DE76CF32EEE7200"]
@@ -52,8 +52,8 @@
 				item: "gtceu:epoxy_printed_circuit_board"
 				type: "item"
 			}]
-			x: 18.5d
-			y: -8.0d
+			x: 14.5d
+			y: -8.5d
 		}
 		{
 			dependencies: [
@@ -67,8 +67,8 @@
 				item: "gtceu:epoxy_bucket"
 				type: "item"
 			}]
-			x: 18.5d
-			y: -6.5d
+			x: 14.5d
+			y: -7.0d
 		}
 		{
 			dependencies: ["2234451EE953C16E"]
@@ -78,8 +78,8 @@
 				item: "gtceu:bisphenol_a_bucket"
 				type: "item"
 			}]
-			x: 17.5d
-			y: -6.5d
+			x: 13.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["104910C1F869E19B"]
@@ -89,8 +89,8 @@
 				item: "gtceu:epichlorohydrin_bucket"
 				type: "item"
 			}]
-			x: 19.5d
-			y: -6.5d
+			x: 16.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["669F52806D1D39F6"]
@@ -101,7 +101,7 @@
 				item: "gtceu:propene_bucket"
 				type: "item"
 			}]
-			x: 19.5d
+			x: 16.0d
 			y: -5.5d
 		}
 		{
@@ -113,7 +113,7 @@
 				item: "gtceu:phenol_bucket"
 				type: "item"
 			}]
-			x: 17.5d
+			x: 13.0d
 			y: -5.5d
 		}
 		{
@@ -128,7 +128,7 @@
 				item: "gtceu:nano_cpu_wafer"
 				type: "item"
 			}]
-			x: 16.5d
+			x: 13.0d
 			y: -11.5d
 		}
 		{
@@ -152,7 +152,7 @@
 				item: "gtceu:ev_chemical_reactor"
 				type: "item"
 			}]
-			x: 16.5d
+			x: 13.0d
 			y: -13.0d
 		}
 		{
@@ -169,8 +169,8 @@
 				item: "gtceu:nano_processor"
 				type: "item"
 			}]
-			x: 18.5d
-			y: -9.5d
+			x: 14.5d
+			y: -10.0d
 		}
 		{
 			dependencies: ["78B4672CBAA42363"]
@@ -181,8 +181,8 @@
 				item: "gtceu:nano_processor_assembly"
 				type: "item"
 			}]
-			x: 20.0d
-			y: -9.5d
+			x: 16.0d
+			y: -10.0d
 		}
 		{
 			dependencies: [
@@ -196,19 +196,20 @@
 				item: "gtceu:nano_processor_computer"
 				type: "item"
 			}]
-			x: 21.5d
-			y: -9.5d
+			x: 17.5d
+			y: -10.0d
 		}
 		{
 			dependencies: ["5155F1DFD1D1AD33"]
+			hide_dependency_lines: true
 			id: "0231BB49E8441530"
 			tasks: [{
 				id: "2727328EC32D4894"
 				item: "gtceu:smd_diode"
 				type: "item"
 			}]
-			x: 21.5d
-			y: -15.5d
+			x: 17.5d
+			y: -11.5d
 		}
 		{
 			dependencies: [
@@ -223,8 +224,8 @@
 				item: "gtceu:nano_processor_mainframe"
 				type: "item"
 			}]
-			x: 23.0d
-			y: -9.5d
+			x: 19.0d
+			y: -10.0d
 		}
 		{
 			dependencies: ["2DC6D2C059E8BE07"]
@@ -237,7 +238,7 @@
 				type: "item"
 			}]
 			x: 7.0d
-			y: -22.5d
+			y: -22.0d
 		}
 		{
 			dependencies: ["051FB469C3C08656"]
@@ -248,7 +249,7 @@
 				type: "item"
 			}]
 			x: 7.0d
-			y: -24.0d
+			y: -23.5d
 		}
 		{
 			dependencies: ["4585F230C85521DB"]
@@ -259,7 +260,7 @@
 				type: "item"
 			}]
 			x: 7.0d
-			y: -25.5d
+			y: -25.0d
 		}
 		{
 			dependencies: ["669F52806D1D39F6"]
@@ -271,7 +272,7 @@
 				type: "item"
 			}]
 			x: 8.5d
-			y: -25.5d
+			y: -25.0d
 		}
 		{
 			dependencies: [
@@ -286,8 +287,8 @@
 				item: "gtceu:rtm_alloy_coil_block"
 				type: "item"
 			}]
-			x: 4.0d
-			y: -21.0d
+			x: 5.5d
+			y: -20.5d
 		}
 		{
 			dependencies: ["1DD37108B744742C"]
@@ -298,8 +299,8 @@
 				item: "gtceu:ruthenium_dust"
 				type: "item"
 			}]
-			x: 1.5d
-			y: -20.0d
+			x: 5.5d
+			y: -19.0d
 		}
 		{
 			dependencies: [
@@ -324,7 +325,7 @@
 				type: "item"
 			}]
 			title: "Processing the sheldonite"
-			x: 1.5d
+			x: 5.5d
 			y: -13.0d
 		}
 		{
@@ -339,8 +340,8 @@
 				item: "gtceu:inert_metal_mixture_dust"
 				type: "item"
 			}]
-			x: 1.5d
-			y: -15.5d
+			x: 5.5d
+			y: -16.0d
 		}
 		{
 			dependencies: ["6B6940FDFD680AFF"]
@@ -351,7 +352,7 @@
 				item: "gtceu:rarest_metal_mixture_dust"
 				type: "item"
 			}]
-			x: 1.0d
+			x: 5.0d
 			y: -12.0d
 		}
 		{
@@ -364,12 +365,12 @@
 				type: "item"
 			}]
 			x: 8.5d
-			y: -8.0d
+			y: -8.5d
 		}
 		{
 			dependencies: [
 				"7CC959FF709B1FEF"
-				"20EFB62FAA8F2AB2"
+				"5155F1DFD1D1AD33"
 			]
 			id: "699F6C56C378C599"
 			shape: "gear"
@@ -379,7 +380,7 @@
 				type: "item"
 			}]
 			x: 7.0d
-			y: -18.0d
+			y: -16.0d
 		}
 		{
 			dependencies: ["4088C106B4D46075"]
@@ -391,7 +392,7 @@
 				type: "item"
 			}]
 			x: 7.0d
-			y: -8.0d
+			y: -8.5d
 		}
 		{
 			dependencies: ["4088C106B4D46075"]
@@ -402,7 +403,7 @@
 				type: "item"
 			}]
 			x: 8.5d
-			y: -6.5d
+			y: -7.0d
 		}
 		{
 			dependencies: [
@@ -418,7 +419,7 @@
 				type: "item"
 			}]
 			x: 7.0d
-			y: -9.5d
+			y: -10.0d
 		}
 		{
 			dependencies: ["2DC6D2C059E8BE07"]
@@ -429,13 +430,10 @@
 				type: "item"
 			}]
 			x: 5.5d
-			y: -24.0d
+			y: -23.5d
 		}
 		{
-			dependencies: [
-				"5DA249569F2D1E36"
-				"43237774B2517E92"
-			]
+			dependencies: ["7BAAA4E2916E61E8"]
 			description: [
 				"Gaia ingots are going to be required in circuit crafting and the tier 2 rocket plating."
 				""
@@ -448,8 +446,8 @@
 				item: "botania:gaia_ingot"
 				type: "item"
 			}]
-			x: 18.5d
-			y: -19.5d
+			x: 14.5d
+			y: -19.0d
 		}
 		{
 			dependencies: ["669F52806D1D39F6"]
@@ -477,8 +475,8 @@
 				item: "gtceu:rhodium_dust"
 				type: "item"
 			}]
-			x: -0.5d
-			y: -15.5d
+			x: 3.5d
+			y: -16.0d
 		}
 		{
 			dependencies: ["669F52806D1D39F6"]
@@ -489,37 +487,7 @@
 				item: "botanypotstiers:ultra_terracotta_botany_pot"
 				type: "item"
 			}]
-			x: 8.5d
-			y: -14.5d
-		}
-		{
-			description: [
-				"This chapter is not finished."
-				""
-				"It might be very inaccurate, have missing or unfinished descriptions or illogical questlines."
-			]
-			icon: "botania:cosmetic_questgiver_mark"
-			id: "67BE94D1491BD3F4"
-			shape: "square"
-			size: 1.5d
-			tasks: [{
-				id: "6AB364FECABDA4F4"
-				title: "TODO"
-				type: "checkmark"
-			}]
-			x: -3.0d
-			y: -18.75d
-		}
-		{
-			dependencies: ["6639BB3BE306D69C"]
-			description: ["Now you can react the pixie dust and liquid soul to put some soul into the pixie energy and turn it into Gaia Spirits (or whatever else you can imagine, I just had to make the recipe harder :P)"]
-			id: "5DA249569F2D1E36"
-			tasks: [{
-				id: "12FD4347EF6C8F9D"
-				item: "botania:life_essence"
-				type: "item"
-			}]
-			x: 18.5d
+			x: 10.0d
 			y: -14.5d
 		}
 		{
@@ -531,8 +499,8 @@
 				item: "gtceu:ruthenium_tetroxide_dust"
 				type: "item"
 			}]
-			x: 1.5d
-			y: -16.5d
+			x: 5.5d
+			y: -17.5d
 		}
 		{
 			dependencies: ["7C4C8B84E1F1CEAB"]
@@ -543,8 +511,8 @@
 				item: "gtceu:rhodium_sulfate_bucket"
 				type: "item"
 			}]
-			x: 0.5d
-			y: -15.5d
+			x: 4.5d
+			y: -16.0d
 		}
 		{
 			dependencies: ["6B6940FDFD680AFF"]
@@ -555,7 +523,7 @@
 				item: "gtceu:platinum_raw_dust"
 				type: "item"
 			}]
-			x: 1.0d
+			x: 5.0d
 			y: -14.0d
 		}
 		{
@@ -567,7 +535,7 @@
 				item: "gtceu:palladium_raw_dust"
 				type: "item"
 			}]
-			x: 0.5d
+			x: 4.5d
 			y: -13.0d
 		}
 		{
@@ -579,34 +547,8 @@
 				item: "gtceu:platinum_sludge_residue_dust"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 6.0d
 			y: -12.0d
-		}
-		{
-			dependencies: ["5155F1DFD1D1AD33"]
-			id: "20EFB62FAA8F2AB2"
-			tasks: [{
-				id: "7F44E71C003229C8"
-				item: "gtceu:ev_voltage_coil"
-				type: "item"
-			}]
-			x: 7.0d
-			y: -16.5d
-		}
-		{
-			dependencies: [
-				"3FDE9F22A732DE02"
-				"7D6E0F5E06157A42"
-			]
-			description: ["Mix some mythril, soul sand and lava to get &4Liquid Soul&r, ooooh... scaryyyy...."]
-			id: "6639BB3BE306D69C"
-			tasks: [{
-				id: "3B0D3BD2D9876DEC"
-				item: "gtceu:liquid_soul_bucket"
-				type: "item"
-			}]
-			x: 16.5d
-			y: -14.5d
 		}
 		{
 			dependencies: ["2C3F51C6C0776EA6"]
@@ -617,8 +559,8 @@
 				item: "gtceu:gaia_foil"
 				type: "item"
 			}]
-			x: 16.5d
-			y: -21.0d
+			x: 14.5d
+			y: -20.5d
 		}
 		{
 			dependencies: [
@@ -631,8 +573,8 @@
 				item: "gtceu:desh_ingot"
 				type: "item"
 			}]
-			x: 12.0d
-			y: -21.0d
+			x: 11.5d
+			y: -20.5d
 		}
 		{
 			dependencies: ["669F52806D1D39F6"]
@@ -647,7 +589,7 @@
 				item: "gtceu:raw_desh"
 				type: "item"
 			}]
-			x: 12.0d
+			x: 11.5d
 			y: -14.5d
 		}
 		{
@@ -659,8 +601,8 @@
 				item: "gtceu:mythril_dust"
 				type: "item"
 			}]
-			x: 13.5d
-			y: -14.5d
+			x: 11.5d
+			y: -13.0d
 		}
 		{
 			dependencies: [
@@ -676,12 +618,13 @@
 				item: "kubejs:t2_rocket_plate"
 				type: "item"
 			}]
-			x: 18.5d
-			y: -22.5d
+			x: 14.5d
+			y: -22.0d
 		}
 		{
 			dependencies: ["0742AB0118D5A56D"]
 			id: "7FBF5E1B748B5650"
+			shape: "gear"
 			tasks: [{
 				id: "364B2DF6DE9183C7"
 				item: {
@@ -691,8 +634,8 @@
 				}
 				type: "item"
 			}]
-			x: 18.5d
-			y: -24.0d
+			x: 16.0d
+			y: -22.0d
 		}
 		{
 			dependencies: [
@@ -706,8 +649,8 @@
 				item: "gtceu:iv_machine_casing"
 				type: "item"
 			}]
-			x: 4.0d
-			y: -19.5d
+			x: 7.0d
+			y: -19.0d
 		}
 		{
 			dependencies: ["2DC6D2C059E8BE07"]
@@ -718,19 +661,20 @@
 				type: "item"
 			}]
 			x: 8.5d
-			y: -24.0d
+			y: -23.5d
 		}
 		{
 			dependencies: ["7FBF5E1B748B5650"]
 			id: "3180F492F13A77FD"
+			shape: "gear"
 			tasks: [{
 				dimension: "ad_astra:mars"
 				icon: "ad_astra:mars_globe"
 				id: "3520BB0D1DC63679"
 				type: "dimension"
 			}]
-			x: 18.5d
-			y: -25.5d
+			x: 17.5d
+			y: -22.0d
 		}
 		{
 			dependencies: ["2BC540AB6497B161"]
@@ -740,8 +684,8 @@
 				item: "gtceu:desh_frame"
 				type: "item"
 			}]
-			x: 23.0d
-			y: -21.0d
+			x: 19.0d
+			y: -20.5d
 		}
 		{
 			dependencies: ["669F52806D1D39F6"]
@@ -764,7 +708,7 @@
 				}
 				type: "item"
 			}]
-			x: 10.0d
+			x: 8.5d
 			y: -14.5d
 		}
 		{
@@ -797,8 +741,8 @@
 					type: "item"
 				}
 			]
-			x: 10.0d
-			y: -16.5d
+			x: 8.5d
+			y: -16.0d
 		}
 		{
 			dependencies: ["63901622D76AA82F"]
@@ -813,47 +757,20 @@
 				item: "bloodmagic:weakbloodorb"
 				type: "item"
 			}]
-			x: 9.0d
-			y: -16.5d
-		}
-		{
-			dependencies: ["63901622D76AA82F"]
-			description: ["Throw the soul snare at any mob to snare it. Once it's snared kill it to get its will."]
-			id: "2F9E808C2EE0650B"
-			tasks: [{
-				id: "7BEDE538049F747A"
-				item: "bloodmagic:soulsnare"
-				type: "item"
-			}]
 			x: 10.0d
-			y: -18.0d
-		}
-		{
-			dependencies: ["2F9E808C2EE0650B"]
-			id: "6D2CFB26CD8456EE"
-			tasks: [{
-				id: "284C43FFA797E729"
-				item: {
-					Count: 1
-					id: "bloodmagic:basemonstersoul"
-					tag: { }
-				}
-				type: "item"
-			}]
-			x: 9.0d
-			y: -18.0d
+			y: -16.0d
 		}
 		{
 			dependencies: ["63901622D76AA82F"]
-			description: ["Throw any stone in the altar to get slates. You'll need these for many other recipes in the mod."]
+			description: ["Throw carbon plates in the altar to get slates. You'll need these for many other recipes in the mod."]
 			id: "6D6D1CCEB56BE3EA"
 			tasks: [{
 				id: "176854BC9D075C20"
 				item: "bloodmagic:blankslate"
 				type: "item"
 			}]
-			x: 11.0d
-			y: -18.0d
+			x: 8.5d
+			y: -17.5d
 		}
 		{
 			dependencies: ["6D6D1CCEB56BE3EA"]
@@ -870,8 +787,8 @@
 				item: { Count: 9, id: "bloodmagic:blankrune" }
 				type: "item"
 			}]
-			x: 13.5d
-			y: -18.0d
+			x: 10.0d
+			y: -17.5d
 		}
 		{
 			dependencies: ["050936F8ADC7235D"]
@@ -882,52 +799,8 @@
 				item: "bloodmagic:speedrune"
 				type: "item"
 			}]
-			x: 14.0d
-			y: -17.0d
-		}
-		{
-			dependencies: ["050936F8ADC7235D"]
-			description: [
-				"This rune will give more life essence from mobs you sacrifice at the altar."
-				""
-				"For that you will need a Dagger of Sacrifice."
-			]
-			id: "4E2973759004A3FB"
-			tasks: [{
-				id: "7925BA4F3C529CDC"
-				item: "bloodmagic:sacrificerune"
-				type: "item"
-			}]
-			x: 13.0d
-			y: -19.0d
-		}
-		{
-			dependencies: ["050936F8ADC7235D"]
-			description: ["The rune of self sacrifice will increase the amount of life essence that is gained from sacrificing your health."]
-			id: "4FC5E28D69579970"
-			tasks: [{
-				id: "6D668F9223A53E4A"
-				item: "bloodmagic:selfsacrificerune"
-				type: "item"
-			}]
-			x: 13.0d
-			y: -17.0d
-		}
-		{
-			dependencies: ["050936F8ADC7235D"]
-			description: [
-				"Now that you have the tier 2 altar, you can craft the reinforced slate needed for Gaia ingots, as well as many other items."
-				""
-				"Progressing further into Blood Magic is optional from now on, but it may be worth it."
-			]
-			id: "43237774B2517E92"
-			tasks: [{
-				id: "15809A0C1F49361E"
-				item: "bloodmagic:reinforcedslate"
-				type: "item"
-			}]
-			x: 16.5d
-			y: -18.0d
+			x: 11.0d
+			y: -16.5d
 		}
 		{
 			dependencies: ["65F511A3B3D9F0A5"]
@@ -938,7 +811,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: -24.0d
+			y: -23.5d
 		}
 		{
 			dependencies: [
@@ -952,7 +825,7 @@
 				item: "kubejs:mythril_infused_carbon_fibers"
 				type: "item"
 			}]
-			x: 13.5d
+			x: 11.5d
 			y: -11.5d
 		}
 		{
@@ -964,8 +837,8 @@
 				item: "bloodmagic:daggerofsacrifice"
 				type: "item"
 			}]
-			x: 14.0d
-			y: -19.0d
+			x: 11.0d
+			y: -18.5d
 		}
 		{
 			dependencies: ["3180F492F13A77FD"]
@@ -976,8 +849,8 @@
 				item: "gtceu:raw_ostrum"
 				type: "item"
 			}]
-			x: 17.0d
-			y: -27.0d
+			x: 19.0d
+			y: -22.0d
 		}
 		{
 			dependencies: ["3180F492F13A77FD"]
@@ -989,7 +862,7 @@
 				type: "item"
 			}]
 			x: 18.5d
-			y: -27.5d
+			y: -23.0d
 		}
 		{
 			dependencies: ["3180F492F13A77FD"]
@@ -1000,8 +873,49 @@
 				item: { Count: 16, id: "gtceu:raw_scheelite" }
 				type: "item"
 			}]
-			x: 20.0d
-			y: -27.0d
+			x: 17.5d
+			y: -23.5d
+		}
+		{
+			dependencies: ["050936F8ADC7235D"]
+			id: "7BAAA4E2916E61E8"
+			tasks: [
+				{
+					id: "367AB16C8F1214AF"
+					item: "refactorycore:bloodforge"
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "5ACD97F41D2306EC"
+					item: { Count: 32, id: "gtceu:rtm_alloy_coil_block" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 28L
+					id: "67A7290A21277C53"
+					item: "gtceu:nonconducting_casing"
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 59L
+					id: "67EEBFAD3A4D0F58"
+					item: { Count: 59, id: "gtceu:stable_machine_casing" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 86L
+					id: "1645D787E5E72C46"
+					item: { Count: 86, id: "bloodmagic:blankrune" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 13.0d
+			y: -17.5d
 		}
 	]
 	title: "EV Age"

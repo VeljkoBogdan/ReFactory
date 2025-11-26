@@ -10,7 +10,11 @@
 	quests: [
 		{
 			dependencies: ["498EF8FFD105D589"]
-			description: ["Welcome to the MV age!"]
+			description: [
+				"Welcome to the MV age!"
+				""
+				"Here, you'll unlock the full potential of machines (mainly the extruder). You'll do your first couple of chemical and material lines, and will do more and harder Botania as you progress into HV."
+			]
 			disable_toast: true
 			icon: "gtceu:mv_machine_hull"
 			id: "630A813B0F4DA078"
@@ -35,7 +39,7 @@
 				item: "gtceu:mv_electric_motor"
 				type: "item"
 			}]
-			x: 1.5d
+			x: 0.0d
 			y: 0.0d
 		}
 		{
@@ -48,11 +52,12 @@
 				item: "gtceu:mv_electric_piston"
 				type: "item"
 			}]
-			x: 7.5d
+			x: 4.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["4F74168E48A8348E"]
+			description: ["Used in recipes and as a machine cover."]
 			id: "41D7CFAE222CAE64"
 			shape: "gear"
 			size: 1.5d
@@ -61,33 +66,20 @@
 				item: "gtceu:mv_electric_pump"
 				type: "item"
 			}]
-			x: 1.5d
+			x: 0.0d
 			y: -3.0d
 		}
 		{
 			dependencies: ["4F74168E48A8348E"]
 			id: "19FF64B61527ED5A"
-			size: 1.5d
+			size: 1.0d
 			tasks: [{
 				id: "2F07897A896FBE8A"
 				item: "gtceu:mv_conveyor_module"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 7.5d
-		}
-		{
-			dependencies: ["2D86BD3AE9C7AB6B"]
-			id: "034D2646EC37C967"
-			shape: "gear"
-			size: 1.5d
-			tasks: [{
-				id: "6B0A8DAA9396E2E6"
-				item: "gtceu:mv_robot_arm"
-				type: "item"
-			}]
-			x: 12.75d
-			y: 0.0d
+			x: 0.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["2D86BD3AE9C7AB6B"]
@@ -104,57 +96,11 @@
 				item: "gtceu:mv_extruder"
 				type: "item"
 			}]
-			x: 6.0d
+			x: 3.0d
 			y: -1.5d
 		}
 		{
-			dependencies: ["40949CE64C6F886A"]
-			description: ["These are all comonly used molds for the extruder."]
-			icon: "gtceu:rotor_extruder_mold"
-			id: "0E1912B77BD360EC"
-			size: 1.0d
-			tasks: [
-				{
-					id: "61F68E070AC01A44"
-					item: "gtceu:rod_extruder_mold"
-					type: "item"
-				}
-				{
-					id: "6FC64A7A32824C55"
-					item: "gtceu:bolt_extruder_mold"
-					type: "item"
-				}
-				{
-					id: "2DE0C309329498B2"
-					item: "gtceu:ring_extruder_mold"
-					type: "item"
-				}
-				{
-					id: "40CA721DF9545495"
-					item: "gtceu:cell_extruder_mold"
-					type: "item"
-				}
-				{
-					id: "5F7933C282763EE2"
-					item: "gtceu:gear_extruder_mold"
-					type: "item"
-				}
-				{
-					id: "439897F0D1B6CDAE"
-					item: "gtceu:small_gear_extruder_mold"
-					type: "item"
-				}
-				{
-					id: "6C1BD9A15E1FE9A3"
-					item: "gtceu:rotor_extruder_mold"
-					type: "item"
-				}
-			]
-			x: 6.0d
-			y: -3.0d
-		}
-		{
-			dependencies: ["034D2646EC37C967"]
+			dependencies: ["2D86BD3AE9C7AB6B"]
 			description: ["Very useful for a lot of stuff, trust me!"]
 			id: "45EC6B51678C5FDB"
 			size: 1.0d
@@ -163,13 +109,13 @@
 				item: "gtceu:mv_assembler"
 				type: "item"
 			}]
-			x: 15.0d
+			x: 6.0d
 			y: 0.0d
 		}
 		{
 			dependencies: [
 				"2CD891A182DBFE28"
-				"1DF08C90B56E3423"
+				"2B92683848576A1A"
 			]
 			description: ["Very useful item that is cut into wafers, used to craft various parts of electronic circuits."]
 			id: "1984444D466E8EEF"
@@ -180,14 +126,14 @@
 				type: "loot"
 			}]
 			shape: "gear"
-			size: 1.5d
+			size: 1.0d
 			tasks: [{
 				id: "1AD796DD9F693082"
 				item: "gtceu:silicon_boule"
 				type: "item"
 			}]
-			x: 4.5d
-			y: 7.5d
+			x: -1.5d
+			y: 4.5d
 		}
 		{
 			dependencies: [
@@ -201,8 +147,8 @@
 				item: "gtceu:ulpic_chip"
 				type: "item"
 			}]
-			x: -1.5d
-			y: 13.5d
+			x: 4.5d
+			y: 7.5d
 		}
 		{
 			dependencies: [
@@ -216,8 +162,8 @@
 				item: "gtceu:ram_chip"
 				type: "item"
 			}]
-			x: 24.5d
-			y: 13.5d
+			x: 10.5d
+			y: 7.5d
 		}
 		{
 			dependencies: [
@@ -234,14 +180,14 @@
 				type: "loot"
 			}]
 			shape: "gear"
-			size: 1.5d
+			size: 1.0d
 			tasks: [{
 				id: "3492B74BAED620F9"
 				item: "gtceu:mv_laser_engraver"
 				type: "item"
 			}]
-			x: 7.5d
-			y: 7.5d
+			x: 4.5d
+			y: 4.5d
 		}
 		{
 			dependencies: [
@@ -255,8 +201,8 @@
 				item: "gtceu:ilc_chip"
 				type: "item"
 			}]
-			x: 18.5d
-			y: 13.5d
+			x: 7.5d
+			y: 7.5d
 		}
 		{
 			dependencies: ["7FA2594B75A44E70"]
@@ -265,6 +211,7 @@
 				""
 				"Stainless Steel and Kanthal require HV to smelt."
 			]
+			hide_dependent_lines: true
 			id: "6DDF9D316DE9DCF7"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -280,8 +227,8 @@
 				item: "gtceu:mv_energy_input_hatch"
 				type: "item"
 			}]
-			x: -1.5d
-			y: 12.0d
+			x: 4.5d
+			y: 6.0d
 		}
 		{
 			dependencies: [
@@ -297,15 +244,15 @@
 				type: "loot"
 			}]
 			shape: "gear"
-			size: 1.5d
+			size: 1.25d
 			tasks: [{
 				id: "3A7C56391AFB4016"
 				item: "gtceu:basic_integrated_circuit"
 				type: "item"
 			}]
 			title: "Second LV Circuit"
-			x: 18.5d
-			y: 12.0d
+			x: 7.5d
+			y: 6.0d
 		}
 		{
 			dependencies: [
@@ -322,27 +269,28 @@
 				type: "loot"
 			}]
 			shape: "gear"
-			size: 1.5d
+			size: 1.25d
 			tasks: [{
 				id: "67BFE8216EBD08CB"
 				item: "gtceu:advanced_integrated_circuit"
 				type: "item"
 			}]
 			title: "First HV Circuit"
-			x: 24.5d
-			y: 12.0d
+			x: 10.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["1B3FDC526DA1F37A"]
+			hide_dependent_lines: true
 			id: "0F53A979A0A20B60"
-			size: 1.5d
+			size: 1.0d
 			tasks: [{
 				id: "1848D98EB1282464"
 				item: "gtceu:mv_emitter"
 				type: "item"
 			}]
 			x: -6.0d
-			y: 7.5d
+			y: 4.5d
 		}
 		{
 			dependencies: [
@@ -363,16 +311,17 @@
 				item: "gtceu:transistor"
 				type: "item"
 			}]
-			x: 24.5d
-			y: -2.0d
+			x: 10.5d
+			y: 1.5d
 		}
 		{
-			dependencies: ["1FFBE42450E3D964"]
+			dependencies: ["0A6A88F07A82E229"]
 			description: [
 				"Put the hot ingot into the chemical bath with some water or distilled water and you get yourself a cool and nice Kanthal Ingot."
 				""
 				"Note that you will need an EBF overclocked to HV."
 			]
+			hide_dependency_lines: true
 			id: "0BB13F96B93699A8"
 			size: 1.0d
 			tasks: [{
@@ -380,24 +329,7 @@
 				item: "gtceu:kanthal_ingot"
 				type: "item"
 			}]
-			x: 26.5d
-			y: 0.0d
-		}
-		{
-			dependencies: ["0A6A88F07A82E229"]
-			description: [
-				"Kanthal is a mix of Aluminium, Chromium and Iron."
-				""
-				"You'll need it for the next set of coils."
-			]
-			id: "1FFBE42450E3D964"
-			size: 1.0d
-			tasks: [{
-				id: "0A874F2BB5948FAB"
-				item: "gtceu:kanthal_dust"
-				type: "item"
-			}]
-			x: 26.5d
+			x: 10.5d
 			y: 3.0d
 		}
 		{
@@ -415,7 +347,7 @@
 				type: "loot"
 			}]
 			shape: "gear"
-			size: 1.5d
+			size: 1.0d
 			tasks: [{
 				id: "32A66118BD33885F"
 				item: "gtceu:chromium_dust"
@@ -449,11 +381,12 @@
 				item: "gtceu:kanthal_coil_block"
 				type: "item"
 			}]
-			x: 21.5d
-			y: 0.0d
+			x: 9.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["19FF64B61527ED5A"]
+			description: ["Makes Chemicals nice and clean."]
 			hide_dependent_lines: true
 			id: "7BD97DC4C3DE7F11"
 			size: 1.0d
@@ -463,12 +396,13 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: 9.0d
+			y: 6.0d
 		}
 		{
 			dependencies: [
-				"53A05923F8895595"
 				"6DDF9D316DE9DCF7"
+				"0A6A88F07A82E229"
+				"165F2F4FC6F0C6F6"
 			]
 			description: ["Make sure to craft a considerable amount."]
 			id: "0F53EFB5D7D2C329"
@@ -479,46 +413,31 @@
 				type: "loot"
 			}]
 			shape: "gear"
-			size: 1.5d
+			size: 1.0d
 			tasks: [{
 				id: "44F006E9A08BD5DC"
 				item: "gtceu:stainless_steel_ingot"
 				type: "item"
 			}]
-			x: -1.5d
-			y: 10.5d
-		}
-		{
-			dependencies: [
-				"0A6A88F07A82E229"
-				"165F2F4FC6F0C6F6"
-			]
-			description: ["Stainless steel is an important material in HV."]
-			id: "53A05923F8895595"
-			size: 1.0d
-			tasks: [{
-				id: "39A7D0F31DC2F7B9"
-				item: "gtceu:stainless_steel_dust"
-				type: "item"
-			}]
-			x: -1.5d
-			y: 9.0d
+			x: 6.0d
+			y: 3.0d
 		}
 		{
 			dependencies: [
 				"0F53EFB5D7D2C329"
 				"4B15C0711FA98FAB"
 			]
+			description: ["Required to make all HV machines."]
 			id: "6AB3F08490774D51"
 			shape: "gear"
-			size: 1.0d
+			size: 1.5d
 			tasks: [{
 				id: "03D8A40305A6B956"
 				item: "gtceu:hv_machine_hull"
 				type: "item"
 			}]
-			x: 4.5d
-			y: 10.5d
+			x: 6.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["164045DB94B2D221"]
@@ -540,7 +459,7 @@
 				type: "loot"
 			}]
 			shape: "gear"
-			size: 1.0d
+			size: 1.5d
 			tasks: [
 				{
 					id: "75B1624D785AF96C"
@@ -569,7 +488,7 @@
 				}
 			]
 			title: "Clay Electrolyzing"
-			x: -3.0d
+			x: -4.5d
 			y: 4.5d
 		}
 		{
@@ -589,13 +508,14 @@
 				item: "gtceu:mv_fluid_drilling_rig"
 				type: "item"
 			}]
-			x: 11.5d
+			x: 3.0d
 			y: 4.5d
 		}
 		{
 			dependencies: [
 				"0A6A88F07A82E229"
 				"58182BED80498B0A"
+				"165F2F4FC6F0C6F6"
 			]
 			description: [
 				"A very good tool material!"
@@ -616,13 +536,18 @@
 				item: "gtceu:vanadium_steel_ingot"
 				type: "item"
 			}]
-			x: 10.0d
+			x: 1.5d
 			y: 3.0d
 		}
 		{
 			dependencies: ["630A813B0F4DA078"]
 			description: ["MV tier batteries, they hold more power."]
 			id: "6C8851F7FB2FC344"
+			rewards: [{
+				id: "2E1EFCBE48F4A0CA"
+				item: "kubejs:refactory_coin"
+				type: "item"
+			}]
 			size: 1.0d
 			tasks: [{
 				id: "03729A27F4FFDAC7"
@@ -636,6 +561,11 @@
 			dependencies: ["630A813B0F4DA078"]
 			description: ["Super Chest was so good they made the Super Chest II"]
 			id: "1C8B355A01AB6CFB"
+			rewards: [{
+				id: "39420B7E9461B41D"
+				item: "kubejs:refactory_coin"
+				type: "item"
+			}]
 			size: 1.0d
 			tasks: [{
 				id: "7E95B32DC151D587"
@@ -654,8 +584,8 @@
 				item: "gtceu:mv_super_tank"
 				type: "item"
 			}]
-			x: 26.5d
-			y: -6.0d
+			x: 12.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["4B15C0711FA98FAB"]
@@ -671,8 +601,8 @@
 				item: "gtceu:terralumina_ingot"
 				type: "item"
 			}]
-			x: 21.5d
-			y: 10.5d
+			x: 9.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["630A813B0F4DA078"]
@@ -681,8 +611,13 @@
 				""
 				"Great for manually moving fluid from machine to machine."
 			]
-			hide_dependency_lines: true
+			hide_dependency_lines: false
 			id: "3DFBF4299BAB12B5"
+			rewards: [{
+				id: "715BE57DA1B44385"
+				item: "kubejs:refactory_coin"
+				type: "item"
+			}]
 			size: 1.0d
 			tasks: [{
 				id: "5BA13D61663773F8"
@@ -718,7 +653,7 @@
 				item: "botania:terra_plate"
 				type: "item"
 			}]
-			x: 18.5d
+			x: 7.5d
 			y: 0.0d
 		}
 		{
@@ -733,6 +668,11 @@
 				"&eRemember to chunk load them!&r"
 			]
 			id: "2A693A123793F7E8"
+			rewards: [{
+				id: "4EDE45EF17B449D0"
+				item: "kubejs:refactory_coin"
+				type: "item"
+			}]
 			shape: "hexagon"
 			size: 1.0d
 			tasks: [{
@@ -773,14 +713,13 @@
 				item: "gtceu:mv_circuit_assembler"
 				type: "item"
 			}]
-			x: 28.0d
-			y: 12.0d
+			x: 12.0d
+			y: 6.0d
 		}
 		{
 			dependencies: [
 				"42565F2AB5AC211C"
 				"7E7F3081B25D024D"
-				"681A9E7EB66C71D2"
 			]
 			description: [
 				"A very important resource for progressing though MV."
@@ -794,17 +733,24 @@
 				item: "botania:terrasteel_ingot"
 				type: "item"
 			}]
-			x: 18.5d
-			y: 10.5d
+			x: 7.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["630A813B0F4DA078"]
 			description: [
 				"Faster Coke."
 				""
+				"Can be used to get more Creosote."
+				""
 				"Also grants byproducts that can be useful later."
 			]
 			id: "49322CC369C75E67"
+			rewards: [{
+				id: "3C637FBCBF430569"
+				item: "kubejs:refactory_coin"
+				type: "item"
+			}]
 			shape: "hexagon"
 			size: 1.0d
 			tasks: [{
@@ -832,7 +778,7 @@
 				item: "gtceu:crystal_puller"
 				type: "item"
 			}]
-			x: 1.5d
+			x: 0.0d
 			y: 4.5d
 		}
 		{
@@ -885,7 +831,7 @@
 				item: "gtceu:polyethylene_bucket"
 				type: "item"
 			}]
-			x: 19.0d
+			x: 10.5d
 			y: -6.0d
 		}
 		{
@@ -910,12 +856,13 @@
 				item: "gtceu:ethylene_bucket"
 				type: "item"
 			}]
-			x: 1.5d
+			x: 0.0d
 			y: -6.0d
 		}
 		{
 			dependencies: ["05D3C898EBC0480D"]
 			description: ["This is an alternative way to make Ethylene, but requires Oil, distilling it, cracking and then distilling again."]
+			icon: "gtceu:light_fuel_bucket"
 			id: "7A0E8F91B933845A"
 			size: 1.0d
 			tasks: [{
@@ -923,13 +870,18 @@
 				item: "gtceu:light_fuel_bucket"
 				type: "item"
 			}]
-			x: 1.5d
+			x: 0.0d
 			y: -4.5d
 		}
 		{
 			dependencies: ["630A813B0F4DA078"]
 			description: ["This will allow you to electrolyze clay dust, which is incredibly useful for generating infinite Aluminium!"]
 			id: "164045DB94B2D221"
+			rewards: [{
+				id: "68C79BA34900FA0B"
+				item: "kubejs:refactory_coin"
+				type: "item"
+			}]
 			size: 1.0d
 			tasks: [{
 				id: "2A4A63FE1201A3A4"
@@ -947,13 +899,18 @@
 				"Polyethylene is a very important material."
 			]
 			id: "05D3C898EBC0480D"
+			rewards: [{
+				id: "530F9874390ED447"
+				item: "kubejs:refactory_coin"
+				type: "item"
+			}]
 			size: 1.0d
 			tasks: [{
 				id: "13C02931FE8E1CE6"
 				item: "gtceu:mv_distillery"
 				type: "item"
 			}]
-			x: 0.0d
+			x: -1.5d
 			y: -4.5d
 		}
 		{
@@ -966,7 +923,7 @@
 				item: "gtceu:polyvinyl_chloride_bucket"
 				type: "item"
 			}]
-			x: 24.5d
+			x: 12.0d
 			y: -6.0d
 		}
 		{
@@ -974,7 +931,7 @@
 				"6EA539D38718E106"
 				"664234AA516DD4DD"
 			]
-			description: ["OPTIONAL"]
+			description: [""]
 			id: "3DA8858F820F6615"
 			optional: true
 			size: 1.0d
@@ -983,8 +940,8 @@
 				item: "gtceu:simple_soc"
 				type: "item"
 			}]
-			x: 11.5d
-			y: 12.0d
+			x: -3.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["3DA8858F820F6615"]
@@ -997,8 +954,8 @@
 				item: "gtceu:nand_chip"
 				type: "item"
 			}]
-			x: 13.0d
-			y: 12.0d
+			x: -3.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["630A813B0F4DA078"]
@@ -1008,6 +965,11 @@
 				"The alternative is the Greenhouse, which will require a bit more work and power, but provides much more."
 			]
 			id: "77EFB9F7E591E14A"
+			rewards: [{
+				id: "16E652F6F068E157"
+				item: "kubejs:refactory_coin"
+				type: "item"
+			}]
 			size: 1.0d
 			tasks: [{
 				id: "0B8DDAA68FC826B1"
@@ -1021,6 +983,11 @@
 			dependencies: ["0F53EFB5D7D2C329"]
 			description: ["Now you can craft some basic Thermal Series machines! They can become very useful."]
 			id: "004C0B7EEAEFD76C"
+			rewards: [{
+				id: "3EB181FBCD1A4A39"
+				item: "kubejs:refactory_coin"
+				type: "item"
+			}]
 			size: 1.0d
 			tasks: [{
 				id: "2283DF6D72733250"
@@ -1028,8 +995,8 @@
 				type: "item"
 			}]
 			title: "Welcome to Thermal!"
-			x: -3.0d
-			y: 10.5d
+			x: 6.0d
+			y: 1.5d
 		}
 		{
 			dependencies: [
@@ -1042,6 +1009,11 @@
 				"An alternative is the Phytogenic Insolator, which uses less power and is much cheaper, but also produces less."
 			]
 			id: "5D5572F284DFA0DC"
+			rewards: [{
+				id: "15A30BD7BB0BBFA0"
+				item: "kubejs:refactory_coin"
+				type: "item"
+			}]
 			size: 1.0d
 			tasks: [{
 				id: "3055B41183780133"
@@ -1066,14 +1038,14 @@
 				type: "loot"
 			}]
 			shape: "gear"
-			size: 1.5d
+			size: 1.25d
 			tasks: [{
 				id: "735D9F9612F9F06E"
 				item: "gtceu:good_integrated_circuit"
 				type: "item"
 			}]
-			x: 21.5d
-			y: 12.0d
+			x: 9.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["7F1B572D2F1C1D75"]
@@ -1088,7 +1060,7 @@
 				}
 				type: "item"
 			}]
-			x: 7.5d
+			x: 4.5d
 			y: -4.5d
 		}
 		{
@@ -1100,7 +1072,7 @@
 				item: "gtceu:lv_super_tank"
 				type: "item"
 			}]
-			x: 19.0d
+			x: 9.0d
 			y: -4.5d
 		}
 		{
@@ -1124,7 +1096,7 @@
 				item: "gtceu:mv_lathe"
 				type: "item"
 			}]
-			x: 7.5d
+			x: 4.5d
 			y: -1.5d
 		}
 		{
@@ -1135,19 +1107,25 @@
 				item: "gtceu:glass_lens"
 				type: "item"
 			}]
-			x: 7.5d
+			x: 4.5d
 			y: -3.0d
 		}
 		{
 			dependencies: ["4F74168E48A8348E"]
 			description: ["Pretty good upgrade, you'll use this machine a lot."]
 			id: "52A0A461231A7B89"
+			rewards: [{
+				count: 2
+				id: "6B346A363675AA27"
+				item: "kubejs:refactory_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "73973CFCEB1C97D5"
 				item: "gtceu:mv_wiremill"
 				type: "item"
 			}]
-			x: 0.0d
+			x: -3.0d
 			y: 1.5d
 		}
 		{
@@ -1159,7 +1137,7 @@
 				item: "gtceu:mv_bender"
 				type: "item"
 			}]
-			x: 9.0d
+			x: 6.0d
 			y: -1.5d
 		}
 		{
@@ -1176,13 +1154,19 @@
 		}
 		{
 			dependencies: ["41D7CFAE222CAE64"]
+			description: ["Allows turning dusts into gems."]
 			id: "2921A5F181BF61CB"
+			rewards: [{
+				id: "48B8D14BA4722217"
+				item: "kubejs:refactory_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "4D4335199769AB4C"
 				item: "gtceu:mv_autoclave"
 				type: "item"
 			}]
-			x: 0.0d
+			x: -1.5d
 			y: -1.5d
 		}
 		{
@@ -1192,13 +1176,15 @@
 				""
 				"Now you can cut the Silicon Boule into Silicon Wafers."
 			]
+			hide_dependency_lines: false
+			hide_dependent_lines: true
 			id: "12FEA88FD0D52D02"
 			tasks: [{
 				id: "449047B9655EC577"
 				item: "gtceu:mv_cutter"
 				type: "item"
 			}]
-			x: 10.0d
+			x: 1.5d
 			y: 4.5d
 		}
 		{
@@ -1213,34 +1199,16 @@
 				item: "gtceu:silicon_wafer"
 				type: "item"
 			}]
-			x: 10.0d
-			y: 13.5d
-		}
-		{
-			dependencies: ["2B92683848576A1A"]
-			id: "66949CA86F4019C4"
-			tasks: [{
-				id: "424D20EE7A0217E7"
-				item: "kubejs:single_crystal_silicon"
-				type: "item"
-			}]
-			x: 4.5d
-			y: 4.5d
-		}
-		{
-			dependencies: ["66949CA86F4019C4"]
-			id: "1DF08C90B56E3423"
-			tasks: [{
-				id: "4160EDD0AF70B307"
-				item: "kubejs:seed_crystal"
-				type: "item"
-			}]
-			x: 4.5d
-			y: 6.0d
+			x: -1.5d
+			y: 7.5d
 		}
 		{
 			dependencies: ["630A813B0F4DA078"]
-			description: ["Throw an Ender Pearl into a Mana Pool and you'll get a Mana Pearl."]
+			description: [
+				"Throw an Ender Pearl into a Mana Pool and you'll get a Mana Pearl."
+				""
+				"&bYou can use an Ender Lilly to get a large amount of Ender Pearls.&r"
+			]
 			hide_dependency_lines: true
 			id: "7E7F3081B25D024D"
 			tasks: [{
@@ -1248,8 +1216,8 @@
 				item: "botania:mana_pearl"
 				type: "item"
 			}]
-			x: 17.0d
-			y: 9.0d
+			x: 7.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["06237D88B05BE55D"]
@@ -1283,7 +1251,7 @@
 					type: "item"
 				}
 			]
-			x: 18.5d
+			x: 7.5d
 			y: -1.5d
 		}
 		{
@@ -1295,8 +1263,8 @@
 				item: "gtceu:mv_centrifuge"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 1.5d
+			x: 1.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["4F74168E48A8348E"]
@@ -1307,24 +1275,37 @@
 				item: "gtceu:mv_chemical_reactor"
 				type: "item"
 			}]
-			x: 3.0d
+			x: 1.5d
 			y: -3.0d
 		}
 		{
 			dependencies: ["41D7CFAE222CAE64"]
+			description: ["The function is in the name..."]
 			id: "2F9EC13841F53B9F"
+			rewards: [{
+				id: "5D243E46F14DF05E"
+				item: "kubejs:refactory_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "5A4A8064AA04A771"
 				item: "gtceu:mv_fluid_solidifier"
 				type: "item"
 			}]
-			x: 0.0d
+			x: -1.5d
 			y: -3.0d
 		}
 		{
 			dependencies: ["4F74168E48A8348E"]
-			description: ["Will allow you to make Stainless Steel Dust"]
+			description: ["Will allow you to make Stainless Steel Dust, among other things."]
+			hide_dependent_lines: true
 			id: "165F2F4FC6F0C6F6"
+			rewards: [{
+				id: "3C9C3B742F584032"
+				item: "kubejs:refactory_coin"
+				type: "item"
+			}]
+			shape: "gear"
 			tasks: [{
 				id: "3EDBF26649864AE7"
 				item: "gtceu:mv_mixer"
@@ -1341,8 +1322,8 @@
 				item: "gtceu:silicon_ingot"
 				type: "item"
 			}]
-			x: 21.5d
-			y: -2.0d
+			x: 9.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["1684FC383823BFAE"]
@@ -1354,8 +1335,8 @@
 				item: "gtceu:sodium_persulfate_bucket"
 				type: "item"
 			}]
-			x: 4.5d
-			y: -4.0d
+			x: 3.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["1684FC383823BFAE"]
@@ -1367,8 +1348,8 @@
 				item: "gtceu:iron_iii_chloride_bucket"
 				type: "item"
 			}]
-			x: 4.5d
-			y: -2.0d
+			x: 3.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["630A813B0F4DA078"]
@@ -1393,62 +1374,9 @@
 				item: { Count: 4, id: "gtceu:electric_blast_furnace" }
 				type: "item"
 			}]
+			title: "More blast furnaces"
 			x: -3.0d
-			y: 1.5d
-		}
-		{
-			dependencies: ["630A813B0F4DA078"]
-			description: [
-				"In order to make Ender Pearls in the early stages, you can use Ender Lillys!"
-				""
-				"You'll need this spore to craft the Ender Seeds."
-			]
-			hide_dependency_lines: true
-			id: "519A2EEDD7D4E686"
-			optional: true
-			rewards: [{
-				count: 4
-				id: "0CEF78E2216E81C5"
-				item: "minecraft:ender_pearl"
-				type: "item"
-			}]
-			tasks: [{
-				id: "3099C1F9680EACFC"
-				item: "botania:mycelium_seeds"
-				type: "item"
-			}]
-			x: 14.0d
-			y: 9.0d
-		}
-		{
-			dependencies: ["630A813B0F4DA078"]
-			description: ["Drop a diamond into a Mana Pool and you'll get a Mana Diamond."]
-			hide_dependency_lines: true
-			id: "681A9E7EB66C71D2"
-			tasks: [{
-				id: "1932BD14412BAA36"
-				item: "botania:mana_diamond"
-				type: "item"
-			}]
-			x: 17.0d
-			y: 12.0d
-		}
-		{
-			dependencies: ["519A2EEDD7D4E686"]
-			description: [
-				"You can use these in combination with Botany Pots, which will allow you to plant the seeds in dirt."
-				""
-				"It takes around 3 minutes for an Ender Lilly to grow fully, with the least time taken when using Farmland."
-			]
-			id: "4130F00F608F0D3B"
-			optional: true
-			tasks: [{
-				id: "4AA200FDEF5E9C69"
-				item: "endercrop:ender_seeds"
-				type: "item"
-			}]
-			x: 15.5d
-			y: 9.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["630A813B0F4DA078"]
@@ -1484,6 +1412,7 @@
 		}
 		{
 			dependencies: ["630A813B0F4DA078"]
+			description: ["Runic altar is required to make certain Botania items, specifically runes."]
 			hide_dependency_lines: true
 			id: "06237D88B05BE55D"
 			tasks: [{
@@ -1491,7 +1420,7 @@
 				item: "botania:runic_altar"
 				type: "item"
 			}]
-			x: 18.5d
+			x: 7.5d
 			y: -3.0d
 		}
 		{
@@ -1503,7 +1432,7 @@
 				item: "gtceu:salt_water_bucket"
 				type: "item"
 			}]
-			x: 11.5d
+			x: 3.0d
 			y: 6.0d
 		}
 		{
@@ -1515,8 +1444,8 @@
 				item: "gtceu:phenolic_circuit_board"
 				type: "item"
 			}]
-			x: 21.5d
-			y: 16.0d
+			x: 12.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["4325A50ACCD5F941"]
@@ -1526,37 +1455,51 @@
 				item: "gtceu:phenolic_printed_circuit_board"
 				type: "item"
 			}]
-			x: 21.5d
-			y: 14.5d
+			x: 10.5d
+			y: 4.5d
 		}
 		{
 			dependencies: [
 				"5951A83C0CC6B27D"
 				"09D9CCA93670E139"
 			]
+			description: ["You can extract Vanadium from Vanadium Magnetite dust in a centrifuge."]
 			id: "58182BED80498B0A"
+			rewards: [{
+				id: "49F4968A10398991"
+				item: "kubejs:refactory_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "602DEA7D26A0E768"
 				item: "gtceu:vanadium_dust"
 				type: "item"
 			}]
-			x: 10.0d
+			x: 1.5d
 			y: 1.5d
 		}
 		{
-			dependencies: ["58182BED80498B0A"]
+			dependencies: [
+				"58182BED80498B0A"
+				"165F2F4FC6F0C6F6"
+			]
 			description: [
 				"A very sturdy and good material for GT Tools."
 				""
 				"Has built-in Fortune III"
 			]
 			id: "35681D2652009E7F"
+			rewards: [{
+				id: "447A80C68EE93D59"
+				item: "kubejs:refactory_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "7C742041160B99D9"
 				item: "gtceu:damascus_steel_ingot"
 				type: "item"
 			}]
-			x: 11.5d
+			x: 3.0d
 			y: 1.5d
 		}
 	]

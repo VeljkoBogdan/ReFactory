@@ -10,7 +10,11 @@
 	quests: [
 		{
 			dependencies: ["62B56B57D291BF7B"]
-			description: ["Welcome to the LV age, now you have power, and access to basic machines."]
+			description: [
+				"Welcome to the LV age, now you have power, and access to basic machines."
+				""
+				"In this tier, you will be modernizing your machines, creating your first energy source, and progressing through early stages of Botania."
+			]
 			disable_toast: true
 			icon: "gtceu:lv_machine_hull"
 			id: "35CB055A24346DE1"
@@ -53,7 +57,7 @@
 				item: "gtceu:lv_steam_turbine"
 				type: "item"
 			}]
-			x: 7.5d
+			x: 4.5d
 			y: -1.5d
 		}
 		{
@@ -90,7 +94,7 @@
 				item: "gtceu:lv_electric_motor"
 				type: "item"
 			}]
-			x: 12.0d
+			x: 7.5d
 			y: -3.0d
 		}
 		{
@@ -153,8 +157,8 @@
 				item: "gtceu:lv_bender"
 				type: "item"
 			}]
-			x: 10.5d
-			y: 1.5d
+			x: 9.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["1AD99F9620569AA4"]
@@ -177,8 +181,8 @@
 				item: "gtceu:lv_lathe"
 				type: "item"
 			}]
-			x: 13.5d
-			y: 1.5d
+			x: 9.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["298F63E0659E0FD6"]
@@ -223,8 +227,8 @@
 				item: "gtceu:lv_wiremill"
 				type: "item"
 			}]
-			x: 10.5d
-			y: -4.5d
+			x: 6.0d
+			y: -6.0d
 		}
 		{
 			dependencies: [
@@ -250,7 +254,7 @@
 				item: "gtceu:lv_assembler"
 				type: "item"
 			}]
-			x: 7.5d
+			x: 6.0d
 			y: 8.0d
 		}
 		{
@@ -269,8 +273,8 @@
 				item: "gtceu:lv_electric_piston"
 				type: "item"
 			}]
-			x: 12.0d
-			y: 3.0d
+			x: 7.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["03D3442F857F0592"]
@@ -286,7 +290,7 @@
 				item: "gtceu:lv_electric_furnace"
 				type: "item"
 			}]
-			x: 4.5d
+			x: 3.0d
 			y: 0.5d
 		}
 		{
@@ -305,7 +309,7 @@
 				item: "gtceu:lv_alloy_smelter"
 				type: "item"
 			}]
-			x: 3.0d
+			x: 1.5d
 			y: 0.5d
 		}
 		{
@@ -326,7 +330,7 @@
 				item: "gtceu:lv_arc_furnace"
 				type: "item"
 			}]
-			x: 7.5d
+			x: 6.0d
 			y: 0.5d
 		}
 		{
@@ -343,7 +347,7 @@
 				item: "gtceu:lv_autoclave"
 				type: "item"
 			}]
-			x: 19.5d
+			x: 13.5d
 			y: -1.5d
 		}
 		{
@@ -376,8 +380,8 @@
 				item: "gtceu:lv_centrifuge"
 				type: "item"
 			}]
-			x: 12.0d
-			y: -4.5d
+			x: 6.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["298F63E0659E0FD6"]
@@ -397,7 +401,7 @@
 				item: "gtceu:lv_chemical_reactor"
 				type: "item"
 			}]
-			x: 13.5d
+			x: 9.0d
 			y: -4.5d
 		}
 		{
@@ -422,8 +426,8 @@
 				item: "gtceu:lv_compressor"
 				type: "item"
 			}]
-			x: 13.5d
-			y: 3.0d
+			x: 10.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["03D3442F857F0592"]
@@ -439,7 +443,7 @@
 				item: "gtceu:lv_electrolyzer"
 				type: "item"
 			}]
-			x: 6.0d
+			x: 4.5d
 			y: 0.5d
 		}
 		{
@@ -458,7 +462,7 @@
 				item: "gtceu:lv_extractor"
 				type: "item"
 			}]
-			x: 19.5d
+			x: 13.5d
 			y: -4.5d
 		}
 		{
@@ -483,8 +487,8 @@
 				item: "gtceu:lv_extruder"
 				type: "item"
 			}]
-			x: 13.5d
-			y: 4.5d
+			x: 10.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["298F63E0659E0FD6"]
@@ -511,7 +515,7 @@
 				item: "gtceu:lv_mixer"
 				type: "item"
 			}]
-			x: 9.0d
+			x: 7.5d
 			y: -4.5d
 		}
 		{
@@ -532,8 +536,8 @@
 				item: "gtceu:lv_ore_washer"
 				type: "item"
 			}]
-			x: 12.0d
-			y: -6.0d
+			x: 6.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["35CB055A24346DE1"]
@@ -551,7 +555,7 @@
 				item: "gtceu:lv_battery_buffer_4x"
 				type: "item"
 			}]
-			x: -6.5d
+			x: -5.0d
 			y: -1.5d
 		}
 		{
@@ -582,7 +586,7 @@
 				item: "gtceu:lv_electric_pump"
 				type: "item"
 			}]
-			x: 18.0d
+			x: 12.0d
 			y: -3.0d
 		}
 		{
@@ -606,8 +610,8 @@
 				item: "gtceu:lv_robot_arm"
 				type: "item"
 			}]
-			x: 7.5d
-			y: 3.0d
+			x: 6.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["298F63E0659E0FD6"]
@@ -624,13 +628,13 @@
 				type: "loot"
 			}]
 			shape: "gear"
-			size: 1.5d
+			size: 1.0d
 			tasks: [{
 				id: "415DDFF88B9399DC"
 				item: "gtceu:lv_conveyor_module"
 				type: "item"
 			}]
-			x: 12.0d
+			x: 7.5d
 			y: 8.0d
 		}
 		{
@@ -674,7 +678,7 @@
 				item: "gtceu:lv_canner"
 				type: "item"
 			}]
-			x: 19.5d
+			x: 13.5d
 			y: -3.0d
 		}
 		{
@@ -701,7 +705,7 @@
 					type: "item"
 				}
 			]
-			x: 21.0d
+			x: 15.0d
 			y: -3.0d
 		}
 		{
@@ -745,8 +749,8 @@
 				type: "item"
 			}]
 			title: "Your Second Circuit"
-			x: 7.5d
-			y: 14.5d
+			x: 6.0d
+			y: 12.5d
 		}
 		{
 			dependencies: [
@@ -766,8 +770,8 @@
 				item: "gtceu:diode"
 				type: "item"
 			}]
-			x: 7.5d
-			y: 11.5d
+			x: 6.0d
+			y: 11.0d
 		}
 		{
 			dependencies: ["1AD99F9620569AA4"]
@@ -791,8 +795,8 @@
 				item: "gtceu:lv_forming_press"
 				type: "item"
 			}]
-			x: 10.5d
-			y: 6.0d
+			x: 9.0d
+			y: 6.5d
 		}
 		{
 			dependencies: [
@@ -814,8 +818,8 @@
 				item: "gtceu:phenolic_printed_circuit_board"
 				type: "item"
 			}]
-			x: 10.5d
-			y: 14.5d
+			x: 9.0d
+			y: 12.5d
 		}
 		{
 			dependencies: [
@@ -836,8 +840,8 @@
 				item: "gtceu:phenolic_circuit_board"
 				type: "item"
 			}]
-			x: 9.0d
-			y: 10.0d
+			x: 7.5d
+			y: 9.5d
 		}
 		{
 			dependencies: ["1AD99F9620569AA4"]
@@ -861,8 +865,8 @@
 				item: "gtceu:lv_rock_crusher"
 				type: "item"
 			}]
-			x: 10.5d
-			y: 4.5d
+			x: 9.0d
+			y: 5.0d
 		}
 		{
 			dependencies: [
@@ -961,14 +965,14 @@
 				type: "loot"
 			}]
 			shape: "gear"
-			size: 1.5d
+			size: 1.0d
 			tasks: [{
 				id: "7CB8E4F11B64A373"
 				item: "gtceu:aluminium_ingot"
 				type: "item"
 			}]
 			x: 0.0d
-			y: 16.0d
+			y: 14.0d
 		}
 		{
 			dependencies: ["62B56B57D291BF7B"]
@@ -983,7 +987,7 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: 16.0d
+			y: 14.0d
 		}
 		{
 			dependencies: [
@@ -998,6 +1002,7 @@
 				"One EBF requires 16 coils, unless it's wall-sharing with another EBF."
 			]
 			id: "4806751104224E6A"
+			size: 1.5d
 			tasks: [{
 				count: 16L
 				id: "62AFFC39EF5E36DC"
@@ -1006,7 +1011,7 @@
 			}]
 			title: "Coils"
 			x: 0.0d
-			y: 14.5d
+			y: 12.5d
 		}
 		{
 			dependencies: ["318CA73CE4C3DC3D"]
@@ -1092,8 +1097,8 @@
 				item: "gtceu:lv_circuit_assembler"
 				type: "item"
 			}]
-			x: 7.5d
-			y: 16.0d
+			x: 6.0d
+			y: 14.0d
 		}
 		{
 			dependencies: [
@@ -1124,11 +1129,11 @@
 				item: "gtceu:mv_machine_hull"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 16.0d
+			x: 1.5d
+			y: 14.0d
 		}
 		{
-			dependencies: ["35CB055A24346DE1"]
+			dependencies: ["74C94B5C7B866A34"]
 			description: [
 				"&9Maybe you want to convert EU to RF/FE or vice versa?&r"
 				""
@@ -1151,8 +1156,8 @@
 				type: "item"
 			}]
 			title: "Energy Conversion"
-			x: -6.5d
-			y: -4.5d
+			x: 4.5d
+			y: 6.5d
 		}
 		{
 			dependencies: ["0E1F6E844041CC9F"]
@@ -1169,8 +1174,8 @@
 				item: "gtceu:lv_super_chest"
 				type: "item"
 			}]
-			x: 1.5d
-			y: -1.5d
+			x: -1.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["6B22D87DF0CDC580"]
@@ -1186,8 +1191,8 @@
 				item: "gtceu:soldering_alloy_dust"
 				type: "item"
 			}]
-			x: 9.0d
-			y: 16.0d
+			x: 7.5d
+			y: 14.0d
 		}
 		{
 			dependencies: ["298F63E0659E0FD6"]
@@ -1208,7 +1213,7 @@
 				item: "gtceu:lv_cutter"
 				type: "item"
 			}]
-			x: 13.5d
+			x: 9.0d
 			y: -1.5d
 		}
 		{
@@ -1225,7 +1230,7 @@
 				item: "gtceu:lv_pump"
 				type: "item"
 			}]
-			x: 18.0d
+			x: 12.0d
 			y: -4.5d
 		}
 		{
@@ -1260,7 +1265,7 @@
 				item: "gtceu:rubber_bucket"
 				type: "item"
 			}]
-			x: 13.5d
+			x: 9.0d
 			y: -6.0d
 		}
 		{
@@ -1296,8 +1301,8 @@
 					type: "item"
 				}
 			]
-			x: 10.5d
-			y: 0.0d
+			x: 9.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["0E1F6E844041CC9F"]
@@ -1383,7 +1388,7 @@
 				item: "gtceu:lv_distillery"
 				type: "item"
 			}]
-			x: 16.5d
+			x: 10.5d
 			y: -1.5d
 		}
 		{
@@ -1408,8 +1413,8 @@
 				item: "gtceu:gallium_arsenide_dust"
 				type: "item"
 			}]
-			x: 8.5d
-			y: 11.5d
+			x: 7.5d
+			y: 11.0d
 		}
 		{
 			dependencies: ["01E6A51033DA1518"]
@@ -1426,8 +1431,8 @@
 				item: "gtceu:annealed_copper_ingot"
 				type: "item"
 			}]
-			x: 7.5d
-			y: 1.5d
+			x: 6.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["55D76A052A9EE6A0"]
@@ -1442,8 +1447,8 @@
 				item: "gtceu:mana_alloy_ingot"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 14.5d
+			x: 4.5d
+			y: 12.5d
 		}
 		{
 			dependencies: ["74C94B5C7B866A34"]
@@ -1460,8 +1465,8 @@
 				item: "botania:mana_pool"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 10.0d
+			x: 4.5d
+			y: 8.0d
 		}
 		{
 			dependencies: [
@@ -1476,7 +1481,7 @@
 				item: "gtceu:lubricant_bucket"
 				type: "item"
 			}]
-			x: 18.0d
+			x: 10.5d
 			y: 0.0d
 		}
 		{
@@ -1500,8 +1505,8 @@
 				item: "botania:manasteel_ingot"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 13.0d
+			x: 4.5d
+			y: 11.0d
 		}
 		{
 			dependencies: ["74C94B5C7B866A34"]
@@ -1517,8 +1522,8 @@
 				item: "gtceu:steel_fluid_cell"
 				type: "item"
 			}]
-			x: 9.0d
-			y: 6.0d
+			x: 7.5d
+			y: 6.5d
 		}
 		{
 			dependencies: ["7F7FA47652C0FA90"]
@@ -1534,7 +1539,7 @@
 				item: "gtceu:lv_item_magnet"
 				type: "item"
 			}]
-			x: 22.5d
+			x: 16.5d
 			y: -3.0d
 		}
 		{
@@ -1547,7 +1552,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 17.5d
+			y: 15.5d
 		}
 		{
 			dependencies: ["44495C979D17EFD5"]
@@ -1575,8 +1580,8 @@
 				item: "thermal:device_water_gen"
 				type: "item"
 			}]
-			x: 21.0d
-			y: -1.5d
+			x: 13.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["0E1F6E844041CC9F"]
@@ -1644,7 +1649,7 @@
 				}
 				type: "item"
 			}]
-			x: 16.5d
+			x: 10.5d
 			y: -4.5d
 		}
 		{
@@ -1665,7 +1670,7 @@
 				item: "thermal:device_rock_gen"
 				type: "item"
 			}]
-			x: 1.5d
+			x: 3.0d
 			y: 2.0d
 		}
 		{
@@ -1677,11 +1682,11 @@
 				item: "gtceu:invar_ingot"
 				type: "item"
 			}]
-			x: 3.0d
+			x: 1.5d
 			y: 2.0d
 		}
 		{
-			dependencies: ["35CB055A24346DE1"]
+			dependencies: ["3217E715633CB5F3"]
 			description: [
 				"Pulls nearby items towards you!"
 				""
@@ -1704,8 +1709,8 @@
 				}
 				type: "item"
 			}]
-			x: -5.0d
-			y: -4.5d
+			x: 1.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["6C3A8FBF865AF3E0"]
@@ -1740,7 +1745,7 @@
 				item: "gtceu:lv_brewery"
 				type: "item"
 			}]
-			x: 18.0d
+			x: 12.0d
 			y: -1.5d
 		}
 		{
@@ -1769,8 +1774,8 @@
 				}
 			]
 			title: "Generating Mana"
-			x: 5.0d
-			y: 9.0d
+			x: 3.0d
+			y: 9.5d
 		}
 		{
 			dependencies: [
@@ -1807,8 +1812,8 @@
 				}
 			]
 			title: "Spreading Mana"
-			x: 5.0d
-			y: 11.0d
+			x: 1.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["4816A85DF7D24F0B"]
@@ -1830,7 +1835,7 @@
 				type: "item"
 			}]
 			x: 7.5d
-			y: -4.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["0E1F6E844041CC9F"]
@@ -1868,8 +1873,8 @@
 				item: "undergarden:catalyst"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 6.5d
+			x: 1.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["50A5F4983B628438"]
@@ -1892,8 +1897,8 @@
 				type: "dimension"
 			}]
 			title: "Visit The Undergarden"
-			x: 3.0d
-			y: 9.0d
+			x: 1.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["518756FCEA4DA67E"]
@@ -1904,8 +1909,8 @@
 				item: { Count: 16, id: "gtceu:raw_utherium" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: 11.0d
+			x: 1.5d
+			y: 6.5d
 		}
 		{
 			dependencies: [
@@ -1918,8 +1923,8 @@
 				item: "gtceu:mv_machine_casing"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 16.0d
+			x: 4.5d
+			y: 14.0d
 		}
 		{
 			dependencies: ["518756FCEA4DA67E"]
@@ -1937,8 +1942,8 @@
 				item: "minecraft:leather"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 9.0d
+			x: 3.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["35CB055A24346DE1"]
@@ -2021,19 +2026,6 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["01A0E9661BB0FDAB"]
-			description: ["Sparks can be placed on top of Mana Pools of any type, as well as Terrestrial Agglomeration Plates and Mana Enchanters, by right-clicking them. The Spark entity has a 25x25x25 functional range (radius 12) centered on itself. When a device with a Spark attached needs Mana, it will drain all Mana Pools with Sparks in its range."]
-			id: "05FB066A5E5CDD09"
-			tasks: [{
-				id: "3B9974B08ADA5BE6"
-				item: "botania:spark"
-				type: "item"
-			}]
-			title: "Wireless Mana"
-			x: 6.0d
-			y: 9.0d
-		}
-		{
 			dependencies: ["04B546A6C1D2C247"]
 			description: [
 				"Thanks to BlasmaTech, you can extract mana from flowers that produce mana by placing them on a pipe (the pipe has to already be facing up, be sure to wrench it if you can't place the flower)."
@@ -2055,8 +2047,8 @@
 				item: "blasmatech:mana_bucket"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 10.0d
+			x: 3.0d
+			y: 11.0d
 		}
 		{
 			dependencies: ["74C94B5C7B866A34"]
@@ -2080,8 +2072,8 @@
 					type: "item"
 				}
 			]
-			x: 6.0d
-			y: 6.0d
+			x: 4.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["44495C979D17EFD5"]
@@ -2092,8 +2084,19 @@
 				item: "refactorycore:lv_hydrator"
 				type: "item"
 			}]
-			x: 19.5d
+			x: 12.0d
 			y: 0.0d
+		}
+		{
+			dependencies: ["03D3442F857F0592"]
+			id: "3217E715633CB5F3"
+			tasks: [{
+				id: "2ADA52B9DBF6B26E"
+				item: "gtceu:lv_polarizer"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.5d
 		}
 	]
 	title: "LV Age"
