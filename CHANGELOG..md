@@ -1,4 +1,5 @@
 # 0.4
+- Questbook EV chapter rework
 - Added a custom panorama
 - Returned early game shovels
 - Made Damascus steel craftable
