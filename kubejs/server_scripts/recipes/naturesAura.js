@@ -93,4 +93,35 @@ ServerEvents.recipes(event => {
             C: goldPowder
         }
     )
+
+    // Gold Fiber
+    event.remove({id: 'naturesaura:gold_fiber'})
+    event.shaped(
+        '4x naturesaura:gold_fiber',
+        [
+            'ABA',
+            'BCB',
+            'ABA'
+        ],
+        {
+            A: '#minecraft:leaves',
+            B: 'gtceu:gold_dust',
+            C: 'biomesoplenty:dead_grass'
+        }
+    )
+
+    event.remove({id: 'naturesaura:gold_fiber'})
+    event.shaped(
+        '4x naturesaura:gold_fiber',
+        [
+            'ABA',
+            'BCB',
+            'ABA'
+        ],
+        {
+            A: '#minecraft:leaves',
+            B: 'gtceu:gold_dust',
+            C: 'biomesoplenty:desert_grass'
+        }
+    )
 })
