@@ -1,3 +1,6 @@
+# 0.4.1
+- Fixed grass softlock
+
 # 0.4
 - Questbook EV chapter rework
 - Added a custom panorama
