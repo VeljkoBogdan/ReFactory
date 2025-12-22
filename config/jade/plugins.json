@@ -93,6 +93,9 @@
     "ench": true,
     "spawner": true
   },
+  "functionalstorage": {
+    "armory": true
+  },
   "balm": {
     "jade": true
   },

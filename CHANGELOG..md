@@ -1,3 +1,6 @@
+# 0.4.2
+- Turned EMI dev mode off
+
 # 0.4.1
 - Fixed grass softlock
 
