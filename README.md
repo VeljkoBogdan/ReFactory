@@ -8,7 +8,7 @@
 
 ***
 
-### Overview
+<h3> Overview </h3>
 
 Start rebuilding the world by building massive factories and working through the GregTech tiers with the help of Botania. This is an expert modpack with custom recipes and content that make every step of progress feel challenging (and earned). But don't worry, the questbook will guide you through the progression, with handcrafted quests that will not only guide you, but also let you in on the tips and tricks. Search for resources among the planet, the underground, the sky and the stars, featuring dimension mods such as The Aether, The Undergarden and Ad Astra, each featuring resources required for progression. If you want a fresh, hard but rewarding experience, look no further!
 
@@ -16,7 +16,7 @@ Start rebuilding the world by building massive factories and working through the
 
 <div style="text-align:center"><img width="85%" src="https://u.cubeupload.com/IlluminatiJoe/Screenshot2025040912.png" alt="LV Age"><p>LV Age</p><img width="85%" src="https://u.cubeupload.com/IlluminatiJoe/142Screenshot2025040912.png" alt="MV Age"><p>MV Age</p><img width="85%" src="https://u.cubeupload.com/IlluminatiJoe/d72Screenshot2025040912.png" alt="HV Age"><p>HV Age</p></div>
 
-## Features
+<h3> Features </h3>
 
 *   Progress through the pack and make automated lines using GregTech with the help of EnderIO and Thermal Foundation
 *   Quests that guide you through the pack
@@ -35,5 +35,3 @@ Start rebuilding the world by building massive factories and working through the
 <div style="text-align:center"><img width="90%" src="https://u.cubeupload.com/IlluminatiJoe/20250414192955.png" alt="World Generation"><p>World Generation</p></div>
 
 <h1 style="text-align:center">CURRENTLY IN EARLY BETA, SUBJECT TO CHANGE</h1>
-
-***
