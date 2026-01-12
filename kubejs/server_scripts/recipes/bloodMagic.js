@@ -225,13 +225,13 @@ ServerEvents.recipes(event => {
     event.remove({id: 'bloodmagic:altar/magicianbloodorb'})
     // TODO: replace with a forEach later on
 
-    bloodmagic.altar('bloodmagic:weakbloodorb', 'gtceu:quantum_eye')
+    bloodmagic.altar('bloodmagic:weakbloodorb', 'ender_eye')
         .upgradeLevel(0)
         .consumptionRate(50)
         .drainRate(25)
         .altarSyphon(2000)
 
-    bloodmagic.altar('bloodmagic:apprenticebloodorb', 'gtceu:data_orb')
+    bloodmagic.altar('bloodmagic:apprenticebloodorb', 'gtceu:quantum_eye')
         .upgradeLevel(1)
         .consumptionRate(100)
         .drainRate(25)

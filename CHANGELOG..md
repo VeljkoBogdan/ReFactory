@@ -1,3 +1,6 @@
+# 0.5
+- Changed recipes of the weak and apprentice blood orbs to be more accessible in the early stages of EV
+
 # 0.4.2
 - Turned EMI dev mode off
 
