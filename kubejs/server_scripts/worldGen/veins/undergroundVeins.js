@@ -69,6 +69,22 @@ GTCEuServerEvents.oreVeins(event => {
         )
     })
 
+    event.add('zircon_vein_undergarden', vein => {
+        vein.layer('undergarden')
+        vein.weight(30)
+        vein.clusterSize(30)
+        vein.density(0.75)
+        vein.discardChanceOnAirExposure(0)
+        vein.heightRangeUniform(-20, 40)
+        vein.layeredVeinGenerator(generator => generator
+            .buildLayerPattern(pattern => pattern
+                .layer(l => l.weight(3).mat(GTMaterials.get('zircon')).size(3, 4))
+                .layer(l => l.weight(2).mat(GTMaterials.Monazite).size(1, 4))
+                .layer(l => l.weight(1).mat(GTMaterials.GarnetSand).size(1, 3))
+            )
+        )
+    })
+
 })
 
 // In server events

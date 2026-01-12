@@ -15,6 +15,7 @@
     "gtceu.mana_generator": "Mana Generator",
     "gtceu.terra_nexus": "Terrestrial Agglomeration",
     "gtceu.perfect_daisy": "Perfect Daisy",
+    "gtceu.nuclear_reactor": "Nuclear Reactor",
 
     "block.gtceu.proliferation_inducer": "§dProliferation Inducer",
     "block.gtceu.crystal_puller": "§bCrystal Puller",
@@ -23,6 +24,7 @@
     "block.gtceu.mana_generator": "Mana Generator",
     "block.gtceu.terra_nexus": "Terrestrial Agglomeration Nexus",
     "block.gtceu.perfect_daisy": "Perfect Daisy",
+    "block.gtceu.nuclear_reactor": "Nuclear Reactor",
 
     "material.gtceu.zanite": "Zanite",
     "material.gtceu.ambrosium": "Ambrosium",
@@ -64,6 +66,10 @@
     "material.gtceu.molten_elementium": "Molten Elementium",
     "material.gtceu.enderium": "Enderium",
     "material.gtceu.enriched_primal_sap": "Enriched Primal Sap",
+    "material.gtceu.boron_carbide": "Boron Carbide",
+    "material.gtceu.zircon": "Zircon",
+    "material.gtceu.zircaloy": "Zircaloy",
+    "material.gtceu.nuclear_waste": "Nuclear Waste",
 
     "material.gtceu.infused_iron": "Infused Iron",
     "material.gtceu.sky_ingot": "Sky Ingot",
@@ -108,7 +114,8 @@
     "gtceu.jei.ore_vein.copper_vein": "Copper Vein",
     "gtceu.jei.ore_vein.naquadah_vein": "Naquadah Vein",
     "gtceu.jei.ore_vein.ostrum_vein": "Ostrum Vein",
-    "gtceu.jei.ore_vein.sapphire_vein_undergarden": "Sapphire Vein UG",
+    "gtceu.jei.ore_vein.sapphire_vein_undergarden": "Sapphire Vein",
+    "gtceu.jei.ore_vein.zircon_vein_undergarden": "Zircon Vein",
 
     "item.gtceu.resin_circuit_board": "Livingwood Circuit Board",
     "item.gtceu.resin_circuit_board.tooltip": "§7Botanical Board",

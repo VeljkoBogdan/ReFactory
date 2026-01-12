@@ -1,0 +1,5 @@
+{
+  "ldlib": {
+    "connection": "kubejs:block/casings/nuclear_cladding_ctm"
+  }
+}
