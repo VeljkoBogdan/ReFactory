@@ -1,6 +1,3 @@
-const $BlastProperty = Java.loadClass('com.gregtechceu.gtceu.api.data.chemical.material.properties.BlastProperty');
-const $OreProperty = Java.loadClass('com.gregtechceu.gtceu.api.data.chemical.material.properties.OreProperty');
-
 GTCEuStartupEvents.registry('gtceu:material', event => {
 
     // Add Blast property to Platinum
