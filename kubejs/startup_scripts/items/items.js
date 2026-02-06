@@ -63,16 +63,6 @@ StartupEvents.registry('item', event => {
                 .alwaysEdible(true)
                 .effect("minecraft:wither", 20*20, 20, 100)
         })
-
-    ////// NUCLEAR ITEMS //////
-    event.create('uranium_fuel_rod')
-        .displayName('Uranium Fuel Rod')
-
-    event.create('thorium_fuel_rod')
-        .displayName('Thorium Fuel Rod')
-
-    event.create('plutonium_fuel_rod')
-        .displayName('Plutonium Fuel Rod')
 })
 
 global.IDontFeelGood = ctx => {

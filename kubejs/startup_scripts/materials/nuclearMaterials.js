@@ -38,10 +38,4 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
         GTMaterialFlags.GENERATE_ROD,
         GTMaterialFlags.GENERATE_FRAME
     )
-
-    event.create('nuclear_waste')
-    .dust()
-    .color(0x373d14)
-    .iconSet(GTMaterialIconSet.DULL)
-
 })
