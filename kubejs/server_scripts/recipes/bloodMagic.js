@@ -253,6 +253,7 @@ ServerEvents.recipes(event => {
         .altarSyphon(10000)
 
     event.recipes.gtceu.bloodforge('arcane_ashes')
+        .circuit(1)
         .input(LPCapability, 1000)
         .itemInputs('gtceu:mythic_compound_dust')
         .itemOutputs('bloodmagic:arcaneashes')
