@@ -35,6 +35,8 @@ GTCEuStartupEvents.registry('gtceu:tag_prefix', e => {
     createStoneTypeOre('ad_astra:venus_stone')
     createStoneTypeOre('ad_astra:mercury_stone')
     createStoneTypeOre('ad_astra:glacio_stone')
+
+    // Undergarden
     createStoneTypeOre('undergarden:depthrock')
     createStoneTypeOre('undergarden:shiverstone')
     // createStoneTypeOre('undergarden:sediment')

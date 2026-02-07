@@ -14,6 +14,11 @@ WorldgenEvents.remove((event) => {
             "ad_astra:mars_diamond_ore",
             "ad_astra:mars_ice_shard_ore",
             "ad_astra:mars_iron_ore",
+            "ad_astra:mercury_iron_ore",
+            "ad_astra:venus_calorite_ore",
+            "ad_astra:venus_coal_ore",
+            "ad_astra:venus_diamond_ore",
+            "ad_astra:venus_gold_ore",
             'undergarden:depthrock_coal_ore',
             'undergarden:shiverstone_coal_ore',
             'undergarden:depthrock_iron_ore',
@@ -27,7 +32,7 @@ WorldgenEvents.remove((event) => {
             'undergarden:depthrock_utherium_ore',
             'undergarden:shiverstone_utherium_ore',
             'undergarden:depthrock_regalium_ore',
-            'undergarden:shiverstone_regalium_ore',
+            'undergarden:shiverstone_regalium_ore'
         ]
     })
 
@@ -40,7 +45,12 @@ WorldgenEvents.remove((event) => {
         "ad_astra:mars_diamond_ore",
         "ad_astra:mars_ice_shard_ore",
         "ad_astra:mars_iron_ore",
-        "ad_astra:mars_ostrum_ore"
+        "ad_astra:mars_ostrum_ore",
+        "ad_astra:mercury_iron_ore",
+        "ad_astra:venus_calorite_ore",
+        "ad_astra:venus_coal_ore",
+        "ad_astra:venus_diamond_ore",
+        "ad_astra:venus_gold_ore"
     ])
     
     event.removeFeatureById('underground_ores', [
@@ -53,6 +63,11 @@ WorldgenEvents.remove((event) => {
         "ad_astra:mars_ice_shard_ore",
         "ad_astra:mars_iron_ore",
         "ad_astra:mars_ostrum_ore",
+        "ad_astra:mercury_iron_ore",
+        "ad_astra:venus_calorite_ore",
+        "ad_astra:venus_coal_ore",
+        "ad_astra:venus_diamond_ore",
+        "ad_astra:venus_gold_ore",
         'undergarden:depthrock_coal_ore',
         'undergarden:shiverstone_coal_ore',
         'undergarden:depthrock_iron_ore',
@@ -66,7 +81,7 @@ WorldgenEvents.remove((event) => {
         'undergarden:depthrock_utherium_ore',
         'undergarden:shiverstone_utherium_ore',
         'undergarden:depthrock_regalium_ore',
-        'undergarden:shiverstone_regalium_ore',
+        'undergarden:shiverstone_regalium_ore'
     ])
 
 })
