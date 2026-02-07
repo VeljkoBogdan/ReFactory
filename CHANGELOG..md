@@ -1,8 +1,11 @@
 # 0.5
 - Changed recipes of the weak and apprentice blood orbs to be more accessible in the early stages of EV
-- Added the Nuclear Reactor
+- Added the Nuclear Reactor, Cooling Tower, and Aura Altar multiblocks
 - Added Zircon ore in the Undergarden, along with Zirconium
 - Added Strontium
+- Wooden stands no longer require any tools to craft
+- Removed diluted pool recipe
+- Aether air centrifuging duration reduced, liquid air distillation duration increased
 
 # 0.4.2
 - Turned EMI dev mode off

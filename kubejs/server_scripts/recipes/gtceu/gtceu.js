@@ -266,7 +266,7 @@ ServerEvents.recipes(event => {
             Fluid.of('gtceu:fluorine', 4000),
             Fluid.of('gtceu:oxygen', 3500)
         )
-        .duration(20*80)
+        .duration(20*30)
         .EUt(GTValues.VA[GTValues.MV])
 
     event.recipes.gtceu.distillation_tower('liquid_aether_air_centrifuging')
@@ -278,7 +278,7 @@ ServerEvents.recipes(event => {
             Fluid.of('gtceu:helium', 16000),
             Fluid.of('gtceu:mistrium', 18000)
         )
-        .duration(20*10)
+        .duration(20*100)
         .EUt(GTValues.VA[GTValues.HV])
 
     // Aether air to liquid cooling
