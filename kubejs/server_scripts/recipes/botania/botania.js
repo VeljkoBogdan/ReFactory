@@ -729,4 +729,4 @@ ServerEvents.recipes(event => {
         .EUt(GTValues.VA[GTValues.LV] / 2)
 })
 
-yeet('botania:diluted_mana_pool')
+yeet('botania:diluted_pool')
