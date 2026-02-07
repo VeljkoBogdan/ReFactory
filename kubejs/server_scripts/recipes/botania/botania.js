@@ -22,6 +22,9 @@ ServerEvents.recipes(event => {
 	event.remove({ id: 'botania:apothecary_mossy' })
 	event.remove({ id: 'botania:apothecary_deepslate' })
 	event.remove({ id: 'botania:apothecary_livingrock' })
+
+    // Remove default grass seed recipe
+    event.remove({ id: 'botania:mana_infusion/grass_seeds' })
     
     // APOTHECARY
     event.shaped(

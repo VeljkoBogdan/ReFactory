@@ -122,4 +122,23 @@ ServerEvents.recipes(event => {
             C: 'biomesoplenty:desert_grass'
         }
     )
+
+    // Pasture Seed
+    naturesaura.tree_ritual(
+        'botania:grass_seeds',
+        [
+            'grass',
+            'bone_meal',
+            goldPowder,
+            'grass',
+            'bone_meal',
+            goldPowder,
+            'grass',
+            'bone_meal'
+        ]
+    )
+
+    // Exchange poppy and dandelion for pasture seeds in the ancient sapling recipe
+    event.replaceInput({id: 'naturesaura:tree_ritual/ancient_sapling'}, 'poppy', 'botania:grass_seeds')
+    event.replaceInput({id: 'naturesaura:tree_ritual/ancient_sapling'}, 'dandelion', 'botania:grass_seeds')
 })
