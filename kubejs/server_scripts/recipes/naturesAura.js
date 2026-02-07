@@ -48,15 +48,13 @@ ServerEvents.recipes(event => {
         'naturesaura:wood_stand',
         [
             'ABA',
-            'CDE',
+            'ADA',
             '   '
         ],
         {
             A: goldPowder,
             B: 'gtceu:gold_plate',
-            C: '#minecraft:axes',
-            D: '#minecraft:logs',
-            E: '#forge:tools/files'
+            D: '#minecraft:logs'
         }
     )
 
