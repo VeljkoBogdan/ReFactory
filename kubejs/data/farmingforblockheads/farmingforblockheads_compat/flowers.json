@@ -1,0 +1,52 @@
+{
+    "modId": "minecraft",
+    "group": {
+      "name": "Flowers",
+      "enabledByDefault": true,
+      "defaultPayment": {
+        "item": "minecraft:emerald"
+      },
+      "defaultCategory": "farmingforblockheads:other"
+    },
+    "customEntries": [
+      {
+        "output": "minecraft:dandelion"
+      },
+      {
+        "output": "minecraft:poppy"
+      },
+      {
+        "output": "minecraft:blue_orchid"
+      },
+      {
+        "output": "minecraft:allium"
+      },
+      {
+        "output": "minecraft:azure_bluet"
+      },
+      {
+        "output": "minecraft:red_tulip"
+      },
+      {
+        "output": "minecraft:orange_tulip"
+      },
+      {
+        "output": "minecraft:white_tulip"
+      },
+      {
+        "output": "minecraft:pink_tulip"
+      },
+      {
+        "output": "minecraft:cornflower"
+      },
+      {
+        "output": "minecraft:oxeye_daisy"
+      },
+      {
+        "output": "minecraft:lily_of_the_valley"
+      },
+      {
+        "output": "minecraft:sunflower"
+      }
+    ]
+}
