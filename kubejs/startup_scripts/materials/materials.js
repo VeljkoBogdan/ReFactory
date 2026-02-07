@@ -590,6 +590,18 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
         .fluid()
         .color(0x12ff65)
         .iconSet(GTMaterialIconSet.FLUID)
+
+    // Demonite
+    event.create('demonite')
+        .ingot()
+        .color(0xb7f0e6)
+        .iconSet(GTMaterialIconSet.METALLIC)
+        .flags(
+            GTMaterialFlags.GENERATE_PLATE,
+            GTMaterialFlags.GENERATE_ROD,
+            GTMaterialFlags.NO_ORE_SMELTING,
+            GTMaterialFlags.NO_SMELTING
+        )
 })
 
 GTCEuStartupEvents.materialModification(event => {
@@ -607,6 +619,9 @@ GTCEuStartupEvents.materialModification(event => {
     // Nature's Aura
     TagPrefix.ingot['setIgnored(com.gregtechceu.gtceu.api.data.chemical.material.Material,java.util.function.Supplier[])'](GTMaterials.get('infused_iron'), () => Item.getItem('naturesaura:infused_iron'))
     TagPrefix.ingot['setIgnored(com.gregtechceu.gtceu.api.data.chemical.material.Material,java.util.function.Supplier[])'](GTMaterials.get('sky_ingot'), () => Item.getItem('naturesaura:sky_ingot'))
+
+    // Blood Magic
+    TagPrefix.ingot['setIgnored(com.gregtechceu.gtceu.api.data.chemical.material.Material,java.util.function.Supplier[])'](GTMaterials.get('demonite'), () => Item.getItem('bloodmagic:ingot_hellforged'))
 
 
     // Adding desh byproducts
