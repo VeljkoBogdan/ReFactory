@@ -22,6 +22,8 @@ ServerEvents.recipes(event => {
 	// 	['silentgear:fluffy_string']
 	// )
 
+    event.remove({id: 'biomesoplenty:tnt_from_bop_sand'})
+
 	// Prismarine 
 	event.recipes.gtceu.alloy_smelter('kubejs_prismarine')
 		.itemInputs(
