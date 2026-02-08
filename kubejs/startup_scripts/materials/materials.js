@@ -594,6 +594,8 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
     // Demonite
     event.create('demonite')
         .ingot()
+        .ore()
+        .liquid()
         .color(0xb7f0e6)
         .iconSet(GTMaterialIconSet.METALLIC)
         .flags(
@@ -602,6 +604,23 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
             GTMaterialFlags.NO_ORE_SMELTING,
             GTMaterialFlags.NO_SMELTING
         )
+
+    event.create('infernal_oil')
+        .fluid()
+        .color(0xe83600)
+        .secondaryColor(0x45001d)
+        .iconSet(GTMaterialIconSet.FLUID)
+
+    event.create('bloodboil')
+        .fluid()
+        .color(0xff0000)
+        .secondaryColor(0x000000)
+        .iconSet(GTMaterialIconSet.RADIOACTIVE)
+
+    event.create('contaminated_demonite')
+        .dust()
+        .color(0x2a7859)
+        .iconSet(GTMaterialIconSet.DULL)
 })
 
 GTCEuStartupEvents.materialModification(event => {
@@ -622,7 +641,7 @@ GTCEuStartupEvents.materialModification(event => {
 
     // Blood Magic
     TagPrefix.ingot['setIgnored(com.gregtechceu.gtceu.api.data.chemical.material.Material,java.util.function.Supplier[])'](GTMaterials.get('demonite'), () => Item.getItem('bloodmagic:ingot_hellforged'))
-
+    TagPrefix.rawOre['setIgnored(com.gregtechceu.gtceu.api.data.chemical.material.Material,java.util.function.Supplier[])'](GTMaterials.get('demonite'), () => Item.getItem('bloodmagic:rawdemonite'))
 
     // Adding desh byproducts
     let deshOreProperty = GTMaterials.get('desh').getProperty(PropertyKey.ORE);

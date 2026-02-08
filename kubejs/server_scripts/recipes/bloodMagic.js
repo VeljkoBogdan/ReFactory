@@ -336,4 +336,13 @@ ServerEvents.recipes(event => {
         .itemOutputs('bloodmagic:ritualdiviner')
         .duration(20*40)
         .EUt(GTValues.VA[GTValues.EV])
+
+    // Hellforged/Demonite stuff
+    event.remove({output: 'bloodmagic:ingot_hellforged', mod: 'thermal'})
+    event.remove({output: 'bloodmagic:ingot_hellforged', mod: 'enderio'})
+    event.remove({output: 'bloodmagic:ingot_hellforged', mod: 'bloodmagic'})
+
+    
 })
+
+yeet('bloodmagic:sand_hellforged')
