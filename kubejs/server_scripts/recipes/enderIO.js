@@ -663,7 +663,7 @@ ServerEvents.recipes(event => {
 
     event.recipes.gtceu.autoclave('vibrant_crystal')
         .itemInputs('enderio:pulsating_crystal')
-        .inputFluids(Fluid.of("gtceu:molten_vibrant_alloy", 144))
+        .inputFluids(Fluid.of('gtceu:vibrant_alloy', 144))
         .itemOutputs('enderio:vibrant_crystal')
         .duration(20*10)
         .EUt(GTValues.VA[GTValues.MV] / 2)
