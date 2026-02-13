@@ -192,4 +192,12 @@ ServerEvents.recipes(event => {
     // Exchange poppy and dandelion for pasture seeds in the ancient sapling recipe
     event.replaceInput({id: 'naturesaura:tree_ritual/ancient_sapling'}, 'poppy', 'botania:grass_seeds')
     event.replaceInput({id: 'naturesaura:tree_ritual/ancient_sapling'}, 'dandelion', 'botania:grass_seeds')
+
+    // Removal of debris changes
+    event.remove({ id: 'naturesaura:depth_ingot_creation' })
+    event.recipes.gtceu.alloy_smelter('ingot_of_the_depths')
+        .itemInputs('naturesaura:sky_ingot', 'netherite_ingot')
+        .itemOutputs('naturesaura:depth_ingot')
+        .duration(20*8)
+        .EUt(GTValues.VA[GTValues.HV])
 })

@@ -114,6 +114,17 @@ ServerEvents.recipes(event => {
     event.remove({id: 'tconstruct:smeltery/melting/metal/platinum/raw_block'})
     event.remove({id: 'tconstruct:smeltery/melting/metal/platinum/dust'})
     event.remove({id: 'tconstruct:smeltery/alloys/molten_enderium'})
+
+    // Removal of debris changes
+    event.remove({ id: 'tconstruct:smeltery/alloys/molten_manyullyn' })
+    event.recipes.gtceu.alloy_smelter('manyullyn_alloying')
+        .itemInputs(
+            '3x gtceu:cobalt_ingot',
+            'botania:elementium_ingot'
+        )
+        .itemOutputs('4x tconstruct:manyullyn_ingot')
+        .duration(20*16)
+        .EUt(GTValues.VA[GTValues.MV])
 })
 
 ServerEvents.tags('item', event => {

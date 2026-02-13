@@ -976,6 +976,8 @@ ServerEvents.recipes(event => {
         'undergarden:mogmoss',
     )
 
+    // Removal of debris changes
+    event.remove({ id: 'thermal:compat/tconstruct/smelter_alloy_tconstruct_manyullyn_ingot' })
 })
 
 // hide thermal items

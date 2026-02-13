@@ -23,6 +23,9 @@ ServerEvents.recipes(event => {
 	event.remove({ id: 'botania:apothecary_deepslate' })
 	event.remove({ id: 'botania:apothecary_livingrock' })
 
+    // remove orechid ancient debris gen
+    event.remove({ id: 'botania:orechid_ignem/ancient_debris' })
+
     // Remove default grass seed recipe
     event.remove({ id: 'botania:mana_infusion/grass_seeds' })
     

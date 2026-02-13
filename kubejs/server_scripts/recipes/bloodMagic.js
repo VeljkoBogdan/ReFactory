@@ -37,6 +37,18 @@ let lpPlastics = [
     'gtceu:polytetrafluoroethylene'
 ]
 
+let runes2 = [
+    'bloodmagic:speedrune2',
+    'bloodmagic:sacrificerune2',
+    'bloodmagic:selfsacrificerune2',
+    'bloodmagic:dislocationrune2',
+    'bloodmagic:altarcapacityrune2',
+    'bloodmagic:bettercapacityrune2',
+    'bloodmagic:orbcapacityrune2',
+    'bloodmagic:accelerationrune2',
+    'bloodmagic:chargingrune2',
+]
+
 ServerEvents.tags('item', event => {
         event.remove('forge:dusts/sulfur', 'bloodmagic:sulfur')
         event.remove('forge:dusts/coal', 'bloodmagic:coalsand')
@@ -342,6 +354,22 @@ ServerEvents.recipes(event => {
     event.remove({output: 'bloodmagic:ingot_hellforged', mod: 'enderio'})
     event.remove({output: 'bloodmagic:ingot_hellforged', mod: 'bloodmagic'})
 
+    runes2.forEach(rune => {
+        let baseRune = rune.replace(/2$/, '')
+
+        event.remove({ output: rune })
+        event.recipes.gtceu.assembler(`${rune}_assembling`)
+            .itemInputs(
+                '4x bloodmagic:largebloodstonebrick',
+                '4x gtceu:netherite_plate',
+                '2x bloodmagic:etherealslate',
+                baseRune,
+                'bloodmagic:hellforgedparts'
+            )
+            .itemOutputs(rune)
+            .duration(20*10)
+            .EUt(GTValues.VA[GTValues.HV])
+    })
     
 })
 
