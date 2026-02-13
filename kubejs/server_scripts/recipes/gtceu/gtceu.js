@@ -1028,7 +1028,15 @@ ServerEvents.recipes(event => {
         .duration(20*5)
         .EUt(GTValues.VA[GTValues.EV])
 
-
+    // Nestrum dust
+    event.recipes.gtceu.mixer('nestrum_dust_mixing')
+        .itemInputs(
+            '2x gtceu:ostrum_dust',
+            'gtceu:netherite_dust'
+        )
+        .itemOutputs('3x gtceu:nestrum_dust')
+        .duration(20*10)
+        .EUt(GTValues.VA[GTValues.HV])
 })
     
 // Remove vanilla tools

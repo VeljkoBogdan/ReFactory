@@ -28,4 +28,17 @@ StartupEvents.registry('item', event => {
 
     event.create('desh_rocket_nose_cone')
         .displayName('§3Desh Rocket Nose Cone')
+
+    // Tier 3
+    event.create('t3_welded_rocket_plate')
+        .displayName('§5Tier 3 Welded Rocket Plate')
+
+    event.create('t3_rocket_plate')
+        .displayName('§5Tier 3 Rocket Plate')
+
+    event.create('nestrum_rocket_fin')
+        .displayName('§5Nestrum Rocket Fin')
+
+    event.create('nestrum_rocket_nose_cone')
+        .displayName('§5Nestrum Rocket Nose Cone')
 })
