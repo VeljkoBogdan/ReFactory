@@ -8,6 +8,7 @@ const $BlastProperty = Java.loadClass('com.gregtechceu.gtceu.api.data.chemical.m
 const $GemProperty = Java.loadClass('com.gregtechceu.gtceu.api.data.chemical.material.properties.GemProperty');
 const $OreProperty = Java.loadClass('com.gregtechceu.gtceu.api.data.chemical.material.properties.OreProperty');
 const $MaterialFlags = Java.loadClass('com.gregtechceu.gtceu.api.data.chemical.material.info.MaterialFlags')
+const $PropertyKey = Java.loadClass('com.gregtechceu.gtceu.api.data.chemical.material.properties.PropertyKey')
 
 let addFluid = (mat, key) => {
     let prop = new $FluidProperty()
@@ -16,6 +17,8 @@ let addFluid = (mat, key) => {
 }
 
 GTCEuStartupEvents.registry('gtceu:material', event => {
+
+    // Periodic table
     GTMaterials.Zirconium.setProperty(PropertyKey.INGOT, new $IngotProperty());
     addFluid(GTMaterials.Zirconium, $FluidStorageKeys.LIQUID);
 
