@@ -422,13 +422,13 @@ ServerEvents.recipes(event => {
         .EUt(GTValues.VA[GTValues.EV])
 
     event.remove({ id: 'bloodmagic:largebloodstonebrick' })
-    event.recipes.gtceu.bloodforge('blood_bricks')
+    event.recipes.gtceu.assembler('blood_bricks')
         .itemInputs(
             '2x kubejs:livingrock_casing',
+            '2x gtceu:enriched_netherite_plate',
             'bloodmagic:weakbloodshard',
         )
         .circuit(1)
-        .input(LPCapability, 10000)
         .itemOutputs('2x bloodmagic:largebloodstonebrick')
         .duration(20*16)
         .EUt(GTValues.VA[GTValues.EV])
