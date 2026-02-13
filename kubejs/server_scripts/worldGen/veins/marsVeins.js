@@ -82,4 +82,20 @@ GTCEuServerEvents.oreVeins(event => {
         )
     })
 
+    event.add('netherite_vein', vein => {
+        vein.layer('mars_stone')
+        vein.weight(10)
+        vein.clusterSize(16)
+        vein.density(0.4)
+        vein.discardChanceOnAirExposure(0)
+        vein.heightRangeUniform(0, 24)
+        vein.layeredVeinGenerator(generator => generator
+            .buildLayerPattern(pattern => pattern
+                .layer(l => l.weight(3).mat(GTMaterials.Netherite).size(2, 4))
+                .layer(l => l.weight(2).mat(GTMaterials.Sulfur).size(1, 3))
+                .layer(l => l.weight(1).mat(GTMaterials.Stibnite).size(1, 2))
+            )
+        )
+    })
+
 })
