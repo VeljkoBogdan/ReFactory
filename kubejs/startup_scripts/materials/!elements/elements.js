@@ -73,4 +73,13 @@ GTCEuStartupEvents.registry('gtceu:element', event => {
 
     event.create('soularium')
         .symbol('Au?₂')
+
+    event.create('enriched_netherite')
+        .symbol('Nr+')
+
+    event.create('netherite')
+        .symbol('Nr')
+
+    event.create('null_catalyst')
+        .symbol('∅')
  })

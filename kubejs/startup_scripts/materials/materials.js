@@ -621,6 +621,63 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
         .dust()
         .color(0x2a7859)
         .iconSet(GTMaterialIconSet.DULL)
+
+    event.create('enriched_netherite')
+        .ingot()
+        .color(0x47333a)
+        .iconSet(GTMaterialIconSet.METALLIC)
+        .element(GTElements.get('enriched_netherite'))
+        .flags(
+            GTMaterialFlags.GENERATE_PLATE,
+            GTMaterialFlags.GENERATE_ROD,
+            GTMaterialFlags.NO_ORE_SMELTING,
+            GTMaterialFlags.NO_SMELTING
+        )
+        .blastTemp(4000, null, GTValues.VA[GTValues.IV], 20*30)
+
+    event.create('netherite_chloride')
+        .dust()
+        .color(0x6c7662)
+        .components(
+            'netherite',
+            '2x chlorine'
+        )
+        .flags(GTMaterialFlags.DISABLE_DECOMPOSITION)
+
+    event.create('enriched_netherite_ammonia_solution')
+        .liquid()
+        .color(0xb66945)
+        .components(
+            'enriched_netherite',
+            'ammonia'
+        )
+        .flags(GTMaterialFlags.DISABLE_DECOMPOSITION)
+
+    event.create('titanium_dioxide')
+        .dust()
+        .color(0x8b78d6)
+        .components(
+            'titanium',
+            '2x oxygen'
+        )
+        .flags(GTMaterialFlags.DISABLE_DECOMPOSITION)
+
+    event.create('null_catalyst')
+        .dust()
+        .color(0xb8baad)
+        .element(GTElements.get('null_catalyst'))
+
+    event.create('nestrum')
+        .ingot()
+        .color(0x5E3D48)
+        .components(
+            'netherite',
+            '2x ostrum'
+        )
+        .flags(
+            GTMaterialFlags.GENERATE_PLATE
+        )
+        .blastTemp(4000, null, GTValues.VA[GTValues.EV], 20*30)
 })
 
 GTCEuStartupEvents.materialModification(event => {
@@ -646,4 +703,18 @@ GTCEuStartupEvents.materialModification(event => {
     // Adding desh byproducts
     let deshOreProperty = GTMaterials.get('desh').getProperty(PropertyKey.ORE);
     deshOreProperty.setOreByProducts('mythril', 'iron');
+
+    // Netherite
+    GTMaterials.Netherite.addFlags(
+        GTMaterialFlags.NO_ORE_SMELTING, 
+        GTMaterialFlags.NO_SMELTING,
+        GTMaterialFlags.GENERATE_PLATE
+    )
+    GTMaterials.Netherite.setProperty($PropertyKey.ORE, new $OreProperty(1, 1, false));
+    GTMaterials.Netherite.getProperty(PropertyKey.ORE).setWashedIn(GTMaterials.Mercury)
+
+    GTMaterials.Netherite.setFormula('Nr')
+    GTMaterials.NetherStar.setFormula('✧')
+    GTMaterials.get('nestrum').setFormula('NrOt₂')
+    GTMaterials.get('netherite_chloride').setFormula('NrCl₂')
 })
