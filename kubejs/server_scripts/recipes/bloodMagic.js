@@ -393,6 +393,60 @@ ServerEvents.recipes(event => {
         .itemOutputs('bloodmagic:masterritualstone')
         .duration(20*20)
         .EUt(GTValues.VA[GTValues.EV])
+
+    event.remove({ id: 'bloodmagic:lava_crystal' })
+    event.recipes.naturesaura.tree_ritual(
+        'bloodmagic:lavacrystal',
+        [
+            'bloodmagic:lavasigil',
+            'enderio:weather_crystal',
+            'enderio:weather_crystal',
+            'enderio:weather_crystal',
+            'lava_bucket',
+            'tconstruct:ichor_slime_crystal',
+            'tconstruct:ichor_slime_crystal',
+            'tconstruct:ichor_slime_crystal'
+        ]
+    )
+
+    event.remove({ id: 'bloodmagic:arc/reversion/master_blood_orb' })
+    event.remove({ id: 'bloodmagic:arc/weakbloodshard_tau' })
+    event.recipes.gtceu.autoclave('weak_blood_shards')
+        .itemInputs(
+            'bloodmagic:strong_tau',
+            'gtceu:exquisite_utherium_gem'
+        )
+        .inputFluids(Fluid.of('gtceu:liquid_soul', 144))
+        .itemOutputs('bloodmagic:weakbloodshard')
+        .duration(20*16)
+        .EUt(GTValues.VA[GTValues.EV])
+
+    event.remove({ id: 'bloodmagic:largebloodstonebrick' })
+    event.recipes.gtceu.bloodforge('blood_bricks')
+        .itemInputs(
+            '2x kubejs:livingrock_casing',
+            'bloodmagic:weakbloodshard',
+        )
+        .circuit(1)
+        .input(LPCapability, 10000)
+        .itemOutputs('2x bloodmagic:largebloodstonebrick')
+        .duration(20*16)
+        .EUt(GTValues.VA[GTValues.EV])
+
+    event.remove({ id: 'bloodmagic:ritual_diviner_1' })
+    event.recipes.naturesaura.tree_ritual(
+        'bloodmagic:ritualdivinerdusk',
+        [
+            'bloodmagic:duskscribetool',
+            'bloodmagic:demonslate',
+            'bloodmagic:ritualdiviner',
+            'bloodmagic:demonslate',
+            'bloodmagic:demonslate',
+            'bloodmagic:duskscribetool',
+            'bloodmagic:demonslate',
+            'bloodmagic:demonslate'
+        ]
+    )
 })
 
 yeet('bloodmagic:sand_hellforged')
