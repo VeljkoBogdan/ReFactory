@@ -138,6 +138,57 @@ ServerEvents.recipes(event => {
         ]
     )
 
+    let auraPlastics = ['gtceu:polybenzimidazole', 'gtceu:polytetrafluoroethylene', 'gtceu:polyethylene']
+
+    auraPlastics.forEach(plastic => {
+            let plasticAmount = (auraPlastics.indexOf(plastic) + 1) * 108
+            // Input hatch
+            event.recipes.gtceu.assembler(`mv_aura_input_hatch_using_${plastic}`)
+                .circuit(1)
+                .itemInputs(`gtceu:mv_machine_hull`, 'naturesaura:aura_cache')
+                .inputFluids(Fluid.of(plastic, plasticAmount))
+                .itemOutputs(`refactorycore:mv_aura_input_hatch`)
+                .duration(20*15)
+                .EUt(GTValues.VA[GTValues.LV])
+
+            // Output hatch
+            event.recipes.gtceu.assembler(`mv_aura_output_hatch_using_${plastic}`)
+                .circuit(2)
+                .itemInputs(`gtceu:mv_machine_hull`, 'naturesaura:aura_cache')
+                .inputFluids(Fluid.of(plastic, plasticAmount))
+                .itemOutputs(`refactorycore:mv_aura_export_hatch`)
+                .duration(20*15)
+                .EUt(GTValues.VA[GTValues.LV])
+        })
+
+        // Input hatch conversion
+        event.shaped(
+            `refactorycore:mv_aura_input_hatch`,
+            [
+                ' S ',
+                ' L ',
+                '   '
+            ],
+            {
+                S: '#forge:tools/screwdrivers',
+                L: `refactorycore:mv_aura_export_hatch`
+            }
+        )
+
+        // Output hatch conversion
+        event.shaped(
+            `refactorycore:mv_aura_export_hatch`,
+            [
+                ' S ',
+                ' L ',
+                '   '
+            ],
+            {
+                S: '#forge:tools/screwdrivers',
+                L: `refactorycore:mv_aura_input_hatch`
+            }
+        )
+
     // Exchange poppy and dandelion for pasture seeds in the ancient sapling recipe
     event.replaceInput({id: 'naturesaura:tree_ritual/ancient_sapling'}, 'poppy', 'botania:grass_seeds')
     event.replaceInput({id: 'naturesaura:tree_ritual/ancient_sapling'}, 'dandelion', 'botania:grass_seeds')
