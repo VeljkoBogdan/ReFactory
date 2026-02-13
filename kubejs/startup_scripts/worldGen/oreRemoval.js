@@ -84,4 +84,9 @@ WorldgenEvents.remove((event) => {
         'undergarden:shiverstone_regalium_ore'
     ])
 
+    event.removeFeatureById('underground_decoration', [
+        'minecraft:ore_ancient_debris_large',
+        'minecraft:ore_debris_small'
+    ])
+
 })
