@@ -371,6 +371,28 @@ ServerEvents.recipes(event => {
             .EUt(GTValues.VA[GTValues.HV])
     })
     
+    event.remove({ id: 'bloodmagic:ritual_stone_blank' })
+    event.remove({ id: 'bloodmagic:ritual_stone_master' })
+    event.recipes.gtceu.assembler('ritual_stone')
+        .notConsumable('#bloodmagic:bloodorb')
+        .itemInputs(
+            '2x gtceu:dense_obsidian_plate',
+            '2x gtceu:dense_steel_plate',
+            '2x bloodmagic:reinforcedslate'
+        )
+        .itemOutputs('bloodmagic:ritualstone')
+        .duration(20*8)
+        .EUt(GTValues.VA[GTValues.EV])
+    event.recipes.gtceu.assembler('master_ritual_stone')
+        .notConsumable('#bloodmagic:bloodorb')
+        .itemInputs(
+            '4x bloodmagic:ritualstone',
+            '4x gtceu:dense_obsidian_plate',
+            '4x gtceu:dense_gaia_plate'
+        )
+        .itemOutputs('bloodmagic:masterritualstone')
+        .duration(20*20)
+        .EUt(GTValues.VA[GTValues.EV])
 })
 
 yeet('bloodmagic:sand_hellforged')
