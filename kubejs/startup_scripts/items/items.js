@@ -51,6 +51,10 @@ StartupEvents.registry('item', event => {
     event.create('crystalized_primal_sap')
         .displayName('Crystalized Primal Sap')
 
+    // Blank rune
+    event.create('blank_rune')
+        .displayName('Blank Rune')
+
     ////// PRODUCT PLACEMENTS :P //////
     event.create('gtqu_mug')
         .displayName('Glass of Radioactive Milk')

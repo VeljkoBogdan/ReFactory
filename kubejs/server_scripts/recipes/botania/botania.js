@@ -7,6 +7,8 @@ let yeet = (itemName) => {
     })
 }
 
+let lapisVariantPlates = ['gtceu:lapis_plate', 'gtceu:sodalite_plate', 'gtceu:lazurite_plate']
+
 ServerEvents.recipes(event => {
 
     // remove default apothecary recipes
@@ -93,26 +95,6 @@ ServerEvents.recipes(event => {
     // replace botania ingot with gt ingot and in recipes
     // event.replaceInput({ input: 'botania:manasteel_ingot' }, 'botania:manasteel_ingot', 'gtceu:manasteel_ingot')
     // event.replaceOutput({ output: 'botania:manasteel_ingot' }, 'botania:manasteel_ingot', 'gtceu:manasteel_ingot')
-
-    // Terrestrial Agglomeration plate
-    event.remove({ id: 'botania:terra_plate' })
-    event.recipes.gtceu.assembler('kubejs_terra_plate')
-        .circuit(30)
-        .itemInputs(
-            '3x minecraft:lapis_block',
-            'botania:manasteel_block',
-            'botania:rune_water',
-            'botania:rune_fire',
-            'botania:rune_earth',
-            'botania:rune_air',
-            'botania:rune_mana'
-        )
-        .itemOutputs(
-            'botania:terra_plate'
-        )
-        .duration(20*30)
-        .EUt(GTValues.VA[GTValues.MV])
-
 
     // Start of Botania GREGIFICATION(tm)
     // Glimering wood
@@ -312,20 +294,6 @@ ServerEvents.recipes(event => {
             'botania:mana_glass'
         )
         .duration(20*2)
-        .EUt(GTValues.VA[GTValues.LV])
-
-    // Runic Altar
-    event.remove({output: 'botania:runic_altar'})
-    event.recipes.gtceu.assembler('kubejs_runic_altar')
-        .itemInputs(
-            'kubejs:mana_core',
-            '4x botania:livingrock',
-            '4x gtceu:manasteel_plate'
-        )
-        .itemOutputs(
-            'botania:runic_altar'
-        )
-        .duration(20*10)
         .EUt(GTValues.VA[GTValues.LV])
 
     // Botanical Brewery
@@ -550,6 +518,13 @@ ServerEvents.recipes(event => {
         .itemOutputs('9x gtceu:livingrock_plate')
         .EUt(GTValues.VA[GTValues.LV])
         .duration(20*20)
+    // Dense
+    event.recipes.gtceu.bender('dense_livingrock')
+        .itemInputs('9x gtceu:livingrock_plate')
+        .itemOutputs('gtceu:dense_livingrock_plate')
+        .circuit(9)
+        .duration(20*13.05)
+        .EUt(GTValues.VA[GTValues.MV])
 
     // Livingwood plate
     // Water
@@ -733,6 +708,131 @@ ServerEvents.recipes(event => {
         .itemOutputs('kubejs:crystalized_primal_sap')
         .duration(20*8)
         .EUt(GTValues.VA[GTValues.LV] / 2)
+
+    // Runic altar and runes //
+    event.remove({id: 'botania:runic_altar/water'})
+    event.remove({id: 'botania:runic_altar/mana'})
+    event.remove({id: 'botania:runic_altar/fire'})
+    event.remove({id: 'botania:runic_altar/earth'})
+    event.remove({id: 'botania:runic_altar/air'})
+
+    // Blank rune
+    event.recipes.gtceu.compressor('blank_rune')
+        .itemInputs('5x gtceu:livingrock_plate')
+        .itemOutputs('kubejs:blank_rune')
+        .duration(20*30)
+        .EUt(GTValues.VA[GTValues.LV])
+
+    // Runic altar
+    event.remove({output: 'botania:runic_altar'})
+    event.recipes.gtceu.assembler('kubejs_runic_altar')
+        .circuit(1)
+        .itemInputs(
+            'naturesaura:nature_altar',
+            '4x kubejs:mana_core',
+            '4x gtceu:dense_livingrock_plate',
+            '4x gtceu:dense_manasteel_plate'
+        )
+        .itemOutputs(
+            'botania:runic_altar'
+        )
+        .duration(20*60)
+        .EUt(GTValues.VA[GTValues.LV])
+
+    // Terrestrial Agglomeration plate
+    event.remove({ id: 'botania:terra_plate' })
+
+    lapisVariantPlates.forEach(plate => {
+        let plateName = plate.split(':')[1]
+
+        event.recipes.gtceu.assembler(`kubejs_terra_plate_from_${plateName}`)
+            .circuit(2)
+            .itemInputs(
+                '8x minecraft:lapis_block',
+                '4x gtceu:dense_manasteel_plate',
+                `4x ${plate}`,
+                'botania:rune_water',
+                'botania:rune_fire',
+                'botania:rune_earth',
+                'botania:rune_air',
+                'botania:rune_mana'
+            )
+            .itemOutputs(
+                'botania:terra_plate'
+            )
+            .duration(20*30)
+            .EUt(GTValues.VA[GTValues.MV])
+    })
+
+    // Fire
+    event.recipes.botania.runic_altar(
+        'botania:rune_fire',
+        [
+            'blaze_powder',
+            'fire_charge',
+            'botania:quartz_blaze',
+            'tconstruct:ichor_slime_crystal',
+            'thermal:basalz_powder',
+            'kubejs:blank_rune'
+        ],
+        '1000'
+    )
+
+    // Air
+    event.recipes.botania.runic_altar(
+        'botania:rune_air',
+        [
+            'ghast_tear',
+            'botania:white_petal',
+            'thermal:blitz_powder',
+            'botania:quartz_sunny',
+            'gtceu:charged_certus_quartz_gem',
+            'kubejs:blank_rune'
+        ],
+        '1000'
+    )
+
+    // Water
+    event.recipes.botania.runic_altar(
+        'botania:rune_water',
+        [
+            'water_bucket',
+            'thermal:blizz_powder',
+            'botania:quartz_mana',
+            'ice',
+            'botania:manaweave_cloth',
+            'kubejs:blank_rune'
+        ],
+        '1000'
+    )
+
+    // Earth
+    event.recipes.botania.runic_altar(
+        'botania:rune_earth',
+        [
+            'naturesaura:infused_iron',
+            'thermal:basalz_powder',
+            'botania:quartz_mana',
+            'amethyst_shard',
+            '#forge:slimeballs',
+            'kubejs:blank_rune'
+        ],
+        '1000'
+    )
+
+    // Mana
+    event.recipes.botania.runic_altar(
+        'botania:rune_mana',
+        [
+            'gtceu:manasteel_plate',
+            'botania:mana_pearl',
+            'botania:mana_diamond',
+            'botania:quartz_mana',
+            'botania:manaweave_cloth',
+            'kubejs:blank_rune'
+        ],
+        '1000'
+    )
 })
 
 yeet('botania:diluted_pool')

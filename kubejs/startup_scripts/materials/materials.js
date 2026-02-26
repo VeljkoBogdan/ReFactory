@@ -105,7 +105,9 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
         GTMaterialFlags.GENERATE_PLATE,
         GTMaterialFlags.GENERATE_ROD,
         GTMaterialFlags.GENERATE_BOLT_SCREW,
-        GTMaterialFlags.GENERATE_FINE_WIRE
+        GTMaterialFlags.GENERATE_FINE_WIRE,
+        GTMaterialFlags.GENERATE_DENSE,
+        GTMaterialFlags.DISABLE_DECOMPOSITION
     )
 
     // Terra
@@ -128,7 +130,8 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
         GTMaterialFlags.GENERATE_PLATE,
         GTMaterialFlags.GENERATE_ROD,
         GTMaterialFlags.GENERATE_BOLT_SCREW,
-        GTMaterialFlags.GENERATE_FINE_WIRE
+        GTMaterialFlags.GENERATE_FINE_WIRE,
+        GTMaterialFlags.DISABLE_DECOMPOSITION
     )
 
     // Elementium
@@ -319,7 +322,8 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
         .flags(
             GTMaterialFlags.GENERATE_PLATE,
             GTMaterialFlags.GENERATE_ROD,
-            GTMaterialFlags.GENERATE_BOLT_SCREW
+            GTMaterialFlags.GENERATE_BOLT_SCREW,
+            GTMaterialFlags.GENERATE_DENSE
         )
         
     // Livingwood
