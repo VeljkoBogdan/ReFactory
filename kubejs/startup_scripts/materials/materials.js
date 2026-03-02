@@ -212,7 +212,7 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
         GTMaterialFlags.GENERATE_FRAME,
         GTMaterialFlags.DISABLE_DECOMPOSITION
     )
-    .blastTemp(1700, null, GTValues.VA[GTValues.EV], 20*20)
+    .blastTemp(2700, null, GTValues.VA[GTValues.EV], 20*20)
 
     event.create('signalum')
     .ingot()
@@ -234,7 +234,7 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
         GTMaterialFlags.GENERATE_ROD,
         GTMaterialFlags.DISABLE_DECOMPOSITION
     )
-    .blastTemp(2600, null, GTValues.VA[GTValues.IV], 20*20)
+    .blastTemp(1800, null, GTValues.VA[GTValues.HV], 20*20)
 
     event.create('enderium')
     .ingot()
@@ -254,7 +254,7 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
         GTMaterialFlags.GENERATE_ROD,
         GTMaterialFlags.DISABLE_DECOMPOSITION
     )
-    .blastTemp(3500, null, GTValues.VA[GTValues.LuV], 20*20)
+    .blastTemp(3600, null, GTValues.VA[GTValues.EV], 20*20)
 
     event.create('basalz')
         .dust()

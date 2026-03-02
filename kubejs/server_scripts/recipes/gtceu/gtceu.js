@@ -424,9 +424,20 @@ ServerEvents.recipes(event => {
         .inputFluids(
             Fluid.of('gtceu:mistrium', 1000)
         )
-        .itemOutputs('4x gtceu:lumium_dust')
+        .itemOutputs('8x gtceu:lumium_dust')
         .duration(20*16)
         .EUt(GTValues.VA[GTValues.HV])
+
+    // Signalum recipe
+    event.recipes.gtceu.mixer('signalum')
+        .itemInputs(
+            '3x gtceu:red_alloy_dust',
+            '2x gtceu:red_steel_dust',
+            'gtceu:copper_dust'
+        )
+        .itemOutputs('6x gtceu:signalum_dust')
+        .duration(20*16)
+        .EUt(GTValues.VA[GTValues.MV])
 
     // Remove default lumium recipes
     event.remove({id: 'thermal:fire_charge/lumium_ingot_4'})

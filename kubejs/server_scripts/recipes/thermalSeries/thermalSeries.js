@@ -159,12 +159,20 @@ ServerEvents.recipes(event => {
     event.remove({id: 'thermal:machines/smelter/smelter_signalum_dust'})
     event.remove({id: 'tconstruct:smeltery/alloys/molten_signalum'})
     event.remove({id: 'tconstruct:smeltery/melting/metal/signalum/dust'})
+    event.remove({id: 'thermal:signalum_dust_4'})
+    event.remove({id: 'thermal:parts/signalum_gear'})
 
     // Remove thermal glass in workbench crafting
     event.remove({id: 'thermal:fire_charge/obsidian_glass_2'})
     event.remove({id: 'thermal:fire_charge/signalum_glass_2'})
     event.remove({id: 'thermal:fire_charge/lumium_glass_2'})
     event.remove({id: 'thermal:fire_charge/enderium_glass_2'})
+
+    event.remove({id: 'tconstruct:smeltery/alloys/molten_lumium'})
+    event.remove({id: 'tconstruct:smeltery/melting/metal/lumium/dust'})
+
+    // Remove Enderium recipes
+    event.remove({id: 'tconstruct:smeltery/melting/metal/enderium/dust'})
     
     // Flux Coil
     event.remove({id: 'thermal:rf_coil'})
