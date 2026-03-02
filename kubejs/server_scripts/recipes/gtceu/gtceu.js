@@ -435,6 +435,7 @@ ServerEvents.recipes(event => {
     event.remove({output: 'gtceu:lumium_dust', mod:'enderio'})
     event.remove({output: 'gtceu:lumium_ingot', mod:'thermal'})
     event.remove({output: 'gtceu:lumium_ingot', mod:'enderio'})
+    event.remove({id: 'thermal:parts/lumium_gear'})
 
     // Artificial Cloud recipe
     event.recipes.gtceu.mixer('artificial_cloud')
