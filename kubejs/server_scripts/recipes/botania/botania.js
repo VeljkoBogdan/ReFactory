@@ -250,14 +250,14 @@ ServerEvents.recipes(event => {
         .EUt(GTValues.VA[GTValues.HV] / 2)
 
 
-    // Mana Core
-    event.recipes.botania.mana_infusion('kubejs:mana_core', '#gtceu:circuits/lv', 1000)
+    // // Mana Core
+    // event.recipes.botania.mana_infusion('kubejs:mana_core', '#gtceu:circuits/lv', 1000)
 
     // Alchemy Catalyst
     event.remove({id: 'botania:alchemy_catalyst'})
     event.recipes.gtceu.assembler('kubejs_alchemy_catalyst')
         .itemInputs(
-            'kubejs:mana_core',
+            'kubejs:primitive_mana_core',
             '4x gtceu:gold_plate',
             '4x botania:livingrock',
             'minecraft:brewing_stand'
@@ -272,7 +272,7 @@ ServerEvents.recipes(event => {
     event.remove({id: 'botania:conjuration_catalyst'})
     event.recipes.gtceu.assembler('kubejs_conjuration_catalyst')
         .itemInputs(
-            'kubejs:mana_core',
+            'kubejs:advanced_mana_core',
             '4x gtceu:elementium_plate',
             '4x botania:livingrock',
             'botania:alchemy_catalyst'
@@ -301,7 +301,7 @@ ServerEvents.recipes(event => {
     event.recipes.gtceu.assembler('kubejs_botanical_brewery')
         .circuit(29)
         .itemInputs(
-            'kubejs:mana_core',
+            'kubejs:primitive_mana_core',
             '4x botania:livingrock',
             '4x gtceu:manasteel_plate',
             'minecraft:brewing_stand',
@@ -312,33 +312,16 @@ ServerEvents.recipes(event => {
         )
         .duration(20*10)
         .EUt(GTValues.VA[GTValues.LV])
-
+                
     // Elven Gateway Core
-    event.remove({id: 'botania:alfheim_portal'})
-    event.recipes.gtceu.circuit_assembler('elven_circuit')
-        .circuit(16)
-        .itemInputs(
-            '2x #botania:glimmering_livingwood_logs',
-            '2x #gtceu:circuits/hv',
-            '8x gtceu:terrasteel_bolt',
-            '16x gtceu:fine_zanite_steel_wire',
-            '2x gtceu:manasteel_plate'
-        )
-        .inputFluids(Fluid.of('gtceu:soldering_alloy 72'))
-        .itemOutputs(
-            'kubejs:elven_circuit'
-        )
-        .duration(20*10)
-        .EUt(GTValues.VA[GTValues.MV])
-
     event.recipes.gtceu.assembler('kubejs_elven_gateway_core')
         .circuit(16)
         .itemInputs(
-            '2x kubejs:elven_circuit',
             '8x #botania:livingwood_logs',
-            '8x gtceu:terrasteel_plate',
+            '2x #gtceu:circuits/hv',
             'gtceu:hv_emitter',
-            'gtceu:hv_sensor'
+            'gtceu:hv_sensor',
+            '8x gtceu:terrasteel_plate',
         )
         .itemOutputs(
             'botania:alfheim_portal'
@@ -399,7 +382,7 @@ ServerEvents.recipes(event => {
         .itemInputs(
             '4x botania:livingrock',
             'botania:mana_pool',
-            'kubejs:mana_core'
+            'kubejs:primitive_mana_core'
         )
         .itemOutputs(
             'botania:mana_distributor'
@@ -472,7 +455,7 @@ ServerEvents.recipes(event => {
         .circuit(8)
         .itemInputs(
             '4x botania:livingrock',
-            'kubejs:mana_core',
+            'kubejs:primitive_mana_core',
             'minecraft:redstone_block'
         )
         .itemOutputs(
@@ -487,7 +470,7 @@ ServerEvents.recipes(event => {
         .circuit(8)
         .itemInputs(
             '4x #forge:glass',
-            'kubejs:mana_core',
+            'kubejs:primitive_mana_core',
             'botania:spectral_platform'
         )
         .itemOutputs(
@@ -716,20 +699,13 @@ ServerEvents.recipes(event => {
     event.remove({id: 'botania:runic_altar/earth'})
     event.remove({id: 'botania:runic_altar/air'})
 
-    // Blank rune
-    event.recipes.gtceu.compressor('blank_rune')
-        .itemInputs('5x gtceu:livingrock_plate')
-        .itemOutputs('kubejs:blank_rune')
-        .duration(20*30)
-        .EUt(GTValues.VA[GTValues.LV])
-
     // Runic altar
     event.remove({output: 'botania:runic_altar'})
     event.recipes.gtceu.assembler('kubejs_runic_altar')
         .circuit(1)
         .itemInputs(
             'naturesaura:nature_altar',
-            '4x kubejs:mana_core',
+            '4x kubejs:primitive_mana_core',
             '4x gtceu:dense_livingrock_plate',
             '4x gtceu:dense_manasteel_plate'
         )
@@ -764,75 +740,44 @@ ServerEvents.recipes(event => {
             .EUt(GTValues.VA[GTValues.MV])
     })
 
-    // Fire
-    event.recipes.botania.runic_altar(
-        'botania:rune_fire',
-        [
-            'blaze_powder',
-            'fire_charge',
-            'botania:quartz_blaze',
-            'tconstruct:ichor_slime_crystal',
-            'thermal:basalz_powder',
-            'kubejs:blank_rune'
-        ],
-        '1000'
-    )
+    event.remove({id: 'botania:alfheim_portal'})
 
-    // Air
-    event.recipes.botania.runic_altar(
-        'botania:rune_air',
-        [
-            'ghast_tear',
-            'botania:white_petal',
-            'thermal:blitz_powder',
-            'botania:quartz_sunny',
-            'gtceu:charged_certus_quartz_gem',
-            'kubejs:blank_rune'
-        ],
-        '1000'
-    )
-
-    // Water
-    event.recipes.botania.runic_altar(
-        'botania:rune_water',
-        [
-            'water_bucket',
-            'thermal:blizz_powder',
-            'botania:quartz_mana',
-            'ice',
-            'botania:manaweave_cloth',
-            'kubejs:blank_rune'
-        ],
-        '1000'
-    )
-
-    // Earth
-    event.recipes.botania.runic_altar(
-        'botania:rune_earth',
-        [
-            'naturesaura:infused_iron',
-            'thermal:basalz_powder',
-            'botania:quartz_mana',
-            'amethyst_shard',
-            '#forge:slimeballs',
-            'kubejs:blank_rune'
-        ],
-        '1000'
-    )
-
-    // Mana
-    event.recipes.botania.runic_altar(
-        'botania:rune_mana',
-        [
-            'gtceu:manasteel_plate',
+    // Mana cores --------------------------------------------
+    // Primitive
+    event.recipes.gtceu.circuit_assembler('primitive_mana_core')
+        .itemInputs(
+            '4x gtceu:livingrock_plate',
+            '8x gtceu:manasteel_foil',
             'botania:mana_pearl',
-            'botania:mana_diamond',
-            'botania:quartz_mana',
-            'botania:manaweave_cloth',
-            'kubejs:blank_rune'
-        ],
-        '1000'
-    )
+            'botania:mana_powder'
+        )
+        .itemOutputs('kubejs:primitive_mana_core')
+        .duration(20*8)
+        .EUt(GTValues.VA[GTValues.LV])
+
+    // Advanced
+    event.recipes.gtceu.circuit_assembler('advanced_mana_core')
+        .itemInputs(
+            '4x gtceu:dense_livingrock_plate',
+            '8x gtceu:terrasteel_foil',
+            'gtceu:flawless_utherium_gem',
+            '4x botania:mana_powder'
+        )
+        .itemOutputs('kubejs:advanced_mana_core')
+        .duration(20*8)
+        .EUt(GTValues.VA[GTValues.MV])
+
+    // Elite
+    event.recipes.gtceu.circuit_assembler('elite_mana_core')
+        .itemInputs(
+            '8x gtceu:dense_livingrock_plate',
+            '16x gtceu:elementium_foil',
+            'minecraft:ender_eye',
+            '8x botania:mana_powder'
+        )
+        .itemOutputs('kubejs:elite_mana_core')
+        .duration(20*8)
+        .EUt(GTValues.VA[GTValues.HV])
 })
 
 yeet('botania:diluted_pool')

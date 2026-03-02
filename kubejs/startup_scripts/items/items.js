@@ -9,16 +9,16 @@ StartupEvents.registry('item', event => {
         .displayName('Seed Crystal')
         .texture('gtceu:item/seed_crystal')
 
-    // Mana core
-    event.create('mana_core')
-        .displayName('Mana core')
-        .texture('gtceu:item/mana_core')
+    // // Mana core
+    // event.create('mana_core')
+    //     .displayName('Mana core')
+    //     .texture('gtceu:item/mana_core')
 
-    // Elven Circuit
-    event.create('elven_circuit')
-        .displayName('Elven Circuit')
-        .texture('gtceu:item/elven_circuit')
-        .tooltip('An ancient circuit used by the elves.')
+    // // Elven Circuit
+    // event.create('elven_circuit')
+    //     .displayName('Elven Circuit')
+    //     .texture('gtceu:item/elven_circuit')
+    //     .tooltip('An ancient circuit used by the elves.')
 
     event.create('unfired_seared_brick')
         .displayName('Unfired Seared Brick')
@@ -54,6 +54,18 @@ StartupEvents.registry('item', event => {
     // Blank rune
     event.create('blank_rune')
         .displayName('Blank Rune')
+
+    // Primitive mana core
+    event.create('primitive_mana_core')
+        .displayName('Primitive Mana Core')
+
+    // Advanced mana core
+    event.create('advanced_mana_core')
+        .displayName('Advanced Mana Core')
+
+    // Elite mana core
+    event.create('elite_mana_core')
+        .displayName('Elite Mana Core')
 
     ////// PRODUCT PLACEMENTS :P //////
     event.create('gtqu_mug')
