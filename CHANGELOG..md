@@ -6,6 +6,9 @@
 - Wooden stands no longer require any tools to craft
 - Removed diluted pool recipe
 - Aether air centrifuging duration reduced, liquid air distillation duration increased
+- Mana core rework - now having primitive, advanced and elite variations
+- Cleanup of several thermal recipes (lumium, signalum and enderium)
+- Squat Grow nerfed for all crops, remains unchanged for saplings
 
 # 0.4.2
 - Turned EMI dev mode off
