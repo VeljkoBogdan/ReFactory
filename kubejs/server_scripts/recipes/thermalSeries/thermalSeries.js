@@ -986,6 +986,41 @@ ServerEvents.recipes(event => {
 
     // Removal of debris changes
     event.remove({ id: 'thermal:compat/tconstruct/smelter_alloy_tconstruct_manyullyn_ingot' })
+
+    // Glass recipes
+    event.recipes.gtceu.alloy_smelter('hardened_glass')
+        .itemInputs(
+            '2x ae2:quartz_glass',
+            'gtceu:obsidian_dust'
+        )
+        .itemOutputs('2x thermal:hardened_glass')
+        .duration(20*4)
+        .EUt(GTValues.VA[GTValues.LV])
+    event.recipes.gtceu.alloy_smelter('signalum_glass')
+        .itemInputs(
+            '2x thermal:hardened_glass',
+            'gtceu:signalum_dust'
+        )
+        .itemOutputs('2x thermal:signalum_glass')
+        .duration(20*4)
+        .EUt(GTValues.VA[GTValues.MV])
+    event.recipes.gtceu.alloy_smelter('lumium_glass')
+        .itemInputs(
+            '2x thermal:signalum_glass',
+            'gtceu:lumium_dust'
+        )
+        .itemOutputs('2x thermal:lumium_glass')
+        .duration(20*4)
+        .EUt(GTValues.VA[GTValues.HV])
+    event.recipes.gtceu.alloy_smelter('enderium_glass')
+        .itemInputs(
+            '2x thermal:lumium_glass',
+            'gtceu:enderium_dust'
+        )
+        .itemOutputs('2x thermal:enderium_glass')
+        .duration(20*4)
+        .EUt(GTValues.VA[GTValues.EV])
+    
 })
 
 // hide thermal items
