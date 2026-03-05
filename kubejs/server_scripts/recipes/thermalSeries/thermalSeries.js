@@ -988,17 +988,21 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'thermal:compat/tconstruct/smelter_alloy_tconstruct_manyullyn_ingot' })
 
     // Glass recipes
+    event.remove({id: 'thermal:machines/smelter/smelter_glass_obsidian'})
+    event.remove({id: 'thermal:machines/smelter/smelter_glass_signalum'})
+    event.remove({id: 'thermal:machines/smelter/smelter_glass_lumium'})
+    event.remove({id: 'thermal:machines/smelter/smelter_glass_enderium'})
     event.recipes.gtceu.alloy_smelter('hardened_glass')
         .itemInputs(
             '2x ae2:quartz_glass',
             'gtceu:obsidian_dust'
         )
-        .itemOutputs('2x thermal:hardened_glass')
+        .itemOutputs('2x thermal:obsidian_glass')
         .duration(20*4)
         .EUt(GTValues.VA[GTValues.LV])
     event.recipes.gtceu.alloy_smelter('signalum_glass')
         .itemInputs(
-            '2x thermal:hardened_glass',
+            '2x thermal:obsidian_glass',
             'gtceu:signalum_dust'
         )
         .itemOutputs('2x thermal:signalum_glass')
