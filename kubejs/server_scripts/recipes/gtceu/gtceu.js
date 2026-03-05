@@ -851,18 +851,6 @@ ServerEvents.recipes(event => {
         .duration(20*10)
         .EUt(GTValues.VA[GTValues.EV])
 
-    event.remove({id: 'gtceu:chemical_reactor/epoxy_board'})
-    event.remove({id: 'gtceu:large_chemical_reactor/epoxy_board'})
-    event.recipes.gtceu.chemical_reactor('epoxy_circuit_board')
-        .itemInputs(
-            'gtceu:epoxy_plate',
-            '8x gtceu:lumium_foil'
-        )
-        .inputFluids(Fluid.of('gtceu:sulfuric_acid', 500))
-        .itemOutputs('gtceu:epoxy_circuit_board')
-        .duration(20*30)
-        .EUt(GTValues.VA[GTValues.LV])
-
     event.replaceInput({id: 'gtceu:assembler/coil_rtm_alloy'}, 'gtceu:vanadium_steel_foil', 'gtceu:gaia_foil')
 
     // Remove Ostrum from smelting and blasting
