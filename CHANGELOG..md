@@ -9,6 +9,8 @@
 - Mana core rework - now having primitive, advanced and elite variations
 - Cleanup of several thermal recipes (lumium, signalum and enderium)
 - Squat Grow nerfed for all crops, remains unchanged for saplings
+- Replaced Nano circuits with Sanguine circuits
+- Added the Hemocyte line in EV
 
 # 0.4.2
 - Turned EMI dev mode off
