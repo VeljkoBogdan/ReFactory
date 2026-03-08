@@ -45,7 +45,10 @@
 			y: -14.5d
 		}
 		{
-			dependencies: ["0DE76CF32EEE7200"]
+			dependencies: [
+				"0DE76CF32EEE7200"
+				"6917095BC59E28DA"
+			]
 			description: ["Epoxy circuits are what is required for making your next tier of circuits."]
 			id: "7B3BF6B3C10F384F"
 			tasks: [{
@@ -425,15 +428,19 @@
 		}
 		{
 			dependencies: ["6B6940FDFD680AFF"]
-			description: ["Ignore the rarest metal mixture for now, but don't throw it away, you'll need IV to process it."]
+			description: [
+				"You can overclock the Large Chemical Reactor using 2 EV hatches to get it to IV."
+				""
+				"That way you can process the Rarest Metal Mixture into Osmium and Iridium, which will be very needed in IV and on."
+			]
 			id: "7B7C13C7CFFF03F9"
 			tasks: [{
 				id: "17A8616A6CDE9E3E"
 				item: "gtceu:rarest_metal_mixture_dust"
 				type: "item"
 			}]
-			x: 5.0d
-			y: -12.0d
+			x: 4.5d
+			y: -13.0d
 		}
 		{
 			dependencies: [
@@ -454,14 +461,15 @@
 				item: "kubejs:refactory_coin"
 				type: "item"
 			}]
-			size: 1.2d
+			shape: "gear"
+			size: 1.0d
 			tasks: [{
 				id: "06E16D707D047A8F"
 				item: "gtceu:radon_bucket"
 				type: "item"
 			}]
-			x: 8.5d
-			y: -19.0d
+			x: 7.0d
+			y: -17.5d
 		}
 		{
 			dependencies: ["5155F1DFD1D1AD33"]
@@ -497,22 +505,6 @@
 				type: "item"
 			}]
 			x: 8.5d
-			y: -17.5d
-		}
-		{
-			dependencies: ["4088C106B4D46075"]
-			id: "6E99AFC95789B30B"
-			rewards: [{
-				id: "112DBAA70A526864"
-				item: "kubejs:refactory_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "4518F090F4E74489"
-				item: "gtceu:quantum_star"
-				type: "item"
-			}]
-			x: 10.0d
 			y: -17.5d
 		}
 		{
@@ -664,8 +656,8 @@
 				item: "gtceu:palladium_raw_dust"
 				type: "item"
 			}]
-			x: 4.5d
-			y: -13.0d
+			x: 5.0d
+			y: -12.0d
 		}
 		{
 			dependencies: ["6B6940FDFD680AFF"]
@@ -757,8 +749,8 @@
 				item: "kubejs:refactory_coin"
 				type: "item"
 			}]
-			shape: "gear"
-			size: 1.5d
+			shape: "none"
+			size: 4.0d
 			tasks: [{
 				id: "364B2DF6DE9183C7"
 				item: {
@@ -768,7 +760,7 @@
 				}
 				type: "item"
 			}]
-			x: 17.5d
+			x: 19.0d
 			y: -11.5d
 		}
 		{
@@ -783,7 +775,7 @@
 				type: "item"
 			}]
 			shape: "gear"
-			size: 1.5d
+			size: 1.0d
 			tasks: [{
 				id: "1FF6DCE0185ADDED"
 				item: "gtceu:iv_machine_casing"
@@ -818,7 +810,7 @@
 				id: "3520BB0D1DC63679"
 				type: "dimension"
 			}]
-			x: 19.0d
+			x: 22.0d
 			y: -11.5d
 		}
 		{
@@ -829,7 +821,7 @@
 				item: "gtceu:desh_frame"
 				type: "item"
 			}]
-			x: 17.5d
+			x: 16.0d
 			y: -13.0d
 		}
 		{
@@ -989,8 +981,8 @@
 				item: "gtceu:raw_ostrum"
 				type: "item"
 			}]
-			x: 20.0d
-			y: -10.5d
+			x: 23.5d
+			y: -11.0d
 		}
 		{
 			dependencies: ["3180F492F13A77FD"]
@@ -1002,8 +994,8 @@
 				item: { Count: 16, id: "gtceu:raw_tungstate" }
 				type: "item"
 			}]
-			x: 20.5d
-			y: -11.5d
+			x: 23.5d
+			y: -12.0d
 		}
 		{
 			dependencies: ["3180F492F13A77FD"]
@@ -1015,8 +1007,8 @@
 				item: { Count: 16, id: "gtceu:raw_scheelite" }
 				type: "item"
 			}]
-			x: 20.0d
-			y: -12.5d
+			x: 23.0d
+			y: -13.0d
 		}
 		{
 			dependencies: ["050936F8ADC7235D"]
@@ -1079,11 +1071,15 @@
 				item: "gtceu:plutonium_dust"
 				type: "item"
 			}]
-			x: 10.0d
+			x: 7.0d
 			y: -19.0d
 		}
 		{
-			dependencies: ["6CA144D69B8BC452"]
+			dependencies: [
+				"6CA144D69B8BC452"
+				"7E05CDF38D401EF2"
+			]
+			dependency_requirement: "one_completed"
 			id: "5968750AE7087AD1"
 			rewards: [{
 				id: "2BFE38A73CE9A25A"
@@ -1095,8 +1091,8 @@
 				item: "gtceu:uranium_dust"
 				type: "item"
 			}]
-			x: 10.0d
-			y: -20.5d
+			x: 8.5d
+			y: -19.0d
 		}
 		{
 			dependencies: ["15EA4459D27AF97F"]
@@ -1107,7 +1103,7 @@
 				item: "gtceu:uranium_235_dust"
 				type: "item"
 			}]
-			x: 11.5d
+			x: 5.5d
 			y: -20.5d
 		}
 		{
@@ -1129,8 +1125,8 @@
 					type: "checkmark"
 				}
 			]
-			x: 10.0d
-			y: -23.5d
+			x: 8.5d
+			y: -22.0d
 		}
 		{
 			dependencies: ["31CEF06959382082"]
@@ -1149,8 +1145,8 @@
 					type: "checkmark"
 				}
 			]
-			x: 10.0d
-			y: -22.0d
+			x: 8.5d
+			y: -20.5d
 		}
 		{
 			dependencies: ["31CEF06959382082"]
@@ -1169,8 +1165,8 @@
 					type: "checkmark"
 				}
 			]
-			x: 11.5d
-			y: -22.0d
+			x: 7.0d
+			y: -20.5d
 		}
 		{
 			dependencies: ["5AABB7F04B02943D"]
@@ -1185,7 +1181,7 @@
 				item: "gtceu:plutonium_241_dust"
 				type: "item"
 			}]
-			x: 11.5d
+			x: 5.5d
 			y: -19.0d
 		}
 		{
@@ -1246,8 +1242,219 @@
 				item: "gtceu:liquid_ender_air_bucket"
 				type: "item"
 			}]
-			x: 7.0d
+			x: 5.5d
+			y: -17.5d
+		}
+		{
+			dependencies: ["7B7C13C7CFFF03F9"]
+			id: "75858D574FE9FCBA"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "6DD0B67FF5136DAA"
+				item: "gtceu:iridium_dust"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -14.0d
+		}
+		{
+			dependencies: ["7B7C13C7CFFF03F9"]
+			id: "3AF97CD64FE0A7C6"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "7C85151D688F37C5"
+				item: "gtceu:osmium_dust"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -12.5d
+		}
+		{
+			dependencies: ["3180F492F13A77FD"]
+			id: "7CDF253E08BCAD8B"
+			tasks: [{
+				count: 16L
+				id: "2E3E7D631A90B4C3"
+				item: "gtceu:raw_netherite"
+				type: "item"
+			}]
+			x: 23.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["4263EB754052F1DC"]
+			description: [
+				"Now that you can make the Quantum Eye, you can also make the Warp Stone."
+				""
+				"You can use the Warp Stone to craft waystones, which you can use to teleport from one place to another (e.g. Moon, Aether, Mars, etc)."
+			]
+			id: "6A66E23F12AD9406"
+			tasks: [{
+				id: "0FE2A24C44D2AB77"
+				item: {
+					Count: 1
+					id: "waystones:warp_stone"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: -17.5d
+		}
+		{
+			dependencies: ["2F67E1B68BEC71AB"]
+			id: "6917095BC59E28DA"
+			tasks: [{
+				id: "3A109CD0EA29B409"
+				item: "gtceu:epoxy_circuit_board"
+				type: "item"
+			}]
+			x: 13.0d
 			y: -19.0d
+		}
+		{
+			dependencies: ["510511689FFD8691"]
+			id: "2F67E1B68BEC71AB"
+			tasks: [{
+				id: "29E5F48E8AC0801C"
+				item: "gtceu:hemocyte_suspension_bucket"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -20.5d
+		}
+		{
+			dependencies: ["3FDE9F22A732DE02"]
+			hide_dependency_lines: true
+			icon: "gtceu:organic_slurry_bucket"
+			id: "7D4350516694C107"
+			tasks: [
+				{
+					id: "5B6E5F3C6D8FEC7D"
+					item: "gtceu:organic_slurry_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "4AE6C9B759674502"
+					optional_task: true
+					type: "checkmark"
+				}
+			]
+			x: 17.5d
+			y: -20.5d
+		}
+		{
+			dependencies: ["7D4350516694C107"]
+			icon: "gtceu:cellular_suspension_bucket"
+			id: "68A7A75E44830E5D"
+			tasks: [
+				{
+					id: "47A3DC4A299CDD09"
+					item: "gtceu:cellular_suspension_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "00295F5E465031F8"
+					optional_task: true
+					type: "checkmark"
+				}
+			]
+			x: 16.0d
+			y: -20.5d
+		}
+		{
+			dependencies: ["68A7A75E44830E5D"]
+			id: "7A324ED320C67875"
+			tasks: [{
+				id: "28D04D812DC69ABA"
+				item: "gtceu:plasma_fluid_bucket"
+				type: "item"
+			}]
+			x: 16.0d
+			y: -22.0d
+		}
+		{
+			dependencies: ["68A7A75E44830E5D"]
+			icon: "gtceu:cellular_sediment_dust"
+			id: "510511689FFD8691"
+			tasks: [
+				{
+					id: "7584B49433120F61"
+					item: "gtceu:cellular_sediment_dust"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "0448FE08C85BEC90"
+					optional_task: true
+					type: "checkmark"
+				}
+			]
+			x: 14.5d
+			y: -20.5d
+		}
+		{
+			dependencies: ["669F52806D1D39F6"]
+			description: [
+				"Nuclear Reactor is a large multiblock that can produce truly insane amounts of power (plutonium fuel rod generates half an amp of ZPM.... per tick... for five minutes!)."
+				""
+				"It uses fuel rods per recipe, and uses up coolant each second (converting it to hot coolant)."
+				""
+				"Its byproduct - the nuclear waste - is very useful as well."
+			]
+			id: "70286CB5C875B0CF"
+			tasks: [{
+				id: "2F7EC7A63CB7354E"
+				item: "refactorycore:nuclear_reactor"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -19.0d
+		}
+		{
+			dependencies: ["70286CB5C875B0CF"]
+			description: ["Nuclear waste can be centrifuged, mainly yielding a nice amount of Uranium and Plutonium, as well as other smaller nuclear byproducts."]
+			id: "7E05CDF38D401EF2"
+			tasks: [{
+				id: "79FBA5BAA5B50A28"
+				item: "gtceu:nuclear_waste_dust"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -19.0d
+		}
+		{
+			dependencies: ["70286CB5C875B0CF"]
+			description: [
+				"Just voiding the hot coolant is a waste, you can make the Cooling Tower, which will cool down the hot coolant into its cold form, without losing any of it."
+				""
+				"It's a very cheap, but large multiblock, and can sustain 2 nuclear towers without problems."
+			]
+			id: "472C055C06B36FD3"
+			tasks: [{
+				id: "261EBEAAE697BA47"
+				item: "refactorycore:cooling_tower"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -20.5d
+		}
+		{
+			dependencies: ["70286CB5C875B0CF"]
+			id: "35ED1B6D30CFF42B"
+			tasks: [{
+				id: "4A74CDF05072B93D"
+				item: "gtceu:flinak_bucket"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -17.5d
 		}
 	]
 	title: "EV Age"

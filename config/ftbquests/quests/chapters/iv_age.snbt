@@ -190,7 +190,7 @@
 				item: "gtceu:quantum_processor"
 				type: "item"
 			}]
-			x: -4.5d
+			x: -3.0d
 			y: -7.5d
 		}
 		{
@@ -201,7 +201,7 @@
 				item: "gtceu:quantum_processor_assembly"
 				type: "item"
 			}]
-			x: -4.5d
+			x: -3.0d
 			y: -9.0d
 		}
 		{
@@ -212,7 +212,7 @@
 				item: "gtceu:quantum_processor_computer"
 				type: "item"
 			}]
-			x: -4.5d
+			x: -3.0d
 			y: -10.5d
 		}
 		{
@@ -223,7 +223,7 @@
 				item: "gtceu:quantum_processor_mainframe"
 				type: "item"
 			}]
-			x: -4.5d
+			x: -3.0d
 			y: -12.0d
 		}
 		{
@@ -235,31 +235,16 @@
 				item: "gtceu:fiber_reinforced_printed_circuit_board"
 				type: "item"
 			}]
-			x: -3.0d
+			x: -1.5d
 			y: -7.5d
 		}
 		{
-			dependencies: [
-				"4D468B06B5952FA4"
-				"3190DE2F5CF53483"
-			]
+			dependencies: ["3190DE2F5CF53483"]
 			id: "483A6C2844930A40"
 			shape: "gear"
 			tasks: [{
 				id: "05EF7F0625C20158"
 				item: "gtceu:hssg_coil_block"
-				type: "item"
-			}]
-			x: 1.5d
-			y: -9.0d
-		}
-		{
-			dependencies: ["3F37E03149399E3F"]
-			hide_dependency_lines: false
-			id: "4D468B06B5952FA4"
-			tasks: [{
-				id: "66C3F0417E304A49"
-				item: "gtceu:tungsten_carbide_ingot"
 				type: "item"
 			}]
 			x: 1.5d
@@ -274,8 +259,8 @@
 				item: "gtceu:hssg_ingot"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -9.0d
+			x: 1.5d
+			y: -4.5d
 		}
 		{
 			dependencies: [
@@ -302,39 +287,12 @@
 				item: "gtceu:polybenzimidazole_bucket"
 				type: "item"
 			}]
-			x: 3.0d
-			y: -1.5d
-		}
-		{
-			dependencies: ["3F37E03149399E3F"]
-			hide_dependency_lines: true
-			id: "18513632F088035F"
-			tasks: [{
-				id: "1FE8E4A3381D6827"
-				item: "gtceu:samarium_dust"
-				type: "item"
-			}]
-			x: 3.0d
-			y: -10.5d
-		}
-		{
-			dependencies: [
-				"18513632F088035F"
-				"483A6C2844930A40"
-			]
-			id: "2B74365F02A0CB65"
-			tasks: [{
-				id: "31BA77373393DDFD"
-				item: "gtceu:samarium_iron_arsenic_oxide_quadruple_wire"
-				type: "item"
-			}]
-			x: 1.5d
-			y: -10.5d
+			x: -1.5d
+			y: -4.5d
 		}
 		{
 			dependencies: [
 				"04D4F228BEE94349"
-				"2B74365F02A0CB65"
 				"50948FC264BA8EF2"
 			]
 			id: "2D17A322451C17D6"
@@ -364,8 +322,8 @@
 					type: "item"
 				}
 			]
-			x: 1.5d
-			y: -12.0d
+			x: -1.5d
+			y: -10.5d
 		}
 		{
 			dependencies: ["081802EE27170790"]
@@ -375,8 +333,8 @@
 				item: "gtceu:lapotronic_energy_orb"
 				type: "item"
 			}]
-			x: -3.0d
-			y: -10.5d
+			x: -1.5d
+			y: -9.0d
 		}
 		{
 			dependencies: ["50948FC264BA8EF2"]
@@ -386,33 +344,19 @@
 				item: "gtceu:power_substation"
 				type: "item"
 			}]
-			x: -6.0d
+			x: -4.5d
 			y: -12.0d
 		}
 		{
-			dependencies: [
-				"270411056AEC4BCD"
-				"483A6C2844930A40"
-			]
+			dependencies: ["483A6C2844930A40"]
 			id: "4C771453604769B9"
 			tasks: [{
 				id: "4DC83C026FEC8431"
 				item: "gtceu:hsss_ingot"
 				type: "item"
 			}]
-			x: 3.0d
-			y: -9.0d
-		}
-		{
-			dependencies: ["3F37E03149399E3F"]
-			id: "270411056AEC4BCD"
-			tasks: [{
-				id: "535E06B374F545AA"
-				item: "gtceu:osmium_dust"
-				type: "item"
-			}]
-			x: 3.0d
-			y: -3.0d
+			x: 6.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["3F37E03149399E3F"]
@@ -427,8 +371,8 @@
 				item: "botanypotstiers:creative_terracotta_botany_pot"
 				type: "item"
 			}]
-			x: 1.5d
-			y: -1.5d
+			x: 0.0d
+			y: -6.0d
 		}
 		{
 			description: [
@@ -456,7 +400,7 @@
 				item: "gtceu:luv_machine_casing"
 				type: "item"
 			}]
-			x: 3.0d
+			x: 7.5d
 			y: 2.0d
 		}
 		{
@@ -467,13 +411,14 @@
 				item: "gtceu:niobium_titanium_ingot"
 				type: "item"
 			}]
-			x: 3.0d
+			x: 7.5d
 			y: 0.0d
 		}
 		{
 			dependencies: [
 				"0070CB93EF1F679B"
 				"785A8464BDBBCF43"
+				"0AD1A782FCC8AB25"
 			]
 			id: "0FCD5D760ECB9449"
 			tasks: [{
@@ -481,36 +426,11 @@
 				item: "gtceu:luv_machine_hull"
 				type: "item"
 			}]
-			x: 4.5d
+			x: 12.0d
 			y: 1.0d
 		}
 		{
-			dependencies: [
-				"3190DE2F5CF53483"
-				"0808D2E05CBFB662"
-			]
-			id: "63B9ABF65FE9B7B1"
-			tasks: [{
-				id: "6798148624A874BB"
-				item: "gtceu:hsse_ingot"
-				type: "item"
-			}]
-			x: -1.5d
-			y: -9.0d
-		}
-		{
 			dependencies: ["3F37E03149399E3F"]
-			id: "380F3DFDA8957C8C"
-			tasks: [{
-				id: "16F6E864277D2063"
-				item: "gtceu:tantalum_carbide_ingot"
-				type: "item"
-			}]
-			x: -1.5d
-			y: -6.0d
-		}
-		{
-			dependencies: ["380F3DFDA8957C8C"]
 			id: "0808D2E05CBFB662"
 			size: 1.0d
 			tasks: [{
@@ -518,11 +438,11 @@
 				item: "gtceu:alloy_blast_smelter"
 				type: "item"
 			}]
-			x: -1.5d
-			y: -7.5d
+			x: 0.0d
+			y: -4.5d
 		}
 		{
-			dependencies: ["3F37E03149399E3F"]
+			dependencies: ["5387BC1123EBEA4C"]
 			id: "0DEAFF8F7747B74D"
 			tasks: [{
 				id: "5AE8F11AC2CB3345"
@@ -531,6 +451,577 @@
 			}]
 			x: -3.0d
 			y: -3.0d
+		}
+		{
+			dependencies: [
+				"25540C7E76C115DD"
+				"2BD6DA7642813B47"
+			]
+			id: "44B6796BBD1E367A"
+			tasks: [{
+				id: "29467AF0F3A4F275"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_3_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 13.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["445F993B3A6DC654"]
+			id: "1E8959EFBD554CE1"
+			tasks: [{
+				id: "72A91C62CEF134E5"
+				item: "gtceu:raw_naquadah"
+				type: "item"
+			}]
+			x: 16.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["1952A22410644283"]
+			id: "25540C7E76C115DD"
+			tasks: [
+				{
+					id: "00EB25A805895C4E"
+					item: {
+						Count: 1
+						id: "ad_astra:netherite_space_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0F2C66429A676BB5"
+					item: {
+						Count: 1
+						id: "ad_astra:netherite_space_suit"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0882320FFED0CE9E"
+					item: {
+						Count: 1
+						id: "ad_astra:netherite_space_pants"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "77769587563A0811"
+					item: {
+						Count: 1
+						id: "ad_astra:netherite_space_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 13.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["44B6796BBD1E367A"]
+			icon: "ad_astra:mercury_globe"
+			id: "445F993B3A6DC654"
+			tasks: [{
+				dimension: "ad_astra:mercury"
+				id: "13419FF4AF0438D7"
+				type: "dimension"
+			}]
+			x: 15.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["44B6796BBD1E367A"]
+			icon: "ad_astra:venus_globe"
+			id: "7ADC5D5E77EAA4F1"
+			tasks: [{
+				dimension: "ad_astra:venus"
+				id: "6D4B59CD83F803C9"
+				type: "dimension"
+			}]
+			x: 15.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["7ADC5D5E77EAA4F1"]
+			id: "09CFDB658A6FA885"
+			tasks: [{
+				id: "446BA100120FBF97"
+				item: "gtceu:raw_calorite"
+				type: "item"
+			}]
+			x: 16.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["445F993B3A6DC654"]
+			id: "37AFAA31F193EA20"
+			tasks: [{
+				id: "404532EC3AF95837"
+				item: "gtceu:raw_plutonium"
+				type: "item"
+			}]
+			x: 16.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["7ADC5D5E77EAA4F1"]
+			id: "18007ED23AFF59B1"
+			tasks: [{
+				id: "7420CD920D666138"
+				item: "gtceu:raw_palladium"
+				type: "item"
+			}]
+			x: 16.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["314D1F9A756D530F"]
+			id: "0AD1A782FCC8AB25"
+			tasks: [{
+				id: "084D6E1CC4EDB878"
+				item: "bloodmagic:ingot_hellforged"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"1952A22410644283"
+				"0AD1A782FCC8AB25"
+				"4C771453604769B9"
+			]
+			id: "2BD6DA7642813B47"
+			tasks: [{
+				count: 6L
+				id: "0BBFF9D98E1F07CB"
+				item: { Count: 6, id: "kubejs:t3_rocket_plate" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"655BFCEB89167162"
+				"7CDF253E08BCAD8B"
+			]
+			dependency_requirement: "one_completed"
+			id: "1952A22410644283"
+			tasks: [{
+				id: "36E6EDB0E16E6988"
+				item: "minecraft:netherite_ingot"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["3F37E03149399E3F"]
+			id: "5387BC1123EBEA4C"
+			tasks: [{
+				id: "223EB03EFFE1649F"
+				item: "minecraft:nether_star"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3F37E03149399E3F"]
+			id: "7DF135BBE931206A"
+			tasks: [{
+				id: "42C8D10517219EF6"
+				item: "bloodmagic:masterritualstone"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"7DF135BBE931206A"
+				"1147BAEF1233224C"
+				"57558481D64698B1"
+			]
+			id: "49D42406A5582088"
+			tasks: [{
+				id: "0ACEA96374C6B535"
+				title: "Edge of the Hidden Realm ritual"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["168822C2AC51BBD9"]
+			id: "1147BAEF1233224C"
+			tasks: [{
+				id: "7A933556BEE84E08"
+				item: "bloodmagic:ritualdiviner"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7BAAA4E2916E61E8"]
+			icon: {
+				Count: 1
+				id: "bloodmagic:airscribetool"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "168822C2AC51BBD9"
+			tasks: [
+				{
+					id: "367AA910E361CD67"
+					item: {
+						Count: 1
+						id: "bloodmagic:airscribetool"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3B8DC12CDB7AC07A"
+					item: {
+						Count: 1
+						id: "bloodmagic:firescribetool"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4932EA0E26BD2364"
+					item: {
+						Count: 1
+						id: "bloodmagic:waterscribetool"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1CBC2FFA46789720"
+					item: {
+						Count: 1
+						id: "bloodmagic:earthscribetool"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Inscription tools"
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7B62A35544F5875E"]
+			id: "57558481D64698B1"
+			tasks: [{
+				id: "50AA15E37125880B"
+				item: "bloodmagic:activationcrystalweak"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			id: "7B62A35544F5875E"
+			tasks: [{
+				id: "49419DC219E37AA5"
+				item: "bloodmagic:lavacrystal"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["49D42406A5582088"]
+			id: "72372CD364BCD272"
+			tasks: [{
+				id: "46D2D5CD1B5B095C"
+				item: "bloodmagic:strong_tau"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["72372CD364BCD272"]
+			id: "375243EA89FA7414"
+			tasks: [{
+				id: "75076C45FE8EB746"
+				item: "bloodmagic:weakbloodshard"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"375243EA89FA7414"
+				"077B55F7F31108BC"
+			]
+			id: "30FA0FE711D0B94D"
+			tasks: [{
+				id: "2CD43E2520B86543"
+				item: "bloodmagic:masterbloodorb"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["3CFA9DBB1B1ADFB8"]
+			id: "539048079D4E9536"
+			tasks: [{
+				id: "00F1C63AAB704591"
+				title: "Path to the Endless Realm ritual"
+				type: "checkmark"
+			}]
+			x: 9.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["077B55F7F31108BC"]
+			id: "3CFA9DBB1B1ADFB8"
+			tasks: [{
+				id: "41A515CB4B1B4682"
+				item: "bloodmagic:ritualdivinerdusk"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"375243EA89FA7414"
+				"461E885DF206205E"
+			]
+			id: "077B55F7F31108BC"
+			tasks: [{
+				id: "1D969C44E24D59B4"
+				item: "bloodmagic:largebloodstonebrick"
+				type: "item"
+			}]
+			title: "Tier 4 Blood Altar"
+			x: 7.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["539048079D4E9536"]
+			id: "314D1F9A756D530F"
+			tasks: [{
+				id: "27EFA76B5F38473D"
+				item: "bloodmagic:rawdemonite"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["041669D818CC1051"]
+			id: "2C2A2A8E95DD3BB0"
+			rewards: [{
+				count: 2
+				id: "149D6998B95DFC86"
+				item: "kubejs:refactory_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "6D40045D6EDCA91B"
+					item: "gtceu:advanced_smd_transistor"
+					type: "item"
+				}
+				{
+					id: "66B60588D51EC4C4"
+					item: "gtceu:advanced_smd_resistor"
+					type: "item"
+				}
+				{
+					id: "786DF14F22115485"
+					item: "gtceu:advanced_smd_capacitor"
+					type: "item"
+				}
+				{
+					id: "465957EB2F74F75F"
+					item: "gtceu:advanced_smd_diode"
+					type: "item"
+				}
+				{
+					id: "14D189624A79B407"
+					item: "gtceu:advanced_smd_inductor"
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["0FD1E2F5DA0C6837"]
+			icon: "gtceu:netherite_chloride_dust"
+			id: "655BFCEB89167162"
+			tasks: [
+				{
+					id: "04C882EC28972B4E"
+					item: "gtceu:netherite_chloride_dust"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "156B5DC3AE8B737A"
+					type: "checkmark"
+				}
+			]
+			x: 12.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["0FD1E2F5DA0C6837"]
+			icon: "gtceu:enriched_netherite_ammonia_solution_bucket"
+			id: "58A998E29EF4B9D6"
+			tasks: [
+				{
+					id: "312DCA0932C0B533"
+					item: "gtceu:enriched_netherite_ammonia_solution_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "27BCAA04B8A3B303"
+					type: "checkmark"
+				}
+			]
+			x: 9.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["58A998E29EF4B9D6"]
+			icon: "gtceu:enriched_netherite_dust"
+			id: "5C4B7C9B624E9AA9"
+			tasks: [
+				{
+					id: "393E79466487BA76"
+					item: "gtceu:enriched_netherite_dust"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "7A4709F29ACE38D1"
+					type: "checkmark"
+				}
+			]
+			x: 7.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["0FD1E2F5DA0C6837"]
+			icon: "gtceu:titanium_dioxide_dust"
+			id: "54B2F0D547B74D37"
+			tasks: [
+				{
+					id: "5BA76C6A90C8E220"
+					item: "gtceu:titanium_dioxide_dust"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "26C1CB97CAB256B3"
+					type: "checkmark"
+				}
+			]
+			x: 10.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["5C4B7C9B624E9AA9"]
+			id: "461E885DF206205E"
+			tasks: [{
+				id: "116AAC683B93537A"
+				item: "gtceu:enriched_netherite_ingot"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["7CDF253E08BCAD8B"]
+			description: [
+				"You can extract a lot of Enriched Netherite from purified netherite ore using Aqua Regia, which will also yield regular Netherite."
+				""
+				"If you don't want to do this yet (it will be required later), you can process the raw ore straight into Netherite and skip Enriched Netherite processing for now."
+			]
+			id: "0FD1E2F5DA0C6837"
+			optional: true
+			tasks: [{
+				id: "05C94E9381924179"
+				item: "gtceu:purified_netherite_ore"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["0AD1A782FCC8AB25"]
+			id: "23A9209C337665B6"
+			tasks: [{
+				id: "6B163BFDAEC279AF"
+				item: "gtceu:infernal_oil_bucket"
+				type: "item"
+			}]
+			title: "Demonite Duping"
+			x: 13.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["49D42406A5582088"]
+			id: "41BEEF639DCAE66D"
+			tasks: [{
+				id: "50BCEDE445DD9BF0"
+				item: "bloodmagic:weak_tau"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5387BC1123EBEA4C"]
+			id: "2A93F68C3B6A07CB"
+			tasks: [{
+				id: "630478C56B69BB7C"
+				item: "gtceu:null_catalyst_dust"
+				type: "item"
+			}]
+			title: "Nether Star Duping"
+			x: -1.5d
+			y: -1.5d
 		}
 	]
 	title: "IV Age"

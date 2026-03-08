@@ -19,17 +19,20 @@
 			icon: "gtceu:lv_machine_hull"
 			id: "35CB055A24346DE1"
 			shape: "square"
-			size: 1.5d
+			size: 1.0d
 			tasks: [{
 				id: "552AB0B877452E23"
 				type: "checkmark"
 			}]
 			title: "LV AGE"
-			x: -5.0d
-			y: -3.0d
+			x: -1.5d
+			y: -1.5d
 		}
 		{
-			dependencies: ["298F63E0659E0FD6"]
+			dependencies: [
+				"298F63E0659E0FD6"
+				"0E1F6E844041CC9F"
+			]
 			description: [
 				"Crucial machine for creating LV power."
 				""
@@ -51,13 +54,13 @@
 				}
 			]
 			shape: "gear"
-			size: 1.5d
+			size: 1.25d
 			tasks: [{
 				id: "1BF0D8B2C58C1011"
 				item: "gtceu:lv_steam_turbine"
 				type: "item"
 			}]
-			x: 4.5d
+			x: 3.0d
 			y: -1.5d
 		}
 		{
@@ -88,14 +91,14 @@
 				}
 			]
 			shape: "gear"
-			size: 1.5d
+			size: 1.25d
 			tasks: [{
 				id: "24805EF455C7050A"
 				item: "gtceu:lv_electric_motor"
 				type: "item"
 			}]
-			x: 7.5d
-			y: -3.0d
+			x: 1.5d
+			y: -7.5d
 		}
 		{
 			dependencies: [
@@ -125,16 +128,16 @@
 					type: "item"
 				}
 			]
-			shape: "gear"
-			size: 1.5d
+			shape: "none"
+			size: 2.0d
 			tasks: [{
 				id: "1BC795E23F104984"
 				item: "gtceu:basic_electronic_circuit"
 				type: "item"
 			}]
 			title: "Your First Circuit!"
-			x: 0.0d
-			y: -3.0d
+			x: 1.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["1AD99F9620569AA4"]
@@ -157,8 +160,8 @@
 				item: "gtceu:lv_bender"
 				type: "item"
 			}]
-			x: 9.0d
-			y: 2.0d
+			x: 4.5d
+			y: -9.0d
 		}
 		{
 			dependencies: ["1AD99F9620569AA4"]
@@ -181,8 +184,8 @@
 				item: "gtceu:lv_lathe"
 				type: "item"
 			}]
-			x: 9.0d
-			y: 3.5d
+			x: 6.0d
+			y: -10.5d
 		}
 		{
 			dependencies: ["298F63E0659E0FD6"]
@@ -227,7 +230,7 @@
 				item: "gtceu:lv_wiremill"
 				type: "item"
 			}]
-			x: 6.0d
+			x: 3.0d
 			y: -6.0d
 		}
 		{
@@ -254,8 +257,8 @@
 				item: "gtceu:lv_assembler"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 8.0d
+			x: 12.0d
+			y: -7.5d
 		}
 		{
 			dependencies: ["298F63E0659E0FD6"]
@@ -267,14 +270,14 @@
 				type: "loot"
 			}]
 			shape: "gear"
-			size: 1.5d
+			size: 1.25d
 			tasks: [{
 				id: "13A71EEFE85F45F8"
 				item: "gtceu:lv_electric_piston"
 				type: "item"
 			}]
-			x: 7.5d
-			y: 3.5d
+			x: 6.0d
+			y: -7.5d
 		}
 		{
 			dependencies: ["03D3442F857F0592"]
@@ -285,13 +288,14 @@
 				item: "kubejs:refactory_coin"
 				type: "item"
 			}]
+			size: 1.0d
 			tasks: [{
 				id: "56C90758761F1404"
 				item: "gtceu:lv_electric_furnace"
 				type: "item"
 			}]
 			x: 3.0d
-			y: 0.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["03D3442F857F0592"]
@@ -304,13 +308,14 @@
 				type: "item"
 			}]
 			shape: "gear"
+			size: 1.0d
 			tasks: [{
 				id: "020EA65E86B87D88"
 				item: "gtceu:lv_alloy_smelter"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 0.5d
+			x: 4.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["03D3442F857F0592"]
@@ -325,13 +330,14 @@
 				item: "kubejs:refactory_coin"
 				type: "item"
 			}]
+			size: 1.0d
 			tasks: [{
 				id: "6CA7F14BA3CAA4F3"
 				item: "gtceu:lv_arc_furnace"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 0.5d
+			x: 4.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["44495C979D17EFD5"]
@@ -342,13 +348,14 @@
 				item: "kubejs:refactory_coin"
 				type: "item"
 			}]
+			size: 1.0d
 			tasks: [{
 				id: "1706653C1D728D37"
 				item: "gtceu:lv_autoclave"
 				type: "item"
 			}]
-			x: 13.5d
-			y: -1.5d
+			x: 3.0d
+			y: -9.0d
 		}
 		{
 			dependencies: ["298F63E0659E0FD6"]
@@ -375,13 +382,14 @@
 				}
 			]
 			shape: "gear"
+			size: 1.0d
 			tasks: [{
 				id: "7AA5294339CD58CC"
 				item: "gtceu:lv_centrifuge"
 				type: "item"
 			}]
-			x: 6.0d
-			y: -1.5d
+			x: -1.5d
+			y: -7.5d
 		}
 		{
 			dependencies: ["298F63E0659E0FD6"]
@@ -396,13 +404,14 @@
 				item: "kubejs:refactory_coin"
 				type: "item"
 			}]
+			size: 1.0d
 			tasks: [{
 				id: "5B34E0D422A1B61B"
 				item: "gtceu:lv_chemical_reactor"
 				type: "item"
 			}]
-			x: 9.0d
-			y: -4.5d
+			x: -1.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["1AD99F9620569AA4"]
@@ -421,13 +430,14 @@
 					type: "item"
 				}
 			]
+			size: 1.0d
 			tasks: [{
 				id: "00D83C31629AFEB3"
 				item: "gtceu:lv_compressor"
 				type: "item"
 			}]
-			x: 10.5d
-			y: 3.5d
+			x: 7.5d
+			y: -9.0d
 		}
 		{
 			dependencies: ["03D3442F857F0592"]
@@ -438,13 +448,14 @@
 				item: "kubejs:refactory_coin"
 				type: "item"
 			}]
+			size: 1.0d
 			tasks: [{
 				id: "4FCF72B0E5AC601F"
 				item: "gtceu:lv_electrolyzer"
 				type: "item"
 			}]
 			x: 4.5d
-			y: 0.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["44495C979D17EFD5"]
@@ -457,13 +468,14 @@
 				type: "item"
 			}]
 			shape: "gear"
+			size: 1.0d
 			tasks: [{
 				id: "74100EBEAB9A3FD0"
 				item: "gtceu:lv_extractor"
 				type: "item"
 			}]
-			x: 13.5d
-			y: -4.5d
+			x: 0.0d
+			y: -10.5d
 		}
 		{
 			dependencies: ["1AD99F9620569AA4"]
@@ -482,13 +494,14 @@
 					type: "item"
 				}
 			]
+			size: 1.0d
 			tasks: [{
 				id: "0E31D8A896B81D9D"
 				item: "gtceu:lv_extruder"
 				type: "item"
 			}]
-			x: 10.5d
-			y: 2.0d
+			x: 6.0d
+			y: -9.0d
 		}
 		{
 			dependencies: ["298F63E0659E0FD6"]
@@ -515,7 +528,7 @@
 				item: "gtceu:lv_mixer"
 				type: "item"
 			}]
-			x: 7.5d
+			x: 0.0d
 			y: -4.5d
 		}
 		{
@@ -531,13 +544,14 @@
 				item: "kubejs:refactory_coin"
 				type: "item"
 			}]
+			size: 1.0d
 			tasks: [{
 				id: "3992F3ADBF90A6C6"
 				item: "gtceu:lv_ore_washer"
 				type: "item"
 			}]
-			x: 6.0d
-			y: -4.5d
+			x: 0.0d
+			y: -7.5d
 		}
 		{
 			dependencies: ["35CB055A24346DE1"]
@@ -550,13 +564,14 @@
 			]
 			id: "7A182C2B32A50D8A"
 			optional: true
+			size: 1.0d
 			tasks: [{
 				id: "0E85CD2DFD187C0A"
 				item: "gtceu:lv_battery_buffer_4x"
 				type: "item"
 			}]
-			x: -5.0d
-			y: -1.5d
+			x: -3.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["298F63E0659E0FD6"]
@@ -580,14 +595,14 @@
 				}
 			]
 			shape: "gear"
-			size: 1.5d
+			size: 1.25d
 			tasks: [{
 				id: "299B171F8C158356"
 				item: "gtceu:lv_electric_pump"
 				type: "item"
 			}]
-			x: 12.0d
-			y: -3.0d
+			x: 1.5d
+			y: -9.0d
 		}
 		{
 			dependencies: ["1AD99F9620569AA4"]
@@ -604,14 +619,14 @@
 				type: "loot"
 			}]
 			shape: "gear"
-			size: 1.5d
+			size: 1.25d
 			tasks: [{
 				id: "40F518F0A11F8BA7"
 				item: "gtceu:lv_robot_arm"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 3.5d
+			x: 9.0d
+			y: -7.5d
 		}
 		{
 			dependencies: ["298F63E0659E0FD6"]
@@ -634,8 +649,8 @@
 				item: "gtceu:lv_conveyor_module"
 				type: "item"
 			}]
-			x: 7.5d
-			y: 8.0d
+			x: 10.5d
+			y: -7.5d
 		}
 		{
 			dependencies: ["0E1F6E844041CC9F"]
@@ -661,8 +676,8 @@
 				item: "gtceu:lv_emitter"
 				type: "item"
 			}]
-			x: -1.5d
-			y: -6.0d
+			x: 1.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["44495C979D17EFD5"]
@@ -673,18 +688,20 @@
 				item: "kubejs:refactory_coin"
 				type: "item"
 			}]
+			size: 1.0d
 			tasks: [{
 				id: "0AF54BBA168B9520"
 				item: "gtceu:lv_canner"
 				type: "item"
 			}]
-			x: 13.5d
-			y: -3.0d
+			x: 1.5d
+			y: -12.0d
 		}
 		{
 			dependencies: ["1996FB28610A07F4"]
 			description: ["You can make a battery using different materials, with Lithium being the best."]
 			id: "7F7FA47652C0FA90"
+			size: 1.0d
 			tasks: [
 				{
 					id: "3B9B08D160BF1BC1"
@@ -705,8 +722,8 @@
 					type: "item"
 				}
 			]
-			x: 15.0d
-			y: -3.0d
+			x: 3.0d
+			y: -12.0d
 		}
 		{
 			dependencies: [
@@ -740,8 +757,8 @@
 					type: "item"
 				}
 			]
-			shape: "gear"
-			size: 1.5d
+			shape: "none"
+			size: 2.0d
 			tasks: [{
 				count: 2L
 				id: "0FEE350D6FF93B46"
@@ -749,8 +766,8 @@
 				type: "item"
 			}]
 			title: "Your Second Circuit"
-			x: 6.0d
-			y: 12.5d
+			x: 15.0d
+			y: -4.5d
 		}
 		{
 			dependencies: [
@@ -764,14 +781,15 @@
 				item: "gtceu:basic_electronic_circuit"
 				type: "item"
 			}]
+			size: 1.0d
 			tasks: [{
 				count: 4L
 				id: "1B3917FEBC3F7C66"
 				item: "gtceu:diode"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 11.0d
+			x: 13.5d
+			y: -7.5d
 		}
 		{
 			dependencies: ["1AD99F9620569AA4"]
@@ -795,8 +813,8 @@
 				item: "gtceu:lv_forming_press"
 				type: "item"
 			}]
-			x: 9.0d
-			y: 6.5d
+			x: 6.0d
+			y: -4.5d
 		}
 		{
 			dependencies: [
@@ -812,19 +830,21 @@
 				item: "gtceu:phenolic_printed_circuit_board"
 				type: "item"
 			}]
+			size: 1.0d
 			tasks: [{
 				count: 2L
 				id: "3735B04F8FFAE088"
 				item: "gtceu:phenolic_printed_circuit_board"
 				type: "item"
 			}]
-			x: 9.0d
-			y: 12.5d
+			x: 13.5d
+			y: -4.5d
 		}
 		{
 			dependencies: [
 				"74C94B5C7B866A34"
 				"01A0E9661BB0FDAB"
+				"3DEB22BC52D14FDF"
 			]
 			description: ["You will need 2 to create 2 MV circuit boards."]
 			id: "5B86B4616F141E18"
@@ -834,14 +854,15 @@
 				item: "gtceu:resistor"
 				type: "item"
 			}]
+			size: 1.0d
 			tasks: [{
 				count: 2L
 				id: "6ECDCCE5C2AFCBAB"
 				item: "gtceu:phenolic_circuit_board"
 				type: "item"
 			}]
-			x: 7.5d
-			y: 9.5d
+			x: 13.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["1AD99F9620569AA4"]
@@ -860,20 +881,17 @@
 					type: "item"
 				}
 			]
+			size: 1.0d
 			tasks: [{
 				id: "79E17099F22F5C5E"
 				item: "gtceu:lv_rock_crusher"
 				type: "item"
 			}]
-			x: 9.0d
-			y: 5.0d
+			x: 7.5d
+			y: -10.5d
 		}
 		{
-			dependencies: [
-				"0E1F6E844041CC9F"
-				"74C94B5C7B866A34"
-				"45961AD543495B1D"
-			]
+			dependencies: ["45961AD543495B1D"]
 			description: [
 				"An EBF is an important step for progressing. It's required to get Aluminium ingots and move into MV."
 				""
@@ -903,8 +921,8 @@
 					type: "item"
 				}
 			]
-			shape: "gear"
-			size: 1.5d
+			shape: "none"
+			size: 2.0d
 			tasks: [
 				{
 					id: "0D5BD6D783E47B3B"
@@ -944,8 +962,8 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
-			y: 8.0d
+			x: 12.0d
+			y: -1.5d
 		}
 		{
 			dependencies: [
@@ -965,29 +983,35 @@
 				type: "loot"
 			}]
 			shape: "gear"
-			size: 1.0d
+			size: 1.5d
 			tasks: [{
 				id: "7CB8E4F11B64A373"
 				item: "gtceu:aluminium_ingot"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 14.0d
+			x: 13.5d
+			y: 0.0d
 		}
 		{
-			dependencies: ["62B56B57D291BF7B"]
+			dependencies: [
+				"62B56B57D291BF7B"
+				"14301487802452D9"
+				"6F80CA65E869970E"
+			]
+			dependency_requirement: "one_completed"
 			description: [
 				"For basically all MV machines, you're going to need Aluminium."
 				"You can get it from electrolizing sapphire dust, until you get a better source later in the game."
 			]
 			id: "5F717D5E9715ED7C"
+			size: 1.0d
 			tasks: [{
 				id: "7F8D558574E13105"
 				item: "gtceu:aluminium_dust"
 				type: "item"
 			}]
-			x: -1.5d
-			y: 14.0d
+			x: 13.5d
+			y: 1.5d
 		}
 		{
 			dependencies: [
@@ -1002,7 +1026,7 @@
 				"One EBF requires 16 coils, unless it's wall-sharing with another EBF."
 			]
 			id: "4806751104224E6A"
-			size: 1.5d
+			size: 1.0d
 			tasks: [{
 				count: 16L
 				id: "62AFFC39EF5E36DC"
@@ -1010,8 +1034,8 @@
 				type: "item"
 			}]
 			title: "Coils"
-			x: 0.0d
-			y: 12.5d
+			x: 13.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["318CA73CE4C3DC3D"]
@@ -1043,13 +1067,14 @@
 					type: "item"
 				}
 			]
+			size: 1.0d
 			tasks: [{
 				id: "76DDC25C641D4F7F"
 				title: "Wallsharing"
 				type: "checkmark"
 			}]
-			x: -1.5d
-			y: 8.0d
+			x: 12.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["35CB055A24346DE1"]
@@ -1072,13 +1097,14 @@
 				item: "thermal:green_bean_pie"
 				type: "item"
 			}]
+			size: 1.0d
 			tasks: [{
 				id: "1A6367562A3CB19F"
 				title: "Cables"
 				type: "checkmark"
 			}]
-			x: -6.5d
-			y: -3.0d
+			x: -3.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["07377D4D02DC350A"]
@@ -1097,8 +1123,8 @@
 				item: "gtceu:lv_circuit_assembler"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 14.0d
+			x: 16.5d
+			y: -4.5d
 		}
 		{
 			dependencies: [
@@ -1122,15 +1148,15 @@
 					type: "item"
 				}
 			]
-			shape: "gear"
-			size: 1.5d
+			shape: "none"
+			size: 2.0d
 			tasks: [{
 				id: "165C8A2A8AE2CF63"
 				item: "gtceu:mv_machine_hull"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 14.0d
+			x: 15.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["74C94B5C7B866A34"]
@@ -1150,14 +1176,15 @@
 				item: "kubejs:refactory_coin"
 				type: "item"
 			}]
+			size: 1.0d
 			tasks: [{
 				id: "537E23D3C0AD1590"
 				item: "gtceu:lv_4a_energy_converter"
 				type: "item"
 			}]
 			title: "Energy Conversion"
-			x: 4.5d
-			y: 6.5d
+			x: 13.5d
+			y: -9.0d
 		}
 		{
 			dependencies: ["0E1F6E844041CC9F"]
@@ -1169,13 +1196,14 @@
 				item: "kubejs:refactory_coin"
 				type: "item"
 			}]
+			size: 1.0d
 			tasks: [{
 				id: "3FB6A1A4FB68E55E"
 				item: "gtceu:lv_super_chest"
 				type: "item"
 			}]
-			x: -1.5d
-			y: -0.5d
+			x: 0.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["6B22D87DF0CDC580"]
@@ -1186,13 +1214,14 @@
 			]
 			hide_dependency_lines: false
 			id: "0B597578FA4639DF"
+			size: 1.0d
 			tasks: [{
 				id: "718DD372E45A8A9E"
 				item: "gtceu:soldering_alloy_dust"
 				type: "item"
 			}]
-			x: 7.5d
-			y: 14.0d
+			x: 18.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["298F63E0659E0FD6"]
@@ -1208,13 +1237,14 @@
 				type: "item"
 			}]
 			shape: "gear"
+			size: 1.0d
 			tasks: [{
 				id: "5E22F7BF0CECAAC5"
 				item: "gtceu:lv_cutter"
 				type: "item"
 			}]
-			x: 9.0d
-			y: -1.5d
+			x: 0.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["44495C979D17EFD5"]
@@ -1225,13 +1255,14 @@
 				item: "kubejs:refactory_coin"
 				type: "item"
 			}]
+			size: 1.0d
 			tasks: [{
 				id: "1A49E8ACB4659F89"
 				item: "gtceu:lv_pump"
 				type: "item"
 			}]
-			x: 12.0d
-			y: -4.5d
+			x: -1.5d
+			y: -10.5d
 		}
 		{
 			dependencies: ["0E1F6E844041CC9F"]
@@ -1242,14 +1273,14 @@
 			]
 			id: "7D3B41AED0D6C081"
 			optional: true
-			shape: "octagon"
+			size: 1.0d
 			tasks: [{
 				id: "75C6919BB02D9293"
 				item: "gtceu:bronze_large_boiler"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -7.5d
+			x: 3.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["2425F4CE4FE78AC1"]
@@ -1260,12 +1291,13 @@
 				item: "kubejs:refactory_coin"
 				type: "item"
 			}]
+			size: 1.0d
 			tasks: [{
 				id: "5CE5439EE3C20DB9"
 				item: "gtceu:rubber_bucket"
 				type: "item"
 			}]
-			x: 9.0d
+			x: -3.0d
 			y: -6.0d
 		}
 		{
@@ -1289,6 +1321,7 @@
 					type: "item"
 				}
 			]
+			size: 1.0d
 			tasks: [
 				{
 					id: "57BA2CE66F9FC27B"
@@ -1301,38 +1334,28 @@
 					type: "item"
 				}
 			]
-			x: 9.0d
-			y: 0.5d
+			x: 4.5d
+			y: -10.5d
 		}
 		{
-			dependencies: ["0E1F6E844041CC9F"]
+			dependencies: ["35CB055A24346DE1"]
 			description: [
 				"Machines have plenty of recipes, and some require Programmed Circuits set on a certain number."
 				""
-				"You almost never need to make these, as every multiblock and machine contain these in their menu by default."
+				"You almost never need to make these, as every multiblock and machine contain these in their menu or input hatches/busses by default."
 				""
 				"You can set the number in the bottom left of the machine's menu."
 			]
 			id: "4249C932C7F3FF69"
 			optional: true
-			rewards: [{
-				id: "2F30C90FEE74A89F"
-				item: "gtceu:basic_electronic_circuit"
-				type: "item"
-			}]
+			size: 1.0d
 			tasks: [{
-				id: "72DB835AE024B8C6"
-				item: {
-					Count: 1
-					id: "gtceu:programmed_circuit"
-					tag: {
-						Configuration: 0
-					}
-				}
-				type: "item"
+				id: "3052F3686B70A8D7"
+				type: "checkmark"
 			}]
-			x: 0.0d
-			y: -6.0d
+			title: "Programmed Circuits"
+			x: -3.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["35CB055A24346DE1"]
@@ -1344,35 +1367,14 @@
 				"You can get Tree Bark by chopping wood on the Chopping Board."
 			]
 			id: "527C703959FD9B65"
+			size: 1.0d
 			tasks: [{
 				id: "193B1D97DF63836A"
 				item: "minecraft:paper"
 				type: "item"
 			}]
-			x: -3.5d
-			y: -2.0d
-		}
-		{
-			dependencies: ["0E1F6E844041CC9F"]
-			description: ["This little guy holds energy for you and can charge your inventory equipment."]
-			id: "29598AD66C765FBA"
-			optional: true
-			rewards: [{
-				id: "7A0B10487B25C827"
-				item: "kubejs:refactory_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "09621B4CE4B7D315"
-				item: {
-					Count: 1
-					id: "thermal:rf_potato"
-					tag: { }
-				}
-				type: "item"
-			}]
-			x: 1.5d
-			y: -6.0d
+			x: -1.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["44495C979D17EFD5"]
@@ -1383,13 +1385,14 @@
 				item: "kubejs:refactory_coin"
 				type: "item"
 			}]
+			size: 1.0d
 			tasks: [{
 				id: "73E33CD17C8C95FD"
 				item: "gtceu:lv_distillery"
 				type: "item"
 			}]
-			x: 10.5d
-			y: -1.5d
+			x: 0.0d
+			y: -12.0d
 		}
 		{
 			dependencies: ["4816A85DF7D24F0B"]
@@ -1408,31 +1411,14 @@
 				item: "gtceu:gallium_arsenide_dust"
 				type: "item"
 			}]
+			size: 1.0d
 			tasks: [{
 				id: "6800D7060EB527F6"
 				item: "gtceu:gallium_arsenide_dust"
 				type: "item"
 			}]
-			x: 7.5d
-			y: 11.0d
-		}
-		{
-			dependencies: ["01E6A51033DA1518"]
-			description: ["You can smelt the copper in the arc furnace into Annealed Copper, which can be used in many recipes that require Copper and gives a higher yield."]
-			id: "3EC7290C5FE13ED1"
-			rewards: [{
-				count: 16
-				id: "3E662068A6019442"
-				item: "gtceu:copper_single_wire"
-				type: "item"
-			}]
-			tasks: [{
-				id: "3B48A4CC5F973C1A"
-				item: "gtceu:annealed_copper_ingot"
-				type: "item"
-			}]
-			x: 6.0d
-			y: 2.0d
+			x: 15.0d
+			y: -7.5d
 		}
 		{
 			dependencies: ["55D76A052A9EE6A0"]
@@ -1442,13 +1428,14 @@
 				"It's use is in Cupronickel coils."
 			]
 			id: "6A3B2EF9E54AB551"
+			size: 1.0d
 			tasks: [{
 				id: "0EEB232EEE2C1D00"
 				item: "gtceu:mana_alloy_ingot"
 				type: "item"
 			}]
-			x: 4.5d
-			y: 12.5d
+			x: 13.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["74C94B5C7B866A34"]
@@ -1460,13 +1447,14 @@
 			disable_toast: true
 			id: "01A0E9661BB0FDAB"
 			shape: "gear"
+			size: 1.25d
 			tasks: [{
 				id: "2F71AD033A6074AD"
 				item: "botania:mana_pool"
 				type: "item"
 			}]
-			x: 4.5d
-			y: 8.0d
+			x: 12.0d
+			y: -4.5d
 		}
 		{
 			dependencies: [
@@ -1476,13 +1464,14 @@
 			dependency_requirement: "one_completed"
 			description: ["You can make Lubricant in a Brewery or Distillery using a wide range of stuff"]
 			id: "3F93873DE169ED25"
+			size: 1.0d
 			tasks: [{
 				id: "68A3B4AF78395BF5"
 				item: "gtceu:lubricant_bucket"
 				type: "item"
 			}]
-			x: 10.5d
-			y: 0.0d
+			x: 0.0d
+			y: -13.5d
 		}
 		{
 			dependencies: ["01A0E9661BB0FDAB"]
@@ -1499,14 +1488,14 @@
 				type: "item"
 			}]
 			shape: "gear"
-			size: 1.5d
+			size: 1.0d
 			tasks: [{
 				id: "40E8B07C3856E4DB"
 				item: "botania:manasteel_ingot"
 				type: "item"
 			}]
-			x: 4.5d
-			y: 11.0d
+			x: 12.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["74C94B5C7B866A34"]
@@ -1517,42 +1506,45 @@
 				item: "kubejs:refactory_coin"
 				type: "item"
 			}]
+			size: 1.0d
 			tasks: [{
 				id: "60D7C8FB99B88068"
 				item: "gtceu:steel_fluid_cell"
 				type: "item"
 			}]
-			x: 7.5d
-			y: 6.5d
+			x: 10.5d
+			y: -9.0d
 		}
 		{
 			dependencies: ["7F7FA47652C0FA90"]
-			description: ["If you haven't made an EnderIO magnet, this one does the job as well, but is a bit harder to craft."]
+			description: ["If you haven't made an EnderIO magnet, this one does the same job, but has a built in filter and can be placed into a Curio slot to preserve inventory space."]
 			id: "1E761C6B347E80D6"
 			rewards: [{
 				id: "15F2F344397613D4"
 				item: "kubejs:refactory_coin"
 				type: "item"
 			}]
+			size: 1.0d
 			tasks: [{
 				id: "3E7BF9337D7DCD9F"
 				item: "gtceu:lv_item_magnet"
 				type: "item"
 			}]
-			x: 16.5d
-			y: -3.0d
+			x: 4.5d
+			y: -12.0d
 		}
 		{
 			dependencies: ["18BC6F844CF368EF"]
 			description: ["Now you've unlocked a big portion of EnderIO by unlocking Aluminium!"]
 			id: "0C8965813F7EE3D2"
+			size: 1.0d
 			tasks: [{
 				id: "2778506E3101EE40"
 				item: "enderio:void_chassis"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 15.5d
+			x: 15.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["44495C979D17EFD5"]
@@ -1575,57 +1567,14 @@
 					type: "item"
 				}
 			]
+			size: 1.0d
 			tasks: [{
 				id: "1916FC1736C81B3E"
 				item: "thermal:device_water_gen"
 				type: "item"
 			}]
-			x: 13.5d
-			y: 0.0d
-		}
-		{
-			dependencies: ["0E1F6E844041CC9F"]
-			description: [
-				"Serves as a very large chest."
-				""
-				"There are higher tiers as you progress, made out of more advanced materials."
-			]
-			id: "46303F9FE371A8BA"
-			optional: true
-			rewards: [
-				{
-					id: "31E7A69D717666EA"
-					item: {
-						Count: 1
-						id: "gtceu:iron_crowbar"
-						tag: {
-							DisallowContainerItem: 0b
-							GT.Behaviours: { }
-							GT.Tool: {
-								Damage: 0
-								Enchantability: 14
-								HarvestLevel: 2
-								MaxDamage: 255
-								ToolSpeed: 6.0f
-							}
-							HideFlags: 2
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "711CF382D9E2D857"
-					item: "kubejs:refactory_coin"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "178F4B931CE5BCF6"
-				item: "gtceu:steel_crate"
-				type: "item"
-			}]
 			x: 1.5d
-			y: -4.5d
+			y: -10.5d
 		}
 		{
 			dependencies: ["44495C979D17EFD5"]
@@ -1640,6 +1589,7 @@
 				item: "kubejs:refactory_coin"
 				type: "item"
 			}]
+			size: 1.0d
 			tasks: [{
 				id: "535612784E5DC6B0"
 				item: {
@@ -1649,8 +1599,8 @@
 				}
 				type: "item"
 			}]
-			x: 10.5d
-			y: -4.5d
+			x: 0.0d
+			y: -9.0d
 		}
 		{
 			dependencies: ["45961AD543495B1D"]
@@ -1665,25 +1615,27 @@
 				item: "kubejs:refactory_coin"
 				type: "item"
 			}]
+			size: 1.0d
 			tasks: [{
 				id: "002EA2B577FE7C7F"
 				item: "thermal:device_rock_gen"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 2.0d
+			x: 6.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["416D2D2897567BA7"]
 			description: ["An alloy of iron and nickel. Needed to make casings for the EBF"]
 			id: "45961AD543495B1D"
+			size: 1.0d
 			tasks: [{
 				id: "397C07F13B6E277F"
 				item: "gtceu:invar_ingot"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 2.0d
+			x: 6.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["3217E715633CB5F3"]
@@ -1694,6 +1646,7 @@
 			]
 			id: "496A59D3C7E8D87B"
 			optional: true
+			size: 1.0d
 			tasks: [{
 				id: "2CC93D390B46DA3D"
 				item: {
@@ -1709,8 +1662,8 @@
 				}
 				type: "item"
 			}]
-			x: 1.5d
-			y: -1.5d
+			x: 3.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["6C3A8FBF865AF3E0"]
@@ -1724,13 +1677,14 @@
 				item: "kubejs:refactory_coin"
 				type: "item"
 			}]
+			size: 1.0d
 			tasks: [{
 				id: "6671396AA9DC2EDE"
 				title: "Superconductors"
 				type: "checkmark"
 			}]
-			x: -8.0d
-			y: -3.0d
+			x: -4.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["44495C979D17EFD5"]
@@ -1740,13 +1694,14 @@
 				item: "kubejs:refactory_coin"
 				type: "item"
 			}]
+			size: 1.0d
 			tasks: [{
 				id: "3E42A389DABB4ADC"
 				item: "gtceu:lv_brewery"
 				type: "item"
 			}]
-			x: 12.0d
-			y: -1.5d
+			x: -1.5d
+			y: -12.0d
 		}
 		{
 			dependencies: ["01A0E9661BB0FDAB"]
@@ -1759,6 +1714,7 @@
 			]
 			icon: "botania:endoflame"
 			id: "04B546A6C1D2C247"
+			size: 1.0d
 			tasks: [
 				{
 					id: "08DEB1A5D2A1ABD4"
@@ -1774,8 +1730,8 @@
 				}
 			]
 			title: "Generating Mana"
-			x: 3.0d
-			y: 9.5d
+			x: 11.0d
+			y: -5.25d
 		}
 		{
 			dependencies: [
@@ -1791,6 +1747,7 @@
 			]
 			icon: "botania:mana_spreader"
 			id: "753BCA51177DC85C"
+			size: 1.0d
 			tasks: [
 				{
 					id: "019998879FD08C7E"
@@ -1812,8 +1769,8 @@
 				}
 			]
 			title: "Spreading Mana"
-			x: 1.5d
-			y: 8.0d
+			x: 10.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["4816A85DF7D24F0B"]
@@ -1829,34 +1786,13 @@
 				item: "kubejs:refactory_coin"
 				type: "item"
 			}]
+			size: 1.0d
 			tasks: [{
 				id: "04929F17E0D06C9B"
 				item: "enderio:conduit_binder"
 				type: "item"
 			}]
-			x: 7.5d
-			y: -6.0d
-		}
-		{
-			dependencies: ["0E1F6E844041CC9F"]
-			description: [
-				"Place a seed and soil inside the botany pot, and it will grow the plant! When it is fully grown, you can right click to harvest it."
-				""
-				"If you convert it into a hopper botany pot (by combining it with a hopper in the crafting table) it will automatically harvest the plant when it is fully grown and output the items to the storage below itself."
-			]
-			id: "03B564444DFB6D48"
-			optional: true
-			rewards: [{
-				id: "5F5FAA10364365E8"
-				item: "minecraft:farmland"
-				type: "item"
-			}]
-			tasks: [{
-				id: "33236785E24B4D29"
-				item: "botanypots:terracotta_botany_pot"
-				type: "item"
-			}]
-			x: 0.0d
+			x: -1.5d
 			y: -4.5d
 		}
 		{
@@ -1867,14 +1803,14 @@
 				"You will need to access the Undergarden to get Utherium. You'll need this material for mana spreaders and other LV and MV components."
 			]
 			id: "50A5F4983B628438"
-			shape: "gear"
+			size: 1.0d
 			tasks: [{
 				id: "615FB5C7CE7AB775"
 				item: "undergarden:catalyst"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 3.5d
+			x: 6.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["50A5F4983B628438"]
@@ -1890,6 +1826,8 @@
 				item: "farmersdelight:chocolate_pie"
 				type: "item"
 			}]
+			shape: "gear"
+			size: 1.25d
 			tasks: [{
 				dimension: "undergarden:undergarden"
 				icon: "undergarden:depthrock"
@@ -1897,20 +1835,21 @@
 				type: "dimension"
 			}]
 			title: "Visit The Undergarden"
-			x: 1.5d
-			y: 5.0d
+			x: 7.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["518756FCEA4DA67E"]
 			id: "735D0BC709C67509"
+			size: 1.0d
 			tasks: [{
 				count: 16L
 				id: "32D4192387915E77"
 				item: { Count: 16, id: "gtceu:raw_utherium" }
 				type: "item"
 			}]
-			x: 1.5d
-			y: 6.5d
+			x: 10.5d
+			y: 0.0d
 		}
 		{
 			dependencies: [
@@ -1918,32 +1857,28 @@
 				"18BC6F844CF368EF"
 			]
 			id: "2D7A83E987DF8527"
+			size: 1.0d
 			tasks: [{
 				id: "4A5BE1C0B7DBF801"
 				item: "gtceu:mv_machine_casing"
 				type: "item"
 			}]
-			x: 4.5d
-			y: 14.0d
+			x: 15.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["518756FCEA4DA67E"]
 			description: ["The Gloomer and Dweller inside The Undergarden drop leather."]
 			id: "40E754EC1BE7E04E"
 			optional: true
-			rewards: [{
-				count: 4
-				id: "52209B8ACF744773"
-				item: "minecraft:rabbit_hide"
-				type: "item"
-			}]
+			size: 1.0d
 			tasks: [{
 				id: "6B1C0982655B5FF9"
 				item: "minecraft:leather"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 5.0d
+			x: 7.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["35CB055A24346DE1"]
@@ -1960,13 +1895,14 @@
 				item: "kubejs:refactory_coin"
 				type: "item"
 			}]
+			size: 1.0d
 			tasks: [{
 				id: "44F6D4AB4C51BD1B"
 				item: "gtceu:resin_circuit_board"
 				type: "item"
 			}]
-			x: -3.5d
-			y: -4.0d
+			x: -1.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["1A61A146A907EFFD"]
@@ -1981,13 +1917,14 @@
 				item: "kubejs:refactory_coin"
 				type: "item"
 			}]
+			size: 1.0d
 			tasks: [{
 				id: "717CF17FFECC6343"
 				item: "gtceu:resin_printed_circuit_board"
 				type: "item"
 			}]
-			x: -1.5d
-			y: -4.0d
+			x: 0.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["35CB055A24346DE1"]
@@ -1997,6 +1934,7 @@
 				"You'll need 2 per circuit."
 			]
 			id: "126D8BEC67BA4BE7"
+			size: 1.0d
 			tasks: [{
 				count: 2L
 				id: "40B4460E502F22CD"
@@ -2004,8 +1942,8 @@
 				type: "item"
 			}]
 			title: "Old Timer"
-			x: -2.5d
-			y: -3.0d
+			x: 0.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["527C703959FD9B65"]
@@ -2015,6 +1953,7 @@
 				"You'll need 2 per circuit."
 			]
 			id: "1DACF3E598C0485E"
+			size: 1.0d
 			tasks: [{
 				count: 2L
 				id: "4F6E4A0CF41C2730"
@@ -2022,8 +1961,8 @@
 				type: "item"
 			}]
 			title: "Resistors"
-			x: -1.5d
-			y: -2.0d
+			x: 0.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["04B546A6C1D2C247"]
@@ -2042,13 +1981,14 @@
 				item: "kubejs:refactory_coin"
 				type: "item"
 			}]
+			size: 1.0d
 			tasks: [{
 				id: "167CEA4F10A9B9BA"
 				item: "blasmatech:mana_bucket"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 11.0d
+			x: 10.0d
+			y: -5.25d
 		}
 		{
 			dependencies: ["74C94B5C7B866A34"]
@@ -2059,6 +1999,7 @@
 			]
 			icon: "laserio:laser_node"
 			id: "02F2E2777E8D5BD0"
+			size: 1.0d
 			tasks: [
 				{
 					id: "1258056952C2CEC5"
@@ -2072,31 +2013,115 @@
 					type: "item"
 				}
 			]
-			x: 4.5d
-			y: 5.0d
+			x: 12.0d
+			y: -9.0d
 		}
 		{
 			dependencies: ["44495C979D17EFD5"]
 			description: ["A very easy way to turn Dried Salt into Dirt, if you want to."]
 			id: "33BA7120A70C6E45"
+			size: 1.0d
 			tasks: [{
 				id: "3BE89A4A00941B61"
 				item: "refactorycore:lv_hydrator"
 				type: "item"
 			}]
-			x: 12.0d
-			y: 0.0d
+			x: 3.0d
+			y: -10.5d
 		}
 		{
 			dependencies: ["03D3442F857F0592"]
 			id: "3217E715633CB5F3"
+			size: 1.0d
 			tasks: [{
 				id: "2ADA52B9DBF6B26E"
 				item: "gtceu:lv_polarizer"
 				type: "item"
 			}]
 			x: 3.0d
-			y: -1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6B22D87DF0CDC580"]
+			id: "4214F4080F013E2C"
+			size: 1.0d
+			tasks: [{
+				id: "46907FD49547D781"
+				item: "kubejs:primitive_mana_core"
+				type: "item"
+			}]
+			x: 16.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["1B1B005DA1E7D5DA"]
+			id: "4720A4E8F8D6DA98"
+			tasks: [{
+				id: "7EDA27041535CED2"
+				item: "gtceu:lv_packer"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["518756FCEA4DA67E"]
+			id: "0502B4FAE83F4FC4"
+			tasks: [{
+				id: "58A5DC576B1F245F"
+				item: "gtceu:raw_kerogen"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0502B4FAE83F4FC4"]
+			id: "660E60BB97DB0737"
+			tasks: [{
+				id: "572C36A2A1812E5F"
+				item: "gtceu:bitumen_bucket"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"660E60BB97DB0737"
+				"74C94B5C7B866A34"
+			]
+			id: "3DEB22BC52D14FDF"
+			tasks: [{
+				id: "09D635F4D07819DB"
+				item: "kubejs:bitumen_coated_circuit_board"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["03D3442F857F0592"]
+			hide_dependency_lines: true
+			id: "14301487802452D9"
+			tasks: [{
+				id: "68EB4CC9C17F0B9B"
+				item: "gtceu:sapphire_dust"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["518756FCEA4DA67E"]
+			id: "6F80CA65E869970E"
+			tasks: [{
+				id: "1A8CDA06E52CFF23"
+				item: "gtceu:undergarden_brine_bucket"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 1.5d
 		}
 	]
 	title: "LV Age"

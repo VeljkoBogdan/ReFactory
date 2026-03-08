@@ -373,7 +373,6 @@
 		}
 		{
 			can_repeat: true
-			dependencies: ["2D026E971B2F87E8"]
 			description: ["Money for nothing and your dirt for cheap"]
 			id: "178151A7FD97DE4A"
 			rewards: [{

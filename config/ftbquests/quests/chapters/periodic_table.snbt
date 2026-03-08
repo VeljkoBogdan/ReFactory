@@ -24,7 +24,7 @@
 			y: 6.0d
 		}
 	]
-	order_index: 0
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
@@ -137,10 +137,11 @@
 		{
 			id: "39E2241DCE3D4507"
 			tasks: [{
-				id: "22BBE00099320943"
-				title: "Sr"
-				type: "checkmark"
+				id: "7D6741A5F5E5FA74"
+				item: "gtceu:strontium_ingot"
+				type: "item"
 			}]
+			title: "Sr"
 			x: 1.0d
 			y: 4.0d
 		}
@@ -738,10 +739,11 @@
 		{
 			id: "70F8B44B8B48F46A"
 			tasks: [{
-				id: "2C006A14CCAA4E9D"
-				title: "Zr"
-				type: "checkmark"
+				id: "28C4296E4FC42104"
+				item: "gtceu:zirconium_ingot"
+				type: "item"
 			}]
+			title: "Zr"
 			x: 3.0d
 			y: 4.0d
 		}

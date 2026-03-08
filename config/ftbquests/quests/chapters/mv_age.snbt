@@ -268,8 +268,8 @@
 				table_id: 685747861540631198L
 				type: "loot"
 			}]
-			shape: "gear"
-			size: 1.25d
+			shape: "none"
+			size: 2.0d
 			tasks: [{
 				id: "67BFE8216EBD08CB"
 				item: "gtceu:advanced_integrated_circuit"
@@ -429,8 +429,8 @@
 			]
 			description: ["Required to make all HV machines."]
 			id: "6AB3F08490774D51"
-			shape: "gear"
-			size: 1.5d
+			shape: "none"
+			size: 2.0d
 			tasks: [{
 				id: "03D8A40305A6B956"
 				item: "gtceu:hv_machine_hull"
@@ -631,6 +631,7 @@
 			dependencies: [
 				"45EC6B51678C5FDB"
 				"3EABF54D848B7C03"
+				"0F53EFB5D7D2C329"
 			]
 			description: [
 				"This is one of the breakthroughs in MV!"
@@ -654,7 +655,7 @@
 				type: "item"
 			}]
 			x: 7.5d
-			y: 0.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["12D3FF7ABD35CD49"]
@@ -1216,8 +1217,8 @@
 				item: "botania:mana_pearl"
 				type: "item"
 			}]
-			x: 7.5d
-			y: 3.0d
+			x: 6.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["06237D88B05BE55D"]
@@ -1252,7 +1253,7 @@
 				}
 			]
 			x: 7.5d
-			y: -1.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["4F74168E48A8348E"]
@@ -1411,9 +1412,9 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["630A813B0F4DA078"]
+			dependencies: ["45EC6B51678C5FDB"]
 			description: ["Runic altar is required to make certain Botania items, specifically runes."]
-			hide_dependency_lines: true
+			hide_dependency_lines: false
 			id: "06237D88B05BE55D"
 			tasks: [{
 				id: "49FE864EB591442F"
@@ -1421,7 +1422,7 @@
 				type: "item"
 			}]
 			x: 7.5d
-			y: -3.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["1833F90AC37B8826"]
@@ -1501,6 +1502,28 @@
 			}]
 			x: 3.0d
 			y: 1.5d
+		}
+		{
+			dependencies: ["374FBE623A0F7200"]
+			id: "0D8D33AC39162A8B"
+			tasks: [{
+				id: "046FE72601C982E9"
+				item: "kubejs:advanced_mana_core"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["3EABF54D848B7C03"]
+			id: "274460F382B8BD80"
+			tasks: [{
+				id: "04231B83DD6FEF45"
+				item: "refactorycore:aura_altar"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.0d
 		}
 	]
 	title: "MV Age"

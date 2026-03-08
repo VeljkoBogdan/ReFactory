@@ -10,7 +10,7 @@
 	drop_loot_crates: false
 	emergency_items: [{ Count: 1, id: "minecraft:cooked_beef" }]
 	emergency_items_cooldown: 60
-	grid_scale: 0.5d
+	grid_scale: 0.25d
 	lock_message: ""
 	loot_crate_no_drop: {
 		boss: 0

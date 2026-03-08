@@ -184,6 +184,53 @@
 			x: 3.5d
 			y: 0.0d
 		}
+		{
+			dependencies: ["43E0325219933606"]
+			description: [
+				"While you're going through the questbook, you'll see quests with different shapes. Here's what they mean:"
+				""
+				"&eCircle&r: Default quest shape."
+				""
+				"&eGear&r: Progression quest, meaning this quest is required to progress further into the pack."
+				""
+				"&eHexagon&r: Recommended quest, meaning this quest is not required for progression, but will make your life much easier (and consequently, your progression - faster)"
+			]
+			id: "4DD4512630F43526"
+			shape: "gear"
+			size: 1.25d
+			tasks: [{
+				id: "211BB06AB50D739A"
+				title: "Legend"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["43E0325219933606"]
+			description: ["Want to connect with the community? Click the checkmark and the links will show up in the chat!"]
+			id: "18E889691A8DDD17"
+			optional: true
+			rewards: [{
+				auto: "enabled"
+				command: "/tellraw @p {\"text\":\"Discord\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://discord.gg/vMurKTcaY5\"}}"
+				exclude_from_claim_all: true
+				icon: "minecraft:chain"
+				id: "14AD98B46E9E9D7A"
+				ignore_reward_blocking: true
+				team_reward: true
+				title: "Discord"
+				type: "command"
+			}]
+			tasks: [{
+				id: "642CD6F8D1FC5A50"
+				title: "Links"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: -1.5d
+		}
 	]
 	title: "Intro"
 }

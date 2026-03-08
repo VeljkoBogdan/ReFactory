@@ -74,8 +74,8 @@
 				item: "gtceu:zanite_steel_ingot"
 				type: "item"
 			}]
-			x: -5.5d
-			y: 1.5d
+			x: -8.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["04EEC280F22C612F"]
@@ -109,8 +109,8 @@
 				table_id: 7166582181172905684L
 				type: "loot"
 			}]
-			shape: "gear"
-			size: 1.5d
+			shape: "none"
+			size: 3.0d
 			tasks: [
 				{
 					dimension: "aether:the_aether"
@@ -294,8 +294,8 @@
 				table_id: 7166582181172905684L
 				type: "loot"
 			}]
-			shape: "gear"
-			size: 1.25d
+			shape: "none"
+			size: 2.0d
 			tasks: [{
 				id: "2DC960AA62E911F6"
 				item: "gtceu:micro_processor_mainframe"
@@ -401,14 +401,14 @@
 				type: "loot"
 			}]
 			shape: "gear"
-			size: 1.5d
+			size: 1.25d
 			tasks: [{
 				id: "0C6FDED276BB1CCB"
 				item: "gtceu:vacuum_freezer"
 				type: "item"
 			}]
 			x: -2.5d
-			y: 3.0d
+			y: 1.5d
 		}
 		{
 			dependencies: [
@@ -598,8 +598,8 @@
 				item: "gtceu:implosion_compressor"
 				type: "item"
 			}]
-			x: 0.5d
-			y: 3.0d
+			x: -0.25d
+			y: 2.25d
 		}
 		{
 			dependencies: ["20831A754A2A5392"]
@@ -927,23 +927,6 @@
 			y: -6.0d
 		}
 		{
-			dependencies: ["68BAC4CBCD602803"]
-			description: [
-				"An ancient circuit used by the elves."
-				""
-				"Required to make the Elden Gateway."
-			]
-			id: "42993980A7D65EBB"
-			size: 1.0d
-			tasks: [{
-				id: "717EF6126B69FFA1"
-				item: "kubejs:elven_circuit"
-				type: "item"
-			}]
-			x: -7.0d
-			y: 1.5d
-		}
-		{
 			dependencies: ["1DA37C72B3F83FD4"]
 			description: ["If you do not want to fight Blazes in the Nether, it is best to produce powder using Carbon and Sulfur."]
 			id: "783DE37E3030180D"
@@ -1016,8 +999,8 @@
 		}
 		{
 			dependencies: [
-				"42993980A7D65EBB"
-				"512B03E7BB59B936"
+				"68BAC4CBCD602803"
+				"66606096794A8A3B"
 			]
 			description: [
 				"The portal to the world of the Elves (though not a portal you can enter)."
@@ -1033,7 +1016,7 @@
 				item: "botania:alfheim_portal"
 				type: "item"
 			}]
-			x: -7.0d
+			x: -8.5d
 			y: 0.0d
 		}
 		{
@@ -1059,8 +1042,8 @@
 				item: "botania:elementium_ingot"
 				type: "item"
 			}]
-			x: -5.5d
-			y: 0.0d
+			x: -3.9726190476190624d
+			y: -0.0011904761904659722d
 		}
 		{
 			dependencies: [
@@ -1112,7 +1095,7 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: 1.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["6CB7D934C87C3EB9"]
@@ -1144,6 +1127,7 @@
 				"43D222FD4AF3280E"
 				"4F14AC38199A005E"
 				"60B304F0242EDD39"
+				"5ADB398C600D76EA"
 			]
 			description: [
 				"The tier 1 rocket will allow you to travel to the Moon."
@@ -1158,8 +1142,8 @@
 				tag: { }
 			}
 			id: "247390A4673AD828"
-			shape: "gear"
-			size: 1.5d
+			shape: "none"
+			size: 4.0d
 			tasks: [
 				{
 					id: "4C6EA6A60EB896E9"
@@ -1195,7 +1179,7 @@
 			]
 			title: "Tier 1 Rocket"
 			x: 3.5d
-			y: 1.5d
+			y: 3.0d
 		}
 		{
 			dependencies: [
@@ -1223,8 +1207,8 @@
 				title: "To the Moon!"
 				type: "dimension"
 			}]
-			x: 5.0d
-			y: 1.5d
+			x: 6.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["59775F7F175FF086"]
@@ -1392,18 +1376,6 @@
 			y: -4.5d
 		}
 		{
-			dependencies: ["66606096794A8A3B"]
-			description: ["Required to make the Elven Gateway."]
-			id: "512B03E7BB59B936"
-			tasks: [{
-				id: "4229035B36AA189E"
-				item: "botania:glimmering_livingwood_log"
-				type: "item"
-			}]
-			x: -8.5d
-			y: 0.0d
-		}
-		{
 			dependencies: ["59775F7F175FF086"]
 			description: ["Required to make Glimmering wood."]
 			id: "66606096794A8A3B"
@@ -1452,6 +1424,7 @@
 				""
 				"The &eTerra Agglomeration Nexus&r simulates the Terra Agglomeration Plate, sometimes for much cheaper."
 			]
+			icon: "gtceu:mana_generator"
 			id: "452239D2CC8CCC7D"
 			shape: "hexagon"
 			size: 1.0d
@@ -1474,7 +1447,7 @@
 			]
 			title: "Automating Mana"
 			x: -7.0d
-			y: -1.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["59775F7F175FF086"]
@@ -1508,8 +1481,8 @@
 				item: "gtceu:raw_cooperite"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 0.0d
+			x: 7.25d
+			y: 1.5d
 		}
 		{
 			dependencies: ["7F79BF7FD6AE35CE"]
@@ -1521,8 +1494,8 @@
 				item: "gtceu:raw_neodymium"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 3.0d
+			x: 7.25d
+			y: 4.5d
 		}
 		{
 			dependencies: ["62B1007E03E72515"]
@@ -1556,11 +1529,14 @@
 				item: { Count: 32, id: "gtceu:raw_desh" }
 				type: "item"
 			}]
-			x: 7.0d
-			y: 1.5d
+			x: 7.25d
+			y: 3.0d
 		}
 		{
-			dependencies: ["097912261E2A9B52"]
+			dependencies: [
+				"097912261E2A9B52"
+				"5C1F974BF9733EE6"
+			]
 			description: ["In order to craft your first rocket (and all the other) you will require the Nasa Workbench!"]
 			id: "60B304F0242EDD39"
 			tasks: [{
@@ -1568,8 +1544,8 @@
 				item: "ad_astra:nasa_workbench"
 				type: "item"
 			}]
-			x: 3.5d
-			y: 0.0d
+			x: 2.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["59775F7F175FF086"]
@@ -1580,8 +1556,8 @@
 				item: "botanypotstiers:elite_terracotta_botany_pot"
 				type: "item"
 			}]
-			x: -8.5d
-			y: 1.5d
+			x: -13.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["25AFA7FC86E52939"]
@@ -1629,8 +1605,8 @@
 				type: "item"
 			}]
 			title: "Enchanted!"
-			x: -7.0d
-			y: 3.0d
+			x: -6.25d
+			y: 3.5d
 		}
 		{
 			dependencies: ["59775F7F175FF086"]
@@ -1679,6 +1655,13 @@
 				"You can fill up the chestplate's tank with Oxygen in a canner."
 			]
 			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "ad_astra:space_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "2D57E24AA629CF77"
 			tasks: [
 				{
@@ -1726,8 +1709,31 @@
 					type: "item"
 				}
 			]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["59775F7F175FF086"]
+			hide_dependency_lines: true
+			id: "5ADB398C600D76EA"
+			tasks: [{
+				id: "7F0AD96AD6A07696"
+				item: "gtceu:rocket_fuel_bucket"
+				type: "item"
+			}]
 			x: 3.5d
-			y: 3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1F4BD78DF492DE6A"]
+			id: "7C71FAD666516E18"
+			tasks: [{
+				id: "4DC7BE55B54EEA6B"
+				item: "kubejs:elite_mana_core"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 7.0d
 		}
 	]
 	title: "HV Age"

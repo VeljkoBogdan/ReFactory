@@ -5,54 +5,15 @@
 	group: "3D834CE54DEBD940"
 	icon: "ftbquests:book"
 	id: "077BA14C503A136B"
-	order_index: 2
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["189B920AAB6456B4"]
 			description: [
-				"A very good early game way of fast travel."
+				"You can spam crouch to speed up sapling growth."
 				""
-				"Especially useful in The Aether."
+				"This does not include crops, for balancing purposes. (if you can still boost a crop, please report that in the discord)"
 			]
-			id: "3A02435621CAA79C"
-			tasks: [{
-				id: "77C2DF7DF0A8D7C9"
-				item: {
-					Count: 1
-					id: "hangglider:hang_glider"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 3.0d
-			y: 0.0d
-		}
-		{
-			dependencies: [
-				"189B920AAB6456B4"
-				"3A02435621CAA79C"
-			]
-			description: ["A better version of the glider."]
-			id: "063986C9F78C2BD4"
-			tasks: [{
-				id: "3C2BA748C4A87C95"
-				item: {
-					Count: 1
-					id: "hangglider:reinforced_hang_glider"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 3.0d
-			y: 1.5d
-		}
-		{
-			description: ["&eYou can crouch to speed up crop and tree growth!&r"]
 			icon: "minecraft:oak_sapling"
 			id: "3D937B4F3224B8E7"
 			rewards: [{
@@ -449,6 +410,24 @@
 			title: "Recharge my Prospector!"
 			x: 7.5d
 			y: -5.0d
+		}
+		{
+			description: [
+				"Using botany pots, you can passively grow most crops and saplings. Once they are grown, you need to right click them (some with an empty hand, some with an axe, etc)."
+				""
+				"Hopper botany pots are an upgrade to the regular botany pots, and they output drops to the inventory below. You don't need to manually harvest these."
+				""
+				"The botany pots have upgraded versions which you will unlock throughout the game."
+			]
+			id: "3AFB4EB14DF893A8"
+			tasks: [{
+				id: "430F6C0CADE727B1"
+				item: "botanypots:terracotta_botany_pot"
+				type: "item"
+			}]
+			title: "Easy Farming"
+			x: 0.0d
+			y: 1.5d
 		}
 	]
 	title: "Tips n Tricks"

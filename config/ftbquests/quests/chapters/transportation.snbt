@@ -13,17 +13,62 @@
 	id: "6E3F3A4FE0A0DC10"
 	order_index: 1
 	quest_links: [ ]
-	quests: [{
-		dependencies: ["34FF2CB02D1A73FB"]
-		description: ["Waystones allow you to quickly teleport from one waystone to any other."]
-		id: "76C3F4304036AF39"
-		tasks: [{
-			id: "1ADC903FAE11CFAB"
-			item: "waystones:waystone"
-			type: "item"
-		}]
-		x: -1.5d
-		y: -1.0d
-	}]
+	quests: [
+		{
+			dependencies: ["34FF2CB02D1A73FB"]
+			description: ["Waystones allow you to quickly teleport from one waystone to any other."]
+			id: "76C3F4304036AF39"
+			tasks: [{
+				id: "1ADC903FAE11CFAB"
+				item: "waystones:waystone"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["189B920AAB6456B4"]
+			description: [
+				"A very good early game way of fast travel."
+				""
+				"Especially useful in The Aether."
+			]
+			id: "3A02435621CAA79C"
+			tasks: [{
+				id: "77C2DF7DF0A8D7C9"
+				item: {
+					Count: 1
+					id: "hangglider:hang_glider"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"189B920AAB6456B4"
+				"3A02435621CAA79C"
+			]
+			description: ["A better version of the glider."]
+			id: "063986C9F78C2BD4"
+			tasks: [{
+				id: "3C2BA748C4A87C95"
+				item: {
+					Count: 1
+					id: "hangglider:reinforced_hang_glider"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.5d
+		}
+	]
 	title: "Transportation"
 }

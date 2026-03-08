@@ -11,7 +11,7 @@
 		{
 			description: ["Punch some trees you know the drill."]
 			id: "14769C69DDD4F79E"
-			shape: "gear"
+			shape: "none"
 			size: 1.5d
 			subtitle: "Every Modpack Ever"
 			tasks: [{
@@ -20,20 +20,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["14769C69DDD4F79E"]
-			description: ["You can't craft everything by hand, can you?"]
-			id: "1296F376D1AA5290"
-			subtitle: "Let's get crafting"
-			tasks: [{
-				id: "7B616BE6E80BB6C0"
-				item: "minecraft:crafting_table"
-				type: "item"
-			}]
-			x: 4.5d
-			y: 0.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["10C2C691F26385C4"]
@@ -50,7 +37,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 2.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["10C2C691F26385C4"]
@@ -69,7 +56,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 3.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["10C2C691F26385C4"]
@@ -88,7 +75,7 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: 6.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["10C2C691F26385C4"]
@@ -107,7 +94,7 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: 9.0d
+			y: 10.5d
 		}
 		{
 			dependencies: ["2C4A3A86D8913871"]
@@ -146,7 +133,7 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: 3.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["77219C4E83F48E8F"]
@@ -341,7 +328,7 @@
 			]
 			title: "Tools"
 			x: 6.0d
-			y: 3.0d
+			y: 6.0d
 		}
 		{
 			dependencies: [
@@ -369,8 +356,8 @@
 				item: "gtceu:bronze_ingot"
 				type: "item"
 			}]
-			x: 7.5d
-			y: 9.0d
+			x: 6.0d
+			y: 10.5d
 		}
 		{
 			dependencies: ["03CF5FEDA44D312B"]
@@ -412,8 +399,8 @@
 				}
 			]
 			title: "Fluid Pipes"
-			x: 6.0d
-			y: 4.0d
+			x: 4.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["03CF5FEDA44D312B"]
@@ -426,8 +413,8 @@
 				type: "item"
 			}]
 			title: "Item Pipes"
-			x: 7.5d
-			y: 3.0d
+			x: 6.0d
+			y: 4.5d
 		}
 		{
 			dependencies: [
@@ -475,7 +462,7 @@
 				}
 			]
 			x: 4.5d
-			y: 4.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["14769C69DDD4F79E"]
@@ -528,8 +515,8 @@
 					type: "item"
 				}
 			]
-			x: 4.0d
-			y: -1.0d
+			x: 3.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["14769C69DDD4F79E"]
@@ -545,8 +532,8 @@
 				item: "minecraft:campfire"
 				type: "item"
 			}]
-			x: 2.0d
-			y: -1.0d
+			x: 4.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["10C2C691F26385C4"]
@@ -562,7 +549,7 @@
 				type: "checkmark"
 			}]
 			x: 0.0d
-			y: 3.5d
+			y: 7.5d
 		}
 		{
 			dependencies: ["071811F3550BAF2F"]
@@ -574,7 +561,7 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: 3.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["152793BBC475E574"]
@@ -598,39 +585,8 @@
 				item: "minecraft:clay_ball"
 				type: "item"
 			}]
-			x: 10.5d
-			y: 4.5d
-		}
-		{
-			dependencies: [
-				"7A8F5B47B4784EF5"
-				"0C2AE8D7483504CC"
-			]
-			description: [
-				"The basic way to get steam, by burning flamable items."
-				""
-				"&4Do NOT put water into an empty hot boiler, it will blow up!&r"
-				""
-				"Congratulations, you have completed this chapter. You can freely move onto the next."
-			]
-			id: "570F99AFC0C287A7"
-			rewards: [{
-				count: 4
-				id: "60528B153CACD1D0"
-				item: "kubejs:refactory_coin"
-				type: "item"
-			}]
-			shape: "gear"
-			size: 1.5d
-			subtitle: "Finally, machinery (not yet)"
-			tasks: [{
-				id: "2F42ECCAB4CBF85B"
-				item: "gtceu:lp_steam_solid_boiler"
-				type: "item"
-			}]
-			title: "Steam Age"
-			x: 10.5d
-			y: 9.0d
+			x: 9.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["14769C69DDD4F79E"]
@@ -646,14 +602,11 @@
 				item: "minecraft:flint"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 0.5d
+			x: 3.0d
+			y: 3.0d
 		}
 		{
-			dependencies: [
-				"31BDF4591ACF03E1"
-				"1851399AEC83E563"
-			]
+			dependencies: ["1851399AEC83E563"]
 			description: [
 				"The apothecary is used to craft items."
 				""
@@ -682,8 +635,8 @@
 				item: "botania:apothecary_default"
 				type: "item"
 			}]
-			x: 10.5d
-			y: 1.5d
+			x: 9.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["2ED2E40A78639C73"]
@@ -695,24 +648,8 @@
 				item: "minecraft:dirt"
 				type: "item"
 			}]
-			x: 10.5d
-			y: 3.0d
-		}
-		{
-			dependencies: [
-				"10C2C691F26385C4"
-				"2C4A3A86D8913871"
-			]
-			description: ["Smelt some cobblestone to get stone. You will need it to craft the apothecary."]
-			id: "31BDF4591ACF03E1"
-			tasks: [{
-				count: 8L
-				id: "3FA598192A17489A"
-				item: { Count: 8, id: "minecraft:stone" }
-				type: "item"
-			}]
-			x: 4.5d
-			y: 1.5d
+			x: 9.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["14769C69DDD4F79E"]
@@ -739,8 +676,8 @@
 					type: "item"
 				}
 			]
-			x: 10.5d
-			y: 0.0d
+			x: 9.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["152793BBC475E574"]
@@ -765,8 +702,8 @@
 				item: "botania:white_petal"
 				type: "item"
 			}]
-			x: 9.0d
-			y: 3.0d
+			x: 7.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["14769C69DDD4F79E"]
@@ -785,7 +722,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 0.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["68713F8421BA5BB3"]
@@ -797,8 +734,8 @@
 				item: "tconstruct:crafting_station"
 				type: "item"
 			}]
-			x: 1.0d
-			y: -1.0d
+			x: 0.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["68713F8421BA5BB3"]
@@ -809,8 +746,8 @@
 				item: "tconstruct:part_builder"
 				type: "item"
 			}]
-			x: 1.0d
-			y: 0.5d
+			x: 0.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["68713F8421BA5BB3"]
@@ -826,7 +763,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 1.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["68713F8421BA5BB3"]
@@ -849,8 +786,8 @@
 				item: "tconstruct:part_chest"
 				type: "item"
 			}]
-			x: -1.0d
-			y: -1.0d
+			x: -1.5d
+			y: 1.5d
 		}
 		{
 			dependencies: [
@@ -893,7 +830,7 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: 1.5d
+			y: 4.5d
 		}
 		{
 			dependencies: [
@@ -915,7 +852,8 @@
 				item: "kubejs:refactory_coin"
 				type: "item"
 			}]
-			shape: "gear"
+			shape: "none"
+			size: 2.0d
 			tasks: [
 				{
 					id: "0EDB598CDB95BF1F"
@@ -949,8 +887,8 @@
 					type: "item"
 				}
 			]
-			x: 7.5d
-			y: 6.0d
+			x: 6.0d
+			y: 7.5d
 		}
 		{
 			dependencies: [
@@ -976,8 +914,8 @@
 				item: "tconstruct:grout"
 				type: "item"
 			}]
-			x: 9.0d
-			y: 4.5d
+			x: 7.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["7B65CB7D4E38804C"]
@@ -997,8 +935,8 @@
 					type: "item"
 				}
 			]
-			x: 9.0d
-			y: 6.0d
+			x: 7.5d
+			y: 7.5d
 		}
 		{
 			dependencies: ["7FCAC41DAF96462F"]
@@ -1009,8 +947,8 @@
 				item: "tconstruct:ingot_cast"
 				type: "item"
 			}]
-			x: 7.5d
-			y: 7.5d
+			x: 6.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["7FCAC41DAF96462F"]
@@ -1026,8 +964,494 @@
 				item: "tconstruct:pick_head_cast"
 				type: "item"
 			}]
+			x: 7.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["117FF9A621276749"]
+			description: [
+				"A primitive pump makes getting more water into the steam boilers a lot easier."
+				""
+				"It is recommended to make this so your boilers don't explode."
+				""
+				"Provides 1 water bucket per second."
+			]
+			icon: "gtceu:primitive_pump"
+			id: "3FCDBCB2152DE3FB"
+			optional: true
+			rewards: [{
+				id: "126A6CC86BC67B6F"
+				item: "kubejs:refactory_coin"
+				type: "item"
+			}]
+			size: 1.0d
+			tasks: [
+				{
+					id: "181EE1896DB52E1C"
+					item: "gtceu:primitive_pump"
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "4379BC690E407254"
+					item: { Count: 10, id: "gtceu:pump_deck" }
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "61F89E1F22264A69"
+					item: { Count: 10, id: "gtceu:treated_wood_frame" }
+					type: "item"
+				}
+				{
+					id: "09BF2C5B808AE087"
+					item: "gtceu:pump_hatch"
+					type: "item"
+				}
+			]
+			title: "Moar Water"
+			x: 12.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0C2AE8D7483504CC"]
+			description: [
+				"Creates coke and creosote from coal."
+				""
+				"You will need 116 Coke Oven bricks for this."
+				""
+				"I recommend building 2+, if you have the resources to do that. Note that they can be wall-shared."
+			]
+			icon: "gtceu:coke_oven"
+			id: "364AD55044CC7EBE"
+			rewards: [
+				{
+					count: 32
+					id: "4213B61D30307511"
+					item: "minecraft:coal"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "40F9EBA6218CE1E8"
+					item: "kubejs:refactory_coin"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.0d
+			tasks: [
+				{
+					id: "7BF316FE70843AF7"
+					item: "gtceu:coke_oven"
+					type: "item"
+				}
+				{
+					count: 25L
+					id: "431A0C5FEFDE9DC5"
+					item: { Count: 25, id: "gtceu:coke_oven_bricks" }
+					type: "item"
+				}
+			]
+			x: 10.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["364AD55044CC7EBE"]
+			description: ["Coke can be used to make steel."]
+			id: "536AD04E85FE9AE6"
+			size: 1.0d
+			tasks: [{
+				id: "33281D1815EE531B"
+				item: "gtceu:coke_gem"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["117FF9A621276749"]
+			description: [
+				"Sometimes you need to store a lot of fluid (cannot be used to handle steam)."
+				""
+				"You can input using tank valves that have to be on the side or top of the multiblock."
+				""
+				"You can only output from the bottom."
+			]
+			hide_dependency_lines: false
+			icon: "gtceu:wooden_multiblock_tank"
+			id: "0B4DDD082A28BD6C"
+			optional: true
+			rewards: [{
+				id: "6C9C2229D57B77A5"
+				item: "kubejs:refactory_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "02E3ACFC98FB8EAB"
+					item: "gtceu:wooden_multiblock_tank"
+					type: "item"
+				}
+				{
+					count: 25L
+					id: "67D06155EE673EEE"
+					item: { Count: 25, id: "gtceu:wood_wall" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "66F59BFBBD1021AE"
+					item: { Count: 2, id: "gtceu:wooden_tank_valve" }
+					type: "item"
+				}
+			]
+			title: "Primitive Tank"
+			x: 13.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["364AD55044CC7EBE"]
+			description: [
+				"Got your Coke Oven filled to the brim with Creosote?"
+				""
+				"You can use it as fuel in a furnace, compression dynamo, or steam boiler."
+				""
+				"You can also treat wood with it."
+				""
+				"If you really want to get rid of it, you can break the Coke Oven controller, and place it back."
+			]
+			icon: "gtceu:creosote_bucket"
+			id: "117FF9A621276749"
+			tasks: [{
+				id: "56D081EDD5557A08"
+				title: "Too Much Creosote..."
+				type: "checkmark"
+			}]
+			x: 12.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["12DDB0EAE9AF0347"]
+			description: [
+				"Your first altar will be the Tree Ritual, which will be used to craft some Nature's Aura items."
+				""
+				"Check the book to see the schematic of the ritual. Each block needs to be placed correctly in order for the ritual to work."
+			]
+			icon: "naturesaura:wood_stand"
+			id: "4E74A42AA3A6B39D"
+			rewards: [{
+				id: "1D085859FB4F9221"
+				item: "kubejs:refactory_coin"
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [
+				{
+					count: 8L
+					id: "7327AF8B6F9AA33F"
+					item: { Count: 8, id: "naturesaura:wood_stand" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "3C12794FFEEB6240"
+					item: { Count: 16, id: "naturesaura:gold_powder" }
+					type: "item"
+				}
+				{
+					id: "3185EB1D9BDA9806"
+					item: "minecraft:oak_sapling"
+					type: "item"
+				}
+			]
+			x: 10.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["346DBCAD0C1F92A9"]
+			description: [
+				"You can craft Brilliant Fibers with some leaves, grass and gold."
+				""
+				"Place Brilliant Fibers into leaves of a tree, and wait for them to complete converting into Golden Leaves."
+				""
+				"Once Golden, harvest the leaves to get a Gold Leaf."
+				""
+				"&7You can get dead and desert grass using shears.&r"
+			]
+			icon: "naturesaura:gold_leaf"
+			id: "12DDB0EAE9AF0347"
+			tasks: [
+				{
+					id: "3A846EEE61950BC3"
+					item: "naturesaura:gold_fiber"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "41BDCA64EDAF5417"
+					item: "naturesaura:gold_leaf"
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"5DB90B1E38F984C0"
+				"4400572E3AAA8806"
+			]
+			description: [
+				"Your next altar."
+				""
+				"It will allow you to produce Infused Iron and Tainted Gold ingots using &eAura&r."
+				""
+				"&dThis altar will consume Aura per recipe&r"
+			]
+			icon: "naturesaura:nature_altar"
+			id: "726066CE8EBA8967"
+			rewards: [{
+				count: 2
+				id: "1F20D2C3BB562C67"
+				item: "kubejs:refactory_coin"
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [
+				{
+					id: "756A8D8AF48A0CCB"
+					item: "naturesaura:nature_altar"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "17E771FE8E331671"
+					item: { Count: 8, id: "naturesaura:gold_brick" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "197F09D1DC07DFA6"
+					item: { Count: 16, id: "minecraft:stone_bricks" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "1C8DB8269AD52B27"
+					item: { Count: 4, id: "minecraft:chiseled_stone_bricks" }
+					type: "item"
+				}
+				{
+					count: 20L
+					id: "5FB3F38950051C6C"
+					item: { Count: 20, id: "minecraft:oak_planks" }
+					type: "item"
+				}
+			]
+			x: 13.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["16F0BB33FFF1AFAA"]
+			description: [
+				"Right clicking air with a Bottle and Cork will capture the &eAura&r around you into the container."
+				""
+				"&bDifferent dimensions have different Aura types, therefore giving different Bottled Auras.&r"
+				""
+				"&dThis interaction consumes the Aura around you.&r"
+			]
+			icon: {
+				Count: 1
+				id: "naturesaura:aura_bottle"
+				tag: {
+					stored_type: "naturesaura:overworld"
+				}
+			}
+			id: "5DB90B1E38F984C0"
+			tasks: [
+				{
+					id: "613C2B8DE7009270"
+					item: "naturesaura:bottle_two_the_rebottling"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "0037C776EB1CABB2"
+					item: {
+						Count: 1
+						id: "naturesaura:aura_bottle"
+						tag: {
+							stored_type: "naturesaura:overworld"
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 13.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["10C2C691F26385C4"]
+			description: [
+				"It's difficult to make glass in the early game, because you need the Alloy Smelter or Arc Furnace."
+				""
+				"But you can make an inefficient version by smelting Glass Dust to create some crude shards, which can be combined into a Glass block."
+			]
+			hide_dependency_lines: true
+			icon: "minecraft:glass"
+			id: "16F0BB33FFF1AFAA"
+			tasks: [
+				{
+					count: 12L
+					id: "4E90996B52D98971"
+					item: { Count: 12, id: "gtceu:glass_dust" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 12L
+					id: "215696B198CD3BB4"
+					item: { Count: 12, id: "kubejs:glass_shard" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "189760155D0E29E9"
+					item: { Count: 4, id: "minecraft:glass" }
+					type: "item"
+				}
+			]
+			x: 10.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["726066CE8EBA8967"]
+			description: [
+				"This tree will generate Aura by consuming its leaves."
+				""
+				"A very safe option if you've got the space for several of these."
+				""
+				"&cWhen the sapling grows, the resulting tree will replace blocks where the leaves will grow, voiding the drops. Be careful where you grow this tree.&r"
+			]
+			id: "7F829D66E4F415D4"
+			tasks: [{
+				id: "32637F07EBC6885D"
+				item: "naturesaura:ancient_sapling"
+				type: "item"
+			}]
+			title: "Primitive Aura Generation"
+			x: 15.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["7FCAC41DAF96462F"]
+			description: [
+				"You'll need to progress through some Nature's Aura to unlock your first machines and the next tier."
+				""
+				"&bFor that, you'll get this Nature's Aura book, that will have all the instructions needed to use this mod.&r"
+				""
+				"&cI strongly recommend using this book to see how to construct the altars this mod provides.&r"
+			]
+			hide_dependency_lines: true
+			id: "346DBCAD0C1F92A9"
+			rewards: [{
+				id: "6E3016F211B2C944"
+				item: {
+					Count: 1
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "naturesaura:book"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "29EF477F654D1535"
+				title: "Nature's Aura"
+				type: "checkmark"
+			}]
 			x: 9.0d
 			y: 7.5d
+		}
+		{
+			dependencies: ["4E74A42AA3A6B39D"]
+			description: [
+				"&8If you've read the book you can skip this.&r"
+				""
+				"In every dimension there's &eAura&r, an ether that's present in the air."
+				""
+				"Using rituals and altars requires &eAura&r, which diminishes its amount in that specific region. &eAura&r will try and flow in around that region, filling it slowly."
+				""
+				"Having &atoo much Aura in the region will yield positive bonuses&r, while having &ctoo little Aura will cause negative effects&r, to both you and the environment."
+				""
+				"Generally, &byou never want all your altars and rituals in one place, and you never want the Aura to be low in your living space&r."
+				""
+				"&dThere are ways to increase the amount of Aura in a region. Check the Ancient Sapling quest&r."
+				""
+				"&dYou can also monitor the Aura amount in a region. Check the Environmental Eye quest.&r"
+			]
+			id: "4400572E3AAA8806"
+			tasks: [{
+				id: "78DD1452B09514E6"
+				title: "A Little bit more about Aura"
+				type: "checkmark"
+			}]
+			x: 12.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["4400572E3AAA8806"]
+			description: [
+				"When equipped in a Curios slot, it gives the player the ability to see the Aura around them in the bottom right corner of the screen."
+				""
+				"&8You can freely adjust the position in the config.&r"
+			]
+			id: "2CA0FB67A760EE48"
+			tasks: [{
+				id: "2F797D46ED8162E2"
+				item: "naturesaura:eye"
+				type: "item"
+			}]
+			title: "Seeing Aura"
+			x: 12.0d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"18146C58217B5C5D"
+				"7A8F5B47B4784EF5"
+			]
+			description: ["The core of all your steam machines"]
+			id: "30A1CCB30F870404"
+			rewards: [{
+				count: 2
+				id: "4E6449AC4707D5A9"
+				item: "kubejs:refactory_coin"
+				type: "item"
+			}]
+			size: 1.0d
+			subtitle: "Finally, machinery (kind of)"
+			tasks: [{
+				id: "636DE7A331407FB3"
+				item: "gtceu:bronze_machine_casing"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["726066CE8EBA8967"]
+			description: ["Infused Iron will be needed to craft your very first functional machines."]
+			id: "18146C58217B5C5D"
+			tasks: [{
+				id: "0BFB4FC8188F60E1"
+				item: "naturesaura:infused_iron"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 9.0d
 		}
 	]
 	title: "The Beginning"
