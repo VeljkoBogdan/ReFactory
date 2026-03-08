@@ -85,6 +85,22 @@ GTCEuServerEvents.oreVeins(event => {
         )
     })
 
+    event.add('kerogen_vein_undergarden', vein => {
+        vein.layer('undergarden')
+        vein.weight(15)
+        vein.clusterSize(25)
+        vein.density(0.75)
+        vein.discardChanceOnAirExposure(0)
+        vein.heightRangeUniform(-20, 40)
+        vein.layeredVeinGenerator(generator => generator
+            .buildLayerPattern(pattern => pattern
+                .layer(l => l.weight(3).mat(GTMaterials.get('kerogen')).size(3, 4))
+                .layer(l => l.weight(2).mat(GTMaterials.get('kerogen')).size(1, 4))
+                .layer(l => l.weight(1).mat(GTMaterials.get('kerogen')).size(1, 3))
+            )
+        )
+    })
+
 })
 
 // In server events
@@ -96,6 +112,17 @@ GTCEuServerEvents.fluidVeins(event => {
         vein.weight(600)
         vein.minimumYield(120)
         vein.maximumYield(720)
+        vein.depletionAmount(2)
+        vein.depletionChance(1)
+        vein.depletedYield(50)
+    })
+
+    event.add('brine_deposit', vein => {
+        vein.dimensions('undergarden:undergarden')
+        vein.fluid(() => Fluid.of("gtceu:undergarden_brine").fluid)
+        vein.weight(400)
+        vein.minimumYield(300)
+        vein.maximumYield(700)
         vein.depletionAmount(2)
         vein.depletionChance(1)
         vein.depletedYield(50)

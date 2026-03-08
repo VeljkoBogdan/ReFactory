@@ -67,6 +67,10 @@ StartupEvents.registry('item', event => {
     event.create('elite_mana_core')
         .displayName('Elite Mana Core')
 
+    // Bitumen Circuit Board
+    event.create('bitumen_coated_circuit_board')
+        .displayName('Bitumen Coated Circuit Board')
+
     ////// PRODUCT PLACEMENTS :P //////
     event.create('gtqu_mug')
         .displayName('Glass of Radioactive Milk')

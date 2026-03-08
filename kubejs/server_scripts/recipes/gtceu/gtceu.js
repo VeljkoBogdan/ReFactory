@@ -936,9 +936,16 @@ ServerEvents.recipes(event => {
     event.remove({id: 'gtceu:assembler/kubejs_phenolic_board'})
     event.recipes.botania.mana_infusion(
         'gtceu:phenolic_circuit_board',
-        'gtceu:resin_circuit_board',
+        'kubejs:bitumen_coated_circuit_board',
         5000
     )
+
+    event.recipes.gtceu.assembler('bitumen_coated_circuit_board')
+        .itemInputs('gtceu:resin_circuit_board')
+        .inputFluids(Fluid.of('gtceu:bitumen', 250))
+        .itemOutputs('kubejs:bitumen_coated_circuit_board')
+        .duration(20*8)
+        .EUt(GTValues.VA[GTValues.ULV])
 
     event.replaceInput({output: 'gtceu:phenolic_printed_circuit_board'}, 'gtceu:silver_foil', 'gtceu:mana_alloy_foil')
     event.replaceInput({output: 'gtceu:phenolic_printed_circuit_board'}, 'gtceu:silver_single_wire', 'gtceu:mana_alloy_single_wire')

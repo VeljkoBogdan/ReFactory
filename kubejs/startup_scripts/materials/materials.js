@@ -682,6 +682,28 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
             GTMaterialFlags.GENERATE_PLATE
         )
         .blastTemp(4000, null, GTValues.VA[GTValues.EV], 20*30)
+
+    event.create('kerogen')
+        .ore()
+        .dust()
+        .color(0x24201f)
+        .iconSet(GTMaterialIconSet.LIGNITE)
+
+    event.create('bitumen')
+        .liquid()
+        .color(0x0f0b0d)
+
+    event.create('undergarden_brine')
+        .liquid()
+        .color(0x23524b)
+    
+    event.create('brinal_concentrate')
+        .liquid()
+        .color(0x001130)
+
+    event.create('bio_waste')
+        .liquid()
+        .color(0x0a4021)
 })
 
 GTCEuStartupEvents.materialModification(event => {

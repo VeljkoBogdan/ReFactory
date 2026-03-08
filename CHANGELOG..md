@@ -11,6 +11,9 @@
 - Squat Grow nerfed for all crops, remains unchanged for saplings
 - Replaced Nano circuits with Sanguine circuits
 - Added the Hemocyte line in EV
+- Added Kerogen ore to the undergarden
+- Added Undergarden Brine to the Undergarden
+- Added Bitumen
 
 # 0.4.2
 - Turned EMI dev mode off
