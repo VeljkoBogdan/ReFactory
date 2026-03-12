@@ -15,12 +15,6 @@ ServerEvents.recipes(event => {
         .duration(20*30)
         .EUt(GTValues.VA[GTValues.HV])
 
-    event.recipes.naturesaura.altar(
-        'gtceu:nether_star_dust',
-        'gtceu:null_catalyst_dust',
-        2500, 20*30
-    )
-
     event.recipes.gtceu.aura_altar('nether_star_dust_from_null_catalyst')
         .input(AuraCapability, 2500)
         .itemInputs('gtceu:null_catalyst_dust')
