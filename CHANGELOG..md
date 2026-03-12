@@ -14,6 +14,8 @@
 - Added Kerogen ore to the undergarden
 - Added Undergarden Brine to the Undergarden
 - Added Bitumen
+- Questbook refactoring up to LuV
+- Added the Basic Fluid Drilling Rig
 
 # 0.4.2
 - Turned EMI dev mode off
