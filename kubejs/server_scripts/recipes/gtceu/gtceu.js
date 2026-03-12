@@ -1044,6 +1044,34 @@ ServerEvents.recipes(event => {
         .itemOutputs('3x gtceu:nestrum_dust')
         .duration(20*10)
         .EUt(GTValues.VA[GTValues.HV])
+
+    // LuV casings require demonite
+    event.remove({id: 'gtceu:shaped/casing_luv'})
+    event.shaped(
+        'gtceu:luv_machine_casing',
+        [
+            'STS',
+            'TWT',
+            'STS'
+        ],
+        {
+            S: 'gtceu:rhodium_plated_palladium_plate',
+            T: 'gtceu:demonite_plate',
+            W: '#forge:tools/wrenches'
+        }
+    )
+    event.remove({id: 'gtceu:assembler/casing_luv'})
+    event.recipes.gtceu.assembler('kubejs:assembler/luv_machine_casing')
+        .circuit(8)
+        .itemInputs(
+            '4x gtceu:rhodium_plated_palladium_plate',
+            '4x gtceu:demonite_plate'
+        )
+        .itemOutputs(
+            'gtceu:luv_machine_casing'
+        )
+        .duration(20*2.5)
+        .EUt(GTValues.VA[GTValues.LV] / 2)
 })
     
 // Remove vanilla tools
