@@ -1025,6 +1025,21 @@ ServerEvents.recipes(event => {
         .duration(20*4)
         .EUt(GTValues.VA[GTValues.EV])
     
+    event.remove({id: 'thermal:watering_can'})
+    event.shaped(
+        'thermal:watering_can',
+        [
+            'A  ',
+            'ABA',
+            'HAW'
+        ],
+        {
+            A: 'gtceu:bronze_plate',
+            B: 'bucket',
+            H: '#forge:tools/hammers',
+            W: '#forge:tools/wrenches'
+        }
+    )
 })
 
 // hide thermal items
