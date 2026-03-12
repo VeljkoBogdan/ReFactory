@@ -23,24 +23,8 @@
 		}
 		{
 			dependencies: [
-				"2D0EB32D3C6BE2E0"
-				"6945C4E4B0EF9E12"
-			]
-			id: "5A87158E975886BC"
-			tasks: [{
-				id: "1541E152D504BE75"
-				item: "gtceu:luv_electric_motor"
-				type: "item"
-			}]
-			x: 0.0d
-			y: -1.0d
-		}
-		{
-			dependencies: [
 				"5523555D86E6A1DC"
-				"66ABDAE9E713A51B"
 				"7D9B9834312830AC"
-				"05A9BBD9A0395A44"
 			]
 			id: "5CE66F9FE5E3237A"
 			shape: "gear"
@@ -50,8 +34,8 @@
 				item: "gtceu:luv_fusion_reactor"
 				type: "item"
 			}]
-			x: 6.0d
-			y: -4.0d
+			x: 4.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["5B15100444AAAC65"]
@@ -62,7 +46,7 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: -4.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["6945C4E4B0EF9E12"]
@@ -70,15 +54,18 @@
 			shape: "gear"
 			size: 1.5d
 			tasks: [{
-				id: "130B5863F7F2C8FF"
-				item: "gtceu:naquadah_dust"
+				id: "29D93F1BD7E9B747"
+				item: "gtceu:naquadah_ingot"
 				type: "item"
 			}]
 			x: 1.5d
 			y: -4.0d
 		}
 		{
-			dependencies: ["38537701E0EE6D51"]
+			dependencies: [
+				"288E19105AA52296"
+				"5A46AB7E3385B55E"
+			]
 			id: "5B15100444AAAC65"
 			tasks: [{
 				id: "456C3E26868C9459"
@@ -86,10 +73,13 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: -4.0d
+			y: -5.5d
 		}
 		{
-			dependencies: ["38537701E0EE6D51"]
+			dependencies: [
+				"5A46AB7E3385B55E"
+				"288E19105AA52296"
+			]
 			id: "5B423A9A71C6D7B6"
 			tasks: [{
 				id: "16A4500F1C28F45F"
@@ -100,35 +90,18 @@
 			y: -5.5d
 		}
 		{
-			dependencies: ["38537701E0EE6D51"]
+			dependencies: [
+				"38537701E0EE6D51"
+				"5B15100444AAAC65"
+			]
 			id: "1882C27113086F8A"
 			tasks: [{
 				id: "4AE0B1520C7E121C"
 				item: "gtceu:naquadah_alloy_ingot"
 				type: "item"
 			}]
-			x: -1.5d
-			y: -5.5d
-		}
-		{
-			dependencies: ["084C45E67B39F224"]
-			icon: "gtceu:assembly_line"
-			id: "2D0EB32D3C6BE2E0"
-			shape: "square"
-			title: "Assline"
-			x: 0.0d
-			y: 0.5d
-		}
-		{
-			dependencies: ["6945C4E4B0EF9E12"]
-			id: "66ABDAE9E713A51B"
-			tasks: [{
-				id: "5E958AD0C9060335"
-				item: "gtceu:plutonium_241_dust"
-				type: "item"
-			}]
-			x: 6.0d
-			y: -1.0d
+			x: 3.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["38537701E0EE6D51"]
@@ -138,14 +111,11 @@
 				item: "gtceu:naquadah_boule"
 				type: "item"
 			}]
-			x: 1.5d
-			y: -5.5d
+			x: 3.0d
+			y: -2.5d
 		}
 		{
-			dependencies: [
-				"6945C4E4B0EF9E12"
-				"2D0EB32D3C6BE2E0"
-			]
+			dependencies: ["6945C4E4B0EF9E12"]
 			id: "1723FB2777EA1720"
 			shape: "gear"
 			tasks: [{
@@ -153,8 +123,8 @@
 				item: "gtceu:luv_energy_input_hatch"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 0.5d
+			x: 0.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["38537701E0EE6D51"]
@@ -165,30 +135,19 @@
 				item: "gtceu:naquadah_coil_block"
 				type: "item"
 			}]
-			x: -1.5d
+			x: 0.0d
 			y: -4.0d
 		}
 		{
-			dependencies: ["38537701E0EE6D51"]
-			id: "41474E2EAAE027FD"
-			tasks: [{
-				id: "7659D7C9F247D273"
-				item: "gtceu:naquadah_bucket"
-				type: "item"
-			}]
-			x: 3.0d
-			y: -5.5d
-		}
-		{
-			dependencies: ["41474E2EAAE027FD"]
+			dependencies: ["6945C4E4B0EF9E12"]
 			id: "7D9B9834312830AC"
 			tasks: [{
 				id: "5762D3C868119717"
 				item: "gtceu:uhpic_wafer"
 				type: "item"
 			}]
-			x: 4.5d
-			y: -5.5d
+			x: 3.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["6945C4E4B0EF9E12"]
@@ -198,34 +157,36 @@
 				item: "gtceu:prospector.luv"
 				type: "item"
 			}]
-			x: 3.0d
-			y: -2.5d
+			x: 0.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["5CE66F9FE5E3237A"]
 			id: "5F94DAE8BF225D91"
 			tasks: [{
-				id: "1B4286A3036A88D2"
-				item: "gtceu:europium_ingot"
+				id: "216AF1106381A22D"
+				item: "gtceu:europium_bucket"
 				type: "item"
 			}]
-			x: 7.5d
-			y: -4.0d
+			x: 6.0d
+			y: -2.5d
 		}
 		{
-			dependencies: ["5F94DAE8BF225D91"]
+			dependencies: [
+				"5F94DAE8BF225D91"
+				"6179404AD5E38E54"
+			]
 			id: "43168BF382B48C00"
 			tasks: [{
 				id: "655392D538D770F7"
 				item: "gtceu:crystal_cpu"
 				type: "item"
 			}]
-			x: 9.0d
-			y: -4.0d
+			x: 7.5d
+			y: -2.5d
 		}
 		{
 			dependencies: [
-				"4CF82E5135144485"
 				"43168BF382B48C00"
 				"1F5F40397DB7AB12"
 			]
@@ -246,8 +207,8 @@
 				item: "gtceu:crystal_processor_assembly"
 				type: "item"
 			}]
-			x: 9.0d
-			y: -1.0d
+			x: 10.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["43168BF382B48C00"]
@@ -257,57 +218,25 @@
 				item: "gtceu:crystal_processor_computer"
 				type: "item"
 			}]
-			x: 9.0d
-			y: 0.5d
-		}
-		{
-			dependencies: ["1723FB2777EA1720"]
-			hide_dependency_lines: true
-			id: "4CF82E5135144485"
-			shape: "gear"
-			tasks: [
-				{
-					id: "5A11C4E7BE8CF6AF"
-					item: "gtceu:advanced_smd_transistor"
-					type: "item"
-				}
-				{
-					id: "06C28B21D17EE5C7"
-					item: "gtceu:advanced_smd_resistor"
-					type: "item"
-				}
-				{
-					id: "682120CA12B1BD81"
-					item: "gtceu:advanced_smd_capacitor"
-					type: "item"
-				}
-				{
-					id: "43A601A73F201444"
-					item: "gtceu:advanced_smd_diode"
-					type: "item"
-				}
-				{
-					id: "3AAF60A29FFD9510"
-					item: "gtceu:advanced_smd_inductor"
-					type: "item"
-				}
-			]
-			x: 7.5d
+			x: 12.0d
 			y: -2.5d
 		}
 		{
-			dependencies: ["43168BF382B48C00"]
+			dependencies: [
+				"43168BF382B48C00"
+				"1DA8A4C94A3CF345"
+			]
 			id: "75E752F5FA5C7C43"
 			tasks: [{
 				id: "4975E32BC395588A"
 				item: "gtceu:crystal_processor_mainframe"
 				type: "item"
 			}]
-			x: 9.0d
-			y: 2.0d
+			x: 13.5d
+			y: -2.5d
 		}
 		{
-			dependencies: ["1723FB2777EA1720"]
+			dependencies: ["6945C4E4B0EF9E12"]
 			hide_dependency_lines: true
 			id: "1F5F40397DB7AB12"
 			tasks: [{
@@ -315,19 +244,8 @@
 				item: "gtceu:multilayer_fiber_reinforced_printed_circuit_board"
 				type: "item"
 			}]
-			x: 10.5d
-			y: -2.5d
-		}
-		{
-			dependencies: ["6945C4E4B0EF9E12"]
-			id: "05A9BBD9A0395A44"
-			tasks: [{
-				id: "6399A1BFDB10365B"
-				item: "gtceu:indium_tin_barium_titanium_cuprate_single_wire"
-				type: "item"
-			}]
-			x: 4.5d
-			y: -1.0d
+			x: 9.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["3EBF44D3A6E24B29"]
@@ -337,8 +255,8 @@
 				item: "gtceu:plasma_large_turbine"
 				type: "item"
 			}]
-			x: 9.0d
-			y: -5.5d
+			x: 7.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["5CE66F9FE5E3237A"]
@@ -348,8 +266,8 @@
 				item: "gtceu:argon_plasma_bucket"
 				type: "item"
 			}]
-			x: 7.5d
-			y: -5.5d
+			x: 6.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["6945C4E4B0EF9E12"]
@@ -360,31 +278,17 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -2.5d
+			y: -1.0d
 		}
 		{
-			dependencies: [
-				"67F9B8ED54876FA1"
-				"05A9BBD9A0395A44"
-			]
+			dependencies: ["6945C4E4B0EF9E12"]
 			id: "14A6CBA50CE03F78"
 			tasks: [{
 				id: "798C9EADDD6035FF"
 				item: "gtceu:data_bank"
 				type: "item"
 			}]
-			x: 4.5d
-			y: 0.5d
-		}
-		{
-			dependencies: ["6945C4E4B0EF9E12"]
-			id: "67F9B8ED54876FA1"
-			tasks: [{
-				id: "67140C3C9536253A"
-				item: "gtceu:normal_optical_pipe"
-				type: "item"
-			}]
-			x: 3.0d
+			x: 1.5d
 			y: 0.5d
 		}
 		{
@@ -399,7 +303,7 @@
 				}
 				type: "item"
 			}]
-			x: 7.5d
+			x: 6.0d
 			y: 0.5d
 		}
 		{
@@ -410,14 +314,11 @@
 				item: "gtceu:lapotronic_energy_orb_cluster"
 				type: "item"
 			}]
-			x: 7.5d
+			x: 6.0d
 			y: -1.0d
 		}
 		{
-			dependencies: [
-				"5A87158E975886BC"
-				"5A46AB7E3385B55E"
-			]
+			dependencies: ["5A46AB7E3385B55E"]
 			id: "7EE25B093813D4E9"
 			tasks: [{
 				id: "3905539E00E23B56"
@@ -426,7 +327,7 @@
 			}]
 			title: "Proliferation Inducer"
 			x: -1.5d
-			y: -1.0d
+			y: -4.0d
 		}
 		{
 			dependencies: [
@@ -442,7 +343,7 @@
 				type: "item"
 			}]
 			title: "Chlorophyte (currently no use)"
-			x: -3.0d
+			x: -1.5d
 			y: -1.0d
 		}
 		{
@@ -456,7 +357,7 @@
 				item: "gtceu:indole_3_acetic_acid_dust"
 				type: "item"
 			}]
-			x: -4.5d
+			x: -3.0d
 			y: -1.0d
 		}
 		{
@@ -468,7 +369,7 @@
 				item: "gtceu:glycolic_acid_dust"
 				type: "item"
 			}]
-			x: -4.5d
+			x: -3.0d
 			y: 0.5d
 		}
 		{
@@ -482,7 +383,7 @@
 				item: "gtceu:indole_dust"
 				type: "item"
 			}]
-			x: -4.5d
+			x: -3.0d
 			y: -2.5d
 		}
 		{
@@ -493,7 +394,7 @@
 				item: "gtceu:phenylhydrazine_bucket"
 				type: "item"
 			}]
-			x: -4.5d
+			x: -3.0d
 			y: -4.0d
 		}
 		{
@@ -505,7 +406,7 @@
 				item: "gtceu:pyruvic_acid_bucket"
 				type: "item"
 			}]
-			x: -6.0d
+			x: -4.5d
 			y: -2.5d
 		}
 		{
@@ -517,7 +418,7 @@
 				item: "gtceu:aniline_bucket"
 				type: "item"
 			}]
-			x: -4.5d
+			x: -3.0d
 			y: -5.5d
 		}
 		{
@@ -535,8 +436,217 @@
 				title: "TODO"
 				type: "checkmark"
 			}]
-			x: -4.0d
-			y: -8.0d
+			x: 4.595238095238095d
+			y: -0.2678571428571459d
+		}
+		{
+			dependencies: ["38537701E0EE6D51"]
+			id: "288E19105AA52296"
+			tasks: [
+				{
+					id: "57B085BA326D1258"
+					item: "gtceu:impure_enriched_naquadah_solution_bucket"
+					type: "item"
+				}
+				{
+					id: "01FA5AFDD07619CF"
+					item: "gtceu:impure_naquadria_solution_bucket"
+					type: "item"
+				}
+			]
+			title: "Naquadah Processing"
+			x: 1.5d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"5C444B08CE789A06"
+				"288E19105AA52296"
+			]
+			id: "067CF240681875AE"
+			tasks: [{
+				id: "6A2D87F943F9C398"
+				item: "gtceu:naquadria_ingot"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["5B15100444AAAC65"]
+			id: "5C444B08CE789A06"
+			tasks: [{
+				id: "4ED553064E537F4B"
+				item: "gtceu:trinium_coil_block"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["2099F46D60BF41C0"]
+			id: "769DD388F7FAD819"
+			tasks: [{
+				id: "51C2F2745E314782"
+				item: "gtceu:raw_crystal_chip_parts"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2099F46D60BF41C0"]
+			id: "6179404AD5E38E54"
+			tasks: [{
+				id: "0C47329DBE7D75E8"
+				item: "gtceu:engraved_crystal_chip"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6945C4E4B0EF9E12"]
+			hide_dependency_lines: true
+			id: "2099F46D60BF41C0"
+			tasks: [{
+				id: "2017AE4EB8548815"
+				item: "gtceu:raw_crystal_chip"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6945C4E4B0EF9E12"]
+			id: "254FC352BE977B6A"
+			tasks: [{
+				id: "237A777F6CD302AD"
+				item: "gtceu:luv_parallel_hatch"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"779523BD24FE0C84"
+				"588E60DC8899FB41"
+			]
+			hide_dependent_lines: true
+			id: "1DA8A4C94A3CF345"
+			tasks: [{
+				id: "5EC1C34F80A1CE3F"
+				item: "gtceu:research_station"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7A06A6EC3EA93AC2"]
+			id: "48843D3FC3DF2C27"
+			tasks: [{
+				id: "5D6DB6A1D403C0BC"
+				item: "gtceu:computation_transmitter_hatch"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["38524CB00C4F8C5A"]
+			id: "779523BD24FE0C84"
+			tasks: [{
+				id: "7E03EF3D2731D58B"
+				item: "gtceu:computation_receiver_hatch"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"67DE20F99A8E932F"
+				"48843D3FC3DF2C27"
+			]
+			id: "588E60DC8899FB41"
+			tasks: [{
+				id: "4193E5165498BB28"
+				item: "gtceu:high_performance_computation_array"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.5d
+		}
+		{
+			id: "67DE20F99A8E932F"
+			tasks: [{
+				id: "3A8CAEEC1277F99E"
+				item: "gtceu:pcb_coolant_bucket"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3670F54D8458A936"]
+			id: "7A06A6EC3EA93AC2"
+			tasks: [{
+				id: "19071D54C1D3D26D"
+				item: "gtceu:data_transmitter_hatch"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3670F54D8458A936"]
+			id: "38524CB00C4F8C5A"
+			tasks: [{
+				id: "3CC23BB50F038D30"
+				item: "gtceu:data_receiver_hatch"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6945C4E4B0EF9E12"]
+			id: "3670F54D8458A936"
+			tasks: [{
+				id: "4DBDF69C8F3D7E12"
+				item: "gtceu:computer_casing"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			id: "15DADDC036CD74EE"
+			tasks: [{
+				id: "3B56ADA33754E371"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_4_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["15DADDC036CD74EE"]
+			id: "52B493AFC96D8104"
+			tasks: [{
+				dimension: "ad_astra:glacio"
+				icon: "ad_astra:glacio_globe"
+				id: "0444DC678ADE2E44"
+				type: "dimension"
+			}]
+			x: 7.5d
+			y: -5.5d
 		}
 	]
 	title: "LuV Age"

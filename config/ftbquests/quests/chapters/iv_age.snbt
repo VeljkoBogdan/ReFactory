@@ -23,6 +23,7 @@
 		}
 		{
 			dependencies: ["1A70E39DBC13742A"]
+			description: ["This alloy is needed in many LuV casing and machine recipes, so prepare to make a lot."]
 			id: "49955E572AC194B1"
 			shape: "gear"
 			size: 1.5d
@@ -39,6 +40,7 @@
 				"6136FCE33996E7BC"
 				"3F37E03149399E3F"
 			]
+			description: ["A better Mixer."]
 			id: "1A70E39DBC13742A"
 			tasks: [{
 				id: "0ABE002B27E564D5"
@@ -52,6 +54,7 @@
 			dependencies: ["4A52C383E49CC653"]
 			id: "6136FCE33996E7BC"
 			shape: "gear"
+			size: 1.25d
 			tasks: [{
 				id: "5A0637A008D92A53"
 				item: "gtceu:laminated_glass"
@@ -106,22 +109,27 @@
 				item: "gtceu:vinyl_acetate_bucket"
 				type: "item"
 			}]
-			x: -9.0d
-			y: 1.5d
+			x: -7.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["6F366B7F54C95B44"]
+			description: ["The IV energy hatch will let you overclock your EBFs and ABS' to LuV."]
+			hide_dependent_lines: true
 			id: "539B123AE70751BD"
+			shape: "gear"
+			size: 1.25d
 			tasks: [{
 				id: "7831F2D46115387D"
 				item: "gtceu:iv_energy_input_hatch"
 				type: "item"
 			}]
-			x: -6.0d
-			y: -6.0d
+			x: -7.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["6136FCE33996E7BC"]
+			description: ["Faster and better chip cutting."]
 			id: "55BB678FAA5C38C2"
 			tasks: [{
 				id: "7ADC08A4D3083B7E"
@@ -133,6 +141,7 @@
 		}
 		{
 			dependencies: ["0EFB0D8CDE53E31C"]
+			description: ["Better power wafers"]
 			id: "6CB77C298AEE2305"
 			tasks: [{
 				id: "2564199A7C91C0AD"
@@ -147,6 +156,7 @@
 				"6CB77C298AEE2305"
 				"55BB678FAA5C38C2"
 			]
+			description: ["These allow you to craft the Assemly Line Casings and IV energy hatches."]
 			id: "6F366B7F54C95B44"
 			tasks: [{
 				id: "326D91200202AF09"
@@ -157,7 +167,11 @@
 			y: -4.5d
 		}
 		{
-			dependencies: ["3F37E03149399E3F"]
+			dependencies: [
+				"3F37E03149399E3F"
+				"5D3B2B0BCEEA189F"
+			]
+			description: ["Required for several wafer types"]
 			hide_dependency_lines: false
 			id: "0EFB0D8CDE53E31C"
 			tasks: [{
@@ -170,6 +184,7 @@
 		}
 		{
 			dependencies: ["0EFB0D8CDE53E31C"]
+			description: ["You can craft them either with Indium Gallium Phosphide and Radon, or Quantum Eyes and liquid Gallium Arsenide."]
 			id: "313B662C730401A5"
 			tasks: [{
 				id: "395C9924FEF35863"
@@ -184,7 +199,10 @@
 				"313B662C730401A5"
 				"081802EE27170790"
 			]
+			description: ["Last EV circuit."]
 			id: "34077661328308FB"
+			shape: "gear"
+			size: 1.25d
 			tasks: [{
 				id: "097C56984E5F5253"
 				item: "gtceu:quantum_processor"
@@ -195,68 +213,69 @@
 		}
 		{
 			dependencies: ["34077661328308FB"]
+			description: ["Better IV circuits."]
 			id: "256C8C7D49EA5829"
+			shape: "gear"
+			size: 1.25d
 			tasks: [{
 				id: "04D1759EF296DF4C"
 				item: "gtceu:quantum_processor_assembly"
-				type: "item"
-			}]
-			x: -3.0d
-			y: -9.0d
-		}
-		{
-			dependencies: ["256C8C7D49EA5829"]
-			id: "5464B2B4D0EDD912"
-			tasks: [{
-				id: "5ECA46F83467AA95"
-				item: "gtceu:quantum_processor_computer"
-				type: "item"
-			}]
-			x: -3.0d
-			y: -10.5d
-		}
-		{
-			dependencies: ["5464B2B4D0EDD912"]
-			id: "50948FC264BA8EF2"
-			tasks: [{
-				id: "246C402059AD4131"
-				item: "gtceu:quantum_processor_mainframe"
-				type: "item"
-			}]
-			x: -3.0d
-			y: -12.0d
-		}
-		{
-			dependencies: ["3F37E03149399E3F"]
-			hide_dependency_lines: true
-			id: "081802EE27170790"
-			tasks: [{
-				id: "7522E313A374906B"
-				item: "gtceu:fiber_reinforced_printed_circuit_board"
 				type: "item"
 			}]
 			x: -1.5d
 			y: -7.5d
 		}
 		{
-			dependencies: ["3190DE2F5CF53483"]
+			dependencies: ["256C8C7D49EA5829"]
+			description: ["Better LuV circuits."]
+			id: "5464B2B4D0EDD912"
+			shape: "gear"
+			size: 1.25d
+			tasks: [{
+				id: "5ECA46F83467AA95"
+				item: "gtceu:quantum_processor_computer"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["5464B2B4D0EDD912"]
+			description: ["First ZPM circuit."]
+			id: "50948FC264BA8EF2"
+			shape: "none"
+			size: 2.0d
+			tasks: [{
+				id: "246C402059AD4131"
+				item: "gtceu:quantum_processor_mainframe"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["762B67EDA699C080"]
+			id: "081802EE27170790"
+			tasks: [{
+				id: "7522E313A374906B"
+				item: "gtceu:fiber_reinforced_printed_circuit_board"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["3F37E03149399E3F"]
+			description: [
+				"HSS-G coils are the next in line!"
+				""
+				"It will allow you to make HSS-S, along with many other alloys."
+			]
 			id: "483A6C2844930A40"
 			shape: "gear"
 			tasks: [{
 				id: "05EF7F0625C20158"
 				item: "gtceu:hssg_coil_block"
-				type: "item"
-			}]
-			x: 1.5d
-			y: -6.0d
-		}
-		{
-			dependencies: ["3F37E03149399E3F"]
-			hide_dependency_lines: false
-			id: "3190DE2F5CF53483"
-			tasks: [{
-				id: "3613479299ACBCC9"
-				item: "gtceu:hssg_ingot"
 				type: "item"
 			}]
 			x: 1.5d
@@ -267,10 +286,20 @@
 				"6136FCE33996E7BC"
 				"6F366B7F54C95B44"
 				"0DEAFF8F7747B74D"
+				"223C8B0C9F43B63C"
+			]
+			description: [
+				"The Assline (short for Assembly Line) is a multiblock machine that's used for creating higher tiers of components and machines."
+				""
+				"A recipe has to be placed into the input busses the exact way it's shown in the recipe."
+				""
+				"It uses a data hatch for storing recipes."
+				""
+				"If you happen to have trouble, I recommend watching a video about how to set it up, and how to set up AE2 automation with it."
 			]
 			id: "084C45E67B39F224"
-			shape: "gear"
-			size: 1.5d
+			shape: "none"
+			size: 2.0d
 			tasks: [{
 				id: "24005EC6140869EB"
 				item: "gtceu:assembly_line"
@@ -281,19 +310,27 @@
 		}
 		{
 			dependencies: ["3F37E03149399E3F"]
+			description: ["This is a better plastic than PTFE, and is more efficient in production. It's also required in LuV so better make an automated line."]
+			hide_dependency_lines: true
 			id: "041669D818CC1051"
+			shape: "gear"
 			tasks: [{
 				id: "73B6F323F9B34E01"
 				item: "gtceu:polybenzimidazole_bucket"
 				type: "item"
 			}]
-			x: -1.5d
-			y: -4.5d
+			x: -4.5d
+			y: -6.0d
 		}
 		{
 			dependencies: [
 				"04D4F228BEE94349"
 				"50948FC264BA8EF2"
+			]
+			description: [
+				"Better GT suit"
+				""
+				"Provides a lot of bonuses"
 			]
 			id: "2D17A322451C17D6"
 			tasks: [
@@ -322,11 +359,12 @@
 					type: "item"
 				}
 			]
-			x: -1.5d
-			y: -10.5d
+			x: 0.0d
+			y: -9.0d
 		}
 		{
 			dependencies: ["081802EE27170790"]
+			description: ["IV battery"]
 			id: "04D4F228BEE94349"
 			tasks: [{
 				id: "3ED2E09ED42CFB7C"
@@ -338,25 +376,36 @@
 		}
 		{
 			dependencies: ["50948FC264BA8EF2"]
+			description: [
+				"It's like a huge battery that stores a lot of EU."
+				""
+				"It's recommended you build one in the future."
+			]
 			id: "37D8D033D2F8F37B"
+			shape: "hexagon"
 			tasks: [{
 				id: "33FBC403FBD462D0"
 				item: "gtceu:power_substation"
 				type: "item"
 			}]
-			x: -4.5d
-			y: -12.0d
+			x: 1.5d
+			y: -9.0d
 		}
 		{
-			dependencies: ["483A6C2844930A40"]
+			dependencies: [
+				"483A6C2844930A40"
+				"1A70E39DBC13742A"
+			]
+			description: ["Required in LuV components and rocket plating."]
+			hide_dependency_lines: true
 			id: "4C771453604769B9"
 			tasks: [{
 				id: "4DC83C026FEC8431"
 				item: "gtceu:hsss_ingot"
 				type: "item"
 			}]
-			x: 6.0d
-			y: -6.0d
+			x: 10.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["3F37E03149399E3F"]
@@ -372,28 +421,11 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -6.0d
-		}
-		{
-			description: [
-				"This chapter is not finished."
-				""
-				"It might be very inaccurate, have missing or unfinished descriptions or illogical questlines."
-			]
-			icon: "botania:cosmetic_questgiver_mark"
-			id: "258E2CB3552C2B3F"
-			shape: "square"
-			size: 1.5d
-			tasks: [{
-				id: "1B5B2D7A8592D5C6"
-				title: "TODO"
-				type: "checkmark"
-			}]
-			x: -12.0d
-			y: -11.25d
+			y: -4.5d
 		}
 		{
 			dependencies: ["49955E572AC194B1"]
+			description: ["An LuV casing, without the machinery."]
 			id: "0070CB93EF1F679B"
 			tasks: [{
 				id: "7ECA2BB7C9A5157C"
@@ -405,6 +437,7 @@
 		}
 		{
 			dependencies: ["1A70E39DBC13742A"]
+			description: ["Needed to make cables in LuV machine hulls."]
 			id: "785A8464BDBBCF43"
 			tasks: [{
 				id: "21AE4EBF6D88F8F0"
@@ -419,18 +452,27 @@
 				"0070CB93EF1F679B"
 				"785A8464BDBBCF43"
 				"0AD1A782FCC8AB25"
+				"40E995FBB414DFEC"
+			]
+			description: [
+				"Your first LuV machine hull!"
+				""
+				"Make sure you have a solid foundation now, with a good energy source, ore processing, automation and storage, as the next tiers will put them to a test."
 			]
 			id: "0FCD5D760ECB9449"
+			shape: "none"
+			size: 2.0d
 			tasks: [{
 				id: "65AE21A2CF2F7100"
 				item: "gtceu:luv_machine_hull"
 				type: "item"
 			}]
 			x: 12.0d
-			y: 1.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["3F37E03149399E3F"]
+			description: ["The Alloy Blast Smelter (or ABS) is a mutliblock that alloys molted metals into molten alloys, allowing you to cool them into ingots in a Freezer."]
 			id: "0808D2E05CBFB662"
 			size: 1.0d
 			tasks: [{
@@ -439,10 +481,11 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -4.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["5387BC1123EBEA4C"]
+			description: ["Better Nether Star."]
 			id: "0DEAFF8F7747B74D"
 			tasks: [{
 				id: "5AE8F11AC2CB3345"
@@ -457,7 +500,14 @@
 				"25540C7E76C115DD"
 				"2BD6DA7642813B47"
 			]
+			description: [
+				"Tier 3 rocket!"
+				""
+				"With this one you can go to Mercury and Venus."
+			]
 			id: "44B6796BBD1E367A"
+			shape: "none"
+			size: 4.0d
 			tasks: [{
 				id: "29467AF0F3A4F275"
 				item: {
@@ -467,8 +517,8 @@
 				}
 				type: "item"
 			}]
-			x: 13.5d
-			y: -6.0d
+			x: 15.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["445F993B3A6DC654"]
@@ -478,12 +528,14 @@
 				item: "gtceu:raw_naquadah"
 				type: "item"
 			}]
-			x: 16.5d
-			y: -7.5d
+			x: 19.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["1952A22410644283"]
+			description: ["Since the planets you are going to visit this tier are hot and hazardous, you're going to need better gear."]
 			id: "25540C7E76C115DD"
+			shape: "gear"
 			tasks: [
 				{
 					id: "00EB25A805895C4E"
@@ -530,32 +582,36 @@
 					type: "item"
 				}
 			]
-			x: 13.5d
-			y: -9.0d
+			x: 15.0d
+			y: -7.5d
 		}
 		{
 			dependencies: ["44B6796BBD1E367A"]
+			description: ["Main ores are Naquadah and Plutonium."]
 			icon: "ad_astra:mercury_globe"
 			id: "445F993B3A6DC654"
+			shape: "gear"
 			tasks: [{
 				dimension: "ad_astra:mercury"
 				id: "13419FF4AF0438D7"
 				type: "dimension"
 			}]
-			x: 15.0d
-			y: -7.0d
+			x: 17.5d
+			y: -5.5d
 		}
 		{
 			dependencies: ["44B6796BBD1E367A"]
+			description: ["Main ores are Palladium and Calorite."]
 			icon: "ad_astra:venus_globe"
 			id: "7ADC5D5E77EAA4F1"
+			shape: "gear"
 			tasks: [{
 				dimension: "ad_astra:venus"
 				id: "6D4B59CD83F803C9"
 				type: "dimension"
 			}]
-			x: 15.0d
-			y: -5.0d
+			x: 17.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["7ADC5D5E77EAA4F1"]
@@ -565,8 +621,8 @@
 				item: "gtceu:raw_calorite"
 				type: "item"
 			}]
-			x: 16.5d
-			y: -4.5d
+			x: 19.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["445F993B3A6DC654"]
@@ -576,8 +632,8 @@
 				item: "gtceu:raw_plutonium"
 				type: "item"
 			}]
-			x: 16.5d
-			y: -6.5d
+			x: 19.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["7ADC5D5E77EAA4F1"]
@@ -587,12 +643,21 @@
 				item: "gtceu:raw_palladium"
 				type: "item"
 			}]
-			x: 16.5d
-			y: -5.5d
+			x: 19.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["314D1F9A756D530F"]
+			description: [
+				"Finally, Demonite ore, now you can dupe it to get more, check the next quest."
+				""
+				"This ingot will be required for LuV Casings, so you're going to need plenty of it."
+				""
+				"Now you can also upgrade your altar to level 5."
+			]
 			id: "0AD1A782FCC8AB25"
+			shape: "gear"
+			size: 1.25d
 			tasks: [{
 				id: "084D6E1CC4EDB878"
 				item: "bloodmagic:ingot_hellforged"
@@ -607,6 +672,7 @@
 				"0AD1A782FCC8AB25"
 				"4C771453604769B9"
 			]
+			description: ["Made out of Ostrum, Netherite, HSS-S and Osmium."]
 			id: "2BD6DA7642813B47"
 			tasks: [{
 				count: 6L
@@ -615,7 +681,7 @@
 				type: "item"
 			}]
 			x: 12.0d
-			y: -6.0d
+			y: -4.5d
 		}
 		{
 			dependencies: [
@@ -623,17 +689,21 @@
 				"7CDF253E08BCAD8B"
 			]
 			dependency_requirement: "one_completed"
+			description: ["Netherite all the way in IV???"]
 			id: "1952A22410644283"
+			shape: "gear"
+			size: 1.25d
 			tasks: [{
 				id: "36E6EDB0E16E6988"
 				item: "minecraft:netherite_ingot"
 				type: "item"
 			}]
 			x: 12.0d
-			y: -9.0d
+			y: -7.5d
 		}
 		{
 			dependencies: ["3F37E03149399E3F"]
+			description: ["You should have a good source of Nether Stars soon, as they are going to be required more and more as you progress into later tiers."]
 			id: "5387BC1123EBEA4C"
 			tasks: [{
 				id: "223EB03EFFE1649F"
@@ -645,6 +715,11 @@
 		}
 		{
 			dependencies: ["3F37E03149399E3F"]
+			description: [
+				"At this point you should have at least a tier 2 altar from EV tier."
+				""
+				"You'll need to do some rituals now. Rituals require one Master Ritual Stone, and a few regular Ritual Stones."
+			]
 			id: "7DF135BBE931206A"
 			tasks: [{
 				id: "42C8D10517219EF6"
@@ -660,7 +735,16 @@
 				"1147BAEF1233224C"
 				"57558481D64698B1"
 			]
+			description: [
+				"There are multiple rituals you can do, and I encourage you to."
+				""
+				"The most important for progression is the &eEdge of The Hidden Realm&r ritual."
+				""
+				"It will teleport you to a procedurally generated dungeon, where you will find mobs and loot."
+			]
 			id: "49D42406A5582088"
+			shape: "gear"
+			size: 1.25d
 			tasks: [{
 				id: "0ACEA96374C6B535"
 				title: "Edge of the Hidden Realm ritual"
@@ -671,6 +755,11 @@
 		}
 		{
 			dependencies: ["168822C2AC51BBD9"]
+			description: [
+				"The ritual diviner is the activator for some early rituals."
+				""
+				"You can shift + right click to change the selected ritual, then, when the ritual is placed and colored, right click the master stone to form the ritual."
+			]
 			id: "1147BAEF1233224C"
 			tasks: [{
 				id: "7A933556BEE84E08"
@@ -682,6 +771,7 @@
 		}
 		{
 			dependencies: ["7BAAA4E2916E61E8"]
+			description: ["To perform rituals you'll need inscription tools. They allow you to color the ritual stones."]
 			icon: {
 				Count: 1
 				id: "bloodmagic:airscribetool"
@@ -742,6 +832,11 @@
 		}
 		{
 			dependencies: ["7B62A35544F5875E"]
+			description: [
+				"The weak activation crystal is required to activate low-level rituals. Activating a ritual will require some LP in your network too."
+				""
+				"You'll need at least a level 3 altar to make this."
+			]
 			id: "57558481D64698B1"
 			tasks: [{
 				id: "50AA15E37125880B"
@@ -752,6 +847,9 @@
 			y: -1.5d
 		}
 		{
+			dependencies: ["3F37E03149399E3F"]
+			description: ["This is required to make the Weak Activation Crystal."]
+			hide_dependency_lines: true
 			id: "7B62A35544F5875E"
 			tasks: [{
 				id: "49419DC219E37AA5"
@@ -763,6 +861,11 @@
 		}
 		{
 			dependencies: ["49D42406A5582088"]
+			description: [
+				"You can find saturated tau inside chests in the dungeon. You can grow it in the Bloodforge using regular tau fruits, or plant the regular fruits and offer a mob sacrifice above it to turn it into saturated tau."
+				""
+				"It's also recommended to automate this, as it's required in Demonite duping later on."
+			]
 			id: "72372CD364BCD272"
 			tasks: [{
 				id: "46D2D5CD1B5B095C"
@@ -774,6 +877,7 @@
 		}
 		{
 			dependencies: ["72372CD364BCD272"]
+			description: ["You'll need this in several recipes."]
 			id: "375243EA89FA7414"
 			tasks: [{
 				id: "75076C45FE8EB746"
@@ -788,18 +892,27 @@
 				"375243EA89FA7414"
 				"077B55F7F31108BC"
 			]
+			description: ["The second-to-last blood orb."]
 			id: "30FA0FE711D0B94D"
+			shape: "hexagon"
 			tasks: [{
 				id: "2CD43E2520B86543"
 				item: "bloodmagic:masterbloodorb"
 				type: "item"
 			}]
-			x: 6.0d
+			x: 7.5d
 			y: -4.5d
 		}
 		{
 			dependencies: ["3CFA9DBB1B1ADFB8"]
+			description: [
+				"There are several good rituals you've unlocked now. To progress further, you'll need to make the Path to The Endless Realm ritual."
+				""
+				"You will enter a stronger dungeon to the one you've been before. Here, you're looking for &eThe Mines&r, and the &eForeman's Key&r. The Foremans Key will unlock the door to The Mines, which contains Demonite Ore inside."
+			]
 			id: "539048079D4E9536"
+			shape: "gear"
+			size: 1.25d
 			tasks: [{
 				id: "00F1C63AAB704591"
 				title: "Path to the Endless Realm ritual"
@@ -810,6 +923,7 @@
 		}
 		{
 			dependencies: ["077B55F7F31108BC"]
+			description: ["The Dusk version of the diviner provides better rituals."]
 			id: "3CFA9DBB1B1ADFB8"
 			tasks: [{
 				id: "41A515CB4B1B4682"
@@ -824,8 +938,12 @@
 				"375243EA89FA7414"
 				"461E885DF206205E"
 			]
+			description: ["You'll need 4 of these to upgrade your altar to level 4, which will allow you to access better rituals."]
 			id: "077B55F7F31108BC"
+			shape: "none"
+			size: 1.5d
 			tasks: [{
+				count: 4L
 				id: "1D969C44E24D59B4"
 				item: "bloodmagic:largebloodstonebrick"
 				type: "item"
@@ -836,6 +954,7 @@
 		}
 		{
 			dependencies: ["539048079D4E9536"]
+			description: ["Don't use up all of your ore, there is a way to dupe it!"]
 			id: "314D1F9A756D530F"
 			tasks: [{
 				id: "27EFA76B5F38473D"
@@ -847,6 +966,7 @@
 		}
 		{
 			dependencies: ["041669D818CC1051"]
+			description: ["Advanced SMDs are cheaper and you use less of them than regular SMDs in circuit crafting."]
 			id: "2C2A2A8E95DD3BB0"
 			rewards: [{
 				count: 2
@@ -854,6 +974,7 @@
 				item: "kubejs:refactory_coin"
 				type: "item"
 			}]
+			shape: "hexagon"
 			tasks: [
 				{
 					id: "6D40045D6EDCA91B"
@@ -881,8 +1002,8 @@
 					type: "item"
 				}
 			]
-			x: -1.5d
-			y: -6.0d
+			x: -4.5d
+			y: -7.5d
 		}
 		{
 			dependencies: ["0FD1E2F5DA0C6837"]
@@ -900,8 +1021,8 @@
 					type: "checkmark"
 				}
 			]
-			x: 12.0d
-			y: -10.5d
+			x: 10.5d
+			y: -7.5d
 		}
 		{
 			dependencies: ["0FD1E2F5DA0C6837"]
@@ -920,7 +1041,7 @@
 				}
 			]
 			x: 9.0d
-			y: -10.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["58A998E29EF4B9D6"]
@@ -938,11 +1059,12 @@
 					type: "checkmark"
 				}
 			]
-			x: 7.5d
-			y: -10.5d
+			x: 9.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["0FD1E2F5DA0C6837"]
+			description: ["You can safely turn the Titanium Dioxide into Titanium."]
 			icon: "gtceu:titanium_dioxide_dust"
 			id: "54B2F0D547B74D37"
 			tasks: [
@@ -957,19 +1079,25 @@
 					type: "checkmark"
 				}
 			]
-			x: 10.5d
-			y: -12.0d
+			x: 9.0d
+			y: -9.0d
 		}
 		{
-			dependencies: ["5C4B7C9B624E9AA9"]
+			dependencies: [
+				"5C4B7C9B624E9AA9"
+				"539B123AE70751BD"
+			]
+			description: ["A better, rarer and purer Netherite."]
 			id: "461E885DF206205E"
+			shape: "gear"
+			size: 1.25d
 			tasks: [{
 				id: "116AAC683B93537A"
 				item: "gtceu:enriched_netherite_ingot"
 				type: "item"
 			}]
-			x: 7.5d
-			y: -9.0d
+			x: 9.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["7CDF253E08BCAD8B"]
@@ -985,12 +1113,21 @@
 				item: "gtceu:purified_netherite_ore"
 				type: "item"
 			}]
-			x: 10.5d
-			y: -10.5d
+			x: 9.0d
+			y: -7.5d
 		}
 		{
-			dependencies: ["0AD1A782FCC8AB25"]
+			dependencies: [
+				"0AD1A782FCC8AB25"
+				"1E4BD47B7670BCC7"
+			]
+			description: [
+				"Using one demonite dust, tau oil, lava, sulfur and sulfuric acid, with some processing, you can get 2 Demonite Ingots and some sulfur back."
+				""
+				"You'll need a lot of Demonite Ingots, so it's best to automate this setup and keep it running."
+			]
 			id: "23A9209C337665B6"
+			shape: "hexagon"
 			tasks: [{
 				id: "6B163BFDAEC279AF"
 				item: "gtceu:infernal_oil_bucket"
@@ -1002,6 +1139,11 @@
 		}
 		{
 			dependencies: ["49D42406A5582088"]
+			description: [
+				"You'll find these fruits in chests inside the dungeon, keep them."
+				""
+				"One is enough, but more doesn't hurt either."
+			]
 			id: "41BEEF639DCAE66D"
 			tasks: [{
 				id: "50BCEDE445DD9BF0"
@@ -1013,7 +1155,13 @@
 		}
 		{
 			dependencies: ["5387BC1123EBEA4C"]
+			description: [
+				"If you don't want to farm Withers, you can use the Null Catalyst to duplicate Stars."
+				""
+				"It's a 2:3 ratio, where 2 Nether Stars will yield 3 Nether Stars, because the Implossion Compressor eats one Nether Star Dust."
+			]
 			id: "2A93F68C3B6A07CB"
+			shape: "hexagon"
 			tasks: [{
 				id: "630478C56B69BB7C"
 				item: "gtceu:null_catalyst_dust"
@@ -1022,6 +1170,479 @@
 			title: "Nether Star Duping"
 			x: -1.5d
 			y: -1.5d
+		}
+		{
+			dependencies: ["137A2EDC718D5DF1"]
+			description: ["Reacting the Indium Concentrate with Aluminium dust yields Indium dust."]
+			id: "5D3B2B0BCEEA189F"
+			tasks: [{
+				id: "702D64D084271DBC"
+				item: "gtceu:indium_dust"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["3F37E03149399E3F"]
+			description: ["Processing sphalerite and galena gives indium, which is required to craft Indium Gallium Phosphate, and several other alloys and chemicals later on."]
+			hide_dependency_lines: true
+			id: "137A2EDC718D5DF1"
+			tasks: [{
+				id: "2529EE7CE6A80611"
+				item: "gtceu:indium_concentrate_bucket"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"0DB2E6CF8DFA59EA"
+				"2133586D6A9C907E"
+			]
+			description: ["You're going to need this for a lot of future cables, so it's best to automate its production."]
+			id: "40E995FBB414DFEC"
+			tasks: [{
+				id: "67BE3E5885D033AE"
+				item: "gtceu:polyphenylene_sulfide_bucket"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3F37E03149399E3F"]
+			hide_dependency_lines: true
+			icon: "gtceu:sodium_sulfide_dust"
+			id: "2133586D6A9C907E"
+			tasks: [
+				{
+					id: "4B326A191D5F6CE5"
+					item: "gtceu:sodium_sulfide_dust"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "13AFB83747A58F2C"
+					optional_task: true
+					type: "checkmark"
+				}
+			]
+			x: 12.75d
+			y: 3.25d
+		}
+		{
+			dependencies: ["3F37E03149399E3F"]
+			hide_dependency_lines: true
+			icon: "gtceu:dichlorobenzene_bucket"
+			id: "0DB2E6CF8DFA59EA"
+			tasks: [
+				{
+					id: "418FE13008A55270"
+					item: "gtceu:dichlorobenzene_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3D94E009E5480932"
+					optional_task: true
+					type: "checkmark"
+				}
+			]
+			x: 11.25d
+			y: 3.25d
+		}
+		{
+			dependencies: ["3F37E03149399E3F"]
+			description: ["Can be made using Borosillicate glass fiber or Carbon Fibers, with Borosillicate glass being cheaper."]
+			hide_dependency_lines: true
+			id: "762B67EDA699C080"
+			tasks: [{
+				id: "4DAB61304C23C20B"
+				item: "gtceu:reinforced_epoxy_resin_plate"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["3F37E03149399E3F"]
+			description: [
+				"The parallel hatch will allow compatible multiblocks to run multiple recipes at once (4 at a time in this case)."
+				""
+				"It's not a guaranteed x4, as the multiplier depends on the energy usage of the recipe."
+			]
+			id: "7CEDA2BBBB184F75"
+			tasks: [{
+				id: "0EFC3C1F09E74593"
+				item: "gtceu:iv_parallel_hatch"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["3F37E03149399E3F"]
+			description: [
+				"With IV, you've unlocked many multiblock versions of ore processing machines."
+				""
+				"It is recommended to use them and set up a good, future-proof ore processing system."
+			]
+			hide_dependency_lines: true
+			id: "4DC804CAE848332A"
+			tasks: [{
+				id: "3BBC4DDAD174F5AE"
+				title: "Ore Processing"
+				type: "checkmark"
+			}]
+			x: 4.25d
+			y: -6.0d
+		}
+		{
+			dependencies: ["4DC804CAE848332A"]
+			id: "686C33B3170C92A7"
+			size: 1.0d
+			tasks: [{
+				id: "6055AC6FEA3997FE"
+				item: "gtceu:large_distillery"
+				type: "item"
+			}]
+			x: 4.25d
+			y: -8.0d
+		}
+		{
+			dependencies: ["4DC804CAE848332A"]
+			id: "6E0420226BAE9735"
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				id: "254987C7DCF13E78"
+				item: "gtceu:large_sifting_funnel"
+				type: "item"
+			}]
+			x: 3.25d
+			y: -8.0d
+		}
+		{
+			dependencies: ["4DC804CAE848332A"]
+			id: "140D61AF549AB6EB"
+			size: 1.0d
+			tasks: [{
+				id: "76A8542D824D0B7B"
+				item: "gtceu:large_electromagnet"
+				type: "item"
+			}]
+			x: 3.25d
+			y: -7.0d
+		}
+		{
+			dependencies: ["4DC804CAE848332A"]
+			id: "0F38681935789539"
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				id: "7B0E9482051AB33A"
+				item: "gtceu:large_electrolyzer"
+				type: "item"
+			}]
+			x: 4.25d
+			y: -7.0d
+		}
+		{
+			dependencies: ["4DC804CAE848332A"]
+			id: "32DDE2ECCA041614"
+			size: 1.0d
+			tasks: [{
+				id: "57F7B954FD6F25F6"
+				item: "gtceu:large_centrifuge"
+				type: "item"
+			}]
+			x: 3.25d
+			y: -6.0d
+		}
+		{
+			dependencies: ["4DC804CAE848332A"]
+			id: "4423149575D70D03"
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				id: "49B920A2C8D537A6"
+				item: "gtceu:large_chemical_bath"
+				type: "item"
+			}]
+			x: 4.25d
+			y: -9.0d
+		}
+		{
+			dependencies: ["4DC804CAE848332A"]
+			id: "04DF0687C6B113AE"
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				id: "63C6BC21F5E9CC35"
+				item: "gtceu:large_maceration_tower"
+				type: "item"
+			}]
+			x: 3.25d
+			y: -9.0d
+		}
+		{
+			dependencies: ["3F37E03149399E3F"]
+			description: [
+				"Alongside multiblock ore processing machines, you've unlocked multiblock production machines."
+				""
+				"It is recommended to replace singleblock machines in your on-demand AE2 area with these."
+			]
+			hide_dependency_lines: true
+			id: "7467BE5D0C589820"
+			tasks: [{
+				id: "6656AA94BE2FE8B9"
+				title: "Large Machines"
+				type: "checkmark"
+			}]
+			x: 5.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["7467BE5D0C589820"]
+			id: "59473F5ACE640EC9"
+			shape: "hexagon"
+			tasks: [{
+				id: "6D1024AB5D9006CC"
+				item: "gtceu:large_wiremill"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["7467BE5D0C589820"]
+			id: "2CEA88468D639F23"
+			tasks: [{
+				id: "65679F096B6E8C05"
+				item: "gtceu:large_solidifier"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["7467BE5D0C589820"]
+			id: "4DCC9E2A729260E9"
+			shape: "hexagon"
+			tasks: [{
+				id: "0CDEFF4BD6712F5F"
+				item: "gtceu:large_extruder"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["7467BE5D0C589820"]
+			id: "3982B40C90059328"
+			tasks: [{
+				id: "1705D50C116E327E"
+				item: "gtceu:large_extractor"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["7467BE5D0C589820"]
+			id: "6AE5555B6113855F"
+			shape: "hexagon"
+			tasks: [{
+				id: "7BABA27935C17EA1"
+				item: "gtceu:large_cutter"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["7467BE5D0C589820"]
+			id: "0F46D08D5EDDA106"
+			tasks: [{
+				id: "6098C8EE29319C64"
+				item: "gtceu:large_brewer"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["7467BE5D0C589820"]
+			id: "50DDAA154BA54F2C"
+			shape: "hexagon"
+			tasks: [{
+				id: "34D8571D4FBCF803"
+				item: "gtceu:large_material_press"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["7467BE5D0C589820"]
+			id: "4D056A96581A1693"
+			tasks: [{
+				id: "169C9C622C5069B4"
+				item: "gtceu:large_autoclave"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["7467BE5D0C589820"]
+			id: "3BB66BA13F5E2093"
+			shape: "hexagon"
+			tasks: [{
+				id: "07477CB9DDE39EA6"
+				item: "gtceu:large_engraving_laser"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["7467BE5D0C589820"]
+			id: "771F388FF4C38F6B"
+			shape: "hexagon"
+			tasks: [{
+				id: "25C968A75A1F8A9F"
+				item: "gtceu:large_circuit_assembler"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["7467BE5D0C589820"]
+			id: "63E0ADC9C0EF8AD9"
+			shape: "hexagon"
+			tasks: [{
+				id: "0199B4D8482F7CE1"
+				item: "gtceu:large_assembler"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["7467BE5D0C589820"]
+			id: "12F786AA255E102D"
+			tasks: [{
+				id: "0E61CD17509204DB"
+				item: "gtceu:large_packer"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["7467BE5D0C589820"]
+			id: "38DCD07D660E3207"
+			shape: "hexagon"
+			tasks: [{
+				id: "13A4E7D5254240B5"
+				item: "gtceu:large_mixer"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["72372CD364BCD272"]
+			description: ["Required in duping Demonite."]
+			hide_dependency_lines: true
+			id: "1E4BD47B7670BCC7"
+			tasks: [{
+				id: "23937FF1CCDC4483"
+				item: "bloodmagic:tauoil"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["539B123AE70751BD"]
+			description: [
+				"This energy hatch allows you to run your machines at a higher voltage tier."
+				""
+				"It won't allow you to run recipes that are of that tier though, so no tier skipping. It only allows you to run existing recipes at a faster rate."
+			]
+			hide_dependency_lines: false
+			id: "2F14A02C2329ECC1"
+			tasks: [{
+				id: "381B0D51C7CE1728"
+				item: "gtceu:iv_energy_input_hatch_4a"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["06935C87D1040CB6"]
+			description: ["A data hatch stores Data Sticks and provides the recipes to the multiblock."]
+			id: "223C8B0C9F43B63C"
+			tasks: [{
+				id: "4B4498F1B3536DDC"
+				item: "gtceu:data_access_hatch"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3F37E03149399E3F"]
+			description: [
+				"Data Sticks are a sort of storage for a recipe, that tells the multiblock how something's made."
+				""
+				"It's stored in Data Hatches."
+				""
+				"Scanners allow you to scan a recipe onto a Data Stick. For example scanning an IV motor will put an LuV motor recipe onto the stick, allowing you to craft LuV motors when placed in a Data Hatch."
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "gtceu:data_stick"
+				tag: { }
+			}
+			id: "06935C87D1040CB6"
+			tasks: [
+				{
+					id: "195003024EE8F19C"
+					item: {
+						Count: 1
+						id: "gtceu:data_stick"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "6140EEAF592E01D6"
+					item: "gtceu:iv_scanner"
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0AD1A782FCC8AB25"]
+			description: ["The last Blood Orb."]
+			id: "62A5E6636D66E549"
+			tasks: [{
+				id: "6EFC6116DBD72E4A"
+				item: "bloodmagic:archmagebloodorb"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -3.0d
 		}
 	]
 	title: "IV Age"

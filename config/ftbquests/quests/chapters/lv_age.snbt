@@ -999,10 +999,7 @@
 				"6F80CA65E869970E"
 			]
 			dependency_requirement: "one_completed"
-			description: [
-				"For basically all MV machines, you're going to need Aluminium."
-				"You can get it from electrolizing sapphire dust, until you get a better source later in the game."
-			]
+			description: ["For basically all MV machines, you're going to need Aluminium."]
 			id: "5F717D5E9715ED7C"
 			size: 1.0d
 			tasks: [{
@@ -1230,6 +1227,7 @@
 				""
 				"For now you can use it to make bolts, but it only gets more useful later on."
 			]
+			hide_dependent_lines: true
 			id: "0ADAD20D4196337D"
 			rewards: [{
 				id: "7167524E345E4AAB"
@@ -1438,7 +1436,10 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["74C94B5C7B866A34"]
+			dependencies: [
+				"74C94B5C7B866A34"
+				"0ADAD20D4196337D"
+			]
 			description: [
 				"Welcome to tier 2 of Botania."
 				""
@@ -2102,6 +2103,11 @@
 		}
 		{
 			dependencies: ["03D3442F857F0592"]
+			description: [
+				"Sapphire dust is one way to get the early amounts of Aluminium required to progress into MV."
+				""
+				"Undergarden Brine is another, more efficient, but expensive way."
+			]
 			hide_dependency_lines: true
 			id: "14301487802452D9"
 			tasks: [{
@@ -2113,15 +2119,50 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["518756FCEA4DA67E"]
+			dependencies: ["41125A1F548E6DBB"]
+			description: [
+				"Undergarden Brine can be found in bedrock fluid deposits in the Undergarden. Use your Prospector set to Fluid prospecting to find it,"
+				""
+				"You can process it to get a very good source of aluminium, sodium, magnesium and sulfur."
+			]
 			id: "6F80CA65E869970E"
 			tasks: [{
 				id: "1A8CDA06E52CFF23"
 				item: "gtceu:undergarden_brine_bucket"
 				type: "item"
 			}]
+			x: 12.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["518756FCEA4DA67E"]
+			description: [
+				"The Basic Fluid Drilling Rig is the LV version of the Advanced Fluid Drilling Rigs that are available at MV+ tiers."
+				""
+				"It will allow you to extract bedrock fluids, although at a really bad rate, and inefficiently."
+				""
+				"One use is the ability to extract Undergarden Brine. See the next quest for more info."
+			]
+			id: "41125A1F548E6DBB"
+			tasks: [{
+				id: "64E560062AEA3B22"
+				item: "refactorycore:lv_basic_fluid_drilling_rig"
+				type: "item"
+			}]
 			x: 9.0d
 			y: 1.5d
+		}
+		{
+			dependencies: ["6F80CA65E869970E"]
+			description: ["&eTo be implemented, you can void it.&r"]
+			id: "3D470D1F43C3CA24"
+			tasks: [{
+				id: "11235F2119A63882"
+				item: "gtceu:bio_waste_bucket"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 3.0d
 		}
 	]
 	title: "LV Age"

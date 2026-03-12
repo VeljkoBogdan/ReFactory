@@ -287,8 +287,8 @@
 				item: "kubejs:refactory_coin"
 				type: "item"
 			}]
-			shape: "gear"
-			size: 1.25d
+			shape: "none"
+			size: 2.0d
 			tasks: [{
 				id: "4A3A14347AF96F78"
 				item: "gtceu:nano_processor_mainframe"
@@ -1455,6 +1455,22 @@
 			}]
 			x: 11.5d
 			y: -17.5d
+		}
+		{
+			dependencies: ["699F6C56C378C599"]
+			description: [
+				"This energy hatch allows you to run your machines at a higher voltage tier."
+				""
+				"It won't allow you to run recipes that are of that tier though, so no tier skipping. It only allows you to run existing recipes at a faster rate."
+			]
+			id: "16CAB746BD405A3B"
+			tasks: [{
+				id: "108D4E381F11FD19"
+				item: "gtceu:ev_energy_input_hatch_4a"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -16.0d
 		}
 	]
 	title: "EV Age"
