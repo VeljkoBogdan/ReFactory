@@ -50,6 +50,18 @@ ServerEvents.recipes(event => {
     //     .duration(20*30)
     //     .EUt(GTValues.VA[GTValues.EV])
 
+    event.remove({id: 'gtceu:electrolyzer/decomposition_electrolyzing_hot_flinak'})
+    event.recipes.gtceu.large_chemical_reactor('flinak')
+        .itemInputs(
+            'gtceu:lithium_dust',
+            'gtceu:sodium_dust',
+            'gtceu:potassium_dust',
+        )
+        .inputFluids(Fluid.of('gtceu:fluorine', 1000))
+        .outputFluids(Fluid.of('gtceu:flinak', 4000))
+        .duration(20*60)
+        .EUt(GTValues.VA[GTValues.IV])
+
     ////// Nuclear fuel rods //////
     event.recipes.gtceu.canner('uranium_fuel_rod')
         .itemInputs('8x gtceu:uranium_dust')
