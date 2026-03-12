@@ -142,4 +142,20 @@ ServerEvents.recipes(event => {
     // Mogmoss
     Greenhouse('mogmoss', 'undergarden:mogmoss', 1000, '4x undergarden:mogmoss', false)
     Greenhouse('mogmoss_boosted', 'undergarden:mogmoss', 1000, '8x undergarden:mogmoss', true)
+
+    // Slitake
+    Greenhouse('slime_mushroom', 'thermal:slime_mushroom_spores', 1000, '4x thermal:slime_mushroom_spores', false)
+    Greenhouse('slime_mushroom_boosted', 'thermal:slime_mushroom_spores', 1000, '8x thermal:slime_mushroom_spores', true)
+
+    // Redstone
+    Greenhouse('redstone_mushroom', 'thermal:redstone_mushroom_spores', 1000, '4x thermal:redstone_mushroom_spores', false)
+    Greenhouse('redstone_mushroom_boosted', 'thermal:redstone_mushroom_spores', 1000, '8x thermal:redstone_mushroom_spores', true)
+
+    // Boomshroom
+    Greenhouse('gunpowder_mushroom', 'thermal:gunpowder_mushroom_spores', 1000, '4x thermal:gunpowder_mushroom_spores', false)
+    Greenhouse('gunpowder_mushroom_boosted', 'thermal:gunpowder_mushroom_spores', 1000, '8x thermal:gunpowder_mushroom_spores', true)
+
+    // Glimmercap
+    Greenhouse('glowstone_mushroom', 'thermal:glowstone_mushroom_spores', 1000, '4x thermal:glowstone_mushroom_spores', false)
+    Greenhouse('glowstone_mushroom_boosted', 'thermal:glowstone_mushroom_spores', 1000, '8x thermal:glowstone_mushroom_spores', true)
 })
