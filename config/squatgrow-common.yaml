@@ -7,15 +7,17 @@ enableAE2Accelerator: true
 enableDirtToGrass: true
 enableMysticalCrops: true
 hoeTakesDamage: false
-ignoreList: ['minecraft:grass_block', 'minecraft:grass', 'minecraft:tall_grass', 'minecraft:netherrack',
-  'minecraft:warped_nylium', 'minecraft:crimson_nylium', 'minecraft:wheat', 'minecraft:pumpkin_stem', 
-  'minecraft:melon_stem', 'minecraft:beetroots', 'minecraft:torchflower_crop', 'endercrop:ender_crop', 'minecraft:sweet_berry_bush',
-  'minecraft:pitcher_crop', 'minecraft:nether_wart', 'minecraft:carrots', 'minecraft:potatoes', 'thermal:amaranth',
-  'thermal:barley', 'thermal:corn', 'thermal:flax', 'thermal:onion', 'thermal:radish', 'thermal:rice', 'thermal:sadiroot',
-  'thermal:spinach', 'thermal:bell_pepper', 'thermal:eggplant', 'thermal:green_bean', 'thermal:peanut', 'thermal:strawberry',
-  'thermal:tomato', 'thermal:coffee', 'thermal:hops', 'thermal:tea', 'farmersdelight:cabbages', 'undergarden:gloomgourd_stem',
-  'farmersdelight:budding_tomatoes', 'farmersdelight:tomatoes', 'farmersdelight:onions', 'farmersdelight:rice', 'thermal:frost_melon_stem',
-  'farmersdelight:rice_panicles']
+ignoreList: ['minecraft:grass_block', 'minecraft:grass', 'undergarden:deepturf_block',
+  'undergarden:deepturf', 'minecraft:tall_grass', 'minecraft:netherrack', 'minecraft:warped_nylium',
+  'minecraft:crimson_nylium', 'minecraft:wheat', 'minecraft:pumpkin_stem', 'minecraft:melon_stem',
+  'minecraft:beetroots', 'minecraft:torchflower_crop', 'endercrop:ender_crop', 'minecraft:sweet_berry_bush',
+  'minecraft:pitcher_crop', 'minecraft:nether_wart', 'minecraft:carrots', 'minecraft:potatoes',
+  'thermal:amaranth', 'thermal:barley', 'thermal:corn', 'thermal:flax', 'thermal:onion',
+  'thermal:radish', 'thermal:rice', 'thermal:sadiroot', 'thermal:spinach', 'thermal:bell_pepper',
+  'thermal:eggplant', 'thermal:green_bean', 'thermal:peanut', 'thermal:strawberry',
+  'thermal:tomato', 'thermal:coffee', 'thermal:hops', 'thermal:tea', 'farmersdelight:cabbages',
+  'undergarden:gloomgourd_stem', 'farmersdelight:budding_tomatoes', 'farmersdelight:tomatoes',
+  'farmersdelight:onions', 'farmersdelight:rice', 'thermal:frost_melon_stem', 'farmersdelight:rice_panicles']
 randomTickMultiplier: 4
 range: 3
 requireHoe: false
