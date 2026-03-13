@@ -5,7 +5,7 @@ ServerEvents.recipes(event => {
             .inputFluids(Fluid.of('blasmatech:mana', manaAmount))
             .itemOutputs(output)
             .duration(duration)
-            .EUt(GTValues.VA[GTValues.HV])
+            .EUt(GTValues.VA[GTValues.LV])
     }    
 
     event.shaped(
@@ -34,11 +34,8 @@ ServerEvents.recipes(event => {
     ManaPool('mana_pearl', 'minecraft:ender_pearl', 500, 'botania:mana_pearl', 20)
     ManaPool('manasteel', 'minecraft:iron_ingot', 100, 'botania:manasteel_ingot', 10)
     ManaPool('mana_diamond', 'minecraft:diamond', 750, 'botania:mana_diamond', 20)
-    ManaPool('mana_powder_from_redstone', 'redstone', 50, 'botania:mana_powder', 5)
-    ManaPool('mana_powder_from_gunpowder', 'gunpowder', 50, 'botania:mana_powder', 5)
-    ManaPool('mana_powder_from_glowstone', 'glowstone_dust', 50, 'botania:mana_powder', 5)
-    ManaPool('mana_powder_from_sugar', 'sugar', 50, 'botania:mana_powder', 5)
-    ManaPool('mana_powder_from_dye', '#forge:dyes', 50, 'botania:mana_powder', 5)
+    ManaPool('mana_powder_from_grains', 'enderio:grains_of_infinity', 100, 'botania:mana_powder', 4)
+    ManaPool('mana_powder_from_ender', 'gtceu:ender_pearl_dust', 100, 'botania:mana_powder', 4)
     ManaPool('block_of_manasteel', 'minecraft:iron_block', 900, 'botania:manasteel_block', 20*4)
     ManaPool('mycelium_seeds', '#forge:mushrooms', 250, 'botania:mycelium_seeds', 10)
     ManaPool('mana_core', '#gtceu:circuits/lv', 1000, 'kubejs:mana_core', 20)

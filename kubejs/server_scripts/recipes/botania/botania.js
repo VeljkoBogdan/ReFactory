@@ -255,18 +255,20 @@ ServerEvents.recipes(event => {
 
     // Alchemy Catalyst
     event.remove({id: 'botania:alchemy_catalyst'})
-    event.recipes.gtceu.assembler('kubejs_alchemy_catalyst')
-        .itemInputs(
-            'kubejs:primitive_mana_core',
-            '4x gtceu:gold_plate',
-            '4x botania:livingrock',
-            'minecraft:brewing_stand'
-        )
-        .itemOutputs(
-            'botania:alchemy_catalyst'
-        )
-        .duration(20*15)
-        .EUt(GTValues.VA[GTValues.LV])
+    event.shaped(
+        'botania:alchemy_catalyst',
+        [
+            'ABA',
+            'CDC',
+            'ACA'
+        ],
+        {
+            A: 'gtceu:livingrock_plate',
+            B: 'brewing_stand',
+            C: 'gtceu:gold_plate',
+            D: 'kubejs:primitive_mana_core'
+        }
+    )
 
     // Conjuration Catalyst
     event.remove({id: 'botania:conjuration_catalyst'})
@@ -778,6 +780,22 @@ ServerEvents.recipes(event => {
         .itemOutputs('kubejs:elite_mana_core')
         .duration(20*8)
         .EUt(GTValues.VA[GTValues.HV])
+
+    // --------------------------------------------------------------
+
+    // Mana powder
+    event.remove({id: 'botania:mana_infusion/mana_powder_dust'})
+    event.remove({id: 'botania:mana_infusion/mana_powder_dye'})
+    event.recipes.botania.mana_infusion(
+        'botania:mana_powder',
+        'enderio:grains_of_infinity',
+        100
+    )
+    event.recipes.botania.mana_infusion(
+        'botania:mana_powder',
+        'gtceu:ender_pearl_dust',
+        100
+    )
 })
 
 yeet('botania:diluted_pool')
