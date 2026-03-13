@@ -16,6 +16,7 @@
 - Added Bitumen
 - Questbook refactoring up to LuV
 - Added the Basic Fluid Drilling Rig
+- Seed oil from more crops
 
 # 0.4.2
 - Turned EMI dev mode off
