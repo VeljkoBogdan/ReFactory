@@ -2052,7 +2052,7 @@
 				type: "item"
 			}]
 			x: 16.5d
-			y: -6.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["1B1B005DA1E7D5DA"]
@@ -2163,6 +2163,17 @@
 			}]
 			x: 12.0d
 			y: 3.0d
+		}
+		{
+			dependencies: ["4214F4080F013E2C"]
+			id: "57E734DE1DBC4724"
+			tasks: [{
+				id: "69176CFFAFF4DAA2"
+				item: "botania:alchemy_catalyst"
+				type: "item"
+			}]
+			x: 16.5d
+			y: -1.5d
 		}
 	]
 	title: "LV Age"

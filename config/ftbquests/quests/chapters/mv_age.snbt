@@ -1501,6 +1501,17 @@
 			x: 9.0d
 			y: 0.0d
 		}
+		{
+			dependencies: ["3EABF54D848B7C03"]
+			id: "2959F4860472FB52"
+			tasks: [{
+				id: "1679EEBA3A6037A2"
+				item: "botania:brewery"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -1.5d
+		}
 	]
 	title: "MV Age"
 }

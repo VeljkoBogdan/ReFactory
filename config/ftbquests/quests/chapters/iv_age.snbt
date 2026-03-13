@@ -265,7 +265,7 @@
 			y: -9.0d
 		}
 		{
-			dependencies: ["3F37E03149399E3F"]
+			dependencies: ["0AD1A782FCC8AB25"]
 			description: [
 				"HSS-G coils are the next in line!"
 				""
@@ -278,8 +278,8 @@
 				item: "gtceu:hssg_coil_block"
 				type: "item"
 			}]
-			x: 1.5d
-			y: -4.5d
+			x: 10.5d
+			y: -3.0d
 		}
 		{
 			dependencies: [
@@ -1641,7 +1641,7 @@
 				item: "bloodmagic:archmagebloodorb"
 				type: "item"
 			}]
-			x: 10.5d
+			x: 13.5d
 			y: -3.0d
 		}
 	]
