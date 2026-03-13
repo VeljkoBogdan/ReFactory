@@ -1,0 +1,18 @@
+{
+    "sdrp.undergarden.in": "In The Undergarden",
+    "sdrp.overworld.in": "In The Overworld",
+    "sdrp.nether.in": "In The Nether",
+    "sdrp.end.in": "In The End",
+    "sdrp.the_aether.in": "In The Aether",
+    "sdrp.moon.in": "On The Moon",
+    "sdrp.mercury.in": "On Mercury",
+    "sdrp.venus.in": "On Venus",
+    "sdrp.mars.in": "On Mars",
+    "sdrp.glacio.in": "On Glacio",
+    "sdrp.moon_orbit.in": "In Orbit Around The Moon",
+    "sdrp.mercury_orbit.in": "In Orbit Around Mercury",
+    "sdrp.venus_orbit.in": "In Orbit Around Venus",
+    "sdrp.earth_orbit.in": "In Orbit Around Earth",
+    "sdrp.mars_orbit.in": "In Orbit Around Mars",
+    "sdrp.glacio_orbit.in": "In Orbit Around Glacio"
+}
