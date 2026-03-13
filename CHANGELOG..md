@@ -17,6 +17,11 @@
 - Questbook refactoring up to LuV
 - Added the Basic Fluid Drilling Rig
 - Seed oil from more crops
+- HSS-G coils now require Demonite
+- Mana powder now craftable only from ender pearl dust or grains of infinity
+- CraftPresence replaced by Simple Discord Rich Presence
+- Enabled harder recipes in GT configs
+- General gregification of recipes
 
 # 0.4.2
 - Turned EMI dev mode off
