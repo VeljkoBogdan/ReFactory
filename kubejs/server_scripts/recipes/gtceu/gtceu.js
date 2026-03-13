@@ -1072,6 +1072,17 @@ ServerEvents.recipes(event => {
         )
         .duration(20*2.5)
         .EUt(GTValues.VA[GTValues.LV] / 2)
+
+    // HSS-G coils using demonite
+    event.replaceInput({id: 'gtceu:assembler/coil_hssg'}, 'gtceu:tungsten_carbide_foil', 'gtceu:demonite_foil')
+
+    // Resin circuit board in assembler
+    event.recipes.gtceu.assembler('resin_circuit_board_assembler')
+        .itemInputs('4x gtceu:livingwood_plate')
+        .inputFluids(Fluid.of('gtceu:glue', 200))
+        .itemOutputs('4x gtceu:resin_circuit_board')
+        .duration(20*16)
+        .EUt(GTValues.V[GTValues.ULV] / 2)
 })
     
 // Remove vanilla tools
