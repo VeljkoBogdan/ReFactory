@@ -75,6 +75,18 @@ ServerEvents.recipes(event => {
             'minecraft:hopper'
         ]
     )
+    event.shaped(
+        hopper,
+        [
+            'PPP',
+            'PMP',
+            'PPP'
+        ],
+        {
+            P: stainless,
+            M: 'botanypots:terracotta_hopper_botany_pot'
+        }
+    )
 });
 
 for (const elite of elitePots) {
@@ -118,6 +130,18 @@ ServerEvents.recipes(event => {
             'minecraft:hopper'
         ]
     )
+    event.shaped(
+        hopper,
+        [
+            'PPP',
+            'PMP',
+            'PPP'
+        ],
+        {
+            P: titanium,
+            M: 'botanypotstiers:elite_terracotta_hopper_botany_pot'
+        }
+    )
 });
 
 for (const ultra of ultraPots) {
@@ -160,6 +184,18 @@ ServerEvents.recipes(event => {
             creative,
             'minecraft:hopper'
         ]
+    )
+    event.shaped(
+        hopper,
+        [
+            'PPP',
+            'PMP',
+            'PPP'
+        ],
+        {
+            P: tungstenSteel,
+            M: 'botanypotstiers:ultra_terracotta_hopper_botany_pot'
+        }
     )
 });
 
