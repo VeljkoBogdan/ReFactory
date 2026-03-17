@@ -1,11 +1,10 @@
-// they call me the yeeter (a function that hides an element from recipe viewers)
 let yeet = (itemName) => {
     ServerEvents.recipes(event => {
       event.remove({ output: itemName })
     })
     ServerEvents.tags('item', event => {
-      event.add('c:hidden_from_recipe_viewers', itemName)
-      event.remove('forge:tools/hammers', itemName)
+        event.removeAllTagsFrom(itemName)
+        event.add('c:hidden_from_recipe_viewers', itemName)
     })
 }
 
@@ -979,7 +978,21 @@ ServerEvents.recipes(event => {
     
 })
 
+yeet('enderio:powdered_coal')
+yeet('enderio:powdered_iron')
+yeet('enderio:powdered_gold')
+yeet('enderio:powdered_copper')
+yeet('enderio:powdered_quartz')
+yeet('enderio:powdered_ender_pearl')
+yeet('enderio:soul_powder')
 
+yeet('enderio:wood_gear')
+yeet('enderio:stone_gear')
+yeet('enderio:energized_gear')
+yeet('enderio:vibrant_gear')
+yeet('enderio:dark_bimetal_gear')
+
+yeet('enderio:glider_wing')
 
 materials.map(material => {
     yeet(`enderio:${material}_ingot`)    

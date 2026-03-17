@@ -35,4 +35,36 @@ ServerEvents.recipes(event => {
             R: '#forge:tools/wrenches'
         }
     )
+
+    event.remove({id: 'redstoneclock:redstone_clock'})
+    event.shaped(
+        'redstoneclock:redstone_clock',
+        [
+            'ABA',
+            'BCB',
+            'ABA'
+        ],
+        {
+            A: 'repeater',
+            B: 'smooth_stone',
+            C: 'thermal:redstone_servo'
+        }
+    )
+
+    event.remove({id: 'redstoneclock:pulse_divider'})
+    event.shaped(
+        'redstoneclock:pulse_divider',
+        [
+            'ABA',
+            'BCB',
+            'ABA'
+        ],
+        {
+            A: 'repeater',
+            B: 'smooth_stone',
+            C: 'observer'
+        }
+    )
+
+    
 })

@@ -1,3 +1,13 @@
+let yeet = (itemName) => {
+	ServerEvents.recipes(event => {
+		event.remove({ output: itemName })
+	})
+	ServerEvents.tags('item', event => {
+		event.removeAllTagsFrom(itemName)
+		event.add('c:hidden_from_recipe_viewers', itemName)
+	})
+}
+
 ServerEvents.recipes(event => {
     // removing default market recipe
     event.remove({ id: 'farmingforblockheads:market' })
@@ -51,3 +61,7 @@ ServerEvents.recipes(event => {
         }
     )
 })
+
+yeet('farmingforblockheads:green_fertilizer')
+yeet('farmingforblockheads:red_fertilizer')
+yeet('farmingforblockheads:yellow_fertilizer')

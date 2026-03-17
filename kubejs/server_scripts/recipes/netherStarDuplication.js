@@ -1,4 +1,4 @@
-const AuraCapability = ReFactoryCapabilities.AURA
+let AuraCapability = ReFactoryCapabilities.AURA
 
 ServerEvents.recipes(event => {
     event.recipes.gtceu.mixer('null_catalyst')

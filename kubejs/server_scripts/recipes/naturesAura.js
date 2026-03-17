@@ -200,4 +200,36 @@ ServerEvents.recipes(event => {
         .itemOutputs('naturesaura:depth_ingot')
         .duration(20*8)
         .EUt(GTValues.VA[GTValues.HV])
+
+    event.remove({id: 'naturesaura:tree_ritual/nature_altar'})
+    event.recipes.naturesaura.tree_ritual(
+        'naturesaura:nature_altar',
+        [
+            'smooth_stone',
+            'smooth_stone',
+            'smooth_stone',
+            'gtceu:double_gold_plate',
+            'gtceu:double_gold_plate',
+            'gtceu:double_gold_plate',
+            'naturesaura:token_joy',
+            'naturesaura:token_joy'
+        ]
+    )
+
+    event.remove({id: 'naturesaura:aura_cache'})
+    event.shaped(
+        'naturesaura:aura_cache',
+        [
+            'ABA',
+            'BCB',
+            'ABA'
+        ],
+        {
+            A: 'gtceu:silver_plate',
+            B: 'gtceu:double_infused_iron_plate',
+            C: 'thermal:florb'
+        }
+    )
+
+
 })

@@ -3,8 +3,9 @@ let yeet = (itemName) => {
         event.remove({ output: itemName })
     })
     ServerEvents.tags('item', event => {
-        event.add('c:hidden_from_recipe_viewers', itemName)
         event.remove('forge:tools/hammers', itemName)
+        event.removeAllTagsFrom(itemName)
+        event.add('c:hidden_from_recipe_viewers', itemName)
     })
 }
 
@@ -586,3 +587,4 @@ yeet('ae2:certus_quartz_crystal')
 yeet('ae2:certus_quartz_dust')
 yeet('ae2:fluix_crystal')
 yeet('ae2:fluix_dust')
+yeet('ae2:ender_dust')
