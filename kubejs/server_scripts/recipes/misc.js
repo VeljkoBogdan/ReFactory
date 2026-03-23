@@ -1,4 +1,50 @@
+let book_recipe_outer = [
+    'leather',
+    'tconstruct:pattern',
+    'farmersdelight:canvas',
+    'rabbit_hide'
+]
+
+let book_recipe_inner = [
+    'gtceu:sticky_resin',
+    '#forge:slimeballs',
+]
+
 ServerEvents.recipes(event => {
+
+    event.remove({id: 'gtceu:shaped/book'})
+    event.remove({id: 'tconstruct:tables/book_substitute'})
+    event.remove({id: 'farmersdelight:book_from_canvas'})
+    event.remove({id: 'gtceu:assembler/book_from_leather'})
+    book_recipe_outer.forEach(outer => {
+        book_recipe_inner.forEach(inner => {
+            event.shaped(
+                'minecraft:book',
+                [
+                    'SPO',
+                    'SPI',
+                    'SPO'
+                ],
+                {
+                    S: 'string',
+                    P: 'paper',
+                    O: outer,
+                    I: inner
+                }
+            )
+        })
+
+        event.recipes.gtceu.assembler(`book_from_${outer}`)
+                .itemInputs(
+                    '3x paper',
+                    outer
+                )
+                .inputFluids(Fluid.of('gtceu:glue', 20))
+                .itemOutputs('book')
+                .duration(20)
+                .EUt(7)
+    })
+
     event.remove({id: 'disenchanting_table:disenchanting_table'})
     event.shaped(
         'disenchanting_table:disenchanting_table',
