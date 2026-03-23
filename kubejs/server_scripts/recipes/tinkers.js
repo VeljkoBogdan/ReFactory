@@ -125,6 +125,18 @@ ServerEvents.recipes(event => {
         .itemOutputs('4x tconstruct:manyullyn_ingot')
         .duration(20*16)
         .EUt(GTValues.VA[GTValues.MV])
+
+    // Better grout in the mixer
+    event.recipes.gtceu.mixer('grout')
+        .itemInputs(
+            '4x #minecraft:sand',
+            '4x gravel',
+            'clay'
+        )
+        .circuit(1)
+        .itemOutputs('9x tconstruct:grout')
+        .duration(20*8)
+        .EUt(7)
 })
 
 ServerEvents.tags('item', event => {
