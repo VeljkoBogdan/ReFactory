@@ -20,7 +20,24 @@ let materials = [
     'soularium'
 ]
 
+let dust_sets = [
+    {dust: 'enderio:vibrant_powder', ingredient: 'enderio:vibrant_crystal'},
+    {dust: 'enderio:withering_powder', ingredient: 'wither_rose'},
+    {dust: '3x enderio:withering_powder', ingredient: 'wither_skeleton_skull'},
+    {dust: 'enderio:prescient_powder', ingredient: 'enderio:prescient_crystal'},
+    {dust: 'enderio:pulsating_powder', ingredient: 'enderio:pulsating_crystal'},
+    {dust: 'enderio:ender_crystal_powder', ingredient: 'enderio:ender_crystal'}
+]
+
 ServerEvents.recipes(event => {
+
+    dust_sets.forEach(set => {
+        event.recipes.gtceu.macerator(`${set.ingredient}_maceration`)
+            .itemInputs(set.ingredient)
+            .itemOutputs(set.dust)
+            .duration(20*8)
+            .EUt(7)
+    })
 
     // Converting ingots from enderio to gt
     materials.map(material => {
@@ -693,7 +710,7 @@ ServerEvents.recipes(event => {
     materials.map(material => {
         event.remove({output: `enderio:${material}_grinding_ball`})
         event.shaped(
-            `enderio:${material}_grinding_ball`,
+            `16x enderio:${material}_grinding_ball`,
             [
                 'FPF',
                 'PHP',
@@ -956,6 +973,7 @@ ServerEvents.recipes(event => {
     event.recipes.gtceu.assembler('dark_steel_bars')
         .itemInputs('6x gtceu:dark_steel_rod')
         .itemOutputs('16x enderio:dark_steel_bars')
+        .circuit(1)
         .duration(20*12)
         .EUt(GTValues.VA[GTValues.MV] * 0.75)
 
@@ -975,6 +993,17 @@ ServerEvents.recipes(event => {
     )
 
     event.remove({id: 'enderio:smelting/undergarden/smelt_catalyst'})
+
+    event.remove({id: 'enderio:dark_steel_ladder'})
+    event.recipes.gtceu.assembler('dark_steel_ladder')
+        .itemInputs('4x gtceu:dark_steel_rod')
+        .itemOutputs('8x enderio:dark_steel_ladder')
+        .circuit(2)
+        .duration(20*8)
+        .EUt(GTValues.VA[GTValues.LV])
+
+    event.recipes.gtceu.macerator('withering_powder')
+        .itemInputs('')
     
 })
 
