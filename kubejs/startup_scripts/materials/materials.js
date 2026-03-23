@@ -607,7 +607,8 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
             GTMaterialFlags.GENERATE_ROD,
             GTMaterialFlags.NO_ORE_SMELTING,
             GTMaterialFlags.NO_SMELTING,
-            GTMaterialFlags.GENERATE_FOIL
+            GTMaterialFlags.GENERATE_FOIL,
+            GTMaterialFlags.GENERATE_GEAR
         )
 
     event.create('infernal_oil')

@@ -862,43 +862,21 @@ ServerEvents.recipes(event => {
 
     let augmentsToRemove = [
         'thermal:augments/xp_storage_augment',
-        'thermal:augments/rf_coil_augment',
-        'thermal:augments/rf_coil_storage_augment',
-        'thermal:augments/rf_coil_xfer_augment',
-        'thermal:augments/fluid_tank_augment',
         'thermal:augments/item_filter_augment',
         'thermal:augments/fluid_filter_augment',
-        'thermal:augments/machine_speed_augment',
-        'thermal:augments/machine_efficiency_augment',
-        'thermal:augments/machine_output_augment',
-        'thermal:augments/machine_catalyst_augment',
         'thermal:augments/machine_cycle_augment',
         'thermal:augments/machine_null_augment',
-        'thermal:augments/dynamo_output_augment',
-        'thermal:augments/dynamo_fuel_augment',
-        'thermal:augments/dynamo_throttle_augment',
-        'thermal:augments/area_radius_augment'
+        'thermal:augments/dynamo_throttle_augment'
     ]
 
     augmentsToRemove.forEach(recipeID => event.remove({id: recipeID}))
 
     augment('thermal:xp_storage_augment', tinPlate, tinPlate, 'enderio:experience_rod')
-    augment('thermal:rf_coil_augment', steelPlate, silverPlate, fluxCoil)
-    augment('thermal:rf_coil_storage_augment', silverPlate, steelGear, fluxCoil)
-    augment('thermal:rf_coil_xfer_augment', silverPlate, silverPlate, fluxCoil)
-    augment('thermal:fluid_tank_augment', rubberPlate, silverPlate, pressureTank)
     augment('thermal:item_filter_augment', tinPlate, tinPlate, itemFilter)
     augment('thermal:fluid_filter_augment', tinPlate, tinPlate, fluidFilter)
-    augment('thermal:machine_speed_augment', steelPlate, steelGear, fluxCoil)
-    augment('thermal:machine_efficiency_augment', steelGear, steelGear, fluxCoil)
-    augment('thermal:machine_output_augment', bronzeGear, steelGear, servo)
-    augment('thermal:machine_catalyst_augment', aluminiumGear, silverPlate, servo)
     augment('thermal:machine_cycle_augment', tinPlate, aluminiumGear, servo)
     augment('thermal:machine_null_augment', tinPlate, tinPlate, 'cactus')
-    augment('thermal:dynamo_output_augment', conductiveIronGear, conductiveIronGear, 'thermal:upgrade_augment_1')
-    augment('thermal:dynamo_fuel_augment', redstoneAlloyGear, redstoneAlloyGear, 'thermal:upgrade_augment_1')
     augment('thermal:dynamo_throttle_augment', redstoneAlloyGear, redstoneAlloyGear, fluxCoil)
-    augment('thermal:area_radius_augment', redstoneAlloyGear, aluminiumGear, 'gtceu:lv_field_generator')
 
     // ----------------------------------------------------------------------------------------------------------------------
 
@@ -1162,3 +1140,19 @@ yeet('thermal:lightning_charge')
 yeet('thermal:niter')
 yeet('thermal:niter_dust')
 yeet('thermal:niter_block')
+
+// augments
+yeet('thermal:rf_coil_augment')
+yeet('thermal:rf_coil_storage_augment')
+yeet('thermal:rf_coil_xfer_augment')
+yeet('thermal:fluid_tank_augment')
+yeet('thermal:machine_speed_augment')
+yeet('thermal:dynamo_output_augment')
+yeet('thermal:dynamo_fuel_augment')
+yeet('thermal:machine_efficiency_augment')
+yeet('thermal:machine_output_augment')
+yeet('thermal:machine_catalyst_augment')
+yeet('thermal:area_radius_augment')
+yeet('thermal:upgrade_augment_1')
+yeet('thermal:upgrade_augment_2')
+yeet('thermal:upgrade_augment_3')

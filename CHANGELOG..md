@@ -22,6 +22,7 @@
 - CraftPresence replaced by Simple Discord Rich Presence
 - Enabled harder recipes in GT configs
 - General gregification of recipes
+- Custom Thermal Augments added for tiers HV through LuV
 
 # 0.4.2
 - Turned EMI dev mode off
