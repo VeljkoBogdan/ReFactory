@@ -11,7 +11,7 @@
 		{
 			description: ["Punch some trees you know the drill."]
 			id: "14769C69DDD4F79E"
-			shape: "none"
+			shape: "square"
 			size: 1.5d
 			subtitle: "Every Modpack Ever"
 			tasks: [{

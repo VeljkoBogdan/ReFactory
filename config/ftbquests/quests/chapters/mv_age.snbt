@@ -721,6 +721,7 @@
 			dependencies: [
 				"42565F2AB5AC211C"
 				"7E7F3081B25D024D"
+				"5E2AB161E4BC3689"
 			]
 			description: [
 				"A very important resource for progressing though MV."
@@ -1216,8 +1217,8 @@
 				item: "botania:mana_pearl"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 6.0d
+			x: 6.75d
+			y: 3.75d
 		}
 		{
 			dependencies: ["06237D88B05BE55D"]
@@ -1511,6 +1512,39 @@
 			}]
 			x: 9.0d
 			y: -1.5d
+		}
+		{
+			dependencies: ["2E487C17AD4E07F0"]
+			id: "5E2AB161E4BC3689"
+			tasks: [{
+				id: "0C9F0799AD1E3D7B"
+				item: "kubejs:crystalized_primal_sap"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["04148AE4D69B5C4B"]
+			id: "2E487C17AD4E07F0"
+			tasks: [{
+				id: "1407864B864852EC"
+				item: "kubejs:primal_moss"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["518756FCEA4DA67E"]
+			id: "04148AE4D69B5C4B"
+			tasks: [{
+				id: "00931A7EB1D7F34B"
+				item: "undergarden:mogmoss"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 9.0d
 		}
 	]
 	title: "MV Age"

@@ -25,6 +25,7 @@
 				item: "minecraft:apple"
 				type: "item"
 			}]
+			shape: "square"
 			size: 2.0d
 			subtitle: "Welcome"
 			tasks: [{
@@ -194,6 +195,8 @@
 				"&eGear&r: Progression quest, meaning this quest is required to progress further into the pack."
 				""
 				"&eHexagon&r: Recommended quest, meaning this quest is not required for progression, but will make your life much easier (and consequently, your progression - faster)"
+				""
+				"&eSquare&r: The starting quest of a chapter."
 			]
 			id: "4DD4512630F43526"
 			shape: "gear"

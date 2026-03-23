@@ -166,6 +166,11 @@
 			y: 4.0d
 		}
 		{
+			dependencies: [
+				"5F5214A9D757632E"
+				"189B920AAB6456B4"
+			]
+			description: ["The Stirling Dynamo uses burnable fuels to generate power. It's one of the worst sources of energy."]
 			id: "61BF9B1182039243"
 			tasks: [{
 				id: "52BB36BD8808E755"
@@ -176,6 +181,11 @@
 			y: 5.5d
 		}
 		{
+			dependencies: [
+				"189B920AAB6456B4"
+				"5F5214A9D757632E"
+			]
+			description: ["The Compression Dynamo uses burnable liquid fuels to generate power, but due to it's limited range of fuels and difficult setup it's surpassed by other sources."]
 			id: "79B777D14814D4F6"
 			tasks: [{
 				id: "093B0DE88F6626F7"
@@ -186,53 +196,45 @@
 			y: 5.5d
 		}
 		{
+			dependencies: ["5F5214A9D757632E"]
+			description: ["The magmatic dynamo uses hot fuels to generate power. It's one of the safest sources."]
 			id: "23F3D62D27BB4D45"
 			tasks: [{
 				id: "34B5D6F4086E6C97"
 				item: "thermal:dynamo_magmatic"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 5.5d
-		}
-		{
-			id: "63E0B3B1853AC6CF"
-			tasks: [{
-				id: "26DBF92E48AF1BBB"
-				item: "thermal:dynamo_numismatic"
-				type: "item"
-			}]
 			x: 3.0d
 			y: 5.5d
 		}
 		{
+			dependencies: [
+				"114D15EF6DA771DD"
+				"5F5214A9D757632E"
+			]
+			description: ["The Lapidary dynamo uses gems to generate power."]
 			id: "0756D9D031BBA406"
 			tasks: [{
 				id: "40E380DE9A0D1F98"
 				item: "thermal:dynamo_lapidary"
 				type: "item"
 			}]
-			x: 4.0d
+			x: 2.0d
 			y: 5.5d
 		}
 		{
-			id: "175FBD992044903E"
-			tasks: [{
-				id: "4CEEFF6FE0D289EE"
-				item: "thermal:dynamo_disenchantment"
-				type: "item"
-			}]
-			x: 5.0d
-			y: 5.5d
-		}
-		{
+			dependencies: [
+				"0F53EFB5D7D2C329"
+				"5F5214A9D757632E"
+			]
+			description: ["The gourmand dynamo uses food as fuel."]
 			id: "259CE92E39267B45"
 			tasks: [{
 				id: "31488996532E685C"
 				item: "thermal:dynamo_gourmand"
 				type: "item"
 			}]
-			x: 6.0d
+			x: 4.0d
 			y: 5.5d
 		}
 		{
@@ -264,6 +266,198 @@
 			}]
 			x: -3.5d
 			y: -2.0d
+		}
+		{
+			description: ["You can generate RF power and then convert it to EU using Converters."]
+			id: "5F5214A9D757632E"
+			tasks: [{
+				id: "17B0DD294B92E926"
+				title: "RF Route"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["259CE92E39267B45"]
+			description: ["Peanut crates are best for this dynamo as they give the most power (64k RF) and are easy to get a lot of."]
+			icon: "thermal:peanut_block"
+			id: "2A1B3FA96DE661F3"
+			shape: "hexagon"
+			tasks: [{
+				id: "434DA97889FFCCCC"
+				title: "Peanuts"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["0756D9D031BBA406"]
+			description: ["The lapidary dynamo using diaamonds is arguably the best source of RF power if you've got a solid production of it."]
+			icon: "minecraft:diamond"
+			id: "2D97A02F02D0B53F"
+			shape: "hexagon"
+			tasks: [{
+				id: "672170F4A11BD067"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["23F3D62D27BB4D45"]
+			description: ["Lava is the best source if you've got a way to make it/get a lot of it."]
+			icon: "minecraft:lava_bucket"
+			id: "590269D259343EFF"
+			shape: "hexagon"
+			tasks: [{
+				id: "05A6FFCC2503665A"
+				title: "Lava"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["23F3D62D27BB4D45"]
+			description: ["Blazing Blood is a nice alternative, it produces more power than lava but requires a blaze farm."]
+			icon: "tconstruct:blazing_blood_bucket"
+			id: "627B4E67AC65DE00"
+			tasks: [{
+				id: "1AA8D3003F90A74D"
+				title: "Blazing Blood"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["79B777D14814D4F6"]
+			description: ["Tree oil is the best fuel to use, but requires a solid setup in order to scale correctly."]
+			icon: "thermal:tree_oil_bucket"
+			id: "2C171E4402AFB309"
+			tasks: [{
+				id: "140B992A6E9399B3"
+				title: "Tree oil"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"5F5214A9D757632E"
+				"6491CC503A0BD3A7"
+			]
+			description: ["Makes the dynamo fuel last longer (therefore generating more power per fuel)"]
+			id: "148FD5CC3B177727"
+			tasks: [{
+				id: "7763F6A22C6326A2"
+				item: "kubejs:hv_dynamo_fuel_augment"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"5F5214A9D757632E"
+				"669F52806D1D39F6"
+			]
+			id: "6C51FEDA4D88D381"
+			tasks: [{
+				id: "56B9D15AE33E9CB1"
+				item: "kubejs:ev_dynamo_fuel_augment"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"5F5214A9D757632E"
+				"2C3F51C6C0776EA6"
+			]
+			id: "5F97C3D14AF52667"
+			tasks: [{
+				id: "128D2E988974C279"
+				item: "kubejs:iv_dynamo_fuel_augment"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 8.5d
+		}
+		{
+			dependencies: [
+				"5F5214A9D757632E"
+				"0AD1A782FCC8AB25"
+			]
+			id: "13FA5C14A9735E78"
+			tasks: [{
+				id: "224179DE5437AAC2"
+				item: "kubejs:luv_dynamo_fuel_augment"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 9.5d
+		}
+		{
+			dependencies: [
+				"5F5214A9D757632E"
+				"6491CC503A0BD3A7"
+			]
+			description: ["Speeds up the machine, giving it more power output, but also more fuel consumption."]
+			id: "407E68263AF05CFC"
+			tasks: [{
+				id: "280CE94BFEEE27FB"
+				item: "kubejs:hv_upgrade_kit"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"5F5214A9D757632E"
+				"669F52806D1D39F6"
+			]
+			id: "3FF6FA22EBD4B129"
+			tasks: [{
+				id: "48A5B4B6398B7380"
+				item: "kubejs:ev_upgrade_kit"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"5F5214A9D757632E"
+				"2C3F51C6C0776EA6"
+			]
+			id: "0B5643DCEDEA0E00"
+			tasks: [{
+				id: "0741112510A209BA"
+				item: "kubejs:iv_upgrade_kit"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 8.5d
+		}
+		{
+			dependencies: [
+				"5F5214A9D757632E"
+				"0AD1A782FCC8AB25"
+			]
+			id: "49822A558D254789"
+			tasks: [{
+				id: "70D9DFBABD137F1D"
+				item: "kubejs:luv_upgrade_kit"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 9.5d
 		}
 	]
 	title: "Power"
