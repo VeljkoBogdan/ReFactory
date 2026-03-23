@@ -71,10 +71,10 @@ ServerEvents.recipes(event => {
             S: '#forge:tools/screwdrivers',
             H: '#forge:tools/hammers',
             W: '#forge:tools/wrenches',
-            F: 'gtceu:polytetrafluoroethylene_foil',
+            F: 'gtceu:polyethylene_foil',
             C: '#forge:tools/wire_cutters',
             G: 'hangglider:hang_glider',
-            P: 'gtceu:stainless_steel_screw'
+            P: 'gtceu:aluminium_screw'
         }
     )
 
