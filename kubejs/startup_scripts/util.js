@@ -1,6 +1,6 @@
-// priority 1000
+// priority 9999
 
-global.display_tier = {
+global.tier_display_name = {
     'ulv': 'ULV',
     'lv': 'LV',
     'mv': 'MV',

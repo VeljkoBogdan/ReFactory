@@ -1,3 +1,6 @@
+# 0.5.1
+- Fixed game crashing on startup
+
 # 0.5
 - Changed recipes of the weak and apprentice blood orbs to be more accessible in the early stages of EV
 - Added the Nuclear Reactor, Cooling Tower, and Aura Altar multiblocks
