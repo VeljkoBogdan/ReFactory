@@ -1083,6 +1083,24 @@ ServerEvents.recipes(event => {
         .itemOutputs('4x gtceu:resin_circuit_board')
         .duration(20*16)
         .EUt(GTValues.V[GTValues.ULV] / 2)
+
+    // Pyrolyse oven in late LV
+    event.remove({id: 'gtceu:shaped/pyrolyse_oven'})
+    event.shaped(
+        'gtceu:pyrolyse_oven',
+        [
+            'CMC',
+            'PHP',
+            'NNN'
+        ],
+        {
+            C: '#gtceu:circuits/lv',
+            M: 'gtceu:lv_electric_motor',
+            P: 'gtceu:lv_electric_piston',
+            H: 'gtceu:ulv_machine_casing',
+            N: 'gtceu:cupronickel_quadruple_wire'
+        }
+    )
 })
     
 // Remove vanilla tools
