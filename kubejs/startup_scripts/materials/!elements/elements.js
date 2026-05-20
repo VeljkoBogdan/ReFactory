@@ -68,6 +68,19 @@ GTCEuStartupEvents.registry('gtceu:element', event => {
         .symbol('Mh')
         .isIsotope(false)
 
+    event.create('adamantium')
+        .protons(145)
+        .neutrons(344)
+        .symbol('Ad')
+        .isIsotope(false)
+
+    event.create('orichalcum')
+        .protons(146)
+        .neutrons(348)
+        .symbol('Or')
+        .isIsotope(false)
+
+    // Other
     event.create('end_steel')
         .symbol('Fe(MgFeSi₂O₄)?₂')
 

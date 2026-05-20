@@ -706,6 +706,33 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
     event.create('bio_waste')
         .liquid()
         .color(0x0a4021)
+
+    event.create('adamantium')
+        .ingot()
+        .element('adamantium')
+        .color(0xc21345)
+        .secondaryColor(0x40383c)
+        .iconSet(GTMaterialIconSet.METALLIC)
+        .flags(
+            GTMaterialFlags.GENERATE_PLATE,
+            GTMaterialFlags.GENERATE_ROD,
+            GTMaterialFlags.NO_ORE_SMELTING,
+            GTMaterialFlags.NO_SMELTING
+        )
+        .blastTemp(5800, null, GTValues.VA[GTValues.LuV], 20*30)
+
+    event.create('adamantite')
+        .ore()
+        .components(
+            'adamantium',
+            '2x oxygen'
+        )
+        .color(0x99204e)
+        .flags(
+            GTMaterialFlags.NO_ORE_SMELTING,
+            GTMaterialFlags.NO_SMELTING,
+            GTMaterialFlags.DISABLE_DECOMPOSITION
+        )
 })
 
 GTCEuStartupEvents.materialModification(event => {

@@ -86,6 +86,12 @@
     "material.gtceu.undergarden_brine": "Undergarden Brine",
     "material.gtceu.brinal_concentrate": "Brinal Concentrate",
     "material.gtceu.bio_waste": "Bio Waste",
+    "material.gtceu.adamantium": "Adamantium",
+    "material.gtceu.adamantite": "Adamantite",
+    "material.gtceu.orichalcum": "Orichalcum",
+    "material.gtceu.arsenorichalcide": "Arsenorichalcide",
+    "material.gtceu.arsenic_oxide_vapor": "Arsenic Oxide Vapor",
+    "material.gtceu.orichalcum_iii_oxide": "Orichalcum III Oxide",
 
     "material.gtceu.infused_iron": "Infused Iron",
     "material.gtceu.sky_ingot": "Sky Ingot",
@@ -144,6 +150,8 @@
     "gtceu.jei.ore_vein.palladium_vein": "Palladium Vein",
     "gtceu.jei.ore_vein.netherite_vein": "Netherite Vein",
     "gtceu.jei.ore_vein.magnetite_vein": "Magnetite Vein",
+    "gtceu.jei.ore_vein.orichalcum_vein": "Orichalcum Vein",
+    "gtceu.jei.ore_vein.adamantite_vein": "Adamantite Vein",
 
     "gtceu.jei.bedrock_fluid.brine_deposit": "Brine Deposit",
 

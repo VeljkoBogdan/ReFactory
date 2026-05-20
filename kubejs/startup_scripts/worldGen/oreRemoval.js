@@ -19,6 +19,11 @@ WorldgenEvents.remove((event) => {
             "ad_astra:venus_coal_ore",
             "ad_astra:venus_diamond_ore",
             "ad_astra:venus_gold_ore",
+            "ad_astra:glacio_coal_ore",
+            "ad_astra:glacio_iron_ore",
+            "ad_astra:glacio_ice_shard_ore",
+            "ad_astra:glacio_lapis_ore",
+            "ad_astra:glacio_copper_ore",
             'undergarden:depthrock_coal_ore',
             'undergarden:shiverstone_coal_ore',
             'undergarden:depthrock_iron_ore',
@@ -50,7 +55,12 @@ WorldgenEvents.remove((event) => {
         "ad_astra:venus_calorite_ore",
         "ad_astra:venus_coal_ore",
         "ad_astra:venus_diamond_ore",
-        "ad_astra:venus_gold_ore"
+        "ad_astra:venus_gold_ore",
+        "ad_astra:glacio_coal_ore",
+        "ad_astra:glacio_iron_ore",
+        "ad_astra:glacio_ice_shard_ore",
+        "ad_astra:glacio_lapis_ore",
+        "ad_astra:glacio_copper_ore",
     ])
     
     event.removeFeatureById('underground_ores', [
@@ -68,6 +78,11 @@ WorldgenEvents.remove((event) => {
         "ad_astra:venus_coal_ore",
         "ad_astra:venus_diamond_ore",
         "ad_astra:venus_gold_ore",
+        "ad_astra:glacio_coal_ore",
+        "ad_astra:glacio_iron_ore",
+        "ad_astra:glacio_ice_shard_ore",
+        "ad_astra:glacio_lapis_ore",
+        "ad_astra:glacio_copper_ore",
         'undergarden:depthrock_coal_ore',
         'undergarden:shiverstone_coal_ore',
         'undergarden:depthrock_iron_ore',
