@@ -5,25 +5,19 @@
         {
             "count": 64,
             "ingredient": {
-                "tag": "ad_astra:iron_plates"
+                "tag": "kubejs:high_temperature_space_casing"
             }
         },
         {
-            "count": 32,
+            "count": 128,
             "ingredient": {
-                "tag": "ad_astra:steel_ingots"
+                "tag": "gtceu:titanium_plate"
             }
         },
         {
-            "count": 32,
+            "count": 128,
             "ingredient": {
-                "tag": "ad_astra:desh_ingots"
-            }
-        },
-        {
-            "count": 32,
-            "ingredient": {
-                "tag": "ad_astra:desh_plates"
+                "tag": "gtceu:tungsten_plate"
             }
         }
     ],

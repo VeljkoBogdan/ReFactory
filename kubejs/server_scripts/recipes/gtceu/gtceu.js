@@ -1101,6 +1101,28 @@ ServerEvents.recipes(event => {
             N: 'gtceu:cupronickel_quadruple_wire'
         }
     )
+
+    event.recipes.gtceu.mixer('tzm_alloy_dust')
+        .itemInputs(
+            'gtceu:titanium_dust',
+            'gtceu:zirconium_dust',
+            'gtceu:molybdenum_dust',
+            'gtceu:carbon_dust'
+        )
+        .itemOutputs('4x gtceu:tzm_alloy_dust')
+        .duration(20*16)
+        .EUt(GTValues.VA[GTValues.LuV])
+
+    event.recipes.gtceu.mixer('ceramic_coating')
+        .itemInputs(
+            '4x gtceu:silicon_dioxide_dust',
+            'gtceu:boron_carbide_dust',
+            'gtceu:cerium_dust',
+            'gtceu:carbon_dust'
+        )
+        .itemOutputs('4x gtceu:ceramic_radiative_coating_dust')
+        .duration(20*30)
+        .EUt(GTValues.VA[GTValues.LuV])
 })
     
 // Remove vanilla tools
