@@ -1,0 +1,15 @@
+{
+    "custom_clouds": true,
+    "custom_sky": true,
+    "custom_weather": false,
+    "dimension": "ad_astra:sun",
+    "has_fog": false,
+    "has_thick_fog": false,
+    "render_in_rain": true,
+    "sky_renderables": [],
+    "star_brightness": 0.6,
+    "star_colors": [],
+    "stars": 0,
+    "sunrise_angle": 0,
+    "sunrise_color": 14180147
+}

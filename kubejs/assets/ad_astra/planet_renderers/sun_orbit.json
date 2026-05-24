@@ -1,0 +1,34 @@
+{
+    "custom_clouds": true,
+    "custom_sky": true,
+    "custom_weather": false,
+    "dimension": "ad_astra:sun_orbit",
+    "has_fog": false,
+    "has_thick_fog": false,
+    "render_in_rain": true,
+    "sky_renderables": [
+        {
+            "back_light_color": -39,
+            "back_light_scale": 140.0,
+            "blend": false,
+            "global_rotation": [
+                0.0,
+                0.0,
+                60.0
+            ],
+            "local_rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "movement_type": "STATIC",
+            "scale": 110.0,
+            "texture": "ad_astra:textures/environment/sun.png"
+        }
+    ],
+    "star_brightness": 0.6,
+    "star_colors": [],
+    "stars": 0,
+    "sunrise_angle": 0,
+    "sunrise_color": 14180147
+}

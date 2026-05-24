@@ -1,0 +1,53 @@
+{
+    "id": "ad_astra:solar_system",
+    "sun_texture": "ad_astra:textures/environment/sun.png",
+    "sun_size": 18,
+    "sun_dimension": "ad_astra:the_sun",
+    "orbiting_objects": [
+        {
+            "dimension": "ad_astra:mercury",
+            "texture": "ad_astra:textures/environment/mercury.png",
+            "size": 8,
+            "distance": 5.8,
+            "time": 8.8,
+            "circle_color": "#24327b",
+            "extra_objects": []
+        },
+        {
+            "dimension": "ad_astra:venus",
+            "texture": "ad_astra:textures/environment/venus.png",
+            "size": 11,
+            "distance": 10,
+            "time": 22.5,
+            "circle_color": "#24327b",
+            "extra_objects": []
+        },
+        {
+            "dimension": "minecraft:overworld",
+            "texture": "ad_astra:textures/environment/earth.png",
+            "size": 12,
+            "distance": 16,
+            "time": 36.5,
+            "circle_color": "#24327b",
+            "extra_objects": [
+                {
+                    "dimension": "ad_astra:moon",
+                    "texture": "ad_astra:textures/environment/moon.png",
+                    "size": 6,
+                    "distance": 3,
+                    "time": 2.73,
+                    "circle_color": "#24327b"
+                }
+            ]
+        },
+        {
+            "dimension": "ad_astra:mars",
+            "texture": "ad_astra:textures/environment/mars.png",
+            "size": 10,
+            "distance": 22,
+            "time": 68.7,
+            "circle_color": "#24327b",
+            "extra_objects": []
+        }
+    ]
+}
