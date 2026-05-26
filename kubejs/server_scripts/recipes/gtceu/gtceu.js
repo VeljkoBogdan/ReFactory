@@ -1123,6 +1123,16 @@ ServerEvents.recipes(event => {
         .itemOutputs('4x gtceu:ceramic_radiative_coating_dust')
         .duration(20*30)
         .EUt(GTValues.VA[GTValues.LuV])
+
+    event.recipes.gtceu.assembler('hts_casing')
+        .itemInputs(
+            '4x gtceu:ceramic_radiative_coating_plate',
+            '2x gtceu:tungsten_plate',
+            'gtceu:tzm_frame'
+        )
+        .itemOutputs('2x gtceu:hts_casing')
+        .duration(20*2.5)
+        .EUt(GTValues.VA[GTValues.LV] * 0.5)
 })
     
 // Remove vanilla tools
