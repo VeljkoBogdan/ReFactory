@@ -3,7 +3,7 @@ ServerEvents.recipes(event => {
         .itemInputs('2x gtceu:arsenorichalcide_dust')
         .inputFluids(Fluid.of('gtceu:oxygen', 10000))
         .outputFluids(
-            Fluid.of("gtceu:iron_iii_oxide", 1000),
+            Fluid.of("gtceu:orichalcum_iii_oxide", 1000),
             Fluid.of('gtceu:sulfur_dioxide', 2000),
             Fluid.of('gtceu:arsenic_oxide_vapor', 500)
         )
