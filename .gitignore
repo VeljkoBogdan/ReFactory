@@ -4,3 +4,14 @@ __pycache__/
 *.py[cod]
 *.log
 .vscode/
+/minecraft/*
+!/minecraft/mods/
+/minecraft/mods/*.jar
+/minecraft/mods/**/*.jar
+!/minecraft/config/
+!/minecraft/defaultconfigs/
+!/minecraft/global_packs/
+!/minecraft/kubejs/
+!/minecraft/scripts/
+!/minecraft/groovy/
+!/minecraft/resourcepacks/
