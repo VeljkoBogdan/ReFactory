@@ -1,6 +1,10 @@
-﻿name = "Kubejs Blood Magic"
+name = "Kubejs Blood Magic"
 filename = "KubeJS Blood Magic-1.0.2-1.20.1.jar"
 side = "both"
 
 [update.curseforge]
 file-id = 5492965
+[download]
+url = "https://edge.forgecdn.net/files/5492/965/KubeJS%20Blood%20Magic-1.0.2-1.20.1.jar"
+hash = "ab3f2f856c043a8576955510cf725352063641f1fd642e6d4b6fbf59ed8d4b1b"
+hash-format = "sha256"

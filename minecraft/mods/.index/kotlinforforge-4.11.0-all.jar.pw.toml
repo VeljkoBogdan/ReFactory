@@ -1,6 +1,10 @@
-﻿name = "Kotlinforforge"
+name = "Kotlinforforge"
 filename = "kotlinforforge-4.11.0-all.jar"
 side = "both"
 
 [update.curseforge]
 file-id = 540261
+[download]
+url = "https://edge.forgecdn.net/files/540/261/kotlinforforge-4.11.0-all.jar"
+hash = "ef988f86d170af499d147ea8a5c34c99dbd6d8f4a5ad236a4b43818dc4470a10"
+hash-format = "sha256"

@@ -1,6 +1,10 @@
-﻿name = "Advancedae"
+name = "Advancedae"
 filename = "AdvancedAE-1.1.3-1.20.1.jar"
 side = "both"
 
 [update.curseforge]
 file-id = 6757852
+[download]
+url = "https://edge.forgecdn.net/files/6757/852/AdvancedAE-1.1.3-1.20.1.jar"
+hash = "06eec7fc9a88800b045e2f66114bf6fd00e3b6ab50793dffd66e98fc1020f3e0"
+hash-format = "sha256"

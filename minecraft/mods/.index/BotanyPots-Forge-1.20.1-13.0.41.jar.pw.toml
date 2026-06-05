@@ -1,6 +1,10 @@
-﻿name = "Botanypots1"
+name = "Botanypots1"
 filename = "BotanyPots-Forge-1.20.1-13.0.41.jar"
 side = "both"
 
 [update.curseforge]
 file-id = 6348581
+[download]
+url = "https://edge.forgecdn.net/files/6348/581/BotanyPots-Forge-1.20.1-13.0.41.jar"
+hash = "1d65b688af6cfc70bf0b4e8ccf3d9542e6d6fb0f82083c130c1b9673d402b0de"
+hash-format = "sha256"

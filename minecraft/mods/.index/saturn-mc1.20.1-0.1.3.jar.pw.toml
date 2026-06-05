@@ -1,6 +1,10 @@
-﻿name = "Saturn"
+name = "Saturn"
 filename = "saturn-mc1.20.1-0.1.3.jar"
 side = "both"
 
 [update.curseforge]
 file-id = 5093785
+[download]
+url = "https://edge.forgecdn.net/files/5093/785/saturn-mc1.20.1-0.1.3.jar"
+hash = "7e6dcc7c2b0db19ec2f965fac91a49e13dcc611f2d86f6bb56d7d68da901aaf8"
+hash-format = "sha256"

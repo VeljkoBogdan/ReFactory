@@ -1,6 +1,10 @@
-﻿name = "Botanytrees1"
+name = "Botanytrees1"
 filename = "BotanyTrees-Forge-1.20.1-9.0.18.jar"
 side = "both"
 
 [update.curseforge]
 file-id = 6002883
+[download]
+url = "https://edge.forgecdn.net/files/6002/883/BotanyTrees-Forge-1.20.1-9.0.18.jar"
+hash = "c546e93634d107e500c1f362cae616e1373ed68438840835f210daeb6327c99c"
+hash-format = "sha256"

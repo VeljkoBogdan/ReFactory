@@ -1,6 +1,10 @@
-﻿name = "Supermartijn642corelib"
+name = "Supermartijn642corelib"
 filename = "supermartijn642corelib-1.1.18-forge-mc1.20.1.jar"
 side = "both"
 
 [update.curseforge]
 file-id = 6034718
+[download]
+url = "https://edge.forgecdn.net/files/6034/718/supermartijn642corelib-1.1.18-forge-mc1.20.1.jar"
+hash = "b89c7703f909c75bff8981be7a3c7219138e01549666bd5cd5c47a1d6330489e"
+hash-format = "sha256"

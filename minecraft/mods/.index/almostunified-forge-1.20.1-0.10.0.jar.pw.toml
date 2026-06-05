@@ -1,6 +1,10 @@
-﻿name = "Almostunified1"
+name = "Almostunified1"
 filename = "almostunified-forge-1.20.1-0.10.0.jar"
 side = "both"
 
 [update.curseforge]
 file-id = 6552475
+[download]
+url = "https://edge.forgecdn.net/files/6552/475/almostunified-forge-1.20.1-0.10.0.jar"
+hash = "932fe802646cc9590bb5fdcf358e0ae33dec7f2657947134a38466fd2bd59815"
+hash-format = "sha256"

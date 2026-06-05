@@ -1,6 +1,10 @@
-﻿name = "Pigpen1"
+name = "Pigpen1"
 filename = "PigPen-Forge-1.20.1-15.0.2.jar"
 side = "both"
 
 [update.curseforge]
 file-id = 4714775
+[download]
+url = "https://edge.forgecdn.net/files/4714/775/PigPen-Forge-1.20.1-15.0.2.jar"
+hash = "f5840fc095db6e5f1dd02dd72ad59e2ae3e88384f56fec0978f693241d92e86c"
+hash-format = "sha256"

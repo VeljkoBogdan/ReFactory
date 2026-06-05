@@ -1,6 +1,10 @@
-﻿name = "Starlight"
+name = "Starlight"
 filename = "starlight-1.1.2+forge.1cda73c.jar"
 side = "both"
 
 [update.curseforge]
 file-id = 4631193
+[download]
+url = "https://edge.forgecdn.net/files/4631/193/starlight-1.1.2%2Bforge.1cda73c.jar"
+hash = "e90763c86d362c7cb427dbb70e89985c11a882fdd69ae7d04ac2e23a106eb500"
+hash-format = "sha256"

@@ -1,6 +1,10 @@
-﻿name = "Carryon1"
+name = "Carryon1"
 filename = "carryon-forge-1.20.1-2.1.2.7.jar"
 side = "both"
 
 [update.curseforge]
 file-id = 4882500
+[download]
+url = "https://edge.forgecdn.net/files/4882/500/carryon-forge-1.20.1-2.1.2.7.jar"
+hash = "d7470921fc5ff988788d43409083f62478aecc91f4b81d7e6b63c80c933d4613"
+hash-format = "sha256"

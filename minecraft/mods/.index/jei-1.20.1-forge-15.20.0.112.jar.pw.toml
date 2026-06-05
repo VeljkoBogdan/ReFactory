@@ -1,6 +1,10 @@
-﻿name = "Jei"
+name = "Jei"
 filename = "jei-1.20.1-forge-15.20.0.112.jar"
 side = "both"
 
 [update.curseforge]
 file-id = 6600311
+[download]
+url = "https://edge.forgecdn.net/files/6600/311/jei-1.20.1-forge-15.20.0.112.jar"
+hash = "2d3a86f503dbde51afa5142951525c37e227016ce8d9e7dfd10bbdd9233f0204"
+hash-format = "sha256"

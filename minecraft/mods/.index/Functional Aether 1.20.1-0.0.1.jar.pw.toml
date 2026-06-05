@@ -1,6 +1,10 @@
-﻿name = "Functional Aether 1"
+name = "Functional Aether 1"
 filename = "Functional Aether 1.20.1-0.0.1.jar"
 side = "both"
 
 [update.curseforge]
 file-id = 6133791
+[download]
+url = "https://edge.forgecdn.net/files/6133/791/Functional%20Aether%201.20.1-0.0.1.jar"
+hash = "cc08f0b1192ba893777987b6cd9725d3c4cf4f1a7ed5ebc70f395ef2f86e187a"
+hash-format = "sha256"

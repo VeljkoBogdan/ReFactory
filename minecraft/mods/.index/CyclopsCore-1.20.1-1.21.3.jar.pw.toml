@@ -1,6 +1,10 @@
-﻿name = "Cyclopscore"
+name = "Cyclopscore"
 filename = "CyclopsCore-1.20.1-1.21.3.jar"
 side = "both"
 
 [update.curseforge]
 file-id = 7210370
+[download]
+url = "https://edge.forgecdn.net/files/7210/370/CyclopsCore-1.20.1-1.21.3.jar"
+hash = "0f569419a1aa67e9ba330baed7acf1cd1446bc17c811f672e2297ea417cc7a89"
+hash-format = "sha256"

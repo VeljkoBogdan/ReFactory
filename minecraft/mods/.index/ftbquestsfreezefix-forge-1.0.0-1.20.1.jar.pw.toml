@@ -1,6 +1,10 @@
-﻿name = "Ftbquestsfreezefix1"
+name = "Ftbquestsfreezefix1"
 filename = "ftbquestsfreezefix-forge-1.0.0-1.20.1.jar"
 side = "both"
 
 [update.curseforge]
 file-id = 5777386
+[download]
+url = "https://edge.forgecdn.net/files/5777/386/ftbquestsfreezefix-forge-1.0.0-1.20.1.jar"
+hash = "55042027ecfc50c62c178fc8766d2043a6d83bc6aa9b2f0b30eed65c33fc8aca"
+hash-format = "sha256"

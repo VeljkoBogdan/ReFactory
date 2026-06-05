@@ -56,6 +56,6 @@ if __name__ == "__main__":
                     if arcname in seen:
                         continue
                     seen.add(arcname)
-                    zipf.write(file_path, os.path.join("minecraft", arcname))
+                    zipf.write(file_path, "minecraft/" + arcname.replace("\\", "/"))
 
     print(f"Modpack zipped successfully: {output_zip}")

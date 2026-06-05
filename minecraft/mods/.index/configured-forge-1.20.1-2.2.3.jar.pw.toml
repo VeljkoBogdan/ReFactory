@@ -1,6 +1,10 @@
-﻿name = "Configured1"
+name = "Configured1"
 filename = "configured-forge-1.20.1-2.2.3.jar"
 side = "both"
 
 [update.curseforge]
 file-id = 5180900
+[download]
+url = "https://edge.forgecdn.net/files/5180/900/configured-forge-1.20.1-2.2.3.jar"
+hash = "05dceddd57825f911135c929504ef320b75953d05e7dc918dba58a0574e5315f"
+hash-format = "sha256"

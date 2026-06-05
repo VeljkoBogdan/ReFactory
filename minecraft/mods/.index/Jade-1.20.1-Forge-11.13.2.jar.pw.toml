@@ -1,6 +1,10 @@
-﻿name = "Jade"
+name = "Jade"
 filename = "Jade-1.20.1-Forge-11.13.2.jar"
 side = "both"
 
 [update.curseforge]
 file-id = 6855440
+[download]
+url = "https://edge.forgecdn.net/files/6855/440/Jade-1.20.1-Forge-11.13.2.jar"
+hash = "31949971a7a8d5a5bc95ad9d400cbedfd2d65ffbfb3cea7c0b2fa3b47431a0a5"
+hash-format = "sha256"

@@ -1,6 +1,10 @@
-﻿name = "Auudio1"
+name = "Auudio1"
 filename = "auudio_forge_1.0.3_MC_1.19.3.jar"
 side = "both"
 
 [update.curseforge]
 file-id = 4203288
+[download]
+url = "https://edge.forgecdn.net/files/4203/288/auudio_forge_1.0.3_MC_1.19.3.jar"
+hash = "e4b77a49a41d8ec4015c5124b9b26ee89608dabf13829730f268c5be990dfe27"
+hash-format = "sha256"

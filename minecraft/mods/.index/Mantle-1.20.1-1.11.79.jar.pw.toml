@@ -1,6 +1,10 @@
-﻿name = "Mantle"
+name = "Mantle"
 filename = "Mantle-1.20.1-1.11.79.jar"
 side = "both"
 
 [update.curseforge]
 file-id = 6819217
+[download]
+url = "https://edge.forgecdn.net/files/6819/217/Mantle-1.20.1-1.11.79.jar"
+hash = "5a81a7b9626e179610a14575b2f58e37a8b694768ffc8b9c63994dfb952bddc9"
+hash-format = "sha256"

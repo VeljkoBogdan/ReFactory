@@ -1,6 +1,10 @@
-﻿name = "Buildinggadgets2"
+name = "Buildinggadgets2"
 filename = "buildinggadgets2-1.0.8.jar"
 side = "both"
 
 [update.curseforge]
 file-id = 6850495
+[download]
+url = "https://edge.forgecdn.net/files/6850/495/buildinggadgets2-1.0.8.jar"
+hash = "59efb399a4acdb69a01a970b1f1e3c5584495aabc726ff40857ab4aed9372c83"
+hash-format = "sha256"

@@ -1,6 +1,10 @@
-﻿name = "Justzoom2"
+name = "Justzoom2"
 filename = "justzoom_forge_2.1.1_MC_1.20.1.jar"
 side = "both"
 
 [update.curseforge]
 file-id = 6290336
+[download]
+url = "https://edge.forgecdn.net/files/6290/336/justzoom_forge_2.1.1_MC_1.20.1.jar"
+hash = "778c75c388a8dffed5bfad25ab9a420dfd6c4ec3bdc1699ec6c2bab2336b5040"
+hash-format = "sha256"

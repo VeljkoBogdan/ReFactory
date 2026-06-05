@@ -1,6 +1,10 @@
-﻿name = "Thermal Cultivation"
+name = "Thermal Cultivation"
 filename = "thermal_cultivation-1.20.1-11.0.1.24.jar"
 side = "both"
 
 [update.curseforge]
 file-id = 5372746
+[download]
+url = "https://edge.forgecdn.net/files/5372/746/thermal_cultivation-1.20.1-11.0.1.24.jar"
+hash = "6d8fb94fab048954144a81d14b95a5917ac5bfc5d277695dc4dda3bcecd6c03a"
+hash-format = "sha256"

@@ -1,6 +1,10 @@
-﻿name = "Infernalmobs"
+name = "Infernalmobs"
 filename = "infernalmobs-1.20.1.10.jar"
 side = "both"
 
 [update.curseforge]
 file-id = 6453542
+[download]
+url = "https://edge.forgecdn.net/files/6453/542/infernalmobs-1.20.1.10.jar"
+hash = "f3122c5810f2f505019ca45e25e9f07054ea9eea5acd6d472698bb2677e0740a"
+hash-format = "sha256"

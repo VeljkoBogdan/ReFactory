@@ -1,6 +1,10 @@
-﻿name = "Balm1"
+name = "Balm1"
 filename = "balm-forge-1.20.1-7.3.34-all.jar"
 side = "both"
 
 [update.curseforge]
 file-id = 6841886
+[download]
+url = "https://edge.forgecdn.net/files/6841/886/balm-forge-1.20.1-7.3.34-all.jar"
+hash = "58b36a6d2ba09e82a3ef232ceb330dae617b04310719e127cffca3b5ea75c919"
+hash-format = "sha256"

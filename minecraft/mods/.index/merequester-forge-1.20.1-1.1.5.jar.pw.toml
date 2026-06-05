@@ -1,6 +1,10 @@
-﻿name = "Merequester1"
+name = "Merequester1"
 filename = "merequester-forge-1.20.1-1.1.5.jar"
 side = "both"
 
 [update.curseforge]
 file-id = 5689932
+[download]
+url = "https://edge.forgecdn.net/files/5689/932/merequester-forge-1.20.1-1.1.5.jar"
+hash = "119c23431ff06b1ebe57606daff460b7c74f74c8564a26f1cbac4cd3521968cd"
+hash-format = "sha256"

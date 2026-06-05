@@ -1,6 +1,10 @@
-﻿name = "Thermal Integration"
+name = "Thermal Integration"
 filename = "thermal_integration-1.20.1-11.0.1.27.jar"
 side = "both"
 
 [update.curseforge]
 file-id = 5374210
+[download]
+url = "https://edge.forgecdn.net/files/5374/210/thermal_integration-1.20.1-11.0.1.27.jar"
+hash = "c0b8004499a5c4f8cb42abad96c6be1f8ee49af6f756a72cef7c828199c570d4"
+hash-format = "sha256"

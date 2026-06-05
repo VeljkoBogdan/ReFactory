@@ -1,6 +1,10 @@
-﻿name = "Kubejs Enderio1"
+name = "Kubejs Enderio1"
 filename = "kubejs_enderio-forge-1.20.1-0.6.0.jar"
 side = "both"
 
 [update.curseforge]
 file-id = 5768736
+[download]
+url = "https://edge.forgecdn.net/files/5768/736/kubejs_enderio-forge-1.20.1-0.6.0.jar"
+hash = "5456ef3a5fd08d61e3f53935584de4900dc928f0f8993d05e2e1c3a74ca81382"
+hash-format = "sha256"

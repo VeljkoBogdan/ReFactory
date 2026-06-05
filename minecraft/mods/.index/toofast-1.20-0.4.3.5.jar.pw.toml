@@ -1,6 +1,10 @@
-﻿name = "Toofast"
+name = "Toofast"
 filename = "toofast-1.20-0.4.3.5.jar"
 side = "both"
 
 [update.curseforge]
 file-id = 4627738
+[download]
+url = "https://edge.forgecdn.net/files/4627/738/toofast-1.20-0.4.3.5.jar"
+hash = "5dc0fc5687c43ad9cec522ebb6eda9d9c84edc5b0c401721e91450b1ef57de5a"
+hash-format = "sha256"

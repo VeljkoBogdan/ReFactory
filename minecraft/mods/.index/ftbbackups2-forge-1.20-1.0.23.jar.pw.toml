@@ -1,6 +1,10 @@
-﻿name = "Ftbbackups21"
+name = "Ftbbackups21"
 filename = "ftbbackups2-forge-1.20-1.0.23.jar"
 side = "both"
 
 [update.curseforge]
 file-id = 4834403
+[download]
+url = "https://edge.forgecdn.net/files/4834/403/ftbbackups2-forge-1.20-1.0.23.jar"
+hash = "19cea280a56e533b9669d4f866aef38ebe54f6d8627efe6798016e17b6b4afda"
+hash-format = "sha256"

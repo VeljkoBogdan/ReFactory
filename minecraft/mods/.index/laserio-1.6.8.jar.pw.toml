@@ -1,6 +1,10 @@
-﻿name = "Laserio"
+name = "Laserio"
 filename = "laserio-1.6.8.jar"
 side = "both"
 
 [update.curseforge]
 file-id = 5074767
+[download]
+url = "https://edge.forgecdn.net/files/5074/767/laserio-1.6.8.jar"
+hash = "f07fc6cb7f2aa28197e87ffc3a35062390259ad803d8996b08b13473c0af6790"
+hash-format = "sha256"

@@ -1,6 +1,10 @@
-﻿name = "Functionalstorage"
+name = "Functionalstorage"
 filename = "functionalstorage-1.20.1-1.2.13.jar"
 side = "both"
 
 [update.curseforge]
 file-id = 6702553
+[download]
+url = "https://edge.forgecdn.net/files/6702/553/functionalstorage-1.20.1-1.2.13.jar"
+hash = "0d458bcd5c23e53b5479acdb2e9ac2f762f2a1f3b14951bf3cc4cafeabefb687"
+hash-format = "sha256"

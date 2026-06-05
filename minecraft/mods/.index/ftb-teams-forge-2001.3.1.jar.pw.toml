@@ -1,6 +1,10 @@
-﻿name = "Ftb Teams2001"
+name = "Ftb Teams2001"
 filename = "ftb-teams-forge-2001.3.1.jar"
 side = "both"
 
 [update.curseforge]
 file-id = 6130786
+[download]
+url = "https://edge.forgecdn.net/files/6130/786/ftb-teams-forge-2001.3.1.jar"
+hash = "d6e3cf8d0bdae7f848764428c613ae2528aecf9d275b4169eb8e15da87b41863"
+hash-format = "sha256"

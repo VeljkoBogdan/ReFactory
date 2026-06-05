@@ -1,6 +1,10 @@
-﻿name = "Netherportalfix1"
+name = "Netherportalfix1"
 filename = "netherportalfix-forge-1.20-13.0.1.jar"
 side = "both"
 
 [update.curseforge]
 file-id = 4939735
+[download]
+url = "https://edge.forgecdn.net/files/4939/735/netherportalfix-forge-1.20-13.0.1.jar"
+hash = "06f1354664aee53d4c32c83f76ed94bb72426a75b7e0eb8e415abfba3634cf4e"
+hash-format = "sha256"

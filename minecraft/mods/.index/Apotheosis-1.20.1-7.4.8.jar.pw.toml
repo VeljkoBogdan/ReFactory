@@ -1,6 +1,10 @@
-﻿name = "Apotheosis"
+name = "Apotheosis"
 filename = "Apotheosis-1.20.1-7.4.8.jar"
 side = "both"
 
 [update.curseforge]
 file-id = 6461960
+[download]
+url = "https://edge.forgecdn.net/files/6461/960/Apotheosis-1.20.1-7.4.8.jar"
+hash = "5ed8c17cf62837bb649d1054e3e4fe93c4d9bdec98fe9f332e2637a260da30da"
+hash-format = "sha256"

@@ -1,6 +1,10 @@
-﻿name = "Defaultworldtype"
+name = "Defaultworldtype"
 filename = "DefaultWorldType-1.20.1-4.0.4.jar"
 side = "both"
 
 [update.curseforge]
 file-id = 4796884
+[download]
+url = "https://edge.forgecdn.net/files/4796/884/DefaultWorldType-1.20.1-4.0.4.jar"
+hash = "f4ee08e5c052ff55e1f7387ae5104593b86fba6a96331e11f93a2ba382d2bfa7"
+hash-format = "sha256"

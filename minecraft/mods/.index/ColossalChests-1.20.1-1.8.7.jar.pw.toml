@@ -1,6 +1,10 @@
-﻿name = "Colossalchests"
+name = "Colossalchests"
 filename = "ColossalChests-1.20.1-1.8.7.jar"
 side = "both"
 
 [update.curseforge]
 file-id = 7098765
+[download]
+url = "https://edge.forgecdn.net/files/7098/765/ColossalChests-1.20.1-1.8.7.jar"
+hash = "92274d38de9598d6d26b87ef2649dbfcec4582b690a16ee0ae097b5b0aa61ef4"
+hash-format = "sha256"

@@ -1,6 +1,10 @@
-﻿name = "Cloth Config"
+name = "Cloth Config"
 filename = "cloth-config-11.1.136-forge.jar"
 side = "both"
 
 [update.curseforge]
 file-id = 5729105
+[download]
+url = "https://edge.forgecdn.net/files/5729/105/cloth-config-11.1.136-forge.jar"
+hash = "1e895e85cf5b1e1905ef3178ec155c8badfe22a1577b92c09143a5aa1f4ce0f2"
+hash-format = "sha256"

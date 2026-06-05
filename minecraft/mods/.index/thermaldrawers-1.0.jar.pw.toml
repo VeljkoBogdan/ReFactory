@@ -1,6 +1,10 @@
-﻿name = "Thermaldrawers"
+name = "Thermaldrawers"
 filename = "thermaldrawers-1.0.jar"
 side = "both"
 
 [update.curseforge]
 file-id = 5323943
+[download]
+url = "https://edge.forgecdn.net/files/5323/943/thermaldrawers-1.0.jar"
+hash = "42ec5fe75429d7b6dd90e710cbf9ef762528c5f27417ea260e552791b2e98455"
+hash-format = "sha256"

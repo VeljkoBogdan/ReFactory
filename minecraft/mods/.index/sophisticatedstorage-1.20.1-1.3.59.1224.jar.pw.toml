@@ -1,6 +1,10 @@
-﻿name = "Sophisticatedstorage"
+name = "Sophisticatedstorage"
 filename = "sophisticatedstorage-1.20.1-1.3.59.1224.jar"
 side = "both"
 
 [update.curseforge]
 file-id = 686926
+[download]
+url = "https://edge.forgecdn.net/files/686/926/sophisticatedstorage-1.20.1-1.3.59.1224.jar"
+hash = "1bf19a8fe3477210f3bad254847f0d3267f8a173870902c92ae401057035c49d"
+hash-format = "sha256"

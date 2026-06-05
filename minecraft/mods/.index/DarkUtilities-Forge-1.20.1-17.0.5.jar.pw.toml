@@ -1,6 +1,10 @@
-﻿name = "Darkutilities1"
+name = "Darkutilities1"
 filename = "DarkUtilities-Forge-1.20.1-17.0.5.jar"
 side = "both"
 
 [update.curseforge]
 file-id = 5754567
+[download]
+url = "https://edge.forgecdn.net/files/5754/567/DarkUtilities-Forge-1.20.1-17.0.5.jar"
+hash = "d430dfa2f0f250ec3d64ff65f4a8d0fcade1973fee717337dde515e514f7ae4b"
+hash-format = "sha256"

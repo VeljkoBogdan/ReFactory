@@ -1,6 +1,10 @@
-﻿name = "Fastfurnace"
+name = "Fastfurnace"
 filename = "FastFurnace-1.20.1-8.0.2.jar"
 side = "both"
 
 [update.curseforge]
 file-id = 518198
+[download]
+url = "https://edge.forgecdn.net/files/518/198/FastFurnace-1.20.1-8.0.2.jar"
+hash = "970c11c090e7a364e2e006aabb5e573f79901e710e97195334ee5802317776e8"
+hash-format = "sha256"

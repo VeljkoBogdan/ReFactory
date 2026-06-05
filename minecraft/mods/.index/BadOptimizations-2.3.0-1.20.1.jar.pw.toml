@@ -1,6 +1,10 @@
-﻿name = "Badoptimizations"
+name = "Badoptimizations"
 filename = "BadOptimizations-2.3.0-1.20.1.jar"
 side = "both"
 
 [update.curseforge]
 file-id = 6742958
+[download]
+url = "https://edge.forgecdn.net/files/6742/958/BadOptimizations-2.3.0-1.20.1.jar"
+hash = "9e067ae01b01e6ce8d5869b5be0cbaea500bd27c3652b4b89529d2e34e6be20f"
+hash-format = "sha256"

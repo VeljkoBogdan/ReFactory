@@ -16,8 +16,6 @@ minecraft/logs
 minecraft/debug
 minecraft/Debug
 minecraft/crash-reports
-minecraft/scripts
-minecraft/groovy
 minecraft/journeymap
 minecraft/xaero
 minecraft/voxelmap

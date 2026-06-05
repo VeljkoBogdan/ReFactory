@@ -1,6 +1,10 @@
-﻿name = "Simplediscordrichpresence4"
+name = "Simplediscordrichpresence4"
 filename = "SimpleDiscordRichPresence-forge-4.0.3-build.40+mc1.20.1.jar"
 side = "both"
 
 [update.curseforge]
 file-id = 4964550
+[download]
+url = "https://edge.forgecdn.net/files/4964/550/SimpleDiscordRichPresence-forge-4.0.3-build.40%2Bmc1.20.1.jar"
+hash = "15dd4d346be150939ffe35d534a9eabfe3078f1499dc2d2d81154462f725e9eb"
+hash-format = "sha256"

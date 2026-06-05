@@ -1,6 +1,10 @@
-﻿name = "Squatgrow5"
+name = "Squatgrow5"
 filename = "squatgrow-forge-5.3.0+mc1.20.1.jar"
 side = "both"
 
 [update.curseforge]
 file-id = 5150173
+[download]
+url = "https://edge.forgecdn.net/files/5150/173/squatgrow-forge-5.3.0%2Bmc1.20.1.jar"
+hash = "a67367e176e01ab0f9e2ddf1943ca4bdcb7a274fd852d44822037167852871a9"
+hash-format = "sha256"

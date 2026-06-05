@@ -1,6 +1,10 @@
-﻿name = "Enderstorage"
+name = "Enderstorage"
 filename = "EnderStorage-1.20.1-2.11.0.188-universal.jar"
 side = "both"
 
 [update.curseforge]
 file-id = 5292573
+[download]
+url = "https://edge.forgecdn.net/files/5292/573/EnderStorage-1.20.1-2.11.0.188-universal.jar"
+hash = "cb6d1c4594f61e89fab2b9e16daffecfab8bab25936684a2d75f2f0fe6eb028f"
+hash-format = "sha256"

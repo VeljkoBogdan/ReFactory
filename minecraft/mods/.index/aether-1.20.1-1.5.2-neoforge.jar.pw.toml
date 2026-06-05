@@ -1,6 +1,10 @@
-﻿name = "Aether"
+name = "Aether"
 filename = "aether-1.20.1-1.5.2-neoforge.jar"
 side = "both"
 
 [update.curseforge]
 file-id = 6134920
+[download]
+url = "https://edge.forgecdn.net/files/6134/920/aether-1.20.1-1.5.2-neoforge.jar"
+hash = "5cb64ab1f27e78e8338fe67f9c766578904aad9bc1f8bcc90f306ea52aea3fc5"
+hash-format = "sha256"

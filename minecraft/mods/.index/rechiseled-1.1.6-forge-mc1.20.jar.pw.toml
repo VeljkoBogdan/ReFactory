@@ -1,6 +1,10 @@
-﻿name = "Rechiseled"
+name = "Rechiseled"
 filename = "rechiseled-1.1.6-forge-mc1.20.jar"
 side = "both"
 
 [update.curseforge]
 file-id = 5286306
+[download]
+url = "https://edge.forgecdn.net/files/5286/306/rechiseled-1.1.6-forge-mc1.20.jar"
+hash = "5ef5676653a1f15af86841d55f1963e1fc9066cbb87e59d82569467f086425eb"
+hash-format = "sha256"

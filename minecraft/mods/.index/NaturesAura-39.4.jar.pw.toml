@@ -1,6 +1,10 @@
-﻿name = "Naturesaura"
+name = "Naturesaura"
 filename = "NaturesAura-39.4.jar"
 side = "both"
 
 [update.curseforge]
 file-id = 4963590
+[download]
+url = "https://edge.forgecdn.net/files/4963/590/NaturesAura-39.4.jar"
+hash = "df1c4dffce5d02695031c674e6fd7b34b8a67cece88400c48e942bb27b8fff6d"
+hash-format = "sha256"

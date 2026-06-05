@@ -1,6 +1,10 @@
-﻿name = "Unilib"
+name = "Unilib"
 filename = "UniLib-1.1.1+1.20.1-forge.jar"
 side = "both"
 
 [update.curseforge]
 file-id = 6860397
+[download]
+url = "https://edge.forgecdn.net/files/6860/397/UniLib-1.1.1%2B1.20.1-forge.jar"
+hash = "bea74a2129fc24c927325166dc4ec77cd5046305a4509ab1e82f87f480307b05"
+hash-format = "sha256"

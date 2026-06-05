@@ -1,6 +1,10 @@
-﻿name = "Betterf3"
+name = "Betterf3"
 filename = "BetterF3-7.0.2-Forge-1.20.1.jar"
 side = "both"
 
 [update.curseforge]
 file-id = 4863626
+[download]
+url = "https://edge.forgecdn.net/files/4863/626/BetterF3-7.0.2-Forge-1.20.1.jar"
+hash = "e46ced73bdf78a59573a7188cfbe7256353f21a67eef752dc39b5e5816fc61c0"
+hash-format = "sha256"

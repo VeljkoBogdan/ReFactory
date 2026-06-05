@@ -1,6 +1,10 @@
-﻿name = "Bloodmagic"
+name = "Bloodmagic"
 filename = "bloodmagic-1.20.1-3.3.3-45.jar"
 side = "both"
 
 [update.curseforge]
 file-id = 5290993
+[download]
+url = "https://edge.forgecdn.net/files/5290/993/bloodmagic-1.20.1-3.3.3-45.jar"
+hash = "87e2cf59e61875360d5a69417c510a631404bf0a32338f5e6ad820bcb9c86f75"
+hash-format = "sha256"

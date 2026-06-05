@@ -1,6 +1,10 @@
-﻿name = "Snad 1.20.1 (Neo)Forge"
+name = "Snad 1.20.1 (Neo)Forge"
 filename = "Snad-1.20.1-(Neo)Forge-3.0.1.jar"
 side = "both"
 
 [update.curseforge]
 file-id = 5827323
+[download]
+url = "https://edge.forgecdn.net/files/5827/323/Snad-1.20.1-%28Neo%29Forge-3.0.1.jar"
+hash = "12e6caf6d05567bc93730443ba8bde533ece2ac7793e5b1569ccccd7c191a37f"
+hash-format = "sha256"

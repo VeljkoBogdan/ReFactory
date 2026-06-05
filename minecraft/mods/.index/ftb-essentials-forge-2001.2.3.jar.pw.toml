@@ -1,6 +1,10 @@
-﻿name = "Ftb Essentials2001"
+name = "Ftb Essentials2001"
 filename = "ftb-essentials-forge-2001.2.3.jar"
 side = "both"
 
 [update.curseforge]
 file-id = 6555287
+[download]
+url = "https://edge.forgecdn.net/files/6555/287/ftb-essentials-forge-2001.2.3.jar"
+hash = "dcbec178981988fc67e8838e8eba948325988221941daa6e5dd65441974b39f0"
+hash-format = "sha256"

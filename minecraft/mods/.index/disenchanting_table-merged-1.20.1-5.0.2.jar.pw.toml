@@ -1,6 +1,10 @@
-﻿name = "Disenchanting Table Merged"
+name = "Disenchanting Table Merged"
 filename = "disenchanting_table-merged-1.20.1-5.0.2.jar"
 side = "both"
 
 [update.curseforge]
 file-id = 6581597
+[download]
+url = "https://edge.forgecdn.net/files/6581/597/disenchanting_table-merged-1.20.1-5.0.2.jar"
+hash = "1dc5356170f50e4f255b6b993b92f0364f98c12079a83590b7488a44e232320a"
+hash-format = "sha256"

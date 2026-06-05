@@ -1,6 +1,10 @@
-﻿name = "Kubejsbotanypots"
+name = "Kubejsbotanypots"
 filename = "kubejsbotanypots-1.2.2.jar"
 side = "both"
 
 [update.curseforge]
 file-id = 4920458
+[download]
+url = "https://edge.forgecdn.net/files/4920/458/kubejsbotanypots-1.2.2.jar"
+hash = "acffdd945e7d49df6572180e70f4f6ad724874a43989e6794de9ba15cdb374ad"
+hash-format = "sha256"

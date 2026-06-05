@@ -1,6 +1,10 @@
-﻿name = "Redstoneclock"
+name = "Redstoneclock"
 filename = "redstoneclock-1.0.0.jar"
 side = "both"
 
 [update.curseforge]
 file-id = 538725
+[download]
+url = "https://edge.forgecdn.net/files/538/725/redstoneclock-1.0.0.jar"
+hash = "7fcec630a1d9d1fa8723c29a8be343d7a370caffad2c122b60ea0e32cfb8a1d9"
+hash-format = "sha256"

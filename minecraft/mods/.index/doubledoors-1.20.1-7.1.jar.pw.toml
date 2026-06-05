@@ -1,6 +1,10 @@
-﻿name = "Doubledoors"
+name = "Doubledoors"
 filename = "doubledoors-1.20.1-7.1.jar"
 side = "both"
 
 [update.curseforge]
 file-id = 672532
+[download]
+url = "https://edge.forgecdn.net/files/672/532/doubledoors-1.20.1-7.1.jar"
+hash = "19277090b1f09717dcf044b6595dfbb63320ecd50b13f0318f91d889a57eb7dd"
+hash-format = "sha256"
