@@ -1,0 +1,6 @@
+﻿name = "Darkness1"
+filename = "darkness-forge-1.20.1-2.0.103-fork.jar"
+side = "both"
+
+[update.curseforge]
+file-id = 5080314

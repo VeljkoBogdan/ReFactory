@@ -1,0 +1,6 @@
+﻿name = "Enderio"
+filename = "EnderIO-1.20.1-6.2.12-beta-all.jar"
+side = "both"
+
+[update.curseforge]
+file-id = 6761673

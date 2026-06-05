@@ -1,0 +1,6 @@
+﻿name = "Squatgrow5"
+filename = "squatgrow-forge-5.3.0+mc1.20.1.jar"
+side = "both"
+
+[update.curseforge]
+file-id = 5150173

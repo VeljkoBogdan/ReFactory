@@ -1,0 +1,6 @@
+﻿name = "Cloth Config"
+filename = "cloth-config-11.1.136-forge.jar"
+side = "both"
+
+[update.curseforge]
+file-id = 5729105

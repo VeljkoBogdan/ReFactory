@@ -1,0 +1,6 @@
+﻿name = "Carryon1"
+filename = "carryon-forge-1.20.1-2.1.2.7.jar"
+side = "both"
+
+[update.curseforge]
+file-id = 4882500

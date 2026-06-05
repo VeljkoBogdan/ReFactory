@@ -1,0 +1,6 @@
+﻿name = "Entityculling1"
+filename = "entityculling-forge-1.8.2-mc1.20.1.jar"
+side = "both"
+
+[update.modrinth]
+url = "https://cdn.modrinth.com/data/NNAgCjsB/versions/zinofwiX/entityculling-forge-1.8.2-mc1.20.1.jar"

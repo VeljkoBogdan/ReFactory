@@ -1,0 +1,6 @@
+﻿name = "Oculus"
+filename = "oculus-mc1.20.1-1.8.0.jar"
+side = "both"
+
+[update.curseforge]
+file-id = 6020952

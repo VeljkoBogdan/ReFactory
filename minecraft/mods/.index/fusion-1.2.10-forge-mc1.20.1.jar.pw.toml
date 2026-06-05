@@ -1,0 +1,6 @@
+﻿name = "Fusion"
+filename = "fusion-1.2.10-forge-mc1.20.1.jar"
+side = "both"
+
+[update.curseforge]
+file-id = 6826826

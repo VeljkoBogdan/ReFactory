@@ -1,0 +1,6 @@
+﻿name = "Badpackets0"
+filename = "badpackets-forge-0.4.3.jar"
+side = "both"
+
+[update.curseforge]
+file-id = 4784395

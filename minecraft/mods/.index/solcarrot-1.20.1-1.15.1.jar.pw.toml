@@ -1,0 +1,6 @@
+﻿name = "Solcarrot"
+filename = "solcarrot-1.20.1-1.15.1.jar"
+side = "both"
+
+[update.curseforge]
+file-id = 4888575

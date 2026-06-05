@@ -1,0 +1,6 @@
+﻿name = "Balm1"
+filename = "balm-forge-1.20.1-7.3.34-all.jar"
+side = "both"
+
+[update.curseforge]
+file-id = 6841886

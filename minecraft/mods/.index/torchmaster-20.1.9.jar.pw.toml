@@ -1,0 +1,6 @@
+﻿name = "Torchmaster"
+filename = "torchmaster-20.1.9.jar"
+side = "both"
+
+[update.curseforge]
+file-id = 5849456

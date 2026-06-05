@@ -1,0 +1,6 @@
+﻿name = "Kubejs Enderio1"
+filename = "kubejs_enderio-forge-1.20.1-0.6.0.jar"
+side = "both"
+
+[update.curseforge]
+file-id = 5768736

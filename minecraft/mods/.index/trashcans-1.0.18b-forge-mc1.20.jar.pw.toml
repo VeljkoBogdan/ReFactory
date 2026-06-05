@@ -1,0 +1,6 @@
+﻿name = "Trashcans"
+filename = "trashcans-1.0.18b-forge-mc1.20.jar"
+side = "both"
+
+[update.curseforge]
+file-id = 4712179

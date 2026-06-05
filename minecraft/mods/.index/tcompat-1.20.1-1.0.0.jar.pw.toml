@@ -1,0 +1,6 @@
+﻿name = "Tcompat"
+filename = "tcompat-1.20.1-1.0.0.jar"
+side = "both"
+
+[update.modrinth]
+url = "https://cdn.modrinth.com/data/7dqAlUms/versions/iM08rGpL/tcompat-1.20.1-1.0.0.jar"

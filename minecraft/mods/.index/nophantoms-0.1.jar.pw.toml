@@ -1,0 +1,6 @@
+﻿name = "Nophantoms"
+filename = "nophantoms-0.1.jar"
+side = "both"
+
+[update.curseforge]
+file-id = 5063173

@@ -1,0 +1,6 @@
+﻿name = "Monolib1"
+filename = "monolib-forge-1.20.1-2.1.0.jar"
+side = "both"
+
+[update.curseforge]
+file-id = 654457

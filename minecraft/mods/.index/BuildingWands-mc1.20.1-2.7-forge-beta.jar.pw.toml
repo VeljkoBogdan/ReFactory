@@ -1,0 +1,6 @@
+﻿name = "Buildingwands"
+filename = "BuildingWands-mc1.20.1-2.7-forge-beta.jar"
+side = "both"
+
+[update.curseforge]
+file-id = 5654676

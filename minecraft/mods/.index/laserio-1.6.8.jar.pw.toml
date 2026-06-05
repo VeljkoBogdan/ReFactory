@@ -1,0 +1,6 @@
+﻿name = "Laserio"
+filename = "laserio-1.6.8.jar"
+side = "both"
+
+[update.curseforge]
+file-id = 5074767

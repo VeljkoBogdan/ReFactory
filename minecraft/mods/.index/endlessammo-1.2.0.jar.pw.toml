@@ -1,0 +1,6 @@
+﻿name = "Endlessammo"
+filename = "endlessammo-1.2.0.jar"
+side = "both"
+
+[update.curseforge]
+file-id = 66232

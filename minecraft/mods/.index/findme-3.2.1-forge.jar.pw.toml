@@ -1,0 +1,6 @@
+﻿name = "Findme"
+filename = "findme-3.2.1-forge.jar"
+side = "both"
+
+[update.curseforge]
+file-id = 5074609

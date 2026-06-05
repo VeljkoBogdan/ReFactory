@@ -1,0 +1,6 @@
+﻿name = "Snad 1.20.1 (Neo)Forge"
+filename = "Snad-1.20.1-(Neo)Forge-3.0.1.jar"
+side = "both"
+
+[update.curseforge]
+file-id = 5827323

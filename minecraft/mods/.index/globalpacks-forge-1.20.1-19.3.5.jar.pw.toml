@@ -1,0 +1,6 @@
+﻿name = "Globalpacks1"
+filename = "globalpacks-forge-1.20.1-19.3.5.jar"
+side = "both"
+
+[update.curseforge]
+file-id = 6634578

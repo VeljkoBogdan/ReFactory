@@ -1,0 +1,6 @@
+﻿name = "Appleskin2"
+filename = "appleskin-forge-mc1.20.1-2.5.1.jar"
+side = "both"
+
+[update.curseforge]
+file-id = 4770828

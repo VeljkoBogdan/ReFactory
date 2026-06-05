@@ -1,0 +1,6 @@
+﻿name = "Mob Grinding Utils"
+filename = "mob_grinding_utils-1.20.1-1.1.0.jar"
+side = "both"
+
+[update.curseforge]
+file-id = 5131447

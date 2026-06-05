@@ -1,0 +1,6 @@
+﻿name = "Kotlinforforge"
+filename = "kotlinforforge-4.11.0-all.jar"
+side = "both"
+
+[update.curseforge]
+file-id = 540261

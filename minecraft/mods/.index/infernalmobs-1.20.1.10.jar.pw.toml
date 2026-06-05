@@ -1,0 +1,6 @@
+﻿name = "Infernalmobs"
+filename = "infernalmobs-1.20.1.10.jar"
+side = "both"
+
+[update.curseforge]
+file-id = 6453542

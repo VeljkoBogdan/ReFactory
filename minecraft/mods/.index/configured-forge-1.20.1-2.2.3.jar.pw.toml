@@ -1,0 +1,6 @@
+﻿name = "Configured1"
+filename = "configured-forge-1.20.1-2.2.3.jar"
+side = "both"
+
+[update.curseforge]
+file-id = 5180900

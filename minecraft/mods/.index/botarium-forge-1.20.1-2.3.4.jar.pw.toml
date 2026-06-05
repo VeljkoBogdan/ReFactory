@@ -1,0 +1,6 @@
+﻿name = "Botarium1"
+filename = "botarium-forge-1.20.1-2.3.4.jar"
+side = "both"
+
+[update.curseforge]
+file-id = 548670

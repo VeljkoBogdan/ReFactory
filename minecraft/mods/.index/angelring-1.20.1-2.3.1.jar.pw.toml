@@ -1,0 +1,6 @@
+﻿name = "Angelring"
+filename = "angelring-1.20.1-2.3.1.jar"
+side = "both"
+
+[update.curseforge]
+file-id = 5887716

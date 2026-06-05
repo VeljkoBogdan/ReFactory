@@ -1,0 +1,6 @@
+﻿name = "Framework1"
+filename = "framework-forge-1.20.1-0.7.15.jar"
+side = "both"
+
+[update.curseforge]
+file-id = 6531428

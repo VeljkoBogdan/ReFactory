@@ -1,0 +1,6 @@
+﻿name = "Redstoneclock"
+filename = "redstoneclock-1.0.0.jar"
+side = "both"
+
+[update.curseforge]
+file-id = 538725

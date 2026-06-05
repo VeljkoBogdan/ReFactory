@@ -1,0 +1,6 @@
+﻿name = "Explorerscompass"
+filename = "ExplorersCompass-1.20.1-1.3.3-forge.jar"
+side = "both"
+
+[update.curseforge]
+file-id = 4712194

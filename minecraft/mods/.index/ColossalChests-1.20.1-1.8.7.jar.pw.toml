@@ -1,0 +1,6 @@
+﻿name = "Colossalchests"
+filename = "ColossalChests-1.20.1-1.8.7.jar"
+side = "both"
+
+[update.curseforge]
+file-id = 7098765

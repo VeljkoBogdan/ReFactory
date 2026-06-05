@@ -1,0 +1,6 @@
+﻿name = "Saturn"
+filename = "saturn-mc1.20.1-0.1.3.jar"
+side = "both"
+
+[update.curseforge]
+file-id = 5093785

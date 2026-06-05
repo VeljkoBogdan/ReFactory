@@ -1,0 +1,6 @@
+﻿name = "Ftbquestsfreezefix1"
+filename = "ftbquestsfreezefix-forge-1.0.0-1.20.1.jar"
+side = "both"
+
+[update.curseforge]
+file-id = 5777386

@@ -1,0 +1,6 @@
+﻿name = "Maxstuff"
+filename = "maxstuff-1.8.1.jar"
+side = "both"
+
+[update.curseforge]
+file-id = 6624536

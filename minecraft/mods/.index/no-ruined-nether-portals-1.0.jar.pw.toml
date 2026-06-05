@@ -1,0 +1,6 @@
+﻿name = "No Ruined Nether Portals"
+filename = "no-ruined-nether-portals-1.0.jar"
+side = "both"
+
+[update.curseforge]
+file-id = 528788

@@ -1,0 +1,6 @@
+﻿name = "Ldlib1"
+filename = "ldlib-forge-1.20.1-1.0.42.jar"
+side = "both"
+
+[update.curseforge]
+file-id = 6849454
