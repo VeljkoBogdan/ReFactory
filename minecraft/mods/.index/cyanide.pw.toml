@@ -1,0 +1,17 @@
+filename = 'cyanide-forge-1.20.1-4.1.1.jar'
+name = 'Cyanide'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'cyanide-forge-1.20.1-4.1.1.jar'
+
+[download]
+hash = 'e2db7885a23f32c816ba8fb7db904fe68099ce09'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5778405
+project-id = 541676
