@@ -3,6 +3,7 @@ filename = "FastFurnace-1.20.1-8.0.2.jar"
 side = "both"
 
 [update.curseforge]
+project-id = 518198
 file-id = 518198
 [download]
 url = "https://edge.forgecdn.net/files/518/198/FastFurnace-1.20.1-8.0.2.jar"

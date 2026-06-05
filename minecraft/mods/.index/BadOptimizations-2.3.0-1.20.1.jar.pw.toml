@@ -3,6 +3,7 @@ filename = "BadOptimizations-2.3.0-1.20.1.jar"
 side = "both"
 
 [update.curseforge]
+project-id = 949555
 file-id = 6742958
 [download]
 url = "https://edge.forgecdn.net/files/6742/958/BadOptimizations-2.3.0-1.20.1.jar"

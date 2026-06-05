@@ -3,6 +3,7 @@ filename = "Celestial Configuration-forge-1.20.1-1.1.1.jar"
 side = "both"
 
 [update.curseforge]
+project-id = 656398
 file-id = 5504400
 [download]
 url = "https://edge.forgecdn.net/files/5504/400/Celestial%20Configuration-forge-1.20.1-1.1.1.jar"

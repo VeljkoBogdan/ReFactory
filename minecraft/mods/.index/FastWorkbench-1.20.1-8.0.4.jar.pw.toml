@@ -3,6 +3,7 @@ filename = "FastWorkbench-1.20.1-8.0.4.jar"
 side = "both"
 
 [update.curseforge]
+project-id = 288885
 file-id = 5101229
 [download]
 url = "https://edge.forgecdn.net/files/5101/229/FastWorkbench-1.20.1-8.0.4.jar"

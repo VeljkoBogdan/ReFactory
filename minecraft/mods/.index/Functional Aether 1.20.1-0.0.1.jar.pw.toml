@@ -3,6 +3,7 @@ filename = "Functional Aether 1.20.1-0.0.1.jar"
 side = "both"
 
 [update.curseforge]
+project-id = 1188890
 file-id = 6133791
 [download]
 url = "https://edge.forgecdn.net/files/6133/791/Functional%20Aether%201.20.1-0.0.1.jar"
