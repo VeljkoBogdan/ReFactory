@@ -44,6 +44,6 @@ jobs:
         with:
           tag: ${{ github.ref_name }}
           name: ${{ github.ref_name }}
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.PAT }}
           artifacts: build/modpack-latest.zip
           allowUpdates: true
