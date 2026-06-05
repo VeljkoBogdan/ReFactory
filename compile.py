@@ -1,4 +1,4 @@
-import os, zipfile, json
+import os, zipfile
 
 def load_packignore(base):
     ignore = set()
@@ -6,46 +6,29 @@ def load_packignore(base):
     if os.path.exists(ignore_path):
         with open(ignore_path, "r", encoding="utf-8") as f:
             for line in f:
-                line = line.strip()
+                line = line.strip().replace("\\", "/")
                 if line and not line.startswith("#"):
-                    ignore.add(line.replace("\\", "/"))
+                    ignore.add(line)
     return ignore
 
-def build_modpack(base, packignore, output_zip):
-    manifest_mods_path = os.path.join(base, "mods.json")
-    manifest_mods = []
-    if os.path.exists(manifest_mods_path):
-        with open(manifest_mods_path, "r", encoding="utf-8-sig") as f:
-            manifest_mods = json.load(f)
+def is_ignored(path, ignore_patterns):
+    for pattern in ignore_patterns:
+        if pattern.endswith("/**"):
+            prefix = pattern[:-3]
+            if path == prefix.rstrip("/") or path.startswith(prefix):
+                return True
+        elif path == pattern:
+            return True
+        elif path.startswith(pattern + "/"):
+            return True
+    return False
 
-    mc_version = None
-    forge_version = None
-    mmc_path = os.path.join(base, "mmc-pack.json")
-    if os.path.exists(mmc_path):
-        with open(mmc_path, "r", encoding="utf-8") as f:
-            data = json.load(f)
-        for comp in data.get("components", []):
-            uid = comp.get("uid")
-            if uid == "net.minecraft":
-                mc_version = comp.get("version")
-            elif uid == "net.minecraftforge":
-                forge_version = comp.get("version")
+if __name__ == "__main__":
+    base = os.path.dirname(os.path.abspath(__file__))
+    packignore = load_packignore(base)
 
-    manifest = {
-        "minecraft": {
-            "version": mc_version or "1.20.1",
-            "modLoaders": [
-                {"id": f"forge-{forge_version}" if forge_version else "forge-47.4.10", "primary": True}
-            ]
-        },
-        "manifestType": "minecraftModpack",
-        "manifestVersion": 1,
-        "name": "ReFactory: Expert",
-        "version": "0.5.1",
-        "author": "",
-        "files": [{"projectID": m["projectID"], "fileID": m["fileID"], "required": True} for m in manifest_mods],
-        "overrides": "overrides"
-    }
+    os.makedirs(os.path.join(base, "build"), exist_ok=True)
+    output_zip = os.path.join(base, "build", "modpack-latest.zip")
 
     seen = set()
     with zipfile.ZipFile(output_zip, 'w', zipfile.ZIP_DEFLATED) as zipf:
@@ -55,10 +38,6 @@ def build_modpack(base, packignore, output_zip):
                 zipf.write(path, entry)
                 seen.add(entry)
 
-        manifest_json = json.dumps(manifest, indent=2)
-        zipf.writestr("manifest.json", manifest_json)
-        seen.add("manifest.json")
-
         mc_dir = os.path.join(base, "minecraft")
         if os.path.isdir(mc_dir):
             for root, _, files in os.walk(mc_dir):
@@ -66,31 +45,11 @@ def build_modpack(base, packignore, output_zip):
                     file_path = os.path.join(root, file)
                     arcname = os.path.relpath(file_path, mc_dir)
                     full_rel = os.path.relpath(file_path, base).replace("\\", "/")
-                    if full_rel in packignore or arcname in packignore:
+                    if is_ignored(full_rel, packignore) or is_ignored(arcname, packignore):
                         continue
                     if arcname in seen:
                         continue
-                    _, ext = os.path.splitext(file)
-                    if ext.lower() in (".jar",):
-                        if arcname in seen:
-                            continue
-                        project_id = None
-                        for m in manifest_mods:
-                            if m["filename"] == file:
-                                project_id = m["projectID"]
-                                break
-                        if project_id:
-                            continue
                     seen.add(arcname)
-                    zipf.write(file_path, os.path.join("overrides", arcname))
-    return len(manifest["files"])
+                    zipf.write(file_path, os.path.join("minecraft", arcname))
 
-if __name__ == "__main__":
-    base = os.path.dirname(os.path.abspath(__file__))
-    packignore = load_packignore(base)
-
-    os.makedirs(os.path.join(base, "build"), exist_ok=True)
-    output_zip = os.path.join(base, "build", "modpack-latest.zip")
-
-    count = build_modpack(base, packignore, output_zip)
-    print(f"Modpack zipped successfully: {output_zip} ({count} mods in manifest)")
+    print(f"Modpack zipped successfully: {output_zip}")
