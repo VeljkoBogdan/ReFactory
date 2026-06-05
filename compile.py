@@ -12,7 +12,7 @@ def load_packignore(base):
     return ignore
 
 def build_modpack(base, packignore, output_zip):
-    manifest_mods_path = os.path.join(base, "gooning", "mod-list.json")
+    manifest_mods_path = os.path.join(base, "mods.json")
     manifest_mods = []
     if os.path.exists(manifest_mods_path):
         with open(manifest_mods_path, "r", encoding="utf-8-sig") as f:
