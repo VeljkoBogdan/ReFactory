@@ -23,10 +23,6 @@ def is_ignored(path, ignore_patterns):
             return True
     return False
 
-def should_exclude_from_zip(path):
-    parts = path.replace("\\", "/").split("/")
-    return ".index" in parts
-
 if __name__ == "__main__":
     base = os.path.dirname(os.path.abspath(__file__))
     packignore = load_packignore(base)
@@ -50,8 +46,6 @@ if __name__ == "__main__":
                     arcname = os.path.relpath(file_path, mc_dir)
                     full_rel = os.path.relpath(file_path, base).replace("\\", "/")
                     if is_ignored(full_rel, packignore) or is_ignored(arcname, packignore):
-                        continue
-                    if should_exclude_from_zip(full_rel):
                         continue
                     if arcname in seen:
                         continue
