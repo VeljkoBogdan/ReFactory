@@ -1,3 +1,7 @@
+// Son, i'm dead.
+// I had to use data arrays ts was annoying !
+
+
 ServerEvents.recipes(event => {
     const saw_upgrades = [
         { id: 'saw_upgrade_arthropod',  key: 'minecraft:spider_eye' },
