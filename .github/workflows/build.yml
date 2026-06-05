@@ -29,6 +29,8 @@ jobs:
           path: minecraft/mods
           key: mods-${{ hashFiles('minecraft/mods/.index/**') }}
           restore-keys: mods-
+      - name: Restore .index from git (cache may have stale metadata)
+        run: git checkout -- minecraft/mods/.index/
       - name: Download mods
         run: python download_mods.py
       - name: Build modpack
