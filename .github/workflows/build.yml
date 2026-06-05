@@ -19,6 +19,12 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
+      - name: Cache mod jars
+        uses: actions/cache@v4
+        with:
+          path: minecraft/mods
+          key: mods-${{ hashFiles('minecraft/mods/.index/**') }}
+          restore-keys: mods-
       - name: Download mods
         run: python download_mods.py
       - name: Build modpack
