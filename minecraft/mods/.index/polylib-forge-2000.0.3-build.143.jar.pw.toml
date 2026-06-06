@@ -1,0 +1,10 @@
+name = "Polylib2000"
+filename = "polylib-forge-2000.0.3-build.143.jar"
+side = "both"
+
+[update.curseforge]
+file-id = 5350440
+[download]
+url = "https://edge.forgecdn.net/files/5350/440/polylib-forge-2000.0.3-build.143.jar"
+hash = "abf42a3240b083fc96b9c022a049323cd4130844fcef338e1ab8b2cd6502a04b"
+hash-format = "sha256"

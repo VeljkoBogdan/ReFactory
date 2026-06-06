@@ -1,0 +1,10 @@
+name = "Functionalstoragecolor"
+filename = "FunctionalStorageColor-1.20.1-1.0.0.jar"
+side = "both"
+
+[update.curseforge]
+file-id = 5967957
+[download]
+url = "https://edge.forgecdn.net/files/5967/957/FunctionalStorageColor-1.20.1-1.0.0.jar"
+hash = "91b3269dc8b50a1c602b76bf97d386773d919479b5b2540db6c2f8c8eb17b530"
+hash-format = "sha256"

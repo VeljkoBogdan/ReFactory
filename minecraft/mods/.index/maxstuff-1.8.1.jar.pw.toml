@@ -1,0 +1,10 @@
+name = "Maxstuff"
+filename = "maxstuff-1.8.1.jar"
+side = "both"
+
+[update.curseforge]
+file-id = 6624536
+[download]
+url = "https://edge.forgecdn.net/files/6624/536/maxstuff-1.8.1.jar"
+hash = "37972ba55ed716cc894a293d2d580d85a8f75fc4d36f76711e241a10c8569c78"
+hash-format = "sha256"

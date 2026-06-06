@@ -1,0 +1,10 @@
+name = "Xtonesreworked"
+filename = "xtonesreworked-1.0.4-F_1.20.1-47.2.0.jar"
+side = "both"
+
+[update.curseforge]
+file-id = 5907303
+[download]
+url = "https://edge.forgecdn.net/files/5907/303/xtonesreworked-1.0.4-F_1.20.1-47.2.0.jar"
+hash = "038d9f376ca7c49cbc2b04c831751bd64dceea936efad598a7a50667b0ab9a1a"
+hash-format = "sha256"

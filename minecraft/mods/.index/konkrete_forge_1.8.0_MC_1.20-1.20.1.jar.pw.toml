@@ -1,0 +1,10 @@
+name = "Konkrete1"
+filename = "konkrete_forge_1.8.0_MC_1.20-1.20.1.jar"
+side = "both"
+
+[update.curseforge]
+file-id = 5028413
+[download]
+url = "https://edge.forgecdn.net/files/5028/413/konkrete_forge_1.8.0_MC_1.20-1.20.1.jar"
+hash = "e78686b92c3761ec26eb9d3c53efdd3d6ca77981cbd3723995e1163b7103ae0b"
+hash-format = "sha256"

@@ -1,0 +1,10 @@
+name = "Ironfurnaces"
+filename = "ironfurnaces-1.20.1-4.1.6.jar"
+side = "both"
+
+[update.curseforge]
+file-id = 5159498
+[download]
+url = "https://edge.forgecdn.net/files/5159/498/ironfurnaces-1.20.1-4.1.6.jar"
+hash = "be9bac471c10998fda1f999d1a2143a72059e70b20d8ecf17dd9d0eac76b07e5"
+hash-format = "sha256"

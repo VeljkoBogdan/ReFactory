@@ -1,0 +1,10 @@
+name = "Tcompat"
+filename = "tcompat-1.20.1-1.0.0.jar"
+side = "both"
+
+[update.modrinth]
+url = "https://cdn.modrinth.com/data/7dqAlUms/versions/iM08rGpL/tcompat-1.20.1-1.0.0.jar"
+[download]
+url = "https://cdn.modrinth.com/data/7dqAlUms/versions/iM08rGpL/tcompat-1.20.1-1.0.0.jar"
+hash = "6c2e7fa637472cafc315d6b15929532443c79708dc1924f1baba1e37cbfd9481"
+hash-format = "sha256"

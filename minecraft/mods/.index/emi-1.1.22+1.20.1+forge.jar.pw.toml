@@ -1,0 +1,10 @@
+name = "Emi"
+filename = "emi-1.1.22+1.20.1+forge.jar"
+side = "both"
+
+[update.curseforge]
+file-id = 6420945
+[download]
+url = "https://edge.forgecdn.net/files/6420/945/emi-1.1.22%2B1.20.1%2Bforge.jar"
+hash = "877a2831c44ab7a0e1f8da0df92125b42f93c6f9b9e4dd1ceb566d8adc67950a"
+hash-format = "sha256"

@@ -1,0 +1,10 @@
+name = "Polymorph0"
+filename = "polymorph-forge-0.49.10+1.20.1.jar"
+side = "both"
+
+[update.curseforge]
+file-id = 6450982
+[download]
+url = "https://edge.forgecdn.net/files/6450/982/polymorph-forge-0.49.10%2B1.20.1.jar"
+hash = "cbe63a0a1cb6ae8dbc0e29bb96d149a137cd4e714b295fa49d230994091d157f"
+hash-format = "sha256"

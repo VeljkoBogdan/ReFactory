@@ -1,0 +1,10 @@
+name = "Searchables1"
+filename = "Searchables-forge-1.20.1-1.0.3.jar"
+side = "both"
+
+[update.curseforge]
+file-id = 528415
+[download]
+url = "https://edge.forgecdn.net/files/528/415/Searchables-forge-1.20.1-1.0.3.jar"
+hash = "c1a76e93886210574d3f298c0461241fb711e52ac22c7a04d3236840f29e6576"
+hash-format = "sha256"

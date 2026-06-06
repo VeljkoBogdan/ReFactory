@@ -1,0 +1,17 @@
+filename = 'credit-4.0.0.jar'
+name = 'CRedit'
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'credit-4.0.0.jar'
+
+[download]
+hash = '3e057ecccf85d8108d99c70f1552958ae24062c6'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8153023
+project-id = 1526392

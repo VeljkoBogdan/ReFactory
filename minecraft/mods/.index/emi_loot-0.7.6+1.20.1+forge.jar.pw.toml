@@ -1,0 +1,10 @@
+name = "Emi Loot"
+filename = "emi_loot-0.7.6+1.20.1+forge.jar"
+side = "both"
+
+[update.curseforge]
+file-id = 644992
+[download]
+url = "https://edge.forgecdn.net/files/644/992/emi_loot-0.7.6%2B1.20.1%2Bforge.jar"
+hash = "f4e5ecc0d1e380b7f25ae18befb9fea4e865390530827eb5c290de6505300693"
+hash-format = "sha256"

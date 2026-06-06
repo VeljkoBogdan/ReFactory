@@ -1,0 +1,10 @@
+name = "Appliedenergistics215"
+filename = "appliedenergistics2-forge-15.4.8.jar"
+side = "both"
+
+[update.curseforge]
+file-id = 6852919
+[download]
+url = "https://edge.forgecdn.net/files/6852/919/appliedenergistics2-forge-15.4.8.jar"
+hash = "046b37c9893f6429fe6fd55ed4eb22803707ca5aa21ef8a647b634f78566d927"
+hash-format = "sha256"

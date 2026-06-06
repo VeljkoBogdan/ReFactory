@@ -1,0 +1,10 @@
+name = "Ftb Chunks2001"
+filename = "ftb-chunks-forge-2001.3.6.jar"
+side = "both"
+
+[update.curseforge]
+file-id = 6431735
+[download]
+url = "https://edge.forgecdn.net/files/6431/735/ftb-chunks-forge-2001.3.6.jar"
+hash = "caaa40aea64bba6f113fbddcabf77962b4b4e03bf57cbabace07ab05d28b38f9"
+hash-format = "sha256"

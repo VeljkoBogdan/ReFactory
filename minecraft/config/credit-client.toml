@@ -1,0 +1,142 @@
+
+[dump]
+	#Dump destination root directory (relative to game directory).
+	#Files are placed at <dumpRoot>/generated/<namespace>/<path>.js
+	dumpRoot = "kubejs/server_scripts"
+
+[drag]
+	#Default fluid amount (mB) when dragged from JEI.
+	#Overrides the source amount so behavior is consistent.
+	#Range: > 1
+	fluidDefault = 1000
+	#Default gas amount (mB) when dragged from JEI.
+	#Range: > 1
+	gasDefault = 1000
+	#Default infusion (Mekanism) amount when dragged from JEI.
+	#Infusion typically uses smaller amounts than gas (e.g., 10 for redstone infusion).
+	#Range: > 1
+	infusionDefault = 10
+
+[editor]
+	#How long edits (drafts) survive.
+	#MIN: discarded when editor closes.
+	#NORMAL: kept until the game exits (default).
+	#MAX: saved to <gameDir>/config/credit-drafts.dat and restored on restart.
+	#Allowed Values: MIN, NORMAL, MAX
+	editPersistence = "NORMAL"
+	#When true, vanilla crafting SHAPED and SHAPELESS share the same slot edits.
+	#Toggling between modes preserves the current grid contents.
+	craftingShareSlots = false
+	#Track edit operations for Ctrl+Z / Ctrl+Y undo/redo while CraftPattern is open.
+	#Disable to skip snapshot capture if you suspect performance issues.
+	undoEnabled = true
+
+[immediateApply]
+	#DANGEROUS: When true, all edits are written to .js files immediately,
+	#bypassing /credit commit and /credit push.
+	#Useful for rapid iteration but loses the safety net of commit review.
+	master = false
+	#DANGEROUS: ADD operations bypass commit/push (master overrides).
+	add = false
+	#DANGEROUS: EDIT operations bypass commit/push (master overrides).
+	edit = false
+	#DANGEROUS: DELETE operations bypass commit/push (master overrides).
+	delete = false
+
+[history]
+	#Maximum number of push entries to keep (10/20/30/40/50/100/200/300/UNLIMITED).
+	#Older entries are dropped when the limit is reached.
+	#Allowed Values: N_10, N_20, N_30, N_40, N_50, N_100, N_200, N_300, UNLIMITED
+	historyMax = "N_30"
+	#v3.10: Maximum push payload generations kept under <gameDir>/credit/history/.
+	#Each push writes one push_<ts>.nbt for preview-of-past-pushes.
+	#Older files are deleted on each push. 0 = keep none, -1 = unlimited.
+	#Range: > -1
+	maxPushPayloadGenerations = 20
+	#v3.10: Per-push payload size cap (KB). Pushes exceeding this are dropped
+	#(metadata-only fallback, no past-preview). 0 = no cap.
+	#Range: > 0
+	maxPushPayloadSizeKb = 1024
+
+[push]
+	#When true, /credit push automatically runs '/reload' after writing files.
+	autoReloadAfterPush = false
+
+[commands]
+	#Master toggle for short top-level commands (without /credit prefix).
+	#When false, no short commands are registered.
+	#When true, each command is registered if its individual toggle below is true.
+	#Changes take effect on next world join (or game restart).
+	omitModidPrefix = true
+	#Register /push as alias for /credit push.
+	shortCmdPush = true
+	#Register /commit.
+	shortCmdCommit = true
+	#Register /history.
+	shortCmdHistory = true
+	#Register /setting.
+	shortCmdSetting = true
+	#Register /import.
+	shortCmdImport = true
+	#Register /reconstruction.
+	shortCmdReconstruction = true
+	#Register /preview.
+	shortCmdPreview = true
+	#Register /status.
+	shortCmdStatus = true
+
+[keybind]
+	#Master toggle for CraftPattern-only keybind features.
+	#When ON: enables our special keys (digits 1-9, Ctrl+C/V, arrows)
+	#         AND blocks other mods' keybinds (JEI lookup, minimap, etc.) from firing.
+	#When OFF: normal screen behavior (other mod keys go through, our keys do nothing).
+	specialKeybindsEnabled = true
+	#Pressing 1-9 inside CraftPattern places the item from that hotbar slot into the slot under mouse.
+	#Copies item id + NBT (e.g. avaritia:singularity), count=1.
+	quickAddHotbar = true
+	#Enable Ctrl+C / Ctrl+V clipboard with a slot next to the inventory.
+	#Copy targets: recipe area, player inventory, JEI ingredients.
+	clipboardEnabled = true
+	#Keep up to 100 clipboard entries. Use Up/Down arrows to scroll the history
+	#(↑ = newer side / ↓ = older side). OFF = single-slot, no arrows.
+	clipboardMulti = true
+	#How long the clipboard history survives.
+	#TRANSIENT: cleared when BuilderScreen closes.
+	#SESSION: kept until game exits (default).
+	#PERSISTENT: saved to <gameDir>/config/credit-clipboard.dat, restored on restart.
+	#Allowed Values: TRANSIENT, SESSION, PERSISTENT
+	clipboardPersistence = "SESSION"
+
+[chance]
+	#Default chance (per-thousand) when right-clicking an output to apply GT_CHANCE / CREATE_CHANCE.
+	#Range: 0..1000 (= 0%..100%). Default 1000 (= 100%).
+	#Range: 0 ~ 1000
+	chanceDefaultMille = 1000
+	#Default GT chance tier boost. Range: >= 0. Default 0.
+	#Range: > 0
+	chanceDefaultBoost = 0
+
+[editor2]
+	#When false (default), switching recipe type while in edit mode clears the loaded grid
+	#to avoid accidentally creating unintended recipes.
+	#When true, the loaded recipe contents are preserved across category switches.
+	preserveEditGridOnSwitch = false
+
+[output]
+	#When true (default), all recipes of a mod go into <modid>/{add,edit,delete}.js
+	#(unified per mod, current behavior).
+	#When false, recipes are split by recipe type:
+	#<modid>/<recipetype_path>/{add,edit,delete}.js
+	#Toggle does NOT migrate existing files; only future output uses the new layout.
+	#Import scans recursively so both layouts are accepted as input.
+	unifiedEditFiles = true
+
+[emi]
+	#Enable credit features inside EMI's recipe viewer (= '+' Edit button,
+	#delete overlay, preview wired through EMI widgets).
+	#When OFF: credit ignores EMI viewer entirely; JEI viewer continues to work normally.
+	#When ON (default): both JEI and EMI viewers expose credit Edit/Delete + preview.
+	#Effect is immediate at runtime (no restart needed).
+	#Has no effect if EMI is not installed (JEI is mandatory).
+	viewerIntegration = true
+

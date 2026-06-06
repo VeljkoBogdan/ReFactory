@@ -1,0 +1,17 @@
+filename = 'leaky-1.20.1-2.3.jar'
+name = 'Leaky - Item Lag Fix[Forge/Fabric]'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'leaky-1.20.1-2.3.jar'
+
+[download]
+hash = '4a55b296f4a220a78b495b14a522adf05fe50e07'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7365942
+project-id = 856906

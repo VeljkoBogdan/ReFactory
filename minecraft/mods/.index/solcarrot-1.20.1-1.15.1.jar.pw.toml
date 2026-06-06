@@ -1,0 +1,10 @@
+name = "Solcarrot"
+filename = "solcarrot-1.20.1-1.15.1.jar"
+side = "both"
+
+[update.curseforge]
+file-id = 4888575
+[download]
+url = "https://edge.forgecdn.net/files/4888/575/solcarrot-1.20.1-1.15.1.jar"
+hash = "629d6744c8d856c51c74c66eba4c252c6d62d392dbaf5b24ea690cd8f081e679"
+hash-format = "sha256"

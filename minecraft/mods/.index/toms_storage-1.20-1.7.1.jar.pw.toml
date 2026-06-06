@@ -1,0 +1,10 @@
+name = "Toms Storage"
+filename = "toms_storage-1.20-1.7.1.jar"
+side = "both"
+
+[update.curseforge]
+file-id = 6418133
+[download]
+url = "https://edge.forgecdn.net/files/6418/133/toms_storage-1.20-1.7.1.jar"
+hash = "08552be86f960111e501227707dc089c91b8a55f6c1be09baee188338576ff9b"
+hash-format = "sha256"

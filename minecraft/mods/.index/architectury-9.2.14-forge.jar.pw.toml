@@ -1,0 +1,10 @@
+name = "Architectury"
+filename = "architectury-9.2.14-forge.jar"
+side = "both"
+
+[update.curseforge]
+file-id = 5137938
+[download]
+url = "https://edge.forgecdn.net/files/5137/938/architectury-9.2.14-forge.jar"
+hash = "218b471d0b8a1f6cda14cfc1beb9eeb0df54304500acc6c5613d9b88ec65d9af"
+hash-format = "sha256"

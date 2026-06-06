@@ -1,0 +1,10 @@
+name = "Supermartijn642configlib"
+filename = "supermartijn642configlib-1.1.8-forge-mc1.20.jar"
+side = "both"
+
+[update.curseforge]
+file-id = 4715408
+[download]
+url = "https://edge.forgecdn.net/files/4715/408/supermartijn642configlib-1.1.8-forge-mc1.20.jar"
+hash = "bea425ef7e9cd27a7fc0f4b89e00cbd0a1ee050f071ecaa9f28f7238f400f0a3"
+hash-format = "sha256"

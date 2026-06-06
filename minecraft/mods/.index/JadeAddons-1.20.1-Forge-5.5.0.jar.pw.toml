@@ -1,0 +1,10 @@
+name = "Jadeaddons"
+filename = "JadeAddons-1.20.1-Forge-5.5.0.jar"
+side = "both"
+
+[update.curseforge]
+file-id = 6274674
+[download]
+url = "https://edge.forgecdn.net/files/6274/674/JadeAddons-1.20.1-Forge-5.5.0.jar"
+hash = "3fa00b2ee33ee154ef155997fc7e12fb0e4d7f4f06d1bfd47dd6ee3c6a1549d4"
+hash-format = "sha256"

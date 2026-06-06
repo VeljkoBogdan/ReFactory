@@ -1,0 +1,17 @@
+filename = 'dynamic-fps-3.11.4+minecraft-1.20.0-forge.jar'
+name = 'Dynamic FPS'
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'v3.11.4'
+
+[download]
+hash = '43b3e0766a9e7a30651cc01756476657b865b7a2'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7546908
+project-id = 335493

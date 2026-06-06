@@ -1,0 +1,11 @@
+name = "Biomesoplenty1"
+filename = "BiomesOPlenty-forge-1.20.1-19.0.0.96.jar"
+side = "both"
+
+[update.curseforge]
+project-id = 636465
+file-id = 636465
+[download]
+url = "https://edge.forgecdn.net/files/636/465/BiomesOPlenty-forge-1.20.1-19.0.0.96.jar"
+hash = "330f482487ac3135557b6e898d7e1ae5330321e9cfd5ba63e13a16cf2e8d8b98"
+hash-format = "sha256"

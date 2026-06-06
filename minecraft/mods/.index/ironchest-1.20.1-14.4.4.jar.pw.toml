@@ -1,0 +1,10 @@
+name = "Ironchest"
+filename = "ironchest-1.20.1-14.4.4.jar"
+side = "both"
+
+[update.curseforge]
+file-id = 4614852
+[download]
+url = "https://edge.forgecdn.net/files/4614/852/ironchest-1.20.1-14.4.4.jar"
+hash = "6bc75f288d2e8158d2e23c6881a1b341a894c38bab129ca0f20db6abd59d373f"
+hash-format = "sha256"

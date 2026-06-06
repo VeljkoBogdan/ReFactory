@@ -1,0 +1,10 @@
+name = "Kubejs Naturesaura"
+filename = "kubejs_naturesaura-1.20.1-forge-1.0.1.jar"
+side = "both"
+
+[update.curseforge]
+file-id = 5314557
+[download]
+url = "https://edge.forgecdn.net/files/5314/557/kubejs_naturesaura-1.20.1-forge-1.0.1.jar"
+hash = "d0190c3245ce861e57e38ba797eabea3c40076478f916e34a5883f28828ebafb"
+hash-format = "sha256"

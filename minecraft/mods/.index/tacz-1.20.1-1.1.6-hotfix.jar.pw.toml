@@ -1,0 +1,10 @@
+name = "Tacz"
+filename = "tacz-1.20.1-1.1.6-hotfix.jar"
+side = "both"
+
+[update.curseforge]
+file-id = 6654541
+[download]
+url = "https://edge.forgecdn.net/files/6654/541/tacz-1.20.1-1.1.6-hotfix.jar"
+hash = "f9b4bb27cecff72750e6ef6e72a1ae579006f7dd1d5ac213c9b228fb4c8747fb"
+hash-format = "sha256"
