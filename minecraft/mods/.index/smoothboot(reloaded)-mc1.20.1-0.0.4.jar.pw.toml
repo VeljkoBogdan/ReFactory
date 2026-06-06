@@ -1,0 +1,10 @@
+name = "Smoothboot(Reloaded)"
+filename = "smoothboot(reloaded)-mc1.20.1-0.0.4.jar"
+side = "both"
+
+[update.curseforge]
+file-id = 5016280
+[download]
+url = "https://edge.forgecdn.net/files/5016/280/smoothboot%28reloaded%29-mc1.20.1-0.0.4.jar"
+hash = "5a0d2682493ffa7b140a7b81f0d1e70c7536c97969397cf9e718e31391b5b9d5"
+hash-format = "sha256"

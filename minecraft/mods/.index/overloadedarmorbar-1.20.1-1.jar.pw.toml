@@ -1,0 +1,10 @@
+name = "Overloadedarmorbar"
+filename = "overloadedarmorbar-1.20.1-1.jar"
+side = "both"
+
+[update.curseforge]
+file-id = 4631133
+[download]
+url = "https://edge.forgecdn.net/files/4631/133/overloadedarmorbar-1.20.1-1.jar"
+hash = "015f6d95e1f2f0dc98e70c9375cf21ccfc8214f308ff65aec4f696d6420b773a"
+hash-format = "sha256"

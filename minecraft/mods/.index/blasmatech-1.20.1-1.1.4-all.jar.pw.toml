@@ -1,0 +1,10 @@
+name = "Blasmatech"
+filename = "blasmatech-1.20.1-1.1.4-all.jar"
+side = "both"
+
+[update.curseforge]
+file-id = 5417722
+[download]
+url = "https://edge.forgecdn.net/files/5417/722/blasmatech-1.20.1-1.1.4-all.jar"
+hash = "295b911786538c78834105eb4dfc4f7a43ee7a6b0c06fe1c5de918381ade5c17"
+hash-format = "sha256"

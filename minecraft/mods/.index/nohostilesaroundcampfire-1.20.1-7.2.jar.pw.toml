@@ -1,0 +1,10 @@
+name = "Nohostilesaroundcampfire"
+filename = "nohostilesaroundcampfire-1.20.1-7.2.jar"
+side = "both"
+
+[update.curseforge]
+file-id = 6185486
+[download]
+url = "https://edge.forgecdn.net/files/6185/486/nohostilesaroundcampfire-1.20.1-7.2.jar"
+hash = "0afeddeb40aa71bafe3ba728bf1ac80af3850d3a5be2f18d2c2078f34bcf578a"
+hash-format = "sha256"

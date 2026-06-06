@@ -1,0 +1,10 @@
+name = "Ai Improvements"
+filename = "AI-Improvements-1.20-0.5.2.jar"
+side = "both"
+
+[update.curseforge]
+file-id = 4578262
+[download]
+url = "https://edge.forgecdn.net/files/4578/262/AI-Improvements-1.20-0.5.2.jar"
+hash = "575a4a8e00f982c064d54bb3e73e5cda2d14414de054a471a3daf3f58bdf560a"
+hash-format = "sha256"

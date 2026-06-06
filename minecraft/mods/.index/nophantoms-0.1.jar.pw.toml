@@ -1,0 +1,10 @@
+name = "Nophantoms"
+filename = "nophantoms-0.1.jar"
+side = "both"
+
+[update.curseforge]
+file-id = 5063173
+[download]
+url = "https://edge.forgecdn.net/files/5063/173/nophantoms-0.1.jar"
+hash = "02b5a335da713fe392ecbf1ac2f83417ad37f56b60b6ab86e78bde300f2237d3"
+hash-format = "sha256"

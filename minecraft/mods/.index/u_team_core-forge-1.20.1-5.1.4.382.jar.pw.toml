@@ -1,0 +1,10 @@
+name = "U Team Core1"
+filename = "u_team_core-forge-1.20.1-5.1.4.382.jar"
+side = "both"
+
+[update.curseforge]
+file-id = 6548219
+[download]
+url = "https://edge.forgecdn.net/files/6548/219/u_team_core-forge-1.20.1-5.1.4.382.jar"
+hash = "ff502986f27f47409b3bd1c02cbbeeacf9d035069c47b2560fc81bafca8a2c35"
+hash-format = "sha256"

@@ -1,0 +1,10 @@
+name = "Hangglider"
+filename = "HangGlider-v8.0.1-1.20.1-Forge.jar"
+side = "both"
+
+[update.curseforge]
+file-id = 4710223
+[download]
+url = "https://edge.forgecdn.net/files/4710/223/HangGlider-v8.0.1-1.20.1-Forge.jar"
+hash = "82298214aa3f7225a0ac0ed93eb2cff8283758af211029cc00a7819a0fed6a7c"
+hash-format = "sha256"

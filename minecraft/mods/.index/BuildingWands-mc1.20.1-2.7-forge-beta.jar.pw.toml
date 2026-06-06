@@ -1,0 +1,10 @@
+name = "Buildingwands"
+filename = "BuildingWands-mc1.20.1-2.7-forge-beta.jar"
+side = "both"
+
+[update.curseforge]
+file-id = 5654676
+[download]
+url = "https://edge.forgecdn.net/files/5654/676/BuildingWands-mc1.20.1-2.7-forge-beta.jar"
+hash = "ab264cc3a132dbf66dcba049e38d10c0769678ad8a16e2d99cd59908c20ea873"
+hash-format = "sha256"

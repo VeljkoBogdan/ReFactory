@@ -1,0 +1,10 @@
+name = "Inventorysorter"
+filename = "inventorysorter-1.20.1-23.0.8.jar"
+side = "both"
+
+[update.curseforge]
+file-id = 5979609
+[download]
+url = "https://edge.forgecdn.net/files/5979/609/inventorysorter-1.20.1-23.0.8.jar"
+hash = "3263afb2c416d36c8d36effb726750a7c9e370f9712a78f7b7d325a39406d7cf"
+hash-format = "sha256"

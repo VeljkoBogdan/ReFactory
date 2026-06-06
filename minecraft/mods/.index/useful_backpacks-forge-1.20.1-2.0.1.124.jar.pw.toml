@@ -1,0 +1,10 @@
+name = "Useful Backpacks1"
+filename = "useful_backpacks-forge-1.20.1-2.0.1.124.jar"
+side = "both"
+
+[update.curseforge]
+file-id = 5555695
+[download]
+url = "https://edge.forgecdn.net/files/5555/695/useful_backpacks-forge-1.20.1-2.0.1.124.jar"
+hash = "5e7219a2fdebbda241238811b6293a44d1e90b947e89d9d845eab457ff808ff7"
+hash-format = "sha256"

@@ -1,0 +1,10 @@
+name = "Sodiumoptionsapi1"
+filename = "sodiumoptionsapi-forge-1.0.10-1.20.1.jar"
+side = "both"
+
+[update.curseforge]
+file-id = 6100812
+[download]
+url = "https://edge.forgecdn.net/files/6100/812/sodiumoptionsapi-forge-1.0.10-1.20.1.jar"
+hash = "37ec0b6248f04e856e6e5ba2066c4ded9981ce128282a9b45cdb10b67b9c8415"
+hash-format = "sha256"

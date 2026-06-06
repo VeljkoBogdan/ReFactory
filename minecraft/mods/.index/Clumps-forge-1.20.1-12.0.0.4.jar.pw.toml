@@ -1,0 +1,10 @@
+name = "Clumps1"
+filename = "Clumps-forge-1.20.1-12.0.0.4.jar"
+side = "both"
+
+[update.curseforge]
+file-id = 5278538
+[download]
+url = "https://edge.forgecdn.net/files/5278/538/Clumps-forge-1.20.1-12.0.0.4.jar"
+hash = "1d1cfcf386f182b1d0bdbe4bd4fc57b96234e8c7468e95e1575ad4dd6433243a"
+hash-format = "sha256"

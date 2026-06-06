@@ -1,0 +1,10 @@
+name = "Tconstruct"
+filename = "TConstruct-1.20.1-3.10.2.92.jar"
+side = "both"
+
+[update.curseforge]
+file-id = 677768
+[download]
+url = "https://edge.forgecdn.net/files/677/768/TConstruct-1.20.1-3.10.2.92.jar"
+hash = "0ae3c629193d4f10c8b4cc4fc45ec19b58221a6d044ff49effed2adf03abd22e"
+hash-format = "sha256"

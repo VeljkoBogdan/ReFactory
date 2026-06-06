@@ -1,0 +1,10 @@
+name = "Bookshelf1"
+filename = "Bookshelf-Forge-1.20.1-20.2.13.jar"
+side = "both"
+
+[update.curseforge]
+file-id = 5423987
+[download]
+url = "https://edge.forgecdn.net/files/5423/987/Bookshelf-Forge-1.20.1-20.2.13.jar"
+hash = "c31fed2c1a1c0d72d3ef996bb84521b7d6a8fbd3115c89c001f13a7ffd56f64b"
+hash-format = "sha256"

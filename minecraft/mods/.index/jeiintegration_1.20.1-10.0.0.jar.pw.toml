@@ -1,0 +1,10 @@
+name = "Jeiintegration"
+filename = "jeiintegration_1.20.1-10.0.0.jar"
+side = "both"
+
+[update.curseforge]
+file-id = 4999754
+[download]
+url = "https://edge.forgecdn.net/files/4999/754/jeiintegration_1.20.1-10.0.0.jar"
+hash = "0d83bcb477d761a73cdbb37f723a5d994e61a389340e219e5ce8dc9618be933e"
+hash-format = "sha256"

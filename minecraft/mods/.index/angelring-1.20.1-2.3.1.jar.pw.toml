@@ -1,0 +1,10 @@
+name = "Angelring"
+filename = "angelring-1.20.1-2.3.1.jar"
+side = "both"
+
+[update.curseforge]
+file-id = 5887716
+[download]
+url = "https://edge.forgecdn.net/files/5887/716/angelring-1.20.1-2.3.1.jar"
+hash = "5954ce71e859ec807ffe0a8b5de9f2ff3a2c03ccde29cff609cc8dd1e90aefe8"
+hash-format = "sha256"

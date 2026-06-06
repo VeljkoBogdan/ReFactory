@@ -1,0 +1,10 @@
+name = "Fastleafdecay"
+filename = "FastLeafDecay-32.jar"
+side = "both"
+
+[update.curseforge]
+file-id = 5375681
+[download]
+url = "https://edge.forgecdn.net/files/5375/681/FastLeafDecay-32.jar"
+hash = "ce48db06bfb5830c147969793771a8f8b5a5774b182543b906bc439efd4e9469"
+hash-format = "sha256"

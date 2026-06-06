@@ -1,0 +1,10 @@
+name = "Codechickenlib"
+filename = "CodeChickenLib-1.20.1-4.4.0.516-universal.jar"
+side = "both"
+
+[update.curseforge]
+file-id = 5753868
+[download]
+url = "https://edge.forgecdn.net/files/5753/868/CodeChickenLib-1.20.1-4.4.0.516-universal.jar"
+hash = "9037fc4bc73e4cec717501fc362f660f46c2a1ac34674da2106b4605b3e4d8db"
+hash-format = "sha256"

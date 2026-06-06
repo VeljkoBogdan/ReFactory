@@ -1,0 +1,10 @@
+name = "Modernfix5"
+filename = "modernfix-forge-5.24.4+mc1.20.1.jar"
+side = "both"
+
+[update.curseforge]
+file-id = 6837713
+[download]
+url = "https://edge.forgecdn.net/files/6837/713/modernfix-forge-5.24.4%2Bmc1.20.1.jar"
+hash = "98d77cb29c718934b1d5d465d3725a0de4284bf3c8033d6553a7dd3b15956fe4"
+hash-format = "sha256"

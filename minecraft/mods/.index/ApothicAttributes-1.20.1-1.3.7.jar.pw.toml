@@ -1,0 +1,11 @@
+name = "Apothicattributes"
+filename = "ApothicAttributes-1.20.1-1.3.7.jar"
+side = "both"
+
+[update.curseforge]
+project-id = 563471
+file-id = 563471
+[download]
+url = "https://edge.forgecdn.net/files/563/471/ApothicAttributes-1.20.1-1.3.7.jar"
+hash = "68487b11c0d4e2f67a85f2b04bf65e99ac15294f2923f4391f83e9542293187a"
+hash-format = "sha256"

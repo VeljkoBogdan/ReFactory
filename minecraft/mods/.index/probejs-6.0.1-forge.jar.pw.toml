@@ -1,0 +1,10 @@
+name = "Probejs"
+filename = "probejs-6.0.1-forge.jar"
+side = "both"
+
+[update.curseforge]
+file-id = 5227399
+[download]
+url = "https://edge.forgecdn.net/files/5227/399/probejs-6.0.1-forge.jar"
+hash = "139b586b87a8bad536e0a8983fc01c48e8ff46fb2e5881b52ac8b59f44b1e609"
+hash-format = "sha256"

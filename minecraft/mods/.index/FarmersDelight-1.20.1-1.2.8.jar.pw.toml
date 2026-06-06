@@ -1,0 +1,10 @@
+name = "Farmersdelight"
+filename = "FarmersDelight-1.20.1-1.2.8.jar"
+side = "both"
+
+[update.curseforge]
+file-id = 6597298
+[download]
+url = "https://edge.forgecdn.net/files/6597/298/FarmersDelight-1.20.1-1.2.8.jar"
+hash = "27f16663b015d6efb1cba993afc5b230a1c9eda25eeef0cd57547ab1b41c02bd"
+hash-format = "sha256"

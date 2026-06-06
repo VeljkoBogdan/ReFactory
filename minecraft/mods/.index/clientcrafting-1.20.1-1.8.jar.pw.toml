@@ -1,0 +1,10 @@
+name = "Clientcrafting"
+filename = "clientcrafting-1.20.1-1.8.jar"
+side = "both"
+
+[update.curseforge]
+file-id = 50979
+[download]
+url = "https://edge.forgecdn.net/files/50/979/clientcrafting-1.20.1-1.8.jar"
+hash = "b0954f3e1d6dabf71bd88ad870f13b0e1bd6f0ee9d7ceb047823378a8a0e0a4c"
+hash-format = "sha256"

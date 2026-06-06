@@ -1,0 +1,10 @@
+name = "Monolib1"
+filename = "monolib-forge-1.20.1-2.1.0.jar"
+side = "both"
+
+[update.curseforge]
+file-id = 654457
+[download]
+url = "https://edge.forgecdn.net/files/654/457/monolib-forge-1.20.1-2.1.0.jar"
+hash = "56dad99fa50735b2ab6875717c6234e1fec05cc45d004ba44e3065b1130616de"
+hash-format = "sha256"

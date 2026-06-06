@@ -1,0 +1,10 @@
+name = "Kubejs Thermal"
+filename = "kubejs-thermal-2001.1.10-build.2.jar"
+side = "both"
+
+[update.curseforge]
+file-id = 5002992
+[download]
+url = "https://edge.forgecdn.net/files/5002/992/kubejs-thermal-2001.1.10-build.2.jar"
+hash = "560a5cb11d8bcdbb4dc1ae63a33e721a8ca5e10d4a5368bb03d08e96f118f60d"
+hash-format = "sha256"
