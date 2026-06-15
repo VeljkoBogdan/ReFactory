@@ -1,8 +1,0 @@
-7 possible world presets found:
-- "minecraft:one_biome"
-- "minecraft:flat"
-- "minecraft:debug_all_block_states"
-- "minecraft:amplified"
-- "minecraft:single_biome_surface"
-- "minecraft:normal"
-- "minecraft:large_biomes"
