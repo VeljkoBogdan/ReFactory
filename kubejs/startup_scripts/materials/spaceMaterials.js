@@ -26,4 +26,18 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
         )
         .iconSet(GTMaterialIconSet.DULL)
 
+    event.create('dawnstone')
+        .ingot()
+        .element(GTElements.get('dawnstone'))
+        .flags(
+            GTMaterialFlags.GENERATE_PLATE,
+            GTMaterialFlags.GENERATE_ROD,
+            GTMaterialFlags.GENERATE_BOLT_SCREW,
+            GTMaterialFlags.GENERATE_DENSE,
+            GTMaterialFlags.GENERATE_GEAR,
+            GTMaterialFlags.GENERATE_SMALL_GEAR,
+        )
+        .color(0xfffff0)
+        .secondaryColor(0xff4800)
+        .iconSet(GTMaterialIconSet.SHINY)
 })

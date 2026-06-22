@@ -1,3 +1,7 @@
+# 0.6
+- Removed Sophisticated Backpacks, Sophisticated Storage, Storage Drawers
+- Added FTB Ultimine
+
 # 0.5.1
 - Fixed game crashing on startup
 
