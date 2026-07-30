@@ -1,0 +1,7 @@
+
+#Loading and validating packages
+[loading]
+	#Strategy when multiple packages with same id are found
+	#Allowed Values: ERROR, PREFER_FIRST, PREFER_LAST, PREFER_NEWER
+	dupeHandling = "ERROR"
+
