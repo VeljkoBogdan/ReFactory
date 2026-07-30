@@ -5,7 +5,12 @@ WorldgenEvents.remove((event) => {
         'aether:ambrosium_ore',
         'aether:zanite_ore',
         'thermal:niter_ore',
-        'thermal:deepslate_niter_ore'
+        'thermal:deepslate_niter_ore',
+        'mysticalagriculture:prosperity_ore',
+        'mysticalagriculture:inferium_ore',
+        'mysticalagriculture:soulium_ore',
+        'mysticalagriculture:deepslate_prosperity_ore',
+        'mysticalagriculture:deepslate_inferium_ore',
     ])
 
     // Ad Astra
@@ -37,7 +42,12 @@ WorldgenEvents.remove((event) => {
             'undergarden:depthrock_utherium_ore',
             'undergarden:shiverstone_utherium_ore',
             'undergarden:depthrock_regalium_ore',
-            'undergarden:shiverstone_regalium_ore'
+            'undergarden:shiverstone_regalium_ore',
+            'mysticalagriculture:prosperity_ore',
+            'mysticalagriculture:inferium_ore',
+            'mysticalagriculture:soulium_ore',
+            'mysticalagriculture:deepslate_prosperity_ore',
+            'mysticalagriculture:deepslate_inferium_ore',
         ]
     })
 
@@ -60,7 +70,12 @@ WorldgenEvents.remove((event) => {
         "ad_astra:glacio_iron_ore",
         "ad_astra:glacio_ice_shard_ore",
         "ad_astra:glacio_lapis_ore",
-        "ad_astra:glacio_copper_ore",
+        "ad_astra:glacio_copper_ore",,
+        'mysticalagriculture:prosperity_ore',
+        'mysticalagriculture:inferium_ore',
+        'mysticalagriculture:soulium_ore',
+        'mysticalagriculture:deepslate_prosperity_ore',
+        'mysticalagriculture:deepslate_inferium_ore',
     ])
     
     event.removeFeatureById('underground_ores', [
@@ -96,7 +111,12 @@ WorldgenEvents.remove((event) => {
         'undergarden:depthrock_utherium_ore',
         'undergarden:shiverstone_utherium_ore',
         'undergarden:depthrock_regalium_ore',
-        'undergarden:shiverstone_regalium_ore'
+        'undergarden:shiverstone_regalium_ore',
+        'mysticalagriculture:prosperity_ore',
+        'mysticalagriculture:inferium_ore',
+        'mysticalagriculture:soulium_ore',
+        'mysticalagriculture:deepslate_prosperity_ore',
+        'mysticalagriculture:deepslate_inferium_ore',
     ])
 
     event.removeFeatureById('underground_decoration', [
