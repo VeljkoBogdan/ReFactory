@@ -733,6 +733,12 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
             GTMaterialFlags.NO_SMELTING,
             GTMaterialFlags.DISABLE_DECOMPOSITION
         )
+
+    event.create('prosperity_shard')
+        .ore()
+        .gem()
+        .iconSet(GTMaterialIconSet.CERTUS)
+        .color(0xe0fcff)
 })
 
 GTCEuStartupEvents.materialModification(event => {
@@ -754,6 +760,9 @@ GTCEuStartupEvents.materialModification(event => {
     // Blood Magic
     TagPrefix.ingot['setIgnored(com.gregtechceu.gtceu.api.data.chemical.material.Material,java.util.function.Supplier[])'](GTMaterials.get('demonite'), () => Item.getItem('bloodmagic:ingot_hellforged'))
     TagPrefix.rawOre['setIgnored(com.gregtechceu.gtceu.api.data.chemical.material.Material,java.util.function.Supplier[])'](GTMaterials.get('demonite'), () => Item.getItem('bloodmagic:rawdemonite'))
+
+    // Mystical Agriculture
+    TagPrefix.gem['setIgnored(com.gregtechceu.gtceu.api.data.chemical.material.Material,java.util.function.Supplier[])'](GTMaterials.get('prosperity_shard'), () => Item.getItem('mysticalagriculture:prosperity_shard'))
 
     // Adding desh byproducts
     let deshOreProperty = GTMaterials.get('desh').getProperty(PropertyKey.ORE);

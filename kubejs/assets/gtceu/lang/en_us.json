@@ -122,6 +122,8 @@
     "material.gtceu.cellular_sediment": "Cellular Sediment",
     "material.gtceu.hemocyte_suspension": "Hemocyte Suspension",
 
+    "material.gtceu.prosperity_shard": "Prosperity Shard",
+
     "tooltip.gtceu.multiblock.proliferation_inducer": "Used for growing an ancient biometal",
     "tooltip.gtceu.multiblock.crystal_puller": "Used for creating silicon boules",
     "tooltip.gtceu.multiblock.greenhouse": "Used for growing plants",
