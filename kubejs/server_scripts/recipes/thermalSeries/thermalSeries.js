@@ -1017,6 +1017,8 @@ ServerEvents.recipes(event => {
             W: '#forge:tools/wrenches'
         }
     )
+
+    event.remove({id: 'thermal:parts/diamond_gear'})
 })
 
 // hide thermal items
