@@ -2,6 +2,12 @@
     "filters": [
         {
             "category": "tconstruct:foundry"
+        },
+        {
+            "category": "mysticalagriculture:infusion"
+        },
+        {
+            "category": "mysticalagriculture:reprocessor"
         }
     ]
 }
