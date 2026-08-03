@@ -64,4 +64,23 @@ GTCEuServerEvents.oreVeins(event => {
         )
     })
 
+    // prosperity shard vein
+    event.add("kubejs:prosperity_shard_vein_moon", vein => {
+        vein.layer('moon_stone')
+        vein.weight(15)
+        vein.clusterSize(15)
+        vein.density(0.45)
+        vein.discardChanceOnAirExposure(0)
+        vein.heightRangeUniform(32, 64)
+        vein.layeredVeinGenerator(generator => generator
+            .buildLayerPattern(pattern => pattern
+                .layer(l => l.weight(3).mat(GTMaterials.get('prosperity_shard')).size(2, 5))
+            )
+        )
+        .surfaceIndicatorGenerator(indicator => indicator
+            .surfaceRock(GTMaterials.get('prosperity_shard'))
+            .density(0.2)
+            .radius(4)
+        )
+    })
 })
