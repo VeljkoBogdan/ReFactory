@@ -45,9 +45,38 @@ let toRemove = [
     'mysticalagriculture:tilling_aoe_iii_augment', 'mysticalagriculture:pathing_aoe_iv_augment', 'mysticalagriculture:mining_fatigue_resistance_augment',
     'mysticalagriculture:hunger_resistance_augment', 'mysticalagriculture:absorption_v_augment', 'mysticalagriculture:luck_iii_augment', 'mysticalagriculture:wither_resistance_augment',
     'mysticalagriculture:health_boost_v_augment', 'mysticalagriculture:strength_iii_augment', 'mysticalagriculture:haste_iii_augment', 'mysticalagriculture:flight_augment',
-    'mysticalagriculture:mining_aoe_iv_augment', 'mysticalagriculture:attack_aoe_iii_augment', 'mysticalagriculture:tilling_aoe_iv_augment'
+    'mysticalagriculture:mining_aoe_iv_augment', 'mysticalagriculture:attack_aoe_iii_augment', 'mysticalagriculture:tilling_aoe_iv_augment', 
+    'mysticalagriculture:soulstone', 'mysticalagriculture:soulstone_cobble', 'mysticalagriculture:soulstone_bricks', 'mysticalagriculture:soulstone_cracked_bricks', 
+    'mysticalagriculture:soulstone_chiseled_bricks', 'mysticalagriculture:soulstone_smooth', 'mysticalagriculture:soul_glass', 'mysticalagriculture:soulstone_slab', 
+    'mysticalagriculture:soulstone_cobble_slab', 'mysticalagriculture:soulstone_bricks_slab', 'mysticalagriculture:soulstone_stairs', 'mysticalagriculture:soulstone_cobble_stairs', 
+    'mysticalagriculture:soulstone_cobble_wall', 'mysticalagriculture:soulstone_bricks_stairs', 'mysticalagriculture:soulstone_bricks_wall', 'mysticalagriculture:witherproof_block', 
+    'mysticalagriculture:awakening_pedestal', 'mysticalagriculture:awakening_altar', 'mysticalagriculture:essence_vessel', 'mysticalagriculture:prudentium_essence', 
+    'mysticalagriculture:tertium_essence', 'mysticalagriculture:imperium_essence', 'mysticalagriculture:supremium_essence', 'mysticalagriculture:awakened_supremium_essence', 
+    'mysticalagriculture:prosperity_ingot', 'mysticalagriculture:inferium_ingot', 'mysticalagriculture:prudentium_ingot', 'mysticalagriculture:tertium_ingot', 
+    'mysticalagriculture:imperium_ingot', 'mysticalagriculture:supremium_ingot', 'mysticalagriculture:awakened_supremium_ingot', 'mysticalagriculture:soulium_ingot', 
+    'mysticalagriculture:prosperity_nugget', 'mysticalagriculture:inferium_nugget', 'mysticalagriculture:prudentium_nugget', 'mysticalagriculture:tertium_nugget',
+    'mysticalagriculture:imperium_nugget', 'mysticalagriculture:supremium_nugget', 'mysticalagriculture:awakened_supremium_nugget', 'mysticalagriculture:soulium_nugget', 
+    'mysticalagriculture:soulium_seed_base', 'mysticalagriculture:soul_dust', 'mysticalagriculture:soulium_dust', 'mysticalagriculture:infusion_crystal', 
+    'mysticalagriculture:master_infusion_crystal', 'mysticalagriculture:nature_agglomeratio', 'mysticalagriculture:dye_agglomeratio', 'mysticalagriculture:nether_agglomeratio', 
+    'mysticalagriculture:coral_agglomeratio', 'mysticalagriculture:honey_agglomeratio', 'mysticalagriculture:prismarine_agglomeratio', 'mysticalagriculture:end_agglomeratio', 
+    'mysticalagriculture:mystical_flower_agglomeratio', 'mysticalagriculture:wand', 'mysticalagriculture:blank_skull', 'mysticalagriculture:blank_record', 'mysticalagriculture:soulstone_smooth_slab'
 ]
 toRemove.forEach(e => yeet(e));
+
+let essencesToRemove = ['mysticalagriculture:chrome_essence', 'mysticalagriculture:pulsating_alloy_essence', 'mysticalagriculture:dark_steel_essence', 'mysticalagriculture:soularium_essence', 
+    'mysticalagriculture:rose_gold_essence', 'mysticalagriculture:lumium_essence', 'mysticalagriculture:signalum_essence', 'mysticalagriculture:soulium_essence', 
+    'mysticalagriculture:peridot_essence', 'mysticalagriculture:enriched_naquadah_essence', 'mysticalagriculture:naquadria_essence', 'mysticalagriculture:elementium_essence', 
+    'mysticalagriculture:calorite_essence', 'mysticalagriculture:constantan_essence', 'mysticalagriculture:steel_essence', 'mysticalagriculture:manasteel_essence', 
+    'mysticalagriculture:conductive_alloy_essence', 'mysticalagriculture:graphite_essence', 'mysticalagriculture:redstone_alloy_essence', 'mysticalagriculture:copper_alloy_essence', 
+    'mysticalagriculture:slimesteel_essence', 'mysticalagriculture:brass_essence', 'mysticalagriculture:pig_iron_essence', 'mysticalagriculture:amethyst_bronze_essence', 
+    'mysticalagriculture:bronze_essence', 'mysticalagriculture:energetic_alloy_essence', 'mysticalagriculture:fluix_essence', 'mysticalagriculture:manyullyn_essence', 
+    'mysticalagriculture:queens_slime_essence', 'mysticalagriculture:hepatizon_essence', 'mysticalagriculture:vibrant_alloy_essence', 'mysticalagriculture:end_steel_essence', 
+    'mysticalagriculture:terrasteel_essence', 'mysticalagriculture:electrum_essence', 'mysticalagriculture:invar_essence', 'mysticalagriculture:mithril_essence', 'mysticalagriculture:iridium_essence'
+]
+essencesToRemove.forEach(item => {
+    yeet(item)
+    yeet(item.split('_')[0] + "_seeds")
+})
 
 yeet(/mysticalagriculture:(.)*sickle/)
 yeet(/mysticalagriculture:(.)*scythe/)
@@ -65,3 +94,10 @@ yeet(/mysticalagriculture:(.)*chestplate/)
 yeet(/mysticalagriculture:(.)*leggings/)
 yeet(/mysticalagriculture:(.)*boots/)
 yeet(/mysticalagriculture:(.)*dagger/)
+
+ServerEvents.recipes(event => {
+    event.remove({mod: 'mysticalagriculture'})
+    event.remove({id: /thermal:compat\/mysticalagriculture\/insolator_mysticalag_(.)*_seeds/})
+
+    
+})

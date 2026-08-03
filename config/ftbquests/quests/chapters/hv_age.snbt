@@ -1735,6 +1735,22 @@
 			x: -1.5d
 			y: 7.0d
 		}
+		{
+			dependencies: ["7F79BF7FD6AE35CE"]
+			description: [
+				"This shard is used to make Prosperity Seed Base, which is used to make all the seeds in Mystical Agriculture."
+				""
+				"For more info, look at the Mystical Agriculture questbook tab."
+			]
+			id: "297EEE128522EF44"
+			tasks: [{
+				id: "7CCD69FA42EF77EB"
+				item: "mysticalagriculture:prosperity_shard"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.5d
+		}
 	]
 	title: "HV Age"
 }
