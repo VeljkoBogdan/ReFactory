@@ -25,5 +25,5 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
                 .or(Predicates.abilities(PartAbility.MAINTENANCE).setExactLimit(1).setPreviewCount(1))
             )
             .build())
-        .model(GTMachineModels.createSidedWorkableCasingMachineModel('gtceu:block/casings/firebox/machine_casing_firebox_titanium', 'gtceu:block/multiblock/large_miner'))
+        .model(GTMachineModels.createWorkableCasingMachineModel('gtceu:block/casings/firebox/machine_casing_firebox_titanium', 'gtceu:block/multiblock/large_miner'))
 })

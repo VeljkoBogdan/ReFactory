@@ -32,5 +32,5 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
                 .or(Predicates.abilities(PartAbility.MAINTENANCE).setExactLimit(1).setPreviewCount(1))
             )
             .build())
-        .model(GTMachineModels.createSidedWorkableCasingMachineModel('gtceu:block/casings/solid/machine_casing_inert_ptfe', 'gtceu:block/multiblock/large_chemical_reactor'))
+        .model(GTMachineModels.createWorkableCasingMachineModel('gtceu:block/casings/solid/machine_casing_inert_ptfe', 'gtceu:block/multiblock/large_chemical_reactor'))
 })
