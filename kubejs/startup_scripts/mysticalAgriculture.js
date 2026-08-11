@@ -1,5 +1,7 @@
 //priority: -9999
 
+let crops = []
+
 MysticalAgricultureStartupEvents.crop(event => {
     let ignoredMaterials = [
         'coke', 'wrought_iron', 'annealed_copper', 'magnetic_samarium', 'magnetic_neodymium', 'fluix_crystal', 'magnetic_steel', 'damascus_steel',
@@ -32,7 +34,7 @@ MysticalAgricultureStartupEvents.crop(event => {
             ingredient = `gtceu:${name}_dust`
         } else return
 
-        const crop = new Crop(
+        let crop = new Crop(
             `kubejs:${name}`,
             CropTier.FIVE,
             CropType.RESOURCE,
@@ -40,6 +42,7 @@ MysticalAgricultureStartupEvents.crop(event => {
             color,
             ingredient
         )
+        crops.push(crop)
 
         crop.setDisplayName(Text.ofString(displayName))
         event.registry.register(crop)

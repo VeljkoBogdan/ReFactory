@@ -96,8 +96,45 @@ yeet(/mysticalagriculture:(.)*boots/)
 yeet(/mysticalagriculture:(.)*dagger/)
 
 ServerEvents.recipes(event => {
+    let materializer = (essence, essenceAmount, inputItems, outputItems, energyTier) => {
+        event.recipes.gtceu.essence_materializer(`kubejs/${essence}_materializing`)
+            .itemInputs(`${essenceAmount}x ${essence}`, inputItems)
+            .itemOutputs(outputItems)
+            .duration(20*20)
+            .EUt(GTValues.VA[energyTier])
+    }
+
+    let cropCrossbreeder = (seed1, seed2, targetSeed, inputItems, energyTier, chance) => {
+        event.recipes.gtceu.essence_crop_crossbreeder(`kubejs/${targetSeed}_crossbreeding`)
+            .itemInputs(seed1, seed2, inputItems)
+            .chancedOutput(targetSeed, chance * 100, 0)
+            .duration(20*60)
+            .EUt(GTValues.VA[energyTier])
+    }
+
+    let oreProcessor = (essence, essenceAmount, inputItems, inputFluid, fluidAmount, outputItems, energyTier) => {
+        event.recipes.gtceu.essence_ore_processor(`kubejs/${essence}_ore_processing`)
+            .itemInputs(`${essenceAmount}x ${essence}`, inputItems)
+            .inputFluids(Fluid.of(inputFluid, fluidAmount))
+            .itemOutputs(outputItems)
+            .duration(20*20)
+            .EUt(GTValues.VA[energyTier])
+    }
+
     event.remove({mod: 'mysticalagriculture'})
     event.remove({id: /thermal:compat\/mysticalagriculture\/insolator_mysticalag_(.)*_seeds/})
 
-    
+    crops.forEach(crop => {
+        event.recipes.gtceu.essence_harvester(`kubejs/${crop.displayName}_harvesting`)
+            .notConsumable(`${crop.id}`)
+            .itemOutputs(`${crop.craftingMaterial}`)
+            .duration(20*10*crop.tier.value)
+            .EUt(GTValues.VA[GTValues.EV])
+    })
+
+    // Crop crossbreeder recipes
+
+    // Essence materializer recipes
+
+    // Essence ore processor recipes
 })
