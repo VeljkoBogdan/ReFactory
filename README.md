@@ -8,7 +8,7 @@
 
   #### There are plenty of recipe changes, but fear not, the questbook will guide you through these.
 
-  ### **Currently features content to and including EV**
+  ### **Currently features content to and including IV**
 </div>
 
 ---
