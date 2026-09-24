@@ -53,15 +53,9 @@
 				"Can be upgraded."
 			]
 			id: "2CC084E99F046E9B"
-			rewards: [{
-				count: 4
-				id: "78773BBCFEA8808A"
-				item: "sophisticatedbackpacks:upgrade_base"
-				type: "item"
-			}]
 			tasks: [{
-				id: "6DAAF38E308EE321"
-				item: "sophisticatedbackpacks:backpack"
+				id: "48C634DC3CDB8412"
+				item: "usefulbackpacks:backpack_small"
 				type: "item"
 			}]
 			x: -1.5d

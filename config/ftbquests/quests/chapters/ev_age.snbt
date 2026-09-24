@@ -312,8 +312,8 @@
 				item: "gtceu:tungsten_steel_ingot"
 				type: "item"
 			}]
-			x: 16.0d
-			y: -8.5d
+			x: 16.007653061224495d
+			y: -7.739795918367335d
 		}
 		{
 			dependencies: ["051FB469C3C08656"]
@@ -323,8 +323,8 @@
 				item: "gtceu:tungsten_dust"
 				type: "item"
 			}]
-			x: 14.5d
-			y: -8.5d
+			x: 11.5d
+			y: -7.75d
 		}
 		{
 			dependencies: ["4585F230C85521DB"]
@@ -334,8 +334,8 @@
 				item: "gtceu:tungstic_acid_dust"
 				type: "item"
 			}]
-			x: 13.0d
-			y: -8.5d
+			x: 10.5d
+			y: -7.75d
 		}
 		{
 			dependencies: ["669F52806D1D39F6"]
@@ -346,8 +346,8 @@
 				item: "gtceu:ev_chemical_bath"
 				type: "item"
 			}]
-			x: 11.5d
-			y: -8.5d
+			x: 9.5d
+			y: -7.75d
 		}
 		{
 			dependencies: [
@@ -528,17 +528,6 @@
 			}]
 			x: 8.5d
 			y: -16.0d
-		}
-		{
-			dependencies: ["2DC6D2C059E8BE07"]
-			id: "65F511A3B3D9F0A5"
-			tasks: [{
-				id: "24706A29DC05F902"
-				item: "gtceu:tungsten_ingot"
-				type: "item"
-			}]
-			x: 14.0d
-			y: -7.5d
 		}
 		{
 			dependencies: ["7BAAA4E2916E61E8"]
@@ -792,8 +781,8 @@
 				item: "gtceu:tungsten_carbide_ingot"
 				type: "item"
 			}]
-			x: 15.0d
-			y: -7.5d
+			x: 11.5d
+			y: -6.5d
 		}
 		{
 			dependencies: ["7FBF5E1B748B5650"]
@@ -934,15 +923,15 @@
 			y: -9.0d
 		}
 		{
-			dependencies: ["65F511A3B3D9F0A5"]
+			dependencies: ["2DC6D2C059E8BE07"]
 			id: "2530D037CA136179"
 			tasks: [{
 				id: "3F43A989B6D9B221"
 				item: "gtceu:ev_large_miner"
 				type: "item"
 			}]
-			x: 14.0d
-			y: -6.5d
+			x: 12.5d
+			y: -8.75d
 		}
 		{
 			dependencies: [
@@ -1011,7 +1000,10 @@
 			y: -13.0d
 		}
 		{
-			dependencies: ["050936F8ADC7235D"]
+			dependencies: [
+				"050936F8ADC7235D"
+				"2DC6D2C059E8BE07"
+			]
 			icon: "refactorycore:bloodforge"
 			id: "7BAAA4E2916E61E8"
 			rewards: [{
