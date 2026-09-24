@@ -1,4 +1,7 @@
 # 0.6
+- Added Traveller's Boots Reloaded
+- Added Greg Crops
+- Added sugarcane to squatgrow blacklist
 - Removed Sophisticated Backpacks, Sophisticated Storage, Storage Drawers
 - Added FTB Ultimine
 - Added Dungeon Crawl, Philip's Ruins
